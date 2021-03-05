@@ -1,4 +1,4 @@
-.. image:: ../../_static/MobileCSPLogo.png
+.. image:: ../../mobilecsp/_static/MobileCSPLogo.png
     :width: 250
     :align: center
     
@@ -9,11 +9,11 @@ I Have a Dream Tutorial
 
     
    <!--  custom script files -->
-    <script src="../../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"/>
-    <link href="../../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"/>
-    <script src="../../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
+    <script src="../../mobilecsp/_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
+    <script src="../../mobilecsp/_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
+    <link href="../../mobilecsp/_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"/>
+    <link href="../../mobilecsp/_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"/>
+    <script src="../../mobilecsp/_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
 
     <script>
       $(document).ready(function() {
@@ -87,7 +87,7 @@ Tutorial
 
     <!-- Replaced video tag 
     <p id="QBSRy5iS9gEk">
-        <script src="../modules/core_tags/_static/js/youtube_video.js"></script>
+        <script src="../modules/core_tags/mobilecsp/_static/js/youtube_video.js"></script>
         <script>gcbTagYoutubeEnqueueVideo("KDepcRIfnNs", "QBSRy5iS9gEk");</script>
     </p> -->
 
@@ -103,7 +103,7 @@ Input/Output
 
 .. raw:: html
 
-    <p><img src="../../_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
+    <p><img src="../../mobilecsp/_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
 
     Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <b>input</b> from the users and displaying <b>output</b> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
 
@@ -322,11 +322,11 @@ Summary
     
     <!-- Quizly -->
     
-    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_pause_the_player";quiz.id="LXgF4NO50hNM";window.quizlies["quiz_pause_the_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script><div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_pause_the_player"><img src="../../_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
-    <iframe height="595" src="../../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
-    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_button_click_stop_player";quiz.id="BtQ8hSoGkeml";window.quizlies["quiz_button_click_stop_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script>
-    <div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_button_click_stop_player"><img src="../../_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
-    <iframe height="595" src="../../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
+    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_pause_the_player";quiz.id="LXgF4NO50hNM";window.quizlies["quiz_pause_the_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script><div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_pause_the_player"><img src="../../mobilecsp/_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
+    <iframe height="595" src="../../mobilecsp/_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
+    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_button_click_stop_player";quiz.id="BtQ8hSoGkeml";window.quizlies["quiz_button_click_stop_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script>
+    <div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_button_click_stop_player"><img src="../../mobilecsp/_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
+    <iframe height="595" src="../../mobilecsp/_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
 
     <div class="yui-wk-div" id="portfolio">
 
