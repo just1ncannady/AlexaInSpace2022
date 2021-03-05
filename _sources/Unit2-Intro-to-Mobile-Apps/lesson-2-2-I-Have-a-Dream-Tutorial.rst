@@ -7,17 +7,13 @@ I Have a Dream Tutorial
 
 .. raw:: html
 
-    <!-- Might not need - jquery should be built in  
-    <script src="../code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
-    <link href="../code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
-    <script src="../code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-   -->
-   <!-- downloaded custom script files -->
-    <script src="../../mobilecsp/_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../../mobilecsp/_static/assets/lib/Framework2020.js" type="text/javascript"></script>
-    <link href="../../mobilecsp/_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"/>
-    <link href="../../mobilecsp/_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"/>
-    <script src="../../mobilecsp/_static/assets/lib/vocabulary.js" type="text/javascript"></script>
+    
+   <!--  custom script files -->
+    <script src="../../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
+    <script src="../../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
+    <link href="../../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"/>
+    <link href="../../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"/>
+    <script src="../../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
 
     <script>
       $(document).ready(function() {
@@ -107,7 +103,7 @@ Input/Output
 
 .. raw:: html
 
-    <p><img src="../../mobilecsp/_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
+    <p><img src="../../_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
 
     Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <b>input</b> from the users and displaying <b>output</b> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
 
@@ -155,6 +151,8 @@ Summary
     <!-- Replaced one question with RST -->
     
 .. mchoice:: mcsp-2-2-1
+   :random:
+   :practice: T
 
    What type of input does the I have a Dream app expect?
    
@@ -175,6 +173,8 @@ Summary
      - Incorrect
    
 .. mchoice:: mcsp-2-2-2
+   :random:
+   :practice: T
 
    What type of output does the I have a Dream app generate?
    
@@ -195,7 +195,9 @@ Summary
      - Incorrect
    
 .. mchoice:: mcsp-2-2-3
-
+   :random:
+   :practice: T
+   
    App Inventor is an example of which of the following (Choose all that apply)
 
    - A cloud application
@@ -215,6 +217,8 @@ Summary
      + That's right. App Inventor is used for developing mobile apps. 
 
 .. mchoice:: mcsp-2-2-4
+   :random:
+   :practice: T
 
    Which of the following elements would be considered part of the user interface (UI) for an app? (Choose all that apply.)
 
@@ -230,15 +234,18 @@ Summary
 
      + Yes, an error message counts as part of the UI.
 
-   - The app's memory usage.
-
-     - No, an app's memory usage is important but it's not something the user typically experiences as a normal part of using the app.
-
    - The color of the app's background screen.
 
      + Yes, colors are part of the app's UI.
+     
+   - The app's memory usage.
+
+     - No, an app's memory usage is important but it's not something the user typically experiences as a normal part of using the app.     
+
 
 .. mchoice:: mcsp-2-2-5
+   :random:
+   :practice: T
 
    Which Palette drawer (folder) contains the Player component?
 
@@ -254,11 +261,13 @@ Summary
 
      - No, the Drawing and Animation drawer has the Canvas component along with the ImageSprite and Ball components that live in canvases.
 
-   -  The Social Drawer
+   - The Social Drawer
 
      - No, the Social drawer has components for contacts, texting, and phone calls.
 
 .. mchoice:: mcsp-2-2-6
+   :random:
+   :practice: T
 
    Which of the following are components? (Choose all that apply.)
 
@@ -284,39 +293,40 @@ Summary
 
 
 .. mchoice:: mcsp-2-2-7
+   :random:
+   :practice: T
 
-	   Which of the following would be considered an event on your smart phone? (Choose all that apply.)
+   Which of the following would be considered an event on your smart phone? (Choose all that apply.)
 
-	   - The user taps on the screen.
+   - The user taps on the screen.
 
-	     + This is the Button.Click event.
+     + This is the Button.Click event.
 
-	   - The phone receives a text message.
+   - The phone receives a text message.
 
-	     + This is a Texting.MessageReceived event.
+     + This is a Texting.MessageReceived event.
 
+   - The phone's location changes.
 
-	   - The phone's location changes.
+     + This is a LocationSensor.LocationChanged event.
 
-	     + This is a LocationSensor.LocationChanged event.
+   - The app plays a sound clip
 
-	   - The app plays a sound clip
+     - This is a challenging one. The app can play a sound clip in response to an event but the playing of the sound is not considered an event itself.
 
-	     - This is a challenging one. The app can play a sound clip in response to an event but the playing of the sound is not considered an event itself.
+   - The phone's internal clock clicks
 
-	   - The phone's internal clock clicks
-
-	     + This is a Clock.Timer event.
+     + This is a Clock.Timer event.
 
 .. raw:: html
     
     <!-- Quizly -->
     
-    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_pause_the_player";quiz.id="LXgF4NO50hNM";window.quizlies["quiz_pause_the_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script><div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_pause_the_player"><img src="../../mobilecsp/_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
-    <iframe height="595" src="../../mobilecsp/_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
-    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_button_click_stop_player";quiz.id="BtQ8hSoGkeml";window.quizlies["quiz_button_click_stop_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script>
-    <div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_button_click_stop_player"><img src="../../mobilecsp/_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
-    <iframe height="595" src="../../mobilecsp/_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
+    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_pause_the_player";quiz.id="LXgF4NO50hNM";window.quizlies["quiz_pause_the_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script><div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_pause_the_player"><img src="../../_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
+    <iframe height="595" src="../../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
+    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_button_click_stop_player";quiz.id="BtQ8hSoGkeml";window.quizlies["quiz_button_click_stop_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script>
+    <div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_button_click_stop_player"><img src="../../_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
+    <iframe height="595" src="../../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
 
     <div class="yui-wk-div" id="portfolio">
 
