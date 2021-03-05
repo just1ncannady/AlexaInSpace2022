@@ -11,7 +11,7 @@
   <!-- Loads the quizzes into the the global variable 'quizzes', used below  -->
   <!--   in the initBlockly() function.                                      -->
   <script>
-     var GLOBAL_DEBUG = true;   // Sets DEBUG a quizme*.js files.
+     var GLOBAL_DEBUG = false;   // Sets DEBUG a quizme*.js files.
      var GLOBAL_ED_X = false; // This is not the edX version.
   </script>
   <script type="text/javascript" src="quizzes.js"></script>
@@ -49,7 +49,6 @@
 
     function initBlockly() {
       if (GLOBAL_DEBUG) console.log('RAM>>>>>>>>>>>>>>>: initBlockly');
-      console.log('RAM>>>>>>>>>>>>>>>: initBlockly');
 
       // The quizzes are loaded by the script above and stored in global var quizzes.
       initBlocklyFrame(quizzes);
