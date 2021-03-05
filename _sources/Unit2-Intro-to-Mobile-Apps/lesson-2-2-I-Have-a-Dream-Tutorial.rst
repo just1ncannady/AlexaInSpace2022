@@ -13,11 +13,11 @@ I Have a Dream Tutorial
     <script src="../code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
    -->
    <!-- downloaded custom script files -->
-    <script src="../../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../../_static/assets/lib/Framework2020.js" type="text/javascript"></script>
-    <link href="../../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"/>
-    <link href="../../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"/>
-    <script src="../../_static/assets/lib/vocabulary.js" type="text/javascript"></script>
+    <script src="../../mobilecsp/_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
+    <script src="../../mobilecsp/_static/assets/lib/Framework2020.js" type="text/javascript"></script>
+    <link href="../../mobilecsp/_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"/>
+    <link href="../../mobilecsp/_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"/>
+    <script src="../../mobilecsp/_static/assets/lib/vocabulary.js" type="text/javascript"></script>
 
     <script>
       $(document).ready(function() {
@@ -107,7 +107,7 @@ Input/Output
 
 .. raw:: html
 
-    <p><img src="../../_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
+    <p><img src="../../mobilecsp/_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
 
     Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <b>input</b> from the users and displaying <b>output</b> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
 
@@ -174,647 +174,149 @@ Summary
    
      - Incorrect
    
+.. mchoice:: mcsp-2-2-2
+
+   What type of output does the I have a Dream app generate?
+   
+   - tactile
+   
+     - Incorrect
+   
+   - audible
+   
+     + Correct
+   
+   - visual
+   
+     - Incorrect
+   
+   - text
+   
+     - Incorrect
+   
+.. mchoice:: mcsp-2-2-3
+
+   App Inventor is an example of which of the following (Choose all that apply)
+
+   - A cloud application
+
+     + Yes. App Inventor is an application that runs on the world wide web (WWW) and is accessed through a Web browser.
+
+   - An Integrated Development Environment (IDE)
+
+     + Yes. App Inventor is and IDE. As such, it is a collection of software tools for designing, developing, debugging, and testing mobile apps.
+
+   - A software system for developing mobile apps
+
+     + Yes, App Inventor is an IDE. It enables you to develop and run apps.
+
+   - A programming language
+
+     + That's right. App Inventor is used for developing mobile apps. 
+
+.. mchoice:: mcsp-2-2-4
+
+   Which of the following elements would be considered part of the user interface (UI) for an app? (Choose all that apply.)
+
+   - A button that appears on the screen.
+
+     + Yes, a button is a visible part of the UI.
+
+   - An audible click that happens when the user taps the button.
+
+     + Yes, audible sounds are part of the UI.
+
+   - An error message that appears when something goes wrong.
+
+     + Yes, an error message counts as part of the UI.
+
+   - The app's memory usage.
+
+     - No, an app's memory usage is important but it's not something the user typically experiences as a normal part of using the app.
+
+   - The color of the app's background screen.
+
+     + Yes, colors are part of the app's UI.
+
+.. mchoice:: mcsp-2-2-5
+
+   Which Palette drawer (folder) contains the Player component?
+
+   - The User Interface drawer
+
+     - No, the User Interface drawer contains visual components like buttons, labels, and text boxes.
+
+   - The Media drawer
+
+     + Yes, the Media drawer has components for playing sounds and video, recording video, text-to-speech, and recognizing speech.
+
+   - The Drawing and Animation drawer
+
+     - No, the Drawing and Animation drawer has the Canvas component along with the ImageSprite and Ball components that live in canvases.
+
+   -  The Social Drawer
+
+     - No, the Social drawer has components for contacts, texting, and phone calls.
+
+.. mchoice:: mcsp-2-2-6
+
+   Which of the following are components? (Choose all that apply.)
+
+   - Button
+
+     + Correct 
+
+   - Label
+
+     + Correct
+
+   - Player.IsPlaying
+
+     - No, IsPlaying is an attribute of the Player component.
+
+   - Player
+
+     + Correct
+
+   - Button.Image
+
+     - No, Button.Image refers to the Image property or attribute of the Button component.
+
+
+.. mchoice:: mcsp-2-2-7
+
+	   Which of the following would be considered an event on your smart phone? (Choose all that apply.)
+
+	   - The user taps on the screen.
+
+	     + This is the Button.Click event.
+
+	   - The phone receives a text message.
+
+	     + This is a Texting.MessageReceived event.
+
+
+	   - The phone's location changes.
+
+	     + This is a LocationSensor.LocationChanged event.
+
+	   - The app plays a sound clip
+
+	     - This is a challenging one. The app can play a sound clip in response to an event but the playing of the sound is not considered an event itself.
+
+	   - The phone's internal clock clicks
+
+	     + This is a Clock.Timer event.
 
 .. raw:: html
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div><div><div class="gcb-border-box">
-      <link href="../modules/assessment_tags/resources/questions.css" rel="stylesheet" type="text/css"/>
-      <script>
-        questionData['i33Fd4m7xDzN'] = JSON.parse(window.atob("eyJkZWZhdWx0RmVlZGJhY2siOiAiIiwgIndlaWdodCI6IDEuMCwgInNob3dBbnN3ZXJXaGVuSW5jb3JyZWN0IjogZmFsc2UsICJjaG9pY2VzIjogW3sidGV4dCI6ICJ0YWN0aWxlIiwgInNjb3JlIjogMC4wLCAiZmVlZGJhY2siOiAiIn0sIHsidGV4dCI6ICJhdWRpYmxlIiwgInNjb3JlIjogMS4wLCAiZmVlZGJhY2siOiAiIn0sIHsidGV4dCI6ICJ2aXN1YWwiLCAic2NvcmUiOiAwLjAsICJmZWVkYmFjayI6ICIifSwgeyJ0ZXh0IjogInRleHQiLCAic2NvcmUiOiAwLjAsICJmZWVkYmFjayI6ICIifV0sICJwZXJtdXRlQ2hvaWNlcyI6IGZhbHNlLCAicXVpZCI6ICI1MzAwMDQyNTIwODU0NTI4IiwgImFsbE9yTm90aGluZ0dyYWRpbmciOiBmYWxzZX0="));
-        var assessmentTagMessages = {};
-
-
-        assessmentTagMessages.correct = "Correct. ";
-
-        assessmentTagMessages.incorrect = "Incorrect. ";
-
-        assessmentTagMessages.partiallyCorrect = "Partially Correct. ";
-
-
-        assessmentTagMessages.correctAnswer = " Yes, the answer is correct. ";
-
-        assessmentTagMessages.incorrectAnswer = " No, the answer is incorrect. ";
-
-        assessmentTagMessages.partiallyCorrectAnswer = " The answer is partially correct. ";
-
-
-        assessmentTagMessages.correctAnswerHeading = "The correct answer is:";
-
-        assessmentTagMessages.targetedFeedbackHeading = "Targeted Feedback:";
-
-        assessmentTagMessages.feedbackHeading = "Feedback:";
-
-
-        assessmentTagMessages.yourScoreIs = " Your score is: ";
-      </script>
-      <script src="../modules/assessment_tags/resources/grading_lib.js"></script>
-      <script src="../modules/assessment_tags/resources/grading.js"></script>
-      <noscript>
-        &lt;div class=&#39;qt-warning&#39;&gt;
-
-           JavaScript should be enabled to grade this question. 
-        &lt;/div&gt;
-      </noscript>
-
-
-
-
-      <div class="qt-mc-question qt-standalone" id="i33Fd4m7xDzN">
-        <div class="qt-points">
-          <em>
-
-
-              1 point
-
-          </em>
-        </div>
-
-        <div class="qt-question">What type of output does the I have a Dream app generate?</div>
-        <div class="qt-choices">
-
-            <div>
-              <input data-index="0" id="i33Fd4m7xDzN.0" name="i33Fd4m7xDzN" type="radio"/>
-              <label for="i33Fd4m7xDzN.0">
-                tactile
-              </label>
-            </div>
-
-            <div>
-              <input data-index="1" id="i33Fd4m7xDzN.1" name="i33Fd4m7xDzN" type="radio"/>
-              <label for="i33Fd4m7xDzN.1">
-                audible
-              </label>
-            </div>
-
-            <div>
-              <input data-index="2" id="i33Fd4m7xDzN.2" name="i33Fd4m7xDzN" type="radio"/>
-              <label for="i33Fd4m7xDzN.2">
-                visual
-              </label>
-            </div>
-
-            <div>
-              <input data-index="3" id="i33Fd4m7xDzN.3" name="i33Fd4m7xDzN" type="radio"/>
-              <label for="i33Fd4m7xDzN.3">
-                text
-              </label>
-            </div>
-
-        </div>
-
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div><div><div class="gcb-border-box">
-      <link href="../modules/assessment_tags/resources/questions.css" rel="stylesheet" type="text/css"/>
-      <script>
-        questionData['jbEsdK1NvFeJ'] = JSON.parse(window.atob("eyJkZWZhdWx0RmVlZGJhY2siOiAiIiwgIndlaWdodCI6IDEuMCwgInNob3dBbnN3ZXJXaGVuSW5jb3JyZWN0IjogZmFsc2UsICJjaG9pY2VzIjogW3sidGV4dCI6ICJBIGNsb3VkIGFwcGxpY2F0aW9uIiwgInNjb3JlIjogMC4yNSwgImZlZWRiYWNrIjogIlllcy4gQXBwIEludmVudG9yIGlzIGFuIGFwcGxpY2F0aW9uIHRoYXQgcnVucyBvbiB0aGUgd29ybGQgd2lkZSB3ZWIgKFdXVykgYW5kIGlzIGFjY2Vzc2VkIHRocm91Z2ggYSBXZWIgYnJvd3Nlci4gIn0sIHsidGV4dCI6ICJBbiBJbnRlZ3JhdGVkIERldmVsb3BtZW50IEVudmlyb25tZW50IChJREUpIiwgInNjb3JlIjogMC4yNSwgImZlZWRiYWNrIjogIlllcy4gIEFwcCBJbnZlbnRvciBpcyBhbmQgSURFLiBBcyBzdWNoLCBpdCBpcyBhIGNvbGxlY3Rpb24gb2Ygc29mdHdhcmUgdG9vbHMgZm9yIGRlc2lnbmluZywgZGV2ZWxvcGluZywgZGVidWdnaW5nLCBhbmQgdGVzdGluZyBtb2JpbGUgYXBwcy4gIn0sIHsidGV4dCI6ICJBIHNvZnR3YXJlIHN5c3RlbSBmb3IgZGV2ZWxvcGluZyBtb2JpbGUgYXBwcy4iLCAic2NvcmUiOiAwLjI1LCAiZmVlZGJhY2siOiAiWWVzLCBBcHAgSW52ZW50b3IgaXMgdXNlZCBmb3IgYnVpbGRpbmcgbW9iaWxlIGFwcHMuIn0sIHsidGV4dCI6ICJBIHByb2dyYW1taW5nIGxhbmd1YWdlIiwgInNjb3JlIjogMC4yNSwgImZlZWRiYWNrIjogIlllcy4gIEFwcCBJbnZlbnRvciBpcyBhbiBleGFtcGxlIG9mIGEgdmlzdWFsIHByb2dyYW1taW5nIGxhbmd1YWdlLiAifV0sICJwZXJtdXRlQ2hvaWNlcyI6IGZhbHNlLCAicXVpZCI6ICI1MDkxNzc4NTMxMTY0MTYwIiwgImFsbE9yTm90aGluZ0dyYWRpbmciOiBmYWxzZX0="));
-        var assessmentTagMessages = {};
-
-
-        assessmentTagMessages.correct = "Correct. ";
-
-        assessmentTagMessages.incorrect = "Incorrect. ";
-
-        assessmentTagMessages.partiallyCorrect = "Partially Correct. ";
-
-
-        assessmentTagMessages.correctAnswer = " Yes, the answer is correct. ";
-
-        assessmentTagMessages.incorrectAnswer = " No, the answer is incorrect. ";
-
-        assessmentTagMessages.partiallyCorrectAnswer = " The answer is partially correct. ";
-
-
-        assessmentTagMessages.correctAnswerHeading = "The correct answer is:";
-
-        assessmentTagMessages.targetedFeedbackHeading = "Targeted Feedback:";
-
-        assessmentTagMessages.feedbackHeading = "Feedback:";
-
-
-        assessmentTagMessages.yourScoreIs = " Your score is: ";
-      </script>
-      <script src="../modules/assessment_tags/resources/grading_lib.js"></script>
-      <script src="../modules/assessment_tags/resources/grading.js"></script>
-      <noscript>
-        &lt;div class=&#39;qt-warning&#39;&gt;
-
-           JavaScript should be enabled to grade this question. 
-        &lt;/div&gt;
-      </noscript>
-
-
-
-
-      <div class="qt-mc-question qt-standalone" id="jbEsdK1NvFeJ">
-        <div class="qt-points">
-          <em>
-
-
-              1 point
-
-          </em>
-        </div>
-
-        <div class="qt-question">App Inventor is an example of which of the following (Choose all that apply)</div>
-        <div class="qt-choices">
-
-            <div>
-              <input data-index="0" id="jbEsdK1NvFeJ.0" name="jbEsdK1NvFeJ" type="checkbox"/>
-              <label for="jbEsdK1NvFeJ.0">
-                A cloud application
-              </label>
-            </div>
-
-            <div>
-              <input data-index="1" id="jbEsdK1NvFeJ.1" name="jbEsdK1NvFeJ" type="checkbox"/>
-              <label for="jbEsdK1NvFeJ.1">
-                An Integrated Development Environment (IDE)
-              </label>
-            </div>
-
-            <div>
-              <input data-index="2" id="jbEsdK1NvFeJ.2" name="jbEsdK1NvFeJ" type="checkbox"/>
-              <label for="jbEsdK1NvFeJ.2">
-                A software system for developing mobile apps.
-              </label>
-            </div>
-
-            <div>
-              <input data-index="3" id="jbEsdK1NvFeJ.3" name="jbEsdK1NvFeJ" type="checkbox"/>
-              <label for="jbEsdK1NvFeJ.3">
-                A programming language
-              </label>
-            </div>
-
-        </div>
-
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div>
-    <div><div class="gcb-border-box">
-      <link href="../modules/assessment_tags/resources/questions.css" rel="stylesheet" type="text/css"/>
-      <script>
-        questionData['yOkVTqWogdaF'] = JSON.parse(window.atob("eyJkZWZhdWx0RmVlZGJhY2siOiAiIiwgIndlaWdodCI6IDEuMCwgInNob3dBbnN3ZXJXaGVuSW5jb3JyZWN0IjogZmFsc2UsICJjaG9pY2VzIjogW3sidGV4dCI6ICJBIGJ1dHRvbiB0aGF0IGFwcGVhcnMgb24gdGhlIHNjcmVlbi4gIiwgInNjb3JlIjogMC4yNSwgImZlZWRiYWNrIjogIiJ9LCB7InRleHQiOiAiQW4gYXVkaWJsZSBjbGljayB0aGF0IGhhcHBlbnMgd2hlbiB0aGUgdXNlciB0YXBzIHRoZSBidXR0b24uICIsICJzY29yZSI6IDAuMjUsICJmZWVkYmFjayI6ICIifSwgeyJ0ZXh0IjogIiBBbiBlcnJvciBtZXNzYWdlIHRoYXQgYXBwZWFycyB3aGVuIHNvbWV0aGluZyBnb2VzIHdyb25nLiIsICJzY29yZSI6IDAuMjUsICJmZWVkYmFjayI6ICIifSwgeyJ0ZXh0IjogIlRoZSBhcHAncyBtZW1vcnkgdXNhZ2UuICIsICJzY29yZSI6IC0xLjAsICJmZWVkYmFjayI6ICJMZXQgbWUgYWRkIG5ldyBpbmZvcm1hdGlvbiB0byBoZWxwIHlvdSBzb2x2ZSB0aGlzIGluZm9ybWF0aW9uLiBBbiBhcHAgZG9lcyBzdG9yZSBpbmZvcm1hdGlvbiBpbiBjb21wb25lbnQgcHJvcGVydGllcyBhbmQgdmFyaWFibGVzLCBidXQgdGhpcyBkYXRhIGlzIGhpZGRlbiBhbmQgbm90IHBhcnQgb2YgdGhlIFVJICh1bmxlc3MgeW91IGRpc3BsYXkgdGhlIGluZm9ybWF0aW9uIGV4cGxpY2l0bHkpLiJ9LCB7InRleHQiOiAiVGhlIGNvbG9yIG9mIHRoZSBhcHAncyBiYWNrZ3JvdW5kIHNjcmVlbi4iLCAic2NvcmUiOiAwLjI1LCAiZmVlZGJhY2siOiAiIn1dLCAicGVybXV0ZUNob2ljZXMiOiBmYWxzZSwgInF1aWQiOiAiNTczMzkzNTk1ODk4MjY1NiIsICJhbGxPck5vdGhpbmdHcmFkaW5nIjogZmFsc2V9"));
-        var assessmentTagMessages = {};
-
-
-        assessmentTagMessages.correct = "Correct. ";
-
-        assessmentTagMessages.incorrect = "Incorrect. ";
-
-        assessmentTagMessages.partiallyCorrect = "Partially Correct. ";
-
-
-        assessmentTagMessages.correctAnswer = " Yes, the answer is correct. ";
-
-        assessmentTagMessages.incorrectAnswer = " No, the answer is incorrect. ";
-
-        assessmentTagMessages.partiallyCorrectAnswer = " The answer is partially correct. ";
-
-
-        assessmentTagMessages.correctAnswerHeading = "The correct answer is:";
-
-        assessmentTagMessages.targetedFeedbackHeading = "Targeted Feedback:";
-
-        assessmentTagMessages.feedbackHeading = "Feedback:";
-
-
-        assessmentTagMessages.yourScoreIs = " Your score is: ";
-      </script>
-      <script src="../modules/assessment_tags/resources/grading_lib.js"></script>
-      <script src="../modules/assessment_tags/resources/grading.js"></script>
-      <noscript>
-        &lt;div class=&#39;qt-warning&#39;&gt;
-
-           JavaScript should be enabled to grade this question. 
-        &lt;/div&gt;
-      </noscript>
-
-
-
-
-      <div class="qt-mc-question qt-standalone" id="yOkVTqWogdaF">
-        <div class="qt-points">
-          <em>
-
-
-              1 point
-
-          </em>
-        </div>
-
-        <div class="qt-question">Which of the following elements would be considered part of the user interface (UI) for an app? 
-    <br/>
-    Choose all that apply. </div>
-        <div class="qt-choices">
-
-            <div>
-              <input data-index="0" id="yOkVTqWogdaF.0" name="yOkVTqWogdaF" type="checkbox"/>
-              <label for="yOkVTqWogdaF.0">
-                A button that appears on the screen. 
-              </label>
-            </div>
-
-            <div>
-              <input data-index="1" id="yOkVTqWogdaF.1" name="yOkVTqWogdaF" type="checkbox"/>
-              <label for="yOkVTqWogdaF.1">
-                An audible click that happens when the user taps the button. 
-              </label>
-            </div>
-
-            <div>
-              <input data-index="2" id="yOkVTqWogdaF.2" name="yOkVTqWogdaF" type="checkbox"/>
-              <label for="yOkVTqWogdaF.2">
-                 An error message that appears when something goes wrong.
-              </label>
-            </div>
-
-            <div>
-              <input data-index="3" id="yOkVTqWogdaF.3" name="yOkVTqWogdaF" type="checkbox"/>
-              <label for="yOkVTqWogdaF.3">
-                The app&#39;s memory usage. 
-              </label>
-            </div>
-
-            <div>
-              <input data-index="4" id="yOkVTqWogdaF.4" name="yOkVTqWogdaF" type="checkbox"/>
-              <label for="yOkVTqWogdaF.4">
-                The color of the app&#39;s background screen.
-              </label>
-            </div>
-
-        </div>
-
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div>
-    <div><div class="gcb-border-box">
-      <link href="../modules/assessment_tags/resources/questions.css" rel="stylesheet" type="text/css"/>
-      <script>
-        questionData['pERZIYiMxcKV'] = JSON.parse(window.atob("eyJkZWZhdWx0RmVlZGJhY2siOiAiIiwgIndlaWdodCI6IDEuMCwgInNob3dBbnN3ZXJXaGVuSW5jb3JyZWN0IjogZmFsc2UsICJjaG9pY2VzIjogW3sidGV4dCI6ICJUaGUgVXNlciBJbnRlcmZhY2UgZHJhd2VyIiwgInNjb3JlIjogMC4wLCAiZmVlZGJhY2siOiAiT0ssIHNvIHlvdSBkaWRuXHUyMDE5dCBnZXQgaXQgcmlnaHQgdGhpcyB0aW1lLiBMZXRcdTIwMTlzIGxvb2sgYXQgdGhpcyBhcyBhbiBvcHBvcnR1bml0eSB0byBsZWFybi4gVHJ5IHJldmlld2luZyB0aGlzIGluZm9ybWF0aW9uLiBUaGUgdXNlciBpbnRlcmZhY2UgZHJhd2VyIGNvbnRhaW5zIHZpc3VhbCBjb21wb25lbnRzIGxpa2UgYnV0dG9ucywgbGFiZWxzLCBhbmQgdGV4dCBib3hlcy4ifSwgeyJ0ZXh0IjogIlRoZSBNZWRpYSBkcmF3ZXIiLCAic2NvcmUiOiAxLjAsICJmZWVkYmFjayI6ICJUaGUgTWVkaWEgZHJhd2VyIGhhcyBjb21wb25lbnRzIGZvciBwbGF5aW5nIHNvdW5kcyBhbmQgdmlkZW8sIHJlY29yZGluZyB2aWRlbywgdGV4dC10by1zcGVlY2gsIGFuZCByZWNvZ25pemluZyBzcGVlY2guIn0sIHsidGV4dCI6ICJUaGUgRHJhd2luZyBhbmQgQW5pbWF0aW9uIGRyYXdlciIsICJzY29yZSI6IDAuMCwgImZlZWRiYWNrIjogIk9LLCBzbyB5b3UgZGlkblx1MjAxOXQgZ2V0IGl0IHJpZ2h0IHRoaXMgdGltZS4gTGV0XHUyMDE5cyBsb29rIGF0IHRoaXMgYXMgYW4gb3Bwb3J0dW5pdHkgdG8gbGVhcm4uIFRyeSByZXZpZXdpbmcgdGhpcyBpbmZvcm1hdGlvbi4gVGhlIGRyYXdpbmcgYW5kIGFuaW1hdGlvbiBkcmF3ZXIgaGFzIHRoZSBDYW52YXMgY29tcG9uZW50IGFsb25nIHdpdGggdGhlIEltYWdlU3ByaXRlIGFuZCBCYWxsIGNvbXBvbmVudHMgdGhhdCBsaXZlIGluIGNhbnZhc2VzLiJ9LCB7InRleHQiOiAiVGhlIFNvY2lhbCBEcmF3ZXIiLCAic2NvcmUiOiAwLjAsICJmZWVkYmFjayI6ICJPSywgc28geW91IGRpZG5cdTIwMTl0IGdldCBpdCByaWdodCB0aGlzIHRpbWUuIExldFx1MjAxOXMgbG9vayBhdCB0aGlzIGFzIGFuIG9wcG9ydHVuaXR5IHRvIGxlYXJuLiBUcnkgcmV2aWV3aW5nIHRoaXMgaW5mb3JtYXRpb24uIFRoZSBzb2NpYWwgZHJhd2VyIGhhcyBjb21wb25lbnRzIGZvciBjb250YWN0cywgdGV4dGluZywgYW5kIHBob25lIGNhbGxzLiJ9XSwgInBlcm11dGVDaG9pY2VzIjogZmFsc2UsICJxdWlkIjogIjU2OTM0MTcyMzc1MTIxOTIiLCAiYWxsT3JOb3RoaW5nR3JhZGluZyI6IGZhbHNlfQ=="));
-        var assessmentTagMessages = {};
-
-
-        assessmentTagMessages.correct = "Correct. ";
-
-        assessmentTagMessages.incorrect = "Incorrect. ";
-
-        assessmentTagMessages.partiallyCorrect = "Partially Correct. ";
-
-
-        assessmentTagMessages.correctAnswer = " Yes, the answer is correct. ";
-
-        assessmentTagMessages.incorrectAnswer = " No, the answer is incorrect. ";
-
-        assessmentTagMessages.partiallyCorrectAnswer = " The answer is partially correct. ";
-
-
-        assessmentTagMessages.correctAnswerHeading = "The correct answer is:";
-
-        assessmentTagMessages.targetedFeedbackHeading = "Targeted Feedback:";
-
-        assessmentTagMessages.feedbackHeading = "Feedback:";
-
-
-        assessmentTagMessages.yourScoreIs = " Your score is: ";
-      </script>
-      <script src="../modules/assessment_tags/resources/grading_lib.js"></script>
-      <script src="../modules/assessment_tags/resources/grading.js"></script>
-      <noscript>
-        &lt;div class=&#39;qt-warning&#39;&gt;
-
-           JavaScript should be enabled to grade this question. 
-        &lt;/div&gt;
-      </noscript>
-
-
-
-
-      <div class="qt-mc-question qt-standalone" id="pERZIYiMxcKV">
-        <div class="qt-points">
-          <em>
-
-
-              1 point
-
-          </em>
-        </div>
-
-        <div class="qt-question">Which Palette drawer (folder) contains the Player component? </div>
-        <div class="qt-choices">
-
-            <div>
-              <input data-index="0" id="pERZIYiMxcKV.0" name="pERZIYiMxcKV" type="radio"/>
-              <label for="pERZIYiMxcKV.0">
-                The User Interface drawer
-              </label>
-            </div>
-
-            <div>
-              <input data-index="1" id="pERZIYiMxcKV.1" name="pERZIYiMxcKV" type="radio"/>
-              <label for="pERZIYiMxcKV.1">
-                The Media drawer
-              </label>
-            </div>
-
-            <div>
-              <input data-index="2" id="pERZIYiMxcKV.2" name="pERZIYiMxcKV" type="radio"/>
-              <label for="pERZIYiMxcKV.2">
-                The Drawing and Animation drawer
-              </label>
-            </div>
-
-            <div>
-              <input data-index="3" id="pERZIYiMxcKV.3" name="pERZIYiMxcKV" type="radio"/>
-              <label for="pERZIYiMxcKV.3">
-                The Social Drawer
-              </label>
-            </div>
-
-        </div>
-
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div>
-    <div><div class="gcb-border-box">
-      <link href="../modules/assessment_tags/resources/questions.css" rel="stylesheet" type="text/css"/>
-      <script>
-        questionData['1ttlsfX8NBTz'] = JSON.parse(window.atob("eyJkZWZhdWx0RmVlZGJhY2siOiAiIiwgIndlaWdodCI6IDEuMCwgInNob3dBbnN3ZXJXaGVuSW5jb3JyZWN0IjogZmFsc2UsICJjaG9pY2VzIjogW3sidGV4dCI6ICJCdXR0b24iLCAic2NvcmUiOiAwLjMzLCAiZmVlZGJhY2siOiAiIn0sIHsidGV4dCI6ICJMYWJlbCIsICJzY29yZSI6IDAuMzMsICJmZWVkYmFjayI6ICIifSwgeyJ0ZXh0IjogIlBsYXllci5Jc1BsYXlpbmciLCAic2NvcmUiOiAtMS4wLCAiZmVlZGJhY2siOiAiVGhpcyBpcyBjaGFsbGVuZ2luZywgYnV0IHJld2FyZGluZyEgVGhpcyBpcyBhIHByb3BlcnR5IG9mIGEgY29tcG9uZW50LCBub3QgYSBjb21wb25lbnQifSwgeyJ0ZXh0IjogIlBsYXllciIsICJzY29yZSI6IDAuMzQsICJmZWVkYmFjayI6ICIifSwgeyJ0ZXh0IjogIkJ1dHRvbi5JbWFnZSIsICJzY29yZSI6IC0xLjAsICJmZWVkYmFjayI6ICJUaGlzIGlzIGNoYWxsZW5naW5nLCBidXQgcmV3YXJkaW5nISBUaGlzIGlzIGEgcHJvcGVydHkgb2YgYSBjb21wb25lbnQsIG5vdCBhIGNvbXBvbmVudCJ9XSwgInBlcm11dGVDaG9pY2VzIjogZmFsc2UsICJxdWlkIjogIjU3NjY0NjYwNDEyODI1NjAiLCAiYWxsT3JOb3RoaW5nR3JhZGluZyI6IGZhbHNlfQ=="));
-        var assessmentTagMessages = {};
-
-
-        assessmentTagMessages.correct = "Correct. ";
-
-        assessmentTagMessages.incorrect = "Incorrect. ";
-
-        assessmentTagMessages.partiallyCorrect = "Partially Correct. ";
-
-
-        assessmentTagMessages.correctAnswer = " Yes, the answer is correct. ";
-
-        assessmentTagMessages.incorrectAnswer = " No, the answer is incorrect. ";
-
-        assessmentTagMessages.partiallyCorrectAnswer = " The answer is partially correct. ";
-
-
-        assessmentTagMessages.correctAnswerHeading = "The correct answer is:";
-
-        assessmentTagMessages.targetedFeedbackHeading = "Targeted Feedback:";
-
-        assessmentTagMessages.feedbackHeading = "Feedback:";
-
-
-        assessmentTagMessages.yourScoreIs = " Your score is: ";
-      </script>
-      <script src="../modules/assessment_tags/resources/grading_lib.js"></script>
-      <script src="../modules/assessment_tags/resources/grading.js"></script>
-      <noscript>
-        &lt;div class=&#39;qt-warning&#39;&gt;
-
-           JavaScript should be enabled to grade this question. 
-        &lt;/div&gt;
-      </noscript>
-
-
-
-
-      <div class="qt-mc-question qt-standalone" id="1ttlsfX8NBTz">
-        <div class="qt-points">
-          <em>
-
-
-              1 point
-
-          </em>
-        </div>
-
-        <div class="qt-question">Which of the following are components?</div>
-        <div class="qt-choices">
-
-            <div>
-              <input data-index="0" id="1ttlsfX8NBTz.0" name="1ttlsfX8NBTz" type="checkbox"/>
-              <label for="1ttlsfX8NBTz.0">
-                Button
-              </label>
-            </div>
-
-            <div>
-              <input data-index="1" id="1ttlsfX8NBTz.1" name="1ttlsfX8NBTz" type="checkbox"/>
-              <label for="1ttlsfX8NBTz.1">
-                Label
-              </label>
-            </div>
-
-            <div>
-              <input data-index="2" id="1ttlsfX8NBTz.2" name="1ttlsfX8NBTz" type="checkbox"/>
-              <label for="1ttlsfX8NBTz.2">
-                Player.IsPlaying
-              </label>
-            </div>
-
-            <div>
-              <input data-index="3" id="1ttlsfX8NBTz.3" name="1ttlsfX8NBTz" type="checkbox"/>
-              <label for="1ttlsfX8NBTz.3">
-                Player
-              </label>
-            </div>
-
-            <div>
-              <input data-index="4" id="1ttlsfX8NBTz.4" name="1ttlsfX8NBTz" type="checkbox"/>
-              <label for="1ttlsfX8NBTz.4">
-                Button.Image
-              </label>
-            </div>
-
-        </div>
-
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div>
-    <div><div class="gcb-border-box">
-      <link href="../modules/assessment_tags/resources/questions.css" rel="stylesheet" type="text/css"/>
-      <script>
-        questionData['qKJyEkTbBD6m'] = JSON.parse(window.atob("eyJkZWZhdWx0RmVlZGJhY2siOiAiIiwgIndlaWdodCI6IDEuMCwgInNob3dBbnN3ZXJXaGVuSW5jb3JyZWN0IjogZmFsc2UsICJjaG9pY2VzIjogW3sidGV4dCI6ICJUaGUgdXNlciB0YXBzIG9uIHRoZSBzY3JlZW4uIiwgInNjb3JlIjogMC4yNSwgImZlZWRiYWNrIjogIlRoaXMgaXMgdGhlIEJ1dHRvbi5DbGljayBldmVudCJ9LCB7InRleHQiOiAiVGhlIHBob25lIHJlY2VpdmVzIGEgdGV4dCBtZXNzYWdlLiIsICJzY29yZSI6IDAuMjUsICJmZWVkYmFjayI6ICJUaGlzIGlzIGEgVGV4dGluZy5NZXNzYWdlUmVjZWl2ZWQgZXZlbnQifSwgeyJ0ZXh0IjogIlRoZSBwaG9uZSdzIGxvY2F0aW9uIGNoYW5nZXMuIiwgInNjb3JlIjogMC4yNSwgImZlZWRiYWNrIjogIlRoaXMgaXMgYSBMb2NhdGlvblNlbnNvci5Mb2NhdGlvbkNoYW5nZWQgZXZlbnQifSwgeyJ0ZXh0IjogIlRoZSBhcHAgcGxheXMgYSBzb3VuZCBjbGlwIiwgInNjb3JlIjogLTEuMCwgImZlZWRiYWNrIjogIlRoaXMgaXMgY2hhbGxlbmdpbmcsIGJ1dCByZXdhcmRpbmchIFRoZSBhcHAgY2FuIHBsYXkgYSBzb3VuZCBjbGlwIGluIHJlc3BvbnNlIHRvIGFuIGV2ZW50IGJ1dCB0aGUgcGxheWluZyBvZiB0aGUgc291bmQgaXMgbm90IGNvbnNpZGVyZWQgYW4gZXZlbnQgaXRzZWxmLiJ9LCB7InRleHQiOiAiVGhlIHBob25lJ3MgaW50ZXJuYWwgY2xvY2sgdGlja3MiLCAic2NvcmUiOiAwLjI1LCAiZmVlZGJhY2siOiAiVGhpcyBpcyBhIENsb2NrLlRpbWVyIGV2ZW50In1dLCAicGVybXV0ZUNob2ljZXMiOiBmYWxzZSwgInF1aWQiOiAiNTYzNDM4NzIwNjk5NTk2OCIsICJhbGxPck5vdGhpbmdHcmFkaW5nIjogZmFsc2V9"));
-        var assessmentTagMessages = {};
-
-
-        assessmentTagMessages.correct = "Correct. ";
-
-        assessmentTagMessages.incorrect = "Incorrect. ";
-
-        assessmentTagMessages.partiallyCorrect = "Partially Correct. ";
-
-
-        assessmentTagMessages.correctAnswer = " Yes, the answer is correct. ";
-
-        assessmentTagMessages.incorrectAnswer = " No, the answer is incorrect. ";
-
-        assessmentTagMessages.partiallyCorrectAnswer = " The answer is partially correct. ";
-
-
-        assessmentTagMessages.correctAnswerHeading = "The correct answer is:";
-
-        assessmentTagMessages.targetedFeedbackHeading = "Targeted Feedback:";
-
-        assessmentTagMessages.feedbackHeading = "Feedback:";
-
-
-        assessmentTagMessages.yourScoreIs = " Your score is: ";
-      </script>
-      <script src="../modules/assessment_tags/resources/grading_lib.js"></script>
-      <script src="../modules/assessment_tags/resources/grading.js"></script>
-      <noscript>
-        &lt;div class=&#39;qt-warning&#39;&gt;
-
-           JavaScript should be enabled to grade this question. 
-        &lt;/div&gt;
-      </noscript>
-
-
-
-
-      <div class="qt-mc-question qt-standalone" id="qKJyEkTbBD6m">
-        <div class="qt-points">
-          <em>
-
-
-              1 point
-
-          </em>
-        </div>
-
-        <div class="qt-question">Which of the following would be considered an event on your smart phone? 
-    <br/>
-    Choose all that apply. </div>
-        <div class="qt-choices">
-
-            <div>
-              <input data-index="0" id="qKJyEkTbBD6m.0" name="qKJyEkTbBD6m" type="checkbox"/>
-              <label for="qKJyEkTbBD6m.0">
-                The user taps on the screen.
-              </label>
-            </div>
-
-            <div>
-              <input data-index="1" id="qKJyEkTbBD6m.1" name="qKJyEkTbBD6m" type="checkbox"/>
-              <label for="qKJyEkTbBD6m.1">
-                The phone receives a text message.
-              </label>
-            </div>
-
-            <div>
-              <input data-index="2" id="qKJyEkTbBD6m.2" name="qKJyEkTbBD6m" type="checkbox"/>
-              <label for="qKJyEkTbBD6m.2">
-                The phone&#39;s location changes.
-              </label>
-            </div>
-
-            <div>
-              <input data-index="3" id="qKJyEkTbBD6m.3" name="qKJyEkTbBD6m" type="checkbox"/>
-              <label for="qKJyEkTbBD6m.3">
-                The app plays a sound clip
-              </label>
-            </div>
-
-            <div>
-              <input data-index="4" id="qKJyEkTbBD6m.4" name="qKJyEkTbBD6m" type="checkbox"/>
-              <label for="qKJyEkTbBD6m.4">
-                The phone&#39;s internal clock ticks
-              </label>
-            </div>
-
-        </div>
-
-
-          <div class="qt-check-answer">
-            <button class="gcb-button qt-check-answer-button">
-
-               Check Answer 
-            </button>
-          </div>
-
-
-        <div class="qt-feedback qt-hidden" role="alert">
-        </div>
-      </div>
-
-    </div></div>
     
     <!-- Quizly -->
     
-    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_pause_the_player";quiz.id="LXgF4NO50hNM";window.quizlies["quiz_pause_the_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script><div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_pause_the_player"><img src="../../_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
-    <iframe height="595" src="../../_static/assets/lib/quizly/gcb-index60c4.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
-    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_button_click_stop_player";quiz.id="BtQ8hSoGkeml";window.quizlies["quiz_button_click_stop_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script>
-    <div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_button_click_stop_player"><img src="../../_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
-    <iframe height="595" src="../../_static/assets/lib/quizly/gcb-index535c.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
+    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_pause_the_player";quiz.id="LXgF4NO50hNM";window.quizlies["quiz_pause_the_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script><div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_pause_the_player"><img src="../../mobilecsp/_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
+    <iframe height="595" src="../../mobilecsp/_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
+    <div><script>if (!window.quizlies) {window.quizlies={};}var quiz = {};quiz.name="quiz_button_click_stop_player";quiz.id="BtQ8hSoGkeml";window.quizlies["quiz_button_click_stop_player"]= quiz;</script><script>function updateQuizlyProgressIcon(id, score) {   var qname = window.quizlies.quizname;  var iframes = document.getElementsByTagName('iframe');  var iconholder = '';  var innerHtml = '';  if (score >= 1)     innerHtml = '<img alt="Completed" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/completed.png" title="Completed">';  else    innerHtml = '<img alt="In_progress" class="gcb-progress-icon" src="../../mobilecsp/_static/assets/img/in_progress.png" title="In progress">';  for (var i=0; i < iframes.length; i++) {     var iframe = iframes[i];    if (iframe.src.indexOf(qname) != -1) {       iconholder = iframe.previousSibling.previousSibling;      break;    }  }  if (iconholder != '')     iconholder.innerHTML = innerHtml;}</script><script> function checkAnswer(){ var quizName = window.quizlies["quizname"];var instanceid = window.quizlies[quizName].id;var result = window.quizlies[quizName].result;var workspace = window.quizlies[quizName].workspace;var score = (result) ? 1 : 0;console.log("RAM (quizly.py):  That solution was " + result);if (gcbCanRecordStudentEvents) {console.log("RAM (quizly.py): POSTing to server");console.log("RAM (quizly.py): instanceid=" + instanceid);var auditDict = {'instanceid': instanceid,'answer': result,'score': score,'type': "SaQuestion",'workspace': workspace,};gcbAudit(gcbCanRecordStudentEvents, auditDict, "tag-assessment", true);}  updateQuizlyProgressIcon(instanceid, score);}</script>
+    <div style="border: 1px solid black; margin: 5px; padding: 5px;"><div class="gcb-progress-icon-holder gcb-pull-right" id="icon-holder-quiz_button_click_stop_player"><img src="../../mobilecsp/_static/assets/img/not_started.png"/></div><div class="qt-points"><em>1 point  </em></div>
+    <iframe height="595" src="../../mobilecsp/_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div></div>
 
     <div class="yui-wk-div" id="portfolio">
 

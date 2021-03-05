@@ -162,7 +162,7 @@ function createBogusParentFunctions() {
  */
 function initQuizme(quizname, quizmepath, arglist, quizdata) {
   if (DEBUG) console.log("RAM initQuizme quizdata " + quizdata);
-  //  if (DEBUG) console.log("RAM: initializing ... quizname= " + quizname + " path=" + quizmepath + " arglist = " + arglist);
+  if (DEBUG) console.log("RAM: initializing ... quizname= " + quizname + " path=" + quizmepath + " arglist = " + arglist);
 
   createBogusParentFunctions();   // To handle translation
 
