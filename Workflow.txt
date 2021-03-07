@@ -1,4 +1,16 @@
-pip install -r requirements-dev.txt
-npm run build
-git clone ... book
-runestone build --all
+cd RunestoneComponents
+
+
+$ install python3 venv              - Install python3 and the virtual environment module
+$ python3 -m venv ~/.virtualenvs/components   - Create the virtual environment
+$ . ~/.virtualenvs/components/bin/activate    - Activate the virtual environment
+$ (components) morelli:RunestoneComponents rmorelli$  - This changes the prompt
+$ pip install -e .                                    - Install this directory in development mode
+$ pip install -r requirements-dev.txt                 - Install other stuff for developing components
+$ npm run build                              - Creates runestone.js file in runestone/dist/runestone.js
+
+$ cd ..
+$ git clone https://github.com/MobileCSP/MobileCSP.git   -- clone the book
+
+$ cd MobileCSP
+$ runestone build --all
