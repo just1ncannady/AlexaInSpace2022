@@ -92,17 +92,17 @@ table.framework th {
 }
 
 #self-check {
-  background: url(../../img/target.png) no-repeat left center; 
-  background-size:1.5em 1.5em; padding-left: 1.75em;
+  background: url(../../img/target.png) no-repeat left top; 
+  background-size: 2.5em;
 }
 
 #still-curious {
-  background: url(../../img/brain.png) no-repeat left center; 
-  background-size:1.5em 1.5em; padding-left: 1.75em;
+  background: url(../../img/brain.png) no-repeat left top; 
+  background-size:2.5em; 
 }
 #explore-activity {
-  background: url(../../img/explore.png) no-repeat left center; 
-  background-size:1.5em 1.5em; padding-left: 1.75em;
+  background: url(../../img/explore.png) no-repeat left top; 
+  background-size:2.5em; 
 }
 
 .pogil {
@@ -112,9 +112,8 @@ table.framework th {
 }
 
 #summary {
-  background: url(../../img/summary.png) no-repeat left center;
-  background-size: 1.5em;
-  padding-left: 1.75em;
+  background: url(../../img/summary.png) no-repeat left top;
+  background-size: 2.5em;
 }
 
 #portfolio {
@@ -124,14 +123,13 @@ table.framework th {
 }
 
 #portfolio h2 {
-  background: url(../../img/notepad-2.png) no-repeat left center; 
-  background-size:1.5em 1.5em; 
-  padding-left: 1.75em;
+  background: url(../../img/notepad-2.png) no-repeat left top; 
+  background-size:2.5em; 
 }
 
 #est-length { 
 	background: url(../../img/time.png) no-repeat left center; 
-	background-size:1.5em 1.5em; padding-left: 2em;  
+	background-size:1.2em 1.2em; padding-left: 2em;  
 }
 
 #accordion h3 { 
