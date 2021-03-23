@@ -59,11 +59,11 @@ var EKmapping =
      '7.08': ['IOC-1.F.1', 'IOC-1.F.2', 'IOC-1.F.3', 'IOC-1.F.4', 'IOC-1.F.5', 'IOC-1.F.6', 'IOC-1.F.7', 'IOC-1.F.8', 'IOC-1.F.9', 'IOC-1.F.1']}
 
 var shortIdeas = {
-    "CRD" : "<img class='BI-icon' src='assets/img/creativity.png' align='left' height='30'/> Big Idea 1: Creative Development (CRD)",
-    "DAT" : "<img class='BI-icon' src='assets/img/data.png' align='left' height='30'/> Big Idea 2: Data (DAT)",
-    "AAP" : "<img class='BI-icon' src='assets/img/programming.png' align='left' height='30'/>     Big Idea 3: Algorithms and Programming (AAP)",
-    "CSN" : "<img class='BI-icon' src='assets/img/internet.png' align='left' height='30'/>Big Idea 4: Computing Systems and Networks (CSN)",
-    "IOC": "<img class='BI-icon' src='assets/img/impact.png' align='left' height='30'/>Big Idea 5: Impact of Computing (IOC)"
+    "CRD" : "<img class='BI-icon' src='../_static/assets/img/creativity.png' align='left' height='30'/> Big Idea 1: Creative Development (CRD)",
+    "DAT" : "<img class='BI-icon' src='../_static/assets/img/data.png' align='left' height='30'/> Big Idea 2: Data (DAT)",
+    "AAP" : "<img class='BI-icon' src='../_static/assets/img/programming.png' align='left' height='30'/>     Big Idea 3: Algorithms and Programming (AAP)",
+    "CSN" : "<img class='BI-icon' src='../_static/assets/img/internet.png' align='left' height='30'/>Big Idea 4: Computing Systems and Networks (CSN)",
+    "IOC": "<img class='BI-icon' src='../_static/assets/img/impact.png' align='left' height='30'/>Big Idea 5: Impact of Computing (IOC)"
 }
 
 var ideas = {

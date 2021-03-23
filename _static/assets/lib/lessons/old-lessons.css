@@ -92,17 +92,17 @@ table.framework th {
 }
 
 #self-check {
-  background: url(../../img/target.png) no-repeat left top; 
-  background-size: 2.5em;
+  background: url(../../img/target.png) no-repeat left center; 
+  background-size:1.5em 1.5em; padding-left: 1.75em;
 }
 
 #still-curious {
-  background: url(../../img/brain.png) no-repeat left top; 
-  background-size:2.5em; 
+  background: url(../../img/brain.png) no-repeat left center; 
+  background-size:1.5em 1.5em; padding-left: 1.75em;
 }
 #explore-activity {
-  background: url(../../img/explore.png) no-repeat left top; 
-  background-size:2.5em; 
+  background: url(../../img/explore.png) no-repeat left center; 
+  background-size:1.5em 1.5em; padding-left: 1.75em;
 }
 
 .pogil {
@@ -112,8 +112,9 @@ table.framework th {
 }
 
 #summary {
-  background: url(../../img/summary.png) no-repeat left top;
-  background-size: 2.5em;
+  background: url(../../img/summary.png) no-repeat left center;
+  background-size: 1.5em;
+  padding-left: 1.75em;
 }
 
 #portfolio {
@@ -122,37 +123,33 @@ table.framework th {
   padding: 0 .3em; 
 }
 
-#reflection-for-your-portfolio {
-  background: url(../../img/notepad-2.png) no-repeat left top; 
-  background-size:2.5em; 
+#portfolio h2 {
+  background: url(../../img/notepad-2.png) no-repeat left center; 
+  background-size:1.5em 1.5em; 
+  padding-left: 1.75em;
 }
 
 #est-length { 
-<<<<<<< Updated upstream
 	background: url(../../img/time.png) no-repeat left center; 
-	background-size:1.2em 1.2em; padding-left: 2em;  
-=======
-	    background: url(../../img/time.png) no-repeat left center; 
-	    background-size:1.2em 1.2em; padding-left: 2em;  
->>>>>>> Stashed changes
+	background-size:1.5em 1.5em; padding-left: 2em;  
 }
 
 #accordion h3 { 
-	   font-weight: bold; 
-	   padding-left: 1.75em;
+	font-weight: bold; 
+	padding-left: 1.75em;
 }
 
 #accordion div { 
-	   font-family: Arial, sans-serif; 
-	   font-size: 13px; 
+	font-family: Arial, sans-serif; 
+	font-size: 13px; 
 }
 
 #accordion a:link, #accordion a:visited {
-	   color: blue;
-	   text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 
 #accordion a:hover, #accordion a:active {
-	   color: blue;
-	   text-decoration: underline;
+	color: blue;
+	text-decoration: underline;
 }
