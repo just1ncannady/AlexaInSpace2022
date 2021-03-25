@@ -1,10 +1,19 @@
+# gcb2rst.py
+# Use: python3 gcb2rst.py
+
+# This script scrapes content from mobilecsp GCB pages and 
+# converts it to Runestone format.
+
+# The import certifi  may only be necessary for MacOS
+# See: https://stackoverflow.com/questions/40684543/how-to-make-python-use-ca-certificates-from-mac-os-truststore
+import certifi  # Needed for MacOS
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-soup = BeautifulSoup()
 import re
 import json
 import base64
 import io
+import html
 
 MOBILE_CSP_IMAGE = '.. image:: ../../_static/MobileCSPLogo.png\n\t:width: 250\n\t:align: center\n\n'
 
@@ -16,6 +25,12 @@ PORTFOLIO_TEMPATE="""<div style="align-items:center;"><iframe class="portfolioQu
 """
 UNDERSCORE = "---------------------------------------------------------------------------------------------------"
 COLONS = "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+# Used to avoid Runestone warnings about emtpy raw content
+BOGUS_DIV = '\n\n.. raw:: html\n\n\t<div id="bogus-div">\n\t<p></p>\n\t</div>\n\n'
+
+# Array for quiz questions, stored as RST strings
+rst_questions = []
 
 # Toble of Contents file names
 toc = []
@@ -38,7 +53,7 @@ def get_toc():
   toc_str = MOBILE_CSP_IMAGE
   toc_str += unit_title + '\n'
   toc_str += COLONS[:len(unit_title) + 2] + '\n\n'
-  toc_str += '.. toctree::\n\t:caption: ' + unit + ' Table of Contents\n\t:maxdepth: 3\n\n'
+  toc_str += '.. toctree::\n\t:caption: ' + unit + ' Table of Contents\n\t:maxdepth: 1\n\n'
   for page in toc:
     toc_str += '\n\t' + page
   #print('\n\n' + toc_str)
@@ -73,6 +88,8 @@ def fix_assets_links(lesson_content):
     src = img['src']
     if src.find("assets/img") == 0:
       img['src'] = '../_static/' + src
+    if src.find("./assets/img") == 0:
+      img['src'] = '../_static/' + src[2:]
 
 # Converts GCB to RST encoded quiz question
 # q_text is the quiz question
@@ -94,6 +111,7 @@ def q_to_RST(q_text, data, q_type, label):
         count = 0
         for y in choices:
             text = y['text']
+            text = text.replace('\n',' ')
             score = y['score']
             feedback = y['feedback']
             if score > 0:
@@ -101,11 +119,11 @@ def q_to_RST(q_text, data, q_type, label):
                     correct += letters[count]
                 else:
                     correct += ',' + letters[count]
-            output_str += '\t:answer_' + letters[count] + ': ' + text + '\n'
-            output_str += '\t:feedback_' + letters[count] + ': ' + feedback + '\n'
+            output_str += '\t:answer_' + letters[count] + ': ' + text.replace('\n', ' ') + '\n'
+            output_str += '\t:feedback_' + letters[count] + ': ' + feedback.replace('\n',' ') + '\n'
             count += 1
         output_str += '\t:correct: ' + correct + '\n'
-        output_str += '\n\t' + q_text + '\n'
+        output_str += '\n\t' + q_text.replace('\n',' ') + '\n'
     elif q_type == 'sa':
         output_str += 'fillintheblank:: ' + q_tag + '\n'
         hint = q_data['hint']
@@ -119,28 +137,10 @@ def q_to_RST(q_text, data, q_type, label):
                  output_str += '\t:casei:\n'
              response = z['response']
              feedback = z['feedback']
-        output_str += '\n\t' + q_text + ' |blank|\n'
-        output_str += '\n\t- :' + response + ': ' + feedback
-        output_str += '\n\t  :x: ' + default_feedback + '\n'
-
-    return output_str 
-
-# https://stackoverflow.com/questions/9662346/python-code-to-remove-html-tags-from-a-string       
-def cleanhtml(raw_html):
-  cleanr = re.compile('<.*?>|\n|\t')
-  cleantext = re.sub(cleanr, '', raw_html)
-  return cleantext
-
-# Decodes question data from hidden base64-encoded data.
-# Right answer is base64 encoded (ugh)
-def decode_question_data(data):
-  data_str = str(data)
-  i = data_str.find("atob")
-  if i is not None:
-    start= i+6
-    end = data_str.find("));",i)
-    decodedStr = str(base64.b64decode(data_str[start:end]),'utf-8')
-    return decodedStr
+        output_str += '\n\t' + q_text.replace('\n',' ') + ' |blank|\n'
+        output_str += '\n\t- :' + response.replace('\n',' ') + ': ' + feedback
+        output_str += '\n\t  :x: ' + default_feedback.replace('\n',' ') + '\n'
+    return output_str
 
 # Remove some <br/> tags. They mess up questions
 def remove_br_tags(lesson_content):
@@ -162,8 +162,6 @@ def replace_youtubes(lesson_html):
     youtube_id = str(youtube_tag)[p1+7:p2-1]
     #print('youtube id = ' + youtube_id)
     youtube_tag.replaceWith('\n.. youtube:: ' + youtube_id + '\n\t:width: 650\n\t:height: 415\n\t:align: center\n\n.. raw:: html\n\n')
-    #youtube_tag.replaceWith('\n\r.. youtube:: ' + youtube_id + '\n\r\t:width: 650\n\r\t:height: 415\n\r\t:align: center\n\n\r.. raw:: html\n\n')
-
 
 def remove_scripts(scripts):
   for script in scripts:
@@ -173,6 +171,8 @@ def remove_scripts(scripts):
       script.extract()
 
 def remove_links(link):
+  if link == None:
+    return
   linkstr = str(link)
   p = linkstr.find('<script>')  # Find the first link
   pp = linkstr.find('</link></link></link>') 
@@ -221,6 +221,23 @@ def replace_h2s(raw_html):
   cleantext = re.sub(cleanr, repl, raw_html)
   return cleantext
 
+# https://stackoverflow.com/questions/9662346/python-code-to-remove-html-tags-from-a-string       
+def cleanhtml(raw_html):
+  cleanr = re.compile('<.*?>|\n|\t')
+  cleantext = re.sub(cleanr, '', raw_html)
+  return cleantext
+
+# Decodes question data from hidden base64-encoded data.
+# Right answer is base64 encoded (ugh)
+def decode_question_data(data):
+  data_str = str(data)
+  i = data_str.find("atob")
+  if i is not None:
+    start= i+6
+    end = data_str.find("));",i)
+    decodedStr = str(base64.b64decode(data_str[start:end]),'utf-8')
+    return decodedStr
+
 # Operates on the soup structure
 def convert_gcb2rst(quiz_questions):
   global unit_lesson
@@ -236,12 +253,19 @@ def convert_gcb2rst(quiz_questions):
       sa_question = q.find('div',{"class" : "qt-sa-question"})
       question = sa_question.find('div',{"class":"qt-question"})
     cleanquestion = cleanhtml(str(question))
+#    cleanquestion = cleanhtml(question.prettify(formatter=None))
     #print(str(cleanquestion) + "\n")
     label = unit_lesson + "-" + str(question_number+1)
 
     # Replace the containing div with the rst question
     rst_q = q_to_RST(cleanquestion,decodedStr,type, label)
-    q.parent.replaceWith(rst_q)
+
+    # Store the question for future use
+    rst_questions.append(rst_q)
+    parent = q.parent
+    q_soup = BeautifulSoup('<div class="rst-question"></div>',"html.parser")
+#    q.parent.replaceWith(rst_q)
+    q.parent.replaceWith(q_soup)  # placeholder for quiz question
     question_number = question_number + 1
 
 # Add all the HTML content to the RST page and indent it
@@ -262,8 +286,10 @@ def convert_html_to_rst(lesson_content):
 def scrape_and_build_rst(src_page):
   global unit_lesson
   global question_number
+  global rst_questions
   question_number = 0 
-
+  rst_questions = []
+  
   # Get the web page and create the soup structure
   soup = BeautifulSoup(urlopen(src_page),"html.parser")
 
@@ -282,7 +308,7 @@ def scrape_and_build_rst(src_page):
   unit_lesson = get_unit_lesson(soup)
   fix_portfolio_iframe(lesson_content)
   fix_assets_links(lesson_content)
-  remove_br_tags(lesson_content)
+#  remove_br_tags(lesson_content)
   
   # Connvert the non-quizly quiz questions 
   quiz_questions = lesson_content.find_all('div', {"class" : "gcb-border-box"})
@@ -324,6 +350,26 @@ def scrape_and_build_rst(src_page):
   rst_page += convert_html_to_rst(lesson_content)
   rst_page = replace_h2s(rst_page)
 
+  # Add in rst quizzes
+  for q in rst_questions:
+    rstq_div = '<div class="rst-question"></div>'
+    p = rst_page.find(rstq_div)
+    if p != -1:
+      rst_page = rst_page[0:p] + q + BOGUS_DIV + rst_page[p+len(rstq_div):]
+
+  # Avoids Runestone warnings about empty raw content
+#  rst_page = rst_page.replace('###YOUTUBE###', BOGUS_DIV)
+
+  # Convert all tabs to 4 spaces
+  rst_page = rst_page.replace('\t',' '*4)
+  # Remove <br/> tags at the beginning of lines  
+  clean_rst = ''
+  for line in io.StringIO(rst_page):
+    if line.find('<br/>') != 0: 
+      clean_rst += line
+
+  rst_page = clean_rst
+      
   # The completed page
   print(rst_page)
 
@@ -333,10 +379,8 @@ def scrape_and_build_rst(src_page):
     file.close()
 
 # -------------------- Main Program --------------------------
-#src_page = "https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=1"
 #src_page = "https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=1&lesson=45"
 #src_page = "https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=25&lesson=173"
-
 #src_pages =["https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=1","https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=1&lesson=45","https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=25&lesson=173"]
 
 # Read lesson URLs from file
