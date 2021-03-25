@@ -92,16 +92,16 @@ table.framework th {
 }
 
 #self-check {
-  background: url(../../img/target.png) no-repeat left top; 
+  background: url(../../img/target.png) no-repeat center top; 
   background-size: 2.5em;
 }
 
 #still-curious {
-  background: url(../../img/brain.png) no-repeat left top; 
+  background: url(../../img/brain.png) no-repeat center top; 
   background-size:2.5em; 
 }
 #explore-activity {
-  background: url(../../img/explore.png) no-repeat left top; 
+  background: url(../../img/explore.png) no-repeat center top; 
   background-size:2.5em; 
 }
 
@@ -112,7 +112,7 @@ table.framework th {
 }
 
 #summary {
-  background: url(../../img/summary.png) no-repeat left top;
+  background: url(../../img/summary.png) no-repeat center top;
   background-size: 2.5em;
 }
 
@@ -128,13 +128,8 @@ table.framework th {
 }
 
 #est-length { 
-<<<<<<< Updated upstream
 	background: url(../../img/time.png) no-repeat left center; 
 	background-size:1.2em 1.2em; padding-left: 2em;  
-=======
-	    background: url(../../img/time.png) no-repeat left center; 
-	    background-size:1.2em 1.2em; padding-left: 2em;  
->>>>>>> Stashed changes
 }
 
 #accordion h3 { 

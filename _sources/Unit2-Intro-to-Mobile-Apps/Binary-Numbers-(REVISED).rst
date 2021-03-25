@@ -85,7 +85,7 @@ Video: Counting in Binary
         :height: 415
         :align: center
     
-.. raw:: html
+
     
     
     
