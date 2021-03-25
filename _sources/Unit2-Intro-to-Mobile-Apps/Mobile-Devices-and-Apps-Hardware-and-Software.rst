@@ -3,7 +3,8 @@
     :align: center
 
 Mobile Devices and Apps: Hardware and Software
-----------------------------------------------
+=================================================
+
 
 .. raw:: html
 

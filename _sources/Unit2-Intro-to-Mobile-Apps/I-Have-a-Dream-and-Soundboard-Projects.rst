@@ -3,7 +3,7 @@
     :align: center
 
 I Have a Dream and Soundboard Projects
---------------------------------------
+============================================
 
 .. raw:: html
 

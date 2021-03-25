@@ -3,7 +3,7 @@
     :align: center
 
 What is Abstraction?
---------------------
+====================================
 
 .. raw:: html
 

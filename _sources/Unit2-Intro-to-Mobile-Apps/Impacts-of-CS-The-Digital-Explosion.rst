@@ -3,7 +3,8 @@
     :align: center
 
 Impacts of CS: The Digital Explosion
-------------------------------------
+=====================================
+
 
 .. raw:: html
 

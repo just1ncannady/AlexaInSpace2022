@@ -3,7 +3,8 @@
     :align: center
 
 Caesar Cipher App
------------------
+====================================
+
 
 .. raw:: html
 
@@ -353,19 +354,22 @@ Self-Check
     
     
     
-    .. raw:: html
+    
+.. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_hello_function&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_hello_function (repl-mscp-6-5-5)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
     </div>
     
-    .. raw:: html
+    
+.. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_double_function&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_double_function (repl-mscp-6-5-6)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
     </div>
     
-    .. raw:: html
+    
+.. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_function_square&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_function_square (repl-mscp-6-5-7)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>

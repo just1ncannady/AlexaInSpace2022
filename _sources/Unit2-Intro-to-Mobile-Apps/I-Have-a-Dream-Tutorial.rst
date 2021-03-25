@@ -3,7 +3,7 @@
     :align: center
 
 I Have a Dream Tutorial
------------------------
+====================================
 
 .. raw:: html
 
@@ -313,13 +313,15 @@ Self-Check
 
 
     
-    .. raw:: html
+    
+.. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_pause_the_player (repl-mscp-2-2-8)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
     </div>
     
-    .. raw:: html
+    
+.. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_button_click_stop_player (repl-mscp-2-2-9)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>

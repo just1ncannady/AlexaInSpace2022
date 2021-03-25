@@ -3,7 +3,8 @@
     :align: center
 
 Binary Numbers (REVISED)
-------------------------
+====================================
+
 
 .. raw:: html
 
