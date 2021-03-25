@@ -53,7 +53,7 @@ def get_toc():
   toc_str = MOBILE_CSP_IMAGE
   toc_str += unit_title + '\n'
   toc_str += COLONS[:len(unit_title) + 2] + '\n\n'
-  toc_str += '.. toctree::\n\t:caption: ' + unit + ' Table of Contents\n\t:maxdepth: 1\n\n'
+  toc_str += '.. toctree::\n\t:caption: ' + unit + ' Table of Contents\n\t:maxdepth: 0\n\n'
   for page in toc:
     toc_str += '\n\t' + page
   #print('\n\n' + toc_str)
@@ -141,13 +141,6 @@ def q_to_RST(q_text, data, q_type, label):
         output_str += '\n\t- :' + response.replace('\n',' ') + ': ' + feedback
         output_str += '\n\t  :x: ' + default_feedback.replace('\n',' ') + '\n'
     return output_str
-
-# Remove some <br/> tags. They mess up questions
-def remove_br_tags(lesson_content):
-  brs = lesson_content.find_all('br')
-  for br in brs:
-    if br.parent.name == 'link':
-      br.extract()
 
 # Replaces youtube scripts with RST code in lesson
 # Doing this in pass #1 b/c it uses soup
@@ -308,7 +301,6 @@ def scrape_and_build_rst(src_page):
   unit_lesson = get_unit_lesson(soup)
   fix_portfolio_iframe(lesson_content)
   fix_assets_links(lesson_content)
-#  remove_br_tags(lesson_content)
   
   # Connvert the non-quizly quiz questions 
   quiz_questions = lesson_content.find_all('div', {"class" : "gcb-border-box"})

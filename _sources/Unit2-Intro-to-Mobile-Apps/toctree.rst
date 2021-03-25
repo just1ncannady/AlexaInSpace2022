@@ -7,7 +7,7 @@ Introduction to Mobile Apps & Pair Programming
 
 .. toctree::
 	:caption: Unit 2 Table of Contents
-	:maxdepth: 1
+	:maxdepth: 0
 
 
 	Unit-Overview.rst
