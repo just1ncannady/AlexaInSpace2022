@@ -3,7 +3,7 @@
     :align: center
 
 I Have a Dream, Part 2 - Explore Curricular Activity
-=====================================================
+====================================================
 
 .. raw:: html
 
@@ -218,15 +218,13 @@ Self-Check
 
 
     
-    
-.. raw:: html
+    .. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_stop_player_if_playing&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_stop_player_if_playing (repl-mscp-2-4-6)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
     </div>
     
-    
-.. raw:: html
+    .. raw:: html
     
     <div class="quizly">
     <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_if_else_stop_start_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_if_else_stop_start_player (repl-mscp-2-4-7)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>

@@ -4,9 +4,6 @@
 # This script scrapes content from mobilecsp GCB pages and 
 # converts it to Runestone format.
 
-# The import certifi  may only be necessary for MacOS
-# See: https://stackoverflow.com/questions/40684543/how-to-make-python-use-ca-certificates-from-mac-os-truststore
-import certifi  # Needed for MacOS
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
@@ -24,6 +21,7 @@ QUIZLY_TEMPLATE = """<div><div style="border: 1px solid black; margin: 5px; padd
 PORTFOLIO_TEMPATE="""<div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="###?embedded=true" style="height:30em;width:100%"></iframe></div>
 """
 UNDERSCORE = "---------------------------------------------------------------------------------------------------"
+EQUALS = "======================================================================================================="
 COLONS = "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 
 # Used to avoid Runestone warnings about emtpy raw content
@@ -329,13 +327,14 @@ def scrape_and_build_rst(src_page):
   titletag = soup.find('h1', attrs={'class':'gcb-lesson-title'})
   lesson_name = titletag.text.strip()
   filename = re.sub("\s", "-", lesson_name) + '.rst'
+  filename = filename.replace(':','').replace('?','').replace(',','')
   toc.append(filename)
 
   # RST Page, built incrementally
   # Header image and page title
   rst_page = ""
   rst_page += MOBILE_CSP_IMAGE
-  rst_page += lesson_name + '\n' + UNDERSCORE[0:len(lesson_name)] + '\n\n'
+  rst_page += lesson_name + '\n' + EQUALS[0:len(lesson_name)] + '\n\n'
   rst_page += '.. raw:: html\n' + CUSTOM_SCRIPTS + '\n\n'
 
   # Indent HTML and replace H2 headings

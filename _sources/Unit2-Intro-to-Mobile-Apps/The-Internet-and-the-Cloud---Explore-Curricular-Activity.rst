@@ -3,7 +3,7 @@
     :align: center
 
 The Internet and the Cloud - Explore Curricular Activity
-=============================================================
+========================================================
 
 .. raw:: html
 

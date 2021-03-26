@@ -3,8 +3,7 @@
     :align: center
 
 Algorithm Basics
-====================================
-
+================
 
 .. raw:: html
 

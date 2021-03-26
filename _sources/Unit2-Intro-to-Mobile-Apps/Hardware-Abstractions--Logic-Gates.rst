@@ -3,7 +3,7 @@
     :align: center
 
 Hardware Abstractions:  Logic Gates
-====================================
+===================================
 
 .. raw:: html
 

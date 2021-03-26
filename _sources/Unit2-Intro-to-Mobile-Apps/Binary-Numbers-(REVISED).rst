@@ -3,8 +3,7 @@
     :align: center
 
 Binary Numbers (REVISED)
-====================================
-
+========================
 
 .. raw:: html
 
@@ -86,7 +85,7 @@ Video: Counting in Binary
         :height: 415
         :align: center
     
-
+.. raw:: html
     
     
     
