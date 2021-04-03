@@ -1,6 +1,6 @@
-cd RunestoneComponents
+## See: https://www.youtube.com/watch?v=Fy0S4bGRPNE
 
-
+$ cd RunestoneComponents
 $ install python3 venv              - Install python3 and the virtual environment module
 $ python3 -m venv ~/.virtualenvs/components   - Create the virtual environment
 $ . ~/.virtualenvs/components/bin/activate    - Activate the virtual environment
