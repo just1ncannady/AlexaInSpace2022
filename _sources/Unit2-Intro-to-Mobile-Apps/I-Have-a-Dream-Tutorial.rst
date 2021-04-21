@@ -47,13 +47,23 @@ I Have a Dream Tutorial
         
       };*/
     </script>
-    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/time.png" style="float:left" width="25"/>
+    <h3>Time Estimate: 45 minutes</h3>
+    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/introandgoalsicon.png" style="float:left" width="25">
+    
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
+    <p>
     <table><tbody>
     <tr><td><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
     <br/>(<a href="http://www.teachertube.com/video/358482" target="_blank">Teacher Tube version</a>)</td>
     <td>
     <p><b><i>I Have a Dream!</i></b> is an educational "soundboard" app that plays the famous speech of Martin Luther King. This is a great example of a socially-useful app which provides multimedia education on African-American history and the civil rights movement.</p>
-    <p><b>Objectives:</b> In this lesson you will learn to:</p>
+    <p><b>Learning Objectives:</b> In this lesson you will learn to</p>
     <ul>
     <li>follow an instructor-led walkthrough to create the <i>I Have a Dream</i> app on a mobile device;
         </li><li>navigate the App Inventor programming platform;
@@ -61,47 +71,58 @@ I Have a Dream Tutorial
         </li><li>develop your understanding of event handlers.
         </li>
     </ul>
+    <p><b>Language Objectives:</b></p>
+    <ul>
+    <li>I will be able to use target vocabulary, such as input, output, event handler, button, sound, and label, while describing app features and User Interface with the support of a word bank.
+    </li>
+    <li>I will be able to summarize event driven programming for the portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson.</li>
+    </ul>
+    <p><b>Lesson Resources:</b></p>
+    <ul>
+    <li><a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">Vocabulary Notes</a></li>
+    </ul>
     </td></tr>
     </tbody></table>
+    <br/>
+    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/learningactivities.png?seed=68232&amp;url=assets/img/learningactivities.png" style="float:left" width="25"/>
     
 
-Tutorial
----------
+Learning Activities
+--------------------
 
 .. raw:: html
 
     <p>
+    <h3>Tutorial</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/tutorials/aias/IHaveADreamStarter.asc" target="_blank">
     open the I Have a Dream Starter project with the embedded tutorial in App Inventor</a> and login with your Google account into App Inventor.
       <!-- &lt;a target=&quot;_blank&quot; href=&quot;http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit2/templates/IHaveADreamStarter/IHaveADreamStarter.asc&quot;&gt;
     open the I Have a Dream Starter project in App Inventor&lt;/a&gt; -->
-     Follow along with your teacher or the following video tutorial. You can also use the embedded tutorial in the template or the <a href="https://drive.google.com/open?id=1Bg64PZclbPwhFg8Qg2GZJw5hVC08tDIFBhs5bBbyves" target="_blank">text-version of this tutorial</a> or the <a href="https://drive.google.com/open?id=1x9KDcEIyXwC7_h-bRJQCe-sIuXpQTGSRUnONxMs-MLA" target="_blank">short handout</a>. NOTE: The video below asks you to open a starter app, but if you
+     Follow along with your teacher or the following video tutorial. You can also use the embedded tutorial in the template or the <a href="https://drive.google.com/open?id=1Bg64PZclbPwhFg8Qg2GZJw5hVC08tDIFBhs5bBbyves" target="_blank" title="">text-version of this tutorial</a> or the <a href="https://drive.google.com/open?id=1x9KDcEIyXwC7_h-bRJQCe-sIuXpQTGSRUnONxMs-MLA" target="_blank">short handout</a>. NOTE: The video below asks you to open a starter app, but if you
       use the link above the IHaveADreamStarter app will already be loaded and you can start following the video at time 1:12. </p>
     
 .. youtube:: KDepcRIfnNs
         :width: 650
         :height: 415
         :align: center
-    
+
 .. raw:: html
-    
-    
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
     <!-- does not resize
     &lt;iframe width=&quot;700&quot; height=&quot;400&quot; src=&quot;https://www.youtube-nocookie.com/embed/KDepcRIfnNs?start=72&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; -->
     <p>(<a href="http://www.teachertube.com/video/mobile-csp-i-have-a-dream-tutorial-437861" target="_blank" title="">Teacher Tube version</a>)</p>
-    
-
-Input/Output
--------------
-
-.. raw:: html
-
-    <p>
+    <h3>Input/Output</h3>
     <p><img src="../_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
     
-    Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <b>input</b> from the users and displaying <b>output</b> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
-    <p>Designing a good <b>user interface</b> (UI) for a program is very important! User Experience (UX) designers are very much in demand. Most programs and apps these days are <b>event-driven programming</b>, which means they display the UI and wait for a <b>user event</b>, for example for the user to touch a button as input.  In event-driven programming, program statements are executed when triggered rather than through the sequential flow of control.
+    Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <span class="hover vocab yui-wk-div" data-id="Input">input</span> from the users and displaying <span class="hover vocab yui-wk-div" data-id="Output">output</span><br/> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
+    <p>Designing a good <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span> for a program is very important! User Experience (UX) designers are very much in demand. Most programs and apps these days are <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>, which means they display the UI and wait for a <span class="hover vocab yui-wk-div" data-id="User Events">user event</span>, for example for the user to touch a button as input.  In event-driven programming, program statements are executed when triggered rather than through the sequential flow of control.
     Events are triggered when a key is pressed, a mouse is clicked, a program is started by another application, etc., and they supply input data to a program and trigger different blocks of code in the program that influence its behavior.  A program needs to work for a variety of inputs and situations!</p>
+    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/summary.png" style="float:left" width="25"/>
     
 
 Summary
@@ -111,8 +132,19 @@ Summary
 
     <p>
     In this lesson, you learned how to:
-      <div id="summarylist">
+      <div class="yui-wk-div" id="summarylist">
     </div>
+    <br/>
+    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/brain.png" style="float:left" width="25"/>
+    
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/target.png" style="float:left" width="25"/>
     
 
 Self-Check
@@ -121,7 +153,7 @@ Self-Check
 .. raw:: html
 
     <p>
-    <b>Vocabulary:</b><br/>
+    <h3>Vocabulary</h3>
     <table align="center">
     <tbody><tr>
     <td>
@@ -139,6 +171,7 @@ Self-Check
     </td>
     </tr>
     </tbody></table>
+    <h3>Check Your Understanding</h3>
     <p>Complete the following self-check exercises. Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.</p>
     
 .. mchoice:: repl-mcsp-2-2-1
@@ -313,18 +346,15 @@ Self-Check
 
 
     
-    .. raw:: html
+    .. quizly:: repl-mscp-2-2-8
     
-    <div class="quizly">
-    <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_pause_the_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_pause_the_player (repl-mscp-2-2-8)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
-    </div>
+        :quizname: quiz_pause_the_player
     
-    .. raw:: html
     
-    <div class="quizly">
-    <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_button_click_stop_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_button_click_stop_player (repl-mscp-2-2-9)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
-    </div>
-    <div class="yui-wk-div" id="portfolio">
+    .. quizly:: repl-mscp-2-2-9
+    
+        :quizname: quiz_button_click_stop_player
+    
     
 
 Reflection: For Your Portfolio
@@ -332,9 +362,9 @@ Reflection: For Your Portfolio
 
 .. raw:: html
 
-    <p>
+    <p><div class="yui-wk-div" id="portfolio">
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1B90zQGsq4YFEUC5LZQ0MOo7t4vZoNA7WxsoBls66ft0/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <p>If you are using a Google Sites portfolio, see the videos on the <a href="https://sites.google.com/site/mobilecspportfoliohelp/home/portfolio-help" target="_blank">portfolio help page</a> on how to embed your google document in your web page.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQK2N8f05DkZyvrk6AQdJQBXffYaEfsNxYpEFAhJp7GE2cleEs-sbeQ5OSXVMVEhsMZLd2CPw6AKBHs/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     </div>
-    </div>
+    </img></div>

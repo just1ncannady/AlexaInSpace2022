@@ -12,4 +12,3 @@ Getting Started
    :maxdepth: 3
 
    lesson-1-1-welcome.rst
-   

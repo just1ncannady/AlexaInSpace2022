@@ -4,19 +4,20 @@
 # This script scrapes content from mobilecsp GCB pages and 
 # converts it to Runestone format.
 
-# The import certifi  may only be necessary for MacOS
-# See: https://stackoverflow.com/questions/40684543/how-to-make-python-use-ca-certificates-from-mac-os-truststore
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 import json
 import base64
 import io
+import html
 
 MOBILE_CSP_IMAGE = '.. image:: ../../_static/MobileCSPLogo.png\n\t:width: 250\n\t:align: center\n\n'
 
 CUSTOM_SCRIPTS = """\n\t<!-- Custom Scripts -->\n\t<script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>\n\t<script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>\n\t<link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>\n\t<link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>\n\t<link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>\n\t<script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>\n\t<style>    td { text-align: left; padding: 5px;}</style>\n"""
 
+QUIZLY_TEMPLATE = """<div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=###&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:### (@@@)</div><hr style="background-color:#505050; height:5px;border:none;"></hr></div>
+"""
 PORTFOLIO_TEMPATE="""<div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="###?embedded=true" style="height:30em;width:100%"></iframe></div>
 """
 UNDERSCORE = "---------------------------------------------------------------------------------------------------"
@@ -70,11 +71,6 @@ def fix_portfolio_iframe(lesson_content):
   portfolio = lesson_content.find('iframe',
 {"class":"portfolioQuestions"})
   if portfolio != None:
-    parent = portfolio.parent
-    # Move the heading in front of the portfolio html div
-    h2 = parent.find('h2')
-    parent.insert_before(h2)
-
     portfolio_str = str(portfolio)
     p = portfolio_str.find('src=')
     pp = portfolio_str.find('/pub')
@@ -147,14 +143,16 @@ def q_to_RST(q_text, data, q_type, label):
 # Replaces youtube scripts with RST code in lesson
 # Doing this in pass #1 b/c it uses soup
 def replace_youtubes(lesson_html):
+  #print(".....Finding youtubes......")
   youtube_scripts = lesson_html.find_all('script',{"src":"/modules/core_tags/_static/js/youtube_video.js"})
   for script in youtube_scripts:
     youtube_tag = script.parent
+    #print(str(youtube_tag))
     p1 = str(youtube_tag).find('Video(')
     p2 = str(youtube_tag).find(',',p1)
     youtube_id = str(youtube_tag)[p1+7:p2-1]
-   # youtube_tag.replaceWith('\n.. youtube:: ' + youtube_id + '\n\t:width: 650\n\t:height: 415\n\t:align: center\n\n.. raw:: html\n\n')
-    youtube_tag.replaceWith('\n.. youtube:: ' + youtube_id + '\n\t:width: 650\n\t:height: 415\n\t:align: center' + '###ENDYOUTUBE###')
+    #print('youtube id = ' + youtube_id)
+    youtube_tag.replaceWith('\n.. youtube:: ' + youtube_id + '\n\t:width: 650\n\t:height: 415\n\t:align: center\n\n.. raw:: html\n\n')
 
 def remove_scripts(scripts):
   for script in scripts:
@@ -163,7 +161,6 @@ def remove_scripts(scripts):
     if script.has_attr('src'):
       script.extract()
 
-# Removes a couple of incomplete <link> tags
 def remove_links(link):
   if link == None:
     return
@@ -180,7 +177,7 @@ def remove_links(link):
   linkdiv.insert(0,'\n')
   linkdiv.insert(1,link_soup)
 
-# Replace GCB quizly scripts with quizly directive 
+# Replace GCB quizly scripts with QUIZLY_TEMPLATE
 def replace_quizly_scripts(scripts):
   global question_number
 
@@ -193,12 +190,16 @@ def replace_quizly_scripts(scripts):
       start = p+11
       end = sstr.find('";',start)
       q_name = sstr[start:end]
+      quizly_code = QUIZLY_TEMPLATE.replace("###", q_name)
+      quizly_code = quizly_code.replace("@@@",label)
+      quizly_code += '\n\t'
       quizly_div = script.parent
       quizly_div.clear()
       quizly_div['class'] = 'quizly'
-      quizly_div['id'] = q_name
-      quizly_div.insert_before('\n\r.. quizly:: ' + label + '\n\n\r\t:quizname: ' + q_name + '\n')
-      quizly_div.decompose()
+      quizly_soup = BeautifulSoup(quizly_code,'html.parser')
+      quizly_div.insert(0,'\n')
+      quizly_div.insert(1,quizly_soup)
+      quizly_div.insert_before('\n\r.. raw:: html\n\n')
 
 # Replace <h2> headings with RST
 def repl(m):
@@ -243,6 +244,8 @@ def convert_gcb2rst(quiz_questions):
       sa_question = q.find('div',{"class" : "qt-sa-question"})
       question = sa_question.find('div',{"class":"qt-question"})
     cleanquestion = cleanhtml(str(question))
+#    cleanquestion = cleanhtml(question.prettify(formatter=None))
+    #print(str(cleanquestion) + "\n")
     label = unit_lesson + "-" + str(question_number+1)
 
     # Replace the containing div with the rst question
@@ -313,7 +316,7 @@ def scrape_and_build_rst(src_page):
   link = lesson_content.find('link')
   remove_links(link)
 
-  # Replace quizly scripts with directives
+  # Replace quizly scripts
   scripts = lesson_content.find_all('script')
   replace_quizly_scripts(scripts)
 
@@ -324,6 +327,7 @@ def scrape_and_build_rst(src_page):
   titletag = soup.find('h1', attrs={'class':'gcb-lesson-title'})
   lesson_name = titletag.text.strip()
   filename = re.sub("\s", "-", lesson_name) + '.rst'
+  filename = filename.replace(':','').replace('?','').replace(',','')
   toc.append(filename)
 
   # RST Page, built incrementally
@@ -345,7 +349,7 @@ def scrape_and_build_rst(src_page):
       rst_page = rst_page[0:p] + q + BOGUS_DIV + rst_page[p+len(rstq_div):]
 
   # Avoids Runestone warnings about empty raw content
-  rst_page = rst_page.replace('###ENDYOUTUBE###', BOGUS_DIV)
+#  rst_page = rst_page.replace('###YOUTUBE###', BOGUS_DIV)
 
   # Convert all tabs to 4 spaces
   rst_page = rst_page.replace('\t',' '*4)
@@ -385,4 +389,7 @@ for url in urls:
 with open('toctree.rst','w',newline='\n') as file:
   file.write(get_toc())
   file.close()
-  
+
+
+
+

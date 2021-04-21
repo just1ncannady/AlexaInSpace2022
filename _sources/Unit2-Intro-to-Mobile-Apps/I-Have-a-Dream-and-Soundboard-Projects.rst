@@ -230,7 +230,6 @@ Self-Check
     </div>
 
 
-    <div class="yui-wk-div" id="portfolio">
     
 
 Reflection: For Your Portfolio
@@ -238,7 +237,7 @@ Reflection: For Your Portfolio
 
 .. raw:: html
 
-    <p>
+    <p><div class="yui-wk-div" id="portfolio">
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1uMOURzGkcW4qsm_Ykm3LqeZPvUxmw-wvizN9U9oJxFg/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQlI61IBBWDi4Yx--fK24zCu-lrUZ2dfz3BMeSmDLVsIOH2Ki4oim3kYtYWdVnHzhZ-xMO1lsC1Ylno/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;In your portfolio, create a new page named &lt;b&gt;&lt;i&gt;I Have a Dream Projects&lt;/i&gt;&lt;/b&gt; under the &lt;i&gt;Creative Projects&amp;nbsp;&lt;/i&gt;category of your portfolio (If you are using the Mobile CSP Student portfolio template, this page has already been created for you) and  answer the following questions:&lt;/p&gt;

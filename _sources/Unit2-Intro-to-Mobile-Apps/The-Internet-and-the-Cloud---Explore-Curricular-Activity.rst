@@ -84,10 +84,14 @@ Video: The Internet and World Wide Web
         :width: 650
         :height: 415
         :align: center
-    
+
 .. raw:: html
-    
-    
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
     <h3>Definitions</h3>
     <p>Many people do not realize that the  <i>Internet</i> and the <i>World Wide Web</i> are two 
     completely different things. The basic distinctions are:
@@ -428,7 +432,6 @@ Still Curious?
     and <a href="http://en.wikipedia.org/wiki/WWW" target="_blank">WWW</a> and the <a href="http://netforbeginners.about.com/od/i/f/What-Is-The-Internet.htm" target="_blank">
     difference between the Internet and WWW</a>.</li>
     </ul>
-    <div class="yui-wk-div" id="portfolio">
     
 
 Reflection: For Your Portfolio
@@ -436,7 +439,7 @@ Reflection: For Your Portfolio
 
 .. raw:: html
 
-    <p>
+    <p><div class="yui-wk-div" id="portfolio">
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1o7GSa0Js3jOrpVFZZQte5oKnX3QKRqOHoBVZSRrLeHA/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vSxY7YyxX3a9B7IyXAzOQ0zc6JosVK5Hy_77i4BZze-bPibF9bSJsSoTEz_AXMAKsJfvydaKp5gwN7J/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!-- &lt;p&gt;Create a page on your portfolio named &lt;i&gt;The Internet and the Cloud&lt;/i&gt;  in your portfolio and put in the final answers your group arrived at for the POGIL questions.  Also, provide your own answer to the third question.&lt;/p&gt;

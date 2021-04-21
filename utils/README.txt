@@ -1,9 +1,19 @@
 Documentation for the gcb2rst.py script
 
+Setup
+-----
+It may be necessary to install bs4 in the terminal. Before running this
+
+$ pip3 install bs4
+
+Also, the import certifi  may only be necessary for MacOS
+# See: https://stackoverflow.com/questions/40684543/how-to-make-python-use-ca-certificates-from-mac-os-truststore
+
+
 To run
 ------
 
-The pythong script can be run from the command line as follows, where
+The python script can be run from the command line as follows, where
 '$' is the command-line prompt:
 
 $ python3 gcb2rst.py

@@ -116,17 +116,28 @@ Algorithm Basics
         :width: 650
         :height: 415
         :align: center
-    
+
 .. raw:: html
-    
-    </span>
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+</span>
     </p>
     <br/><br/>
     <div class="pogil yui-wk-div">
-    <h3>POGIL Activity for the Classroom </h3>
+    
+
+POGIL Activity for the Classroom 
+----------------------------------
+
+.. raw:: html
+
+    <p>
     <p>This course emphasizes communication and collaboration. You will do many group activities called POGIL Activities in this course, starting with the one below.   <a href="https://pogil.org/about-pogil/what-is-pogil" target="_blank">POGIL</a> stands for Process Oriented Guided Inquiry Learning. In POGIL activities, you will work in self-managed teams of 3 or 4 students where everyone has a role. You will explore an activity or solve a problem together, making sure that everyone in the team participates and learns. In order for these POGIL activities to be effective, each member must be willing to practice good interpersonal skills including communication, consensus building, conflict resolution, and negotiation.</p>
-      Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">using this worksheet</a>. 
-       Here's more information about <a href="https://docs.google.com/document/d/1_NfNLWJxaG4qZ2Jd2x8UctDS05twn1h6p-o3XaAcRv0/edit?usp=sharing" target="_blank">POGIL roles</a>.<br/>
+    <br/>Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">using this worksheet</a>. 
+       <br/>Here's more information about <a href="https://docs.google.com/document/d/1_NfNLWJxaG4qZ2Jd2x8UctDS05twn1h6p-o3XaAcRv0/edit?usp=sharing" target="_blank">POGIL roles</a>.<br/>
     <table>
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
@@ -154,8 +165,7 @@ Algorithm Basics
       </li><li><b> ROTATE_LEFT</b> : The robot turns left 90 degrees, staying in the same square but facing left.
       </li><li><b> CAN_MOVE( <em>direction</em> )</b> : This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
     </li></ul>
-      
-    Let's put our robot in the maze below. The robot is represented as a black triangle and is initially facing up. It can only move forward to a white square. It cannot move onto the black squares or move beyond the edge of the grid.  <br/>
+    <br/>Let's put our robot in the maze below. The robot is represented as a black triangle and is initially facing up. It can only move forward to a white square. It cannot move onto the black squares or move beyond the edge of the grid.  <br/>
       <img src="../_static/assets/img/Q18SquareQuestion.PNG" width="20%"/>
     <p>Answer the following questions with your POGIL group using <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">this worksheet</a>:
       </p><ol>
@@ -166,8 +176,7 @@ Algorithm Basics
     <bl class="dark">REPEAT n times<br/>
        <bl>commands</bl></bl>
     </div>
-          
-    Rewrite your algorithm above using <em>Repeat n times</em> control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times. 
+    <br/>Rewrite your algorithm above using <em>Repeat n times</em> control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times. 
         </li><li>Can you come up with a more general algorithm to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an algorithm and then click on and compare to the Maze Navigation Algorithm below.
       <div class="yui-wk-div" id="accordion">
     <h3>Maze Navigation Algorithm (click here after trying your own algorithm)</h3>
@@ -195,8 +204,7 @@ Algorithm Basics
       </li></ol>
     </li>
     <li>(<span style="font-weight: bold;">Portfolio</span>) 
-        Write an algorithm  for washing 
-        a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your algorithm that are examples  of <i>Sequence, Selection,</i> and
+        <br/>Write an algorithm  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your algorithm that are examples  of <i>Sequence, Selection,</i> and
         <i>Repetition</i>.</li></ol><br/>
     </div>
     
@@ -362,7 +370,6 @@ Still Curious?
 
     <p>
     <p>It may seem a bit amazing to you that the three simple control structures we used in the Maze problems are powerful enough, in combination, to build any algorithm that can be thought of. But this fact, known as the <i>structured program theorem</i>, was proved in a 1966 research paper by Corrado Boehm and Guiseppe Jacopini. You can read more about it in this <a href="http://en.wikipedia.org/wiki/Structured_program_theorem">Wikipedia article</a>.</p>
-    <div class="yui-wk-div" id="portfolio">
     
 
 Reflection: For Your Portfolio
@@ -370,7 +377,7 @@ Reflection: For Your Portfolio
 
 .. raw:: html
 
-    <p>
+    <p><div class="yui-wk-div" id="portfolio">
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1UlhiVNJlJ-hvbunnb8S6MgyxJ4RZY-Waf0Qaejaj6pI/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRMqRjCmkowOkJN212R6eltfYMPAVkipSuoGETf79UtlUs7KTHakBdHbbKSxXAjUIVnW7TSVpAkX___/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;Create a page named&amp;nbsp;&lt;i&gt;&lt;b&gt;Algorithm Basics&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and answer the following questions:&lt;/p&gt;

@@ -86,10 +86,13 @@ Tutorial
         :width: 650
         :height: 415
         :align: center
-    
+
 .. raw:: html
-    
-    <br/>(<a href="http://www.teachertube.com/video/mobile-csp-i-have-a-dream-2-tutorial-437865" target="_blank" title="">Teacher Tube version</a>)<br/>
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
     
 
 Explore Curricular Activity: Computing Innovations and Collaboration
@@ -218,17 +221,15 @@ Self-Check
 
 
     
-    .. raw:: html
+    .. quizly:: repl-mscp-2-4-6
     
-    <div class="quizly">
-    <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_stop_player_if_playing&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_stop_player_if_playing (repl-mscp-2-4-6)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
-    </div>
+        :quizname: quiz_stop_player_if_playing
     
-    .. raw:: html
     
-    <div class="quizly">
-    <div><div style="border: 1px solid black; margin: 5px; padding: 5px;"><iframe height="595" src="../_static/assets/lib/quizly/index.html?backpack=hidden&amp;selector=hidden&amp;quizname=quiz_if_else_stop_start_player&amp;hints=true&amp;repeatable=false" style="border: 0px; margin: 1px; padding: 1px;" width="100%"></iframe></div><div style="text-align:center;">Quizly Activity:quiz_if_else_stop_start_player (repl-mscp-2-4-7)</div><hr style="background-color:#505050; height:5px;border:none;"/></div>
-    </div>
+    .. quizly:: repl-mscp-2-4-7
+    
+        :quizname: quiz_if_else_stop_start_player
+    
     
 
 Sample AP CSP Exam Question
@@ -261,7 +262,6 @@ Sample AP CSP Exam Question
     </div>
 
 
-    <div class="yui-wk-div" id="portfolio">
     
 
 Reflection: For Your Portfolio
@@ -269,7 +269,7 @@ Reflection: For Your Portfolio
 
 .. raw:: html
 
-    <p>
+    <p><div class="yui-wk-div" id="portfolio">
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1B2qxsUuLSFAHF9l42VqOQ41195zucIGqqHiribB800Q/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vSdP9MMLFaLbyv1GstC1eYRerx9KvPX1TxUWL11gwI1_-BCEFS8II63C0NESq1H1Hdk7MLPP3WX_XBH/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--
