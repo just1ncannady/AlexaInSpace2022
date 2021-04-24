@@ -3,6 +3,7 @@ build_info
 build
 .*
 *~
+*.txt
 nongit/
 
 
