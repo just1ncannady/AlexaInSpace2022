@@ -1,0 +1,328 @@
+.. image:: ../../_static/MobileCSPLogo.png
+    :width: 250
+    :align: center
+
+Map Tour Tutorial
+=================
+
+.. raw:: html
+
+    <!-- Custom Scripts -->
+    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
+    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
+    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
+    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
+    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
+    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
+    <style>    td { text-align: left; padding: 5px;}</style>
+
+
+.. raw:: html
+
+        <div class="MCSP-lesson-content">
+    <script>
+      $(document).ready(function() {
+        generateSummary(EKmapping['3.08']);
+        generateHovers();
+        Tipped.create('.vocab', function(element) {
+        var vocab = $(element).data('id');
+        return vocabulary[vocab];
+          }, {
+            cache: false,
+              position: 'topleft'
+              });
+      });
+    
+    /*  var vocabulary = { 
+        "list":"In computer science, a list  stores multiple items under one variable name and uses an index to number and access them.",
+        "index":"The index of a list is the number or position of an element in the list.",
+        "data abstraction":"A data abstraction provides a general way to access a collection of data.",
+        "string":"A sequence of characters that can be stored in a variable or list.", 
+        "concatenation": "Putting two strings together to make a new string.",
+        "data type": "The type of data stored in a variable, for example number, string, boolean, or list.",
+        "ADT":"An abstract data type (ADT) defines a general data type like list that describes a collection of data without worrying about the specific implementation.",
+        "API":"The Application Programming Interface (API) for a program or web service defines how other programs can communicate with it and use it.",
+        "GPS": "The Global Positioning System (GPS) allows people to pinpoint their geolocation (geographic location) on Earth using satellites."
+        
+       
+      };
+     */
+    </script>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    
+
+Preview
+--------
+
+.. raw:: html
+
+    <p>
+    <table><tbody>
+    <tr><td>
+    <iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/JyqhNvOtQfA?rel=0" width="300px"></iframe>
+    
+       
+    (<a href="https://www.teachertube.com/video/mobile-csp-map-tour-preview-revised-476365" target="_blank">TeacherTube Version</a>)
+    </td>
+    <td>
+    The Map Tour App tutorial showcases some features of the new <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a Map Tour of different destinations. You will learn about an important data abstraction called <b>Lists</b> to keep track of the destinations.
+    
+    
+      <p><b>Objectives:</b> In this lesson you will create an app that: 
+      </p><ul>
+    <li>uses the new Map component in App Inventor. </li>
+    <li>introduces Lists and ListPickers to store and access a list of destinations on the map.</li>
+    <li>uses an API (Application Programming Interface) to display Wikipedia pages of destinations in a WebViewer. </li>
+    </ul>
+    </td></tr></tbody></table>
+    
+
+Tutorial
+---------
+
+.. raw:: html
+
+    <p>
+    <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open App Inventor</a> and start a new project and name it Map Tour.  Follow along with the following video or the <a href="https://drive.google.com/open?id=1yuKxS3XcFXpVDPqSUm9_I_9buKmrl4rshR07TKCCqz4" target="_blank">text tutorial</a> or the <a href="https://drive.google.com/open?id=1qOJQYsqISwD54UDRLPGTgbU2Ywe_ZqYM94-UmCepdfU" target="_blank">short handout</a> for more of a challenge.
+    <br/>
+.. youtube:: -pl9xYAK17I
+        :width: 650
+        :height: 415
+        :align: center
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
+      (<a href="https://teachertube.com/video/mobile-csp-map-tour-tutorial-revised-476368" target="_blank">TeacherTube Version</a>)
+      <br/></p>
+    
+
+Enhancements
+-------------
+
+.. raw:: html
+
+    <p>
+    <p>Your instructor may ask you to do some or all  of the following enhancements for your Map Tour app. Be creative!</p>
+    <ol>
+    <li>Add more destinations to your map tour.  Make sure you have at least 3 destinations.
+      </li><li><b>MapType ListPicker:</b> Add a ListPicker to choose the Map Type with the Elements Roads, Aerial, and Terrain. These elements can be set in the UI or in the code in the BeforePicking event handler. After picking, use the user’s Selection to set the Map.MapType to 1 for Roads, 2 for Aerial, and 3 for Terrain. You could do this with an if block using the blue mutator button to add if/elseif/else parts to make a 3 way choice.</li>
+    <li><b>Zoom Slider: </b>Add a slider to your UI to control the zoom level in the map. You may want a horizontal arrangement to arrange these new controls.  In the slider’s properties, set the MaxValue to 20, MinValue to 1, and ThumbPosition to 13. The slider has a When Slider Position Changed event handler that is called when the user slides the slider. Inside this event, you can change the Map1’s Zoom property to value in the Slider’s ThumbPosition.</li>
+    <li><b>My Location button and GPS:</b> OpenStreetMap keeps track of the user’s location using <b>GPS</b> (the Global Positioning System which uses satellites orbiting the earth to allow us to pinpoint our locations on earth). The Map’s properties UserLatitude and UserLongitude will give the latitude and longitude of the device currently running your app if the device has GPS capabilities. Add a button called My Location. When it is clicked, use the Map.PanTo procedure to go the the Map’s UserLatitude, UserLongitude, Map.ZoomLevel. <b>Note:</b> This enhancement is very dependent on the type of device you have and where you are -- being indoors in a classroom is not optimal. So to get this part of the app working you may want to package the app and take the device outdoors. Also, make sure that the device’s <a href="https://www.droid-life.com/2013/01/30/how-to-enable-gps-and-other-location-services-beginners-guide/" target="_blank">location sensing setting</a> is turned on. 
+    
+     </li>
+    </ol>
+    
+
+Data Abstraction: Lists
+------------------------
+
+.. raw:: html
+
+    <p>
+    <p>The simplest <b>data abstraction</b> in programming is a <i>variable</i>, but there are more complex data structures 
+      available in all programming languages. Like most other programming languages, App Inventor has an <b>abstract data type (ADT)</b> called <i><b>list</b></i> that allows  the storage of an ordered sequence of elements under one name in memory. List are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation.
+      
+      The elements in a list are 
+      <i><b>indexed</b></i> which means they are <i><b>numbered from 1 to the length of the list</b></i>. 
+      To define a list, we can create a global variable that can be initialized to an <b><i>empty list</i></b> 
+      (a list with no items on it):
+    
+      <br/>
+    <img src="../_static/assets/img/EmptyList.png" width="400"/>
+    <br/>
+      Or we can assign the variable a specific list of items using <b><i>make a list</i></b>: 
+      <br/>
+    <img src="../_static/assets/img/DestinationsList.png" width="500">
+    </img></p><p> The <i>Lists</i> drawer contains lots of blocks (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html" target="_blank">see the documentation here</a>) such as 
+      <i><b>insert item into list</b></i> and <i><b>select random item from list</b></i> that let you manipulate the 
+      items in the list. 
+    
+    </p>
+    <p>Notice that a <b>variable</b> in App Inventor can hold a single data item like a number or a whole list containing many items. Actually, variables in App Inventor can hold a variety of <b>data types</b> including:
+      </p><ul>
+    <li>Numbers: integers or decimal numbers, </li>
+    <li> Strings: text, any sequence of characters you can type on a keyboard, represented inside quotes like "Hello World! 123". </li>
+    <li>Booleans: like true or false </li>
+    <li> Lists: a collection of related elements given a name. The elements can be any data type but they are usually all the same data type, for example all strings or all numbers, and they are numbered with an index. </li>
+    </ul>
+    <p>We also used <b>string concatenation</b> in this app to <b>join</b> together two strings to make a new string. We joined together the wikipedia web site url with the destination name to make a new url. Another term used with strings is <b>substring</b> which is part of a string; for example, "cat" is a substring of "catalog".
+      
+    </p>
+
+AP Pseudocode
+--------------
+
+.. raw:: html
+
+    <p>
+    <p>In the AP CSP pseudocode, lists are represented using square brackets [ ] as shown below.   
+      The assignment operator ← (the left-pointing arrow)  can be used to assign a value to a variable. This value can be any data type including a number, a string, a boolean, or a list.  
+      So the initialization of the global  variable for the empty list or a list of destinations would look like this in the AP pseudocode:
+      </p><blockquote>
+    <pre>   
+      destinations ← []
+      destinations ← [ "Statue of Liberty", "Chichen Itza" ]
+    </pre>
+    </blockquote>
+    Lists can also be copied into one another, newlist ← destinations.  In a program, if the index is less than 1 or greater than the length of the list, the program will have an error and stop running.
+      
+      
+    
+    
+
+APIs: Extend Your Powers as a Programmer
+-----------------------------------------
+
+.. raw:: html
+
+    <p>
+    <p>In this app, you will make use of an <a href="http://en.wikipedia.org/wiki/Application_programming_interface">Application Programming Interface</a> (API) to communicate with and use Wikipedia from inside your app. An API for a program or web service defines how other programs can communicate with it and use it. There are lots of APIs available to programmers. The APIs specify exactly how programs and apps can interact with each other to perform certain tasks, like sending email or retrieving some data or displaying a particular web page. </p>
+    <p>APIs enable programmers to see the Internet and Web and their mobile devices in a very different way than other users. Rather than seeing it merely as something to use, APIs allow programmers to  control how they interact with their mobile devices and with applications provided by Google, Wikipedia, and other software companies.</p>
+    
+
+Vocabulary
+-----------
+
+.. raw:: html
+
+    <p>
+    <p>
+    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
+    </p><table align="center">
+    <tbody>
+    <tr>
+    <td><span class="hover vocab yui-wk-div" data-id="list">list</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="index">index</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="string">string</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="concatenation">concatenation</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="substring">substring</span>
+    </td>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="data type">data type</span>
+    <br/> <span class="hover vocab yui-wk-div" data-id="data abstraction">data abstraction</span>
+    <br/> <span class="hover vocab yui-wk-div" data-id="ADT">Abstract Data Type (ADT)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="API">API</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="GPS">GPS</span>
+    </td></tr>
+    </tbody>
+    </table>
+    
+
+Summary
+--------
+
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div id="summarylist">
+    </div>
+    
+
+Self-Check
+-----------
+
+.. raw:: html
+
+    <p>
+    
+.. fillintheblank:: repl-mcsp-3-8-1
+    :casei:
+
+    In order for this block to work, the global destinations variable must be what type of data (number, string, list, etc.)? Type your answer into the text box. Spelling counts.  |blank|
+
+    - :list: Good. That's right! This statement assumes that global destinations is a <b>list</b> of strings.  When the List Picker is clicked, the list will be presented to the user, who may then
+select one of the items on the list.
+      :x: 
+
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
+    
+.. fillintheblank:: repl-mcsp-3-8-2
+
+    Lists have a length property that keeps track of how many items or elements are in a given list. What is the length of this list? Type your answer into the text box.  |blank|
+
+    - :4: That's right! The list has 4 items/elements, so its length is 4.
+      :x: The list has 4 items/elements, so its length is 4.
+
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
+    
+.. fillintheblank:: repl-mcsp-3-8-3
+
+    Lists are indexed, or numbered, starting with 1, which means that you can retrieve any item from a list by giving its index. For the list below, what is the index of "No way"? Type your answer into the text box.  |blank|
+
+    - :3: That's right! The text "No way" occurs as the third item in the list, so its index is 3.
+      :x: The text "No way" occurs as the third item in the list, so its index is 3.
+
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
+    
+.. mchoice:: repl-mcsp-3-8-4
+    :random:
+    :practice: T
+    :answer_a: It would give you the last item in the list.  
+    :feedback_a: If it were easy, you wouldn’t be learning anything! Unfortunately the app would probably crash because you did not use a valid index.
+    :answer_b: It would give you the first item in the list. 
+    :feedback_b: If it were easy, you wouldn’t be learning anything! Unfortunately the app would probably crash because you did not use a valid index.
+    :answer_c: It would crash because there is no item with that index. 
+    :feedback_c: That's right! When you are referring to an item in a list using an index, you must make sure to use a valid index. For this list the valid indexes are 1 through 8. Using any other index is sometimes called an Index out of bounds error.
+    :answer_d: It would ignore your request. 
+    :feedback_d: If it were easy, you wouldn’t be learning anything! Since there is no index of 10, App Inventor wouldn't ignore your request. Instead it would unfortunately probably crash the app because you did not use a valid index.
+    :answer_e: It would give you a random item from the list. 
+    :feedback_e: If it were easy, you wouldn’t be learning anything! Unfortunately the app would probably crash because you did not use a valid index.
+    :correct: c
+
+    What do you suppose would happen if your app asked App Inventor for the item at index 10 in the list shown here? 
+
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+    
+
+Reflection: For Your Portfolio
+-------------------------------
+
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1WONX7hPohAnBxVUsfaCnY5c7qkUe_ZS_kHRdper1Dyk/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRgIhKX2pbpqXGDClZyqJ576Esw3oEppPeOIxORfeNh4_D8qkc7VZC2t-vST4TdNI5xF7wF7Oiqp2EO/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    <!--  &lt;p&gt;Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this &lt;a href=&quot;https://docs.google.com/document/d/1WONX7hPohAnBxVUsfaCnY5c7qkUe_ZS_kHRdper1Dyk/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;Google Doc&lt;/a&gt; where you may use File/Make a Copy to make your own editable copy.&lt;/p&gt;
+    
+      &lt;ol&gt;
+          &lt;li&gt;How are lists used in this app? Why is a list a useful data abstraction or an abstract data type (ADT) in programming?&lt;/li&gt;
+        &lt;li&gt;How do APIs simplify complex programming tasks? Pick an app that you use on your device (e.g. Snapchat, Twitter) and see whether it provides an API and some of the functions you can control with it. &lt;/li&gt;
+      &lt;li&gt; How is GPS used in this app? Do some research to find out how GPS works and describe it here in a couple sentences.&lt;/li&gt;
+    &lt;li&gt;Insert screenshots of the enhancements that you made below and describe how they work.
+        &lt;/li&gt;
+      &lt;/ol&gt;-->
+    </div>
+    </div>

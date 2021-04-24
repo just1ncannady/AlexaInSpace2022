@@ -1,0 +1,12 @@
+# MobileCSP URLs for Unit 5
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=167
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=161
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=76
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=80
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=82
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=95
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=162
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=213
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=98
+https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=24&lesson=137

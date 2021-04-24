@@ -12,6 +12,15 @@ import re
 import json
 import base64
 import io
+import os
+
+#KLUDGE: Unknown URL not validated, just let them all come through...fixed, but for future reference
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
+#OUTPUT FOLDER
+OUT_FOLDER = 'rst_out//'
+CUR_PATH = os.path.dirname(__file__)
 
 MOBILE_CSP_IMAGE = '.. image:: ../../_static/MobileCSPLogo.png\n\t:width: 250\n\t:align: center\n\n'
 
@@ -361,7 +370,8 @@ def scrape_and_build_rst(src_page):
   print(rst_page)
 
   # write in a file
-  with open(filename, "w",newline='\n') as file: 
+  out_path = os.path.relpath(OUT_FOLDER+filename, CUR_PATH)
+  with open(out_path, "w",newline='\n') as file: 
     file.write(rst_page)
     file.close()
 
@@ -372,17 +382,20 @@ def scrape_and_build_rst(src_page):
 
 # Read lesson URLs from file
 urls=''
-urls_file = "mcsp-urls.txt"
+urls_file = "mcsp-urls_Unit3.txt"
+#urls_file = "mcsp-urls_Unit2.txt"
 with open(urls_file) as file:
   urls = file.readlines()
 
 # Process the URLs, outputting RST files
 for url in urls:
+  print(url)
   if url.find('#') == -1:  # Skip comment lines
     scrape_and_build_rst(url)
 
 # Write table of contents file
-with open('toctree.rst','w',newline='\n') as file:
+out_path = os.path.relpath(OUT_FOLDER+'toctree.rst', CUR_PATH)
+with open(out_path,'w',newline='\n') as file:
   file.write(get_toc())
   file.close()
   
