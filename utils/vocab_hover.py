@@ -16,77 +16,98 @@
 import sys  # system lib
 import re   # regular expression library
 import ast  # used to parse the vocabulary variable into a python dict
+import json
 
 DEBUG = True
 
-# This is what the vocabulary variable looks like in a typical rst page
-# We read the actual dictionary from the source file
-vocabulary = { 
-    "Input" : "Input  is data sent to a computer for processing by a program and can be tactile, audible, visual, or text",
-    "Output" : "Output is the data sent back from the program to the device and can be tactile, audible, visual, or text.",
-    "User Interface" : "The part of computer application through which a user interacts with a program.",
-    "UI Components" : "Parts of the user interface such as Buttons, Labels, etc.",
-    "User Events" : "Actions by the user such as button clicks.",
-    "Event-driven Programming" : "In event-driven programming, the program is activated by events such as button clicks.",
-    "Event Handler" : "A block of code that reacts to an event like a button click.",
-    "IDE" : "An IDE is software that provides comprehensive tools for programming such as UI design, code editing, and a way to interpret and run the program."
-};
+# We will extract this lesson's vocab words from the embedded vocab <table>, eg: 
+'''
+<table align="center">
+<tbody><tr>
+  <td>
+    <span class="hover vocab yui-wk-div" data-id="Input">Input</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Output">Output</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="User Interface">User Interface (UI)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI Components</span>
+  
+  </td>
+  <td>
 
-# The vocab word will be surrounded by PREFIX and SUFFIX
+  <span class="hover vocab yui-wk-div" data-id="User Events">User Events</span>
+  <br/>
+    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">Event-driven Programming</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Event Handler">Event Handler</span>
+   <br/><span class="hover vocab yui-wk-div" data-id="IDE">Integrated Development Environment (IDE)</span>
+  </td>
+  </tr>
+</tbody></table>
+'''
+
+# To make them hoverable vocab words in the narrative  will be surrounded by PREFIX and SUFFIX
 PREFIX = "<span class=\"hover vocab yui-wk-div\" data-id='" 
 SUFFIX = "</span>"
 
 # Get the input file from the command line
 if len(sys.argv) < 2:
     print('Use:  python3 vocab_hover.py input-file-path')
-    print('Example:  python3 vocab_hover.py ../testpage.rst')
+    print('Example:  python3 vocab_hover.py')
     exit()
 
 # Setup output file
-# Change '_rev' to '' to rewrite the input file
+# Change '_rev' to '' if it's preferable to rewrite the input file
 in_file = sys.argv[1]
 out_file = in_file[0:in_file.rfind('.')] + '_rev' + in_file[in_file.rfind('.'):]
-
 print('DEBUG Input/output files: ' + in_file + ' ' + out_file) if DEBUG else None
 
-# The contenst of the rst file
+# Read the contents of the input file
 txt = ''
 with open(in_file) as file:
     txt = file.read()
 
-# Slice up the contents into thre parts to avoid embedded words in
-# the vocab variable and vocab table
+p1 = p2 = p2 = 0   # Indexes for slicing up the lesson
 
-# Find the vocabulary variable embedded in the page
-p1 = txt.find('var vocabulary')
+# Find the vacab table, which contains the vocab words for this lesson
+# We use regular expressions to create vocab list for this lesson
+tables = re.findall(r'<table.*?</table>', txt, re.DOTALL)  # finds all tables, ignoring line breaks
+vocab_table = ''
+print(len(tables))
+for t in tables:
+    if re.search(r'hover',t):
+        p3 = txt.find(t)  # Index of the vocab table
+        print('p3 = ' + str(type(p3)))
+        vocab_table = t
 
-if p1 == -1:
-    print('This file does not appear to contain a vocabulary list')
-    print('Exiting')
+# Skip this lesson if no vocab table
+if vocab_table == '':
+    print("This lesson does not appear to have a vocab table. Exiting.")
     quit()
 
-p2 = txt.find('};',p1)
+# Vocab items in the table look like this. We grab both hover_id and hover_str
+# <span class="hover vocab yui-wk-div" data-id="HOVER_ID">HOVER_STR</span>
+spans = re.findall(r'<span.*hover.*</span>',vocab_table)
+hover_ids = re.findall(r'<span.*data-id="(.+)">', vocab_table)
+hover_strs = re.findall(r'<span.*hover.*>(.+)</span>', vocab_table)
+print('DEBUG hover_ids ' + str(hover_ids)) if DEBUG else None
+print('DEBUG hover_strs ' + str(hover_strs)) if DEBUG else None
 
-# Find the vocab table
-p3 = txt.find('<span class="hover')  
+# Slice up the contents of the page into three parts to avoid embedded words in
+# the (commented out) vocab variable and in the vocab table
+
+# Find the (commented out) js vocabulary variable embedded in the page
+p1 = txt.find('var vocabulary')
+p2 = txt.find('};',p1)
 
 print('DEBUG slices: ' + 'p1:' + str(p1) + ' p2:' +str(p2) + ' p3:' + str(p3)) if DEBUG else None
 
-# Our three slices. We skip the prefix and suffix
-prefix = txt[0:p2+2]  # everything upto and including the vocab variable
+# Three slices. We skip the prefix and suffix portions of the lesson
+prefix = txt[0:p2+2]  # everything upto and including the script containing the vocab variable
 suffix = txt[p3:]     # everything including and after the vocab table
 scan_slice = txt[p2+3:p3]
-
-# Creat the vocab dictionary 
-print('DEBUG vocab dict: ' + txt[p1+17:p2+1]) if DEBUG else None
-vocab = ast.literal_eval(txt[p1+17:p2+1])   # create the vocab dict
-print('DEBUG python dict: ' + str(vocab)) if DEBUG else None
 
 counter = 0
 
 # Regular expression match function 
 # Called in re.sub
-
 # m is the pattern that was matched, containing the vocab word
 # m.group(0) is the vocab word itself
 # We surround it with the appropriate hover span
@@ -98,9 +119,12 @@ def repl(m):
     return res
 
 # Replace all vocab words in the narrative (scan_slice) with appropriate hover span
-for word in vocab:
+for word in hover_ids:
     print('DEBUG ' + word) if DEBUG else None
-    scan_slice = re.sub(r'\b%s+\b' % word, repl, scan_slice) 
+#    finds = re.findall(r'\b%s+\b' % word, scan_slice, flags=re.IGNORECASE) 
+    finds = re.findall(r'\b%s+\b' % word, scan_slice) 
+#    print(finds)
+    scan_slice = re.sub(r'\b%s+\b' % word, repl, scan_slice, flags=re.IGNORECASE) 
     
 print('Replaced ' + str(counter) + ' occurences')
 
