@@ -121,9 +121,6 @@ def repl(m):
 # Replace all vocab words in the narrative (scan_slice) with appropriate hover span
 for word in hover_ids:
     print('DEBUG ' + word) if DEBUG else None
-#    finds = re.findall(r'\b%s+\b' % word, scan_slice, flags=re.IGNORECASE) 
-    finds = re.findall(r'\b%s+\b' % word, scan_slice) 
-#    print(finds)
     scan_slice = re.sub(r'\b%s+\b' % word, repl, scan_slice, flags=re.IGNORECASE) 
     
 print('Replaced ' + str(counter) + ' occurences')
