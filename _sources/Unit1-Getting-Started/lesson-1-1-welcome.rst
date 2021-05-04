@@ -30,18 +30,12 @@ Welcome to Mobile CSP
     <p>The Mobile CSP course consists of seven main units with the big ideas of the College Board&#39;s curricular framework known as <a href="http://apcsprinciples.org/" target="_blank">Computer Science Principles (CSP)</a> spiraled across the units. The CSP framework consists of <b>five Big Ideas</b>: Creative Development (CRD), Data (DAT), Algorithms and Programming (AAP), Computing Systems and Networks (CSN), and Impact of Computing (IOC). In addition, the <b>six Computational Thinking Practices</b>: Computational Solution Design, Algorithms and Program Development, Abstraction in Program Development, Code Analysis, Computing Innovations, and Responsible Computing and their associated skills of the CSP framework are both developmentally sequenced and spiraled across the units, building on each other. The CSP framework was developed by leading computer science educators from around the country with guidance from the College Board and with funding support
     from the National Science Foundation. The first AP CSP exam was offered in spring 2017.</p>
 
-    The following video provides a quick overview of App Inventor and Mobile CSP curriculum. 
+    <p>The following video provides a quick overview of App Inventor and Mobile CSP curriculum. 
      If you&#39;d prefer to browse through the presentation at your own 
     pace, click <a href="https://docs.google.com/presentation/d/11u5r7W5TrFuqVdVpmZITYTVFLYiKEohnvZoJb4JVQ0I/edit" target="_blank">here</a>.
-      </div>
+    (<a href="https://www.teachertube.com/videos/welcome-to-mobile-csp-2020-501732" target="_blank" title="">TeacherTube Version</a>)</p>
 
 .. youtube:: 9KQsWrBDvhA
     :width: 650
     :height: 415
     :align: center
-    
-    
-(<span class="yui-non"><a href="https://www.teachertube.com/videos/welcome-to-mobile-csp-2020-501732" target="_blank" title="">TeacherTube Version</a></span>)
-
-    
-

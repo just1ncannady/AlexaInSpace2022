@@ -235,13 +235,40 @@ Activities: Converting Binary to Decimal
         <iframe height="400" instanceid="wGiqDDS5BAH1" src="https://mobile-csp.org/webapps/numbers/binaryConverter.html" title="" width="650"></iframe>
     </li>
     <li>Use the algorithm described in the video with this interactive Khan Academy component to convert binary to decimal.<br/>
-    <div style="width: 450px;">
-      Khan Academy Exercise: binary-to-decimal
-      <br/>
-    <script>
-        // customize the style of the exercise iframe
-        var ity_ef_style = "width: 750px;";
-      </script>
+
+    <!-- Khan Academy exercise scaled to fit iframe -->
+    <style>
+      .wrap {
+        width: 950px;
+        height: 590px;
+        padding: 0;
+        overflow: hidden;
+      }
+      .scaled-frame {
+        width: 100%;
+        height: 100%;
+        border: 0px;
+      }
+      .scaled-frame {
+        zoom: 0.70;
+        -moz-transform: scale(0.70);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.70);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.70);
+        -webkit-transform-origin: 0 0;
+      }
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        #scaled-frame {
+          zoom: 1;
+        }
+      }
+    </style>
+    <div>
+     <hr style="background-color:#505050; height:5px;border:none;"></hr>
+     <div class="wrap">
+      <iframe class="scaled-frame" src="../_static/khanex/qs/binary-to-decimal.html"></iframe>
+     </div>
     </div>
     </li>
     </ol>
@@ -284,13 +311,11 @@ Activities: Converting Decimal to Binary
     <li>Complete the first two columns in the second page of the  <a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank">binary/hex worksheet</a> that you may have printed out in the last activity. (Skip over rows that do not have anything written in the decimal or binary columns. You will finish the hex column of this worksheet in the next section). If you print this out double-sided, you can cut the 1's into tabs and flip them over to create a paper binary converter tool to help you with your calculations.
         
     </li><li>Use the algorithm described in the video with this interactive Khan Academy component to convert decimal to binary.<br/>
-    <div style="width: 450px;">
-      Khan Academy Exercise: decimal-to-binary
-      <br/>
-    <script>
-        // customize the style of the exercise iframe
-        var ity_ef_style = "width: 750px;";
-      </script>
+    <div>
+     <hr style="background-color:#505050; height:5px;border:none;"></hr>
+     <div class="wrap">
+      <iframe class="scaled-frame" src="../_static/khanex/qs/decimal-to-binary.html"></iframe>
+     </div>
     </div>
     </li>
     </ol>
