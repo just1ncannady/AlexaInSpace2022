@@ -236,43 +236,10 @@ Activities: Converting Binary to Decimal
     </li>
     <li>Use the algorithm described in the video with this interactive Khan Academy component to convert binary to decimal.<br/>
 
-    <!-- Khan Academy exercise scaled to fit iframe -->
-    <style>
-      .wrap {
-        width: 950px;
-        height: 590px;
-        padding: 0;
-        overflow: hidden;
-      }
-      .scaled-frame {
-        width: 100%;
-        height: 100%;
-        border: 0px;
-      }
-      .scaled-frame {
-        zoom: 0.70;
-        -moz-transform: scale(0.70);
-        -moz-transform-origin: 0 0;
-        -o-transform: scale(0.70);
-        -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.70);
-        -webkit-transform-origin: 0 0;
-      }
-      @media screen and (-webkit-min-device-pixel-ratio:0) {
-        #scaled-frame {
-          zoom: 1;
-        }
-      }
-    </style>
-    <div>
-     <hr style="background-color:#505050; height:5px;border:none;"></hr>
-     <div class="wrap">
-      <iframe class="scaled-frame" src="../_static/khanex/qs/binary-to-decimal.html"></iframe>
-     </div>
-    </div>
-    </li>
-    </ol>
-    
+.. khanex:: kex1
+   
+   :exercise: binary-to-decimal
+
 
 Video: Converting Decimal to Binary
 ------------------------------------
@@ -311,12 +278,13 @@ Activities: Converting Decimal to Binary
     <li>Complete the first two columns in the second page of the  <a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank">binary/hex worksheet</a> that you may have printed out in the last activity. (Skip over rows that do not have anything written in the decimal or binary columns. You will finish the hex column of this worksheet in the next section). If you print this out double-sided, you can cut the 1's into tabs and flip them over to create a paper binary converter tool to help you with your calculations.
         
     </li><li>Use the algorithm described in the video with this interactive Khan Academy component to convert decimal to binary.<br/>
-    <div>
-     <hr style="background-color:#505050; height:5px;border:none;"></hr>
-     <div class="wrap">
-      <iframe class="scaled-frame" src="../_static/khanex/qs/decimal-to-binary.html"></iframe>
-     </div>
-    </div>
+
+.. khanex:: kex2
+
+   :exercise: decimal-to-binary
+
+.. raw:: html
+
     </li>
     </ol>
     <p>

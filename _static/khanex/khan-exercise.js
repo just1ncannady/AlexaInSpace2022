@@ -1963,6 +1963,14 @@ var Khan = (function() {
 			// Save the problem results to the server
 			var curTime = new Date().getTime();
 			var data = buildAttemptData(pass, ++attempts, JSON.stringify(validator.guess), curTime);
+
+			// Save the answer to runestone                                                                                                                             
+                        console.log("RAM DEBUG data = " + JSON.stringify(data));
+			if (window.parent.component_factory) {
+			  window.parent.component_factory.khanex(data);
+                          console.log("RAM DEBUG saved to runestone");
+			}
+
 			request( "problems/" + problemNum + "/attempt", data, function() {
 
 				// TODO: Save locally if offline
