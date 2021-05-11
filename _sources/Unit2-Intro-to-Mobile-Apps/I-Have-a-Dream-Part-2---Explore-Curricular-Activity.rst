@@ -221,14 +221,18 @@ Self-Check
 
 
     
-    .. quizly:: repl-mscp-2-4-6
     
-        :quizname: quiz_stop_player_if_playing
+.. quizly:: repl-mscp-2-4-6
     
     
-    .. quizly:: repl-mscp-2-4-7
+    :quizname: quiz_stop_player_if_playing
     
-        :quizname: quiz_if_else_stop_start_player
+    
+    
+.. quizly:: repl-mscp-2-4-7
+    
+    
+    :quizname: quiz_if_else_stop_start_player
     
     
 
