@@ -19,5 +19,5 @@ Creating Graphics & Images Bit by Bit
 	Parity-Error-Checking-(optional).rst
 	Map-Tour-Tutorial.rst
 	Map-Tour-With-TinyDB.rst
-	Impacts-of-CS:-Electronic-Documents.rst
+	Impacts-of-CS-Electronic-Documents.rst
 	Wrap-Up.rst

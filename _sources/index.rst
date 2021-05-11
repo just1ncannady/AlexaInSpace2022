@@ -25,5 +25,7 @@ Table of Contents
 
    Unit1-Getting-Started/toctree.rst
    Unit2-Intro-to-Mobile-Apps/toctree.rst
+   Unit3-Creating-Graphics-Images/toctree.rst
+
 
 
