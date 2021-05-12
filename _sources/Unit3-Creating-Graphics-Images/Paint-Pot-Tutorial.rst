@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Paint Pot Tutorial
 ==================
@@ -45,8 +45,8 @@ Paint Pot Tutorial
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
-Preview
---------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -80,7 +80,14 @@ Preview
     </tr>
     </tbody>
     </table>
-    <h2><br/>Tutorial Part 1: Painting and Drawing on a Canvas</h2>
+    
+
+Learning Activities
+--------------------
+
+.. raw:: html
+
+    <p><h3><br/>Tutorial Part 1: Painting and Drawing on a Canvas</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotMediaOnly/PaintPotMediaOnly.asc" target="_blank">open App Inventor with the Paint Pot Template</a>
      in a separate tab and follow along with the following video or your teacher.
     <br/>
@@ -110,7 +117,7 @@ Self-Check
 
     <p>
     
-.. mchoice:: repl-mcsp-3-2-1
+.. mchoice:: mcsp-3-2-1
     :random:
     :practice: T
     :answer_a: Vertically
@@ -134,7 +141,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-3-2-2
+.. mchoice:: mcsp-3-2-2
     :random:
     :practice: T
     :answer_a: Automatic
@@ -158,7 +165,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-3-2-3
+.. mchoice:: mcsp-3-2-3
     :random:
     :practice: T
     :answer_a: Button1
@@ -184,12 +191,12 @@ Self-Check
 
 
     
-    .. quizly:: repl-mscp-3-2-10
+    .. quizly:: mscp-3-2-10
     
         :quizname: quiz_background_color
     
     
-    .. quizly:: repl-mscp-3-2-11
+    .. quizly:: mscp-3-2-11
     
         :quizname: quiz_text_color
     
@@ -310,7 +317,7 @@ Self-Check
 
     <p>
     
-.. mchoice:: repl-mcsp-3-2-4
+.. mchoice:: mcsp-3-2-4
     :random:
     :practice: T
     :answer_a: 5
@@ -334,7 +341,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-3-2-5
+.. mchoice:: mcsp-3-2-5
     :random:
     :practice: T
     :answer_a: 10
@@ -360,7 +367,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-3-2-6
+.. mchoice:: mcsp-3-2-6
     :random:
     :practice: T
     :answer_a: <img src="assets/img/getdotsize.png" class="yui-img"><br>
@@ -375,6 +382,10 @@ Self-Check
 
     Suppose you initialize dotsize with the block . Which of the following blocks would you use to change the value of dotsize?
 
+    .. raw:: html
+
+        <img class="yui-img selected" src="../_static/assets/img/initdotsize.png"/>
+
 
 .. raw:: html
 
@@ -384,9 +395,13 @@ Self-Check
 
 
     
-.. fillintheblank:: repl-mcsp-3-2-7
+.. fillintheblank:: mcsp-3-2-7
 
-    What value will the variable dotsize have after the following sequence of blocks are executed? |blank|
+    What value will the variable dotsize have after the following sequence of blocks are executed?
+
+    .. raw:: html
+
+        <img class="yui-img" src="../_static/assets/img/dotsizesequence.png"/> |blank|
 
     - :18: <img src="assets/img/dotsizesequence.png" class="yui-img"><br>This sequence of blocks performs the following actions on <i style="font-weight: bold;">dotsize.</i>&nbsp;When the variable is created (initialized) its initial value is 5. &nbsp;Its value is then set to 10 by the second block in the sequence. &nbsp;Its value is then set to 20 (10 + 10) by the third block in the sequence. &nbsp;Its value is then set to 18 (20 - 2) by the last block in the sequence.&nbsp;
       :x: 
@@ -400,7 +415,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-3-2-8
+.. mchoice:: mcsp-3-2-8
     :random:
     :practice: T
     :answer_a: a variable is more general and more abstract than a specific value such as 5.
@@ -424,12 +439,12 @@ Self-Check
 
 
     
-    .. quizly:: repl-mscp-3-2-12
+    .. quizly:: mscp-3-2-12
     
         :quizname: quiz_incrementing
     
     
-.. mchoice:: repl-mcsp-3-2-9
+.. mchoice:: mcsp-3-2-9
     :random:
     :practice: T
     :answer_a: 2 &nbsp;2

@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Paint Pot Projects
 ==================
@@ -32,8 +32,8 @@ Paint Pot Projects
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
-Preview
---------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -65,12 +65,12 @@ Preview
     (<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-projects-preview-438235" target="_blank" title="">Teacher Tube version</a>)<br/>
     
 
-Creative Mini Projects: Enhancing Paint Pot
---------------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Creative Mini Projects: Enhancing Paint Pot</h3>
     <p>To get started, open App Inventor with your completed Paint Pot app from lesson 3.2 in a separate tab, and then complete the programming 
       projects outlined below. Additional information is available in the 
       <a href="https://docs.google.com/document/d/1s7PTuvw0fg03iEVUIW11yvHb1TzZdk6T_woT4grvQZY/" target="_blank">text 
@@ -182,14 +182,7 @@ Creative Mini Projects: Enhancing Paint Pot
     
     &lt;/h3&gt;
     -->
-    
-
-AP CSP Pseudocode: If Statements
----------------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>AP CSP Pseudocode: If Statements</h3>
     <p>Selection with if statements is used in every programming language. The AP CS Principles Exam uses a text-based and a block-based pseudocode for questions that involve code. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam describing this pseudocode. The table below compares AP CSP pseudocode to App Inventor blocks for  if statements and relational operators. Note that the curly brackets { } are used in AP text pseudocode (and in many text-based programming languages) to indicate the start and end of a block of code.
       
       </p><p>The <b>relational operators</b> (=, ≠, &lt;, &gt;,&lt;=, &gt;=) are used inside if statements to compare variables with values or mathematical expressions, and they evaluate to a <b>Boolean</b> (true, false) value. For example, a = b evaluates to true if a and b are equal; otherwise, it evaluates to false. The logical operators NOT, AND, and OR can be used to combine conditions inside an if statement and also evaluate to a true or false Boolean value. </p>
@@ -251,23 +244,23 @@ Self-Check
 
     <p>
     
-    .. quizly:: repl-mscp-3-4-7
+    .. quizly:: mscp-3-4-7
     
         :quizname: quiz_initialize_variable
     
     <br/>
-    .. quizly:: repl-mscp-3-4-8
+    .. quizly:: mscp-3-4-8
     
         :quizname: quiz_incrementing
     
     <br/>
     
-    .. quizly:: repl-mscp-3-4-9
+    .. quizly:: mscp-3-4-9
     
         :quizname: quiz_simple_if_else
     <br/>
     <br/>
-.. mchoice:: repl-mcsp-3-4-1
+.. mchoice:: mcsp-3-4-1
     :random:
     :practice: T
     :answer_a: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
@@ -289,7 +282,7 @@ Self-Check
     <p></p>
     </div>
 
-.. mchoice:: repl-mcsp-3-4-2
+.. mchoice:: mcsp-3-4-2
     :random:
     :practice: T
     :answer_a: Not so good!
@@ -302,6 +295,10 @@ Self-Check
 
     What would the following code print out if the score was 6?  
 
+    .. raw:: html
+
+        <img src="../_static/assets/img/ifelseifQ.png" width="400"/>
+
 
 .. raw:: html
 
@@ -309,7 +306,7 @@ Self-Check
     <p></p>
     </div>
 
-.. mchoice:: repl-mcsp-3-4-3
+.. mchoice:: mcsp-3-4-3
     :random:
     :practice: T
     :answer_a: "Not so good!"
@@ -322,6 +319,10 @@ Self-Check
 
     What would the following code print out if the score was 10?  
 
+    .. raw:: html
+
+        <img src="../_static/assets/img/ifelseifQ.png" width="400"/>
+
 
 .. raw:: html
 
@@ -329,7 +330,7 @@ Self-Check
     <p></p>
     </div>
 
-.. mchoice:: repl-mcsp-3-4-4
+.. mchoice:: mcsp-3-4-4
     :random:
     :practice: T
     :answer_a: (A) II only
@@ -351,7 +352,7 @@ Self-Check
     <p></p>
     </div>
 
-.. mchoice:: repl-mcsp-3-4-5
+.. mchoice:: mcsp-3-4-5
     :random:
     :practice: T
     :answer_a: (A) x = 1, y = 2, z = 3
@@ -366,6 +367,10 @@ Self-Check
 
     AP 2021 Sample Question: The following code segment is intended to set max equal to the maximum value among the integer variables x, y, and z. The code segment does not work as intended in all cases.Which of the following initial values for x, y, and z can be used to show that the code segment does not work as intended?
 
+    .. raw:: html
+
+        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ9image_question.PNG.jpg?seed=5522&amp;url=assets/img/APExamPrepQ9image_question.PNG.jpg" title=""/>
+
 
 .. raw:: html
 
@@ -373,7 +378,7 @@ Self-Check
     <p></p>
     </div>
 
-.. mchoice:: repl-mcsp-3-4-6
+.. mchoice:: mcsp-3-4-6
     :random:
     :practice: T
     :answer_a: <img src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ18ChoiceA.PNG.jpg?seed=12167&amp;url=assets/img/APExamPrepQ18ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
@@ -387,6 +392,10 @@ Self-Check
     :correct: a,d
 
     AP 2021 Sample Question: In the following statement, val1, val2, and result are Booleanvariables. Which of the following code segments produce the same result as the statement above for all possible values of val1 and val2?Select two answers.
+
+    .. raw:: html
+
+        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ18image_question.PNG.jpg?seed=46066&amp;url=assets/img/APExamPrepQ18image_question.PNG.jpg" title=""/>
 
 
 .. raw:: html

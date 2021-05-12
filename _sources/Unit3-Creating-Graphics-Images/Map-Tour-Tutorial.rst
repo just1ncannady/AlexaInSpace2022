@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Map Tour Tutorial
 =================
@@ -51,8 +51,8 @@ Map Tour Tutorial
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Preview
---------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -77,12 +77,12 @@ Preview
     </td></tr></tbody></table>
     
 
-Tutorial
----------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Tutorial</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open App Inventor</a> and start a new project and name it Map Tour.  Follow along with the following video or the <a href="https://drive.google.com/open?id=1yuKxS3XcFXpVDPqSUm9_I_9buKmrl4rshR07TKCCqz4" target="_blank">text tutorial</a> or the <a href="https://drive.google.com/open?id=1qOJQYsqISwD54UDRLPGTgbU2Ywe_ZqYM94-UmCepdfU" target="_blank">short handout</a> for more of a challenge.
     <br/>
 .. youtube:: -pl9xYAK17I
@@ -99,14 +99,7 @@ Tutorial
 
       (<a href="https://teachertube.com/video/mobile-csp-map-tour-tutorial-revised-476368" target="_blank">TeacherTube Version</a>)
       <br/></p>
-    
-
-Enhancements
--------------
-
-.. raw:: html
-
-    <p>
+    <h3>Enhancements</h3>
     <p>Your instructor may ask you to do some or all  of the following enhancements for your Map Tour app. Be creative!</p>
     <ol>
     <li>Add more destinations to your map tour.  Make sure you have at least 3 destinations.
@@ -116,14 +109,7 @@ Enhancements
     
      </li>
     </ol>
-    
-
-Data Abstraction: Lists
-------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Data Abstraction: Lists</h3>
     <p>The simplest <b>data abstraction</b> in programming is a <i>variable</i>, but there are more complex data structures 
       available in all programming languages. Like most other programming languages, App Inventor has an <b>abstract data type (ADT)</b> called <i><b>list</b></i> that allows  the storage of an ordered sequence of elements under one name in memory. List are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation.
       
@@ -152,14 +138,7 @@ Data Abstraction: Lists
     </ul>
     <p>We also used <b>string concatenation</b> in this app to <b>join</b> together two strings to make a new string. We joined together the wikipedia web site url with the destination name to make a new url. Another term used with strings is <b>substring</b> which is part of a string; for example, "cat" is a substring of "catalog".
       
-    </p>
-
-AP Pseudocode
---------------
-
-.. raw:: html
-
-    <p>
+    </p><h3>AP Pseudocode</h3>
     <p>In the AP CSP pseudocode, lists are represented using square brackets [ ] as shown below.   
       The assignment operator ← (the left-pointing arrow)  can be used to assign a value to a variable. This value can be any data type including a number, a string, a boolean, or a list.  
       So the initialization of the global  variable for the empty list or a list of destinations would look like this in the AP pseudocode:
@@ -173,24 +152,10 @@ AP Pseudocode
       
       
     
-    
-
-APIs: Extend Your Powers as a Programmer
------------------------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>APIs: Extend Your Powers as a Programmer</h3>
     <p>In this app, you will make use of an <a href="http://en.wikipedia.org/wiki/Application_programming_interface">Application Programming Interface</a> (API) to communicate with and use Wikipedia from inside your app. An API for a program or web service defines how other programs can communicate with it and use it. There are lots of APIs available to programmers. The APIs specify exactly how programs and apps can interact with each other to perform certain tasks, like sending email or retrieving some data or displaying a particular web page. </p>
     <p>APIs enable programmers to see the Internet and Web and their mobile devices in a very different way than other users. Rather than seeing it merely as something to use, APIs allow programmers to  control how they interact with their mobile devices and with applications provided by Google, Wikipedia, and other software companies.</p>
-    
-
-Vocabulary
------------
-
-.. raw:: html
-
-    <p>
+    <h3>Vocabulary</h3>
     <p>
     Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
     </p><table align="center">
@@ -231,10 +196,14 @@ Self-Check
 
     <p>
     
-.. fillintheblank:: repl-mcsp-3-8-1
+.. fillintheblank:: mcsp-3-8-1
     :casei:
 
-    In order for this block to work, the global destinations variable must be what type of data (number, string, list, etc.)? Type your answer into the text box. Spelling counts.  |blank|
+    In order for this block to work, the global destinations variable must be what type of data (number, string, list, etc.)? Type your answer into the text box. Spelling counts. 
+
+    .. raw:: html
+
+        <img src="../_static/assets/img/listpickerelements.png"/> |blank|
 
     - :list: Good. That's right! This statement assumes that global destinations is a <b>list</b> of strings.  When the List Picker is clicked, the list will be presented to the user, who may then
 select one of the items on the list.
@@ -249,9 +218,13 @@ select one of the items on the list.
 
 
     
-.. fillintheblank:: repl-mcsp-3-8-2
+.. fillintheblank:: mcsp-3-8-2
 
-    Lists have a length property that keeps track of how many items or elements are in a given list. What is the length of this list? Type your answer into the text box.  |blank|
+    Lists have a length property that keeps track of how many items or elements are in a given list. What is the length of this list? Type your answer into the text box. 
+
+    .. raw:: html
+
+        <img class="yui-img selected" src="../_static/assets/img/ListLength.PNG?seed=93691&amp;url=assets/img/ListLength.PNG"/> |blank|
 
     - :4: That's right! The list has 4 items/elements, so its length is 4.
       :x: The list has 4 items/elements, so its length is 4.
@@ -265,9 +238,13 @@ select one of the items on the list.
 
 
     
-.. fillintheblank:: repl-mcsp-3-8-3
+.. fillintheblank:: mcsp-3-8-3
 
-    Lists are indexed, or numbered, starting with 1, which means that you can retrieve any item from a list by giving its index. For the list below, what is the index of "No way"? Type your answer into the text box.  |blank|
+    Lists are indexed, or numbered, starting with 1, which means that you can retrieve any item from a list by giving its index. For the list below, what is the index of "No way"? Type your answer into the text box. 
+
+    .. raw:: html
+
+        <img class="yui-img" src="../_static/assets/img/makealist8.png"/> |blank|
 
     - :3: That's right! The text "No way" occurs as the third item in the list, so its index is 3.
       :x: The text "No way" occurs as the third item in the list, so its index is 3.
@@ -281,7 +258,7 @@ select one of the items on the list.
 
 
     
-.. mchoice:: repl-mcsp-3-8-4
+.. mchoice:: mcsp-3-8-4
     :random:
     :practice: T
     :answer_a: It would give you the last item in the list.  
@@ -297,6 +274,10 @@ select one of the items on the list.
     :correct: c
 
     What do you suppose would happen if your app asked App Inventor for the item at index 10 in the list shown here? 
+
+    .. raw:: html
+
+        <img class="yui-img" src="../_static/assets/img/makealist8.png"/>
 
 
 .. raw:: html

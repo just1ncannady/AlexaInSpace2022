@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-Impacts of CS: The Digital Explosion
-====================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+Impacts of CS The Digital Explosion
+===================================
 
 .. raw:: html
 
@@ -54,24 +54,33 @@ Impacts of CS: The Digital Explosion
       */
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
+    
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
+    <p>
     <div class="yui-wk-div" style="float:left;"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19"><img hspace="10" src="../_static/assets/img/blowntobits.jpg" width="150"/></a></div>
     <p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of data and information,
     and other issues.</p>
     <p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also think about the impacts we will create as we build our own mobile apps.</p>
     
 
-Chapter One: The Digital Explosion—Why Is It Happening and What Is At Stake?
------------------------------------------------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Chapter One: The Digital Explosion—Why Is It Happening and What Is At Stake?</h3>
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19" target="_blank">Chapter One of Blown to Bits</a> makes the point that today everything is digital -- that is, everything is represented by binary digits or bits. And it provides some provocative examples of the societal implications of this digital explosion.</p>
     <p>Take a look around your classroom or room. Where can you see devices that use bits? Try to think beyond just your computers and mobile phones or tablets. For example, is the room's lightswitch on a timer or have a motion sensor? Here are <a href="https://docs.google.com/presentation/d/1rY94EKJPiqiGXd3XR2KIw8dSkz3psOFNADcI0JSR1wU" target="_blank">some examples</a> you can use to help you get started.</p>
+    <br/>
     
 
-Activities
------------
+Learning Activities
+--------------------
 
 .. raw:: html
 

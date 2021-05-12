@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-Impacts of CS: Electronic Documents
-===================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+Impacts of CS Electronic Documents
+==================================
 
 .. raw:: html
 
@@ -59,6 +59,13 @@ Impacts of CS: Electronic Documents
       */
     </script>
     <h3 id="est-length">Time Estimate: 135 minutes</h3>
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
+    <p>
     <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=91" target="_blank"><img align="left" hspace="10" src="../_static/assets/img/blowntobits.jpg" width="150"/></a>
     <p>Computing has transformed our lives in so many ways. And mobile computing, 
     where we are constantly connected to others and to the world via our mobile
@@ -70,12 +77,12 @@ Impacts of CS: Electronic Documents
     need to think about the impacts we will create as we build our own mobile apps. </p>
     
 
-Chapter Three: Ghosts in the Machine: Secrets and Surprises of Electronic Documents
-------------------------------------------------------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Chapter Three: Ghosts in the Machine: Secrets and Surprises of Electronic Documents</h3>
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf">
     Chapter Three of Blown to Bits</a> describes how digital documents, 
     including images and sounds, are represented by sequences of bits. Why do you think this chapter is called "Ghosts in the Machine"?</p>
@@ -148,7 +155,7 @@ Self Check
     </tbody>
     </table>
     <br/>
-.. mchoice:: repl-mcsp-3-10-1
+.. mchoice:: mcsp-3-10-1
     :random:
     :practice: T
     :answer_a: (A) Determining the likelihood that the photo is a picture of the sky

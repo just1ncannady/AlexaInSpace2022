@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Error Detection
 ===============
@@ -39,8 +39,8 @@ Error Detection
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Introduction
--------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -72,8 +72,8 @@ Introduction
     <p></p>
     </div>
 
- (<a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">Teacher Tube version</a>)</p><table border="0">
-    <tbody><tr>
+	(<a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">Teacher Tube version</a>)</p><table border="0">
+    <table><tbody><tr>
     <td><iframe height="530" src="https://mobile-csp.org/webapps/parity/ParityMagic.html" style="border: 0;" title="Parity App" width="450"></iframe>
     </td>
     <td>
@@ -121,12 +121,12 @@ Introduction
     </tbody></table>
     
 
-Error Detection:  Critical Thinking Questions
-----------------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Error Detection:  Critical Thinking Questions</h3>
     <p>For this activity, each group should have 36 playing cards (or 25 for a smaller square) or use this <a href="https://deck-of-cards.js.org/" target="_blank">virtual deck</a> or use the widget above.  For a regular card deck you can use 
         face-up/face-down to represent 0/1.  A satisfactory outcome for this activity is that the team
         can successfully demonstrate the trick to the class. That means, someone will lay out
@@ -198,14 +198,7 @@ Error Detection:  Critical Thinking Questions
     
     -->
     <!-- &lt;p&gt;Answers and explanation at the bottom of the page.&lt;/p&gt; -->
-    
-
-Parity Bit Error Detection
----------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Parity Bit Error Detection</h3>
     
     As you learned in the POGIL activity, the card "trick" is really not a magic trick at all. It is a very precise algorithm of error checking based on the concept of <i><b>parity</b></i>. In mathematics, <i>parity</i> refers to the evenness or oddness of a number. In the card trick, a <b>parity bit -</b> which is a bit that is added as the leftmost bit of
     a bit string to ensure that the number of bits that are 1 in the bit string are <i>even</i> or <i>odd - </i>was added to each row and column such that the additional bit would make the row or column have an even number of 1 bits. It's important to realize that the parity bit is not part of the data.  It is <i><b>redundant</b></i>, an extra bit, added to the data to allow us to detect if one of the data bits has been flipped from its original value.
@@ -228,7 +221,7 @@ Self-Check
 
     <p>
     <br/>
-.. mchoice:: repl-mcsp-3-6-1
+.. mchoice:: mcsp-3-6-1
     :random:
     :practice: T
     :answer_a: The bit in row 4 column 4.
@@ -253,7 +246,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-3-6-2
+.. mchoice:: mcsp-3-6-2
     :random:
     :practice: T
     :answer_a: <table> <tr><td>1</td><td>0</td><td>0</td><td>1</td></tr> <tr><td>1</td><td>1</td><td>1</td><td>1</td></tr> <tr><td>0</td><td>0</td><td>1</td><td>1</td></tr> <tr><td>0</td><td>1</td><td>0</td><td>0</td></tr> </table> 

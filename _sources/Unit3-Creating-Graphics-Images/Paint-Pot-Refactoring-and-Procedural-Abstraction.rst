@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Paint Pot Refactoring and Procedural Abstraction
 ================================================
@@ -31,8 +31,8 @@ Paint Pot Refactoring and Procedural Abstraction
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Preview
---------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -66,12 +66,12 @@ Preview
     <br/>
     
 
-Refactoring to Improve Code
-----------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Refactoring to Improve Code</h3>
     <p>
       Open App Inventor with the <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotRefactor/PaintPotRefactorTemplate.asc" target="_blank">Paint Pot Refactor template</a>  in a separate tab and follow 
       along with the video tutorial.   After the project opens, use the Save As option to rename 
@@ -86,20 +86,8 @@ Refactoring to Improve Code
         :align: center
 
 .. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
- (<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-refactoring-438785" target="_blank" title="">Teacher Tube version</a>)<br/></p>
-    
-
-Procedural Abstraction
------------------------
-
-.. raw:: html
-
-    <p>
+    (<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-refactoring-438785" target="_blank" title="">Teacher Tube version</a>)<br/></p>
+    <h3>Procedural Abstraction</h3>
     <p>In this lesson, we learned how to create <b>procedures</b> in App Inventor to refactor our code and reduce its complexity. <b>Procedural Abstraction</b>, the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job.  We only need to know what it does, not how it does it. </p>
     <p>
     Procedural abstraction allows <b>modularity</b> where a solution to a large problem can be found by creating procedures to solve each of the subproblems.  This modularity serves to organize our code by function and reduce its complexity. In addition, it helps with debugging, code readibility, and maintenance since changes to that block of code only need to happen in one place.  Procedural abstraction allows us to reuse code that is already written instead of rewriting the code and repeating it. 
@@ -120,14 +108,7 @@ Procedural Abstraction
     </bl></div></td>
     <td><img src="../_static/assets/img/procedure.png" width="70%"/></td></tr>
     </tbody></table>
-    
-
-Documenting Code by Adding Comments
-------------------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Documenting Code by Adding Comments</h3>
     <p>
       Programmers should document a program throughout its development. That is, a programmer should keep detailed documentation while they are developing a program. An important feature of most programming languages, including MIT App Inventor, 
       is the ability to add comments internally to the code.   A <b><i>comment</i></b>  is a non-executable block 
@@ -156,14 +137,7 @@ Documenting Code by Adding Comments
     <li>To acknowledge code segment(s) used in a program that were written by someone else or are from another source. In this case, the acknowledgement should include the origin source and/or the original author’s name.</li>
     <li>To acknowledge code segment(s) created collaboratively. </li>
     </ul>
-    
-
-Debugging
-----------
-
-.. raw:: html
-
-    <p>
+    <h3>Debugging</h3>
     
     As your programs get larger, you will run across more <b>bugs</b> (errors in your program) and you will have to spend more time <b>debugging</b> the programs to remove the bugs. Debugging takes a lot of time in text-based languages like Java because the programmer needs to type in everything exactly in the right case, with the right spelling, and with the right punctuation. App Inventor removes all syntax errors like this because the code is already written for you in the blocks. You do not need to type in any of the code. However, you can still make other errors that you will need to correct. For example, your code might not do what you want it to do. This is a runtime or semantic error.  
     
@@ -196,7 +170,7 @@ Self-Check
     <p>
     <br/>
     
-.. mchoice:: repl-mcsp-3-5-1
+.. mchoice:: mcsp-3-5-1
     :random:
     :practice: T
     :answer_a: Restructuring a program to make it behave differently. 
@@ -221,12 +195,12 @@ Self-Check
 
     <br/>
     
-    .. quizly:: repl-mscp-3-5-2
+    .. quizly:: mscp-3-5-2
     
         :quizname: quiz_proc_double
     
     
-    .. quizly:: repl-mscp-3-5-3
+    .. quizly:: mscp-3-5-3
     
         :quizname: quiz_add_globals
     

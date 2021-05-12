@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-	:width: 250
-	:align: center
+.. raw:: html 
+
+	<a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Introduction to Mobile Apps & Pair Programming
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -22,4 +22,3 @@ Introduction to Mobile Apps & Pair Programming
 	Hardware-Abstractions-Logic-Gates.rst
 	Impacts-of-CS-The-Digital-Explosion.rst
 	Wrap-Up.rst
-	Caesar-Cipher-App.rst

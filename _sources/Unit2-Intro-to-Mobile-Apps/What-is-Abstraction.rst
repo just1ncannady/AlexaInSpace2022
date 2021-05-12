@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-What is Abstraction?
-====================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+What is Abstraction
+===================
 
 .. raw:: html
 
@@ -47,21 +47,14 @@ What is Abstraction?
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Introduction
--------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
     <p>
     <p>An important concept and practice in Computer Science is <i>abstraction</i>. But what exactly <i>is</i> abstraction? This lesson is provides a quick introduction to this key concept.</p>
-    
-
-Lecture
---------
-
-.. raw:: html
-
-    <p>
+    <h3>Lecture</h3>
     
 .. youtube:: XpJdZrviSuw
         :width: 650
@@ -78,8 +71,8 @@ Lecture
     <div>(<a href="http://www.teachertube.com/video/abstraction-347740" target="_blank">Teacher Tube version</a>)</div>
     
 
-Activities
------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
@@ -128,7 +121,7 @@ Self-Check
     </tbody>
     </table>
     
-.. mchoice:: repl-mcsp-2-8-1
+.. mchoice:: mcsp-2-8-1
     :random:
     :practice: T
     :answer_a: general
@@ -152,7 +145,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-8-2
+.. mchoice:: mcsp-2-8-2
     :random:
     :practice: T
     :answer_a: True
@@ -172,7 +165,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-8-3
+.. mchoice:: mcsp-2-8-3
     :random:
     :practice: T
     :answer_a: Languages
@@ -196,7 +189,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-8-4
+.. mchoice:: mcsp-2-8-4
     :random:
     :practice: T
     :answer_a: Complexing
@@ -220,7 +213,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-8-5
+.. mchoice:: mcsp-2-8-5
     :random:
     :practice: T
     :answer_a: True

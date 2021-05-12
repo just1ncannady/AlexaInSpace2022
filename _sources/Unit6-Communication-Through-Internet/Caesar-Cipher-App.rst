@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Caesar Cipher App
 =================
@@ -46,13 +46,14 @@ Caesar Cipher App
         "substitution cipher" : "In a substitution cipher letters from a ciphertext alphabet are substituted for the letters in a plaintext message in a systematic way.",
         "function" : "A procedure that computes and returns a value.",
         "local variables" : "Variables that are declared and exist only inside a procedure or function (this is called their scope)."
-       };    */
+       };
+    */
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
-Preview
---------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -63,17 +64,17 @@ Preview
     -->
     <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/U_Lg56Dvg2s" width="315"></iframe>
     </td>
-    <td><p><b><i>Caesar Cipher App</i></b> This lesson describes some basic terminology from the field of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, and then introduces the Caesar Cipher, one of the earliest and simplest examples of a substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, which is an <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> algorithm that replaces letters 
-      in the message with letters from a <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> alphabet.</p>
+    <td><p><b><i>Caesar Cipher App</i></b> This lesson describes some basic terminology from the field of cryptography, and then introduces the Caesar Cipher, one of the earliest and simplest examples of a substitution cipher, which is an encryption algorithm that replaces letters 
+      in the message with letters from a cipher alphabet.</p>
     <p>Once we understand how the Caesar algorithm works, we will implement it in a simple app that encrypts and decrypts messages</p>. 
     
     <p><b>Objectives:</b> In this lesson you will:</p>
     <ul>
-    <li>learn basic concepts about <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span> and the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>,</li>
-    <li>build an app that implements Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> and <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>,</li>
-    <li>learn how to use <span class="hover vocab yui-wk-div" data-id='local variables'>local variables</span> (as opposed to global variables) in an app,</li>
-    <li>learn how to use a <span class="hover vocab yui-wk-div" data-id='function'>function</span> (a procedure that produces a value) in an app.</li>
-    <li>practice working with <span class="hover vocab yui-wk-div" data-id='function'>function</span>/procedures with parameters.</li>
+    <li>learn basic concepts about cryptography and the Caesar cipher,</li>
+    <li>build an app that implements Caesar cipher encryption and decryption,</li>
+    <li>learn how to use local variables (as opposed to global variables) in an app,</li>
+    <li>learn how to use a function (a procedure that produces a value) in an app.</li>
+    <li>practice working with function/procedures with parameters.</li>
     </ul>
     <p></p>
     </td>
@@ -81,15 +82,15 @@ Preview
     </tbody></table>
     
 
-Part I: Introduction to Cryptography and the Caesar Cipher
------------------------------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Part I: Introduction to Cryptography and the Caesar Cipher</h3>
     <p><b><i>Cryptography</i></b> means secret writing. It is the art and science of sending secret  messages and it has been used by generals and governments and everyday people practically  since the invention of written language.  As we will see in upcoming lessons, modern cryptographic techniques are essential to guaranteeing the security of our transactions on the Internet. </p>
-    <p>Cryptography plays a role whenever you make an online purchase at Amazon or provide  your password to Google.  Whenever you see the <i><b>https protocol</b></i> in your browser, you can rest assured that your communications are secure because they are being encrypted with strong, unbreakable <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>.   If we couldn't rely on those transactions being secure we really wouldn't have the Internet as we know it today.</p>
-    <p>In upcoming lessons we will look at several different versions of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, including the strong <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> that protects our Internet transactions.  But let’s begin here with a simple <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, the <b><i>Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span></i></b>, so named because it was used by Julius Caesar in 1st century B.C. The following video will explain the basics of the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>.   Click below to watch this presentation on Caesar Cipher.<br/>(<a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8/" target="_blank" title="">Slides - use 1-12</a>)</p>
+    <p>Cryptography plays a role whenever you make an online purchase at Amazon or provide  your password to Google.  Whenever you see the <i><b>https protocol</b></i> in your browser, you can rest assured that your communications are secure because they are being encrypted with strong, unbreakable encryption.   If we couldn't rely on those transactions being secure we really wouldn't have the Internet as we know it today.</p>
+    <p>In upcoming lessons we will look at several different versions of cryptography, including the strong encryption that protects our Internet transactions.  But let’s begin here with a simple cipher, the <b><i>Caesar cipher</i></b>, so named because it was used by Julius Caesar in 1st century B.C. The following video will explain the basics of the Caesar cipher.   Click below to watch this presentation on Caesar Cipher.<br/>(<a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8/" target="_blank" title="">Slides - use 1-12</a>)</p>
     
 .. youtube:: mXx4G_x6OuY
         :width: 650
@@ -104,19 +105,12 @@ Part I: Introduction to Cryptography and the Caesar Cipher
 
 
     <br/>
-    
-
-Activity: Caesar Cipher
-------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Activity: Caesar Cipher</h3>
     (<a href="https://www.mobile-csp.org/webapps/crypto/caesar.html" target="_blank">Open widget in separate window</a>)
     
     <iframe height="300" src="https://www.mobile-csp.org/webapps/crypto/caesar.html" style="border: 0;" title="Caesar Cipher" width="650"></iframe>
     <ol>
-    <li>Use the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> to encrypt your name by hand using the cipher_alphabet below that is shift 3. Then use the widget above to check your answer.
+    <li>Use the Caesar cipher to encrypt your name by hand using the cipher_alphabet below that is shift 3. Then use the widget above to check your answer.
       <pre>PLAIN_ALPHABET:   abcdefghijklmnopqrstuvwxyz
     CIPHER_ALPHABET:  DEFGHIJKLMNOPQRSTUVWXYZABC</pre>
     </li>
@@ -124,29 +118,22 @@ Activity: Caesar Cipher
     <li>Create the CIPHER_ALPHABET that would result from a Caesar shift of 5. Use the widget above on some letters with shift 5 to check your answer.</li>
     <li>Try the self-check exercises below.</li>
     </ol>
+    <h3>Self-Check </h3>
     
-
-Self-Check 
-------------
-
-.. raw:: html
-
-    <p>
-    
-.. mchoice:: repl-mcsp-6-5-1
+.. mchoice:: mcsp-6-5-1
     :random:
     :practice: T
     :answer_a: a person who makes up secret codes
     :feedback_a: This is challenging, but rewarding!
     :answer_b: an algorithm that is used to scramble text so that it can be passed in secret
-    :feedback_b: That's right! A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, such as the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> converts <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> into <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> and vice versa.
+    :feedback_b: That's right! A cipher, such as the Caesar cipher, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A cipher converts plaintext into ciphertext and vice versa.
     :answer_c: a lock that can be used to lock a message in a lock box
     :feedback_c: This is challenging, but rewarding!
     :answer_d: any puzzle, such as a crossword or Sudoku puzzle
     :feedback_d: This is challenging, but rewarding!
     :correct: b
 
-    A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> is _________________________.
+    A cipher is _________________________.
 
 
 .. raw:: html
@@ -158,10 +145,10 @@ Self-Check
 
     <br/>
     
-.. fillintheblank:: repl-mcsp-6-5-2
+.. fillintheblank:: mcsp-6-5-2
     :casei:
 
-    Encrypt the word alphabet using a Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> with a shift of 3. Type your answer into the Textbox.  |blank|
+    Encrypt the word alphabet using a Caesar cipher with a shift of 3. Type your answer into the Textbox.  |blank|
 
     - :doskdehw: That's right! With a Caesar shift of 3, the 'alphabet' is encrypted into 'doskdehw'.
       :x: You're not quite there, yet. Give it another try; with a little more work you can figure this out! 
@@ -176,20 +163,20 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-6-5-3
+.. mchoice:: mcsp-6-5-3
     :random:
     :practice: T
-    :answer_a: transposition <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
+    :answer_a: transposition cipher
     :feedback_a: Don’t worry, it’s hard! Let’s go back and try it again...
-    :answer_b: bimodal <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
+    :answer_b: bimodal cipher
     :feedback_b: Don’t worry, it’s hard! Let’s go back and try it again...
-    :answer_c: substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
-    :feedback_c: That's right! A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, such as the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> converts <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> into <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> and vice versa.
-    :answer_d: substantial <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
+    :answer_c: substitution cipher
+    :feedback_c: That's right! A cipher, such as the Caesar cipher, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A cipher converts plaintext into ciphertext and vice versa.
+    :answer_d: substantial cipher
     :feedback_d: Don’t worry, it’s hard! Let’s go back and try it again...
     :correct: c
 
-    A Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> is an example of a ______________________.
+    A Caesar cipher is an example of a ______________________.
 
 
 .. raw:: html
@@ -201,10 +188,10 @@ Self-Check
 
     <br/>
     
-.. fillintheblank:: repl-mcsp-6-5-4
+.. fillintheblank:: mcsp-6-5-4
     :casei:
 
-    The following word was encrypted using a Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> with a shift of 2: ecguct. What word is it? Type your answer into the text box.  |blank|
+    The following word was encrypted using a Caesar cipher with a shift of 2: ecguct. What word is it? Type your answer into the text box.  |blank|
 
     - :caesar: That's right! With a shift of 2, the letter 'c' becomes 'e'. The letter 'a' becomes 'c', and so on giving caesar as the secret word.
       :x: 
@@ -218,19 +205,12 @@ Self-Check
 
 
     <br/>
-    
-
-Part II: Caesar Cipher App
----------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Part II: Caesar Cipher App</h3>
     <p>To get started click on this link to <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/CaesarApp/CaesarCipherTemplate.asc" target="_blank">open App Inventor and import the CaesarCipherTemplate</a>.   Use the Save As button to rename your project "CaesarCipherApp".</p>
-    <p>You are provided with a template that sets up the environment for implementing Caesar <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> and <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>.  Your task will be to implement the <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> <span class="hover vocab yui-wk-div" data-id='function'>function</span> following the tutorial and implement the  <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span> <span class="hover vocab yui-wk-div" data-id='function'>function</span> as an enhancement.</p>
+    <p>You are provided with a template that sets up the environment for implementing Caesar encryption and decryption.  Your task will be to implement the encryption function following the tutorial and implement the  decryption function as an enhancement.</p>
     <p>Programming constructs you will learn in building this app are: </p>
     <ul>
-    <li>Defining and using <span class="hover vocab yui-wk-div" data-id='local variables'>local variables</span>.</li>
+    <li>Defining and using local variables.</li>
     <li>Defining and using procedures with returns (functions).</li>
     <li>Using a for-range loop and an index to process a string of letters in a message.</li>
     <li>Using built-in Text functions to process a string of letters in a message.</li>
@@ -249,15 +229,8 @@ Part II: Caesar Cipher App
 
 
     <br/>
-    
-
-Functions and Local Variables
-------------------------------
-
-.. raw:: html
-
-    <p>
-    <p>This app makes use of <b><i>functions</i></b> and <i><b><span class="hover vocab yui-wk-div" data-id='local variables'>local variables</span></b></i>. A <b><span class="hover vocab yui-wk-div" data-id='function'>function</span></b> is a procedure that returns a value.  A <b>local variable</b>  (in contrast to a global variable) is one that has a limited <b>scope</b>, which means that it only exists and can only be used within a block of code, for example in a procedure or a <span class="hover vocab yui-wk-div" data-id='function'>function</span>. To help improve your understanding of these important programming concepts, there are several short (~ 1 minute) video tutorials <a href="http://mobile-csp.org/oneminutelessons/" target="_blank">available here</a>.</p>
+    <h3>Functions and Local Variables</h3>
+    <p>This app makes use of <b><i>functions</i></b> and <i><b>local variables</b></i>. A <b>function</b> is a procedure that returns a value.  A <b>local variable</b>  (in contrast to a global variable) is one that has a limited <b>scope</b>, which means that it only exists and can only be used within a block of code, for example in a procedure or a function. To help improve your understanding of these important programming concepts, there are several short (~ 1 minute) video tutorials <a href="http://mobile-csp.org/oneminutelessons/" target="_blank">available here</a>.</p>
     <p>In the AP exam, functions are represented in the following pseudocode compared to procedures and to App Inventor blocks:</p>
     <table border="">
     <tbody>
@@ -287,19 +260,12 @@ Functions and Local Variables
     </bl></div></td>
     <td><img src="../_static/assets/img/procedurewresult.png" width="100%"/></td></tr>
     </tbody></table>
-    
-
-Enhancements and Extensions
-----------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Enhancements and Extensions</h3>
     <ol>
-    <li><b>Decryption.</b> Implement the <i>caesarDecrypt</i> <span class="hover vocab yui-wk-div" data-id='function'>function</span> and the handler for the Decrypt button to enable the app to
-        perform <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>.  Decryption is the mirror image of <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>.  Whereas for <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>, you replace every character in the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span>  with the corresponding letter from the CIPHER_ALPHABET,  for <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span> your loop goes through the <b><span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span></b> and replaces every character with the corresponding letter from the <b>PLAIN_ALPHABET</b>. When you are testing this app, only type in lowercase letters in the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> textbox to encrypt, and only type in <b>uppercase letters</b> in the Ciphertext textbox to decrypt or inside ButtonDecrypt.Click, you could put the TextBoxCipherText.Text through the Text/upcase block before sending it to your decrypt <span class="hover vocab yui-wk-div" data-id='function'>function</span>.</li>
-    <li><b>Extend the Alphabet </b> As it is currently implemented, the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet consists only of lowercase letters 'a' through 'z'.  This means that digits (0 through 9) and uppercase letters ('A' through 'Z') are not encrypted.  That's a security flaw that makes it easier for Eve, the eavesdropper, to break the <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> and discover the secret message.  To fix this, extend the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet to include digits and UPPERCASE letters in any order. If you use the appropriate amount of abstraction, this should be a simple change to implement!</li>
-    <li><b>Challenging (Optional) </b> Preserving the blank spaces between words makes it easier for Eve the eavesdropper to crack the encrypted message.  To make this more difficult, write a <span class="hover vocab yui-wk-div" data-id='function'>function</span> that will take a sentence and output the letters in blocks of length 4 with all punctuation (i.e., all characters not in the PLAINTEXT alphabet) removed. For example, the <span class="hover vocab yui-wk-div" data-id='function'>function</span> would take  'this, is a test message!!' return '<b>this isat estm essa ge</b>'.</li>
+    <li><b>Decryption.</b> Implement the <i>caesarDecrypt</i> function and the handler for the Decrypt button to enable the app to
+        perform decryption.  Decryption is the mirror image of encryption.  Whereas for encryption, you replace every character in the plaintext  with the corresponding letter from the CIPHER_ALPHABET,  for decryption your loop goes through the <b>ciphertext</b> and replaces every character with the corresponding letter from the <b>PLAIN_ALPHABET</b>. When you are testing this app, only type in lowercase letters in the plaintext textbox to encrypt, and only type in <b>uppercase letters</b> in the Ciphertext textbox to decrypt or inside ButtonDecrypt.Click, you could put the TextBoxCipherText.Text through the Text/upcase block before sending it to your decrypt function.</li>
+    <li><b>Extend the Alphabet </b> As it is currently implemented, the plaintext alphabet consists only of lowercase letters 'a' through 'z'.  This means that digits (0 through 9) and uppercase letters ('A' through 'Z') are not encrypted.  That's a security flaw that makes it easier for Eve, the eavesdropper, to break the cipher and discover the secret message.  To fix this, extend the plaintext alphabet to include digits and UPPERCASE letters in any order. If you use the appropriate amount of abstraction, this should be a simple change to implement!</li>
+    <li><b>Challenging (Optional) </b> Preserving the blank spaces between words makes it easier for Eve the eavesdropper to crack the encrypted message.  To make this more difficult, write a function that will take a sentence and output the letters in blocks of length 4 with all punctuation (i.e., all characters not in the PLAINTEXT alphabet) removed. For example, the function would take  'this, is a test message!!' return '<b>this isat estm essa ge</b>'.</li>
     </ol>
     
 
@@ -360,25 +326,19 @@ Self-Check
     
     
     
+    .. quizly:: mscp-6-5-5
     
-.. quizly:: repl-mscp-6-5-5
-    
-    
-    :quizname: quiz_hello_function
+        :quizname: quiz_hello_function
     
     
+    .. quizly:: mscp-6-5-6
     
-.. quizly:: repl-mscp-6-5-6
-    
-    
-    :quizname: quiz_double_function
+        :quizname: quiz_double_function
     
     
+    .. quizly:: mscp-6-5-7
     
-.. quizly:: repl-mscp-6-5-7
-    
-    
-    :quizname: quiz_function_square
+        :quizname: quiz_function_square
     
     </p>
     <br/>

@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-Hardware Abstractions:  Logic Gates
-===================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+Hardware Abstractions  Logic Gates
+==================================
 
 .. raw:: html
 
@@ -49,8 +49,8 @@ Hardware Abstractions:  Logic Gates
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Introduction
--------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -63,12 +63,12 @@ Introduction
      </p>
     
 
-Lecture
---------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Lecture</h3>
     <!-- Need to upload the revised video to teacher tube --------
     (&lt;a target=&quot;_blank&quot; href=&quot;http://www.teachertube.com/video/hardwaresecondlook-348091&quot;&gt;Teacher Tube version&lt;/a&gt;)
     -->
@@ -84,14 +84,7 @@ Lecture
     <p></p>
     </div>
 
-    
-
-Logicly Activity
------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Logicly Activity</h3>
     <p><a href="http://logic.ly/demo" target="_blank">Logicly</a> provides an 
       
       engaging, hands-on learning environment for teaching logic gates and circuits.  It
@@ -188,14 +181,7 @@ Logicly Activity
     </li>
     </ol>
     </div>
-    
-
-AP CSP Pseudocode Logical Operators
-------------------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>AP CSP Pseudocode Logical Operators</h3>
     
     In App Inventor and in the AP CSP pseudocode, the logical operators AND, OR, and NOT can be used to combine boolean expressions in programming, and they behave in the same way that the AND, OR, and NOT logic gates behave in computer hardware. The exam reference sheet provides the definitions for the following logical operators where the condition can be a single boolean value or a boolean expression made up of other values and operators.
     <ul>
@@ -242,7 +228,7 @@ Self-Check
     </tbody>
     </table>
     
-.. mchoice:: repl-mcsp-2-10-1
+.. mchoice:: mcsp-2-10-1
     :random:
     :practice: T
     :answer_a: the gate will be TRUE (or ON) when either A or B is TRUE (or ON).
@@ -267,7 +253,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-2-10-2
+.. mchoice:: mcsp-2-10-2
     :random:
     :practice: T
     :answer_a: both inputs must always have the same value for the gate to be TRUE (or ON).
@@ -292,7 +278,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-2-10-3
+.. mchoice:: mcsp-2-10-3
     :random:
     :practice: T
     :answer_a: RAM chip, motherboard, logic gate, physical circuit 
@@ -317,7 +303,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-2-10-4
+.. mchoice:: mcsp-2-10-4
     :random:
     :practice: T
     :answer_a: True
@@ -338,7 +324,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-2-10-5
+.. mchoice:: mcsp-2-10-5
     :random:
     :practice: T
     :answer_a: True
@@ -359,7 +345,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-2-10-6
+.. mchoice:: mcsp-2-10-6
     :random:
     :practice: T
     :answer_a: The dictionary definition of the word 'chair'.
@@ -384,7 +370,7 @@ Self-Check
 
     <h3>Sample AP CSP Exam Questions</h3>
     
-.. mchoice:: repl-mcsp-2-10-7
+.. mchoice:: mcsp-2-10-7
     :random:
     :practice: T
     :answer_a: (A) Input A must be <i>true</i>.
@@ -399,6 +385,10 @@ Self-Check
 
     
 
+    .. raw:: html
+
+        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.PNG"/>
+
 
 .. raw:: html
 
@@ -407,7 +397,7 @@ Self-Check
     </div>
 
     
-.. mchoice:: repl-mcsp-2-10-8
+.. mchoice:: mcsp-2-10-8
     :random:
     :practice: T
     :answer_a: (A) (onFloor1 AND callTo2) AND (onFloor2 AND callTo1)
@@ -421,6 +411,10 @@ Self-Check
     :correct: b
 
     An office building has two floors. A computer program is used to control an elevator that travels between the two floors. Physical sensors are used to set the following Boolean variables.The elevator moves when the door is closed and the elevator is called to the floor that it is not currently on. Which of the following Boolean expressions can be used in a selection statement to cause the elevator to move?
+
+    .. raw:: html
+
+        <img alt="" class="yui-img" src="../_static/assets/img/Q21Table.PNG" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html

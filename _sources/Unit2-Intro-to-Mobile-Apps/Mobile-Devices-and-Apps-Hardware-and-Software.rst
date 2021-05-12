@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-Mobile Devices and Apps: Hardware and Software
-==============================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+Mobile Devices and Apps Hardware and Software
+=============================================
 
 .. raw:: html
 
@@ -56,25 +56,25 @@ Mobile Devices and Apps: Hardware and Software
     
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
+    <p>
     
 
-What is a Computer?
+Learning Activities
 --------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>What is a Computer?</h3>
     <p>A computing device is an electronic device for storing and processing data by following instructions given to it in a program. Mobile devices – smart phones and tablets – are <b><i>general purpose computers</i></b>. Like desktop and laptop computers, these general purpose computers can run different programs or apps. This contrasts with <b><i>special purpose computers</i></b> which can run only a single set program. Examples of special purpose computers include a simple non-programmable calculator, a microwave oven, a smart thermostat, and a car's anti-lock braking system.<br/><br/>This lesson focuses on the basic <b>hardware</b> and <i><b>software</b></i> that work together to enable our mobile devices to run the amazing apps that we'll be building. As beginning programmers, it's important that we understand how the programs we write are interpreted and processed by the computer.</p>
     <h3>Binary Code</h3>
     <p>As you will learn in this lesson, computers understand binary code or machine language. Binary code consists of 0s and 1s. One binary digit is called a <i>bit</i>. A group of eight bits is referred to as a <i>byte</i>. One byte of memory takes about the same amount of memory as a character, such as the letter 't'. You will learn more about binary in future lessons, including how to convert binary numbers into decimal numbers and how to convert binary numbers into colors or characters.</p>
-    
-
-Mobile Apps and Devices
-------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Mobile Apps and Devices</h3>
     <p>If you are unable to stream the YouTube video, click here for a <a href="http://www.teachertube.com/video/mobileappsanddevices-348078" target="_blank">Teacher Tube version</a>. Follow along with the text-version <a href="https://docs.google.com/presentation/d/1Nn9Y1CupKELEJhR6RnFO-MNKDwvGg3MyGkgthTwrK2o" target="_blank" title="">Slides</a>.</p>
     
 .. youtube:: b424kFZDjIw
@@ -89,14 +89,7 @@ Mobile Apps and Devices
     </div>
 
 
-    
-
-Vocabulary
------------
-
-.. raw:: html
-
-    <p>
+    <h3>Vocabulary</h3>
     
     Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
     
@@ -124,14 +117,7 @@ Vocabulary
     </tr>
     </tbody>
     </table>
-    
-
-Activity
----------
-
-.. raw:: html
-
-    <p>
+    <h3>Activity</h3>
     <p>Working in pairs, quiz each other on the vocabulary words above or complete the following <a href="https://docs.google.com/drawings/d/1l50CFlksBCdfjfmwkyCvsYo0mEZ5BzyTxOABXkS0vr4/copy" target="_blank">interactive worksheet</a> to match some of the vocabulary to a picture of a computer system or this
        <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/edit" target="_blank">computer terms matching worksheet</a>.</p>
     
@@ -154,7 +140,7 @@ Self-Check
 
     <p>
     
-.. mchoice:: repl-mcsp-2-5-1
+.. mchoice:: mcsp-2-5-1
     :random:
     :practice: T
     :answer_a: Memory chip
@@ -178,7 +164,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-5-2
+.. mchoice:: mcsp-2-5-2
     :random:
     :practice: T
     :answer_a: Microsoft Excel
@@ -202,7 +188,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-5-3
+.. mchoice:: mcsp-2-5-3
     :random:
     :practice: T
     :answer_a: CPU
@@ -226,7 +212,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-5-4
+.. mchoice:: mcsp-2-5-4
     :random:
     :practice: T
     :answer_a: To carry out, or process, the instructions in a computer program. 
@@ -250,7 +236,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-5-5
+.. mchoice:: mcsp-2-5-5
     :random:
     :practice: T
     :answer_a: low-level languages are easier for humans to understand
@@ -274,7 +260,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-5-6
+.. mchoice:: mcsp-2-5-6
     :random:
     :practice: T
     :answer_a: It stores data. 
@@ -298,7 +284,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-5-7
+.. mchoice:: mcsp-2-5-7
     :random:
     :practice: T
     :answer_a: True

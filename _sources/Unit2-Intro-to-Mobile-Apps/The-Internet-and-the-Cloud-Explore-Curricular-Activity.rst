@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-The Internet and the Cloud - Explore Curricular Activity
-========================================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+The Internet and the Cloud  Explore Curricular Activity
+=======================================================
 
 .. raw:: html
 
@@ -51,8 +51,8 @@ The Internet and the Cloud - Explore Curricular Activity
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Introduction
--------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -71,12 +71,12 @@ Introduction
       later in the course will go into greater detail in explaining how the Internet works and explore cybersecurity.</p>
     
 
-Video: The Internet and World Wide Web
----------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Video: The Internet and World Wide Web</h3>
     <p><a href="https://docs.google.com/document/d/1vCnh_0xrVIhhNW9ve6ngLeoNfzEVPCj8HleS_9dlPu0/edit" target="_blank">Guided Worksheet:</a> answer these questions as you watch the video<br/>
     <a href="https://docs.google.com/presentation/d/1AxexCFAWMwo1qckAa2CK-_m-6Y62wBQtOhc4um_uhuU" target="_blank">Slides: Internet and WWW</a></p>
     
@@ -138,14 +138,7 @@ Video: The Internet and World Wide Web
     </tr>
     </tbody></table>
     <br/>
-    
-
-Explore Curricular Activity: Beneficial and Harmful Effects of Computing Innovations
--------------------------------------------------------------------------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Explore Curricular Activity: Beneficial and Harmful Effects of Computing Innovations</h3>
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (25 minutes)</h3>
     <p>
@@ -297,7 +290,7 @@ Self-Check
     <p>
     <p>Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.<br/>
     
-.. mchoice:: repl-mcsp-2-6-1
+.. mchoice:: mcsp-2-6-1
     :random:
     :practice: T
     :answer_a: True
@@ -317,7 +310,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-6-2
+.. mchoice:: mcsp-2-6-2
     :random:
     :practice: T
     :answer_a: is a network of networks 
@@ -341,7 +334,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-6-3
+.. mchoice:: mcsp-2-6-3
     :random:
     :practice: T
     :answer_a: is a system of interlinked hypertext documents 
@@ -365,7 +358,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-6-4
+.. mchoice:: mcsp-2-6-4
     :random:
     :practice: T
     :answer_a: Twitter
@@ -393,7 +386,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-6-5
+.. mchoice:: mcsp-2-6-5
     :random:
     :practice: T
     :answer_a: a. Cloud computing relieves users from having to backup their own data and information. 

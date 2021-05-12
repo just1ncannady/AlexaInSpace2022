@@ -172,6 +172,88 @@ def remove_scripts(scripts):
     if script.has_attr('src'):
       script.extract()
 
+# Constructs new lesson structure...
+#   - Introduction and Goals section at the top
+#   - Learning Activities section
+#   - Individual activities are h3 elements
+# @param lesson_html: the gcb-lesson-content element
+# @param soup: beautiful soup object
+def construct_new_structure(lesson_html, soup):
+  # no h2 elements --> it's an overview...abort!
+  if len(lesson_html.find_all('h2')) == 0:
+    return
+  
+  # all lesson content contained within the last element of the gcb-lesson-content
+  lesson_content = lesson_html.contents[len(lesson_html)-1]
+  
+  # h2 elements
+  sections = lesson_content.find_all('h2')
+  
+  # abort if no h2 elements (i.e., overview lesson page)
+  if len(sections) == 0:
+    return
+  
+  #--- Introduction and Goals section to start lesson
+  if 'Introduction' in str(sections[0].string) or 'Preview' in str(sections[0].string):
+    # replace with new heading
+    sections[0].string = 'Introduction and Goals'
+    
+  else: 
+    # create new h2 element for Introduction and Goals
+    ig_element = soup.new_tag("h2")
+    ig_element.string = "Introduction and Goals"
+
+    # insert after Time Estimate
+    lesson_content.find('h3', {'id':'est-length'}).insert_after(ig_element)
+    
+    #refresh h2 element list
+    sections = lesson_content.find_all('h2')
+
+  # --- Create Learning Activities sections
+  # start looking for activities after Introduction and Goals section
+  l = 1
+  
+  # lesson activities end when standard section is encountered (accounting for lessons potentially missing curious/summary)
+  std_sections = ['Summary', 'Still Curious?', 'Self-Check']
+  end_activities = sections[l].string in std_sections
+  
+  if(not end_activities):
+    # add Learning Activities h2 element
+    act_h2 = lesson_content.find_all('h2', string='Activities')
+    if(len(act_h2) > 0):
+      act_h2[0].string = 'Learning Activities'
+    else:
+      # create new h2 element for Learning Activities
+      la_element = soup.new_tag("h2")
+      la_element.string = "Learning Activities"
+
+      # insert before the next h2 element
+      sections[l].insert_before(la_element)
+
+      #refresh h2 element list
+      sections = lesson_content.find_all('h2')
+
+    # make each activity a sub-section to Learning Activities (i.e., h3 element)
+    while not end_activities and l < len(sections):
+      
+      # - don't other if the h2 is empty
+      if(sections[l].string != None):
+        # - no more activities in lesson
+        if(sections[l].string in std_sections):
+          end_activities = True
+        
+        # - don't change the Learning Activities heading we just created!
+        elif(sections[l].string != 'Learning Activities'):
+          
+          # create new h3
+          h3_element = soup.new_tag('h3')
+          h3_element.string = sections[l].string
+
+          # replace h2 with h3
+          sections[l].replace_with(h3_element)
+
+      l += 1
+
 # Removes a couple of incomplete <link> tags
 def remove_links(link):
   if link == None:
@@ -316,6 +398,13 @@ def scrape_and_build_rst(src_page):
   fix_portfolio_iframe(lesson_content)
   fix_assets_links(lesson_content)
   
+  #TO DO: Remove heading images. Replaced by CSS rules
+  
+  # Implement new lesson structure...except in Wrap Up Lessons
+  titletag = soup.find('h1', attrs={'class':'gcb-lesson-title'})
+  if 'Wrap Up' not in str(titletag):
+    construct_new_structure(lesson_content, soup)
+  
   # Connvert the non-quizly quiz questions 
   quiz_questions = lesson_content.find_all('div', {"class" : "gcb-border-box"})
   convert_gcb2rst(quiz_questions)
@@ -378,7 +467,7 @@ def scrape_and_build_rst(src_page):
   rst_page = clean_rst
       
   # The completed page
-  print(rst_page)
+  #print(rst_page)
 
   # write in a file
   out_path = os.path.relpath(OUT_FOLDER+filename, CUR_PATH)
@@ -393,7 +482,7 @@ def scrape_and_build_rst(src_page):
 
 # Read lesson URLs from file
 urls=''
-urls_file = "mcsp-urls_Unit3.txt"
+urls_file = "mcsp-urls_Unit7.txt"
 #urls_file = "mcsp-urls_Unit2.txt"
 with open(urls_file) as file:
   urls = file.readlines()

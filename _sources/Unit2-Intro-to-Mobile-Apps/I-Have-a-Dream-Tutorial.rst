@@ -1,8 +1,6 @@
-.. raw:: html
+.. raw:: html 
 
-   <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
-   
-
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 I Have a Dream Tutorial
 =======================
@@ -49,9 +47,7 @@ I Have a Dream Tutorial
         
       };*/
     </script>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/time.png" style="float:left" width="25"/>
-    <h3>Time Estimate: 45 minutes</h3>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/introandgoalsicon.png" style="float:left" width="25">
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -86,12 +82,10 @@ Introduction and Goals
     </td></tr>
     </tbody></table>
     <br/>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/learningactivities.png?seed=68232&amp;url=assets/img/learningactivities.png" style="float:left" width="25"/>
     
 
 Learning Activities
 --------------------
-
 .. raw:: html
 
     <p>
@@ -124,7 +118,6 @@ Learning Activities
     Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <span class="hover vocab yui-wk-div" data-id="Input">input</span> from the users and displaying <span class="hover vocab yui-wk-div" data-id="Output">output</span><br/> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
     <p>Designing a good <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span> for a program is very important! User Experience (UX) designers are very much in demand. Most programs and apps these days are <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>, which means they display the UI and wait for a <span class="hover vocab yui-wk-div" data-id="User Events">user event</span>, for example for the user to touch a button as input.  In event-driven programming, program statements are executed when triggered rather than through the sequential flow of control.
     Events are triggered when a key is pressed, a mouse is clicked, a program is started by another application, etc., and they supply input data to a program and trigger different blocks of code in the program that influence its behavior.  A program needs to work for a variety of inputs and situations!</p>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/summary.png" style="float:left" width="25"/>
     
 
 Summary
@@ -137,7 +130,6 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     <br/>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/brain.png" style="float:left" width="25"/>
     
 
 Still Curious?
@@ -146,7 +138,6 @@ Still Curious?
 .. raw:: html
 
     <p>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/target.png" style="float:left" width="25"/>
     
 
 Self-Check
@@ -176,7 +167,7 @@ Self-Check
     <h3>Check Your Understanding</h3>
     <p>Complete the following self-check exercises. Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.</p>
     
-.. mchoice:: repl-mcsp-2-2-1
+.. mchoice:: mcsp-2-2-1
     :random:
     :practice: T
     :answer_a: tactile
@@ -199,7 +190,7 @@ Self-Check
     </div>
 
 
-.. mchoice:: repl-mcsp-2-2-2
+.. mchoice:: mcsp-2-2-2
     :random:
     :practice: T
     :answer_a: tactile
@@ -222,7 +213,7 @@ Self-Check
     </div>
 
 
-.. mchoice:: repl-mcsp-2-2-3
+.. mchoice:: mcsp-2-2-3
     :random:
     :practice: T
     :answer_a: A cloud application
@@ -246,7 +237,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-4
+.. mchoice:: mcsp-2-2-4
     :random:
     :practice: T
     :answer_a: A button that appears on the screen. 
@@ -272,7 +263,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-5
+.. mchoice:: mcsp-2-2-5
     :random:
     :practice: T
     :answer_a: The User Interface drawer
@@ -296,7 +287,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-6
+.. mchoice:: mcsp-2-2-6
     :random:
     :practice: T
     :answer_a: Button
@@ -322,7 +313,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-7
+.. mchoice:: mcsp-2-2-7
     :random:
     :practice: T
     :answer_a: The user taps on the screen.
@@ -348,18 +339,14 @@ Self-Check
 
 
     
+    .. quizly:: mscp-2-2-8
     
-.. quizly:: repl-mscp-2-2-8
-    
-    
-    :quizname: quiz_pause_the_player
+        :quizname: quiz_pause_the_player
     
     
+    .. quizly:: mscp-2-2-9
     
-.. quizly:: repl-mscp-2-2-9
-    
-    
-    :quizname: quiz_button_click_stop_player
+        :quizname: quiz_button_click_stop_player
     
     
 
@@ -373,4 +360,4 @@ Reflection: For Your Portfolio
     <p>If you are using a Google Sites portfolio, see the videos on the <a href="https://sites.google.com/site/mobilecspportfoliohelp/home/portfolio-help" target="_blank">portfolio help page</a> on how to embed your google document in your web page.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQK2N8f05DkZyvrk6AQdJQBXffYaEfsNxYpEFAhJp7GE2cleEs-sbeQ5OSXVMVEhsMZLd2CPw6AKBHs/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     </div>
-    </img></div>
+    </div>

@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
+
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Representing Images
 ===================
@@ -48,8 +48,8 @@ Representing Images
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
-Preview
---------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -129,12 +129,12 @@ Preview
     </div>
     
 
-Run-Length Encoding
+Learning Activities
 --------------------
 
 .. raw:: html
 
-    <p><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of RLE image compression (an example of <b><i>lossless compression</i></b>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
+    <p><h3>Run-Length Encoding</h3><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of RLE image compression (an example of <b><i>lossless compression</i></b>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
 .. youtube:: xn3-BAiaJ1k
         :width: 650
         :height: 415
@@ -154,14 +154,7 @@ Run-Length Encoding
     <li>Lossy data compression algorithms can usually reduce the number of bits stored or transmitted more than lossless compression algorithms.</li>
     </ul>
     <div class="pogil yui-wk-div">
-    
-
-Other Activities
------------------
-
-.. raw:: html
-
-    <p>
+    <h3>Other Activities</h3>
     <p>Your teacher may ask you to do some of the following activities in POGIL teams or pairs.
     </p><ol>
     <li>
@@ -292,7 +285,7 @@ Self-Check
     </tbody>
     </table>
     
-.. fillintheblank:: repl-mcsp-3-3-1
+.. fillintheblank:: mcsp-3-3-1
     :casei:
 
     In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its RLE compression? You can use the interactive pixel grid above under Practice or in another tab to work this out.1, 4, 21, 1, 3, 1, 11, 1, 3, 1, 11, 5, 11, 1, 4, 11, 1, 4, 11, 1, 4, 11, 5, 1 |blank|
@@ -310,7 +303,7 @@ Self-Check
 
     <br/>
     
-.. mchoice:: repl-mcsp-3-3-2
+.. mchoice:: mcsp-3-3-2
     :random:
     :practice: T
     :answer_a: 1, 1, 1<br>0, 3<br>0, 3<br>1, 1, 1<br>1, 1, 1<br>1, 1, 1<br>1, 1, 1<br>1, 1, 1<br>1, 1, 1<br>
@@ -339,7 +332,7 @@ Sample AP CSP Exam Question
 .. raw:: html
 
     <p>
-.. mchoice:: repl-mcsp-3-3-3
+.. mchoice:: mcsp-3-3-3
     :random:
     :practice: T
     :answer_a: (A) Data compression is only useful for files being transmitted over the Internet.

@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-Binary Numbers (REVISED)
-========================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+Binary Numbers REVISED
+======================
 
 .. raw:: html
 
@@ -48,8 +48,8 @@ Binary Numbers (REVISED)
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
-Introduction
--------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -74,12 +74,12 @@ Introduction
     <div>(<a href="http://www.teachertube.com/video/binaryintrol-348081" target="_blank">Teacher Tube version</a>)</div>
     
 
-Video: Counting in Binary
---------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Video: Counting in Binary</h3>
     <p>Do you get the joke at the beginning this lesson?  If not, you'll certainly get it
     after watching this video from the <a href="http://csunplugged.org/" target="_blank">Computer Science 
     Unplugged</a>, which illustrates how the binary number system works. </p>
@@ -96,14 +96,7 @@ Video: Counting in Binary
     </div>
 
 
-    
-
-Activities: Decimal and Binary Odometers
------------------------------------------
-
-.. raw:: html
-
-    <p> 
+    <h3>Activities: Decimal and Binary Odometers</h3> 
     
     Your teacher may choose to have you do some or all of the activities below:
     <ol>
@@ -126,7 +119,7 @@ Self-Check
 
     <p>
     
-.. mchoice:: repl-mcsp-2-9-1
+.. mchoice:: mcsp-2-9-1
     :random:
     :practice: T
     :answer_a: 5
@@ -150,7 +143,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-9-2
+.. mchoice:: mcsp-2-9-2
     :random:
     :practice: T
     :answer_a: Trying to represent 15 in 4 bits. 
@@ -174,7 +167,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-9-3
+.. mchoice:: mcsp-2-9-3
     :random:
     :practice: T
     :answer_a: True.
@@ -235,11 +228,17 @@ Activities: Converting Binary to Decimal
         <iframe height="400" instanceid="wGiqDDS5BAH1" src="https://mobile-csp.org/webapps/numbers/binaryConverter.html" title="" width="650"></iframe>
     </li>
     <li>Use the algorithm described in the video with this interactive Khan Academy component to convert binary to decimal.<br/>
-
-.. khanex:: kex1
-   
-   :exercise: binary-to-decimal
-
+    <div style="width: 450px;">
+      Khan Academy Exercise: binary-to-decimal
+      <br/>
+    <script>
+        // customize the style of the exercise iframe
+        var ity_ef_style = "width: 750px;";
+      </script>
+    </div>
+    </li>
+    </ol>
+    
 
 Video: Converting Decimal to Binary
 ------------------------------------
@@ -278,13 +277,14 @@ Activities: Converting Decimal to Binary
     <li>Complete the first two columns in the second page of the  <a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank">binary/hex worksheet</a> that you may have printed out in the last activity. (Skip over rows that do not have anything written in the decimal or binary columns. You will finish the hex column of this worksheet in the next section). If you print this out double-sided, you can cut the 1's into tabs and flip them over to create a paper binary converter tool to help you with your calculations.
         
     </li><li>Use the algorithm described in the video with this interactive Khan Academy component to convert decimal to binary.<br/>
-
-.. khanex:: kex2
-
-   :exercise: decimal-to-binary
-
-.. raw:: html
-
+    <div style="width: 450px;">
+      Khan Academy Exercise: decimal-to-binary
+      <br/>
+    <script>
+        // customize the style of the exercise iframe
+        var ity_ef_style = "width: 750px;";
+      </script>
+    </div>
     </li>
     </ol>
     <p>
@@ -388,7 +388,7 @@ Self-Check
     </tr>
     </tbody>
     </table>
-.. mchoice:: repl-mcsp-2-9-4
+.. mchoice:: mcsp-2-9-4
     :random:
     :practice: T
     :answer_a: (A) 1001 0100

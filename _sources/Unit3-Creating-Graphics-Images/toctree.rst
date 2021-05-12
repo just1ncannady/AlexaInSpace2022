@@ -1,6 +1,6 @@
-.. image:: ../../_static/MobileCSPLogo.png
-	:width: 250
-	:align: center
+.. raw:: html 
+
+	<a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Creating Graphics & Images Bit by Bit
 :::::::::::::::::::::::::::::::::::::::
@@ -16,7 +16,7 @@ Creating Graphics & Images Bit by Bit
 	Paint-Pot-Projects.rst
 	Paint-Pot-Refactoring-and-Procedural-Abstraction.rst
 	Error-Detection.rst
-	Parity-Error-Checking-(optional).rst
+	Parity-Error-Checking-optional.rst
 	Map-Tour-Tutorial.rst
 	Map-Tour-With-TinyDB.rst
 	Impacts-of-CS-Electronic-Documents.rst

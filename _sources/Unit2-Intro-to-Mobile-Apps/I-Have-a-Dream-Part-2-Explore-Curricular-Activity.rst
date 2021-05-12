@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-I Have a Dream, Part 2 - Explore Curricular Activity
-====================================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+I Have a Dream Part 2  Explore Curricular Activity
+==================================================
 
 .. raw:: html
 
@@ -43,6 +43,13 @@ I Have a Dream, Part 2 - Explore Curricular Activity
       };*/
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
+    <p>
     <table><tbody>
     <tr><td>
     <iframe allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/CykBbRvB0lk" width="400"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
@@ -59,25 +66,18 @@ I Have a Dream, Part 2 - Explore Curricular Activity
       </li><li>Understand what a computing innovation is</li></ul>
     <p></p>
     </td></tr></tbody></table>
-    <h2></h2>
+    
 
-If/Else Selection Blocks
--------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h2></h2><h3>If/Else Selection Blocks</h3>
     <p>The <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html#if" target="_blank">if block</a> in App Inventor can be used to choose between different actions.  All programming languages have something like if blocks, called selection or conditional algorithms, to make decisions based on a condition. In this version of the app, we want to use the buttons to toggle playing and pausing the speeches. When a button is clicked, if that speech is already playing, we want to pause the speech. If it is paused, we want to start playing it again. To do this, we need to use an If block from the Control drawer of the block editor. This block has a blue mutator button where we can drag in an else block to make the block into an If/Else block which will allow us to choose between 2 actions (pause or play) depending on if the speech is already playing.</p><p>
     <img src="../_static/assets/img/IfElseAnimated.gif" style="width:60%"/>
     <br/>
-    </p>
-
-Tutorial
----------
-
-.. raw:: html
-
-    <p>
+    </p><h3>Tutorial</h3>
     <p><img src="../_static/assets/img/changeEmbeddedTutorial.gif" style="width:180px;float:right;"/>
       To get started, <a href="http://ai2.appinventor.mit.edu" target="_blank">open App Inventor</a>
      in a separate tab and log in and open your own project from the previous I Have a Dream lesson. Follow along with your teacher or the following video tutorial or the <a href="https://drive.google.com/open?id=142GsbdyLdww30yb5WLqA-Nmej53povgD4eCStG69ESg" target="_blank" title="">text tutorial</a> or the <a href="https://docs.google.com/document/d/1-mEg1OTpFWDq2UF86NWNwNozlU-roQYCxzovpcT88jU/edit?usp=sharing" target="_blank" title="">short handout</a>. You could also use <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> to do this tutorial in teams of two. If you'd like to use an embedded tutorial for this App Inventor project, scroll down in your Screen properties to find the <b>TutorialURL</b> property and paste in http://templates.appinventor.mit.edu/trincoll/csp/tutorials/IHaveADreamPart2.html or change IHaveADream.html to IHaveADream<b>Part2</b>.html. </p>
@@ -93,14 +93,7 @@ Tutorial
     <p></p>
     </div>
 
-    
-
-Explore Curricular Activity: Computing Innovations and Collaboration
----------------------------------------------------------------------
-
-.. raw:: html
-
-    <p>Discuss the following two paragraphs with your classmate(s) and/or a friend. You can use this <a href="https://docs.google.com/document/d/1Y_LDNnjXkmj-RzOM3dlIkcvmUjP8KUWlSlE2aVdiCJY/copy" target="_blank" title="">Notes Worksheet</a> to help guide your discussion. Check with your instructor to see if they have additional worksheets or activities for you to complete.<br/><br/>With the expansion of computers and the Internet, every day new computing innovations are being developed. A <b>computing innovation</b> includes a program as an integral part of its function. The purpose of computing innovations is to solve problems or to pursue interests through creative expression. Understanding the purpose of a computing innovation provides developers with an improved ability to develop that computing innovation. Additionally, a computing innovation can be physical, non-physical computing software, or non-physical computing concepts. For example, self-driving cars, picture editing software, e-commerce. In this lesson, we're also creating a mobile app, which is certainly an example of a computing innovation. Can you think of other examples of computing innovations? Can you identify the function or purpose of each of those computing innovations?<br/><br/>Computing innovations, such as the I Have a Dream mobile app, are often improved through collaboration. Most computing innovations are developed by groups or teams of developers. Effective collaboration can take many forms. It can range from working with a diverse group of people to create or modify the computing innovation to consulting and communicating with users as part of the development process of the computing innovations (e.g. gathering information from potential users of your app to help understand the program from diverse perspectives). In the end, effective collaboration produces a computing innovation that reflects the diversity of talents and perspectives of those who designed it. Collaboration that includes diverse perspectives is important because it helps avoid bias in the development of computing innovations. One model to help facilitate collaboration is <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a>. This course emphasizes collaboration, so there will be plenty of opportunities for pair programming when developing apps in the course. <br/>
+    <h3>Explore Curricular Activity: Computing Innovations and Collaboration</h3>Discuss the following two paragraphs with your classmate(s) and/or a friend. You can use this <a href="https://docs.google.com/document/d/1Y_LDNnjXkmj-RzOM3dlIkcvmUjP8KUWlSlE2aVdiCJY/copy" target="_blank" title="">Notes Worksheet</a> to help guide your discussion. Check with your instructor to see if they have additional worksheets or activities for you to complete.<br/><br/>With the expansion of computers and the Internet, every day new computing innovations are being developed. A <b>computing innovation</b> includes a program as an integral part of its function. The purpose of computing innovations is to solve problems or to pursue interests through creative expression. Understanding the purpose of a computing innovation provides developers with an improved ability to develop that computing innovation. Additionally, a computing innovation can be physical, non-physical computing software, or non-physical computing concepts. For example, self-driving cars, picture editing software, e-commerce. In this lesson, we're also creating a mobile app, which is certainly an example of a computing innovation. Can you think of other examples of computing innovations? Can you identify the function or purpose of each of those computing innovations?<br/><br/>Computing innovations, such as the I Have a Dream mobile app, are often improved through collaboration. Most computing innovations are developed by groups or teams of developers. Effective collaboration can take many forms. It can range from working with a diverse group of people to create or modify the computing innovation to consulting and communicating with users as part of the development process of the computing innovations (e.g. gathering information from potential users of your app to help understand the program from diverse perspectives). In the end, effective collaboration produces a computing innovation that reflects the diversity of talents and perspectives of those who designed it. Collaboration that includes diverse perspectives is important because it helps avoid bias in the development of computing innovations. One model to help facilitate collaboration is <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a>. This course emphasizes collaboration, so there will be plenty of opportunities for pair programming when developing apps in the course. <br/>
     
 
 Summary
@@ -131,7 +124,7 @@ Self-Check
     </td></tr>
     </tbody></table>
     
-.. mchoice:: repl-mcsp-2-4-1
+.. mchoice:: mcsp-2-4-1
     :random:
     :practice: T
     :answer_a: A mobile app
@@ -153,7 +146,7 @@ Self-Check
     <p></p>
     </div>
 
-.. mchoice:: repl-mcsp-2-4-2
+.. mchoice:: mcsp-2-4-2
     :random:
     :practice: T
     :answer_a:  "if" blocks are used because there are two speeches to choose from.
@@ -177,7 +170,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-4-3
+.. mchoice:: mcsp-2-4-3
     :random:
     :practice: T
     :answer_a: Button1
@@ -201,7 +194,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-4-4
+.. mchoice:: mcsp-2-4-4
     :random:
     :practice: T
     :answer_a: True
@@ -221,18 +214,14 @@ Self-Check
 
 
     
+    .. quizly:: mscp-2-4-6
     
-.. quizly:: repl-mscp-2-4-6
-    
-    
-    :quizname: quiz_stop_player_if_playing
+        :quizname: quiz_stop_player_if_playing
     
     
+    .. quizly:: mscp-2-4-7
     
-.. quizly:: repl-mscp-2-4-7
-    
-    
-    :quizname: quiz_if_else_stop_start_player
+        :quizname: quiz_if_else_stop_start_player
     
     
 
@@ -243,7 +232,7 @@ Sample AP CSP Exam Question
 
     <p>
     In the sample AP exam below, <span style="font-style: italic;">absent </span>and <span style="font-style: italic;">onTime</span> are variables that can be true or false, just like <i>Player1.IsPlaying </i>could be true or false in the if blocks in the I Have a Dream app. They are both false in this question. This question uses nested if blocks where a second if block is inside the else of the first if block. <br/>
-.. mchoice:: repl-mcsp-2-4-5
+.. mchoice:: mcsp-2-4-5
     :random:
     :practice: T
     :answer_a: (A) Is anyone there?
@@ -257,6 +246,10 @@ Sample AP CSP Exam Question
     :correct: b
 
     Consider the code segment below.If the variables onTime and absent both have the value false, what is displayed as a result of running the code segment?
+
+    .. raw:: html
+
+        <img alt="" class="yui-img selected" src="../_static/assets/img/APExamPrepQ13.PNG" style="width: 400px;" title=""/>
 
 
 .. raw:: html

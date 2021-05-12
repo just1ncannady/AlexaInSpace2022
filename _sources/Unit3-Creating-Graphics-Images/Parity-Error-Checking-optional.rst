@@ -1,9 +1,9 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html 
 
-Parity Error Checking (optional)
-================================
+    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+Parity Error Checking optional
+==============================
 
 .. raw:: html
 
@@ -44,8 +44,8 @@ Parity Error Checking (optional)
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
-Introduction
--------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
@@ -69,12 +69,12 @@ Introduction
     </p>
     
 
-Parity Bit Error Detection
----------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
 
-    <p>
+    <p><h3>Parity Bit Error Detection</h3>
     
     Suppose you are sending a stream of data to a server. By adding
     a <i>parity bit</i>, you enable the server to detect some basic
@@ -120,14 +120,7 @@ Parity Bit Error Detection
     <tr><td align="center">011 0111  (5 1s)</td><td align="center"><font color="red">1</font>011 0111</td><td align="center"><font color="red">0</font>011 0111</td></tr>
     </tbody></table>
     </blockquote>
-    
-
-Parity Exercise
-----------------
-
-.. raw:: html
-
-    <p>
+    <h3>Parity Exercise</h3>
     <iframe height="550" instanceid="S9xExPRYX0YI" src="https://mobile-csp.org/webapps/parity/ParityExercise.html" title="" width="100%">
     </iframe>
     
