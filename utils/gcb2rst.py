@@ -22,7 +22,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 OUT_FOLDER = 'rst_out//'
 CUR_PATH = os.path.dirname(__file__)
 
-MOBILE_CSP_IMAGE = '.. image:: ../../_static/MobileCSPLogo.png\n\t:width: 250\n\t:align: center\n\n'
+MOBILE_CSP_IMAGE = '.. raw:: html \n\n\t<a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>\n\n'
 
 CUSTOM_SCRIPTS = """\n\t<!-- Custom Scripts -->\n\t<script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>\n\t<script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>\n\t<link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>\n\t<link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>\n\t<link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>\n\t<script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>\n\t<style>    td { text-align: left; padding: 5px;}</style>\n"""
 
@@ -112,7 +112,7 @@ def q_to_RST(q_text, data, q_type, label):
     letters = ['a','b','c','d','e','f','g']
     q_data = json.loads(data)
     output_str = '\n.. '
-    q_tag = 'repl-mcsp-' + label
+    q_tag = 'mcsp-' + label
     if q_type == 'mc':
         output_str += 'mchoice:: ' + q_tag + '\n'
         output_str += '\t:random:\n'
@@ -134,7 +134,7 @@ def q_to_RST(q_text, data, q_type, label):
             output_str += '\t:feedback_' + letters[count] + ': ' + feedback.replace('\n',' ') + '\n'
             count += 1
         output_str += '\t:correct: ' + correct + '\n'
-        output_str += '\n\t' + q_text.replace('\n',' ') + '\n'
+        output_str += '\n\t' + q_text + '\n'
     elif q_type == 'sa':
         output_str += 'fillintheblank:: ' + q_tag + '\n'
         hint = q_data['hint']
@@ -148,7 +148,7 @@ def q_to_RST(q_text, data, q_type, label):
                  output_str += '\t:casei:\n'
              response = z['response']
              feedback = z['feedback']
-        output_str += '\n\t' + q_text.replace('\n',' ') + ' |blank|\n'
+        output_str += '\n\t' + q_text + ' |blank|\n'
         output_str += '\n\t- :' + response.replace('\n',' ') + ': ' + feedback
         output_str += '\n\t  :x: ' + default_feedback.replace('\n',' ') + '\n'
     return output_str
@@ -195,7 +195,7 @@ def replace_quizly_scripts(scripts):
 
   for script in scripts:
     if (str(script).find("quiz.name") != -1):
-      label = 'repl-mscp-' + unit_lesson + "-" + str(question_number+1)
+      label = 'mscp-' + unit_lesson + "-" + str(question_number+1)
       question_number = question_number + 1
       sstr = str(script)
       p = sstr.find("quiz.name")
@@ -251,7 +251,17 @@ def convert_gcb2rst(quiz_questions):
       type = "sa"
       sa_question = q.find('div',{"class" : "qt-sa-question"})
       question = sa_question.find('div',{"class":"qt-question"})
-    cleanquestion = cleanhtml(str(question))
+
+    # if there is an image in the question text, put it in an raw:: html  
+    if "<img" in str(question):
+        questionstr = str(question).replace('\n',' ')
+        imgStart = questionstr.find("<img")
+        imgEnd = questionstr.find(">",imgStart)
+        imgstr = questionstr[imgStart:imgEnd+1] 
+        cleanquestion = cleanhtml(str(question)) + "\n\n\t.. raw:: html\n\n\t\t" + imgstr 
+    else: 
+        cleanquestion = cleanhtml(str(question)).replace('\n',' ')
+
     label = unit_lesson + "-" + str(question_number+1)
 
     # Replace the containing div with the rst question
@@ -332,7 +342,8 @@ def scrape_and_build_rst(src_page):
   # Use the page title as the RST filename
   titletag = soup.find('h1', attrs={'class':'gcb-lesson-title'})
   lesson_name = titletag.text.strip()
-  filename = re.sub("\s", "-", lesson_name) + '.rst'
+  lesson_name =  re.sub("[^A-Za-z0-9\s]+", "", lesson_name)
+  filename = re.sub("\s+", "-", lesson_name) + '.rst'
   toc.append(filename)
 
   # RST Page, built incrementally

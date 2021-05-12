@@ -1,6 +1,8 @@
-.. image:: ../../_static/MobileCSPLogo.png
-    :width: 250
-    :align: center
+.. raw:: html
+
+   <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+   
+
 
 I Have a Dream Tutorial
 =======================
@@ -346,14 +348,18 @@ Self-Check
 
 
     
-    .. quizly:: repl-mscp-2-2-8
     
-        :quizname: quiz_pause_the_player
+.. quizly:: repl-mscp-2-2-8
     
     
-    .. quizly:: repl-mscp-2-2-9
+    :quizname: quiz_pause_the_player
     
-        :quizname: quiz_button_click_stop_player
+    
+    
+.. quizly:: repl-mscp-2-2-9
+    
+    
+    :quizname: quiz_button_click_stop_player
     
     
 
