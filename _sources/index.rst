@@ -21,7 +21,7 @@ Table of Contents
 
 .. toctree::
    :numbered:
-   :maxdepth: 3
+   :maxdepth: 2
 
    Unit1-Getting-Started/toctree.rst
    Unit2-Intro-to-Mobile-Apps/toctree.rst
