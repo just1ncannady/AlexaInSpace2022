@@ -134,7 +134,7 @@ def q_to_RST(q_text, data, q_type, label):
             output_str += '\t:feedback_' + letters[count] + ': ' + feedback.replace('\n',' ') + '\n'
             count += 1
         output_str += '\t:correct: ' + correct + '\n'
-        output_str += '\n\t' + q_text.replace('\n',' ') + '\n'
+        output_str += '\n\t' + q_text + '\n'
     elif q_type == 'sa':
         output_str += 'fillintheblank:: ' + q_tag + '\n'
         hint = q_data['hint']
@@ -148,7 +148,7 @@ def q_to_RST(q_text, data, q_type, label):
                  output_str += '\t:casei:\n'
              response = z['response']
              feedback = z['feedback']
-        output_str += '\n\t' + q_text.replace('\n',' ') + ' |blank|\n'
+        output_str += '\n\t' + q_text + ' |blank|\n'
         output_str += '\n\t- :' + response.replace('\n',' ') + ': ' + feedback
         output_str += '\n\t  :x: ' + default_feedback.replace('\n',' ') + '\n'
     return output_str
@@ -251,7 +251,17 @@ def convert_gcb2rst(quiz_questions):
       type = "sa"
       sa_question = q.find('div',{"class" : "qt-sa-question"})
       question = sa_question.find('div',{"class":"qt-question"})
-    cleanquestion = cleanhtml(str(question))
+
+    # if there is an image in the question text, put it in an raw:: html  
+    if "<img" in str(question):
+        questionstr = str(question).replace('\n',' ')
+        imgStart = questionstr.find("<img")
+        imgEnd = questionstr.find(">",imgStart)
+        imgstr = questionstr[imgStart:imgEnd+1] 
+        cleanquestion = cleanhtml(str(question)) + "\n\n\t.. raw:: html\n\n\t\t" + imgstr 
+    else: 
+        cleanquestion = cleanhtml(str(question)).replace('\n',' ')
+
     label = unit_lesson + "-" + str(question_number+1)
 
     # Replace the containing div with the rst question
