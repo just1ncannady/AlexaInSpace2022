@@ -18,7 +18,7 @@ Introduction to Mobile Apps & Pair Programming
 	The-Internet-and-the-Cloud-Explore-Curricular-Activity.rst
 	I-Have-a-Dream-and-Soundboard-Projects.rst
 	What-is-Abstraction.rst
-	Binary-Numbers-REVISED.rst
+	Binary-Numbers.rst
 	Hardware-Abstractions-Logic-Gates.rst
 	Impacts-of-CS-The-Digital-Explosion.rst
 	Wrap-Up.rst
