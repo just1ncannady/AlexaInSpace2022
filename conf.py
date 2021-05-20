@@ -239,12 +239,11 @@ html_show_copyright = True
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PythonCoursewareProjectdoc'
 
-# These paths are either relative to html_static_path
-# or fully qualified paths (eg. https://...)
-html_css_files = ['css/custom.css',]
+# custom  files in _static
+custom_css_files = [ 'assets/lib/lessons/tipped.css', 'assets/lib/lessons/lessons.css', 'css/custom.css' ]
+custom_js_files = ['assets/lib/lessons/tipped.js', 'assets/lib/lessons/Framework2020.js','assets/lib/lessons/vocabulary.js']
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
     for f in script_files:
         try:
             app.add_autoversioned_javascript(f)
@@ -255,3 +254,7 @@ def setup(app):
             app.add_autoversioned_stylesheet(f)
         except ExtensionError:
             app.add_css_file(f)
+    for c in custom_css_files:
+        app.add_stylesheet(c)
+    for c in custom_js_files:
+        app.add_javascript(c)

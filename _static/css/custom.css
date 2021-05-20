@@ -12,3 +12,8 @@ strong {
 a {
   text-decoration: underline !important;
 }
+
+td { 
+     text-align: left; 
+     padding: 5px;
+}

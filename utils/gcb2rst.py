@@ -24,8 +24,6 @@ CUR_PATH = os.path.dirname(__file__)
 
 MOBILE_CSP_IMAGE = '.. raw:: html \n\n\t<a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>\n\n'
 
-CUSTOM_SCRIPTS = """\n\t<!-- Custom Scripts -->\n\t<script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>\n\t<script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>\n\t<link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>\n\t<link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>\n\t<link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>\n\t<script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>\n\t<style>    td { text-align: left; padding: 5px;}</style>\n"""
-
 PORTFOLIO_TEMPATE="""<div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="###?embedded=true" style="height:30em;width:100%"></iframe></div>
 """
 UNDERSCORE = "---------------------------------------------------------------------------------------------------"
@@ -440,7 +438,8 @@ def scrape_and_build_rst(src_page):
   rst_page = ""
   rst_page += MOBILE_CSP_IMAGE
   rst_page += lesson_name + '\n' + EQUALS[0:len(lesson_name)] + '\n\n'
-  rst_page += '.. raw:: html\n' + CUSTOM_SCRIPTS + '\n\n'
+  # Moved CUSTOM_SCRIPTS inclusion to conf.py in runestone build
+  #rst_page += '.. raw:: html\n' + CUSTOM_SCRIPTS + '\n\n'
 
   # Indent HTML and replace H2 headings
   rst_page += convert_html_to_rst(lesson_content)
