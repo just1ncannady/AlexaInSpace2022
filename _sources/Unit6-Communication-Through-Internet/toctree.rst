@@ -18,6 +18,6 @@ Communication Through the Internet
 	Cryptography-Basics.rst
 	Cryptography-Securing-the-Internet.rst
 	Debugging-Caesar-Cipher.rst
-	Cybersecurity-NEW.rst
+	Cybersecurity.rst
 	Impacts-of-CS-Crowdsourcing-with-Citizen-Science-Apps.rst
 	Wrap-Up.rst
