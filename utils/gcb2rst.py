@@ -338,6 +338,7 @@ def convert_gcb2rst(quiz_questions):
         imgStart = questionstr.find("<img")
         imgEnd = questionstr.find(">",imgStart)
         imgstr = questionstr[imgStart:imgEnd+1] 
+        imgstr = imgstr.replace("PNG", "png")
         cleanquestion = cleanhtml(str(question)) + "\n\n\t.. raw:: html\n\n\t\t" + imgstr 
     else: 
         cleanquestion = cleanhtml(str(question)).replace('\n',' ')

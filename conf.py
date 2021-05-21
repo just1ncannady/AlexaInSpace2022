@@ -240,7 +240,7 @@ html_show_copyright = True
 htmlhelp_basename = 'PythonCoursewareProjectdoc'
 
 # custom  files in _static
-custom_css_files = [ 'assets/lib/lessons/tipped.css', 'assets/lib/lessons/lessons.css', 'css/custom.css' ]
+custom_css_files = [ 'assets/lib/lessons/tipped.css', 'assets/lib/lessons/lessons.css', 'assets/lib/lessons/apmlblockStyles.css','css/custom.css' ]
 custom_js_files = ['assets/lib/lessons/tipped.js', 'assets/lib/lessons/Framework2020.js','assets/lib/lessons/vocabulary.js']
 
 def setup(app):
