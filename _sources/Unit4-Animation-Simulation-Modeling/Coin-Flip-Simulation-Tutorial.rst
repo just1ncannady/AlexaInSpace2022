@@ -285,7 +285,6 @@ Self-Check
     
 .. fillintheblank:: mcsp-4-5-3
     :casei:
-    :casei:
 
     For the following block what value would be assigned to Label1? Type your answer into the text box. (Spelling counts. Don't use quotes.). 
 
@@ -294,6 +293,7 @@ Self-Check
         <img class="yui-img" src="../_static/assets/img/buggyif.png"/> |blank|
 
     - :Tails: Don’t worry, it’s hard! Let’s go back and try it again...
+      :Heads: Correct!
       :x: This code segment is a bit strange.  It will always produce "Heads" because the random integer will always be 1.
 
 
@@ -330,7 +330,6 @@ Self-Check
     
 .. fillintheblank:: mcsp-4-5-5
     :casei:
-    :casei:
 
     For the following block what value would be assigned to Label1? Type your answer into the textbox. (Spelling counts. Don't use quotes.). 
 
@@ -339,7 +338,8 @@ Self-Check
         <img class="yui-img" src="../_static/assets/img/buggyif2.png"/> |blank|
 
     - :Heads: If it were easy, you wouldn’t be learning anything!
-      :x: For the following block what value would be assigned to Label1? Type your answer into the textbox. (Spelling counts. Don't use quotes.). 
+      :Tails: Correct!
+      :x: Try again.
 
 
 .. raw:: html

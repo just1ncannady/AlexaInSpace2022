@@ -119,6 +119,7 @@ Tutorial or Basic Pong App
         :align: center
 
 .. raw:: html
+
 	</a></td>
 	<td>
 	<a target="_blank" href="https://www.youtube.com/watch?v=2eLNwD4HivU&amp;list=PLsxoqvm6HPQV5XMPwN4N0tYIe7asB81PS">
@@ -129,7 +130,8 @@ Tutorial or Basic Pong App
         :align: center
 
 .. raw:: html
-	</a></td>
+
+    </a></td>
 	</tr>
 	<tr>
 	<td align="center">

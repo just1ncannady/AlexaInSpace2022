@@ -70,12 +70,13 @@ Preview
         :align: center
 
 .. raw:: html
+
 	</a></td>
 	</tr>
 	</tbody></table>
 	
 Enhancements: Creative Projects
-------------------------------
+-------------------------------
 
 .. raw:: html
 
@@ -111,6 +112,7 @@ Solutions
 .. raw:: html
 	
 	<br>
+    
 Self-Check
 ------------------------------
 

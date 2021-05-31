@@ -57,7 +57,7 @@ Preview
 	</td></tr></tbody></table>
 	
 APIs Extend Your Powers as a Programmer
-------------------------------
+------------------------------------------
 
 .. raw:: html
 		
@@ -119,7 +119,7 @@ About Lists
 	</p>
 
 Still Curious? Enhancements and Extensions
-------------------------------
+------------------------------------------------
 
 .. raw:: html
 	

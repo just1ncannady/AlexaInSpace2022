@@ -84,7 +84,7 @@ Tutorial
 	
 	
 Enhancements: Creative Projects
-------------------------------
+--------------------------------
 
 .. raw:: html
 

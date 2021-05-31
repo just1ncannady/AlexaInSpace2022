@@ -84,7 +84,8 @@ Tutorial
         :align: center
 	         
 .. raw:: html
-	       </a>
+	       
+         </a>
 	     </td>
 	     <td><a target="_blank" href="https://www.youtube.com/watch?v=Jf7kZodBVjs">
 	     
@@ -95,15 +96,15 @@ Tutorial
 
 .. raw:: html
 
-	       </a>
-	     </td>
-	   </tr>
-	   <tr>
-	     <td>1 Use a ListPicker</td>
-	     <td>2 Define a list of lists for answer choices</td>
-	   </tr>
+     </a>
+	 </td>
+	 </tr>
+	 <tr>
+	 <td>1 Use a ListPicker</td>
+	 <td>2 Define a list of lists for answer choices</td>
+	 </tr>
 	 </tbody>
-	</table>
+	 </table>
 	
 	
 Self-Check

@@ -7,18 +7,6 @@ Logo Part I
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
         $(document).ready(function() {
@@ -77,7 +65,7 @@ Learning Activities
     <p><h3>Introduction</h3></p>
     <img align="left" hspace="10" src="../_static/assets/img/spiral.png" width="180"/>
     <a href="http://en.wikipedia.org/wiki/Logo_(programming_language)" target="_blank">Logo</a>
-     is a programming language that was invented in the 1960s by Seymour Papert primarily
+    is a programming language that was invented in the 1960s by Seymour Papert primarily
     for educational use.   Papert believed that we learn best when we are building 
     our own knowledge and ideas –  when we build tangible objects 
     that help us create our own mental models to understand the world around us. 
@@ -85,9 +73,9 @@ Learning Activities
     <p>In this lesson the tangible objects you will build are algorithms for drawing 
     simple shapes.
     
-    </p><p>Logo’s best known feature is its turtle -- an actual picture of a turtle -- 
+    </p><p>Logo’s best known feature is its turtle, an actual picture of a turtle,
     that the user can control by telling it how to move.  As the turtle moves 
-    it leaves behind a trail -- in other words it draws.  Imagine the trail left behind 
+    it leaves behind a trail, in other words it draws.  Imagine the trail left behind 
     by an animal as it moves around in the sand on a beach.  
     Logo can be used to create very sophisticated algorithms and  
     very sophisticated drawings, such as the pattern on the left.
@@ -100,8 +88,7 @@ Learning Activities
     control the turtle.  You saw something like these commands in 
     the Blockly Maze exercises that you did. Taken together these commands constitute
     an <i>abstraction</i> – a language – for drawing shapes. The App Inventor template below has these Logo Commands already written for you. 
-    <p>
-      Existing code segments that you can use are often called <b>libraries</b>.  A software library contains procedures that may be used in creating new programs. The use of libraries already written for you simplifies the task of creating complex programs. You can also write your own libraries of code to use in other App Inventor projects using the backpack feature to share them.
+    <p>      Existing code segments that you can use are often called <b>libraries</b>.  A software library contains procedures that may be used in creating new programs. The use of libraries already written for you simplifies the task of creating complex programs. You can also write your own libraries of code to use in other App Inventor projects using the backpack feature to share them.
     
     
     </p><p>In this lesson we have
@@ -113,12 +100,12 @@ Learning Activities
     </p>
     <h3>Tutorial</h3>
     <p>To get started, 
-      <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/Logo1/Logo1Template.asc" target="_blank">open App Inventor with the Logo 1 Template</a> in a separate tab and follow along with the tutorial below. If the template does not open, download the <a href="http://templates.appinventor.mit.edu/trincoll/csp/unit5/templates/Logo1/Logo1Template.aia" target="_blank">.aia file</a>, go to <a href="http://ai2.appinventor.mit.edu" target="_blank">App Inventor</a> and do File/Import and import in the downloaded .aia file. If you are using iOS companion, please change the Canvas Height property to Fill Parent instead of 100% so it does not cover the buttons.</p>
-      When the template opens, you will see a lot of collapsed blocks. <span id="docs-internal-guid-39ef5219-64db-37ef-3dde-eeaa1ea5a99e">
+    <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/Logo1/Logo1Template.asc" target="_blank">open App Inventor with the Logo 1 Template</a> in a separate tab and follow along with the tutorial below. If the template does not open, download the <a href="http://templates.appinventor.mit.edu/trincoll/csp/unit5/templates/Logo1/Logo1Template.aia" target="_blank">.aia file</a>, go to <a href="http://ai2.appinventor.mit.edu" target="_blank">App Inventor</a> and do File/Import and import in the downloaded .aia file. If you are using iOS companion, please change the Canvas Height property to Fill Parent instead of 100% so it does not cover the buttons.</p>
+    When the template opens, you will see a lot of collapsed blocks. <span id="docs-internal-guid-39ef5219-64db-37ef-3dde-eeaa1ea5a99e">
     <span class="yui-tag-span yui-tag" style="font-size: 13px;" tag="span"><b><u>DO NOT OPEN OR EDIT THESE BLOCKS!</u></b></span></span><br/>
     <br/>You can either watch the video tutorial or 
-      <a href="https://drive.google.com/open?id=1YXRlbOiAaKvb281YDn-XGI4ZNWDYv4iCRgR1cN7TE0s" target="_blank">
-        click here</a> to read the tutorial or use <a href="https://drive.google.com/open?id=1McHT42xH7YT-_rV-Cu3a7l8LYGTM-Fr3NyVxI-wIX8o" target="_blank">the short handout </a>.<p></p>
+    <a href="https://drive.google.com/open?id=1YXRlbOiAaKvb281YDn-XGI4ZNWDYv4iCRgR1cN7TE0s" target="_blank">
+    click here</a> to read the tutorial or use <a href="https://drive.google.com/open?id=1McHT42xH7YT-_rV-Cu3a7l8LYGTM-Fr3NyVxI-wIX8o" target="_blank">the short handout </a>.<p></p>
     
 .. youtube:: 8I4bGQRLqPw
         :width: 650
@@ -127,87 +114,67 @@ Learning Activities
 
 .. raw:: html
 
- 	(<a href="http://www.teachertube.com/video/mobile-csp-logo-1-438792" target="_blank" title="">Teacher Tube version</a>)
+    <p> 	(<a href="http://www.teachertube.com/video/mobile-csp-logo-1-438792" target="_blank" title="">Teacher Tube version</a>)
     
     <p>There are three basic types of control structures in designing algorithms:  sequence, selection, and repetition.  Just about any algorithm you can think of can be built using these three types of controls. 
-    As you saw in the tutorial, procedures and loops made drawing a square much easier than using a list of commands. Note the big difference between the two algorithms below.  The algorithm on the left uses a simple sequence with copies of the forward and turn blocks to draw a square, whereas the algorithm on the right uses repetition, a for-each counting loop, a much more practical and general approach. The for-each block in this case repeats the statements in its do-slot 4 times.  
-     </p>
+    As you saw in the tutorial, procedures and loops made drawing a square much easier than using a list of commands. Note the big difference between the two algorithms below.  The algorithm on the left uses a simple sequence with copies of the forward and turn blocks to draw a square, whereas the algorithm on the right uses repetition, a for-each counting loop, a much more practical and general approach. The for-each block in this case repeats the statements in its do-slot 4 times.   </p>
     <img src="../_static/assets/img/logoLoop.png" width="50%">
     <h3>Exercises (Pair Programming)</h3>
     <p>After doing the tutorial above, you have drawn 20x20 square using a loop and then refactored the code to use <b>procedural abstraction</b> to create the procedure <b>square20</b>.
      
-    </p><p>  
-      For these exercises below, before coding your solution in App Inventor, it would be a good idea 
-      to first write out the solution in pseudocode and discuss it with your coding partner. Download and print <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing">this graph paper</a> 
-        to use when designing your algorithms in the following exercises.
+    </p><p>        For these exercises below, before coding your solution in App Inventor, it would be a good idea  to first write out the solution in pseudocode and discuss it with your coding partner. Download and print <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing">this graph paper</a>         to use when designing your algorithms in the following exercises.
     </p>
     <ol>
-    <li><b>40x40 Square:</b> Design an algorithm for drawing a 40-by-40 square.  Then 
-        implement your algorithm by defining a procedure named <i>square40</i> that 
-        draws a 40-by-40 square. Then modify the <i>ButtonDraw.Click</i> handler so that it calls 
-        the <i>square40</i> procedure.
-        To simplify this algorithm, use a <i><b>for-each</b></i> loop to repeat the commands
-          needed to draw a square.
-        
-      </li>
-    <li><b>Line40:</b> Define a procedure name <b><i>line40</i></b>  that draws a <b>line</b> of length 40. Test it by calling it 
-        from the ButtonDraw.Click handler. 
-      </li>
+    <li><b>40x40 Square:</b> Design an algorithm for drawing a 40-by-40 square.  Then         implement your algorithm by defining a procedure named <i>square40</i> that         draws a 40-by-40 square. Then modify the <i>ButtonDraw.Click</i> handler so that it calls         the <i>square40</i> procedure.
+    To simplify this algorithm, use a <i><b>for-each</b></i> loop to repeat the commands      needed to draw a square.</li>
+    <li><b>Line40:</b> Define a procedure name <b><i>line40</i></b>  that draws a <b>line</b> of length 40. Test it by calling it     from the ButtonDraw.Click handler.       </li>
     <li>
-    <b><i>Refactor</i></b> your square40 procedure to use a for-each loop and the line40 procedure 
-        to draw a 40-by-40 square.  As we learned in an earlier lesson, refactoring means to revise your code 
-        without changing the basic functionality of your app.   Test your algorithm by calling it from the 
-        <i>ButtonDraw.Click</i> handler.
-      </li>
-    <li><b>Draw a Face:</b> Design an algorithm for drawing a face with a large square for the head, 2 small squares 
-        for eyes, and a line for the mouth, as shown below.   Design and define any other procedures 
-        you need  to help simplify this problem -- e.g., the outline of the head, the eyes, and so on.  
-        Make appropriate use of loops in your algorithm.
+    <b><i>Refactor</i></b> your square40 procedure to use a for-each loop and the line40 procedure to draw a 40-by-40 square.  As we learned in an earlier lesson, refactoring means to revise your code         without changing the basic functionality of your app.   Test your algorithm by calling it from the <i>ButtonDraw.Click</i> handler.  </li>
+    <li><b>Draw a Face:</b> Design an algorithm for drawing a face with a large square for the head, 2 small squares for eyes, and a line for the mouth, as shown below.   Design and define any other procedures         you need  to help simplify this problem -- e.g., the outline of the head, the eyes, and so on.  Make appropriate use of loops in your algorithm.
         
-        <br/><img src="../_static/assets/img/face.png" width="150px"/>
+    <br/><img src="../_static/assets/img/face.png" width="150px"/>
     <p><b>Design first, then code:</b>  This algorithm will be quite a bit more complex than 
-          any of the others you’ve done.  You’ll have to use the <i>penUp</i> procedure to 
-          lift the Android off of the drawing canvas.  And you’ll have to plan how far 
-          to move forward to get the eyes and mouth placed properly.  You will definitely 
-          want to plan and test this algorithm on paper or on the board before trying to 
-          program it. <b><i>Use your graph paper</i></b> to help figure the distances.
-        </p>
+    any of the others you’ve done.  You’ll have to use the <i>penUp</i> procedure to 
+    lift the Android off of the drawing canvas.  And you’ll have to plan how far 
+    to move forward to get the eyes and mouth placed properly.  You will definitely 
+    want to plan and test this algorithm on paper or on the board before trying to 
+    program it. <b><i>Use your graph paper</i></b> to help figure the distances.
+    </p>
     <p>Once you’ve designed a correct algorithm, implement it by defining a 
-          procedure named drawFace that draws the face.  Then test your code to 
-          make sure you got it right. Post a screenshot of your face drawing on your portfolio. 
-        </p>
+    procedure named drawFace that draws the face.  Then test your code to 
+    make sure you got it right. Post a screenshot of your face drawing on your portfolio. 
+    </p>
     <p>Here is a plan to follow:
-        </p>
+    </p>
     <ul>
     <li>First,  draw a <b><i>scale model</i></b>  of your face.  For this you need to decide what 
-          each square on the graph paper represents -- e.g., is each square 10 pixels?  5 pixels?
-        </li>
+    each square on the graph paper represents -- e.g., is each square 10 pixels?  5 pixels?
+    </li>
     <li>Based on your model, write out the commands for drawing the face using <b>pencil 
-          and paper</b> -- i.e., write out your algorithm right on the graph paper.
-        </li>
+    and paper</b> -- i.e., write out your algorithm right on the graph paper.
+    </li>
     <li>Code your face-drawing algorithm and test it.  <b>Define a procedure named drawFace and 
-          call it in the ButtonDraw.Click procedure</b>.  Keep testing and refining your algorithm until it 
-          correctly draws a face. 
-        </li>
+    call it in the ButtonDraw.Click procedure</b>.  Keep testing and refining your algorithm until it 
+    correctly draws a face. 
+    </li>
     <li><b>Abstraction:</b>  Once you can successfully drawn the face, <b>refactor your code</b> to 
-          make good use of procedures that break the face into parts -- e.g., head, 
-          left eye, right eye, mouth, moves.
-        </li>
+    make good use of procedures that break the face into parts, e.g., head,           left eye, right eye, mouth, moves.
+    </li>
     </ul>
     </li>
     <li><b>Refactor</b>  your drawFace procedure by breaking it up into smaller procedures.  
-        This will make it easier to understand.   For example, here’s a possible algorithm you might use:
-        <br/>
+    This will make it easier to understand.   For example, here’s a possible algorithm you might use:
+    <br/>
     <table>
     <tbody><tr>
     <td>
-    <pre>          To drawFace do:
-                  square100
-                  positionAndDrawLeftEye
-                  positionAndDrawRightEye
-                  positionAndDrawMouth
-                  returnToStartOfFace
-             </pre>
+    <pre> To drawFace do:
+    square100
+    positionAndDrawLeftEye
+    positionAndDrawRightEye
+    positionAndDrawMouth
+    returnToStartOfFace
+    </pre>
     </td>
     <td>
     <img src="../_static/assets/img/DrawFace.png" width="200px"/>
@@ -216,11 +183,11 @@ Learning Activities
     </tbody></table>
               
         
-        As their names suggest, the sub-procedures will include the various penUp, penDown, and move 
-        commands to position the eyes and mouth correctly and to return the Android to its starting 
-        position (at the bottom left corner of the face).  Remember: Ideally, your algorithms should 
-        leave the Android in the same state when it is finished drawing the head as when it started.
-      </li>
+    As their names suggest, the sub-procedures will include the various penUp, penDown, and move 
+    commands to position the eyes and mouth correctly and to return the Android to its starting 
+    position (at the bottom left corner of the face).  Remember: Ideally, your algorithms should 
+    leave the Android in the same state when it is finished drawing the head as when it started.
+    </li>
     </ol>
     <!--
     &lt;h2&gt;Some Solutions &amp;amp; Hints&lt;/h2&gt;
@@ -228,15 +195,15 @@ Learning Activities
     -->
     <h3>AP CSP Pseudocode: Control Structures</h3>
     <p>In the AP CSP exam, there are questions that involve a robot moving in a grid following simple commands similar to our Logo App. The commands used in the exam are:
-     </p>
+    </p>
     <ul>
     <li> <b>MOVE_FORWARD()</b> : The robot moves 1 square forward in the direction it is facing.
-      </li><li> <b> ROTATE_RIGHT() </b>: The robot turns right 90 degrees, staying in the same square but facing right.
-      </li><li><b> ROTATE_LEFT()</b> : The robot turns left 90 degrees, staying in the same square but facing left.
-      </li><li><b> CAN_MOVE( <em>direction</em> )</b> : This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
+    </li><li> <b> ROTATE_RIGHT() </b>: The robot turns right 90 degrees, staying in the same square but facing right.
+    </li><li><b> ROTATE_LEFT()</b> : The robot turns left 90 degrees, staying in the same square but facing left.
+    </li><li><b> CAN_MOVE( <em>direction</em> )</b> : This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
     </li></ul>
     <p>  The AP CS Principles Exam uses a text-based and a block-based pseudocode for questions that involve code. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam describing this pseudocode. The AP CSP pseudocode for  basic control structures compared to App Inventor blocks is shown below:
-      </p><table border="">
+    </p><table border="">
     <tbody><tr> <th>Function</th><th>Text Style</th> <th width="25%">Block Style</th><th>App Inventor</th></tr>
     <tr><td>Assignment</td><td>a ← <em>expression</em></td><td><div class="yui-wk-div" id="APblocks">
     <bl>a ← <bl>expression</bl></bl></div></td> <td><img src="../_static/assets/img/setexpr.png" width="70%"/></td></tr>
@@ -247,9 +214,9 @@ Learning Activities
     <bl>a + b</bl></div></td>
     <td><img src="../_static/assets/img/setexpr2.png" width="70%"/></td></tr>
     <tr><td>Selection (else optional)</td> <td>IF (<em>condition</em>) <br/> {
-        <br/>   <em>block of statements</em><br/> } <br/>
-         ELSE <br/>   {
-        <br/>   <em>block of statements</em><br/> } </td><td><div class="yui-wk-div" id="APblocks">
+    <br/>   <em>block of statements</em><br/> } <br/>
+    ELSE <br/>   {
+    <br/>   <em>block of statements</em><br/> } </td><td><div class="yui-wk-div" id="APblocks">
     <bl class="dark">IF <cond>condition</cond><br/>
     <bl> block of statements </bl><br/>
     ELSE<br/>
@@ -257,20 +224,19 @@ Learning Activities
     </bl></div></td>
     <td><img src="../_static/assets/img/ifelse.png" width="50%"/></td>
     </tr>
-    <tr><td>Condition</td><td>a = b, a ≠ b, a &lt; b, a &gt; b,a &lt;= b,a &gt;= b <br/>
-        NOT(<em>condition</em>), (condition AND condition),   (condition OR condition)
-        </td><td></td>
+    <tr><td>Condition</td><td>a = b, a ≠ b, a &lt; b, a &gt; b,a &lt;= b,a &gt;= b <br/>        NOT(<em>condition</em>), (condition AND condition),   (condition OR condition)
+    </td><td></td>
     <td><img src="../_static/assets/img/logicblocks.png" width="60%"/></td></tr>
     <tr><td>Repetition</td> <td>REPEAT n times  <br/>{
-        <br/>   <em>block of statements</em><br/> }
-     </td><td>
+    <br/>   <em>block of statements</em><br/> }
+    </td><td>
     <div class="yui-wk-div" id="APblocks"><bl class="dark">REPEAT n times<br/>
     <bl> block of code </bl><br/>
     </bl></div></td>
     <td><img src="../_static/assets/img/forloop.png" width="80%"/></td>
     </tr>
     <tr><td>Repetition</td> <td>REPEAT UNTIL (<em>condition</em>)   <br/> {
-        <br/>   <em>block of statements</em><br/> }</td><td>
+    <br/>   <em>block of statements</em><br/> }</td><td>
     <div class="yui-wk-div" id="APblocks">
     <bl class="dark">REPEAT UNTIL <cond>condition</cond><br/>
     <bl>block of code</bl><br/>
@@ -306,7 +272,7 @@ Summary
 
     <p>
     In this lesson, you learned how to:
-      <div class="yui-wk-div" id="summarylist">
+    <div class="yui-wk-div" id="summarylist">
     </div><br/>
     <p></p>
 
@@ -398,13 +364,17 @@ Self-Check
     </div>
 
 
-    .. quizly:: mscp-4-4-9
     
-        :quizname: quiz_scrambled_dollars_loop
+.. quizly:: mscp-4-4-9
     
-    .. quizly:: mscp-4-4-10
     
-        :quizname: quiz_loop_stars
+    :quizname: quiz_scrambled_dollars_loop
+    
+    
+.. quizly:: mscp-4-4-10
+    
+    
+    :quizname: quiz_loop_stars
     <br/>
     
 

@@ -1,17 +1,15 @@
 .. raw:: html
-	<a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+
+     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 	
 Non-AP Explore
 ==============
 
 .. raw:: html
 	
-	    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	    <link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
-	    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	    <script>
-	  $(function() {
+	    
+	  <script>
+      $(function() {
 	    $( "#accordion" ).accordion({
 	      collapsible: true,
 	      active: false,

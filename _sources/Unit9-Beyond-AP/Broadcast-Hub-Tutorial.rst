@@ -111,7 +111,7 @@ Building the BroadcastHub app
 	-->
 
 Enhancements: Creative Projects
-------------------------------
+--------------------------------
 
 .. raw:: html
 	

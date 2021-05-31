@@ -192,8 +192,7 @@ Self-Check
 
         <img src="../_static/assets/img/listpickerelements.png"/> |blank|
 
-    - :list: Good. That's right! This statement assumes that global destinations is a <b>list</b> of strings.  When the List Picker is clicked, the list will be presented to the user, who may then
-select one of the items on the list.
+    - :list: Good. That's right! This statement assumes that global destinations is a <b>list</b> of strings.  When the List Picker is clicked, the list will be presented to the user, who may then select one of the items on the list.
       :x: 
 
 

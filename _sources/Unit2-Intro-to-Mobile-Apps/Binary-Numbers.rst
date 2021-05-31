@@ -214,17 +214,15 @@ Activities: Converting Binary to Decimal
     <li>Try the following Binary Converter. In pairs, have one partner click on the binary digits below to create a binary number, and have the other partner figure out the number as a decimal number (click on the ? button to check your the answer). You can also use the paper binary converter tool at the bottom of the <a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank">binary/hex worksheet</a> that you may have printed out in the last activity. Make sure it is printed double-sided and cut the 1's into tabs that can be flipped over to cover the 0's.
         <iframe height="400" instanceid="wGiqDDS5BAH1" src="https://mobile-csp.org/webapps/numbers/binaryConverter.html" title="" width="650"></iframe>
     </li>
-    <li>Use the algorithm described in the video with this interactive Khan Academy component to convert binary to decimal.<br/>
-    <div style="width: 450px;">
-      Khan Academy Exercise: binary-to-decimal
-      <br/>
-    <script>
-        // customize the style of the exercise iframe
-        var ity_ef_style = "width: 750px;";
-      </script>
-    </div>
+    <li>Use the algorithm described in the video with this interactive Khan Academy component to convert binary to decimal.<br/> 
     </li>
     </ol>
+    
+.. khanex:: khanex1
+
+   :exercise: binary-to-decimal
+ 
+   
     
 
 Video: Converting Decimal to Binary
@@ -264,16 +262,16 @@ Activities: Converting Decimal to Binary
     <li>Complete the first two columns in the second page of the  <a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank">binary/hex worksheet</a> that you may have printed out in the last activity. (Skip over rows that do not have anything written in the decimal or binary columns. You will finish the hex column of this worksheet in the next section). If you print this out double-sided, you can cut the 1's into tabs and flip them over to create a paper binary converter tool to help you with your calculations.
         
     </li><li>Use the algorithm described in the video with this interactive Khan Academy component to convert decimal to binary.<br/>
-    <div style="width: 450px;">
-      Khan Academy Exercise: decimal-to-binary
-      <br/>
-    <script>
-        // customize the style of the exercise iframe
-        var ity_ef_style = "width: 750px;";
-      </script>
-    </div>
     </li>
     </ol>
+    
+.. khanex:: khanex2
+
+   :exercise: decimal-to-binary
+
+
+.. raw:: html
+    
     <p>
     Everything in a computer is represented with sequences of bits, 0’s and 1’s. There are some consequences of using of using bits to represent data though. How do you think repeating decimal (real) numbers like 3.33333333… are stored in a computer’s memory? Would it fit in memory if it was an infinitely repeating decimal? Since the memory would not be able to hold an infinitely repeating number like this, computers round off repeating decimals after a fixed number of bits and only hold their approximate values in memory.  Even with integer numbers, the memory will limit the size of the integer. The fixed number of bits used to represent numbers limits the range of values and mathematical operations on those values, and can even cause errors such as overflow or rounding off errors. An <b><i><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> </i></b> occurs when a computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the computer attempts to handle a very large number that is outside of the defined range of values can be represented. In many programming languages, integer numbers are limited to a size of 4 bytes (32 bits where each byte is 8 bits) in memory and real numbers with decimal points to 8 bytes. Languages like App Inventor and the AP pseudocode only limit the size of the data by the size of the computer’s memory. 
     

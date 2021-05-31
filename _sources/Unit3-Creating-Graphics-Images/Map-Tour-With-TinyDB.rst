@@ -86,17 +86,17 @@ Learning Activities
     <p>Up until now, the data in our apps has been stored either in <b><i>global variables</i></b> or as the value of the <i><b>properties</b></i> of the app’s various components.  For example, when you store a piece of text in a Label, that data is stored in the computer’s main memory, in its RAM — random access memory.  And as we’ve learned, RAM is <b><i>volatile</i></b>,  meaning that any data stored there will be destroyed when the app is exited.
     </p>
     <p>By contrast, data stored in the computer’s long-term storage — e.g., on the phone’s flash drive — will <b><i>persist</i></b> as long as the app is kept on the device.  There are various ways to store data permanently on a computer.  For example, you could store it in a file, such as a document or image file.   Another way to store persistent data is in a <b><i>database</i></b>.  App Inventor provides us a very simple, easy-to-use database in its <b><i>TinyDb</i></b> component.  Any data that we store in the TinyDb, will not disappear when the app is exited.   Instead, it will persist between uses of the app -- even if you turn off the device.</p>
-    <p>Before working on incorporating TinyDb into our app, the following video provides a brief overview of this very important component.</p>
+    <p>Before working on incorporating TinyDb into our app, the following video provides a brief overview of this very important component. (<a href="https://www.teachertube.com/videos/tiny-db-438788" target="_blank" title="">Teacher Tube version</a>)</p>
     
 .. youtube:: qVJF-i5LqjQ
         :width: 650
         :height: 415
         :align: center
 
+
 .. raw:: html
 
- 	(<a href="https://www.teachertube.com/videos/tiny-db-438788" target="_blank" title="">Teacher Tube version</a>)<br/>
-    <h3> Map Tour with TinyDB Tutorial</h3>
+    <p><h3> Map Tour with TinyDB Tutorial</h3>
     <p>To get started, you can use the app you created in the previous lesson  and follow along with the video tutorial or the <a href="https://docs.google.com/document/d/1I01RYFHYLnNQZX9UN8Gc8dC2nAzAcXx9TLIkeEO8_Ug/edit?usp=sharing" target="_blank">Text Tutorial</a> or for an additional challenge, the <a href="https://docs.google.com/document/d/1LDIxFUhmRtmhc1Iyrow4PEsxu0qUuDeT5NDqBMZIvPM/edit?usp=sharing" target="_blank">Short Handout</a>.  </p>
     <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="500" src="https://www.youtube.com/embed/s6YZb3tfkq0?rel=0" width="100%"></iframe>
     (<a href="https://www.teachertube.com/videos/mobile-csp-map-tour-tinydb-revised-476367" target="_blank" title="">Teacher Tube version</a>)<br/>
@@ -107,23 +107,14 @@ Learning Activities
     <li><b>Text To Speech:</b> Add a TextToSpeech component to the UI, and when the user picks an item from the list, call TextToSpeech.speak to say the selected item.</li>
     <li>
     <b>Delete Locations:</b> As you are testing your app, you may have added a lot of locations on your map tour that you do not want. You could delete the data stored for the installed app in your device under Settings/Applications Settings or by calling TinyDB.clearAll in your code, but in this enhancement you will add a Delete ListPicker button that lets you choose a location to remove from your lists and update the database. Here are the steps you need to do:
-        <ul>
+    <ul>
     <li>Add a ListPicker to the UI to Delete destinations.
-          </li><li>In ListPicker.BeforePicking, set the ListPicker.Elements to the destinations list.
-     </li><li>In ListPicker.AfterPicking, use the remove list item block from the Lists drawer to remove the item at the ListPicker.SelectedIndex from both of the lists (destinations and destinationsLatLong). Save both lists in TinyDB. Use Notifier.Alert to tell the user the destination was deleted.
-     </li><li>Refactor your code to add a saveToDB procedure to save both lists in TinyDB and call it from ListPicker.AfterPicking and Notifier.AfterTextInput. 
-          </li></ul></li>
+    </li><li>In ListPicker.BeforePicking, set the ListPicker.Elements to the destinations list.
+    </li><li>In ListPicker.AfterPicking, use the remove list item block from the Lists drawer to remove the item at the ListPicker.SelectedIndex from both of the lists (destinations and destinationsLatLong). Save both lists in TinyDB. Use Notifier.Alert to tell the user the destination was deleted.
+    </li><li>Refactor your code to add a saveToDB procedure to save both lists in TinyDB and call it from ListPicker.AfterPicking and Notifier.AfterTextInput. 
+    </li></ul></li>
     <li> <b>Add My Location:</b> If you have a device and location where GPS works. when you click on the My Location block, add that location to the destinationsLatLong lists using the Add Item to List block and use the Notifier.ShowTextDialog to get the location name for the destinations list (this will call the already written Notifier.AfterTextInput procedure).
     <br/></li>
-    <!-- Moved to differentiation/enrichment
-      &lt;li&gt;&lt;b&gt;Optional (hard) - New Markers using Any Component blocks:&lt;/b&gt; When the user adds a destination to the map tour, your app could also add a marker at that location. This is a little challenging. Follow the algorithm below:
-    &lt;ul&gt;&lt;li&gt;Add a new variable newMarker set to empty text string &quot;&quot;.
-      &lt;/li&gt;&lt;li&gt;In When Map.LongPressAtPoint, set the newMarker to Map.CreateMarker at the pressed latitude and longitude.
-     &lt;/li&gt;&lt;li&gt;In Notifier.AfterTextInput, we can set the marker’s title to the user’s response. Since this is a new marker added in the code, we do not have a Marker in the UI to use for the set block.  At the bottom of the blocks drawers on the left, there is a section called &lt;b&gt;Any Components&lt;/b&gt;, where you can get or set a property of any components of a certain type instead of specific ones in your UI. Find the green Marker.Title of component block and the Marker.EnableInfoBox of Component block under Any Components at the bottom left of the screen. Put the get newMarker variable block into the ofComponent slots of these blocks. The title should be set to the user’s response and Enable InfoBox should be set to true (in  the Logic drawer).
-     &lt;/li&gt;&lt;/ul&gt;
-        Note that the new markers will not be regenerate when you re-start the app. It is possible to write code with a loop to do this from the list of destinationsLatLong, but it is too complex for Unit 3.
-    &lt;/li&gt;
-      &lt;li&gt;&lt;b&gt;Optional (Any Component Blocks):&lt;/b&gt;Add a TextToSpeech component to the UI. Use the when Map.FeatureClick event handler. When any feature is clicked on the map (this includes all markers), call TextToSpeech and speak the Marker.Title of that feature. Hint: to do this, you will need to use the Marker.Title of component block under Any Components at the bottom left of the screen.&lt;/li&gt; -->
     </ol>
     
 
@@ -134,7 +125,7 @@ Summary
 
     <p>
     In this lesson, you learned how to:
-      <div id="summarylist">
+    <div id="summarylist">
     </div>
     
 
@@ -298,11 +289,11 @@ Reflection: For Your Portfolio
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1sdliswlwSChrIo9xgIK-xP3qvL3d45BvHrwofEQoNic/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vSiaeUFtGF7GcQoI9DPm3AdsCLjLorYB9X2w3OvbgAIM1dNm6-MnLB4CHJUbvjkENRIKb-d62giEgMa/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this &lt;a href=&quot;https://docs.google.com/document/d/1sdliswlwSChrIo9xgIK-xP3qvL3d45BvHrwofEQoNic/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;Google Doc&lt;/a&gt; where you may use File/Make a Copy to make your own editable copy.
-      &lt;ol&gt;
-        &lt;li&gt;What does it mean to say that data is &#39;persistent&#39;?&lt;/li&gt;
-        &lt;li&gt;What&#39;s the difference in terms of &lt;i&gt;where&lt;/i&gt; data is located for data stored in a global variable vs. data stored in a database?&lt;/li&gt;
-        &lt;li&gt;Include screenshots and explanations of your enhancements.&lt;/li&gt;
+    &lt;ol&gt;
+    &lt;li&gt;What does it mean to say that data is &#39;persistent&#39;?&lt;/li&gt;
+    &lt;li&gt;What&#39;s the difference in terms of &lt;i&gt;where&lt;/i&gt; data is located for data stored in a global variable vs. data stored in a database?&lt;/li&gt;
+    &lt;li&gt;Include screenshots and explanations of your enhancements.&lt;/li&gt;
     
-      &lt;/ol&gt;-->
+    &lt;/ol&gt;-->
     </div>
     </div>

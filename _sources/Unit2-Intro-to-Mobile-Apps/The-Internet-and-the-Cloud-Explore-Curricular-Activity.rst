@@ -350,16 +350,14 @@ Self-Check
     :practice: T
     :answer_a: Twitter
     :feedback_a: 
-    :answer_b: Excel
-    :feedback_b: Excel provided by Microsoft 360 is now cloud-based.
-    :answer_c: G-mail
-    :feedback_c: 
-    :answer_d: PowerPoint
-    :feedback_d: PowerPoint provided by Microsoft 360 is now cloud-based.
-    :answer_e: Facebook
+    :answer_b: G-mail
+    :feedback_b: 
+    :answer_c: PowerPoint
+    :feedback_c: PowerPoint provided by Microsoft 360 is now cloud-based.
+    :answer_d: Facebook
+    :feedback_d: 
+    :answer_e: Dropbox
     :feedback_e: 
-    :answer_f: Dropbox
-    :feedback_f: 
     :correct: a,b,c,d,e,f
 
     Which of the following is an example of a cloud computing application? Choose all that apply. 

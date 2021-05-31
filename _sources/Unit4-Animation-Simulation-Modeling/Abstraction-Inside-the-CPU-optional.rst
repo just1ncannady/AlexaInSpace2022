@@ -7,9 +7,9 @@ Abstraction Inside the CPU optional
 
 .. raw:: html
 
-        <div class="MCSP-lesson-content">
+    <div class="MCSP-lesson-content">
     <script>
-      $(document).ready(function() {
+    $(document).ready(function() {
         generateSummary(EKmapping['4.09']);
         generateHovers();
         Tipped.create('.vocab', function(element) {
@@ -286,7 +286,7 @@ Self-Check
 
     
 
-Generation 2: <span class="hover vocab yui-wk-div" data-id='Assembly Language'>Assembly Language</span> Programming
+Generation 2: Assembly Language Programming
 --------------------------------------------
 
 .. raw:: html
