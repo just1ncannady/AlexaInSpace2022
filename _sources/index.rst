@@ -27,9 +27,9 @@ Table of Contents
    Unit2-Intro-to-Mobile-Apps/toctree.rst
    Unit3-Creating-Graphics-Images/toctree.rst
    Unit4-Animation-Simulation-Modeling/toctree.rst
-   Create-Task-1/toctree.rst
    Unit5-Algorithms-Procedural-Abstraction/toctree.rst
    Unit6-Communication-Through-Internet/toctree.rst
    Unit7-Using-Analyzing-Data/toctree.rst
    Unit8-AP-Exam-Prep/toctree.rst
-
+   Unit9-Beyond-AP/toctree.rst
+   Unit10-Additional-Resources/toctree.rst
