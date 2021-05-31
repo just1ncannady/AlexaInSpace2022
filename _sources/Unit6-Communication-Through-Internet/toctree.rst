@@ -21,3 +21,4 @@ Communication Through the Internet
 	Cybersecurity.rst
 	Impacts-of-CS-Crowdsourcing-with-Citizen-Science-Apps.rst
 	Wrap-Up.rst
+	nonap_explore.rst
