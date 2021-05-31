@@ -7,7 +7,8 @@ import io
 import os
 
 # Unit listed in the URL for Units 1-11 (0th index is Unit 1)
-UNITS = [19, 1, 22, 23, 24, 25, 26, 127, 149, 175, 176]
+UNITS = [19, 1, 22, 23, 24, 25, 26, 127, 149, 175, 176] #student course
+UNITS = [1, 2, 16, 46, 8, 27, 26, 140, 168, 178, 126]   #teacher course
 
 # User-Defined Units
 #unit_num = -1
@@ -17,7 +18,8 @@ UNITS = [19, 1, 22, 23, 24, 25, 26, 127, 149, 175, 176]
 # Create text files with URL links for all units
 for unit_num in range(1,12):
     # Source Page is unit landing page
-    course_url = 'https://mobilecsp-2017.appspot.com/mobilecsp/'
+    course_url = 'https://mobilecsp-2017.appspot.com/mobilecsp/'          #student course
+    course_url = 'https://mobilecsp-2017.appspot.com/teach_mobilecsp/'    #teacher course
     src_page = course_url + 'unit?unit=' + str(UNITS[unit_num-1])
 
     # Get the web page and create the soup structure
@@ -34,7 +36,8 @@ for unit_num in range(1,12):
             unit_urls.append(course_url + links[0].get('href') + '\n')
 
     # Write URLs to text file for scraping
-    filename = 'mcsp-urls_Unit' + str(unit_num) + '.txt'
+    #filename = 'mcsp-urls_Unit' + str(unit_num) + '.txt'    #student pages
+    filename = 'tcsp-urls_Unit' + str(unit_num) + '.txt'    #teacher pages
     with open(filename, "w",newline='\n') as file:
         file.write('# MobileCSP URLs for Unit ' + str(unit_num) + '\n')
         file.write(src_page + '\n')

@@ -1,21 +1,9 @@
-.. raw:: html 
+. raw:: html 
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Impacts of CS Privacy  Explore Curricular Activity
 ==================================================
-
-.. raw:: html
-
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
 
 .. raw:: html
 
@@ -84,7 +72,7 @@ Learning Activities
     <p>First, we need to understand the various types of data and how it is collected from us. Some examples of data types are integers, numbers, booleans, text, image, video, audio, and signals. Data can also infer these types, such as fingerprints, temperature, music, length, pictures, etc. Data is gathered by data collection devices (e.g., keyboards, sensors, cameras, etc.). Complete this <a href="https://docs.google.com/document/d/1YPVGCNXv_eHcahlfEBDqnlczAPCLGZBkpdlEkSte544/copy" target="_blank" title="">Data Types and Data Collection Reference Sheet</a> with some examples of your own and/or with your class. When you’re done, this document can be used as a reference sheet for the remainder of this lesson. </p>
     <h3>Activity - Part 2: Classifying Data</h3>
     <p>Earlier in the course you learned about what a computing innovation is and discussed some examples. You also learned about input and output. Now that you know what a computing innovation is and the kinds of data that can be collected, you can determine what data is collected by specific computing innovations. Using this <a href="https://docs.google.com/document/d/1FqRKMRqCMU7OkIpZySR5ISYbNrzJNxRuF59Iu96sNSY/copy" target="_blank" title="">Classifying Data worksheet</a>, identify the data used by the listed computing innovations and then classify the data as input or output. When you are finished, compare your answers with a classmate.</p>
-    <p><b>How is your data being used and are you concerned?</b> Disparate personal data, such as geolocation, <span class="hover vocab yui-wk-div" data-id="Cookies">Cookies</span>, and browsing history, can be aggregated to create knowledge about an individual. PII and other information stored online can be used to enhance a user’s online experiences and to simplify making online purchases. You may have seen targeted ads when browsing the web. Targeted ads are ads specific to you based on your browsing and purchase history. They are being used by stores (as shown in the NY times video below) and by websites for internet advertising.</p>
+    <p><b>How is your data being used and are you concerned?</b> Disparate personal data, such as geolocation, <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='Cookies'>Cookies</span>"><span class="hover vocab yui-wk-div" data-id='Cookies'>Cookies</span></span>, and browsing history, can be aggregated to create knowledge about an individual. PII and other information stored online can be used to enhance a user’s online experiences and to simplify making online purchases. You may have seen targeted ads when browsing the web. Targeted ads are ads specific to you based on your browsing and purchase history. They are being used by stores (as shown in the NY times video below) and by websites for internet advertising.</p>
     <table>
     <tbody><tr>
     <td>
@@ -101,11 +89,11 @@ Learning Activities
     <p><img align="left" alt="" class="yui-img" src="../_static/assets/img/IPOS.PNG" title=""/><b><br/>Input Process Output Storage:</b> Computing innovations involve data which can be used in different ways. Some data is considered <span style="font-weight: bold; font-style: italic;">input</span> while other data is considered <span style="font-weight: bold; font-style: italic;">output</span>. An Input Processing Output Storage (IPOS) Structure Chart helps to classify data and see how that data is being used as input, then <span style="font-weight: bold; font-style: italic;">processed</span> by a program to give an output to the user, and also how that data is <span style="font-weight: bold; font-style: italic;">stored</span>. </p>
     <p><b>Exercise:</b> Can you draw, label, and explain the scenario of having to type a paper for a class using an IPOS structure chart?</p>
     <h4><br/><br/><br/><br/><br/>Data Concerns</h4>
-    <p>The collection of our data raises a variety of concerns involving data privacy, data security, and data storage. For example, commercial and governmental curation of information may be exploited if privacy and other protections are ignored. Having a website collect and remember your login information, for example, may be convenient because it saves you time, but it also comes with risks and concerns:</p>
+    <p>The collection of our data raises a variety of concerns involving <span class="hover vocab yui-wk-div" data-id='data privacy'>data privacy</span>, <span class="hover vocab yui-wk-div" data-id='data security'>data security</span>, and <span class="hover vocab yui-wk-div" data-id='data storage'>data storage</span>. For example, commercial and governmental curation of information may be exploited if privacy and other protections are ignored. Having a website collect and remember your login information, for example, may be convenient because it saves you time, but it also comes with risks and concerns:</p>
     <ul>
-    <li><span class="hover vocab yui-wk-div" data-id="Data Privacy">Data Privacy</span> - assures that personal information (and sometimes corporate confidential information as well) are collected, processed (used), protected and destroyed legally and fairly.  </li>
-    <li><span class="hover vocab yui-wk-div" data-id="Data Security">Data Security</span> - controls access to personal information and protects against its unauthorized use and acquisition. </li>
-    <li><span class="hover vocab yui-wk-div" data-id="Data Storage">Data Storage</span> - how you archive your data. The two types of storage are hard data (RAM, Hard Drive, flash drives, solid state) and remote data (cloud computing) - <a href="https://www.techopedia.com/definition/23342/data-storage" target="_blank" title="">Techopedia</a></li>
+    <li><span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='Data Privacy'>Data Privacy</span>"><span class="hover vocab yui-wk-div" data-id='Data Privacy'>Data Privacy</span></span> - assures that personal information (and sometimes corporate confidential information as well) are collected, processed (used), protected and destroyed legally and fairly.  </li>
+    <li><span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='Data Security'>Data Security</span>"><span class="hover vocab yui-wk-div" data-id='Data Security'>Data Security</span></span> - controls access to personal information and protects against its unauthorized use and acquisition. </li>
+    <li><span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='Data Storage'>Data Storage</span>"><span class="hover vocab yui-wk-div" data-id='Data Storage'>Data Storage</span></span> - how you archive your data. The two types of storage are hard data (RAM, Hard Drive, flash drives, solid state) and remote data (cloud computing) - <a href="https://www.techopedia.com/definition/23342/data-storage" target="_blank" title="">Techopedia</a></li>
     </ul>
     <h3>Activity - Part 3: Collecting Data</h3>
     <p>The About My Info website (<a href="https://aboutmyinfo.org/" target="_blank" title="">aboutmyinfo.org</a>) asks for personal data to determine how easily identifiable someone is from their data. Data such as this is often used by doctors and schools. Explore the About My Info website and then explore the privacy policy for your favorite social media site. As you explore, record your findings and answer the questions on the <a href="https://docs.google.com/document/d/1hshcntNmNYY13DoWIX4bVZSiap7EM2XVeGjjysEcmUI/copy" target="_blank" title="">Collecting Data worksheet</a>.</p>
@@ -114,7 +102,7 @@ Learning Activities
     <ol>
     <li>Identify the data used by the computing innovation.</li>
     <li>Write a paragraph that explains how the data is consumed, transformed, or produced by this computing innovation.</li>
-    <li>Write a paragraph that explains any data privacy, security, or storage concerns related to the computing innovation.</li>
+    <li>Write a paragraph that explains any <span class="hover vocab yui-wk-div" data-id='data privacy'>data privacy</span>, security, or storage concerns related to the computing innovation.</li>
     </ol>
     <h3>Read Blown to Bits Chapter 2</h3>
     <a href="https://drive.google.com/open?id=1_4439HxJDBXbViBECySAQdRITEnSOPzs" target="_blank"><img alt="" class="yui-img" src="../_static/assets/img/blowntobits.jpg" style="float:left;padding-right:1em" title="" width="150"/></a>
@@ -132,7 +120,7 @@ Still Curious?
     <p>
     <p>Read up on other ways that data is collected and used:</p>
     <ul>
-    <li><a href="http://www.teachingideas.co.uk/cookies-on-teaching-ideas" target="_blank">Learn more</a> about cookies and how they are used to track you on the websites you visit. <a href="https://youtu.be/IPQhME1UYQU" target="_blank">This video</a> from <i>The Guardian</i> also does a nice job explaining how cookies are used.</li>
+    <li><a href="http://www.teachingideas.co.uk/<span class="hover vocab yui-wk-div" data-id='cookies'>cookies</span>-on-teaching-ideas" target="_blank">Learn more</a> about <span class="hover vocab yui-wk-div" data-id='cookies'>cookies</span> and how they are used to track you on the websites you visit. <a href="https://youtu.be/IPQhME1UYQU" target="_blank">This video</a> from <i>The Guardian</i> also does a nice job explaining how <span class="hover vocab yui-wk-div" data-id='cookies'>cookies</span> are used.</li>
     <li><a href="https://vimeo.com/231446847" target="_blank">Learn more</a> about targeted web ads and adblockers.</li>
     <li><a href="https://www.forbes.com/sites/metabrown/2015/12/28/voter-data-whats-public-whats-private/#6ee2d87b1591" target="_blank">Learn more</a> about voter data and what's private and public information. Here's an example of <a href="http://www.sos.state.mn.us/election-administration-campaigns/data-maps/registered-voter-list-requests/" target="_blank">Minnesota's public voter list</a> information and the <a href="http://voterlist.electproject.org/" target="_blank">US Election Project</a> has information on all 50 states.</li>
     <li>Snapchat's new SnapMap feature is of concern to many parents of children who may not understand how their information is being used. Read more about SnapMap and the privacy concerns it raises <a href="https://www.theguardian.com/technology/2017/jun/23/snapchat-maps-privacy-safety-concerns" target="_blank">from <i>The Guardian</i></a> and <a href="https://www.theverge.com/2017/6/23/15864552/snapchat-snap-map-privacy-threat" target="_blank">The Verge</a>.</li><li><span class="yui-non">Learn more about HIPAA by<span class="yui-non"> <a href="https://www.hhs.gov/hipaa/for-individuals/index.html" target="_blank" title="">reading here</a></span> and/or <a href="https://www.youtube.com/watch?list=PLACD9536723837201&amp;v=FKTHncn-5Vs" target="_blank" title="">watching this video</a>.</span></li><li><span class="yui-non">Learn more about FERPA by <a href="https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html" target="_blank" title="">reading here</a> and/or <a href="https://www.youtube.com/watch?v=1ZcU84pROa8" target="_blank" title="">watching this video</a>.</span></li>

@@ -95,10 +95,6 @@ Learning Activities
 
 .. raw:: html
 
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
  	(<a href="https://www.teachertube.com/videos/tiny-db-438788" target="_blank" title="">Teacher Tube version</a>)<br/>
     <h3> Map Tour with TinyDB Tutorial</h3>
     <p>To get started, you can use the app you created in the previous lesson  and follow along with the video tutorial or the <a href="https://docs.google.com/document/d/1I01RYFHYLnNQZX9UN8Gc8dC2nAzAcXx9TLIkeEO8_Ug/edit?usp=sharing" target="_blank">Text Tutorial</a> or for an additional challenge, the <a href="https://docs.google.com/document/d/1LDIxFUhmRtmhc1Iyrow4PEsxu0qUuDeT5NDqBMZIvPM/edit?usp=sharing" target="_blank">Short Handout</a>.  </p>

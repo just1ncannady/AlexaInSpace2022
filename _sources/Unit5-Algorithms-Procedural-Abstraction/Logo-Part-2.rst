@@ -7,18 +7,6 @@ Logo Part 2
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -108,9 +96,9 @@ Learning Activities
       </li>
     </ul>
     <p>
-      The N and D here are called <b><i>parameters</i></b> which are input variables for a procedure. They are given values called <b><i>arguments</i></b> when you call the procedure to do its job.
+      The N and D here are called <b><i><span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span></i></b> which are input variables for a procedure. They are given values called <b><i><span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span></i></b> when you call the procedure to do its job.
        A simple example will illustrate the
-      advantage of using parameters. 
+      advantage of using <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>. 
     </p>
     <p>
       In our previous version of Logo, to move forward by 40 pixels would require 4 statements, each of which 
@@ -168,13 +156,13 @@ Learning Activities
       As a rule of thumb, 
       <b><font color="magenta">the more general a procedure (or abstraction) the better</font></b>.  
     </p>
-    <h3>Defining Procedures with Parameters</h3>
+    <h3>Defining Procedures with <span class="hover vocab yui-wk-div" data-id='Parameters'>Parameters</span></h3>
     
-    A <b>procedure</b> is a named group of programming instructions that may have parameters and return values. Procedures are referred to by different names, such as method or function, depending on the programming language. A procedure call interrupts the sequential execution of statements, causing the program to execute the statements within the procedure before continuing. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.
+    A <b>procedure</b> is a named group of programming instructions that may have <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> and return values. Procedures are referred to by different names, such as method or function, depending on the programming language. A procedure call interrupts the sequential execution of statements, causing the program to execute the statements within the procedure before continuing. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.
     
-    In this lesson, you will learn to define procedures with <b>parameters</b>, which are variables that hold data sent to the procedure to help it do its job. To do this, you will need get a procedure block from the Procedures drawer. As always, you should give your procedure an appropriate name. To add a parameter to the procedure, click the blue mutator button on the procedure block  and drag an input block from the left into the inputs block on the right. Click the blue button when you have finished adding the parameters needed for the procedure.  Replace x in input x with a useful and helpful parameter name such as L or Length for the drawSquare procedure. After you've defined the procedure, look in the Procedures drawer to find the newly generated call block for that procedure which you can use to call the procedure to do its job.<p>
+    In this lesson, you will learn to define procedures with <b><span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span></b>, which are variables that hold data sent to the procedure to help it do its job. To do this, you will need get a procedure block from the Procedures drawer. As always, you should give your procedure an appropriate name. To add a parameter to the procedure, click the blue mutator button on the procedure block  and drag an input block from the left into the inputs block on the right. Click the blue button when you have finished adding the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> needed for the procedure.  Replace x in input x with a useful and helpful parameter name such as L or Length for the drawSquare procedure. After you've defined the procedure, look in the Procedures drawer to find the newly generated call block for that procedure which you can use to call the procedure to do its job.<p>
     <img height="200px" src="../_static/assets/img/procedureParamAnimated.gif"/>
-    </p><p>  In the AP exam, the following pseudocode is used for procedures with and without parameters compared to App Inventor blocks. Notice that parentheses () are  used after a procedure name in the AP text pseudocode; they can be empty or hold the parameters. There is also a special kind of procedure, often called a <b>function</b>, that can return a result. The  RETURN(result) statement can be used inside these procedures to return a calculated result or expression which can be assigned to a variable. For example, result ← procName(arg1, arg2, …) to assign to result the “value of the procedure” being returned by calling PROCEDURE procName(parameter1, parameter2, …).  The AP pseudocode provides a procedure DISPLAY(expression)  to display the value of expression, followed by a space, and a procedure INPUT(), which accepts a value from the user and returns the input value often assigned to a variable. <br/>
+    </p><p>  In the AP exam, the following pseudocode is used for procedures with and without <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> compared to App Inventor blocks. Notice that parentheses () are  used after a procedure name in the AP text pseudocode; they can be empty or hold the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>. There is also a special kind of procedure, often called a <b>function</b>, that can return a result. The  RETURN(result) statement can be used inside these procedures to return a calculated result or expression which can be assigned to a variable. For example, result ← procName(arg1, arg2, …) to assign to result the “value of the procedure” being returned by calling PROCEDURE procName(parameter1, parameter2, …).  The AP pseudocode provides a procedure DISPLAY(expression)  to display the value of expression, followed by a space, and a procedure INPUT(), which accepts a value from the user and returns the input value often assigned to a variable. <br/>
     </p><table border="">
     <tbody>
     <tr><td width="10%"></td><td width="25%">AP Text Pseudocode</td><td width="30%">AP Block Pseudocode</td><td width="30%">App Inventor Block</td></tr>
@@ -189,7 +177,7 @@ Learning Activities
     <bl>instructions</bl>
     </bl></div></td>
     <td><img src="../_static/assets/img/procedure.png" width="70%"/></td></tr>
-    <tr><td>Procedures with Parameters</td><td>
+    <tr><td>Procedures with <span class="hover vocab yui-wk-div" data-id='Parameters'>Parameters</span></td><td>
     <pre>PROCEDURE name(param1,param2,...)
     {
      <em>instructions</em>
@@ -214,7 +202,7 @@ Learning Activities
     </bl></div></td>
     <td><img src="../_static/assets/img/procedurewresult.png" width="100%"/></td></tr>
     </tbody></table>
-    <p>The following example uses procedural abstraction and parameters to write a procedure <i>welcome(name)</i> that will work for any name. We can call  the procedure welcome with different arguments "Ali" and "Skyler". The argument value gets assigned to the parameter name when the procedure is called so that it can display hello to whichever name it is given. When you call the procedure welcome with a name, the program  jumps to the procedure and executes those statements. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.<br/>
+    <p>The following example uses <span class="hover vocab yui-wk-div" data-id='procedural abstraction'>procedural abstraction</span> and <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> to write a procedure <i>welcome(name)</i> that will work for any name. We can call  the procedure welcome with different <span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span> "Ali" and "Skyler". The argument value gets assigned to the parameter name when the procedure is called so that it can display hello to whichever name it is given. When you call the procedure welcome with a name, the program  jumps to the procedure and executes those statements. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.<br/>
     <img src="../_static/assets/img/procedureCall.png" width="350"/>
     </p><h3>Tutorial: DrawSquare(L)</h3>
     <p>
@@ -291,7 +279,7 @@ Learning Activities
       payoff if you can do it.
       <img align="left" src="../_static/assets/img/Hexagon.png" width="100px"/>
     </p>
-    <p>HINT:  Your procedure will need 2 parameters, N, and L, where N is the number of sides (e.g., 4, 5, 6, etc.) 
+    <p>HINT:  Your procedure will need 2 <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>, N, and L, where N is the number of sides (e.g., 4, 5, 6, etc.) 
       and L is the length of each side. 
         <img align="right" src="../_static/assets/img/Octagon.png" width="100px"/>
     </p>
@@ -304,7 +292,7 @@ Learning Activities
     </p>
     <p>
     <b>5.</b> Use your <i>drawPolygon()</i> procedure to draw a circle -- i.e., define a <b><i>drawCircle</i></b> procedure 
-      and call <i>drawPolygon(N,L)</i> with appropriate values for the parameters.  This exercise will require some trial 
+      and call <i>drawPolygon(N,L)</i> with appropriate values for the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>.  This exercise will require some trial 
       
       <img align="right" src="../_static/assets/img/Circle.png" width="100px"/>
       
@@ -431,19 +419,25 @@ Self-Check
 
 
     
-    .. quizly:: mscp-5-2-4
     
-        :quizname: quiz_loop_sum_numbers
-    
-    
-    .. quizly:: mscp-5-2-5
-    
-        :quizname: quiz_procedure_with_parameter
+.. quizly:: mscp-5-2-4
     
     
-    .. quizly:: mscp-5-2-6
+    :quizname: quiz_loop_sum_numbers
     
-        :quizname: quiz_proc_two_params
+    
+    
+.. quizly:: mscp-5-2-5
+    
+    
+    :quizname: quiz_procedure_with_parameter
+    
+    
+    
+.. quizly:: mscp-5-2-6
+    
+    
+    :quizname: quiz_proc_two_params
     
     
 
@@ -471,7 +465,7 @@ Sample AP CSP Exam Question
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q18SquareQuestion.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q18SquareQuestion.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html

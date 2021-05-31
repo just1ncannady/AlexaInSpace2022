@@ -7,18 +7,6 @@ Cryptography Basics
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -50,8 +38,7 @@ Cryptography Basics
         "polyalphabetic substitution" : "In a polyalphabetic substitution system multiple alphabets are used to encrypt a single message.", 
         "one time pad" : "The one time pad system is an example of perfect (unbreakable) encryption, which is achieved by using, only once, a random polyalphabetic key that is as long the message itself.",
         "key exchange problem" : "In cryptography, the key exchange problem is the problem of sharing a secret key between Alice and Bob, without Eve, an eavesdropper, being able to intercept it."
-      };
-      */
+      };      */
     
     </script>
     <h3 id="est-length"><b>Time Estimate: 90 minutes</b></h3>
@@ -63,45 +50,45 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>In the preceding lesson, you built a Caesar Cipher app and learned that <i>Cryptography</i> means <i>secret writing</i>. It is the art and science of
+    <p>In the preceding lesson, you built a Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span> app and learned that <i><span class="hover vocab yui-wk-div" data-id='Cryptography'>Cryptography</span></i> means <i>secret writing</i>. It is the art and science of
     sending secret messages and it has been used by generals and governments and 
     everyday people practically since the invention of written language. 
     
     </p><p>As we will see in this lesson, modern cryptographic techniques are essential
-    to guaranteeing the security of our transactions on the Internet.  Cryptography plays a
+    to guaranteeing the security of our transactions on the Internet.  <span class="hover vocab yui-wk-div" data-id='Cryptography'>Cryptography</span> plays a
     role whenever you make an online purchase at Amazon or provide your password to
     Google.  If we couldn't rely on those transactions being secure -- i.e., being encrypted
     using some cryptographic algorithm -- we really wouldn't have the Internet as we know
     it today.
     
-    </p><p>This lesson focuses on some of the classical ciphers that followed the Caesar cipher,
-    which Julius Caesar used in 34 B.C.  Like the Caesar cipher, the
+    </p><p>This lesson focuses on some of the classical ciphers that followed the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>,
+    which Julius Caesar used in 34 B.C.  Like the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, the
     other ciphers we will study in this lesson will be <i>symmetric ciphers</i>,
     which means that the same <i>key</i> is used both for <i>encrypting</i> and 
     <i>decrypting</i> messages.   As we will also see, all ciphers consist of two parts,
     the <i>key</i> and their <i>algorithm</i>.  And it is the key, not the algorithm,
-    that allows the cipher to create secret messages. In fact, in modern cryptography the
+    that allows the <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> to create secret messages. In fact, in modern <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span> the
     algorithms are all based on <i>open standards</i> that are created by teams of 
     experts, discussed openly and adopted and maintained by standards organizations.
     
     </p><p>So, let's take a look at some of the classical ciphers and some of the basic 
-    principles of cryptography.  There are several hands-on activities in this lesson, where
+    principles of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>.  There are several hands-on activities in this lesson, where
     you'll have a chance to practice encrypting and decrypting messages and analyzing
     ciphers.
     
     </p>
     <p>(<a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8" target="_blank" title="">Slides</a>)</p>
     <!--
-    &lt;h2&gt;Part 1: Caesar Cipher&lt;/h2&gt;
+    &lt;h2&gt;Part 1: Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>&lt;/h2&gt;
     &lt;p&gt;
-      To refamiliarize yourself with the Caesar Cipher, use the widget below to do the exercises listed.
+      To refamiliarize yourself with the Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>, use the widget below to do the exercises listed.
        
     &lt;/p&gt;
     
-    &lt;h2&gt;Activity: Caesar Cipher&lt;/h2&gt;
+    &lt;h2&gt;Activity: Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>&lt;/h2&gt;
     (&lt;a href=&quot;http://appinventor.trincoll.edu/csp/caesarcipher/&quot; target=&quot;_blank&quot;&gt;Open widget in separate window&lt;/a&gt;)
     
-    &lt;gcb-iframe src=&quot;https://appinventor.trincoll.edu/csp/caesarcipher/&quot; title=&quot;Caesar Cipher&quot; height=&quot;300&quot; width=&quot;650&quot; instanceid=&quot;IBDTlyHm0G8e&quot;&gt;
+    &lt;gcb-iframe src=&quot;https://appinventor.trincoll.edu/csp/caesarcipher/&quot; title=&quot;Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>&quot; height=&quot;300&quot; width=&quot;650&quot; instanceid=&quot;IBDTlyHm0G8e&quot;&gt;
     &lt;/gcb-iframe&gt;
     
     &lt;ol&gt;
@@ -142,15 +129,15 @@ Learning Activities
     <iframe height="350" src="https://mobile-csp.org/webapps/crypto/simplesubstitution.html" style="border: 0;" title="" width="650"></iframe>
     <br/>
     <ol>
-    <li><b>By Hand:</b> Use the Simple Substitution cipher to encrypt your name. 
-    Choose your own keyword to create a cipher alphabet.   
+    <li><b>By Hand:</b> Use the Simple Substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> to encrypt your name. 
+    Choose your own keyword to create a <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> alphabet.   
     Then use the script to check your result.
     
     </li><li><b>Decrypt:</b> The following word,  <b><i>SIRTQSMTCKJ</i></b>, 
     was encrypted with the keyword <b><i>simple</i></b>.  Can you decrypt it?
     
-    </li><li><b>Brute force attack.</b> How many keys (arrangements of the alphabet) 
-    would you have to try to perform a brute force attack?
+    </li><li><b><span class="hover vocab yui-wk-div" data-id='Brute force attack'>Brute force attack</span>.</b> How many keys (arrangements of the alphabet) 
+    would you have to try to perform a <span class="hover vocab yui-wk-div" data-id='brute force attack'>brute force attack</span>?
     
     </li></ol>
     <h3>Part 2: Frequency Analysis</h3>
@@ -172,8 +159,8 @@ Learning Activities
     <p>(<a href="https://mobile-csp.org/webapps/crypto/freqanalyzer.html" target="_blank">Open widget in separate window</a>)</p>
     <iframe height="400" src="https://mobile-csp.org/webapps/crypto/freqanalyzer.html" style="border: 0;" title="" width="675"></iframe>
     <ol>
-    <li><b>Frequency analysis:</b> One of the following messages was encrypted 
-    using a <i>substitution cipher</i> and the other with a <i>transposition cipher</i>.
+    <li><b><span class="hover vocab yui-wk-div" data-id='Frequency analysis'>Frequency analysis</span>:</b> One of the following messages was encrypted 
+    using a <i>substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span></i> and the other with a <i>transposition <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span></i>.
     Can you identify which is which? 
     Paste the messages into the frequency analyzer tool (above) and observe their
     frequency histograms?. 
@@ -219,11 +206,11 @@ Learning Activities
     (<a href="https://mobile-csp.org/webapps/crypto/vigenere.html" target="_blank">Open widget in separate window</a>)
     <iframe height="400" src="https://mobile-csp.org/webapps/crypto/vigenere.html" style="border: 0;" title="" width="650"></iframe><br/>
     <ol>
-    <li><b>By Hand:</b> Use the Vigenere cipher to encrypt your name.  Choose
+    <li><b>By Hand:</b> Use the Vigenere <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> to encrypt your name.  Choose
     your own keyword.
     
     <p></p></li><li><b>Decrypt</b> the following message, which was encrypted 
-    using Vigenere cipher with
+    using Vigenere <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> with
     the keyword <i>zebras</i>. 
     
     <blockquote>
@@ -231,7 +218,7 @@ Learning Activities
     </pre>
     </blockquote>
     <br/></li>
-    <li><b>Frequency analysis:</b> Use the <i>Frequency Analyzer</i> tool (above) to count the letter frequencies in the following text, which is the same text that was encrypted in an earlier exercise.  In this case it was encrypted using Vigenere cipher.  What differences do you observe from the histograms you used in the previous exercise. 
+    <li><b><span class="hover vocab yui-wk-div" data-id='Frequency analysis'>Frequency analysis</span>:</b> Use the <i>Frequency Analyzer</i> tool (above) to count the letter frequencies in the following text, which is the same text that was encrypted in an earlier exercise.  In this case it was encrypted using Vigenere <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>.  What differences do you observe from the histograms you used in the previous exercise. 
     <blockquote>
     <pre>sabjt zdffj tgexj dekhx xrslg ixfrk ssgki edwj kwsrx ivayd sgnik csnzt ozwuy esfip wfgnp 
     jjhfd wtzt ozwuy ewosd yoxai mzexh xxrsl gifgo ugsgz nuqie llasc jkws rxivs wzwpe 

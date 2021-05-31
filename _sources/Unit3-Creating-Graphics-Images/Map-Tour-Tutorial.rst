@@ -7,18 +7,6 @@ Map Tour Tutorial
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -45,8 +33,7 @@ Map Tour Tutorial
         "GPS": "The Global Positioning System (GPS) allows people to pinpoint their geolocation (geographic location) on Earth using satellites."
         
        
-      };
-     */
+      };     */
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
@@ -65,14 +52,14 @@ Introduction and Goals
     (<a href="https://www.teachertube.com/video/mobile-csp-map-tour-preview-revised-476365" target="_blank">TeacherTube Version</a>)
     </td>
     <td>
-    The Map Tour App tutorial showcases some features of the new <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a Map Tour of different destinations. You will learn about an important data abstraction called <b>Lists</b> to keep track of the destinations.
+    The Map Tour App tutorial showcases some features of the new <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a Map Tour of different destinations. You will learn about an important <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> called <b>Lists</b> to keep track of the destinations.
     
     
       <p><b>Objectives:</b> In this lesson you will create an app that: 
       </p><ul>
     <li>uses the new Map component in App Inventor. </li>
-    <li>introduces Lists and ListPickers to store and access a list of destinations on the map.</li>
-    <li>uses an API (Application Programming Interface) to display Wikipedia pages of destinations in a WebViewer. </li>
+    <li>introduces Lists and ListPickers to store and access a <span class="hover vocab yui-wk-div" data-id='list'>list</span> of destinations on the map.</li>
+    <li>uses an <span class="hover vocab yui-wk-div" data-id='API'>API</span> (Application Programming Interface) to display Wikipedia pages of destinations in a WebViewer. </li>
     </ul>
     </td></tr></tbody></table>
     
@@ -105,55 +92,55 @@ Learning Activities
     <li>Add more destinations to your map tour.  Make sure you have at least 3 destinations.
       </li><li><b>MapType ListPicker:</b> Add a ListPicker to choose the Map Type with the Elements Roads, Aerial, and Terrain. These elements can be set in the UI or in the code in the BeforePicking event handler. After picking, use the user’s Selection to set the Map.MapType to 1 for Roads, 2 for Aerial, and 3 for Terrain. You could do this with an if block using the blue mutator button to add if/elseif/else parts to make a 3 way choice.</li>
     <li><b>Zoom Slider: </b>Add a slider to your UI to control the zoom level in the map. You may want a horizontal arrangement to arrange these new controls.  In the slider’s properties, set the MaxValue to 20, MinValue to 1, and ThumbPosition to 13. The slider has a When Slider Position Changed event handler that is called when the user slides the slider. Inside this event, you can change the Map1’s Zoom property to value in the Slider’s ThumbPosition.</li>
-    <li><b>My Location button and GPS:</b> OpenStreetMap keeps track of the user’s location using <b>GPS</b> (the Global Positioning System which uses satellites orbiting the earth to allow us to pinpoint our locations on earth). The Map’s properties UserLatitude and UserLongitude will give the latitude and longitude of the device currently running your app if the device has GPS capabilities. Add a button called My Location. When it is clicked, use the Map.PanTo procedure to go the the Map’s UserLatitude, UserLongitude, Map.ZoomLevel. <b>Note:</b> This enhancement is very dependent on the type of device you have and where you are -- being indoors in a classroom is not optimal. So to get this part of the app working you may want to package the app and take the device outdoors. Also, make sure that the device’s <a href="https://www.droid-life.com/2013/01/30/how-to-enable-gps-and-other-location-services-beginners-guide/" target="_blank">location sensing setting</a> is turned on. 
+    <li><b>My Location button and <span class="hover vocab yui-wk-div" data-id='GPS'>GPS</span>:</b> OpenStreetMap keeps track of the user’s location using <b><span class="hover vocab yui-wk-div" data-id='GPS'>GPS</span></b> (the Global Positioning System which uses satellites orbiting the earth to allow us to pinpoint our locations on earth). The Map’s properties UserLatitude and UserLongitude will give the latitude and longitude of the device currently running your app if the device has <span class="hover vocab yui-wk-div" data-id='GPS'>GPS</span> capabilities. Add a button called My Location. When it is clicked, use the Map.PanTo procedure to go the the Map’s UserLatitude, UserLongitude, Map.ZoomLevel. <b>Note:</b> This enhancement is very dependent on the type of device you have and where you are -- being indoors in a classroom is not optimal. So to get this part of the app working you may want to package the app and take the device outdoors. Also, make sure that the device’s <a href="https://www.droid-life.com/2013/01/30/how-to-enable-<span class="hover vocab yui-wk-div" data-id='gps'>gps</span>-and-other-location-services-beginners-guide/" target="_blank">location sensing setting</a> is turned on. 
     
      </li>
     </ol>
     <h3>Data Abstraction: Lists</h3>
-    <p>The simplest <b>data abstraction</b> in programming is a <i>variable</i>, but there are more complex data structures 
-      available in all programming languages. Like most other programming languages, App Inventor has an <b>abstract data type (ADT)</b> called <i><b>list</b></i> that allows  the storage of an ordered sequence of elements under one name in memory. List are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation.
+    <p>The simplest <b><span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span></b> in programming is a <i>variable</i>, but there are more complex data structures 
+      available in all programming languages. Like most other programming languages, App Inventor has an <b>abstract <span class="hover vocab yui-wk-div" data-id='data type'>data type</span> (<span class="hover vocab yui-wk-div" data-id='ADT'>ADT</span>)</b> called <i><b><span class="hover vocab yui-wk-div" data-id='list'>list</span></b></i> that allows  the storage of an ordered sequence of elements under one name in memory. <span class="hover vocab yui-wk-div" data-id='List'>List</span> are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation.
       
-      The elements in a list are 
-      <i><b>indexed</b></i> which means they are <i><b>numbered from 1 to the length of the list</b></i>. 
-      To define a list, we can create a global variable that can be initialized to an <b><i>empty list</i></b> 
-      (a list with no items on it):
+      The elements in a <span class="hover vocab yui-wk-div" data-id='list'>list</span> are 
+      <i><b>indexed</b></i> which means they are <i><b>numbered from 1 to the length of the <span class="hover vocab yui-wk-div" data-id='list'>list</span></b></i>. 
+      To define a <span class="hover vocab yui-wk-div" data-id='list'>list</span>, we can create a global variable that can be initialized to an <b><i>empty <span class="hover vocab yui-wk-div" data-id='list'>list</span></i></b> 
+      (a <span class="hover vocab yui-wk-div" data-id='list'>list</span> with no items on it):
     
       <br/>
     <img src="../_static/assets/img/EmptyList.png" width="400"/>
     <br/>
-      Or we can assign the variable a specific list of items using <b><i>make a list</i></b>: 
+      Or we can assign the variable a specific <span class="hover vocab yui-wk-div" data-id='list'>list</span> of items using <b><i>make a <span class="hover vocab yui-wk-div" data-id='list'>list</span></i></b>: 
       <br/>
     <img src="../_static/assets/img/DestinationsList.png" width="500">
     </img></p><p> The <i>Lists</i> drawer contains lots of blocks (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html" target="_blank">see the documentation here</a>) such as 
-      <i><b>insert item into list</b></i> and <i><b>select random item from list</b></i> that let you manipulate the 
-      items in the list. 
+      <i><b>insert item into <span class="hover vocab yui-wk-div" data-id='list'>list</span></b></i> and <i><b>select random item from <span class="hover vocab yui-wk-div" data-id='list'>list</span></b></i> that let you manipulate the 
+      items in the <span class="hover vocab yui-wk-div" data-id='list'>list</span>. 
     
     </p>
-    <p>Notice that a <b>variable</b> in App Inventor can hold a single data item like a number or a whole list containing many items. Actually, variables in App Inventor can hold a variety of <b>data types</b> including:
+    <p>Notice that a <b>variable</b> in App Inventor can hold a single data item like a number or a whole <span class="hover vocab yui-wk-div" data-id='list'>list</span> containing many items. Actually, variables in App Inventor can hold a variety of <b>data types</b> including:
       </p><ul>
     <li>Numbers: integers or decimal numbers, </li>
     <li> Strings: text, any sequence of characters you can type on a keyboard, represented inside quotes like "Hello World! 123". </li>
     <li>Booleans: like true or false </li>
-    <li> Lists: a collection of related elements given a name. The elements can be any data type but they are usually all the same data type, for example all strings or all numbers, and they are numbered with an index. </li>
+    <li> Lists: a collection of related elements given a name. The elements can be any <span class="hover vocab yui-wk-div" data-id='data type'>data type</span> but they are usually all the same <span class="hover vocab yui-wk-div" data-id='data type'>data type</span>, for example all strings or all numbers, and they are numbered with an <span class="hover vocab yui-wk-div" data-id='index'>index</span>. </li>
     </ul>
-    <p>We also used <b>string concatenation</b> in this app to <b>join</b> together two strings to make a new string. We joined together the wikipedia web site url with the destination name to make a new url. Another term used with strings is <b>substring</b> which is part of a string; for example, "cat" is a substring of "catalog".
+    <p>We also used <b><span class="hover vocab yui-wk-div" data-id='string'>string</span> <span class="hover vocab yui-wk-div" data-id='concatenation'>concatenation</span></b> in this app to <b>join</b> together two strings to make a new <span class="hover vocab yui-wk-div" data-id='string'>string</span>. We joined together the wikipedia web site url with the destination name to make a new url. Another term used with strings is <b><span class="hover vocab yui-wk-div" data-id='substring'>substring</span></b> which is part of a <span class="hover vocab yui-wk-div" data-id='string'>string</span>; for example, "cat" is a <span class="hover vocab yui-wk-div" data-id='substring'>substring</span> of "catalog".
       
     </p><h3>AP Pseudocode</h3>
     <p>In the AP CSP pseudocode, lists are represented using square brackets [ ] as shown below.   
-      The assignment operator ← (the left-pointing arrow)  can be used to assign a value to a variable. This value can be any data type including a number, a string, a boolean, or a list.  
-      So the initialization of the global  variable for the empty list or a list of destinations would look like this in the AP pseudocode:
+      The assignment operator ← (the left-pointing arrow)  can be used to assign a value to a variable. This value can be any <span class="hover vocab yui-wk-div" data-id='data type'>data type</span> including a number, a <span class="hover vocab yui-wk-div" data-id='string'>string</span>, a boolean, or a <span class="hover vocab yui-wk-div" data-id='list'>list</span>.  
+      So the initialization of the global  variable for the empty <span class="hover vocab yui-wk-div" data-id='list'>list</span> or a <span class="hover vocab yui-wk-div" data-id='list'>list</span> of destinations would look like this in the AP pseudocode:
       </p><blockquote>
     <pre>   
       destinations ← []
       destinations ← [ "Statue of Liberty", "Chichen Itza" ]
     </pre>
     </blockquote>
-    Lists can also be copied into one another, newlist ← destinations.  In a program, if the index is less than 1 or greater than the length of the list, the program will have an error and stop running.
+    Lists can also be copied into one another, newlist ← destinations.  In a program, if the <span class="hover vocab yui-wk-div" data-id='index'>index</span> is less than 1 or greater than the length of the <span class="hover vocab yui-wk-div" data-id='list'>list</span>, the program will have an error and stop running.
       
       
     
     <h3>APIs: Extend Your Powers as a Programmer</h3>
-    <p>In this app, you will make use of an <a href="http://en.wikipedia.org/wiki/Application_programming_interface">Application Programming Interface</a> (API) to communicate with and use Wikipedia from inside your app. An API for a program or web service defines how other programs can communicate with it and use it. There are lots of APIs available to programmers. The APIs specify exactly how programs and apps can interact with each other to perform certain tasks, like sending email or retrieving some data or displaying a particular web page. </p>
+    <p>In this app, you will make use of an <a href="http://en.wikipedia.org/wiki/Application_programming_interface">Application Programming Interface</a> (<span class="hover vocab yui-wk-div" data-id='API'>API</span>) to communicate with and use Wikipedia from inside your app. An <span class="hover vocab yui-wk-div" data-id='API'>API</span> for a program or web service defines how other programs can communicate with it and use it. There are lots of APIs available to programmers. The APIs specify exactly how programs and apps can interact with each other to perform certain tasks, like sending email or retrieving some data or displaying a particular web page. </p>
     <p>APIs enable programmers to see the Internet and Web and their mobile devices in a very different way than other users. Rather than seeing it merely as something to use, APIs allow programmers to  control how they interact with their mobile devices and with applications provided by Google, Wikipedia, and other software companies.</p>
     <h3>Vocabulary</h3>
     <p>
@@ -224,7 +211,7 @@ select one of the items on the list.
 
     .. raw:: html
 
-        <img class="yui-img selected" src="../_static/assets/img/ListLength.PNG?seed=93691&amp;url=assets/img/ListLength.PNG"/> |blank|
+        <img class="yui-img selected" src="../_static/assets/img/ListLength.png?seed=93691&amp;url=assets/img/ListLength.png"/> |blank|
 
     - :4: That's right! The list has 4 items/elements, so its length is 4.
       :x: The list has 4 items/elements, so its length is 4.

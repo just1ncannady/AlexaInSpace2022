@@ -7,18 +7,6 @@ Binary Numbers
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -42,8 +30,7 @@ Binary Numbers
         "octal number system":"The octal number system is a base-8 system, consisting of the symbols 0 through 7.",
         "decimal number system":"The decimal number system is a base-10 system that we use every day, consisting of the symbols 0 through 9.",
         "hexadecimal number system":"The hexadecimal number system is a base-16 system, consisting of the 16 symbols 0 through 9 and A through F.",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
@@ -82,7 +69,7 @@ Learning Activities
     <p><h3>Video: Counting in Binary</h3>
     <p>Do you get the joke at the beginning this lesson?  If not, you'll certainly get it
     after watching this video from the <a href="http://csunplugged.org/" target="_blank">Computer Science 
-    Unplugged</a>, which illustrates how the binary number system works. </p>
+    Unplugged</a>, which illustrates how the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> works. </p>
     
 .. youtube:: b6vHZ95XDwU
         :width: 650
@@ -101,7 +88,7 @@ Learning Activities
     Your teacher may choose to have you do some or all of the activities below:
     <ol>
     <li> Your class can act out the video above by printing and using the following <a href="https://docs.google.com/document/d/1okQhwTYVLcXN13QioAH71VUhw5e88vxYZ4sVXvSPANY/edit?usp=sharing" target="_blank">Binary Dot Cards</a>. Have 5 students volunteer to hold the 5 cards at the front of the class. Have them flip the cards randomly and see if the class can figure out the binary and the corresponding decimal number they make by counting the dots. See if the 5 volunteers can count up from 0 to 11111.   What's the largest number that you can make with the 5 binary digits? You may want to return to this activity when you get to the converting binary to decimal and converting decimal to binary sections below.</li>
-    <li>As you saw in the video, the children together were simulating a <b>binary odometer</b> to count in base 2. Humans  use the <b>decimal</b> number system, counting in base 10, probably because we have 10 fingers, but computer circuits only have 2 states, on and off, and so use the binary (base 2) number system. A binary odometer is similar to a decimal (base 10) odometer, like the one we have in our
+    <li>As you saw in the video, the children together were simulating a <b>binary odometer</b> to count in <span class="hover vocab yui-wk-div" data-id='base'>base</span> 2. Humans  use the <b>decimal</b> number system, counting in <span class="hover vocab yui-wk-div" data-id='base'>base</span> 10, probably because we have 10 fingers, but computer circuits only have 2 states, on and off, and so use the binary (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 2) number system. A binary odometer is similar to a decimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 10) odometer, like the one we have in our
     cars, except it only has two digits.  And the rightmost digit is the <b>1s</b> place.  The
     digit to its left is the <b>2s</b> place and then comes the <b>4s</b> place and so on.   
     
@@ -149,14 +136,14 @@ Self-Check
     :answer_a: Trying to represent 15 in 4 bits. 
     :feedback_a: This is challenging, but rewarding! This would not cause an overflow.  15 is represented as 1111 in 4 bits. 
     :answer_b: Trying to represent 16 in 4 bits.
-    :feedback_b: Yes.  The largest number that can be represented in 4 bits is 15, which is 1111.  To represent 16 you would need an additional bit, 1 0000.
+    :feedback_b: Yes.  The largest number that can be represented in 4 bits is 15, which is 1111.  To represent 16 you would need an additional <span class="hover vocab yui-wk-div" data-id='bit'>bit</span>, 1 0000.
     :answer_c: Trying to represent 31 in 5 bits. 
     :feedback_c: This is challenging, but rewarding! This would not cause an overflow.  31 is represented as 1 1111 in 5 bits. 
     :answer_d: Trying to represent 32 in 5 bits 
-    :feedback_d: Yes.  The largest number that can be represented in 5 bits is 31, which is 1 1111.  To represent 32 you would need a 6th bit,  10 0000.
+    :feedback_d: Yes.  The largest number that can be represented in 5 bits is 31, which is 1 1111.  To represent 32 you would need a 6th <span class="hover vocab yui-wk-div" data-id='bit'>bit</span>,  10 0000.
     :correct: b,d
 
-    An overflow error occurs when there aren't enough bits to represent a given number.  Which of following would cause an overflow error to occur. (Choose all that apply.)
+    An <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> occurs when there aren't enough bits to represent a given number.  Which of following would cause an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> to occur. (Choose all that apply.)
 
 
 .. raw:: html
@@ -171,9 +158,9 @@ Self-Check
     :random:
     :practice: T
     :answer_a: True.
-    :feedback_a: Yes, to think of a simple example, if you were using 4 bits to represent numbers you wouldn't be able to represent the number 17, so you wouldn't be able to add 17 + 8.   Modern computers use 32 or 64 bits to represent whole numbers, which are called <i>integers</i>.  With 32 bits, you can represent 2<sup>32</sup> different values. That's 4,294,967,296, more than 4 billion values.  But, of course, there are still numbers that would cause overflow errors -- e.g., 4,300,000,000 could not be represented using 32 bits.  This potential for overflow error is a necessary implication of using a <i><b>finite</b></i> representation to model the <i><b>infinite</b></i> concept of number. 
+    :feedback_a: Yes, to think of a simple example, if you were using 4 bits to represent numbers you wouldn't be able to represent the number 17, so you wouldn't be able to add 17 + 8.   Modern computers use 32 or 64 bits to represent whole numbers, which are called <i>integers</i>.  With 32 bits, you can represent 2<sup>32</sup> different values. That's 4,294,967,296, more than 4 billion values.  But, of course, there are still numbers that would cause overflow errors -- e.g., 4,300,000,000 could not be represented using 32 bits.  This potential for <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> is a necessary implication of using a <i><b>finite</b></i> representation to model the <i><b>infinite</b></i> concept of number. 
     :answer_b: False
-    :feedback_b: This is challenging, but rewarding! Using a fixed number of bits to represent numbers does limit the range of problems you can solve.  For example, if you were using 4 bits to represent numbers you wouldn't be able to represent the number 17, so you wouldn't be able to add 17 + 8.  Modern computers use 32 or 64 bits to represent whole numbers, which are called <i>integers</i>.  With 32 bits, you can represent 2<sup>32</sup> different values. That's 4,294,967,296, more than 4 billion values.  But, of course, there are still numbers that would cause overflow errors -- e.g., 4,300,000,000 could not be represented using 32 bits.  This potential for overflow error is a necessary implication of using a <i><b>finite</b></i> representation to model the <i><b>infinite</b></i> concept of number. 
+    :feedback_b: This is challenging, but rewarding! Using a fixed number of bits to represent numbers does limit the range of problems you can solve.  For example, if you were using 4 bits to represent numbers you wouldn't be able to represent the number 17, so you wouldn't be able to add 17 + 8.  Modern computers use 32 or 64 bits to represent whole numbers, which are called <i>integers</i>.  With 32 bits, you can represent 2<sup>32</sup> different values. That's 4,294,967,296, more than 4 billion values.  But, of course, there are still numbers that would cause overflow errors -- e.g., 4,300,000,000 could not be represented using 32 bits.  This potential for <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> is a necessary implication of using a <i><b>finite</b></i> representation to model the <i><b>infinite</b></i> concept of number. 
     :correct: a
 
     True or False. Using a fixed number of bits to represent numbers limits the range of values and hence limits the range of problems that can be solved with that representation. 
@@ -194,9 +181,9 @@ Video: Converting Binary to Decimal
 .. raw:: html
 
     <p>
-    <p>As you saw in the video, the binary number system is a <i><b>positional number system</b></i> 
+    <p>As you saw in the video, the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> is a <i><b><span class="hover vocab yui-wk-div" data-id='positional number system'>positional number system</span></b></i> 
     The value of a particular digit depends on its <i><b>place</b></i>. After you've watched the video, there's an activity to give you some 
-    practice at converting binary (base 2) to decimal (base 10). </p>
+    practice at converting binary (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 2) to decimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 10). </p>
     <p>In this next short video, you'll learn a simple algorithm for converting a binary number into a decimal.</p>
     
 .. youtube:: jfExJPwdg7k
@@ -272,7 +259,7 @@ Activities: Converting Decimal to Binary
     Your teacher may choose to have you do some or all of the activities below:
     <ol>
     <li>Your class can act out binary conversion using the <a href="https://docs.google.com/document/d/1okQhwTYVLcXN13QioAH71VUhw5e88vxYZ4sVXvSPANY/edit?usp=sharing" target="_blank">Binary Dot Cards</a>. Have the class call out a decimal number and have the 5 students with the binary dot cards figure out the equivalent binary number to show.</li>
-    <li>Try the  Binary Converter in reverse. In pairs, have one partner call out a number in base 10 from 0 to 255 (remember that the highest number that you can make with x bits is 2<sup>x</sup> - 1), and have the other partner click on the binary digits below to figure out that number in binary. <br/>
+    <li>Try the  Binary Converter in reverse. In pairs, have one partner call out a number in <span class="hover vocab yui-wk-div" data-id='base'>base</span> 10 from 0 to 255 (remember that the highest number that you can make with x bits is 2<sup>x</sup> - 1), and have the other partner click on the binary digits below to figure out that number in binary. <br/>
     <iframe height="400" src="https://mobile-csp.org/webapps/numbers/binaryConverter.html" style="border: 0;" title="" width="650"></iframe></li>
     <li>Complete the first two columns in the second page of the  <a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank">binary/hex worksheet</a> that you may have printed out in the last activity. (Skip over rows that do not have anything written in the decimal or binary columns. You will finish the hex column of this worksheet in the next section). If you print this out double-sided, you can cut the 1's into tabs and flip them over to create a paper binary converter tool to help you with your calculations.
         
@@ -288,7 +275,7 @@ Activities: Converting Decimal to Binary
     </li>
     </ol>
     <p>
-    Everything in a computer is represented with sequences of bits, 0’s and 1’s. There are some consequences of using of using bits to represent data though. How do you think repeating decimal (real) numbers like 3.33333333… are stored in a computer’s memory? Would it fit in memory if it was an infinitely repeating decimal? Since the memory would not be able to hold an infinitely repeating number like this, computers round off repeating decimals after a fixed number of bits and only hold their approximate values in memory.  Even with integer numbers, the memory will limit the size of the integer. The fixed number of bits used to represent numbers limits the range of values and mathematical operations on those values, and can even cause errors such as overflow or rounding off errors. An <b><i>overflow error </i></b> occurs when a computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an overflow error when the computer attempts to handle a very large number that is outside of the defined range of values can be represented. In many programming languages, integer numbers are limited to a size of 4 bytes (32 bits where each byte is 8 bits) in memory and real numbers with decimal points to 8 bytes. Languages like App Inventor and the AP pseudocode only limit the size of the data by the size of the computer’s memory. 
+    Everything in a computer is represented with sequences of bits, 0’s and 1’s. There are some consequences of using of using bits to represent data though. How do you think repeating decimal (real) numbers like 3.33333333… are stored in a computer’s memory? Would it fit in memory if it was an infinitely repeating decimal? Since the memory would not be able to hold an infinitely repeating number like this, computers round off repeating decimals after a fixed number of bits and only hold their approximate values in memory.  Even with integer numbers, the memory will limit the size of the integer. The fixed number of bits used to represent numbers limits the range of values and mathematical operations on those values, and can even cause errors such as overflow or rounding off errors. An <b><i><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> </i></b> occurs when a computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the computer attempts to handle a very large number that is outside of the defined range of values can be represented. In many programming languages, integer numbers are limited to a size of 4 bytes (32 bits where each byte is 8 bits) in memory and real numbers with decimal points to 8 bytes. Languages like App Inventor and the AP pseudocode only limit the size of the data by the size of the computer’s memory. 
     
     </p>
     <!-- &lt;h1&gt;Hexadecimal Numbers&lt;/h1&gt;
@@ -296,7 +283,7 @@ Activities: Converting Decimal to Binary
     
     
     
-    &lt;p&gt;One problem with binary  numbers is that it takes lots of digits to represent relatively small numbers. For example,  a number like 1 million would require 20 binary digits: 11110100001001000000. So, we often use the &lt;b&gt;hexadecimal (base 16)&lt;/b&gt; number system, which uses the digits 0-9 as well as the letters A-F to represent the decimal numbers 0-15. Each 4 binary bits can be replaced by 1 hex digit. &lt;/p&gt;
+    &lt;p&gt;One problem with binary  numbers is that it takes lots of digits to represent relatively small numbers. For example,  a number like 1 million would require 20 binary digits: 11110100001001000000. So, we often use the &lt;b&gt;hexadecimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 16)&lt;/b&gt; number system, which uses the digits 0-9 as well as the letters A-F to represent the decimal numbers 0-15. Each 4 binary bits can be replaced by 1 hex digit. &lt;/p&gt;
     &lt;gcb-youtube videoid=&quot;qfgSLHxlJQs&quot; instanceid=&quot;YjCDRfhdZoZN&quot;&gt;&lt;/gcb-youtube&gt;
     (&lt;a target=&quot;_blank&quot; href=&quot;http://www.teachertube.com/video/hexoctal-348088&quot;&gt;Teacher Tube version&lt;/a&gt;)
     
@@ -322,7 +309,7 @@ Other Number Systems
 .. raw:: html
 
     <p>
-    <p>One problem with binary  numbers is that it takes lots of digits to represent relatively small numbers. For example,  a number like 1 million would require 20 binary digits: 11110100001001000000. In computer science, we also use the <b>octal</b> (base 8) and <b>hexadecimal (base 16)</b> number system, which uses the digits 0-9 as well as the letters A-F to represent the decimal numbers 0-15. Each 4 binary bits can be replaced by 1 hex digit. The AP CSP exam no longer covers the hexadecimal number system, but if you're curious, you can learn more about octal and hex in the links provided in the Still Curious section below.
+    <p>One problem with binary  numbers is that it takes lots of digits to represent relatively small numbers. For example,  a number like 1 million would require 20 binary digits: 11110100001001000000. In computer science, we also use the <b>octal</b> (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 8) and <b>hexadecimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 16)</b> number system, which uses the digits 0-9 as well as the letters A-F to represent the decimal numbers 0-15. Each 4 binary bits can be replaced by 1 hex digit. The AP CSP exam no longer covers the <span class="hover vocab yui-wk-div" data-id='hexadecimal number system'>hexadecimal number system</span>, but if you're curious, you can learn more about octal and hex in the links provided in the Still Curious section below.
       
     </p><table border="">
     <tbody><tr><th>Decimal</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
@@ -332,7 +319,7 @@ Other Number Systems
     <td>1000</td> <td>1001</td><td>1010</td> <td>1011</td>
     <td>1100</td> <td>1101</td><td>1110</td> <td>1111</td></tr>
     </tbody></table>
-    <div><p>Did you know that the Ancient Maya Civilization used a base 20 number system with just 3 symbols for 0, 1, and 5? Try the <a href="https://maya.nmai.si.edu/maya-sun/maya-math-game?game=practice-1" target="_blank">Maya Math Game</a>. </p></div>
+    <div><p>Did you know that the Ancient Maya Civilization used a <span class="hover vocab yui-wk-div" data-id='base'>base</span> 20 number system with just 3 symbols for 0, 1, and 5? Try the <a href="https://maya.nmai.si.edu/maya-sun/maya-math-game?game=practice-1" target="_blank">Maya Math Game</a>. </p></div>
     <a href="https://maya.nmai.si.edu/maya-sun/maya-math-game?game=practice-1" target="_blank"> <img src="https://mayaarchaeologist.co.uk/wp-content/uploads/2016/12/Maya-Numbers-Codex-dresden44b.jpg" style="width:300px;margin-left:100px"/> </a>
     
 
@@ -344,12 +331,12 @@ Still Curious?
     <p>
     <p>
     </p><ul>
-    <li>Learn about Octal (base 8) and Hexadecimal (base 16) number systems which are also used in computer science: <a href="https://www.youtube.com/watch?v=qfgSLHxlJQs" target="_blank">video</a>
+    <li>Learn about Octal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 8) and Hexadecimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 16) number systems which are also used in computer science: <a href="https://www.youtube.com/watch?v=qfgSLHxlJQs" target="_blank">video</a>
     (<a href="http://www.teachertube.com/video/hexoctal-348088" target="_blank">Teacher Tube version</a>), <a href="https://mobile-csp.org/webapps/numbers/hexodometer.html" target="_blank">hexodometer</a>, <a href="https://docs.google.com/document/d/1a0BwOKTgmv00ywzwfjwgVNDQvsy2pdsyDcWNSvzODiI/edit" target="_blank">binary/hex worksheet</a>.
     </li><li>Play the  <a href="http://2048game.com/" target="_blank">2048 game</a> to practice the powers of 2.</li>
     <li>Play the  <a href="https://studio.code.org/projects/applab/iukLbcDnzqgoxuu810unLw" target="_blank">Binary Tetris game</a> to practice binary/decimal conversions.</li>
-    <li>Will YouTube ever run out of Video IDs? Every YouTube video has a unique ID that looks something like <b><i>IWV2e8KDQwTM</i></b>.   What you may not have realized is that the ID is a number is some base.  It's not base-2 or base-10 or even base-16.  To find out what base YouTube uses, check out this interesting <a href="https://youtu.be/gocwRvLhDf8" target="_blank">video</a>.</li>
-    <li>More Fun With Odometers: Here's a <a href="http://mobile-csp.org/webapps/numbers/multiodometer.html" target="_blank">multiple number systems odometer app</a> that will let you experiment with number systems in any base from 2 to 32. </li>
+    <li>Will YouTube ever run out of Video IDs? Every YouTube video has a unique ID that looks something like <b><i>IWV2e8KDQwTM</i></b>.   What you may not have realized is that the ID is a number is some <span class="hover vocab yui-wk-div" data-id='base'>base</span>.  It's not <span class="hover vocab yui-wk-div" data-id='base'>base</span>-2 or <span class="hover vocab yui-wk-div" data-id='base'>base</span>-10 or even <span class="hover vocab yui-wk-div" data-id='base'>base</span>-16.  To find out what <span class="hover vocab yui-wk-div" data-id='base'>base</span> YouTube uses, check out this interesting <a href="https://youtu.be/gocwRvLhDf8" target="_blank">video</a>.</li>
+    <li>More Fun With Odometers: Here's a <a href="http://mobile-csp.org/webapps/numbers/multiodometer.html" target="_blank">multiple number systems odometer app</a> that will let you experiment with number systems in any <span class="hover vocab yui-wk-div" data-id='base'>base</span> from 2 to 32. </li>
     <!-- &lt;gcb-iframe src=&quot;https://mobile-csp.org/webapps/numbers/multiodometer.html&quot; title=&quot;&quot; height=&quot;400&quot; width=&quot;650&quot; instanceid=&quot;tOwWb20u0Mpb&quot;&gt;&lt;/gcb-iframe&gt; -->
     </ul>
 

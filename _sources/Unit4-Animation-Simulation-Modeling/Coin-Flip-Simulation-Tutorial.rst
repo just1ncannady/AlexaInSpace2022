@@ -7,18 +7,6 @@ Coin Flip Simulation Tutorial
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -38,8 +26,7 @@ Coin Flip Simulation Tutorial
         "random":"Randomness is the lack of pattern or regularity.  A random sequence of events has no order or patten.",
         "random event": "A random event is an event that cannot be predicted with certainty. Examples would include flipping a fair coin, rolling a die, picking a card from a well shuffled deck.",
         "random number generator":"A random number generator (PRNG) is an algorithm that generates a sequence of numbers that seem to occur in random order.", 
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
     
@@ -58,7 +45,7 @@ Introduction and Goals
     </td>
     <td>
     <b><i>Coin Flip</i></b> is an app that simulates a coin flip. In
-    fact, because it uses App Inventor's <i><b>random number generator</b></i>,
+    fact, because it uses App Inventor's <i><b><span class="hover vocab yui-wk-div" data-id='random'>random</span> number generator</b></i>,
     it may actually be fairer than a real coin flip. That is, it may come closer than a real 
     coin flip to producing "heads" 50% of the time .
     <p>
@@ -73,15 +60,15 @@ Introduction and Goals
       create an app that will let us experiment with the idea of "randomness" or "fairness".  If 
       you flip a real coin lots of times, it should come up heads close to 50% of the time.  If 
       you simulate a coin flip lots of times, it too should come up heads close to 50% of the time
-      -- unless the "randomness" that's built into App Inventor is not a very good model of true
+      -- unless the "randomness" that's built into App Inventor is not a very good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of true
       randomness. We'll explore the whole idea of randomness in subsequent lessons in this Unit. 
       </p>
     <p>
     <b>Objectives:</b> In this lesson you will learn to:
     </p><ul>
-    <li>create an artifact that uses Randomness and simulates a model;
-    </li><li>create a simple model of a coin flip;
-    </li><li>use random number blocks to generate a random value in a specific range;
+    <li>create an artifact that uses Randomness and simulates a <span class="hover vocab yui-wk-div" data-id='model'>model</span>;
+    </li><li>create a simple <span class="hover vocab yui-wk-div" data-id='model'>model</span> of a coin flip;
+    </li><li>use <span class="hover vocab yui-wk-div" data-id='random'>random</span> number blocks to generate a <span class="hover vocab yui-wk-div" data-id='random'>random</span> value in a specific range;
     </li><li>define a global variable and assign it an initial value;
     </li><li>use a conditional statement, <i>IF/Else</i>, to evaluate a variable and follow an 
     algorithm based on the value of a variable;
@@ -119,10 +106,10 @@ Learning Activities
     </p>
     <h3>The Random Block</h3>
     
-    In App Inventor, we will use the Random block to get pseudo-random numbers. In the AP CSP exam, the function RANDOM(1,3) is used to return a random number from 1 to 3 (including 1, 2, or 3). 
+    In App Inventor, we will use the <span class="hover vocab yui-wk-div" data-id='Random'>Random</span> block to get pseudo-<span class="hover vocab yui-wk-div" data-id='random'>random</span> numbers. In the AP CSP exam, the function <span class="hover vocab yui-wk-div" data-id='RANDOM'>RANDOM</span>(1,3) is used to return a <span class="hover vocab yui-wk-div" data-id='random'>random</span> number from 1 to 3 (including 1, 2, or 3). 
     <table border="">
     <tbody><tr><th>AP Pseudocode</th> <th>App Inventor</th></tr>
-    <tr><td>x = RANDOM(1,3)</td> <td><img src="../_static/assets/img/setxtorandomint.png" width="350px"/></td></tr>
+    <tr><td>x = <span class="hover vocab yui-wk-div" data-id='RANDOM'>RANDOM</span>(1,3)</td> <td><img src="../_static/assets/img/setxtorandomint.png" width="350px"/></td></tr>
     </tbody></table>
     <h3>Tutorial Part I: Simulating a Coin Flip</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit4/templates/CoinFlipMediaOnly/CoinFlipMediaOnly.asc" target="_blank">
@@ -179,8 +166,8 @@ Learning Activities
     <a href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank">
     TextToSpeech</a> component.)
     </li>
-    <li>Modify the event handler in the Coin Flip app to use a random fraction block instead of 
-    random integer. (HINT: A <i>random fraction</i> is a decimal number between 
+    <li>Modify the event handler in the Coin Flip app to use a <span class="hover vocab yui-wk-div" data-id='random'>random</span> fraction block instead of 
+    <span class="hover vocab yui-wk-div" data-id='random'>random</span> integer. (HINT: A <i><span class="hover vocab yui-wk-div" data-id='random'>random</span> fraction</i> is a decimal number between 
     0 and 1, not including 1.  Some examples: 0, 0.25, 0.33, 0.5, 0.66, 0,75, 0.99.)
     </li>
     <li> <b>If/else Algorithm</b> You now have an app that can flip a two-sided coin. 
@@ -195,9 +182,9 @@ Learning Activities
     bunch of Lincoln pennies on their edge and then bang the table, 
     they have a strong bias toward coming up heads. Let’s suppose 
     the coin has a 70% chance of coming up heads (30% tails) in this 
-    experiment.  Create a model to simulate this biased coin. Hint: You will need to use the random fraction block and use a &lt; in your if block.
+    experiment.  Create a <span class="hover vocab yui-wk-div" data-id='model'>model</span> to simulate this biased coin. Hint: You will need to use the <span class="hover vocab yui-wk-div" data-id='random'>random</span> fraction block and use a &lt; in your if block.
     </li>
-    <li><b>Real World Statistical Simulations:</b> use random numbers to predict or simulate real world situations. For example, Mobile CSP teacher Ingrid Roche has her students in Boston Public Schools look at <a href="https://www.aclum.org/en/ending-racist-stop-and-frisk" target="_blank">racial profiling in Boston police-civilian encounters</a> to see if the <a href="https://www.census.gov/quickfacts/fact/table/US/RHI125217" target="_blank">racial demographics of the U.S. or state population</a> match <a href="https://openpolicing.stanford.edu/findings/" target="_blank">the racial demographics of police stop rates</a>. 
+    <li><b>Real World Statistical Simulations:</b> use <span class="hover vocab yui-wk-div" data-id='random'>random</span> numbers to predict or simulate real world situations. For example, Mobile CSP teacher Ingrid Roche has her students in Boston Public Schools look at <a href="https://www.aclum.org/en/ending-racist-stop-and-frisk" target="_blank">racial profiling in Boston police-civilian encounters</a> to see if the <a href="https://www.census.gov/quickfacts/fact/table/US/RHI125217" target="_blank">racial demographics of the U.S. or state population</a> match <a href="https://openpolicing.stanford.edu/findings/" target="_blank">the racial demographics of police stop rates</a>. 
     
     </li></ol>
     
@@ -385,13 +372,17 @@ Self-Check
     </div>
 
 
-    .. quizly:: mscp-4-5-7
     
-        :quizname: quiz_if_x_greater_than_y
+.. quizly:: mscp-4-5-7
     
-    .. quizly:: mscp-4-5-8
     
-        :quizname: quiz_scrambled_sum_loop
+    :quizname: quiz_if_x_greater_than_y
+    
+    
+.. quizly:: mscp-4-5-8
+    
+    
+    :quizname: quiz_scrambled_sum_loop
     
     
 

@@ -46,11 +46,15 @@ def get_unit_title(soup):
   global unit_title
   global unit
   if len(unit_title) == 0:
-    hdr_tag = soup.find('h1',{"class" : "gcb-unit-header"})
-    unit_title = hdr_tag.text
-    dash = unit_title.find('-')
-    unit = str.strip(unit_title[0:dash-1])
-    unit_title = str.strip(unit_title[dash+2:])
+    hdr_tag = soup.find('div',{"class" : "gcb-assessment-contents"})
+
+
+    # title is an unnamed h1 under gcb-assessment-contents div
+    unit_title = hdr_tag.contents[1].text
+    print("Unit Title: " + unit_title)
+#    dash = unit_title.find('-')
+#    unit = str.strip(unit_title[0:dash-1])
+#    unit_title = str.strip(unit_title[dash+2:])
 
 # Construct TOC as a string
 def get_toc():
@@ -374,6 +378,7 @@ def convert_html_to_rst(lesson_content):
 
 def scrape_and_build_rst(src_page):
   global unit_lesson
+  global unit_title
   global question_number
   global rst_questions
   question_number = 0 
@@ -382,8 +387,9 @@ def scrape_and_build_rst(src_page):
   # Get the web page and create the soup structure
   soup = BeautifulSoup(urlopen(src_page),"html.parser")
 
-  # Find the content section
-  divs = soup.find_all('div', {"class" : "gcb-lesson-content"})
+  # Find the content section for assessments
+  divs = soup.find_all('div', {"class" : "gcb-assessment-body"})
+  
   if len(divs) > 0:
     lesson_content = divs[0]
   else:
@@ -394,7 +400,7 @@ def scrape_and_build_rst(src_page):
 # Use soup to clean up the lesson_content's HTML code
 
   get_unit_title(soup)
-  unit_lesson = get_unit_lesson(soup)
+#  unit_lesson = get_unit_lesson(soup)
   fix_portfolio_iframe(lesson_content)
   fix_assets_links(lesson_content)
   
@@ -402,12 +408,12 @@ def scrape_and_build_rst(src_page):
   
   # Implement new lesson structure...except in Wrap Up Lessons
   titletag = soup.find('h1', attrs={'class':'gcb-lesson-title'})
-  if 'Wrap Up' not in str(titletag) and stu_lesson:
+  if 'Wrap Up' not in str(titletag):
     construct_new_structure(lesson_content, soup)
   
   # Connvert the non-quizly quiz questions 
-  quiz_questions = lesson_content.find_all('div', {"class" : "gcb-border-box"})
-  convert_gcb2rst(quiz_questions)
+  #quiz_questions = lesson_content.find_all('div', {"class" : "gcb-border-box"})
+  #convert_gcb2rst(quiz_questions)
 
   # Replace youtubes in soup
   replace_youtubes(lesson_content)
@@ -422,15 +428,18 @@ def scrape_and_build_rst(src_page):
   remove_links(link)
 
   # Replace quizly scripts with directives
-  scripts = lesson_content.find_all('script')
-  replace_quizly_scripts(scripts)
+  #scripts = lesson_content.find_all('script')
+  #replace_quizly_scripts(scripts)
 
   # --------- PART TWO ---------------
   # Construct the RST page
 
-  # Use the page title as the RST filename
-  titletag = soup.find('h1', attrs={'class':'gcb-lesson-title'})
-  lesson_name = titletag.text.strip()
+  # There is no unit for an assessment...Use the unit title as the RST filename.
+  assess_div = soup.find('div',{"class" : "gcb-assessment-contents"})
+  
+  # title is an unnamed h1 under gcb-assessment-contents div
+  lesson_name = assess_div.contents[1].text.strip()
+  print("Unit Title: " + unit_title)
   lesson_name =  re.sub("[^A-Za-z0-9\s]+", "", lesson_name)
   filename = re.sub("\s+", "-", lesson_name) + '.rst'
   toc.append(filename)
@@ -448,11 +457,11 @@ def scrape_and_build_rst(src_page):
   rst_page = replace_h2s(rst_page)
 
   # Add in rst quizzes
-  for q in rst_questions:
-    rstq_div = '<div class="rst-question"></div>'
-    p = rst_page.find(rstq_div)
-    if p != -1:
-      rst_page = rst_page[0:p] + q + BOGUS_DIV + rst_page[p+len(rstq_div):]
+#  for q in rst_questions:
+#    rstq_div = '<div class="rst-question"></div>'
+#    p = rst_page.find(rstq_div)
+#    if p != -1:
+#      rst_page = rst_page[0:p] + q + BOGUS_DIV + rst_page[p+len(rstq_div):]
 
   # Avoids Runestone warnings about empty raw content
   rst_page = rst_page.replace('###ENDYOUTUBE###', BOGUS_DIV)
@@ -561,13 +570,10 @@ def repl_vocab(m):
 #src_page = "https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=25&lesson=173"
 #src_pages =["https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=1","https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=1&lesson=45","https://mobilecsp-2017.appspot.com/mobilecsp/unit?unit=25&lesson=173"]
 
-# set true if scraping Student Mobile CSP...ensures new lesson structure not implemented for the Teacher-side due to stucture differences
-stu_lesson = False
-
 # Read lesson URLs from file
 urls=''
 #urls_file = "mcsp-urls_Unit7.txt"
-urls_file = "tcsp-urls_Unit7.txt"
+urls_file = "mcsp-urls_Assessments.txt"
 #urls_file= "urlTest.txt"
 with open(urls_file) as file:
   urls = file.readlines()

@@ -7,18 +7,6 @@ Debugging Caesar Cipher
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -39,8 +27,7 @@ Debugging Caesar Cipher
         "semantic error":"An error in which the program is not working as it is designed to work.",
         "computer bug":"An informal term for error in computer hardware or software -- the term was coined by Grace Hopper.",
         "debugging":"The process of removing errors from computer hardware or software.",
-       };
-    */
+       };    */
     </script>
     <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
     
@@ -51,11 +38,11 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>In this lesson, we will learn more about the types of errors you might get in a program, including tips for identifying, fixing, and preventing them. First, watch the video below. After watching the video, try to identify and correct the errors in the Caesar Cipher app and then answer the questions about debugging. When watching the video, look for these important terms and concepts: </p>
+    <p>In this lesson, we will learn more about the types of errors you might get in a program, including tips for identifying, fixing, and preventing them. First, watch the video below. After watching the video, try to identify and correct the errors in the Caesar Cipher app and then answer the questions about <span class="hover vocab yui-wk-div" data-id='debugging'>debugging</span>. When watching the video, look for these important terms and concepts: </p>
     <ul>
     <li><b>Bug</b> - In computer programming, a bug is an error or defect, that prevents the app from working the way it is supposed to.
-      </li><li><b>Debugging</b> - The process of removing errors from computer hardware or software.
-      </li><li><b>Logic Error</b> - A mistake in the algorithm or program that causes it to behave incorrectly or unexpectedly. Also referred to as a semantic error.</li><li><b>Syntax Error</b> - A mistake in the program where the rules of the programming language are not followed.
+      </li><li><b><span class="hover vocab yui-wk-div" data-id='Debugging'>Debugging</span></b> - The process of removing errors from computer hardware or software.
+      </li><li><b>Logic Error</b> - A mistake in the algorithm or program that causes it to behave incorrectly or unexpectedly. Also referred to as a <span class="hover vocab yui-wk-div" data-id='semantic error'>semantic error</span>.</li><li><b><span class="hover vocab yui-wk-div" data-id='Syntax Error'>Syntax Error</span></b> - A mistake in the program where the rules of the programming language are not followed.
     </li></ul>
     
 .. youtube:: g48gxSkOeik
@@ -87,7 +74,7 @@ Learning Activities
     </p>
     <p>Here are some hints and suggestions.
       </p><ul>
-    <li>If you see a <i><b>run-time error message</b></i>, read it carefully - it's trying to tell you where the bug is. A run-time error is a mistake in the program that occurs during the execution of a program. Programming languages, such as MIT App Inventor, define their own run-time errors.  For example, if the run-time error complains about exceeding the length of the text, then the loop going through the text letter by letter did not stop at the end of the text.</li><li>The bugs can be in both the encryption and decryption steps.  So make sure you test the app thoroughly, with appropriate inputs. When you are testing this app, <b>only type in lowercase letters in the plaintext textbox to encrypt, and only type in uppercase letters in the Ciphertext textbox to decrypt</b>.</li>
+    <li>If you see a <i><b><span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> message</b></i>, read it carefully - it's trying to tell you where the bug is. A <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> is a mistake in the program that occurs during the execution of a program. Programming languages, such as MIT App Inventor, define their own run-time errors.  For example, if the <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> complains about exceeding the length of the text, then the loop going through the text letter by letter did not stop at the end of the text.</li><li>The bugs can be in both the encryption and decryption steps.  So make sure you test the app thoroughly, with appropriate inputs. When you are testing this app, <b>only type in lowercase letters in the plaintext textbox to encrypt, and only type in uppercase letters in the Ciphertext textbox to decrypt</b>.</li>
     <li>You are may see more problems if you encrypt longer rather than shorter messages.</li>
     <li>If you are having trouble locating a problem, use a <i>Notifier</i> or use <i>Label1</i> to 
           display intermediate values of local or global variables.  
@@ -285,9 +272,11 @@ Self-Check
     </div>
 
 
-    .. quizly:: mscp-6-8-8
     
-        :quizname: quiz_loop_2_to_10th_power
+.. quizly:: mscp-6-8-8
+    
+    
+    :quizname: quiz_loop_2_to_10th_power
     
     
 

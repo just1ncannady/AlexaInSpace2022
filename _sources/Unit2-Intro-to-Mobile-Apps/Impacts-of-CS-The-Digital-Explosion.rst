@@ -7,18 +7,6 @@ Impacts of CS The Digital Explosion
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -50,8 +38,7 @@ Impacts of CS The Digital Explosion
         "processor":"A processor is a shorthand way of referring to a microprocessor or CPU.",
         "social network":"A a social network is a social structure made of nodes that are generally individuals or organizations. A social network represents relationships and flows between people, groups, organizations, animals, computers, or other information/knowledge processing entities.",
         "whitelist": "A whitelist is a generic name for a list of email address or IP addresses that are considered to be spam free.",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
@@ -63,7 +50,7 @@ Introduction and Goals
 
     <p>
     <div class="yui-wk-div" style="float:left;"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19"><img hspace="10" src="../_static/assets/img/blowntobits.jpg" width="150"/></a></div>
-    <p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of data and information,
+    <p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of <span class="hover vocab yui-wk-div" data-id='data'>data</span> and information,
     and other issues.</p>
     <p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also think about the impacts we will create as we build our own mobile apps.</p>
     
@@ -89,7 +76,7 @@ Learning Activities
     </p><ol>
     <li>Read pages 1-4 in Chapter One and Koan 4 about Moore's Law on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/edit" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
     <li>Watch the short video of Moore at the <a href="https://www.intel.com/content/www/us/en/silicon-innovations/moores-law-technology.html" target="_blank">Intel website</a>.
-        </li><li>Below is an image that represents Moore's Law graphically - the observation that the number of transistors per square inch on integrated circuits had doubled every two year since their invention. This means the speed at which we can process digital data increases exponentially every year. Discuss the graphic with your class.</li>
+        </li><li>Below is an image that represents Moore's Law graphically - the observation that the number of transistors per square inch on integrated circuits had doubled every two year since their invention. This means the speed at which we can process digital <span class="hover vocab yui-wk-div" data-id='data'>data</span> increases exponentially every year. Discuss the graphic with your class.</li>
     </ol><br/>
     <img alt="Moore's Law Graph" src="https://c1.staticflickr.com/2/1640/25046013104_68059057ab_b.jpg" width="500px"/>
     <p><b>Part 2:</b> Over the next 24 hours, keep track of all the technology that you use with <a href="https://docs.google.com/document/d/1t108otAa9_MFtFERsozLL0g-UXQkdAKfKotZgIhGCg0/edit?ts=5f6dfd20#" target="_blank" title="">this worksheet</a>. For example, do you use your phone to set an alarm? Does your coffee maker include a mini-computer? Keep a running list of items that you use and then make a tally or count how often you use them during the day. Once you're done, consider how easy or difficult it would be to make it through a single day without using a computer. Which of your daily activities could you do without digital information or devices?</p>

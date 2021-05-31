@@ -7,18 +7,6 @@ IP Addresses and Domain Names
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -41,8 +29,7 @@ IP Addresses and Domain Names
         "IPv6": "IP version 6 is a newer 128 bit IP address which allows for many more devices to be addressed.",
         "domain name": "An Internet domain name is a hierarchical name (such as trincoll.edu) that identifies an domain and an institution on the Internet. Top level domains include com, edu, gov.",
         "DNS": "Domain Name System (or Service or Server) is an Internet service that translates domain names into IP addresses."
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
 
@@ -61,7 +48,7 @@ Learning Activities
 
     <p><h3>IP Addresses and Domain Names</h3>
     
-    In this lesson, you will learn about IP addresses and Domain Names. We will use an Networking Simulation App to explore how the <b> Domain Name System (DNS)</b> is used to look up the IP addresses of domain names such as google.com.<br/>
+    In this lesson, you will learn about IP addresses and Domain Names. We will use an Networking Simulation App to explore how the <b> <span class="hover vocab yui-wk-div" data-id='Domain Name'>Domain Name</span> System (<span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span>)</b> is used to look up the IP addresses of domain names such as google.com.<br/>
     
 .. youtube:: H81xmsxNdV8
         :width: 650
@@ -74,23 +61,23 @@ Learning Activities
     <p></p>
     </div>
 
-    <p>Before moving on to the activity below, try finding your IP address by googling "what's my ip address". Try to find another IP address for a domain name that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.
+    <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='ip address'>ip address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.
     </p>
     <h3>Networking Simulation Activities</h3>
     <p>
-      In this lesson, we will use a DNS simulator app to explore how we communicate on the Internet with IP addresses. Watch the video below about using the Mobile CSP's DNS app.
+      In this lesson, we will use a <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> simulator app to explore how we communicate on the Internet with IP addresses. Watch the video below about using the Mobile CSP's <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> app.
     </p>
     <br/>
     <iframe allowfullscreen="" frameborder="0" height="472" src="https://www.youtube.com/embed/rTB0KhkTMQM" width="840">
     </iframe>
     <br/>
-    (<a href="http://www.teachertube.com/video/mobile-csp-how-to-use-the-dns-widget-to-retrieve-and-use-ip-addresses-458219" target="_blank" title="">Teacher Tube version</a>)
+    (<a href="http://www.teachertube.com/video/mobile-csp-how-to-use-the-<span class="hover vocab yui-wk-div" data-id='dns'>dns</span>-widget-to-retrieve-and-use-ip-addresses-458219" target="_blank" title="">Teacher Tube version</a>)
           
     <br/>
     <p>
       Now that you understand how the app works, you will need to download the widget on to your tablet or Android phone. You can install the Android .apk file  for the widget by scanning the QR code below with the AI Companion app or by clicking on this link <a href="http://mobile-csp.org/DNSwidgetV13.apk" target="_blank">http://mobile-csp.org/DNSwidgetV13.apk</a> in your Android device's browser. If you are using the emulator or iOS, download  <a href="https://drive.google.com/open?id=0B4W7CJ-1czH5TF9FNHVxX1VRNmU2NS15c25CM0FaVkhLZUhF" target="_blank">this .aia file</a>  and import into App Inventor and then choose Connect. 
     <br/>
-    </p><div class="yui-wk-div" style="text-align: center;"><img alt="APK file for DNS Widget" class="yui-img selected" src="../_static/assets/img/DNS-qr-codeV13.png" title="APK file for DNS Widget"/><br/></div>
+    </p><div class="yui-wk-div" style="text-align: center;"><img alt="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget" class="yui-img selected" src="../_static/assets/img/<span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span>-qr-codeV13.png" title="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget"/><br/></div>
     <p>
     </p><h4>Troubleshooting:</h4>
     <ul>
@@ -100,22 +87,22 @@ Learning Activities
     </ul>
     <p>
        Next, get together with two of your friends in class and do the following activities. (If you are working alone, you may have to skip some of the exercises listed but can still do a majority of the tasks described here.) </p>
-    <h3>Activity 1 : Using the DNS to Retrieve and Use IP Addresses</h3>
+    <h3>Activity 1 : Using the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> to Retrieve and Use IP Addresses</h3>
     <ol>
     <li>After your teacher has assigned you a class code, type that code into the class code textbox on your login screen. Your teacher will receive this code by clicking on the NEW CLASS CODE button on their own app. Only the teacher should click this button. The students in the class should all enter the same code. </li>
     <li>If you are working on this exercise alone, you should press the <b><i>"Assign BOT"</i></b> button a dozen times before you log in to set up about a dozen or so robot users (<b><i>BOTS</i></b>) so you can practice looking up their IP addresses.  If you are working on this exercise as part of a class, you do not need to create any BOTS.
       </li><li>Choose a short login name for yourself, enter it in the login box, and press the LOGIN button. An example of a good login would be three or four letters such as jim or mimi. Note that the system will append a number to your name when creating your login ID, to reduce the likelihood of you having the same login as someone else in the class. (Remember that your teacher will be checking your work at the end of this exercise, so do not use anything inappropriate for your login credentials). </li>
-    <li>Once the app confirms that you have successfully logged into the system, send a message to the DNS asking it for the IP address for Amazon in this simulation. To do this, enter the IP address of the DNS seen at the top into the <b><i>"To:"</i></b> field. In the message field, enter "get amazon". Then press the <b><i>SEND</i></b> button. NOTE: When you type commands or login IDs into the Mobile CSP DNS widget, it does not matter if you use upper or lower case characters.
-          </li><li>Using the IP address you have discovered for Amazon, send Amazon a message to buy something. In the <b>"TO"</b> field of the message you will need to enter Amazon's IP address. In the message body, you will need to enter <b><i>"buy X"</i></b> where X is the item you wish to purchase. Then press the <b><i>"SEND"</i></b> button.
+    <li>Once the app confirms that you have successfully logged into the system, send a message to the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> asking it for the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for Amazon in this simulation. To do this, enter the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> of the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> seen at the top into the <b><i>"To:"</i></b> field. In the message field, enter "get amazon". Then press the <b><i>SEND</i></b> button. NOTE: When you type commands or login IDs into the Mobile CSP <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> widget, it does not matter if you use upper or lower case characters.
+          </li><li>Using the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> you have discovered for Amazon, send Amazon a message to buy something. In the <b>"TO"</b> field of the message you will need to enter Amazon's <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span>. In the message body, you will need to enter <b><i>"buy X"</i></b> where X is the item you wish to purchase. Then press the <b><i>"SEND"</i></b> button.
             </li><li>Repeat the previous step to purchase at least two more items.
               </li><li>Once you have purchased three or more items, it is now time for you to contact one of your friends to brag about your recent purchases. 
-                Locate someone on the same router as you. 
+                Locate someone on the same <span class="hover vocab yui-wk-div" data-id='router'>router</span> as you. 
     <br/>
-    <div class="yui-wk-div" style="text-align: center;"><img alt="APK file for DNS Widget" class="yui-img selected" src="../_static/assets/img/DNSnetworkDiagram.png" title="APK file for DNS Widget"/><br/></div> 
-      In the network diagram, above, for example, the user (<b><i>jill30</i></b>) resides on <b><i>Router #7</i></b>, along with another user, <b><i>usha66</i></b>, whose IP address is not known to <b><i>jill30</i></b>. But these two users are not the only ones on this network. Pressing the PEERs button will reveal all the login IDs on this network.
+    <div class="yui-wk-div" style="text-align: center;"><img alt="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget" class="yui-img selected" src="../_static/assets/img/DNSnetworkDiagram.png" title="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget"/><br/></div> 
+      In the network diagram, above, for example, the user (<b><i>jill30</i></b>) resides on <b><i><span class="hover vocab yui-wk-div" data-id='Router'>Router</span> #7</i></b>, along with another user, <b><i>usha66</i></b>, whose <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is not known to <b><i>jill30</i></b>. But these two users are not the only ones on this network. Pressing the PEERs button will reveal all the login IDs on this network.
     <br/>
-                  (If there is no other user on your router on the network diagram on your tablet's screen, you may have to skip this part of the exercise.) Notice, that their IP address is initially hidden from you (marked with a <b><i>"?"</i></b>. Ask the DNS what the IP address is of the person on your router you wish to contact. After receiving the answer, notice that the IP address is now visible to you on your tablet's screen. Using this newly discovered address, send a message to this person, letting them know what items you bought from Amazon. Ask the person to send you a reply. NOTE: If the DNS responds with <b><i>"Invalid Address"</i></b> to your request, it is likely that you have mistyped your friend's login ID.
-                  </li><li>Of course, on the Internet, we can communicate with anyone connected to the network, not just those on our router. Now click the <b><i>"PEERS"</i></b> button on your screen. It will bring up a <b><i>LISTPICKER</i></b> which will display the login IDs of everyone in your class who is also on your network. Locate one of your friends in class who is on the network but not on your router in this list and select this person. Note that the app has filled in the message fields with the DNS address in the <b><i>"TO"</i></b> field and an appropriate <b><i>"get"</i></b> request in the message field. Simply press the <b><i>"SEND"</i></b> button to ask the DNS to fetch the address of your friend. 
+                  (If there is no other user on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> on the network diagram on your tablet's screen, you may have to skip this part of the exercise.) Notice, that their <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is initially hidden from you (marked with a <b><i>"?"</i></b>. Ask the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> what the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is of the person on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> you wish to contact. After receiving the answer, notice that the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is now visible to you on your tablet's screen. Using this newly discovered address, send a message to this person, letting them know what items you bought from Amazon. Ask the person to send you a reply. NOTE: If the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> responds with <b><i>"Invalid Address"</i></b> to your request, it is likely that you have mistyped your friend's login ID.
+                  </li><li>Of course, on the Internet, we can communicate with anyone connected to the network, not just those on our <span class="hover vocab yui-wk-div" data-id='router'>router</span>. Now click the <b><i>"PEERS"</i></b> button on your screen. It will bring up a <b><i>LISTPICKER</i></b> which will display the login IDs of everyone in your class who is also on your network. Locate one of your friends in class who is on the network but not on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> in this list and select this person. Note that the app has filled in the message fields with the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> address in the <b><i>"TO"</i></b> field and an appropriate <b><i>"get"</i></b> request in the message field. Simply press the <b><i>"SEND"</i></b> button to ask the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> to fetch the address of your friend. 
                     </li><li>Once you have your friend's address, converse with them back and forth with a few messages describing your recent purchases. <b>Remember that all your messages are being logged and will be reviewed by your instructor at the end of this exercise.</b>
     </li><li>After you have finished these exercises, raise your hand to show your instructor your message log.
                           Once your teacher signs off on your activity, take a screenshot of your message log to submit  in your portfolio.</li>
@@ -123,7 +110,7 @@ Learning Activities
     <h3>Activity 2 - The Lost Messages Problem</h3>
     <div class="pogil yui-wk-div">
     <p>In this POGIL activity, you will work in groups of three to test what happens when two people send 
-      simultaneous messages to a recipient using the Mobile CSP DNS Simulator app. Here are the roles:
+      simultaneous messages to a recipient using the Mobile CSP <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Simulator app. Here are the roles:
       </p><ul>
     <li><b>Recipient. </b> The recipient will lead this activity and will receive messages from the 
           other group members and record the results.</li>
@@ -133,7 +120,7 @@ Learning Activities
         </li>
     </ul>
     <h3>Activity</h3>
-    <p>Repeat the following activity three or more times.  Have the two senders enter the IP address of the 
+    <p>Repeat the following activity three or more times.  Have the two senders enter the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> of the 
         recipient and a <b><i>unique</i></b> message -- so that the recipient will be able to easily distinguish 
         the two messages.  Now, by coordinating verbally, have both senders press the app’s <b>SEND</b> button at 
         the same time.  For each trial, record the following results:
@@ -152,7 +139,7 @@ Learning Activities
         recipient’s messages.  Initially, this variable is given the value <b><i>EMPTY_MAIL_BOX</i></b> to signify that 
         there are no messages waiting for that recipient.  When the recipient receives a message, it is put 
         into the recipient’s mailbox.  A typical message might be <i><b>sender1:7.13:hello</b></i>. This means that the 
-        message “hello” was sent by “sender1” at IP address “7.13”.   When the recipient retrieves the message 
+        message “hello” was sent by “sender1” at <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> “7.13”.   When the recipient retrieves the message 
         from mailbox, it replaces it with <i><b>EMPTY_MAIL_BOX</b></i> to signify that the mailbox is empty again.  
         In pseudocode, this is how this algorithm works:
       </p>

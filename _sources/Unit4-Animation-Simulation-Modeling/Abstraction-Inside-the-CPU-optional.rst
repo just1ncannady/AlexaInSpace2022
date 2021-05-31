@@ -7,18 +7,6 @@ Abstraction Inside the CPU optional
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -44,8 +32,7 @@ Abstraction Inside the CPU optional
         "accumulator":"The accumulator is a special register in the CPU where data is put in order to peform arithmetic and logic operations.",
         "assembly language":"An assembly language is low-level language that uses symbolic names, rather than binary sequences of 0s and 1s, to represent the machine language instructions.",
         "overflow error": "An overflow error is an error that occurs when the computer attempts to handle a number that is outside of the defined range of values can be represented."
-      };
-    */    
+      };    */    
     </script>
     <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
 
@@ -103,7 +90,7 @@ Learning Activities
       like before we had high-level languages and sophisticated programming platforms.  It's also important to realize
       that the 4-bit Simulator is an accurate model of how today's computers work -- before your App Inventor
       programs can be run on your smart phones, they have to be translated into machine language, where they
-      are interpreted by the CPU.
+      are interpreted by the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span>.
     </p>
     <p>The videos and exercises below introduce the <strong><em>4-bit computer simulator</em></strong>. 
     </p>
@@ -114,17 +101,17 @@ Learning Activities
         <em>editor</em>, 
         which will let us type out the machine instructions, and a <em>loader</em>, which will load the instructions 
         into memory for us.</li>
-    <li><b>Generation 2. Using an Assembly Language</b>. Instead of having to deal with 0s and 1s, our 
-        <i>assembly language</i> will give us a higher-level abstraction by letting us deal with 
+    <li><b>Generation 2. Using an <span class="hover vocab yui-wk-div" data-id='Assembly Language'>Assembly Language</span></b>. Instead of having to deal with 0s and 1s, our 
+        <i><span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span></i> will give us a higher-level abstraction by letting us deal with 
         symbolic names for instructions and data. </li>
     </ul>
-    <p>The simulator models a simple <b>CPU Fetch/Execute Cycle</b> like below but where the instructions are 1) Fetched from RAM, 2) Decoded in the CPU 3) Any needed data is fetched from RAM and 4) the operation is Executed in the CPU.
+    <p>The simulator models a simple <b><span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span> Fetch/Execute Cycle</b> like below but where the instructions are 1) Fetched from <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>, 2) Decoded in the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span> 3) Any needed data is fetched from <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span> and 4) the operation is Executed in the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span>.
       <br/><img class="yui-img" src="../_static/assets/img/FetchExecuteCycle.png" width="450px"/>
     <!-- 
     &lt;h2&gt;Ready for a Challenge?&lt;/h2&gt;
     &lt;p&gt;Among other things, this activity is going to require us to use &lt;strong&gt;&lt;em&gt;binary numbers,&lt;/em&gt;&lt;/strong&gt;, which are 
       used for both the machine&#39;s instructions and its data. Also, as you will see, programming in machine language 
-      (and assembly language) can be very tedious. It will require great attention to detail
+      (and <span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span>) can be very tedious. It will require great attention to detail
     &lt;/p&gt;
     
     &lt;p&gt;But, if you work through the exercises, the payoff will be well worth it. Not only will you get a better sense 
@@ -170,9 +157,9 @@ Self-Check
     :practice: T
     :answer_a: The decimal value 3.
     :feedback_a: Yes, when stored in a memory location, 0011 could represent the decimal value 3.  So this is part of the correct answer.
-    :answer_b: The machine instruction for ADDing a number to the accumulator.
-    :feedback_b: Yes, if it occurred in the Instruction Register (IREG) or as part of a machine language program, 0011 would represent the machine language ADD instruction. So this is part of the correct answer. 
-    :answer_c: A memory location in the computer's RAM.
+    :answer_b: The machine instruction for ADDing a number to the <span class="hover vocab yui-wk-div" data-id='accumulator'>accumulator</span>.
+    :feedback_b: Yes, if it occurred in the <span class="hover vocab yui-wk-div" data-id='Instruction Register'>Instruction Register</span> (IREG) or as part of a machine language program, 0011 would represent the machine language ADD instruction. So this is part of the correct answer. 
+    :answer_c: A memory location in the computer's <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>.
     :feedback_c: Yes, memory locations in the 4-bit simulator have addresses that range from 0000 to 1111, so 0011 could be the address of a memory location.  So this is part of the correct answer. 
     :answer_d: The decimal value 17. 
     :feedback_d: If 0011 represents a number, then it would have to be a value between 0 and 15.  The value 17 cannot be represented in 4 bits.  So this is not part of the correct answer.  
@@ -192,13 +179,13 @@ Self-Check
 .. mchoice:: mcsp-4-9-2
     :random:
     :practice: T
-    :answer_a: <pre> Load the value at 1000 into the Accumulator Add the value in 1001 to the Accumulator Print the value in location 1010 Stop </pre>
+    :answer_a: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1001 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Print the value in location 1010 Stop </pre>
     :feedback_a: This algorithm wouldn't work. The sum hasn't been put into location 1010 before printing it. 
-    :answer_b: <pre> Load the value at 1000 into the Accumulator Add the value in 1000 to the Accumulator Store the Accumulator at location 1010 Print the value in location 1010 Stop </pre>
+    :answer_b: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1000 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Store the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> at location 1010 Print the value in location 1010 Stop </pre>
     :feedback_b: This algorithm wouldn't work. It would add 1 + 1 and print 2.
-    :answer_c: <pre> Load the value at 1000 into the Accumulator Add the value in 1001 to the Accumulator Store the Accumulator at location 1010 Print the value in location 1010 Stop </pre>
-    :feedback_c: Yes, that is the correct algorithm. <p>   As you can see from the algorithm, in order to add two numbers,   the numbers had to be moved into the <i>Accumulator</i>, a    special register in the computer's <i>Arithmetic Logic Unit (ALU)</i>   where all logic and arithmetic operations are performed. </p> <p>Even though the details are hidden from us now by the sophisticated   software we use, today's computers still work the same way.  When    you add two numbers in App Inventor, software has to translate your   program code into machine language instructions that load the numbers   into the ALU registers before performing the addition and storing    the numbers back to RAM. </p>
-    :answer_d: <pre> Load the value at 1000 into the Accumulator Add the value in 1001 to the Accumulator Store the Accumulator at location 1010 Stop </pre>
+    :answer_c: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1001 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Store the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> at location 1010 Print the value in location 1010 Stop </pre>
+    :feedback_c: Yes, that is the correct algorithm. <p>   As you can see from the algorithm, in order to add two numbers,   the numbers had to be moved into the <i><span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span></i>, a    special register in the computer's <i>Arithmetic Logic Unit (<span class="hover vocab yui-wk-div" data-id='ALU'>ALU</span>)</i>   where all logic and arithmetic operations are performed. </p> <p>Even though the details are hidden from us now by the sophisticated   software we use, today's computers still work the same way.  When    you add two numbers in App Inventor, software has to translate your   program code into machine language instructions that load the numbers   into the <span class="hover vocab yui-wk-div" data-id='ALU'>ALU</span> registers before performing the addition and storing    the numbers back to <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>. </p>
+    :answer_d: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1001 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Store the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> at location 1010 Stop </pre>
     :feedback_d: This algorithm wouldn't work. It has no print statement. 
     :correct: c
 
@@ -217,13 +204,13 @@ Self-Check
     :random:
     :practice: T
     :answer_a: 0
-    :feedback_a: Yes, the correct answer is 0. This would be an example of an <b>overflow error</b>. But it would not crash the machine.
+    :feedback_a: Yes, the correct answer is 0. This would be an example of an <b><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span></b>. But it would not crash the machine.
     :answer_b: 255
     :feedback_b: No. You would get 255 if you added 0 to 255. 
     :answer_c: 256
     :feedback_c: No.  The value 256 cannot be represented at all in 8 bits.  In 8 bits you can represent 256 different values, ranging from 00000000 to 11111111,  decimal 0 to decimal 255. 
     :answer_d: No value.  The machine would crash.
-    :feedback_d: No.  Adding 1 to 255 in 8 bits causes an overflow error, but it would not crash the machine. 
+    :feedback_d: No.  Adding 1 to 255 in 8 bits causes an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span>, but it would not crash the machine. 
     :correct: a
 
     What's the Output?Our 4-bit computer uses 8-bit bytes to represent its data. An 8-bit byte can store values ranging from 0 to 255 -- i.e., 00000000 to 11111111.  What do you suppose would happen if you added 1 to 11111111?To help answer this question, you might want to use the 4-bit simulator to write a little machine language program to see what happens. By default, the 4-bit computer adds the values in locations 1000 and 1001 and prints the sum. So here is how you would set up the machine to add 11111111 and 00000001:Put the value 11111111 (decimal 255) in memory location 1000.Put the value 00000001 (decimal 1) in memory location 1001.Run the program and observe the output.What decimal value do you get when you add binary 1 to binary 11111111?
@@ -236,7 +223,7 @@ Self-Check
     </div>
 
 
-    <p>As you saw in the last self-check exercise, it is easy to see an <b>overflow error</b> when the 4-bit computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an overflow error when the computer attempts to handle a very large number that is outside of the defined range of values can be represented.</p><p>
+    <p>As you saw in the last self-check exercise, it is easy to see an <b><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span></b> when the 4-bit computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the computer attempts to handle a very large number that is outside of the defined range of values can be represented.</p><p>
     </p>
 
 Generation 1: Machine Language Programming
@@ -299,7 +286,7 @@ Self-Check
 
     
 
-Generation 2: Assembly Language Programming
+Generation 2: <span class="hover vocab yui-wk-div" data-id='Assembly Language'>Assembly Language</span> Programming
 --------------------------------------------
 
 .. raw:: html
@@ -307,7 +294,7 @@ Generation 2: Assembly Language Programming
     <p>
     <p>
     <a href="https://mobile-csp.org/webapps/computer/gen2.html" target="_blank" title="">Generation 2</a> 
-      of the 4-bit computer introduces some additional software in the form of an <b><i>assembly language</i></b>.  
+      of the 4-bit computer introduces some additional software in the form of an <b><i><span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span></i></b>.  
       Assembly languages were the first step in the direction of raising the level of abstraction used in writing 
       and debugging programs.  It's not a big step beyond machine language.  But it does succeed in hiding some 
       of the machine's underlying complexity, including the need to remember binary opcodes, memory addresses and 

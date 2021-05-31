@@ -5,7 +5,6 @@
 Algorithm Basics
 ================
 
-
 .. raw:: html
 
         <div class="MCSP-lesson-content">
@@ -44,8 +43,7 @@ Algorithm Basics
         "boolean": "A Boolean condition is a true/false condition.  It is named after George Boole (1815-1864) an English mathematician.",
         "pseudocode":"Pseudocode is a notation for expressing algorithms, which is more precise that ordinary English but less formal than a programming language.",
         "flowchart":"A flowchart is a visual (i.e. graphical) notation for expressing algorithms.",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
@@ -57,24 +55,24 @@ Introduction and Goals
 
     <p>
     <p>In <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=19&amp;lesson=69" target="_blank">Lesson 1.2</a> 
-      we introduced the term <b><i>algorithm</i></b> and defined it as a <u>step-by-step procedure</u> of <u>precise instructions</u>
+      we introduced the term <b><i><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></i></b> and defined it as a <u>step-by-step procedure</u> of <u>precise instructions</u>
       that performs some calculation or computation.
     Algorithms are at the heart of computer science. Algorithms, expressed in computer code 
-      and interpreted by the computer, are what make our computers such powerful and adaptable machines. Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <b>pseudocode</b> which is a way to describe the each step of the code in English to plan it out. 
+      and interpreted by the computer, are what make our computers such powerful and adaptable machines. Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <b><span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span></b> which is a way to describe the each step of the code in English to plan it out. 
     Algorithms can be created from an idea, by combining existing algorithms, or by modifying existing algorithms. 
-    Knowledge of existing algorithms can help in constructing new ones. Using existing correct algorithms as building blocks for constructing another algorithm has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.
+    Knowledge of existing algorithms can help in constructing new ones. Using existing correct algorithms as building blocks for constructing another <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.
     </p>
     <p>As we saw in the maze problems in Lesson 1.2, algorithms are constructed out of basic building 
       blocks called <i>control structures</i>.  There are three basic control structures:
     </p>
     <ul>
-    <li><b><i>Sequence</i></b>– a sequence of instructions or statements.</li>
-    <li><b><i>Selection</i></b>– a conditional instruction that lets the program branch between two or more alternatives.</li>
-    <li><b><i>Repetition (or Iteration)</i></b>– a structure that repeats one or more instructions.</li>
+    <li><b><i><span class="hover vocab yui-wk-div" data-id='Sequence'>Sequence</span></i></b>– a <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> of instructions or statements.</li>
+    <li><b><i><span class="hover vocab yui-wk-div" data-id='Selection'>Selection</span></i></b>– a conditional instruction that lets the program branch between two or more alternatives.</li>
+    <li><b><i><span class="hover vocab yui-wk-div" data-id='Repetition'>Repetition</span> (or <span class="hover vocab yui-wk-div" data-id='Iteration'>Iteration</span>)</i></b>– a structure that repeats one or more instructions.</li>
     </ul>
     <p>An amazing fact that has been proved by computer scientists is that all algorithms can be 
-      constructed by using just these three control structures.  In other words, any algorithm that you 
-      would like to write to solve a problem can be built by a combination of sequence, selection, and repetition.</p>
+      constructed by using just these three control structures.  In other words, any <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that you 
+      would like to write to solve a problem can be built by a combination of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.</p>
     <p>
     </p>
 
@@ -85,15 +83,16 @@ Learning Activities
 
     <p><h3>Blockly Maze Problems</h3>
     <p>If you didn't get a chance to work through the Maze problems in Unit 1 or if you want to solve a
-      few more maze problems that use sequence, selection, and iteration, here's a link to 
+      few more maze problems that use <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span>, here's a link to 
       <a href="https://blockly-games.appspot.com/maze" target="_blank">some additional problems</a> that use the Blockly language 
       (<a href="https://docs.google.com/document/d/1q8Tqyi9DTRIGsrqQEVMdLNEEKBX-LYVl6I9n5cgZe-8" target="_blank">instructions</a>).
     </p>
     <h3>Algorithm Basics</h3>
-    <p>Now that you've created algorithms to solve Maze puzzles using sequence, selection, and iteration here
+    <p>Now that you've created algorithms to solve Maze puzzles using <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> here
       is a summary of some basic points about algorithms. (<a href="http://www.teachertube.com/video/359066" target="_blank">Teacher Tube version</a>)
     <br/>
     <span>
+
 .. youtube:: 60CzIn2FIcM
         :width: 650
         :height: 415
@@ -133,7 +132,7 @@ Learning Activities
     </tr>
     </tbody></table>
     <h3>Algorithms: Solving a Maze</h3>
-    <p>The problem below is similar to a type of AP CSP exam question. Consider a robot that can follow the simple sequence commands below:
+    <p>The problem below is similar to a type of AP CSP exam question. Consider a robot that can follow the simple <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> commands below:
      </p><ul>
     <li> <b>MOVE_FORWARD</b> : The robot moves 1 square forward in the direction it is facing.
       </li><li> <b> ROTATE_RIGHT </b>: The robot turns right 90 degrees, staying in the same square but facing right.
@@ -145,16 +144,16 @@ Learning Activities
     <p>Answer the following questions with your POGIL group using <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">this worksheet</a>:
       </p><ol>
     <li>For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?
-         </li><li>(<span style="font-weight: bold;">Portfolio</span>) Write an algorithm using the 4 commands above to navigate the robot through the maze to reach the gray square. You can pretend that one of you is the robot and walk through your algorithm with your fingers on the maze. Are there commands that are repeated in your algorithm? Circle them.
-        </li><li>(<span style="font-weight: bold;">Portfolio</span>) Let's replace the repeated commands with a <b>repetition</b> control structure. The following command can be used to repeat a block of commands:
+         </li><li>(<span style="font-weight: bold;">Portfolio</span>) Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> using the 4 commands above to navigate the robot through the maze to reach the gray square. You can pretend that one of you is the robot and walk through your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> with your fingers on the maze. Are there commands that are repeated in your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>? Circle them.
+        </li><li>(<span style="font-weight: bold;">Portfolio</span>) Let's replace the repeated commands with a <b><span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span></b> <span class="hover vocab yui-wk-div" data-id='control structure'>control structure</span>. The following command can be used to repeat a block of commands:
     <div class="yui-wk-div" id="apml">
     <bl class="dark">REPEAT n times<br/>
        <bl>commands</bl></bl>
     </div>
-    <br/>Rewrite your algorithm above using <em>Repeat n times</em> control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times. 
-        </li><li>Can you come up with a more general algorithm to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an algorithm and then click on and compare to the Maze Navigation Algorithm below.
+    <br/>Rewrite your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> above using <em>Repeat n times</em> control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times. 
+        </li><li>Can you come up with a more general <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> and then click on and compare to the Maze Navigation <span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span> below.
       <div class="yui-wk-div" id="accordion">
-    <h3>Maze Navigation Algorithm (click here after trying your own algorithm)</h3>
+    <h3>Maze Navigation <span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span> (click here after trying your own <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>)</h3>
     <div class="yui-wk-div" id="APblocks">
     <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br/>
       <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br/>
@@ -168,19 +167,19 @@ Learning Activities
     </div>
     </div>
     <ol>
-    <li type="a"> Which part(s) of the algorithm above are selection control structures?
+    <li type="a"> Which part(s) of the <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> above are <span class="hover vocab yui-wk-div" data-id='selection'>selection</span> control structures?
       </li>
-    <li type="a"> Which part of the algorithm above is a repetition control structure?
-     Remember a control structure
+    <li type="a"> Which part of the <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> above is a <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span> <span class="hover vocab yui-wk-div" data-id='control structure'>control structure</span>?
+     Remember a <span class="hover vocab yui-wk-div" data-id='control structure'>control structure</span>
           can consist of multiple statements.
         </li>
-    <li type="a">Does the algorithm solve the maze above and navigate the robot to the goal, the gray square? How many times does it need to run through the loop?</li>
-    <li type="a">(<span style="font-weight: bold;">Portfolio</span>) Can you come up with a maze that this algorithm will not be able to solve? Include a description or a photo of your drawing of such a maze in your portfolio.
+    <li type="a">Does the <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> solve the maze above and navigate the robot to the goal, the gray square? How many times does it need to run through the loop?</li>
+    <li type="a">(<span style="font-weight: bold;">Portfolio</span>) Can you come up with a maze that this <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> will not be able to solve? Include a description or a photo of your drawing of such a maze in your portfolio.
       </li></ol>
     </li>
     <li>(<span style="font-weight: bold;">Portfolio</span>) 
-        <br/>Write an algorithm  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your algorithm that are examples  of <i>Sequence, Selection,</i> and
-        <i>Repetition</i>.</li></ol><br/>
+        <br/>Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that are examples  of <i><span class="hover vocab yui-wk-div" data-id='Sequence'>Sequence</span>, <span class="hover vocab yui-wk-div" data-id='Selection'>Selection</span>,</i> and
+        <i><span class="hover vocab yui-wk-div" data-id='Repetition'>Repetition</span></i>.</li></ol><br/>
     </div>
     
 
@@ -330,7 +329,7 @@ Self-Check
 
     .. raw:: html
 
-        <img src="../_static/assets/img/APExamPrepQ14ChoiceA.PNG" width="15%"/>
+        <img src="../_static/assets/img/APExamPrepQ14ChoiceA.png" width="15%"/>
 
 
 .. raw:: html

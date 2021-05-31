@@ -7,18 +7,6 @@ The Internet and the Cloud  Explore Curricular Activity
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -44,8 +32,7 @@ The Internet and the Cloud  Explore Curricular Activity
         "WWW as a higher level of abstraction":  "Berners-Lee felt the WWW brought the Internet to a higher level of abstraction.",
         "open standard": "An open standard is a standard (such as TCP, HTTP) that is not owned or controlled by a private entity.  It stands in contrast to 'proprietary' materials', which are owned or controlled by a private entity. Open Standards fuel the growth of the Internet!",
          "IETF": "The International Engineering Task Force (IETF) develops and oversees open standards such as HTTP (www) and SMTP (mail).",
-      };
-      */
+      };      */
     
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
@@ -58,17 +45,17 @@ Introduction and Goals
 
     <p>
     
-    Throughout this course, there is a focus on 3 key questions about the Internet; they are introduced here and revisited throughout the course:
+    Throughout this course, there is a focus on 3 key questions about the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>; they are introduced here and revisited throughout the course:
     <ul>
-    <li>What is the Internet, how is it built, and how does it work?</li>
-    <li>What aspects of the Internet’s design and development have enabled it to grow so large and be so influential?</li>
-    <li>How do the Internet and Cloud applications impact our society, positively and negatively? </li>
+    <li>What is the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>, how is it built, and how does it work?</li>
+    <li>What aspects of the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>’s design and development have enabled it to grow so large and be so influential?</li>
+    <li>How do the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and Cloud applications impact our society, positively and negatively? </li>
     </ul>
-    <p>The Internet and the World Wide Web have had a tremendous influence
-    on our world and our lives.  Yet, most people do not really understand what the Internet 
+    <p>The <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the World Wide Web have had a tremendous influence
+    on our world and our lives.  Yet, most people do not really understand what the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> 
     is and how it works.   This lesson provides a high-level overview of some key concepts and clarifies the
-      difference between the <i>Internet</i> and the <i>World Wide Web (WWW)</i>. Lessons
-      later in the course will go into greater detail in explaining how the Internet works and explore cybersecurity.</p>
+      difference between the <i><span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span></i> and the <i>World Wide Web (WWW)</i>. Lessons
+      later in the course will go into greater detail in explaining how the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> works and explore cybersecurity.</p>
     
 
 Learning Activities
@@ -93,22 +80,22 @@ Learning Activities
 
 
     <h3>Definitions</h3>
-    <p>Many people do not realize that the  <i>Internet</i> and the <i>World Wide Web</i> are two 
+    <p>Many people do not realize that the  <i><span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span></i> and the <i>World Wide Web</i> are two 
     completely different things. The basic distinctions are:
     
     </p><ul>
     <li>The <b><i>World Wide Web (WWW)</i></b> is an application that runs on the
-        Internet.  The WWW is a system of interlinked resources -- documents, images, sounds,
-        videos, data files -- that are stored on the Internet and can be accessed through a 
-        <i>browser</i>.
+        <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>.  The WWW is a system of interlinked resources -- documents, images, sounds,
+        videos, data files -- that are stored on the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and can be accessed through a 
+        <i><span class="hover vocab yui-wk-div" data-id='browser'>browser</span></i>.
       </li>
-    <li>The <b><i>Internet</i></b>  is the underlying global network that supports
+    <li>The <b><i><span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span></i></b>  is the underlying global network that supports
         the WWW and many other applications.  It consists of many different local networks that
         are connected together by various hardware devices.  
       </li>
-    <li>The <b><i>Cloud</i></b> is just a popular term for the Internet and its applications used 
+    <li>The <b><i>Cloud</i></b> is just a popular term for the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and its applications used 
         largely in marketing and advertising. Facebook,  Google, Twitter, Dropbox are often referred to
-        as <i><b>cloud applications</b></i>.  They could also be called Internet applications.  App 
+        as <i><b>cloud applications</b></i>.  They could also be called <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> applications.  App 
         Inventor is another example of a cloud application. 
       </li>
     <li><i><b>Browsers</b></i>: are programs that display web pages and are used to navigate the WWW. Watch this quick, informative

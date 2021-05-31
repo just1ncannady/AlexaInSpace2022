@@ -1,21 +1,9 @@
-.. raw:: html 
+. raw:: html 
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 Unit Overview
 =============
-
-.. raw:: html
-
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
 
 .. raw:: html
 
@@ -44,50 +32,50 @@ Unit Overview
     &lt;p&gt;The  &lt;i&gt;Paint Pot&lt;/i&gt; app, the App Inventor version of the
     classic finger painting program,  is presented in three parts.   A basic Paint Pot  tutorial introduces
     App Inventor&#39;s &lt;i&gt;Canvas&lt;/i&gt; component and some of its drawing and painting commands as well as introduces the concept of 
-    a &lt;i&gt;global variable&lt;/i&gt; and the programming technique of &lt;i&gt;incrementing a variable&lt;/i&gt;.
+    a &lt;i&gt;global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>&lt;/i&gt; and the programming technique of &lt;i&gt;incrementing a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>&lt;/i&gt;.
     This tutorial is also followed by creative exercises. Later in the unit, images will be used with the Canvas and saved using &lt;i&gt;persistent&lt;/i&gt; data.  
     
-    &lt;/p&gt;&lt;p&gt;Two additional programming lessons, the &lt;i&gt;Map Tour Tutorial &lt;/i&gt;and &lt;i&gt;Map Tour with GPS and TInyDB,&amp;nbsp;&lt;/i&gt;introduce a technique
+    &lt;/p&gt;&lt;p&gt;Two additional programming lessons, the &lt;i&gt;Map Tour Tutorial &lt;/i&gt;and &lt;i&gt;Map Tour with <span class="hover vocab yui-wk-div" data-id='GPS'>GPS</span> and TInyDB,&amp;nbsp;&lt;/i&gt;introduce a technique
     for accessing other apps from within App Inventor.  In this example, we learn how to access
     and control Google Maps from within a mobile app.
     
     
     &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;CS Principles:&lt;/b&gt; The CS Principles lessons in this unit will extend our
-    understanding of the &lt;i&gt;binary system&lt;/i&gt;.  In one lesson we learn how digital
+    understanding of the &lt;i&gt;binary system&lt;/i&gt;.  In one lesson we learn how <span class="hover vocab yui-wk-div" data-id='digital'>digital</span>
     images are represented in binary.  In another, we learn how binary numbers can
     be used to help with error detection during data transmission.  These lessons
-    are complemented nicely by a Blown to Bits reading that focuses on digital 
+    are complemented nicely by a Blown to Bits reading that focuses on <span class="hover vocab yui-wk-div" data-id='digital'>digital</span> 
     documents, including how they can be used to hide secrets. 
     
     &lt;/li&gt;&lt;/ul&gt;
     -->
     <!--Below is the &quot;studentized&quot; version of the overview from the official syllabus-->
-    <p class="overview">This unit extends your mobile programming toolkit to several new App Inventor components and introduces a number of new programming concepts, including the concepts of <b>variables</b>, <b>lists</b> and <b>data abstraction</b>.  The main app in this unit, <i>The Paint Pot app</i>, a computational model of finger painting,  focuses on App Inventor's drawing and painting features and related topics from the CS Principles framework. The app is presented in three parts each of which is followed by a set of creative project exercises and challenges. This unit also introduces two other apps:  <i>Map Tour</i> app, which provides a first introduction to lists, and <i>Map Tour with TinyDB</i>, which demonstrates how to incorporate external data and location into a mobile app.  You will also further your understanding of the <b>binary number system</b> and be introduced to the idea of a <b>bit</b> as the fundamental unit of data. Through a number of hands-on and interactive activities, you will explore how bits are used to represent images and how redundant parity bits can be used to detect simple data transmission errors. These lessons are complemented by an <i>Impact of CS</i> reading and activity.
+    <p class="overview">This unit extends your mobile programming toolkit to several new App Inventor components and introduces a number of new programming concepts, including the concepts of <b>variables</b>, <b>lists</b> and <b><span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span></b>.  The main app in this unit, <i>The Paint Pot app</i>, a computational model of finger painting,  focuses on App Inventor's drawing and painting features and related topics from the CS Principles framework. The app is presented in three parts each of which is followed by a set of creative project exercises and challenges. This unit also introduces two other apps:  <i>Map Tour</i> app, which provides a first introduction to lists, and <i>Map Tour with TinyDB</i>, which demonstrates how to incorporate external data and location into a mobile app.  You will also further your understanding of the <b>binary number system</b> and be introduced to the idea of a <b><span class="hover vocab yui-wk-div" data-id='bit'>bit</span></b> as the fundamental unit of data. Through a number of hands-on and interactive activities, you will explore how bits are used to represent images and how redundant <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bits can be used to detect simple data transmission errors. These lessons are complemented by an <i>Impact of CS</i> reading and activity.
     </p>
     <div class="yui-wk-div" id="overview"><!-- Generated by generateBIEU --></div>
-    <!--Original vocab list 
+    <!--Original vocab <span class="hover vocab yui-wk-div" data-id='list'>list</span> 
     &lt;h3&gt;&lt;i&gt;Blown to Bits&lt;/i&gt; Chapter 3 Vocabulary&lt;/h3&gt;
     &lt;ul&gt;
-       &lt;li&gt;&lt;b&gt;algorithm&lt;/b&gt;: a formula or set of steps for solving a particular problem.&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;analog&lt;/b&gt;: a device or system that represents changing values as continuously variable physical quantities&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;ASCII&lt;/b&gt;: a code for representing English characters as numbers, with each letter assigned a number from 0 to 127&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;cloud computing&lt;/b&gt;: comparable to grid computing, cloud computing relies on sharing  resources rather than having local servers handle applications.&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;cryptography&lt;/b&gt;: the art of protecting information by transforming it into an unreadable format, called cipher text&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;digital&lt;/b&gt;: any system based on discontinuous data or events. Computers are digital machines because at the basic level they can distinguish between just two values, 0 and 1.&lt;/li&gt;&lt;br&gt;
-      &lt;li&gt;&lt;b&gt;digital signal processing&lt;/b&gt;: (DSP) refers to manipulating analog information&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;download&lt;/b&gt;: to copy data (usually an entire file) from a main source to a peripheral device&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;lossless compression&lt;/b&gt;: data compression techniques in which no data is lost.&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;lossy compression&lt;/b&gt;: data compression techniques in which some amount of data is lost. This technique attempts to eliminate redundant information.&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;megabyte&lt;/b&gt;: used to describe data storage, 1,048,576 bytes (abbreviated MB)&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;megapixel&lt;/b&gt;: one million pixels, used in reference to the resolution of a graphics device&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;modeling&lt;/b&gt;: process of representing a real-world object of phenomenon as a set of mathematical equations.&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;OCR&lt;/b&gt;: optical character recognition, the branch of computer science that involves reading text from paper and translating the images into a form that the computer can manipulate&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;pixel&lt;/b&gt;: short for a picture element, a single point in a graphic image&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;raster&lt;/b&gt;: the rectangular area of a display screen actually being used to display images&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;render&lt;/b&gt;: refers to the process of adding realism to a computer graphics by adding 3-D qualities, such as shadows and variations in color and shade.&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;spam&lt;/b&gt;:spam is electronic junk mail or junk newsgroup postings&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;steganography&lt;/b&gt;: the art and science of hiding information by embedding messages within other, seemingly harmless messages&lt;/li&gt;&lt;br&gt;
-       &lt;li&gt;&lt;b&gt;upload&lt;/b&gt;: to transmit data from a computer to a bulletin board service, mainframe, or network.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>&lt;/b&gt;: a formula or set of steps for solving a particular problem.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='analog'>analog</span>&lt;/b&gt;: a device or system that represents changing values as continuously <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> physical quantities&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span>&lt;/b&gt;: a code for representing English characters as numbers, with each letter assigned a number from 0 to 127&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='cloud computing'>cloud computing</span>&lt;/b&gt;: comparable to grid computing, <span class="hover vocab yui-wk-div" data-id='cloud computing'>cloud computing</span> relies on sharing  resources rather than having local servers handle applications.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>&lt;/b&gt;: the art of protecting information by transforming it into an unreadable format, called cipher text&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='digital'>digital</span>&lt;/b&gt;: any system based on discontinuous data or events. Computers are <span class="hover vocab yui-wk-div" data-id='digital'>digital</span> machines because at the basic level they can distinguish between just two values, 0 and 1.&lt;/li&gt;&lt;br&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='<span class="hover vocab yui-wk-div" data-id='digital'>digital</span> signal processing'><span class="hover vocab yui-wk-div" data-id='digital'>digital</span> signal processing</span>&lt;/b&gt;: (DSP) refers to manipulating <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> information&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='download'>download</span>&lt;/b&gt;: to copy data (usually an entire file) from a main source to a peripheral device&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span>&lt;/b&gt;: data compression techniques in which no data is lost.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span>&lt;/b&gt;: data compression techniques in which some amount of data is lost. This technique attempts to eliminate redundant information.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='megabyte'>megabyte</span>&lt;/b&gt;: used to describe data storage, 1,048,576 bytes (abbreviated MB)&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='megapixel'>megapixel</span>&lt;/b&gt;: one million pixels, used in reference to the resolution of a graphics device&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='modeling'>modeling</span>&lt;/b&gt;: process of representing a real-world object of phenomenon as a set of mathematical equations.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='OCR'>OCR</span>&lt;/b&gt;: optical character recognition, the branch of computer science that involves reading text from paper and translating the images into a form that the computer can manipulate&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span>&lt;/b&gt;: short for a picture element, a single point in a graphic image&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='raster'>raster</span>&lt;/b&gt;: the rectangular area of a display screen actually being used to display images&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='render'>render</span>&lt;/b&gt;: refers to the process of adding realism to a computer graphics by adding 3-D qualities, such as shadows and variations in color and shade.&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='spam'>spam</span>&lt;/b&gt;:<span class="hover vocab yui-wk-div" data-id='spam'>spam</span> is electronic junk mail or junk newsgroup postings&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span>&lt;/b&gt;: the art and science of hiding information by embedding messages within other, seemingly harmless messages&lt;/li&gt;&lt;br&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='upload'>upload</span>&lt;/b&gt;: to transmit data from a computer to a bulletin board service, mainframe, or network.&lt;/li&gt;&lt;br&gt;
     &lt;/ul&gt;
     -->
     <!--2020 Vocab Table-->

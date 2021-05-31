@@ -7,18 +7,6 @@ Impacts of CS Electronic Documents
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -55,8 +43,7 @@ Impacts of CS Electronic Documents
         "steganography": "Steganogrphy is the art and science of hiding information by embedding messages within other, seemingly harmless messages.",
         "upload": "To upload data means to transmit data from a computer to an online repository or service such as a bulletin board service, or drop box, or network.",
       
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 135 minutes</h3>
 
@@ -84,15 +71,15 @@ Learning Activities
 
     <p><h3>Chapter Three: Ghosts in the Machine: Secrets and Surprises of Electronic Documents</h3>
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf">
-    Chapter Three of Blown to Bits</a> describes how digital documents, 
+    Chapter Three of Blown to Bits</a> describes how <span class="hover vocab yui-wk-div" data-id='digital'>digital</span> documents, 
     including images and sounds, are represented by sequences of bits. Why do you think this chapter is called "Ghosts in the Machine"?</p>
-    <p>As you learned in the previous lesson and as shown in the this diagram, the first step in representing an image is to convert it into a sequence of bits.  This is known as <i style="font-weight: bold;">modeling</i>. The model is an <i><b>abstract representation</b></i> of the original image.</p>
+    <p>As you learned in the previous lesson and as shown in the this diagram, the first step in representing an image is to convert it into a sequence of bits.  This is known as <i style="font-weight: bold;"><span class="hover vocab yui-wk-div" data-id='modeling'>modeling</span></i>. The model is an <i><b>abstract representation</b></i> of the original image.</p>
     <div class="yui-wk-div" style="text-align: center"><img class="yui-img selected" src="../_static/assets/img/FaceModel.PNG"/></div>
     <p><b>Activity: </b>Read Chapter Three (up to page 99) to discover what's hidden in electronic documents.</p>
     <ul>
     <li>Part 1: What You See Is Not What the Computer Knows - Read pg. 73 and 74 out loud as a class and discuss the word "redacted." Continue reading this section (up to pg. 80), using the <a href="https://docs.google.com/document/d/1yBzUmMimZ7YVF0x9osqcGRtHP-RkT46MLAjL2mzsAe0/edit?usp=sharing" target="_blank">Conversation Questions Template</a> to write down a question about 3-4 ideas that were important, surprising, or thought provoking. In small groups, discuss your questions. <p><b><i>Metadata</i></b> (data about data) is described and discussed on pg. 78-80. Here are a few additional things you should know about metadata:</p><ul><li>Metadata are used for finding, organizing, and managing information. </li> <li>Metadata can increase the effective use of data or data sets by providing additional information.</li><li> Metadata allow data to be structured and organized.<br/></li></ul>
     </li><br/><li>Part 2: Representation, Reality, and Illusion - Read pg. 80-94 and complete the <a href="https://docs.google.com/document/d/1LvLYKuRZ66FMd_BSkDVBj8rrg6YN5QbHBx8CxcPnq_Q/edit?usp=sharing" target="_blank">Now That's Surprising Template</a>. In small groups, discuss your notes.</li>
-    <li>Part 3: Hiding Information in Images (pg. 95-99) is called <b><i>steganography</i></b>. First, answer the question below, then read the chapter pages as needed to help you complete <a href="https://docs.google.com/document/d/1rMlcppxtV-v9Ti7RDe6L6dlCczXXu8oQjZz8f9KLFaE/edit?usp=sharing" target="_blank">this activity</a>—you'll have an opportunity to hide your initials, or some 3-letter word, in an image. Try it, it's fun!</li>
+    <li>Part 3: Hiding Information in Images (pg. 95-99) is called <b><i><span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span></i></b>. First, answer the question below, then read the chapter pages as needed to help you complete <a href="https://docs.google.com/document/d/1rMlcppxtV-v9Ti7RDe6L6dlCczXXu8oQjZz8f9KLFaE/edit?usp=sharing" target="_blank">this activity</a>—you'll have an opportunity to hide your initials, or some 3-letter word, in an image. Try it, it's fun!</li>
     </ul>
     <iframe frameborder="0" height="550" marginheight="0" marginwidth="0" src="https://mobile-csp.org/webapps/stego/bitmap-editor.html" width="780"></iframe>
     
@@ -103,7 +90,7 @@ Still Curious?
 .. raw:: html
 
     <p>
-    <p>Printers sometimes add secret dots to documents when they're printed, very similar to steganography. In fact, the secret dots on a leaked, classified document were able to help the FBI identify a potential suspect. <a href="http://www.bbc.com/future/story/20170607-why-printers-add-secret-tracking-dots" target="_blank">Read more in this article from the BBC.</a></p>
+    <p>Printers sometimes add secret dots to documents when they're printed, very similar to <span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span>. In fact, the secret dots on a leaked, classified document were able to help the FBI identify a potential suspect. <a href="http://www.bbc.com/future/story/20170607-why-printers-add-secret-tracking-dots" target="_blank">Read more in this article from the BBC.</a></p>
     
 
 Summary

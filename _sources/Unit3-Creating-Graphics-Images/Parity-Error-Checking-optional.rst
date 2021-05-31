@@ -7,18 +7,6 @@ Parity Error Checking optional
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -38,8 +26,7 @@ Parity Error Checking optional
         "even parity":"In even parity the number of 1s in the sequence add up to an even number.",
         "odd parity":"In odd parity, the number of 1s in the sequence add up to an odd number.",
         "parity bit":"A parity bit is a bit that acts as a check on a set of binary values, calculated in such a way that the number of 1s in the set plus the parity bit should always be even (even parity) or should always be odd (odd parity).",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
@@ -53,16 +40,16 @@ Introduction and Goals
     
     As you learned in the previous lesson, the card "trick" is really not a magic trick at all. It
     is a very precise algorithm of error checking based on the concept of
-     <i><b>parity</b></i>.
+     <i><b><span class="hover vocab yui-wk-div" data-id='parity'>parity</span></b></i>.
     
-    <p>In mathematics, <i>parity</i> refers to the evenness or oddness of a number. In
-    the card trick, a <i>parity bit</i> was added to each row and column such that the 
+    <p>In mathematics, <i><span class="hover vocab yui-wk-div" data-id='parity'>parity</span></i> refers to the evenness or oddness of a number. In
+    the card trick, a <i><span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bit</i> was added to each row and column such that the 
     additional bit would make the row or column have an even number of 1 bits.  This is 
-    known as <i><b>even parity</b></i>.  The "trick" would also work if the parity bits
+    known as <i><b>even <span class="hover vocab yui-wk-div" data-id='parity'>parity</span></b></i>.  The "trick" would also work if the <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bits
     were set so as to make each row and column have an odd number of 1 bits.  That would
-    be known as <i><b>odd parity</b></i>.
+    be known as <i><b>odd <span class="hover vocab yui-wk-div" data-id='parity'>parity</span></b></i>.
     
-    </p><p>It's important to realize that the parity bit is not part of the data.  It is <i><b>redundant</b></i>,
+    </p><p>It's important to realize that the <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bit is not part of the data.  It is <i><b>redundant</b></i>,
     an extra bit, added to the data to allow us to detect if one of the data bits has been flipped
     from its original value.
     
@@ -77,7 +64,7 @@ Learning Activities
     <p><h3>Parity Bit Error Detection</h3>
     
     Suppose you are sending a stream of data to a server. By adding
-    a <i>parity bit</i>, you enable the server to detect some basic
+    a <i><span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bit</i>, you enable the server to detect some basic
     transmission errors.  For example, if the server expects that every
     byte will contain an <b>even number of 1s</b> and it detects a byte
     such
@@ -88,22 +75,22 @@ Learning Activities
     0101</font> but one of the bits was flipped from 0 to 1 during
     transmission.
     
-    <p>A <b>parity bit</b> is a bit that is added as the leftmost bit of
+    <p>A <b><span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bit</b> is a bit that is added as the leftmost bit of
     a bit string to ensure that the number of bits that are 1 in the bit string
     are <i>even</i> or <i>odd</i>.
     
     </p><p>To see how this works, suppose our data are stored in strings 
     containing 7 bits.  (You might remember that the ASCII scheme, when it 
-    was initially introduced, was a 7-bit code.  In practice, a parity bit would
+    was initially introduced, was a 7-bit code.  In practice, a <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bit would
     be added to the ASCII code so that 1-bit errors could be detected in
     the resulting 8-bit byte.) 
     
-    </p><p>In an <b>even parity scheme</b> the eighth bit, the <b>parity
+    </p><p>In an <b>even <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> scheme</b> the eighth bit, the <b><span class="hover vocab yui-wk-div" data-id='parity'>parity</span>
     bit</b>, is set to 1 if the number of 1s in the 7 data bits is odd,
     thereby making the number of 1s in the 8-bit byte an even number.  It
     is set to 0 if the number of 1s in the data is even.
     
-    </p><p>In an <b>odd parity scheme</b> the eighth bit, the <b>parity
+    </p><p>In an <b>odd <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> scheme</b> the eighth bit, the <b><span class="hover vocab yui-wk-div" data-id='parity'>parity</span>
     bit</b>, is set to 1 if the number of 1s in the 7 data bits is even,
     thereby making the number of 1s in the 8-bit byte an odd number.  It
     is set to 0 if the number of 1s in the data is odd.
@@ -112,8 +99,8 @@ Learning Activities
     
     </p><blockquote>
     <table border="1">
-    <tbody><tr><th rowspan="2">Data Bits (7)</th><th colspan="2">Add a parity bit to get 8 bits</th></tr>
-    <tr><th>Even Parity<br/>Total number 1s is even</th><th>Odd Parity<br/>Total number of 1s is odd</th></tr>
+    <tbody><tr><th rowspan="2">Data Bits (7)</th><th colspan="2">Add a <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bit to get 8 bits</th></tr>
+    <tr><th>Even <span class="hover vocab yui-wk-div" data-id='Parity'>Parity</span><br/>Total number 1s is even</th><th>Odd <span class="hover vocab yui-wk-div" data-id='Parity'>Parity</span><br/>Total number of 1s is odd</th></tr>
     <tr><td align="center">000 0000  (0 1s)</td><td align="center"><font color="red">0</font>000 0000</td><td align="center"><font color="red">1</font>000 0000</td></tr>
     <tr><td align="center">011 0010  (3 1s)</td><td align="center"><font color="red">1</font>011 0010</td><td align="center"><font color="red">0</font>011 0010</td></tr>
     <tr><td align="center">011 0011  (4 1s)</td><td align="center"><font color="red">0</font>011 0011</td><td align="center"><font color="red">1</font>011 0011</td></tr>
@@ -121,7 +108,7 @@ Learning Activities
     </tbody></table>
     </blockquote>
     <h3>Parity Exercise</h3>
-    <iframe height="550" instanceid="S9xExPRYX0YI" src="https://mobile-csp.org/webapps/parity/ParityExercise.html" title="" width="100%">
+    <iframe height="550" instanceid="S9xExPRYX0YI" src="https://mobile-csp.org/webapps/<span class="hover vocab yui-wk-div" data-id='parity'>parity</span>/ParityExercise.html" title="" width="100%">
     </iframe>
     
 

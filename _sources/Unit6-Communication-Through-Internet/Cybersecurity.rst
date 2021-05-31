@@ -7,18 +7,6 @@ Cybersecurity
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -46,8 +34,7 @@ Cybersecurity
     "keylogger" : "a program to record every keystroke made by a computer user.",
     "rogue access point" : "a wireless access point that gives unauthorized access to secure networks.", 
     "firewalls" : "barriers that protect a network from unauthorized access"
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
 
@@ -69,14 +56,14 @@ Learning Activities
     
     Cybersecurity is one of the fastest growing IT fields. It is essential to every organization to keep their computer systems and data safe.
     
-    <p>Passwords are currently the primary way to protect devices and information from unauthorized access. A <b>strong password</b> is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user.  In Unit 5, we saw that it is very difficult to guess a long complex password (which can be tested in sites such as  <a href="https://howsecureismypassword.net" target="_blank">howsecureismypassword.net</a>). Luckily, brute-force password cracking algorithms take exponential time. However, passwords can also be compromised (stolen) through phishing attacks and data breaches. </p>
+    <p>Passwords are currently the primary way to protect devices and information from unauthorized access. A <b><span class="hover vocab yui-wk-div" data-id='strong password'>strong password</span></b> is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user.  In Unit 5, we saw that it is very difficult to guess a long complex password (which can be tested in sites such as  <a href="https://howsecureismypassword.net" target="_blank">howsecureismypassword.net</a>). Luckily, brute-force password cracking algorithms take exponential time. However, passwords can also be compromised (stolen) through <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span> attacks and data breaches. </p>
     <p>Many organizations now use <b>two-factor authentication (2FA)</b> or <b>multi-factor authentication (MFA)</b> which asks for additional authentication in addition to the password, just in case the password gets compromised. Users are asked to present several separate pieces of evidence such as:
         <img src="../_static/assets/img/multifactor-authentication.png" width="70%"/></p>
     <ul>
     <li><b>Something You Know</b>: for example your password or the answers to security questions that you have set up; </li>
     <li><b>Something You Have</b>; for example a code texted to the your phone or a USB security token;
           </li>
-    <li><b>Something You Are</b>: for example <b>biometrics</b> such as fingerprints or face recognition.</li>
+    <li><b>Something You Are</b>: for example <b><span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span></b> such as fingerprints or face recognition.</li>
     </ul>
     <p>Multi-factor authentication requires at least two steps to unlock protected information. Each step adds a new layer of security that must be broken to gain unauthorized access. Watch the following <a href="https://www.youtube.com/watch?v=0mvCeNsTa1g" target="_blank">video</a> on multi-factor authentication:</p>
     
@@ -95,7 +82,7 @@ Learning Activities
     <ul>
     <li>Discuss with your class: What different types of biometric authentication have you seen in real life or in movies?</li>
     </ul>
-    <p>Biometrics became popular with fingerprint scanners, and now facial recognition technology has exploded in use for biometric authentication and surveillance. However, the problem with static biometrics like fingerprints is that if it is compromised (stolen), you can’t change your face or fingerprint to a new one. Dynamic biometrics like heartbeats or behavioral biometrics like walking gaits are more difficult to hack. Watch the following <a href="https://www.youtube.com/watch?v=88Rjg8gM_DI" target="_blank">video</a> on biometric authentication:</p>
+    <p><span class="hover vocab yui-wk-div" data-id='Biometrics'>Biometrics</span> became popular with fingerprint scanners, and now facial recognition technology has exploded in use for biometric authentication and surveillance. However, the problem with static <span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span> like fingerprints is that if it is compromised (stolen), you can’t change your face or fingerprint to a new one. Dynamic <span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span> like heartbeats or behavioral <span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span> like walking gaits are more difficult to hack. Watch the following <a href="https://www.youtube.com/watch?v=88Rjg8gM_DI" target="_blank">video</a> on biometric authentication:</p>
     
 .. youtube:: 88Rjg8gM_DI
         :width: 650
@@ -109,11 +96,11 @@ Learning Activities
     </div>
 
     <h3>Malware </h3>
-    <p><b>Malware</b> which stands for MALicious softWARE is software intended to damage a computing system or to take partial control over its operation. A computer <b>virus</b> is a type of malware that can copy itself and gain access to a computer in an unauthorized way. Computer viruses often attach themselves to legitimate programs and start running independently on a computer. </p>
+    <p><b><span class="hover vocab yui-wk-div" data-id='Malware'>Malware</span></b> which stands for MALicious softWARE is software intended to damage a computing system or to take partial control over its operation. A computer <b><span class="hover vocab yui-wk-div" data-id='virus'>virus</span></b> is a type of <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> that can copy itself and gain access to a computer in an unauthorized way. Computer viruses often attach themselves to legitimate programs and start running independently on a computer. </p>
     <ul>
-    <li>Discuss with your class: Have you ever had a virus on your computer? What happened and how did you get rid of it?</li>
+    <li>Discuss with your class: Have you ever had a <span class="hover vocab yui-wk-div" data-id='virus'>virus</span> on your computer? What happened and how did you get rid of it?</li>
     </ul>
-    <p>Watch the following <a href="https://www.youtube.com/watch?v=_4sFZgUWhB4" target="_blank">video</a> about malware:</p>
+    <p>Watch the following <a href="https://www.youtube.com/watch?v=_4sFZgUWhB4" target="_blank">video</a> about <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>:</p>
     
 .. youtube:: _4sFZgUWhB4
         :width: 650
@@ -126,11 +113,11 @@ Learning Activities
     <p></p>
     </div>
 
-    <p>Malware can spread by email attachments, downloading from sites that are not reputable, network connections from infected computers, and copying infected files from computer to computer on portable memory. So don’t click or open anything where you don’t know the source. A computer that is infected may stop working, display strange messages, delete files, be controlled by others, steal personal information and infect other computers.  Recent <b>ransomware</b> attacks encrypt and lock computer systems until a ransom is paid.</p>
-    <p>Computer virus and malware <b>scanning software</b> can protect a computing system against infection. Many operating systems like Windows come with their own free malware scanners like Windows Defender. It is very important to auto-update the malware scanning software with  newly discovered malware signatures. Explore the malware scanner on your computer. Regular software updates help to fix errors that would compromise a computing system. All real-world systems have errors or design flaws that can be exploited. </p>
+    <p><span class="hover vocab yui-wk-div" data-id='Malware'>Malware</span> can spread by email attachments, downloading from sites that are not reputable, network connections from infected computers, and copying infected files from computer to computer on portable memory. So don’t click or open anything where you don’t know the source. A computer that is infected may stop working, display strange messages, delete files, be controlled by others, steal personal information and infect other computers.  Recent <b><span class="hover vocab yui-wk-div" data-id='ransomware'>ransomware</span></b> attacks encrypt and lock computer systems until a ransom is paid.</p>
+    <p>Computer <span class="hover vocab yui-wk-div" data-id='virus'>virus</span> and <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> <b>scanning software</b> can protect a computing system against infection. Many operating systems like Windows come with their own free <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> scanners like Windows Defender. It is very important to auto-update the <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> scanning software with  newly discovered <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> signatures. Explore the <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> scanner on your computer. Regular software updates help to fix errors that would compromise a computing system. All real-world systems have errors or design flaws that can be exploited. </p>
     <h3>Unauthorized Access</h3>
-    <p>Criminals can gain unauthorized access to computing systems in many ways by exploiting the users and the staff of the system. They can gain access through malware or by stealing or cracking passwords or hacking in through unprotected areas. </p>
-    <p><b>Phishing</b> is a common technique that is used to trick a user into providing personal information usually through email. That personal information can then be used to access sensitive online resources, such as bank accounts and emails. A malicious phishing or malware link can be disguised on a web page or in an email message. Watch the following <a href="https://www.youtube.com/watch?v=eWS8cYoj2oA" target="_blank">video</a> on phishing. </p>
+    <p>Criminals can gain unauthorized access to computing systems in many ways by exploiting the users and the staff of the system. They can gain access through <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> or by stealing or cracking passwords or hacking in through unprotected areas. </p>
+    <p><b><span class="hover vocab yui-wk-div" data-id='Phishing'>Phishing</span></b> is a common technique that is used to trick a user into providing personal information usually through email. That personal information can then be used to access sensitive online resources, such as bank accounts and emails. A malicious <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span> or <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> link can be disguised on a web page or in an email message. Watch the following <a href="https://www.youtube.com/watch?v=eWS8cYoj2oA" target="_blank">video</a> on <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span>. </p>
     
 .. youtube:: eWS8cYoj2oA
         :width: 650
@@ -143,14 +130,14 @@ Learning Activities
     <p></p>
     </div>
 
-    <p>Another technique for capturing passwords is <b>keylogging</b> software which secretly records every keystroke made by a computer user. This can be used to gain fraudulent access to passwords and other confidential information. Keyloggers can be installed through malware or hacking. Unsolicited emails, attachments, links, and forms in emails can be used to compromise the security of a computing system. These can come from unknown senders or from known senders whose security has been compromised.  Untrustworthy (often free) downloads from freeware or shareware sites can contain malware.</p>
-    <p>Unencrypted information sent over public networks can also be compromised. Data sent over public networks can be intercepted, analyzed and modified. One way that this can happen is through a rogue access point. A <b>rogue access point</b> is a wireless access point that gives unauthorized access to secure networks. Network and system administrators protect their networks with <b>firewalls</b> which provide a barrier to attacks and scan their networks with network analyzers to prevent unauthorized access.</p>
+    <p>Another technique for capturing passwords is <b>keylogging</b> software which secretly records every keystroke made by a computer user. This can be used to gain fraudulent access to passwords and other confidential information. Keyloggers can be installed through <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> or hacking. Unsolicited emails, attachments, links, and forms in emails can be used to compromise the security of a computing system. These can come from unknown senders or from known senders whose security has been compromised.  Untrustworthy (often free) downloads from freeware or shareware sites can contain <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>.</p>
+    <p>Unencrypted information sent over public networks can also be compromised. Data sent over public networks can be intercepted, analyzed and modified. One way that this can happen is through a <span class="hover vocab yui-wk-div" data-id='rogue access point'>rogue access point</span>. A <b><span class="hover vocab yui-wk-div" data-id='rogue access point'>rogue access point</span></b> is a wireless access point that gives unauthorized access to secure networks. Network and system administrators protect their networks with <b><span class="hover vocab yui-wk-div" data-id='firewalls'>firewalls</span></b> which provide a barrier to attacks and scan their networks with network analyzers to prevent unauthorized access.</p>
     <h3>Activity:</h3>
     <p>Select one or more of the following activities to complete after watching and discussing the videos. When you are done, document your findings and/or results in your portfolio reflection.</p>
     <ol>
-    <li>Can you spot when you’re being phished? Do the <a href="https://phishingquiz.withgoogle.com" target="_blank">Phishing Quiz with Google</a> working in pairs. See how many you get right.</li>
-    <li>  In pairs, investigate this <a href="http://cybermap.kaspersky.com/" target="_blank">map</a> (click on a country and more details or statistics) and <a href="http://securelist.com/statistics/" target="_blank">securelist.com/statistics</a> which shows the current week’s infections and attacks. What are the top 3 attacked countries? What country has the highest rate of infections? What is the top infection (virus) currently?</li>
-    <li>Investigate a famous or recent malware, hacking, or security breach incident. Write down who, what, when, where, how, and the consequences of the incident.</li>
+    <li>Can you spot when you’re being phished? Do the <a href="https://phishingquiz.withgoogle.com" target="_blank"><span class="hover vocab yui-wk-div" data-id='Phishing'>Phishing</span> Quiz with Google</a> working in pairs. See how many you get right.</li>
+    <li>  In pairs, investigate this <a href="http://cybermap.kaspersky.com/" target="_blank">map</a> (click on a country and more details or statistics) and <a href="http://securelist.com/statistics/" target="_blank">securelist.com/statistics</a> which shows the current week’s infections and attacks. What are the top 3 attacked countries? What country has the highest rate of infections? What is the top infection (<span class="hover vocab yui-wk-div" data-id='virus'>virus</span>) currently?</li>
+    <li>Investigate a famous or recent <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>, hacking, or security breach incident. Write down who, what, when, where, how, and the consequences of the incident.</li>
     </ol>
     <h3>(Optional) Activity: Watch and Discuss</h3>
     <table>

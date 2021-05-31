@@ -7,18 +7,6 @@ Limits of Algorithms
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -45,8 +33,7 @@ Limits of Algorithms
         "The Traveling Salesman Problem" : "Given a list of cities and the distances between them find the shortest path visiting each city once and returning to the start.",
         "undecidable problems" : "have no algorithm that can be constructed that always leads to a correct yes-or-no answer",
         
-       };
-       */
+       };       */
     
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
@@ -70,11 +57,11 @@ Introduction and Goals
     <p>There are two senses in which an algorithm cannot solve a 
       problem:
       </p><ol>
-    <li><b>Undecidable Problems</b>.  There are certain problems
-          which are the theoretically impossible to solve — by any algorithm. The <b>halting problem</b> is a <b>decision problem</b> (with a yes or no answer) that is undecidable. A computer cannot tell if it is in an infinite loop or it will at some point stop!
+    <li><b><span class="hover vocab yui-wk-div" data-id='Undecidable Problems'>Undecidable Problems</span></b>.  There are certain problems
+          which are the theoretically impossible to solve — by any algorithm. The <b>halting problem</b> is a <b><span class="hover vocab yui-wk-div" data-id='decision problem'>decision problem</span></b> (with a yes or no answer) that is undecidable. A computer cannot tell if it is in an infinite loop or it will at some point stop!
         </li>
-    <li><b>Intractable Problems</b>.  There are problems that are
-          practically impossible to solve in a <b>reasonable time</b> — i.e., there are known algorithmic
+    <li><b><span class="hover vocab yui-wk-div" data-id='Intractable Problems'>Intractable Problems</span></b>.  There are problems that are
+          practically impossible to solve in a <b><span class="hover vocab yui-wk-div" data-id='reasonable time'>reasonable time</span></b> — i.e., there are known algorithmic
           solutions, but the algorithms are too inefficient/slow to solve the 
           problem when the number of inputs grows large.
         </li>
@@ -101,7 +88,7 @@ Introduction and Goals
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom: Creating a Strong Password (15 minutes)</h3>
     <p>To give us a better sense of what it takes to create a strong password -- i.e., one that can
-        withstand a brute force attack --  we're going to use the Password Strength Calculator
+        withstand a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span> attack --  we're going to use the Password Strength Calculator
         to test the strength of various password schemes. (<a href="https://mobile-csp.org/webapps/passwords/index.html" target="_blank" title="">Open widget in a separate window</a>)
         <iframe height="600" src="https://mobile-csp.org/webapps/passwords/index.html" style="border: 0;" title="Password Strength Calculator" width="850"></iframe>
     </p>
@@ -144,7 +131,7 @@ Learning Activities
     <ol>
     <li>(<b>Portfolio</b>) A <b><i>password scheme</i></b> consists of a minimum password length and 
           the different types of symbols  (i.e., letters, numbers, specials) that can be used in the password.
-          Using the Password Strength Calculator, determine the <b><i>optimal scheme</i></b> for withstanding a brute force
+          Using the Password Strength Calculator, determine the <b><i>optimal scheme</i></b> for withstanding a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span>
           attack of at least 10 years by an ordinary PC performing 100 million tests per second. 
         </li>
     <li>(<b>Portfolio</b>) According to <a href="http://arstechnica.com/security/2012/12/25-gpu-cluster-cracks-every-standard-windows-password-in-6-hours/" target="_blank">this 
@@ -156,16 +143,16 @@ Learning Activities
     </ol>
     </div>
     <h3>Heuristic Solutions to Intractable Problems</h3>
-    <p>For some intractable problems, we need to have practical 
+    <p>For some <span class="hover vocab yui-wk-div" data-id='intractable problems'>intractable problems</span>, we need to have practical 
       solutions.  One such example is the <i><b>Traveling Salesman Problem (TSP)</b></i>:
-      Construct the most efficient route, <b>the optimal route</b>, that visits <i>N</i> cities. This is an <b>optimization problem</b> where the goal is to find the "best" (most optimal) solution among many.
+      Construct the most efficient route, <b>the optimal route</b>, that visits <i>N</i> cities. This is an <b><span class="hover vocab yui-wk-div" data-id='optimization problem'>optimization problem</span></b> where the goal is to find the "best" (most optimal) solution among many.
     </p>
     <p>Clearly, this is a problem we would like to be able to solve.  And clearly, variations
       of this problem are the kinds of problems that Google maps and other apps solve for us
       when we ask for driving directions.
     </p>
     <p>Fortunately, there are so-called heuristic algorithms that computer
-      scientists use to solve such problems. A <i><b>heuristic algorithm</b></i> is one
+      scientists use to solve such problems. A <i><b><span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic algorithm</span></b></i> is one
       that provides a solution to a problem, although in many cases the solution may not be
       the best possible solution -- i.e., it may not be an optimal solution.
     </p>

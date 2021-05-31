@@ -7,18 +7,6 @@ Hardware Abstractions  Logic Gates
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -43,8 +31,7 @@ Hardware Abstractions  Logic Gates
         "flip flop":"A flip flop (or latch) is a digital circuit that has two states, ON or OFF, that can be used to store a 1 or a 0. It is the fundamental unit of computer memory.",
         "RAM":"RAM is short for Random Access Memory. RAM is implemented by one or more integrated circuite that comprise the computer's main memory where all data and programs are stored while the computer is on.",
         "CPU": "CPU is short for Central Processing Unit.  The CPU is implemented by a single integrated circuit and is the functional computer that handles all of the computer's processing of instructions.",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
@@ -100,13 +87,13 @@ Learning Activities
           
       
     </p><ul>
-    <li>In an <a href="http://logic.ly/lessons/and-gate/" target="_blank">AND gate</a>
+    <li>In an <a href="http://logic.ly/lessons/and-gate/" target="_blank"><span class="hover vocab yui-wk-div" data-id='AND gate'>AND gate</span></a>
      the output is TRUE (the light is ON) when both of its inputs are TRUE (or ON).
     </li>
-    <li>In an <a href="http://logic.ly/lessons/or-gate/" target="_blank">OR gate</a>
+    <li>In an <a href="http://logic.ly/lessons/or-gate/" target="_blank"><span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span></a>
      the output is TRUE (the light is ON) when either or both of its inputs are TRUE (or ON).
     </li>
-    <li>In a <a href="http://logic.ly/lessons/not-gate/" target="_blank">NOT gate</a>
+    <li>In a <a href="http://logic.ly/lessons/not-gate/" target="_blank"><span class="hover vocab yui-wk-div" data-id='NOT gate'>NOT gate</span></a>
      the output is is TRUE (or ON) when its single input is FALSE (or OFF).</li>
     </ul>
     <div class="pogil yui-wk-div">
@@ -134,7 +121,7 @@ Learning Activities
     </tbody></table>
     <h3>Designing a Computational Circuit:  Critical Thinking Exercises</h3>
     <ol>
-    <li>The word <b>OR</b> has different meaning in the following two sentences; which meaning corresponds to the Boolean OR gate?
+    <li>The word <b>OR</b> has different meaning in the following two sentences; which meaning corresponds to the Boolean <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>?
           <ul>
     <li>Choose either soup <b>OR</b> salad with your entree.</li>
     <li>Insurance benefits will be paid in case of accident <b>OR</b> illness.</li>
@@ -160,10 +147,10 @@ Learning Activities
     <br/> Use  <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a> to construct the Exclusive-OR
           circuit. As suggested in the definition, you'll need to combine AND, OR, and NOT gates.  The
           circuit should have 2 inputs and 1 output.  Make sure your circuit behaves as defined by the
-          truth table you created in part #2. (Hint:  For this circuit you'll need 2 AND gates, 1 OR gate,
-          and 1 NOT gate.  Also, you should use switches, not buttons, for the 2 inputs.)
+          truth table you created in part #2. (Hint:  For this circuit you'll need 2 AND gates, 1 <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>,
+          and 1 <span class="hover vocab yui-wk-div" data-id='NOT gate'>NOT gate</span>.  Also, you should use switches, not buttons, for the 2 inputs.)
         </li>
-    <li>(<b>Portfolio</b>) Consider these three things: The <i>OR gate</i> (i.e., the physical circuit), 
+    <li>(<b>Portfolio</b>) Consider these three things: The <i><span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span></i> (i.e., the physical circuit), 
         the <i>Boolean OR function</i> (as defined by its truth table), and the <i>OR symbol</i>.  How
         would arrange them from <b>most abstract to least abstract</b>?  And what criterion would you
         use to determine their order?</li>
@@ -387,7 +374,7 @@ Self-Check
 
     .. raw:: html
 
-        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.PNG"/>
+        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.png"/>
 
 
 .. raw:: html
@@ -414,7 +401,7 @@ Self-Check
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q21Table.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q21Table.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html

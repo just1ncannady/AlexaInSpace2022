@@ -7,18 +7,6 @@ Coin Flip Experiment optional
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -38,8 +26,7 @@ Coin Flip Experiment optional
         "PRNG":"A pseudo random number generator (PRNG) is an algorithm that generates a sequence of numbers that seems random but is actually completely predictable.",
         "fair coin":"A fair coin is one that when flipped would come up heads 50% of the time over a large number of coin flips.",
         "hypothesis":"A hypothesis is an explanation that can be tested by experimentation.",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
     
@@ -63,7 +50,7 @@ Introduction and Goals
     <p>
       The <i>CoinFlipExperiment</i> app will let you conduct an experiment 
       aimed at determining how ‘good’ App Inventor’s Pseudo Random Number 
-      Generator (PRNG) is.  The app will let you ‘flip a coin’ N times and display the results.  
+      Generator (<span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>) is.  The app will let you ‘flip a coin’ N times and display the results.  
       </p>
     <p>
     In this lesson you will run the app several times, recording and tallying the results 
@@ -74,7 +61,7 @@ Introduction and Goals
     <b>Objectives:</b> In this lesson you will learn to :
     </p><ul>
     <li>use software to conduct an experiment;
-    </li><li>make and test a hypothesis about App Inventor's ability to generate
+    </li><li>make and test a <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> about App Inventor's ability to generate
     random numbers. 
     </li></ul>
     </td></tr></tbody></table>
@@ -96,23 +83,23 @@ Learning Activities
         next lesson goes into the details.</li>
     <li>PRNGs generate a sequence of "random seeming" numbers.</li>
     <li>PRNGs are <i><b>models</b></i> of true randomness.  As such, they can be 'good' or 'bad' depending on how well they <i><b>approximate</b></i> true randomness. Much research by mathematicians and computer scientists goes into creating good PRNGs.</li>
-    <li>App Inventor uses a standard and well established PRNG, which should do a good job of modeling randomness.</li>
+    <li>App Inventor uses a standard and well established <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>, which should do a good job of modeling randomness.</li>
     </ul>
     <h3>The Experiment</h3>
-    <p>Our CoinFlip app simulates flipping a coin.  If you had a <b><i>fair coin</i></b>
+    <p>Our CoinFlip app simulates flipping a coin.  If you had a <b><i><span class="hover vocab yui-wk-div" data-id='fair coin'>fair coin</span></i></b>
     and you flipped it many, many times -- maybe a million times -- then if it were truly
     fair, you would expect it to come up "Heads" half the time.  That's why we say for
     any coin flip, it has a 50:50 chance of coming up heads.
     
-    </p><p>App Inventor's <i><b>random integer block</b></i> uses its PRNG to
+    </p><p>App Inventor's <i><b>random integer block</b></i> uses its <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> to
     generate a random sequence of integers.  In our app, the sequence is between 1
-    and 2 inclusive.  So, if the PRNG is good, it should generate a 1 half the time and
-    a 2 half the time.  And this, in turn, should let our Coin Flip app be a good model
+    and 2 inclusive.  So, if the <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> is good, it should generate a 1 half the time and
+    a 2 half the time.  And this, in turn, should let our Coin Flip app be a good <span class="hover vocab yui-wk-div" data-id='model'>model</span>
     of flipping a coin.
     <br/><img alt="App Inventor's random integer block" src="http://appinventor.mit.edu/explore/sites/all/files/UserGuide/blocks/math/randomint.png"/>
     </p>
     <h3>Hypothesis</h3>
-    <p>Our <b><i>hypothesis</i></b> is that App Inventor’s random integer block is a 
+    <p>Our <b><i><span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span></i></b> is that App Inventor’s random integer block is a 
     good approximation  of the process of randomly generating a 1 half the time and a 
     2 half the time.
     </p>
@@ -120,20 +107,20 @@ Learning Activities
     and record the number of heads and tails.  Their ratio should come out 50:50.  
       But you have to do <i>a lot</i> of flips.
     </p>
-    <p>So, to test our hypothesis about App Inventor’s random integer block, we 
+    <p>So, to test our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> about App Inventor’s random integer block, we 
     have to perform a simulated “coin flip” lots of times.  To help with this, we will 
     use the <i>Coin Flip Experiment</i> app, which will let us repeatedly “flip” a coin. 
     The app uses an algorithm that uses the random integer block.  If the random 
     integer block is a good approximation of randomness, we would expect that 
-    when it is used to model the process of flipping a coin, it would make the odds 
+    when it is used to <span class="hover vocab yui-wk-div" data-id='model'>model</span> the process of flipping a coin, it would make the odds 
     of getting a “Heads” or “Tails” 50:50. 
     </p>
-    <p>For our hypothesis to be true, the ratio between “Heads” and “Tails” in the app 
+    <p>For our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> to be true, the ratio between “Heads” and “Tails” in the app 
     should approximate 50:50 as the number of trials gets large.  The more trials 
     we perform, the closer our ratio should be to 50:50.   
     </p>
-    <p>If the ratio does approach 50:50, that would validate our hypothesis.  
-    If it does not, that would prove that our hypothesis is invalid.  
+    <p>If the ratio does approach 50:50, that would validate our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span>.  
+    If it does not, that would prove that our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> is invalid.  
     </p>
     <h3>Download and Install the App</h3>
     
@@ -177,7 +164,7 @@ Learning Activities
     </tr>
     </tbody></table>
     <h3>Experimental Procedure</h3>
-    <p>Our hypothesis for this experiment: <i><b>App Inventor's PRNG provides a good model of randomness</b></i>.</p>
+    <p>Our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> for this experiment: <i><b>App Inventor's <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> provides a good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of randomness</b></i>.</p>
     <p>Perform the following steps.</p>
     <ol><li>Repeatedly run the app on each device and record the number of heads and tails received in each trial.  
         Do at least 20 runs (<b>trials</b>) among the team. The maximum number of "flips" per trial is 100.
@@ -199,7 +186,7 @@ Learning Activities
           that you can use to record your data.  Just enter your data in columns B and C.  The rest of the columns will be calculated
           automatically. 
         </li>
-    <li>(<b>Portfolio</b>) According to your results, does App Inventor's PRNG provide a good model of randomness?
+    <li>(<b>Portfolio</b>) According to your results, does App Inventor's <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> provide a good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of randomness?
         </li>
     <li>(<b>Portfolio</b>) A friend claims that flipping a coin 100 times and 
           finding that it comes up heads only 45% of the time shows that the coin is biased. How

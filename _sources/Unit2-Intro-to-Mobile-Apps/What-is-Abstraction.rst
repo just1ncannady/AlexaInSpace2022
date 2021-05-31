@@ -7,18 +7,6 @@ What is Abstraction
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -41,8 +29,7 @@ What is Abstraction
         "data abstraction":"Data abstraction in computer science is the practice of organizing and encapsulating certain data into a more general representation. An example would be storing the text 'hello' in a single variable rather than having numerous occurrences of 'hello' in a program.",
         "procedural abstraction":"Procedural abstraction in computer science is the practice of organizing and encapsulating algorithms in named procedures that can then be invoked by name. An example would be the 'sqrt(x)', square root of x, which encapsulates the algorithm for calculating the square root of x.",
         
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
@@ -53,7 +40,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>An important concept and practice in Computer Science is <i>abstraction</i>. But what exactly <i>is</i> abstraction? This lesson is provides a quick introduction to this key concept.</p>
+    <p>An important concept and practice in Computer Science is <i><span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span></i>. But what exactly <i>is</i> <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span>? This lesson is provides a quick introduction to this key concept.</p>
     <h3>Lecture</h3>
     
 .. youtube:: XpJdZrviSuw
@@ -62,10 +49,6 @@ Introduction and Goals
         :align: center
 
 .. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
 
 
     <div>(<a href="http://www.teachertube.com/video/abstraction-347740" target="_blank">Teacher Tube version</a>)</div>
@@ -80,7 +63,7 @@ Learning Activities
     <p>Your teacher may have you do some of the following activities.
     </p><ul>
     <li>
-    In pairs, play a guessing game, where 1 student draws something in 10 seconds, and the other student tries to guess what it is. After each drawing, discuss what were the essential features that were drawn that helped to guess what it was, and which features of the actual object were left out. The essential features make up the abstraction or abstract drawing for that object.</li>
+    In pairs, play a guessing game, where 1 student draws something in 10 seconds, and the other student tries to guess what it is. After each drawing, discuss what were the essential features that were drawn that helped to guess what it was, and which features of the actual object were left out. The essential features make up the <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span> or abstract drawing for that object.</li>
     <li>Go to the <a href="https://www.google.com/search?q=calculator" target="_blank">Google scientific calculator</a>. This is an app that Google programmers have made. The buttons on this calculator are abstractions for the functions that they do. Identify at least 4 functions that are associated with 4 abstract buttons. 
       </li>
     </ul>

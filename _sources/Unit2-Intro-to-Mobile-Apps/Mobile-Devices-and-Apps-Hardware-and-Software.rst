@@ -7,18 +7,6 @@ Mobile Devices and Apps Hardware and Software
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -51,8 +39,7 @@ Mobile Devices and Apps Hardware and Software
         "interpretation": "The process of translating source code into machine language one instruction at a time and immediately executing instruction.",
         "byte": "A group of eight binary digits or bits."
         
-      };
-      */
+      };      */
     
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
@@ -71,9 +58,9 @@ Learning Activities
 .. raw:: html
 
     <p><h3>What is a Computer?</h3>
-    <p>A computing device is an electronic device for storing and processing data by following instructions given to it in a program. Mobile devices – smart phones and tablets – are <b><i>general purpose computers</i></b>. Like desktop and laptop computers, these general purpose computers can run different programs or apps. This contrasts with <b><i>special purpose computers</i></b> which can run only a single set program. Examples of special purpose computers include a simple non-programmable calculator, a microwave oven, a smart thermostat, and a car's anti-lock braking system.<br/><br/>This lesson focuses on the basic <b>hardware</b> and <i><b>software</b></i> that work together to enable our mobile devices to run the amazing apps that we'll be building. As beginning programmers, it's important that we understand how the programs we write are interpreted and processed by the computer.</p>
+    <p>A computing device is an electronic device for storing and processing data by following instructions given to it in a <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Mobile devices – smart phones and tablets – are <b><i>general purpose computers</i></b>. Like desktop and laptop computers, these general purpose computers can run different programs or apps. This contrasts with <b><i>special purpose computers</i></b> which can run only a single set <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Examples of special purpose computers include a simple non-programmable calculator, a microwave oven, a smart thermostat, and a car's anti-lock braking system.<br/><br/>This lesson focuses on the basic <b><span class="hover vocab yui-wk-div" data-id='hardware'>hardware</span></b> and <i><b><span class="hover vocab yui-wk-div" data-id='software'>software</span></b></i> that work together to enable our mobile devices to run the amazing apps that we'll be building. As beginning programmers, it's important that we understand how the programs we write are interpreted and processed by the <span class="hover vocab yui-wk-div" data-id='computer'>computer</span>.</p>
     <h3>Binary Code</h3>
-    <p>As you will learn in this lesson, computers understand binary code or machine language. Binary code consists of 0s and 1s. One binary digit is called a <i>bit</i>. A group of eight bits is referred to as a <i>byte</i>. One byte of memory takes about the same amount of memory as a character, such as the letter 't'. You will learn more about binary in future lessons, including how to convert binary numbers into decimal numbers and how to convert binary numbers into colors or characters.</p>
+    <p>As you will learn in this lesson, computers understand binary code or <span class="hover vocab yui-wk-div" data-id='machine language'>machine language</span>. Binary code consists of 0s and 1s. One binary digit is called a <i>bit</i>. A group of eight bits is referred to as a <i><span class="hover vocab yui-wk-div" data-id='byte'>byte</span></i>. One <span class="hover vocab yui-wk-div" data-id='byte'>byte</span> of memory takes about the same amount of memory as a character, such as the letter 't'. You will learn more about binary in future lessons, including how to convert binary numbers into decimal numbers and how to convert binary numbers into colors or characters.</p>
     <h3>Mobile Apps and Devices</h3>
     <p>If you are unable to stream the YouTube video, click here for a <a href="http://www.teachertube.com/video/mobileappsanddevices-348078" target="_blank">Teacher Tube version</a>. Follow along with the text-version <a href="https://docs.google.com/presentation/d/1Nn9Y1CupKELEJhR6RnFO-MNKDwvGg3MyGkgthTwrK2o" target="_blank" title="">Slides</a>.</p>
     

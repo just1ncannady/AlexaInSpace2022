@@ -7,18 +7,6 @@ Unit Overview
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
     $(document).ready(function() {
@@ -56,21 +44,21 @@ Unit Overview
     &lt;h3&gt;&lt;i&gt;Blown to Bits&lt;/i&gt; Chapter 6 Vocabulary&lt;/h3&gt;
     
     &lt;ul&gt;
-      &lt;li&gt;&lt;b&gt;centralized network&lt;/b&gt;: when the resources and workload are coordinated and managed by a centralized computer (server)&lt;/li&gt;&lt;br/&gt;
-       &lt;li&gt;&lt;b&gt;centralized systems&lt;/b&gt;: collect files at a central computer for people to download&lt;/li&gt;&lt;br&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='centralized'>centralized</span> network&lt;/b&gt;: when the resources and workload are coordinated and managed by a <span class="hover vocab yui-wk-div" data-id='centralized'>centralized</span> computer (server)&lt;/li&gt;&lt;br/&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='centralized'>centralized</span> systems&lt;/b&gt;: collect files at a central computer for people to download&lt;/li&gt;&lt;br&gt;
        &lt;li&gt;&lt;b&gt;commons&lt;/b&gt;: a system of sharing that minimizes the need for fine-grained property restrictions&lt;/li&gt;&lt;br&gt;
-      &lt;li&gt;&lt;b&gt;copyright&lt;/b&gt;: a legal right that grants the creator of an original work exclusive rights for its use and distribution&lt;/li&gt;&lt;br/&gt;
-       &lt;li&gt;&lt;b&gt;creative commons&lt;/b&gt;: a set of licenses that allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators&lt;/li&gt;&lt;br/&gt;
-      &lt;li&gt;&lt;b&gt;decentralized network&lt;/b&gt;: when the allocation of resources and workload are distributed to individual devices on a network&lt;/li&gt;&lt;br/&gt;
-      &lt;li&gt;&lt;b&gt;DMCA - Digital Millenium Copyright Act&lt;/b&gt;: US copyright law that criminalizes production and dissemination of technology, devices, or services intended to circumvent measures that control access to copyrighted works&lt;/li&gt;&lt;br/&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='copyright'>copyright</span>&lt;/b&gt;: a legal right that grants the creator of an original work exclusive rights for its use and distribution&lt;/li&gt;&lt;br/&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='creative commons'>creative commons</span>&lt;/b&gt;: a set of licenses that allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators&lt;/li&gt;&lt;br/&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='decentralized'>decentralized</span> network&lt;/b&gt;: when the allocation of resources and workload are distributed to individual devices on a network&lt;/li&gt;&lt;br/&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='DMCA'>DMCA</span> - Digital Millenium <span class="hover vocab yui-wk-div" data-id='Copyright'>Copyright</span> Act&lt;/b&gt;: US <span class="hover vocab yui-wk-div" data-id='copyright'>copyright</span> law that criminalizes production and dissemination of technology, devices, or services intended to circumvent measures that control access to copyrighted works&lt;/li&gt;&lt;br/&gt;
        &lt;li&gt;&lt;b&gt;DRAM&lt;/b&gt;: dynamic random access memory&lt;/li&gt;&lt;br&gt;
-      &lt;li&gt;&lt;b&gt;DRM - digital rights management&lt;/b&gt;: various access control technologies that are used to restrict usage of proprietary hardware and copyrighted works&lt;/li&gt;&lt;br/&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='DRM'>DRM</span> - digital rights management&lt;/b&gt;: various access control technologies that are used to restrict usage of proprietary hardware and copyrighted works&lt;/li&gt;&lt;br/&gt;
        &lt;li&gt;&lt;b&gt;flooding&lt;/b&gt;: each computer in a file-sharing network maintains a list of other computers in the network.&lt;/li&gt;&lt;br&gt;
-        &lt;li&gt;&lt;b&gt;fair use&lt;/b&gt;: limited use of copyrighted material without having to first get permission from the copyright holder&lt;/li&gt;&lt;br/&gt;
+        &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='fair use'>fair use</span>&lt;/b&gt;: limited use of copyrighted material without having to first get permission from the <span class="hover vocab yui-wk-div" data-id='copyright'>copyright</span> holder&lt;/li&gt;&lt;br/&gt;
        &lt;li&gt;&lt;b&gt;gigabyte&lt;/b&gt;: 1,024 megabytes or 1,073,741,824 bytes&lt;/li&gt;&lt;br&gt;
       &lt;li&gt;&lt;b&gt;open source&lt;/b&gt;: unrestricted access and unrestricted reuse&lt;/li&gt;&lt;br/&gt;
-      &lt;li&gt;&lt;b&gt;peer-to-peer&lt;/b&gt;: a distributed architecture or network that divides tasks between peers, each of which participate in the application&lt;/li&gt;&lt;br/&gt;
-       &lt;li&gt;&lt;b&gt;peer-to-peer architecture&lt;/b&gt;: a type of network in which each workstation has equivalent capabilities and responsibilities&lt;/li&gt;&lt;br&gt;
+      &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='peer-to-peer'>peer-to-peer</span>&lt;/b&gt;: a distributed architecture or network that divides tasks between peers, each of which participate in the application&lt;/li&gt;&lt;br/&gt;
+       &lt;li&gt;&lt;b&gt;<span class="hover vocab yui-wk-div" data-id='peer-to-peer'>peer-to-peer</span> architecture&lt;/b&gt;: a type of network in which each workstation has equivalent capabilities and responsibilities&lt;/li&gt;&lt;br&gt;
        &lt;li&gt;&lt;b&gt;piracy&lt;/b&gt;: the unauthorized use or reproduction of another’s work&lt;/li&gt;&lt;br&gt;
        &lt;li&gt;&lt;b&gt;sealed storage&lt;/b&gt;: an application that lets you encrypt files in such a way that they can be decrypted only on particular computers that you specify.&lt;/li&gt;&lt;br&gt;
        &lt;li&gt;&lt;b&gt;TPM&lt;/b&gt;: trusted platform module&lt;/li&gt;&lt;br&gt;

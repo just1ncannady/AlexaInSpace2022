@@ -7,18 +7,6 @@ Network Architecture
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -44,8 +32,7 @@ Network Architecture
         "packet": "A packet is a collection of data used by the TCP/IP protocol to transmit data across the Internet. Each packet contains routing data as well as the content of the message. ",
         "packet sniffer" : "A packet sniffer is software used by network administrators to monitor data being transmitted over a network.  In the wrong hands, it can be used to steal email messages and other information.",
         "abstraction layer" : "The Internet is organized into several abstraction layers that are controlled by various protocols. From the bottom up, we have the link layer (Ethernet protocol), the Internet layer (IP), transport layer (TCP), and application layer (HTTP).",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length"><b>Time Estimate: 90 minutes</b></h3>
     
@@ -59,12 +46,12 @@ Introduction and Goals
     <p>As we've learned in previous lessons, the Internet is network of networks that is managed by a collection of protocols.  We've already seen the role that the HTTP protocol plays in supporting the World Wide Web application.  In this lesson we delve more deeply into the basic architecture and infrastructure of the Internet.  We'll learn that the main Internet protocols are organized into a hierarchy of abstraction layers -- the application, transport, internet, and link layers -- each of which manages certain specific tasks required to route messages between hosts on the Internet. We'll learn about:
       </p><ul>
     <li>Internet architecture and abstraction layers</li>
-    <li>The packet switching routing scheme</li>
+    <li>The <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching routing scheme</li>
     <li>The TCP/IP protocol</li>
     </ul>
     <p>  
       After this lesson you should have a pretty good understanding of how some of your familiar applications -- web browsing,
-      email, smartphone apps -- are supported by the underlying Internet hardware and software. Here is a short video called <a href="https://www.youtube.com/watch?v=ewrBalT_eBM" target="_blank">A Packet's Tale</a> to get us started on our journey.
+      email, smartphone apps -- are supported by the underlying Internet hardware and software. Here is a short video called <a href="https://www.youtube.com/watch?v=ewrBalT_eBM" target="_blank">A <span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span>'s Tale</a> to get us started on our journey.
     </p>
     <p><br/></p>
     
@@ -76,12 +63,12 @@ Learning Activities
 
     <p><h3>Part 1: Network Architecture and Packet Switching</h3>
     <p>
-      This first video focuses on basic architecture of the internet and packet switching. 
-     The Internet has been engineered to be <b>fault-tolerant</b>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b>scalability</b> of a system is the capacity for the system to change in size and scale to meet new demands. 
+      This first video focuses on basic architecture of the internet and <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching. 
+     The Internet has been engineered to be <b><span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span></b>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b><span class="hover vocab yui-wk-div" data-id='scalability'>scalability</span></b> of a system is the capacity for the system to change in size and scale to meet new demands. 
       
-      </p><p>The video also illustrates how the <b><i>ping</i></b>
+      </p><p>The video also illustrates how the <b><i><span class="hover vocab yui-wk-div" data-id='ping'>ping</span></i></b>
       utility can be used to test whether certain hosts are reachable on the network.  And it introduces a new 
-      tool, <b><i>traceroute</i></b>, that can be used to trace the routes that packets take from one computer to 
+      tool, <b><i><span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span></i></b>, that can be used to trace the routes that packets take from one computer to 
       another on the Internet. (<a href="https://docs.google.com/presentation/d/1g7NmzbMvyBYLZwe2NtWXSurW4D7o-uCKYCdI2yvDFIc" target="_blank" title="">Slides</a>)</p>
     <!-- Old video id:  f4TjIlS8Bms   -->
     
@@ -103,7 +90,7 @@ Learning Activities
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
     <td>Facilitator</td>
-    <td>Uses the ping and trace tools online at <a href="http://network-tools.com/" target="_blank">network-tools.com</a>.
+    <td>Uses the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace tools online at <a href="http://network-tools.com/" target="_blank">network-tools.com</a>.
             </td>
     </tr>
     <tr>
@@ -121,29 +108,29 @@ Learning Activities
     </tbody></table>
     <p>
       In this activity, 
-      you will use the ping and traceroute utilities at <a href="http://network-tools.com/" target="_blank">network-tools.com</a> to measure the latency and observe trace routes to answer the question:
+      you will use the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and <span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span> utilities at <a href="http://network-tools.com/" target="_blank">network-tools.com</a> to measure the latency and observe trace routes to answer the question:
       </p><blockquote>
     <b>Does geographical distance between the source and the destination 
           on the network affect latency?
         </b>
     </blockquote>
-    <p>You will use multiple trials of ping and trace for 5 university servers around the globe (mit.edu,
+    <p>You will use multiple trials of <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for 5 university servers around the globe (mit.edu,
     stanford.edu,
     ox.ac.uk,
     kyoto-u.ac.jp,
     usp.br) to answer the questions below:
         </p><ol>
-    <li> Did any of the servers lose packets or time out?  Some servers will block ping and trace for security reasons which are seen as time outs. Were there any surprising locations in the hops that the packet went through?</li>
+    <li> Did any of the servers lose packets or time out?  Some servers will block <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for security reasons which are seen as time outs. Were there any surprising locations in the hops that the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> went through?</li>
     <li>Did different trials have different results for the same destination? Do packets always get routed in the same way?</li>
     <li>Can you guess where the network-tools server is located based on the latency data you collected? Can you confirm your guess using trace or whois (which gives you information about who owns a server)? </li>
     <li>Select one route and specify all the directly-connected computing devices along the route which form a path between the sender and the receiver. How many hops are taken on this path? List each device on this path.</li>
-    <li>How does the number of hops in the trace affect latency (the round trip time seen in ping)?  </li>
+    <li>How does the number of hops in the trace affect latency (the round trip time seen in <span class="hover vocab yui-wk-div" data-id='ping'>ping</span>)?  </li>
     <li> (<b>Portfolio</b>) How does geographical distance affect latency? What are some other factors that may be affecting latency? </li>
     </ol><br/>
     </div>
     <h3>Part 2: Internet Abstraction Layers</h3>
     <p>
-     Data is sent through the Internet in data streams made up of data packets.  Each packet contains data and metadata used for routing the packet between the origin and the destination on the Internet, as well as for data reassembly. This video focuses on the TCP/IP model which is a set of abstraction layers with different protocols that manage the routing of messages on the Internet. Protocols such as TCP, IP, UDP, and SMTP work together in the hierarchy to support applications such as email and web browsing. 
+     Data is sent through the Internet in data streams made up of data packets.  Each <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> contains data and metadata used for routing the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> between the origin and the destination on the Internet, as well as for data reassembly. This video focuses on the TCP/IP model which is a set of abstraction layers with different protocols that manage the routing of messages on the Internet. Protocols such as TCP, IP, UDP, and SMTP work together in the hierarchy to support applications such as email and web browsing. 
     </p>
     <!-- Old video: W0w-n3YHvjo -->
     
@@ -159,8 +146,8 @@ Learning Activities
     </div>
 
     <div class="pogil yui-wk-div">
-    <h3>POGIL Activity 2  - TCP/IP Packet Routing (15 minutes)</h3>
-    <p>In the same POGIL team of 4, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of 4 should be given an IP address such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
+    <h3>POGIL Activity 2  - TCP/IP <span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Routing (15 minutes)</h3>
+    <p>In the same POGIL team of 4, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of 4 should be given an <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
     
     </p><table border="">
     <tbody><tr>
@@ -173,20 +160,20 @@ Learning Activities
     <br/><b>Receive:</b> Receives packets from the Internet layer, puts them in order, and passes them to the application layer when all is received.
     </td></tr>
     <tr><th>Internet Layer (protocol: IP)</th><td>
-    <b>Send: </b> Uses a routing table (given in the handout)  to add the destination IP address to each packet and passes them to the Link layer.
-    <br/> <b>Receive:</b> Receives packets from the Link layer and checks that it’s their own group’s IP address. If it is, it passes it to the transport layer. If it is not, it gives it back to the link layer to give to another group.
+    <b>Send: </b> Uses a routing table (given in the handout)  to add the destination <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> to each <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> and passes them to the Link layer.
+    <br/> <b>Receive:</b> Receives packets from the Link layer and checks that it’s their own group’s <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span>. If it is, it passes it to the transport layer. If it is not, it gives it back to the link layer to give to another group.
     </td></tr>
     <tr><th>Link Layer (protocol: Ethernet)</th><td>
     <b>Send:</b> Passes the individual packets randomly to the link layer of other groups.
     <br/> <b>Receive:</b> Receives packets from other groups and passes them to the Internet Layer.
      </td></tr>
     </tbody></table>
-    <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/edit?usp=sharing" target="_blank">these handouts</a> to simulate packet routing in the TCP/IP model.
+    <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/edit?usp=sharing" target="_blank">these handouts</a> to simulate <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> routing in the TCP/IP model.
         Once your group has sent and received a message, discuss the following questions.
     </p><ol>
-    <li><b>Packet Order. </b> Does it matter whether the packets of a message arrive in order?  Explain how this set of protocols handles that. </li>
-    <li>(<b>Portfolio</b>) <b>Missing Packets.</b> What should happen if a packet goes missing? Who (which layer) would handle this?  What action would they have to take?  And what additional information would be needed in the packet in order to handle it?  </li>
-    <li><b>Corrupted Packets.</b> Suppose there’s some kind hardware glitch that corrupts one or more bits in a packet? Can this be detected?  What action should be taken in this case?  What additional information would be needed to handle this issue? </li><li><b>Fault-Tolerance. </b>Complex systems, like networks, fail at unexpected times. Often multiple devices fail at the same time.  Explain how the TCP/IP model continues to function even when parts of the system fail.<br/></li>
+    <li><b><span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Order. </b> Does it matter whether the packets of a message arrive in order?  Explain how this set of protocols handles that. </li>
+    <li>(<b>Portfolio</b>) <b>Missing Packets.</b> What should happen if a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> goes missing? Who (which layer) would handle this?  What action would they have to take?  And what additional information would be needed in the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> in order to handle it?  </li>
+    <li><b>Corrupted Packets.</b> Suppose there’s some kind hardware glitch that corrupts one or more bits in a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span>? Can this be detected?  What action should be taken in this case?  What additional information would be needed to handle this issue? </li><li><b>Fault-Tolerance. </b>Complex systems, like networks, fail at unexpected times. Often multiple devices fail at the same time.  Explain how the TCP/IP model continues to function even when parts of the system fail.<br/></li>
     <li>(<b>Portfolio</b>) <b>Security/Privacy.</b>  As the packets are being transmitted through the network, can people other than the sender and receiver read the messages? What methods can we use to protect the message?  </li>
     </ol>
     </div>

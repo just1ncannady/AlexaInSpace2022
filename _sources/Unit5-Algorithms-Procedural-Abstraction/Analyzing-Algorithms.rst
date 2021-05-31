@@ -7,18 +7,6 @@ Analyzing Algorithms
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -41,8 +29,7 @@ Analyzing Algorithms
         "binary search" : "a search algorithm that repeatedly divides a sorted list to narrow in on the searched-for item",
         "sorting algorithm" : "an algorithm that puts a list into alphabetic or numeric order."
         
-       };
-       */
+       };       */
     
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
@@ -78,7 +65,7 @@ Introduction and Goals
     </p><ul>
     <li>conduct an empirical (experimental) investigation of basic search and sort 
     algorithms;
-    </li><li>determine the efficiency (how fast they run) for basic search and sort algorithms depending on input size;
+    </li><li>determine the <span class="hover vocab yui-wk-div" data-id='efficiency'>efficiency</span> (how fast they run) for basic search and sort algorithms depending on input size;
     </li><li>deepen your understanding of basic search and sort algorithms.
     </li></ul>
     <p></p>
@@ -93,7 +80,7 @@ Learning Activities
 
     <p><h3>Analyzing Search Algorithms</h3>
     
-    Watch the following presentation on analyzing search algorithms to learn how to determine how fast linear search and binary search are.
+    Watch the following presentation on analyzing search algorithms to learn how to determine how fast linear search and <span class="hover vocab yui-wk-div" data-id='binary search'>binary search</span> are.
     (<a href="https://docs.google.com/presentation/d/1AT_6rYL4T-n0j39eSWxVpteGa1d59SUoXjt_iIlDqc0/edit#slide=id.p5" target="_blank" title="">slides</a>)
     <br/>
     
@@ -201,7 +188,7 @@ Learning Activities
     If you are using the emulator, you can download the <a href="assets/img/SortExperiment.aia" target="_blank">aia file</a> and import it into App Inventor.
     
     </li>
-    <li>Test each sort algorithm on lists of size 10, 20, ..., 100 numbers. These are called <b>instances of the problem</b>. An instance of a problem also includes specific input. For example, sorting is a problem, sorting the list (2,3,1,7) is an instance of the problem.
+    <li>Test each sort algorithm on lists of size 10, 20, ..., 100 numbers. These are called <b>instances of the problem</b>. An <span class="hover vocab yui-wk-div" data-id='instance of a problem'>instance of a problem</span> also includes specific input. For example, sorting is a problem, sorting the list (2,3,1,7) is an instance of the problem.
     <br/>
     <b>NOTE: </b> Because these algorithms involve loops, you may see an ANR
     (App Not Responding) popup informing you that the app is not responding and

@@ -7,18 +7,6 @@ Representing Images
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
         <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
@@ -42,8 +30,7 @@ Representing Images
         "lossy compression":"A lossy compression algorithm is one in which some data are lost; the original data cannot be completely restored.",
         "pixel":"A pixel, short for 'picture element', is a single physical point in a raster image.",
         "run length encoding":"A compression algorithm that represents an image in terms of the length of runs of identical pixels",
-      };
-      */
+      };      */
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
@@ -83,7 +70,7 @@ Introduction and Goals
 
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (30 minutes)</h3> 
-      After watching the video above, work in POGIL teams or pairs to try your own hand at representing images using the <a href="https://docs.google.com/document/d/1AkIwOQLTU4_TonpRh3LEqoLMXWiVdZ4AiYf1y-qWIEI/copy" target="_blank">Image Representation Activity Worksheet</a>. <br/><br/>You can click on the pixel buttons below to draw simple images or do the exercises on paper. <br/><p>
+      After watching the video above, work in POGIL teams or pairs to try your own hand at representing images using the <a href="https://docs.google.com/document/d/1AkIwOQLTU4_TonpRh3LEqoLMXWiVdZ4AiYf1y-qWIEI/copy" target="_blank">Image Representation Activity Worksheet</a>. <br/><br/>You can click on the <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> buttons below to draw simple images or do the exercises on paper. <br/><p>
     Rows:    <input id="rows" name="rows" size="2" type="text" value="6"/> 
     Columns:    <input id="cols" name="cols" size="2" type="text" value="6"/>
     <input onclick="setupTable();" type="button" value="Reset"/>
@@ -134,7 +121,7 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Run-Length Encoding</h3><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of RLE image compression (an example of <b><i>lossless compression</i></b>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
+    <p><h3>Run-Length Encoding</h3><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of RLE image compression (an example of <b><i><span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span></i></b>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
 .. youtube:: xn3-BAiaJ1k
         :width: 650
         :height: 415
@@ -147,19 +134,19 @@ Learning Activities
     </div>
 
     <ul><li>Fewer bits does not necessarily mean less information.</li>
-    <li>The amount of size reduction from compression depends on both the amount of redundancy in the original data representation and the compression algorithm applied.</li><li>The amount of compression can vary depending on how many bits are used to represent each pixel in the image. </li>
+    <li>The amount of size reduction from compression depends on both the amount of redundancy in the original data representation and the compression algorithm applied.</li><li>The amount of compression can vary depending on how many bits are used to represent each <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> in the image. </li>
     <li>The amount of compression also depends on the number of different colors used in the actual image.  For our black and white spaceship there were only 2 colors, so there were relatively few color changes and therefore lots of long runs. If it were a colored spaceship, there would be many color changes and therefore fewer long runs. So we would get much less compression. </li>
-    <li>A lossless compression algorithm is one in which no data are lost; the original data can be completely recovered. An example of lossless compression is RLE.</li>
-    <li>A lossy compression algorithm is one in which some data are lost; the original data cannot be completely restored. An example of lossy compression is JPEG.</li>
-    <li>Lossy data compression algorithms can usually reduce the number of bits stored or transmitted more than lossless compression algorithms.</li>
+    <li>A <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithm is one in which no data are lost; the original data can be completely recovered. An example of <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> is RLE.</li>
+    <li>A <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm is one in which some data are lost; the original data cannot be completely restored. An example of <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> is JPEG.</li>
+    <li>Lossy data compression algorithms can usually reduce the number of bits stored or transmitted more than <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithms.</li>
     </ul>
     <div class="pogil yui-wk-div">
     <h3>Other Activities</h3>
     <p>Your teacher may ask you to do some of the following activities in POGIL teams or pairs.
     </p><ol>
     <li>
-    American Standard Code for Information Interchange (ASCII) is character code that includes 128 characters.
-    Write your own message in binary that someone else could decode using an <a href="http://sticksandstones.kstrom.com/appen.html" target="_blank">ASCII to Binary table</a>. Trade messages in class and decode each others.
+    American Standard Code for Information Interchange (<span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span>) is character code that includes 128 characters.
+    Write your own message in binary that someone else could decode using an <a href="http://sticksandstones.kstrom.com/appen.html" target="_blank"><span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span> to Binary table</a>. Trade messages in class and decode each others.
     </li>
     <li> 
     In web pages and in App Inventor, colors are represented using hexcode for Red, Green, and Blue values.
@@ -178,7 +165,7 @@ Learning Activities
     <li>If you have a digital camera or a smartphone or tablet, find out what image representation scheme 
     it uses?  How come all images are not the same size?
     </li>
-    <li>ASCII is one type of character code, but 128 characters is not enough for today’s computers, 
+    <li><span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span> is one type of character code, but 128 characters is not enough for today’s computers, 
       which can represent Chinese, Hindi, and scripts from many other languages.  Today’s computers 
       use a system called Unicode, which has more than 100,000 different characters and covers 
       more than 100 different scripts (languages).  Use this 
@@ -198,7 +185,7 @@ Still Curious?
     <p>
     <p><b>How do Snapchat filters work?</b>
     <br/>
-    If you or someone you know uses the social media app Snapchat, they have probably used one of those cool filters. But, how exactly do those filters work? Watch the video below to learn more about the algorithm and pixel data behind Snapchat filters.
+    If you or someone you know uses the social media app Snapchat, they have probably used one of those cool filters. But, how exactly do those filters work? Watch the video below to learn more about the algorithm and <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> data behind Snapchat filters.
     </p>
     
 .. youtube:: Pc2aJxnmzh0
@@ -213,7 +200,7 @@ Still Curious?
     </div>
 
 
-    <p><b>How does JPEG encoding work?</b> <br/>JPEG is an example of a <i><b>lossy compression algorithm</b></i>.  JPEG, 
+    <p><b>How does JPEG encoding work?</b> <br/>JPEG is an example of a <i><b><span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm</b></i>.  JPEG, 
       which uses the file extension .jpg or .jpeg, is the most common format used today to represent images.The JPEG algorithm was created by the Joint Photographic Experts Group (JPEG), hence its name.  The fact that JPEG is a lossy technique means that some of the information present 
       in the image is lost during compression and cannot be recovered. Here is a <a href="https://www.youtube.com/watch?v=mKxlrWcvyJs" target="_blank">video lecture on the JPEG compression algorithm</a> (<a href="http://www.teachertube.com/video/mobile-csp-jpeg-lossy-compression-438227" target="_blank" title="">Teacher Tube version</a>). The compression
       algorithm involves some math, but the video describes just enough of the math so 
@@ -225,8 +212,8 @@ Still Curious?
     </p>
     <p><b>How are audio files digitized?</b>
     <br/>
-    What about audio files? How are they digitized and converted to bits? Watch the following <a href="https://www.youtube.com/watch?v=ALFXrlrnAcI" target="_blank">video</a> for a summary of how audio files are converted from <b>analog</b> to digital format.  <b>Analog</b> refers to data with values that change continuously, or smoothly, over time, like sound or music files.  
-    Analog data is converted to a digital forms, 0s and 1s in binary, using a sampling technique, which means measuring values of the analog signal at regular intervals (usually in time or space) called samples. The samples are measured to figure out the exact bits required to store each sample. The use of digital data to approximate real-world analog data is a great example of abstraction!
+    What about audio files? How are they digitized and converted to bits? Watch the following <a href="https://www.youtube.com/watch?v=ALFXrlrnAcI" target="_blank">video</a> for a summary of how audio files are converted from <b><span class="hover vocab yui-wk-div" data-id='analog'>analog</span></b> to digital format.  <b><span class="hover vocab yui-wk-div" data-id='Analog'>Analog</span></b> refers to data with values that change continuously, or smoothly, over time, like sound or music files.  
+    <span class="hover vocab yui-wk-div" data-id='Analog'>Analog</span> data is converted to a digital forms, 0s and 1s in binary, using a <span class="hover vocab yui-wk-div" data-id='sampling'>sampling</span> technique, which means measuring values of the <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> signal at regular intervals (usually in time or space) called samples. The samples are measured to figure out the exact bits required to store each sample. The use of digital data to approximate real-world <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> data is a great example of abstraction!
     <br/>
 .. youtube:: ALFXrlrnAcI
         :width: 650

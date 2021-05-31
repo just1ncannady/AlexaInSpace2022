@@ -1,6 +1,6 @@
-.. raw:: html 
-
-    <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+.. image:: ../../_static/MobileCSPLogo.png
+    :width: 250
+    :align: center
 
 I Have a Dream and Soundboard Projects
 ======================================
@@ -34,13 +34,6 @@ I Have a Dream and Soundboard Projects
       });
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes including the <i>Create Your Own Soundboard</i> project</h3>
-
-Introduction and Goals
------------------------
-
-.. raw:: html
-
-    <p>
     <table>
     <tbody>
     <tr>
@@ -62,12 +55,12 @@ Introduction and Goals
     </table>
     
 
-Learning Activities
---------------------
+Enhancing the I Have a Dream App
+---------------------------------
 
 .. raw:: html
 
-    <p><h3>Enhancing the I Have a Dream App</h3>
+    <p>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open App Inventor</a>
      in a separate tab and open your I Have a Dream app from the previous lesson.
       Complete the programming exercises described below and in the preview video.  Then, design your own sound board project below.
@@ -88,7 +81,14 @@ Learning Activities
        </li>
     </ol>
     <p>Need some help with the Text-to-Speech and Accelerometer? Try watching <a href="http://www.appinventor.org/content/howDoYou/eventHandling/shaking" target="_blank">this video</a> and then debugging your code.</p>
-    <h3>A Sound Board Project</h3>
+    
+
+A Sound Board Project
+----------------------
+
+.. raw:: html
+
+    <p>
     
     Use <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> for this project. You and your partner will:
     <ol>
@@ -161,7 +161,7 @@ Self-Check
 
     <p>
     
-.. mchoice:: mcsp-2-7-1
+.. mchoice:: repl-mcsp-2-7-1
     :random:
     :practice: T
     :answer_a: a thousand seconds
@@ -185,7 +185,7 @@ Self-Check
 
 
     
-.. mchoice:: mcsp-2-7-2
+.. mchoice:: repl-mcsp-2-7-2
     :random:
     :practice: T
     :answer_a: event
@@ -207,7 +207,7 @@ Self-Check
 
 
     
-.. mchoice:: mcsp-2-7-3
+.. mchoice:: repl-mcsp-2-7-3
     :random:
     :practice: T
     :answer_a: A picture that shows up on the app's user interface
