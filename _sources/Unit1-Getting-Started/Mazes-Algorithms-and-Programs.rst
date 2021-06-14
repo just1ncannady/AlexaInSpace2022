@@ -37,12 +37,7 @@ Introduction and Goals
 
 .. raw:: html
 
-Learning Activities
------------------------
-
-.. raw:: html
-
-    <p>
+	<p>
     <h3>Let's do some programming</h3>
     <p>MIT App Inventor  is based on a blocks platform named 
     <a href="https://blockly-demo.appspot.com/static/apps/index.html" target="_blank">Blockly</a>.  This demo
@@ -51,10 +46,16 @@ Learning Activities
       It lets you write small Blockly programs (called <i>scripts</i>) to solve Maze puzzles.  Can you solve all
       20 problems? 
     
-    </p><h4>Click on the maze to get started!</h4>
+	</p><h4>Click on the maze to get started!</h4>
     <a href="http://learn.code.org/hoc/1" target="_blank"><img src="../_static/assets/img/codeorgmaze.png"/></a>
+
+Learning Activities
+-----------------------
+
+.. raw:: html
+
     <h3>Algorithms and Programs</h3>
-    <p>As you learned in that activity, an <a href="http://en.wikipedia.org/wiki/<span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span>" target="_blank"><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></a> 
+    <p>As you learned in that activity, an <a href="http://en.wikipedia.org/wiki/Algorithm" target="_blank"><span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></a> 
       is a <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> of precise instructions that solves some problem or performs some computation.   
       A <i>program</i> is an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that is written in a programming language that runs on a computer and is often referred to as <i>software</i>.  A program can be described by what it does and how the program statements accomplish its function.
       Each of the levels in the previous activity contained <i>code segments</i> which are collections of program statements that are part of a program. 

@@ -108,7 +108,7 @@ Learning Activities
     </tbody></table>
     </blockquote>
     <h3>Parity Exercise</h3>
-    <iframe height="550" instanceid="S9xExPRYX0YI" src="https://mobile-csp.org/webapps/<span class="hover vocab yui-wk-div" data-id='parity'>parity</span>/ParityExercise.html" title="" width="100%">
+    <iframe height="550" instanceid="S9xExPRYX0YI" src="https://mobile-csp.org/webapps/parity/ParityExercise.html" title="" width="100%">
     </iframe>
     
 
@@ -121,46 +121,6 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
-    
-
-Self-Check
------------
-
-.. raw:: html
-
-    <p>
-    
-    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
-    <table align="center">
-    <tbody>
-    <tr>
-    <td><span class="hover vocab yui-wk-div" data-id="parity">parity</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="even parity">even parity</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="odd parity">odd parity</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span>
-    </td>
-    </tr>
-    </tbody>
-    </table>
-    <h3>Parity Questions</h3>
-    <div style="width: 450px;">
-      Khan Academy Exercise: parity-error-detection
-      <br/>
-    <script>
-        // customize the style of the exercise iframe
-        var ity_ef_style = "width: 750px;";
-      </script>
-    </div>
-    <br/>
-    <div style="width: 450px;">
-      Khan Academy Exercise: parity-error-detection-2
-      <br/>
-    <script>
-        // customize the style of the exercise iframe
-        var ity_ef_style = "width: 750px;";
-      </script>
-    </div>
-    
 
 Still Curious?
 ---------------
@@ -202,7 +162,35 @@ Still Curious?
 
 
     <br/><br/>
-    </p>
+    </p>  
+
+Self-Check
+-----------
+
+.. raw:: html
+
+    <p>
+    
+    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
+    <table align="center">
+    <tbody>
+    <tr>
+    <td><span class="hover vocab yui-wk-div" data-id="parity">parity</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="even parity">even parity</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="odd parity">odd parity</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Parity Questions</h3>
+    .. khanex:: khanex3
+
+   		:exercise: parity-error-detection
+   		
+   	.. khanex:: khanex4
+   		:exercise: parity-error-detection-2
+    
 
 Reflection: For Your Portfolio
 -------------------------------

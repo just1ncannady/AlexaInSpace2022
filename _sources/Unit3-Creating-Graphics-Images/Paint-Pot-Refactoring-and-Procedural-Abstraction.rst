@@ -75,10 +75,7 @@ Learning Activities
     <p>
       Open App Inventor with the <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotRefactor/PaintPotRefactorTemplate.asc" target="_blank">Paint Pot Refactor template</a>  in a separate tab and follow 
       along with the video tutorial.   After the project opens, use the Save As option to rename 
-      your project PaintPotWithProcedure.
-    
-    
-    <br/><br/><br/>
+      your project PaintPotWithProcedure.</p>
     
 .. youtube:: bKbUcoAj6rw
         :width: 650
@@ -86,7 +83,9 @@ Learning Activities
         :align: center
 
 .. raw:: html
-    (<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-refactoring-438785" target="_blank" title="">Teacher Tube version</a>)<br/></p>
+
+    <p>(<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-refactoring-438785" target="_blank" title="">Teacher Tube version</a>)<br/></p>
+    
     <h3>Procedural Abstraction</h3>
     <p>In this lesson, we learned how to create <b>procedures</b> in App Inventor to refactor our code and reduce its complexity. <b>Procedural Abstraction</b>, the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job.  We only need to know what it does, not how it does it. </p>
     <p>

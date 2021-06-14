@@ -17,3 +17,8 @@ td {
      text-align: left; 
      padding: 5px;
 }
+
+div.pogil table { 
+  border-collapse: collapse; 
+  background-color: lightgrey; 
+}

@@ -16,10 +16,12 @@ Impacts of CS Blown to Bits BB
     <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
     <style>    td { text-align: left; padding: 5px;}</style>
 
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 
-        <div class="gcb-lesson-content" data-question-batch-id="L70" data-scored="False">
+	<div class="gcb-lesson-content" data-question-batch-id="L70" data-scored="False">
     <div class="yui-wk-div" style="width: 220px; float:left;"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19" target="_blank">
     <img src="../_static/assets/img/blowntobits.jpg" style="float:left;padding-right:0.5em;"/></a> </div>
     <div class="yui-wk-div" style="margin-left:220px;">
@@ -27,6 +29,12 @@ Impacts of CS Blown to Bits BB
     <p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also think about the impacts we will create as we build our own mobile apps. </p>
     <p style="">One way we will be addressing these issues in this course is by reading and discussing <i>Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion.</i> The book is available entirely online with a separate PDF file for each chapter. You can access the website for the complete original book by clicking the book image to the left. <span class="yui-tag-span yui-tag" style="color: rgb(255, 0, 0);" tag="span">Note: Given that technology is changing rapidly each day, some of the material in the original book may be out of date. To help with this, three of the chapters were updated and made available online under the name New Bits Book. The chapters with updated text available are noted below. </span></p>
     <p>In addition to the book, we will also be reading about current news and events — as well as asking you to bring in news you find!</p>
+    
+Learning Activities
+-----------------------
+
+.. raw:: html
+
     <h3>B2B Chapter Assignments:</h3>
     <ul>
     <li>Unit 2 - Chapter 1: Digital Explosion: Why Is It Happening, and What Is at Stake?</li>

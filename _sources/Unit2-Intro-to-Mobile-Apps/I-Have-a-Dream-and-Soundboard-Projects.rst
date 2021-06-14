@@ -34,6 +34,13 @@ I Have a Dream and Soundboard Projects
       });
     </script>
     <h3 id="est-length">Time Estimate: 90 minutes including the <i>Create Your Own Soundboard</i> project</h3>
+    
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+  
+    
     <table>
     <tbody>
     <tr>
@@ -55,12 +62,12 @@ I Have a Dream and Soundboard Projects
     </table>
     
 
-Enhancing the I Have a Dream App
+Learning Activities
 ---------------------------------
 
 .. raw:: html
 
-    <p>
+    <h3>Enhancing the I Have a Dream App</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open App Inventor</a>
      in a separate tab and open your I Have a Dream app from the previous lesson.
       Complete the programming exercises described below and in the preview video.  Then, design your own sound board project below.
@@ -83,12 +90,7 @@ Enhancing the I Have a Dream App
     <p>Need some help with the Text-to-Speech and Accelerometer? Try watching <a href="http://www.appinventor.org/content/howDoYou/eventHandling/shaking" target="_blank">this video</a> and then debugging your code.</p>
     
 
-A Sound Board Project
-----------------------
-
-.. raw:: html
-
-    <p>
+	<h3>A Sound Board Project</h3>
     
     Use <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> for this project. You and your partner will:
     <ol>

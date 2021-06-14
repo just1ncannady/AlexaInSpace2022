@@ -188,6 +188,17 @@ Summary
       <div id="summarylist">
     </div>
     
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Still curious about logic gates?  There is much written about logic gates and lots of material available online.</p>
+    <ul>
+    <li>A good place to start might be with this <a href="http://www.i-programmer.info/babbages-bag/235-logic-logic-everything-is-logic.html" target="_blank">I-Programmer discussion</a> of Boolean logic and its importance in computing. </li>
+    <li>Here is a description of <a href="http://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/" target="_blank">how transistors are used to build logic gates</a>, <a href="https://www.youtube.com/watch?v=IcrBqCFLHIY" target="_blank">a video about how transistors are made</a>, and <a href="https://www.youtube.com/watch?v=Knd-U-avG0c" target="_blank">a video zooming into a chip</a>.</li>
+    </ul>
 
 Self-Check
 -----------
@@ -372,7 +383,7 @@ Self-Check
 
     
 
-    .. raw:: html
+ .. raw:: html
 
         <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.png"/>
 
@@ -409,20 +420,6 @@ Self-Check
     <div id="bogus-div">
     <p></p>
     </div>
-
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Still curious about logic gates?  There is much written about logic gates and lots of material available online.</p>
-    <ul>
-    <li>A good place to start might be with this <a href="http://www.i-programmer.info/babbages-bag/235-logic-logic-everything-is-logic.html" target="_blank">I-Programmer discussion</a> of Boolean logic and its importance in computing. </li>
-    <li>Here is a description of <a href="http://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/" target="_blank">how transistors are used to build logic gates</a>, <a href="https://www.youtube.com/watch?v=IcrBqCFLHIY" target="_blank">a video about how transistors are made</a>, and <a href="https://www.youtube.com/watch?v=Knd-U-avG0c" target="_blank">a video zooming into a chip</a>.</li>
-    </ul>
     
 
 Reflection: For Your Portfolio

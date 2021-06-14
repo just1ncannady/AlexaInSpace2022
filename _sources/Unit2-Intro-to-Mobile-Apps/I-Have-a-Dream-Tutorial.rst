@@ -50,7 +50,7 @@ I Have a Dream Tutorial
       };*/
     </script>
     <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/time.png" style="float:left" width="25"/>
-    <h3>Time Estimate: 45 minutes</h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/introandgoalsicon.png" style="float:left" width="25">
     
 
@@ -85,9 +85,7 @@ Introduction and Goals
     </ul>
     </td></tr>
     </tbody></table>
-    <br/>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/learningactivities.png?seed=68232&amp;url=assets/img/learningactivities.png" style="float:left" width="25"/>
-    
+    <br/>    
 
 Learning Activities
 --------------------
@@ -98,9 +96,10 @@ Learning Activities
     <h3>Tutorial</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/tutorials/aias/IHaveADreamStarter.asc" target="_blank">
     open the I Have a Dream Starter project with the embedded tutorial in App Inventor</a> and login with your Google account into App Inventor.
-      <!-- &lt;a target=&quot;_blank&quot; href=&quot;http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit2/templates/IHaveADreamStarter/IHaveADreamStarter.asc&quot;&gt;
-    open the I Have a Dream Starter project in App Inventor&lt;/a&gt; -->
-     Follow along with your teacher or the following video tutorial. You can also use the embedded tutorial in the template or the <a href="https://drive.google.com/open?id=1Bg64PZclbPwhFg8Qg2GZJw5hVC08tDIFBhs5bBbyves" target="_blank" title="">text-version of this tutorial</a> or the <a href="https://drive.google.com/open?id=1x9KDcEIyXwC7_h-bRJQCe-sIuXpQTGSRUnONxMs-MLA" target="_blank">short handout</a>. NOTE: The video below asks you to open a starter app, but if you
+      
+     Follow along with your teacher or the following video tutorial. You can also use the embedded tutorial in the template or the <a href="https://drive.google.com/open?id=1Bg64PZclbPwhFg8Qg2GZJw5hVC08tDIFBhs5bBbyves" target="_blank" title="">text-version of this tutorial</a> or the <a href="https://drive.google.com/open?id=1x9KDcEIyXwC7_h-bRJQCe-sIuXpQTGSRUnONxMs-MLA" target="_blank">short handout</a>. </p>
+     
+     <p>NOTE: The video below asks you to open a starter app, but if you
       use the link above the IHaveADreamStarter app will already be loaded and you can start following the video at time 1:12. </p>
     
 .. youtube:: KDepcRIfnNs
@@ -124,7 +123,6 @@ Learning Activities
     Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <span class="hover vocab yui-wk-div" data-id="Input">input</span> from the users and displaying <span class="hover vocab yui-wk-div" data-id="Output">output</span><br/> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
     <p>Designing a good <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span> for a program is very important! User Experience (UX) designers are very much in demand. Most programs and apps these days are <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>, which means they display the UI and wait for a <span class="hover vocab yui-wk-div" data-id="User Events">user event</span>, for example for the user to touch a button as input.  In event-driven programming, program statements are executed when triggered rather than through the sequential flow of control.
     Events are triggered when a key is pressed, a mouse is clicked, a program is started by another application, etc., and they supply input data to a program and trigger different blocks of code in the program that influence its behavior.  A program needs to work for a variety of inputs and situations!</p>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/summary.png" style="float:left" width="25"/>
     
 
 Summary
@@ -137,8 +135,6 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     <br/>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/brain.png" style="float:left" width="25"/>
-    
 
 Still Curious?
 ---------------
@@ -146,9 +142,7 @@ Still Curious?
 .. raw:: html
 
     <p>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/target.png" style="float:left" width="25"/>
     
-
 Self-Check
 -----------
 

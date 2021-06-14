@@ -83,16 +83,6 @@ Learning Activities
     </ul>
     <iframe frameborder="0" height="550" marginheight="0" marginwidth="0" src="https://mobile-csp.org/webapps/stego/bitmap-editor.html" width="780"></iframe>
     
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Printers sometimes add secret dots to documents when they're printed, very similar to <span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span>. In fact, the secret dots on a leaked, classified document were able to help the FBI identify a potential suspect. <a href="http://www.bbc.com/future/story/20170607-why-printers-add-secret-tracking-dots" target="_blank">Read more in this article from the BBC.</a></p>
-    
-
 Summary
 --------
 
@@ -102,7 +92,14 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
-    
+  
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Printers sometimes add secret dots to documents when they're printed, very similar to <span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span>. In fact, the secret dots on a leaked, classified document were able to help the FBI identify a potential suspect. <a href="http://www.bbc.com/future/story/20170607-why-printers-add-secret-tracking-dots" target="_blank">Read more in this article from the BBC.</a></p>  
 
 Self Check
 -----------

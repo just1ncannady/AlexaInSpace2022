@@ -9,6 +9,11 @@ App Inventor Setup
 
      <h3 id="est-length">Time Estimate: 15-45 minutes</h3>
 
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
      <img  src="http://appinventor.mit.edu/images/logo.png"><br>
 
      <p>This course uses <a href="http://appinventor.mit.edu/explore/" target="_blank">MIT's App Inventor</a>, a visual drag and drop programming environment that can be used to quickly build mobile apps. Here's a fun introduction video about App Inventor. <br>
@@ -18,6 +23,11 @@ App Inventor Setup
        <br>
 
      <p>In this lesson, you will try an already-built App Inventor project and make sure that it runs with your mobile device or computers. The setup requires that you already have a gmail account. If you do not, you should go back to the previous lesson before moving on.</p>
+
+Learning Activities
+-----------------------
+
+.. raw:: html
 
      <p>App Inventor is an example of an <a target="_blank" href="https://en.wikipedia.org/wiki/Integrated_development_environment">Integrated Development Environment (IDE)</a>, which means that all of the software tools needed to design, develop, and test a mobile Android app are integrated within the App Inventor platform.  IDEs are part of the standard toolkit that programmers use to develop programs.</p>
 
@@ -39,10 +49,7 @@ App Inventor Setup
      <p>Follow the directions in the Welcome App below to complete your setup. </p>
 
 
-Testing Your Setup: Welcome App
---------------------------------
-
-.. raw:: html
+	<h3>Testing Your Setup: Welcome App</h3>
 
      <p>Click on the following <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/tutorials/aias/WelcomeApp.asc" target="_blank">App Inventor Template Welcome App</a> (we recommend using Chrome browser for this). This will open up in App Inventor. You will need to log in with your Google (or App Inventor) account that you will use for this course. An embedded tutorial on the left of this app will guide you through the setup directions. 
      
