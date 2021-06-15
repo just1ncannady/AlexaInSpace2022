@@ -41,14 +41,6 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
     <p><h3>Abstraction In Hardware and Software</h3>
     <p><strong><em>Abstraction</em></strong> is an important concept in CS -- and justifiably so. 
       In fact, the history of computing can be seen as an advance from very primitive abstractions to very 
@@ -58,6 +50,12 @@ Learning Activities
       Inventor lets you take a photo by using a single <i>Camera.TakePicture</i> block in your app.  But think about all of the very low-level
       operations that have to take place to focus the camera, gather and convert light rays into pixels and then into bits and then into 
       an image file on your device.  The App Inventor block hides all of that complexity. 
+    
+
+Learning Activities
+--------------------
+
+.. raw:: html
       
     </p><h3>Before There Was Software</h3>
     <!-- &lt;p&gt;&lt;img src=&quot;assets/img/WomenEniac.png&quot; alt=&quot;Women programming ENIAC&quot; width=&quot;187&quot; align=&quot;left&quot; hspace=&quot;20px&quot; vspace=&quot;20px&quot; height=&quot;136&quot;&gt;  -->
@@ -324,9 +322,36 @@ Summary
     In this lesson, you learned how to:
       <div id="summarylist">
     </div>
-    <h2 id="self-check">Self-Check<br/></h2>
+ 
+ Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Here are a couple of additional assembly language problems:
+      </p><ul>
+    <li>Write an assembly language program that computes the square function for any valur x -- i.e., <i>f(x) = x<sup>2</sup></i>. HINT:  
+          You'll need to use the <i>INP</i> operation to input the value for <i>x</i>.  Once you have your program working,
+          use it to help answer this question:  Given that the 4-bit computer
+          can only represent the numbers between 0 and 255, what's the largest value for <i>x</i> for which your program will work?
+        </li>
+    <li>Write an assembly language program that computes the value <i>f(a,b) = a<sup>2</sup> + b</i>.  HINT: Be economical. 
+          This program will barely fit into the 4-bit computer's memory. 
+        </li>
+    </ul>
+    <p>The <a href="http://eniacprogrammers.org/see-the-film/" target="_blank">story of the ENIAC programmers</a> 
+      is now told in a short documentary film that is freely available for viewing. If you 
+      want to watch it individually it is 20 minutes long (and may cost $5 to stream it). 
+    </p>
     
-    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
+    
+ Self-Check
+-----------
+
+.. raw:: html
+
+    <p>Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.</p>
     <table align="center">
     <tbody>
     <tr>
@@ -360,31 +385,6 @@ Summary
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Here are a couple of additional assembly language problems:
-      </p><ul>
-    <li>Write an assembly language program that computes the square function for any valur x -- i.e., <i>f(x) = x<sup>2</sup></i>. HINT:  
-          You'll need to use the <i>INP</i> operation to input the value for <i>x</i>.  Once you have your program working,
-          use it to help answer this question:  Given that the 4-bit computer
-          can only represent the numbers between 0 and 255, what's the largest value for <i>x</i> for which your program will work?
-        </li>
-    <li>Write an assembly language program that computes the value <i>f(a,b) = a<sup>2</sup> + b</i>.  HINT: Be economical. 
-          This program will barely fit into the 4-bit computer's memory. 
-        </li>
-    </ul>
-    <p>The <a href="http://eniacprogrammers.org/see-the-film/" target="_blank">story of the ENIAC programmers</a> 
-      is now told in a short documentary film that is freely available for viewing. If you 
-      want to watch it individually it is 20 minutes long (and may cost $5 to stream it). 
-    </p>
     
 
 Reflection: For Your Portfolio

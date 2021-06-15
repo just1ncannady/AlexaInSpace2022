@@ -19,6 +19,10 @@ table.framework th {
   font-size: 1.2em; 
 }
 
+table {
+	vertical-align: text-top;
+}
+
 .EU { 
   background-color: #F0F0F0; 
   font-weight: bold; 

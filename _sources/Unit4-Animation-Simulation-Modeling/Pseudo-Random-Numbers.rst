@@ -257,7 +257,7 @@ Self-Check
     <p></p><p>If you want to practice your <span class="hover vocab yui-wk-div" data-id='modular arithmetic'>modular arithmetic</span> before moving on, 
     here are some 
     <a href="http://www-math.ucdenver.edu/~wcherowi/clockar.html" target="_blank">nice exercises</a>, with links to the answers.</p>
-    <h2>An Improved PRNG<br/><br/>
+    <h3>An Improved PRNG</h3><br/><br/>
 .. youtube:: FLdjrnXHajY
         :width: 650
         :height: 415
@@ -298,7 +298,27 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
-    
+   
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Learn about how a Russian crew was able to figure out how <i>not</i> to lose at slot machines in this <a href="https://www.npr.org/sections/money/2017/05/24/529865107/episode-773-slot-flaw-scofflaws" target="_blank">Planet Money podcast</a>.</p>
+    <p>Read more about <a href="http://en.wikipedia.org/wiki/Linear_congruential_generator" target="_blank">linear congruential generators</a> on Wikipedia. </p>
+    <br/><br/>PRNGs are also useful when securing the Internet, which is covered later in the course. For now, you can watch this video about CloudFlare and how lava lamps are helping to keep the Internet secure.<br/>
+.. youtube:: 1cUUfMeOijg
+        :width: 650
+        :height: 415
+        :align: center
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
 
 Self-Check
 -----------
@@ -325,28 +345,6 @@ Self-Check
     
     :quizname: quiz_loop_sum_even_numbers
     <br/>
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Learn about how a Russian crew was able to figure out how <i>not</i> to lose at slot machines in this <a href="https://www.npr.org/sections/money/2017/05/24/529865107/episode-773-slot-flaw-scofflaws" target="_blank">Planet Money podcast</a>.</p>
-    <p>Read more about <a href="http://en.wikipedia.org/wiki/Linear_congruential_generator" target="_blank">linear congruential generators</a> on Wikipedia. </p>
-    <br/><br/>PRNGs are also useful when securing the Internet, which is covered later in the course. For now, you can watch this video about CloudFlare and how lava lamps are helping to keep the Internet secure.<br/>
-.. youtube:: 1cUUfMeOijg
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
 
 Reflection: For Your Portfolio
 -------------------------------

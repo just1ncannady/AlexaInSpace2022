@@ -124,7 +124,16 @@ Learning Activities
     most ocean areas yellow or orange.
     &lt;/p&gt;
     -->
-    
+
+Summary
+--------
+
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div id="summarylist">
+    </div>  
 
 Still Curious?
 ---------------
@@ -147,17 +156,6 @@ Still Curious?
      DNA, earthworms, states, planetary moons, nebula, etc. </li>
     <li>Here are some more <a href="http://netlogoweb.org/launch#http://netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo" target="_blank">sample models and simulations</a> including a similar sheep/wolves model.</li>
     </ul>
-    
-
-Summary
---------
-
-.. raw:: html
-
-    <p>
-    In this lesson, you learned how to:
-      <div id="summarylist">
-    </div>
     
 
 Sample AP CSP Exam Question

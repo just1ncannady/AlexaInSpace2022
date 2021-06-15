@@ -21,7 +21,7 @@ Parallel Computing
               });
       });
     </script>
-    <h3 id="est-length"><b><br/>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
 Introduction and Goals
 -----------------------
@@ -29,14 +29,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Parallel Computing</h3>
+    <h3>Parallel Computing</h3>
      
     
     For hard problems that take a long time to solve, we can sometimes speed up the algorithm by using multiple processors or computers. We can split the workload and compute the parts of the solution in parallel.  
@@ -46,6 +39,13 @@ Learning Activities
     <li><b><span class="hover vocab yui-wk-div" data-id='Distributed computing'>Distributed computing</span></b> is a computational model in which multiple networked computers are used to run a program. An algorithm can be both parallel and distributed. </li>
     </ul>
     <img src="../_static/assets/img/parallel.png" width="60%"/>
+    
+
+Learning Activities
+--------------------
+
+.. raw:: html
+
     <div class="pogil yui-wk-div">
     <h3>Searching POGIL Activity</h3>
     

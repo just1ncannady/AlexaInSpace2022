@@ -296,6 +296,32 @@ Summary
       <div id="summarylist">
     </div>
     
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <ul>
+    <li>This discussion of <a href="http://en.wikipedia.org/wiki/Merge_sort">Merge Sort</a>
+    includes a nice animation.
+    </li><li>An accessible analysis of <a href="http://en.wikipedia.org/wiki/Radix_sort">Radix Sort</a>.
+    </li><li>Even President Obama knows about bubble sort:
+    <br/>
+.. youtube:: k4RRi_ntQc8
+        :width: 650
+        :height: 415
+        :align: center
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+
+    </li>
+    </ul>
 
 Self-Check
 -----------
@@ -405,36 +431,6 @@ Self-Check
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <ul>
-    <li>This discussion of <a href="http://en.wikipedia.org/wiki/Merge_sort">Merge Sort</a>
-    includes a nice animation.
-    </li><li>An accessible analysis of <a href="http://en.wikipedia.org/wiki/Radix_sort">Radix Sort</a>.
-    </li><li>Even President Obama knows about bubble sort:
-    <br/>
-.. youtube:: k4RRi_ntQc8
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
-
-    </li>
-    </ul>
     
 
 Reflection: For Your Portfolio

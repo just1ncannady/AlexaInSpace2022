@@ -65,6 +65,12 @@ Introduction and Goals
     collection.  Think of the index that comes  at the back of a textbook.  It is organized 
     in alphabetical order. Each entry in the index refers to some page in the book. 
     </p>
+    
+Learning Activities
+--------------------
+
+.. raw:: html
+
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (15 minutes)</h3>
     <p>To help you think about the <b>problem of searching an index</b> we're going to play 
@@ -109,12 +115,6 @@ Introduction and Goals
               on the Portfolio the team's answers to the following guided inquiry questions.</td>
     </tr>
     </tbody></table>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
 
     <p><h3>Questions</h3>
     <ol>
@@ -298,7 +298,7 @@ Self-Check
     :answer_c: Looking up a word in a Webster's dictionary. 
     :feedback_c: True. A dictionary is arranged <i> in order </i> alphabetically. Thus, a binary search can be used to find any word in a dictionary.
     :answer_d: Looking up a person's name in the phone book given the person's phone number. 
-    :feedback_d: Let me add new information to help you solve this question. A phone book is arranged in order, but it is in order <i> by last name <i>. In order to solve this problem using a binary search, the phone book would need to be in order by phone number.
+    :feedback_d: Let me add new information to help you solve this question. A phone book is arranged in order, but it is in order <i> by last name </i>. In order to solve this problem using a binary search, the phone book would need to be in order by phone number.
     :answer_e: Finding the smallest number in a list of numbers arranged randomly. 
     :feedback_e: Let me add new information to help you solve this. A binary search is only appropriate when the collection you are searching is arranged <i>in order </i>.
     :correct: b,c
