@@ -157,16 +157,6 @@ Learning Activities
        </li><li>(<b>Reflection</b>) Copy the link to your portfolio. Click on Preview to grab a screenshot of your map to put in your portfolio.
     </li></ol>
     
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>These <a href="https://think.cs.vt.edu/corgis/visualizer/index.html" target="_blank">Visualizer Data Sets</a> allow you to create visualizations of their data sets with different types of graphs.</p>
-    
-
 Summary
 --------
 
@@ -177,6 +167,13 @@ Summary
       <div id="summarylist">
     </div>
     
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>These <a href="https://think.cs.vt.edu/corgis/visualizer/index.html" target="_blank">Visualizer Data Sets</a> allow you to create visualizations of their data sets with different types of graphs.</p>
+
 
 Self-Check
 -----------

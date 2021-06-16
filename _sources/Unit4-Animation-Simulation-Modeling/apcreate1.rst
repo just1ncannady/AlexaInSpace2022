@@ -3,7 +3,7 @@
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 ASSESSMENT: AP Create 1
-=====================
+========================
 
 .. raw:: html
 

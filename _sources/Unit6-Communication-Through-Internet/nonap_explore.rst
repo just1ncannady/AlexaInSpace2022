@@ -2,8 +2,8 @@
 
      <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 	
-Non-AP Explore
-==============
+ASSESSMENT: Non-AP Explore: Impact of Computing Innovation
+==============================================================
 
 .. raw:: html
 	
@@ -30,13 +30,19 @@ Non-AP Explore
 	<p>[<a href="https://docs.google.com/document/d/1QxXT3ZBQwDIu5Nj608IOtGe6MtpVO3LCTqIHRaK_lRg" target="_blank">Text version available here</a>]</p>
 	<p><i>Note: make sure you've completed Lesson 6.10 on Crowdsourcing with Citizen Science Apps before starting the project.</i></p>
 	
-Non-AP Explore: Impact of Computing Innovations
------------------------------------------------
+Introduction and Goals
+-----------------------
 
 .. raw:: html
 	
 	<p>Select and research a computing innovation of your own choosing. (Students should not use the citizen science app that they investigated earlier.) Computing innovations are innovations that includes a computer or program code as an integral part of their functionality. For example, self-driving cars are an example of an innovation that uses both hardware (the car, sensors, computer, etc.) as well as software (program code) to drive a car without a person steering the wheel or taking control of the car. However, near field communication (NFC), is not a computing innovation; rather, it is a standard that allows computing innovations to transfer data between them when they are close together.</p>
-	
+
+
+Learning Activities
+--------------------
+
+.. raw:: html
+
 	<p>To find a computing innovation, you could look at current news articles for inspiration. Mobile CSP maintains a list at <a href="http://diigo.com/user/mobilecsp" target="_blank">diigo.com/user/mobilecsp</a>, tagged by topics in the CS Principles course. You should find at least 5 credible sources on your innovation. (<a href="https://www.commonsense.org/education/top-picks/most-reliable-and-credible-sources-for-students" target="_blank">Examples of credible sources</a> and <a href="https://www.commonsense.org/education/teaching-strategies/turn-students-into-fact-finding-web-detectives" target="_blank">fact-checking tips and tools</a>.) A reference list should be included with the project (e.g. at the end of a video, presentation, paper, part of a poster) and should follow standard formats such as MLA or APA specified by the instructor.</p>
 	
 	<p>Write a paper or create a presentation, poster, or other artifact that answers the following questions about the computing innovation.</p>
@@ -57,7 +63,11 @@ Non-AP Explore: Impact of Computing Innovations
 	</ul>
 	
 	
-	<h3>Grading Rubric</h3>
+Grading Rubric
+--------------
+
+.. raw:: html
+
 	<p></p>
 	<table>
 	  <tbody><tr>

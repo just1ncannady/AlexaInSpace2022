@@ -45,16 +45,7 @@ Introduction and Goals
 
     <p>
     <img src="../_static/assets/img/security.png" style="float:left;width:150px;padding-right:10px"/>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Cybersecurity</h3>
-    
-    Cybersecurity is one of the fastest growing IT fields. It is essential to every organization to keep their computer systems and data safe.
+    Cybersecurity is one of the fastest growing IT fields. It is essential to every organization to keep their computer systems and data safe.</p>
     
     <p>Passwords are currently the primary way to protect devices and information from unauthorized access. A <b><span class="hover vocab yui-wk-div" data-id='strong password'>strong password</span></b> is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user.  In Unit 5, we saw that it is very difficult to guess a long complex password (which can be tested in sites such as  <a href="https://howsecureismypassword.net" target="_blank">howsecureismypassword.net</a>). Luckily, brute-force password cracking algorithms take exponential time. However, passwords can also be compromised (stolen) through <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span> attacks and data breaches. </p>
     <p>Many organizations now use <b>two-factor authentication (2FA)</b> or <b>multi-factor authentication (MFA)</b> which asks for additional authentication in addition to the password, just in case the password gets compromised. Users are asked to present several separate pieces of evidence such as:
@@ -65,7 +56,14 @@ Learning Activities
           </li>
     <li><b>Something You Are</b>: for example <b><span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span></b> such as fingerprints or face recognition.</li>
     </ul>
-    <p>Multi-factor authentication requires at least two steps to unlock protected information. Each step adds a new layer of security that must be broken to gain unauthorized access. Watch the following <a href="https://www.youtube.com/watch?v=0mvCeNsTa1g" target="_blank">video</a> on multi-factor authentication:</p>
+    
+
+Learning Activities
+--------------------
+
+.. raw:: html
+
+    <p><b>Multi-factor Authentication:</b> requires at least two steps to unlock protected information. Each step adds a new layer of security that must be broken to gain unauthorized access. Watch the following <a href="https://www.youtube.com/watch?v=0mvCeNsTa1g" target="_blank">video</a> on multi-factor authentication:</p>
     
 .. youtube:: 0mvCeNsTa1g
         :width: 650
@@ -175,15 +173,6 @@ Learning Activities
     </div>
 
 
-    <h3>Still Curious</h3>
-    <ul>
-    <li>Try <a href="https://www.hacksplaining.com/lessons" target="_blank">hacksplaining.com</a> which describe hacking exploits and how to protect against them.</li>
-    <li>Try the <a href="https://www.pbs.org/wgbh/nova/labs/lab/cyber/" target="_blank">PBS Cybersecurity Lab</a> where you protect a business against attacks.</li>
-    <li>Try a Capture the Flag event where you solve computer security challenges to capture flags.  A great one for beginners is <a href="https://picoctf.com/" target="_blank">picoctf.com</a> designed for high school students. Here are some other  <a href="https://resources.infosecinstitute.com/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/" target="_blank">resources</a>.</li>
-    <li>More Cybersecurity lessons available at <a href="https://teachingsecurity.org/">teachingsecurity.org</a></li>
-    </ul>
-    
-
 Summary
 --------
 
@@ -194,6 +183,16 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     
+Still Curious
+--------------
+    <ul>
+    <li>Try <a href="https://www.hacksplaining.com/lessons" target="_blank">hacksplaining.com</a> which describe hacking exploits and how to protect against them.</li>
+    <li>Try the <a href="https://www.pbs.org/wgbh/nova/labs/lab/cyber/" target="_blank">PBS Cybersecurity Lab</a> where you protect a business against attacks.</li>
+    <li>Try a Capture the Flag event where you solve computer security challenges to capture flags.  A great one for beginners is <a href="https://picoctf.com/" target="_blank">picoctf.com</a> designed for high school students. Here are some other  <a href="https://resources.infosecinstitute.com/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/" target="_blank">resources</a>.</li>
+    <li>More Cybersecurity lessons available at <a href="https://teachingsecurity.org/">teachingsecurity.org</a></li>
+    </ul>
+
+
 
 Self-Check
 -----------

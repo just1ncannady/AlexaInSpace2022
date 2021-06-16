@@ -36,19 +36,16 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    
+    <p><h3>Can a computer recognize your doodles?</h3>
+    <p><b><i>Artificial intelligence (AI)</i></b> is sometimes described as getting a computer to do complex tasks that humans find easy.  Examples would be walking, seeing, and understanding speech.  These activities, which come naturally to us, are very difficult to develop traditional step-by-step algorithms for.</p>
+    <p>But AI researchers have developed an approach known as <i><b><span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span></b></i> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i><b>learns</b></i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  
 
 Learning Activities
 --------------------
 
 .. raw:: html
-
-    <p><h3>Can a computer recognize your doodles?</h3>
-    <p><b><i>Artificial intelligence (AI)</i></b> is sometimes described as getting a computer to do complex tasks that humans find easy.  Examples would be walking, seeing, and understanding speech.  These activities, which come naturally to us, are very difficult to develop traditional step-by-step algorithms for.</p>
-    <p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>But AI researchers have developed an approach known as <i><b><span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span></b></i> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i><b>learns</b></i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  
     
-    </p><p>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
+    </p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
     <p>Give it a try yourself!  Click on the <a href="https://quickdraw.withgoogle.com/" target="_blank">flag doodle</a> here to see how well the computer can recognize your doodles. 
     </p>
     <h3>Video: What is Machine Learning?</h3>
@@ -145,8 +142,16 @@ Learning Activities
     Check out these <a href="http://appinventor.mit.edu/explore/ai-with-mit-app-inventor" target="_blank">AI tutorials in MIT App Inventor</a>. The Image Classifier tutorials require an AI extension that some mobile devices can use (<a href="http://appinventor.mit.edu/explore/ai-compatible-devices" target="_blank">list of compatible devices and an apk</a> that you can test on your device to see if it can use these extensions).  The Therapist Bot tutorial and the Rock-Paper-Scissors Tutorials do not require this AI extension and can be implemented on any device. They are a lot of fun! 
     
     
-    
+Summary
+--------
 
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div id="summarylist">
+    </div>
+    
 Still Curious?
 ---------------
 
@@ -167,18 +172,6 @@ Still Curious?
     <li>The history of Artificial Intelligence goes back to the 1950s. You can read about it <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">here</a>. One interesting feature of this history is the so-called <i>AI effect</i>, whereby the problems that make up the discipline have changed over time.  For example, the ability to recognize numbers and characters -- <i>optical character recognition</i> -- used to be considered an AI problem. But today it has become a routine part of ATM machines and other computers.  Another interesting AI area that has evolved is chess playing.  In the 50s some researchers predicted that a computer would be able to beat the best human chess player.  For years the failure of computers to beat top humans was used as "proof" that AI would never succeed.  This changed in 1997 when an IBM computer known as Deep Blue <a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov" target="_blank">beat Gary Kasparov</a>, the reigning world chess champion, in a six game match.  Since then computer chess programs have only gotten better and humans are no longer competitive against chess programs, which today <a href="https://en.wikipedia.org/wiki/World_Computer_Chess_Championship" target="_blank">have their own computer-only championships</a>.   
     </li>
     <li>The <a href="https://machinelearningforkids.co.uk/" target="_blank">machinelearningforkids.co.uk/</a> site uses IBM's <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> processors online to train and use models in Scratch and in an App Inventor extension. Using these materials does require setting up accounts with IBM and some set up time.</li> </ul>
-    
-
-Summary
---------
-
-.. raw:: html
-
-    <p>
-    In this lesson, you learned how to:
-      <div id="summarylist">
-    </div>
-    
 
 Self-Check
 -----------

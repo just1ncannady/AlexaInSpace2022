@@ -87,6 +87,16 @@ Learning Activities
     <iframe allowfullscreen="" frameborder="0" height="480" mozallowfullscreen="" src="//commons.wikimedia.org/wiki/File:How_Open_Access_Empowered_a_16-Year-Old_to_Make_Cancer_Breakthrough.ogv?embedplayer=yes" webkitallowfullscreen="" width="854"></iframe>
     
 
+Summary
+--------
+
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div id="summarylist">
+    </div>
+
 Still Curious?
 ---------------
 
@@ -98,19 +108,7 @@ Still Curious?
     <li><b><span class="hover vocab yui-wk-div" data-id='Open access'>Open access</span></b> can include <span class="hover vocab yui-wk-div" data-id='Creative Commons'>Creative Commons</span> licenses, but can also have less restrictions on them. Read more about <a href="https://en.wikipedia.org/wiki/Open_access" target="_blank"><span class="hover vocab yui-wk-div" data-id='Open Access'>Open Access</span></a> on Wikipedia and about the different types of <a href="https://creativecommons.org/" target="_blank"><span class="hover vocab yui-wk-div" data-id='Creative Commons'>Creative Commons</span> licenses</a>.</li>
     <li>Want to learn more about <b>Napster</b>? AOL created a documentary called <i>Downloaded</i> about how it started, evolved with the court case, and eventually folded. You can watch the first 15 minutes on <a href="https://www.youtube.com/watch?v=kSZqkn9hT5w" target="_blank">YouTube</a>.</li>
     <li>Owners of copyrighted works can file complaints with various types of sharing services such as YouTube to have material removed. These complaints are available at <a href="https://lumendatabase.org/" target="_blank">LumenDatabase.org</a>, formerly known as ChillingEffects.org. Try a search similar to the one mentioned in the book ("download [movie or song name]"). Then, look through the search results page for a notice about results being removed from <span class="hover vocab yui-wk-div" data-id='DMCA'>DMCA</span> complaints. Google's search results link to each of the complaints in Lumen.</li>
-    </ul>
-    
-
-Summary
---------
-
-.. raw:: html
-
-    <p>
-    In this lesson, you learned how to:
-      <div id="summarylist">
-    </div>
-    
+    </ul>    
 
 Self Check
 -----------

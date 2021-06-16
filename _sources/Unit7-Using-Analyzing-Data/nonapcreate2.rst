@@ -15,10 +15,13 @@ Non-AP Create 2
 	
 	<h3 id="est-length">Time Estimate: 12 hours (some combination of in-class and out of class time) minimum</h3>
 	
-	
-	
 	<p>Follow these directions if you are taking a Non-AP CSP course. If you are taking CSP as an AP course, please go to the previous lesson for the AP Create directions.</p>
-	
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
 	<p>Work with a partner to design a socially useful interactive app, that  demonstrates algorithms such as selection and repetition and data and procedural abstractions. As you develop your project keep track of significant errors and bugs that you encountered and how you solved or debugged them in a journal.</p>
 	
 	<p>Please review non-AP instructions and rubric below:
@@ -28,11 +31,12 @@ Non-AP Create 2
 	</ul>
 	<p>
 	
-Iterative Design Thinking Process
+Learning Activities
 ---------------------------------
 
 .. raw:: html
 
+	<h3>Iterative Design Thinking Process</h3>
 	<p>Use an Iterative Design Thinking Process to develop your app:<br>
 	   </p><table style="width: 80%;" border="0">
 	      <tbody>
@@ -107,7 +111,11 @@ Iterative Design Thinking Process
 	</ul>
 	</p>
 	
-	<h3>Submission:</h3>
+Submission
+-----------
+
+.. raw:: html
+
 	<p>When you are finished with your app, your teacher may ask you to turn in some or all of the following:
 	<ul>
 	    <li><b>Video</b>: Create a 1 minute anonymous video presentation providing a demo of your working app. See <a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" style="line-height: 15.86px;" title="">How To: Create an App Video</a> for help with creating a video.</li>
@@ -119,9 +127,16 @@ Iterative Design Thinking Process
 	</ul>
 	</p>
 	
-	<h3>Grading:</h3>
-	
+Grading
+-----------
+
+.. raw:: html
+
 	<p>Your teacher may use the following <a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric </a>  or something similar to grade your Create project.</p>
 	  
-	<h3>Resources</h3>
+Resources
+-----------
+
+.. raw:: html
+
 	<p><ul><li><a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank">Create Task with Design Thinking</a></li><li><a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric&nbsp;</a><br></li><li><a href="https://docs.google.com/document/d/1AqIed1Z9TQ_KWX14Ee8_gOFVbnL6i5sXNOaKtwMTr8g/edit?usp=sharing" target="_blank" title="">Non-AP Create Project Template</a></li><li><a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/" target="_blank" title="">How To: Create a Portfolio Write-Up</a></li><li><a href="https://sites.google.com/site/mobilecspportfoliohelp/performance-tasks/create-1" target="_blank">Portfolio help site</a></li><li><a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/edit" target="_blank">How To: Share Your App</a></li><li><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a></li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank" title="">Mobile CSP: App Feedback Template</a></li><li><a href="https://docs.google.com/document/d/1mYjhGMo8wQzo101bD2Ebvp7ua__8qGQy_BZkT9jq_sw/copy" target="_blank" title="">Journal Entry Template</a></li></ul></p> 

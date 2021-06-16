@@ -51,7 +51,7 @@ Introduction and Goals
     </ul>
     <p>  
       After this lesson you should have a pretty good understanding of how some of your familiar applications -- web browsing,
-      email, smartphone apps -- are supported by the underlying Internet hardware and software. Here is a short video called <a href="https://www.youtube.com/watch?v=ewrBalT_eBM" target="_blank">A <span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span>'s Tale</a> to get us started on our journey.
+      email, smartphone apps -- are supported by the underlying Internet hardware and software. Here is a short video called <a href="https://www.youtube.com/watch?v=ewrBalT_eBM" target="_blank">A Packet's Tale</a> to get us started on our journey.
     </p>
     <p><br/></p>
     
@@ -146,7 +146,7 @@ Learning Activities
     </div>
 
     <div class="pogil yui-wk-div">
-    <h3>POGIL Activity 2  - TCP/IP <span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Routing (15 minutes)</h3>
+    <h3>POGIL Activity 2  - TCP/IP Packet Routing (15 minutes)</h3>
     <p>In the same POGIL team of 4, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of 4 should be given an <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
     
     </p><table border="">
@@ -189,6 +189,42 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     
+Still Curious
+--------------
+
+.. raw:: html
+
+    <p>
+    
+    There is a wealth of good introductory and comprehensive information about the Internet and the WWW.
+    
+    <ul>
+    <li>As always, 
+    <a href="http://en.wikipedia.org" target="_blank">Wikipedia</a> 
+    is an excellent resource as a first stop. Its pages on 
+    <a href="http://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank">Internet protocol</a>,
+    <a href="http://en.wikipedia.org/wiki/Ping_(networking_utility)" target="_blank">Ping</a>,
+    <a href="http://en.wikipedia.org/wiki/Traceroute" target="_blank">Traceroute</a>, and the other topics
+    in this lesson are all accurate and accessible.
+    
+    
+    </li><li>The <a href="http://computer.howstuffworks.com/router1.htm" target="_blank">
+    How Stuff Works</a> site has a nice animated description of how routers
+    work to direct traffic on the Internet. 
+    
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=PBWhzz_Gn10" target="_blank">Warriors of the Net</a> is a classic 12 minute animated video about packets traveling through the Internet.</li>
+    <li>For a very detailed and comprehensive discussion of networking -- sort of
+    like reading a short book -- see the <a href="http://www.comptechdoc.org/independent/networking/guide/index.html" target="_blank">
+    CTDP's Networking Tutorial</a>, which covers the topic in much more detail than
+    we have done here.
+    
+    </li><li>Explore this <a href="https://www.telegeography.com/telecom-maps/submarine-cable-map/index.html" target="_blank"> map of the underwater cables</a> that carry 99% of international data.<a href="http://submarine-cable-map-2016.telegeography.com/" target="_blank">(2016 interactive version of map).</a>
+    </li>
+    <li>Watch <a href="http://youtu.be/b56WwssMxZw" target="_blank">this video</a> that describes 
+      how a hacker could view your data on a public network using a packet sniffer.</li></ul>
+    
+
 
 Self-Check
 -----------
@@ -335,43 +371,6 @@ Self-Check
     <!--
     &lt;h2&gt;Sample AP CSP Exam Question&lt;/h2&gt;&lt;question quid=&quot;5697493825224704&quot; weight=&quot;1&quot; instanceid=&quot;HGpj2Ad2nDBG&quot;&gt;&lt;/question&gt;&lt;br&gt;
     -->
-    
-
-Still Curious
---------------
-
-.. raw:: html
-
-    <p>
-    
-    There is a wealth of good introductory and comprehensive information about the Internet and the WWW.
-    
-    <ul>
-    <li>As always, 
-    <a href="http://en.wikipedia.org" target="_blank">Wikipedia</a> 
-    is an excellent resource as a first stop. Its pages on 
-    <a href="http://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank">Internet protocol</a>,
-    <a href="http://en.wikipedia.org/wiki/Ping_(networking_utility)" target="_blank">Ping</a>,
-    <a href="http://en.wikipedia.org/wiki/Traceroute" target="_blank">Traceroute</a>, and the other topics
-    in this lesson are all accurate and accessible.
-    
-    
-    </li><li>The <a href="http://computer.howstuffworks.com/router1.htm" target="_blank">
-    How Stuff Works</a> site has a nice animated description of how routers
-    work to direct traffic on the Internet. 
-    
-    </li>
-    <li><a href="https://www.youtube.com/watch?v=PBWhzz_Gn10" target="_blank">Warriors of the Net</a> is a classic 12 minute animated video about packets traveling through the Internet.</li>
-    <li>For a very detailed and comprehensive discussion of networking -- sort of
-    like reading a short book -- see the <a href="http://www.comptechdoc.org/independent/networking/guide/index.html" target="_blank">
-    CTDP's Networking Tutorial</a>, which covers the topic in much more detail than
-    we have done here.
-    
-    </li><li>Explore this <a href="https://www.telegeography.com/telecom-maps/submarine-cable-map/index.html" target="_blank"> map of the underwater cables</a> that carry 99% of international data.<a href="http://submarine-cable-map-2016.telegeography.com/" target="_blank">(2016 interactive version of map).</a>
-    </li>
-    <li>Watch <a href="http://youtu.be/b56WwssMxZw" target="_blank">this video</a> that describes 
-      how a hacker could view your data on a public network using a packet sniffer.</li></ul>
-    
 
 Reflection: For Your Portfolio
 -------------------------------

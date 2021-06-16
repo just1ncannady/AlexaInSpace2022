@@ -64,7 +64,7 @@ Introduction and Goals
     </tbody>
     </table>
     
- Learning Activities
+Learning Activities
 --------------------
 
 .. raw:: html

@@ -323,7 +323,7 @@ Summary
       <div id="summarylist">
     </div>
  
- Still Curious?
+Still Curious?
 ---------------
 
 .. raw:: html
@@ -346,7 +346,7 @@ Summary
     </p>
     
     
- Self-Check
+Self-Check
 -----------
 
 .. raw:: html

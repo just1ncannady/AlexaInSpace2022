@@ -371,17 +371,17 @@ Self-Check
 .. mchoice:: mcsp-2-10-7
     :random:
     :practice: T
-    :answer_a: (A) Input A must be <i>true</i>.
+    :answer_a: (A) Input A must be true.
     :feedback_a: This is correct!
-    :answer_b: (B) Input A must be <i>false</i>.
+    :answer_b: (B) Input A must be false.
     :feedback_b: 
-    :answer_c: (C) Input A can be either <i>true</i> or <i>false</i>.
+    :answer_c: (C) Input A can be either true or false.
     :feedback_c: 
-    :answer_d: (D) There is no possible value of Input A that will cause the circuit to have the output <i>true</i>.
+    :answer_d: (D) There is no possible value of Input A that will cause the circuit to have the output true.
     :feedback_d: 
     :correct: a
 
-    
+    Refer to the figure below.
 
  .. raw:: html
 
