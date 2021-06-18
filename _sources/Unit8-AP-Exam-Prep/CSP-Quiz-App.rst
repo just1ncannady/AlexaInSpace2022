@@ -10,8 +10,7 @@ A Study Tool for CS Principles
 
 .. raw:: html
 
-	<!--<div style="float:left" class="yui-wk-div"> -->
-	  <p>The Mobile CS Principles App is a mobile app that contains many of the questions that you encountered in the various units in this course as well as all of the <b>College Board's sample questions</b>.   It should be a good study aid for preparing for your final exam or for the AP exam.
+	<p>The Mobile CS Principles App is a mobile app that contains many of the questions that you encountered in the various units in this course as well as all of the <b>College Board's sample questions</b>.   It should be a good study aid for preparing for your final exam or for the AP exam.
 	  </p>
 	    
 	  <p>The app is written in Javascript/HTML/CSS. There are several ways to use the app:
@@ -37,8 +36,8 @@ A Study Tool for CS Principles
 	  <hr>
 	
 	  
-	  Try the app using your computer or mobile device 
-	<!-- and <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdbg0LMlixepgtsVqIOXmLYAikkOkWmlFyP-0oxs4aqZWP1WQ/viewform">give us feedback</a>.--> (<a href="http://appinventor.trincoll.edu/csp/cspquiz/" target="_blank">Open in a separate window</a>)
+	  <p>Try the app using your computer or mobile device</p>
+	<p>(<a href="http://appinventor.trincoll.edu/csp/cspquiz/" target="_blank">Open in a separate window</a>)</p>
 	
 	  <!--
 	  <iframe src="https://docs.google.com/a/elms.edu/forms/d/e/1FAIpQLSdbg0LMlixepgtsVqIOXmLYAikkOkWmlFyP-0oxs4aqZWP1WQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
@@ -46,9 +45,10 @@ A Study Tool for CS Principles
 	  
 	  <hr>
 	
-	  
+	  <p>
 	  <iframe id="cspquiz" align="center" src="https://www.mobile-csp.org/webapps/cspquiz/" title="The CS Principles App" style="border:1px solid green;" height="1000" width="100%" instanceid="L7xRjFAeqhx0">
-	    </iframe>
+	  </iframe>
+	  </p>
 	  <br>
 	
 	  

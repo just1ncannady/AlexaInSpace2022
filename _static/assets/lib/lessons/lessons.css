@@ -3,13 +3,24 @@
   width: 100%;
 }
 
+
 table.framework { 
   border-collapse: collapse; 
   background-color: lightgrey; 
 }
 
+div.pogil table { 
+  border-collapse: collapse; 
+  border: 1px solid lightgrey; 
+}
+
+
 table.framework th { 
   font-size: 1.2em; 
+}
+
+table {
+	vertical-align: text-top;
 }
 
 .EU { 

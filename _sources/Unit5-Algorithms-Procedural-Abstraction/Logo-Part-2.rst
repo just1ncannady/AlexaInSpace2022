@@ -31,14 +31,7 @@ Introduction and Goals
 
     <p>
     <!-- &lt;img src=&quot;assets/img/circleflower.png&quot; width=&quot;150&quot; vspace=&quot;10&quot; hspace=&quot;10&quot; align=&quot;left&quot;&gt;-->
-    
 
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h2>Preview<br/></h2>
     <table>
     <tbody>
     <tr>
@@ -70,6 +63,12 @@ Learning Activities
     </tr>
     </tbody>
     </table>
+    
+Learning Activities
+--------------------
+
+.. raw:: html
+
     <h3>Introduction</h3>
     In the <a href="./unit?unit=23&amp;lesson=166" target="_blank">previous Logo lesson</a> 
     you developed algorithms for drawing simple shapes. 
@@ -156,7 +155,7 @@ Learning Activities
       As a rule of thumb, 
       <b><font color="magenta">the more general a procedure (or abstraction) the better</font></b>.  
     </p>
-    <h3>Defining Procedures with <span class="hover vocab yui-wk-div" data-id='Parameters'>Parameters</span></h3>
+    <h3>Defining Procedures with Parameters</span></h3>
     
     A <b>procedure</b> is a named group of programming instructions that may have <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> and return values. Procedures are referred to by different names, such as method or function, depending on the programming language. A procedure call interrupts the sequential execution of statements, causing the program to execute the statements within the procedure before continuing. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.
     

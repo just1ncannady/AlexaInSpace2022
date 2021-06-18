@@ -116,14 +116,6 @@ Learning Activities
     </ul>
     </li>
     </ol>
-    <h3>Still Curious</h3>
-    <ul>
-    <li>
-    If you are curious about other APIs, here’s a list of different public APIs that you can use in apps: <a href="https://github.com/toddmotto/public-apis">https://github.com/toddmotto/public-apis</a>.</li>
-    <li>
-    Here is a great map visualization of <a href="https://native-land.ca/" target="_blank">Native Lands (https://native-land.ca/)</a> and an <a href="https://native-land.ca/<span class="hover vocab yui-wk-div" data-id='api'>api</span>-docs/" target="_blank"><span class="hover vocab yui-wk-div" data-id='API'>API</span></a> to use it.</li>
-    </ul>
-    
 
 Summary
 --------
@@ -135,6 +127,17 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     
+Still Curious
+-------------
+.. raw:: html
+
+    <ul>
+    <li>
+    If you are curious about other APIs, here’s a list of different public APIs that you can use in apps: <a href="https://github.com/toddmotto/public-apis">https://github.com/toddmotto/public-apis</a>.</li>
+    <li>
+    Here is a great map visualization of <a href="https://native-land.ca/" target="_blank">Native Lands (https://native-land.ca/)</a> and an <a href="https://native-land.ca/<span class="hover vocab yui-wk-div" data-id='api'>api</span>-docs/" target="_blank"><span class="hover vocab yui-wk-div" data-id='API'>API</span></a> to use it.</li>
+    </ul>
+
 
 Self-Check
 -----------

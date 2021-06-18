@@ -85,7 +85,13 @@ Introduction and Goals
 
 
     <br/>
-    <div class="pogil yui-wk-div">
+       
+
+Learning Activities
+--------------------
+
+.. raw:: html
+	<div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom: Creating a Strong Password (15 minutes)</h3>
     <p>To give us a better sense of what it takes to create a strong password -- i.e., one that can
         withstand a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span> attack --  we're going to use the Password Strength Calculator
@@ -120,12 +126,6 @@ Introduction and Goals
               on the Portfolio the team's answers to the following guided inquiry questions.</td>
     </tr>
     </tbody></table>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
 
     <p><h3>Questions</h3>
     <ol>
@@ -217,7 +217,21 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     
+Still Curious?
+---------------
 
+.. raw:: html
+
+    <p>
+    <ul>
+    <li>Check out the article <i><a href="https://www.wired.com/story/why-so-many-people-make-their-password-dragon/" target="_blank">Why So Many People Make Dragon Their Password</a></i> from Wired magazine.</li>
+    <li>Do some online research to explore alternatives to  passwords schemes -- for example, two-factor authentication, biometrics, virtual tokens.   What are their relative advantages and disadvantages?</li>
+    <li>Try the <a href="https://howsecureismypassword.net/" target="_blank">How secure is my password site.</a></li>
+    <li>Here's an interactive shortest <a href="http://www.math.uwaterloo.ca/tsp/college/index.html" target="_blank">TSP tour to visit the top 647 colleges in the U.S.</a>.</li>
+    <li>Here's a neat <a href="https://www-m9.ma.tum.de/games/tsp-game/index_en.html" target="_blank">TSP Game</a> that uses maps in Europe and Africa.  You can use it to test the nearest neighbor heuristic, or to try to  come up with your own heuristic for finding good routes through the cities.</li>
+    <li>One field of computer science that makes extensive use of heuristics is <i><b>Artificial Intelligence (AI)</b></i>. You've probably heard of it. The field of AI traditionally tackles problems that humans are good at but computers are not (yet) good at -- for example, vision, speech recognition, natural language understanding, planning, driving, and so on. However, great progress is being made in these various areas -- just think for a moment about how well Siri and similar  intelligent digital assistants work today. In fact, try asking Siri "Hey Siri, how do you solve the traveling salesman problem?".   AI is a vast field. And, as for many topics, a good way to start learning more about <a href="https://en.wikipedia.org/wiki/Heuristic_(computer_science)" target="_blank">Heuristics</a> and AI would be to start with <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">Wikipedia</a>. </li>
+    </ul>
+    
 Self-Check
 -----------
 
@@ -368,22 +382,6 @@ Sample AP CSP Exam Question
     <p></p>
     </div>
 
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <ul>
-    <li>Check out the article <i><a href="https://www.wired.com/story/why-so-many-people-make-their-password-dragon/" target="_blank">Why So Many People Make Dragon Their Password</a></i> from Wired magazine.</li>
-    <li>Do some online research to explore alternatives to  passwords schemes -- for example, two-factor authentication, biometrics, virtual tokens.   What are their relative advantages and disadvantages?</li>
-    <li>Try the <a href="https://howsecureismypassword.net/" target="_blank">How secure is my password site.</a></li>
-    <li>Here's an interactive shortest <a href="http://www.math.uwaterloo.ca/tsp/college/index.html" target="_blank">TSP tour to visit the top 647 colleges in the U.S.</a>.</li>
-    <li>Here's a neat <a href="https://www-m9.ma.tum.de/games/tsp-game/index_en.html" target="_blank">TSP Game</a> that uses maps in Europe and Africa.  You can use it to test the nearest neighbor heuristic, or to try to  come up with your own heuristic for finding good routes through the cities.</li>
-    <li>One field of computer science that makes extensive use of heuristics is <i><b>Artificial Intelligence (AI)</b></i>. You've probably heard of it. The field of AI traditionally tackles problems that humans are good at but computers are not (yet) good at -- for example, vision, speech recognition, natural language understanding, planning, driving, and so on. However, great progress is being made in these various areas -- just think for a moment about how well Siri and similar  intelligent digital assistants work today. In fact, try asking Siri "Hey Siri, how do you solve the traveling salesman problem?".   AI is a vast field. And, as for many topics, a good way to start learning more about <a href="https://en.wikipedia.org/wiki/Heuristic_(computer_science)" target="_blank">Heuristics</a> and AI would be to start with <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">Wikipedia</a>. </li>
-    </ul>
     
 
 Reflection: For Your Portfolio

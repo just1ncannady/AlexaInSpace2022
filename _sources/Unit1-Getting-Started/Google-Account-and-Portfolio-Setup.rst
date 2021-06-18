@@ -9,6 +9,10 @@ Google Account and Portfolio Setup
 
      <h3 id="est-length">Time Estimate: 15-45 minutes</h3>
 
+Introduction and Goals
+-----------------------
+
+.. raw:: html
 
      <p>Here are the list of steps you need to do to get set up:
 
@@ -16,6 +20,11 @@ Google Account and Portfolio Setup
      <li>Get a Google account (e.g., Gmail).</li>
      <li>If instructed by your instructor, create and customize a portfolio and share the link to your portfolio with your teacher</li>
      </ol>
+
+Learning Activities
+-----------------------
+
+.. raw:: html
 
      <h3>Google Account</h3>
 
@@ -39,9 +48,19 @@ Google Account and Portfolio Setup
 
      <h3>Google Classroom and Google Drive</h3>
 
-     <p>If your school uses Google Classroom, your teacher may ask you to post your portfolio question documents and projects on Google Classroom instead of creating a Google Sites Portfolio. You can make your own copy of the Google documents following the links in the Portfolio Reflection Questions section at the end of each lesson.<h3>Google Sites Portfolio</h3>
+     <p>If your school uses Google Classroom, your teacher may ask you to post your portfolio question documents and projects on Google Classroom instead of creating a Google Sites Portfolio. You can make your own copy of the Google documents following the links in the Portfolio Reflection Questions section at the end of each lesson.
+     
+     <h3>Google Sites Portfolio</h3>
 
-     <p>If your teacher asks you to create a Google Sites portfolio, follow the directions below. To get started watch and follow the video or follow the written steps below:<br><br><gcb-youtube videoid="kwgCvSDCp_c" instanceid="SVs86K8mvUpa"></gcb-youtube><br></p>
+     <p>If your teacher asks you to create a Google Sites portfolio, follow the directions below. To get started watch and follow the video or follow the written steps below:<br><br>
+     
+.. youtube:: kwgCvSDCp_c
+	:width: 650
+	:height: 415
+	:align: center
+
+.. raw:: html
+
      <p>(<a href="https://www.teachertube.com/videos/mobile-csp-lesson-13-google-portfolio-setup-503967" target="_blank" title="">Teacher Tube Version</a>)</p>
 
 

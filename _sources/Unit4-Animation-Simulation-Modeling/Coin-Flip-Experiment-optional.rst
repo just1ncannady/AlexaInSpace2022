@@ -176,7 +176,7 @@ Learning Activities
     <li>(<b>Portfolio</b>) Record your teams results for each trial in a neatly organized table.  That is, if you did 20 trials
           of 100 coin flips each, your table should have 20 rows of results, with the percentage for 
           each trial along with the cumulative numbers. Here's an example:
-          <blockquote>
+          <blockquote style="font-size: 1.0em;" >
     <table><tbody><tr><th>Trial</th><th>Flips</th><th>Heads</th><th>% Heads</th><th>Total Flips</th><th>Total Heads</th><th>Total % Heads</th></tr>
     <tr><td>1</td><td>10000</td><td>4950</td><td>49.5</td><td>10000</td><td>4950</td><td>49.5%</td></tr>
     <tr><td>2</td><td>10000</td><td>5040</td><td>50.4</td><td>20000</td><td>9990</td><td>49.95%</td></tr>
@@ -207,6 +207,13 @@ Summary
       <div id="summarylist">
     </div>
     
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Hopefully this lesson has made you curious about how PRNGs work.  If so, you should check out <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=23&amp;lesson=65" target="_blank" title="">this lesson</a>, which shows how to use some simple mathematics to create a PRNG.</p>
 
 Self-Check
 -----------
@@ -227,17 +234,7 @@ Self-Check
     </td>
     </tr>
     </tbody>
-    </table>
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Hopefully this lesson has made you curious about how PRNGs work.  If so, you should check out <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=23&amp;lesson=65" target="_blank" title="">this lesson</a>, which shows how to use some simple mathematics to create a PRNG.</p>
-    
+    </table>    
 
 Reflection: For Your Portfolio
 -------------------------------

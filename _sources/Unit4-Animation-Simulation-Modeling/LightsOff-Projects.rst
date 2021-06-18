@@ -103,7 +103,7 @@ Learning Activities
     <p>When following the design thinking process, keep the following in mind:</p>
     <p><i>Program requirements</i> describe how a program functions which may include a description of user interactions that a program must provide. A <i>program’s specification</i> defines the requirements for the program. The <i>designing</i> part of the design thinking process (i.e. the define and ideate phases) is where you outline how to accomplish a given program specification.</p>
     </td>
-    <td><img alt="Design Thinking" class="yui-img" src="../_static/assets/img/DesignThinkingimage.png?" style="width: 250px;" title="Design Thinking"/><br/>
+    <td><img alt="Design Thinking" class="yui-img" src="../_static/assets/img/DesignThinkingimage.png" style="width: 250px;" title="Design Thinking"/><br/>
     </td>
     </tr>
     </tbody>
@@ -173,17 +173,15 @@ Learning Activities
     <li>Find one or more background images and download these.</li>
     <li>Find one or more sprites and download these.</li>
     </ul>
-    <blockquote><i>Remember many images are copyrighted so use the Tools in Google Image Search to find images “Labeled for
-                  noncommercial reuse”</i></blockquote>
-                Brainstorm ideas for scoring. Is there one sprite or multiple sprites worth different scores? Do you want
-                good and bad sprites that both increment and decrement the score? </td>
+    <blockquote style="font-size: 1.0em;"><i>Remember many images are copyrighted so use the Tools in Google Image Search to find images “Labeled for noncommercial reuse”</i></blockquote>
+    Brainstorm ideas for scoring. Is there one sprite or multiple sprites worth different scores? Do you want good and bad sprites that both increment and decrement the score? </td>
     </tr>
     <tr>
     <td><img alt="Design Thinking Prototype" class="yui-img" src="../_static/assets/img/DesignThinkingPrototype.png" style="width: 100px;" title="Design Thinking Prototype"/> </td>
     <td>Upload the new background and sprite images into the media area for App Inventor. Change the Canvas and
                 Sprites to use the new images.<br/>
                 How will you add scoring to the app? Where will the score be displayed?<br/>
-    <blockquote><i>Hint: Use what you learned in the Paint Pot app about incrementing a variable to implement the score
+    <blockquote style="font-size: 1.0em;"><i>Hint: Use what you learned in the Paint Pot app about incrementing a variable to implement the score
                   feature.</i></blockquote></td>
     </tr>
     <tr>
@@ -226,7 +224,7 @@ Learning Activities
     <td>Brainstorm ways to implement the winning score. Remember you can use an if-block to only run code blocks
                 under specific conditions.<br/><br/>
                 What options do you have for stopping the game on a winning score and starting it back up with the reset
-                button? Do you need any new variables? <br/><blockquote><i>
+                button? Do you need any new variables? <br/><blockquote style="font-size: 1.0em;"><i>
                 Hint, the <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html#Clock" target="_blank">Clock
                   component</a> has a Timer Enabled property that can be set to true or false in the program to start and
                 stop the action.</i></blockquote></td>

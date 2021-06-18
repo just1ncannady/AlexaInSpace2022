@@ -64,13 +64,7 @@ Learning Activities
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19" target="_blank">Chapter One of Blown to Bits</a> makes the point that today everything is digital -- that is, everything is represented by binary digits or bits. And it provides some provocative examples of the societal implications of this digital explosion.</p>
     <p>Take a look around your classroom or room. Where can you see devices that use bits? Try to think beyond just your computers and mobile phones or tablets. For example, is the room's lightswitch on a timer or have a motion sensor? Here are <a href="https://docs.google.com/presentation/d/1rY94EKJPiqiGXd3XR2KIw8dSkz3psOFNADcI0JSR1wU" target="_blank">some examples</a> you can use to help you get started.</p>
     <br/>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
+  
     <p>
     <p><b>Part 1:</b>
     </p><ol>
@@ -82,16 +76,6 @@ Learning Activities
     <p><b>Part 2:</b> Over the next 24 hours, keep track of all the technology that you use with <a href="https://docs.google.com/document/d/1t108otAa9_MFtFERsozLL0g-UXQkdAKfKotZgIhGCg0/edit?ts=5f6dfd20#" target="_blank" title="">this worksheet</a>. For example, do you use your phone to set an alarm? Does your coffee maker include a mini-computer? Keep a running list of items that you use and then make a tally or count how often you use them during the day. Once you're done, consider how easy or difficult it would be to make it through a single day without using a computer. Which of your daily activities could you do without digital information or devices?</p>
     <p><b>Part 3:</b> Read pages 13-16 (Good and Ill, Promise and Peril) in Chapter One which takes a look at the positive and negative implications of the digital explosion. This is an important concept as part of the AP exam multiple choice questions. Get into groups of 4 and use the <a href="https://docs.google.com/document/d/1g5fuVEDu3V2XHVRBok1gFAOaAV7eWyict1S2ROopsw0" target="_blank">Debate Team Carousel</a> handout to discuss this concept further.</p>
     
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Check out some current events about the positive and negative impacts of technology in <a href="https://www.diigo.com/user/mobilecsp" target="_blank" title="">these articles</a> (tagged by different topics).</p>
-    
-
 Summary
 --------
 
@@ -101,7 +85,15 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
-    
+
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Check out some current events about the positive and negative impacts of technology in <a href="https://www.diigo.com/user/mobilecsp" target="_blank" title="">these articles</a> (tagged by different topics).</p>    
 
 Self-Check
 -----------

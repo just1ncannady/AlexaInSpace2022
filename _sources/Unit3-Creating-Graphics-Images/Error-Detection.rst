@@ -72,7 +72,13 @@ Introduction and Goals
     <p></p>
     </div>
 
-	(<a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">Teacher Tube version</a>)</p><table border="0">
+	<p>(<a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">Teacher Tube version</a>)</p><table border="0">
+
+Learning Activities
+--------------------
+ 
+.. raw:: html
+   
     <table><tbody><tr>
     <td><iframe height="530" src="https://mobile-csp.org/webapps/parity/ParityMagic.html" style="border: 0;" title="Parity App" width="450"></iframe>
     </td>
@@ -120,13 +126,7 @@ Introduction and Goals
     </tr>
     </tbody></table>
     
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Error Detection:  Critical Thinking Questions</h3>
+    <h3>Error Detection:  Critical Thinking Questions</h3>
     <p>For this activity, each group should have 36 playing cards (or 25 for a smaller square) or use this <a href="https://deck-of-cards.js.org/" target="_blank">virtual deck</a> or use the widget above.  For a regular card deck you can use 
         face-up/face-down to represent 0/1.  A satisfactory outcome for this activity is that the team
         can successfully demonstrate the trick to the class. That means, someone will lay out
@@ -212,7 +212,33 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
     
+    This lesson has shown that it is possible to detect certain kinds of error in digital
+    documents.  The technique used here, called <i><b>parity checking</b></i>, uses
+    <i><b>redundancy</b></i>.  That is, extra bits are added to the data to enable us
+    to detect the error. 
+    
+    <p>What about detecting errors that involve more than 1 bit?  Is it possible to
+    not only <i>detect</i> an error but to automatically <i>correct</i> it?  The 
+    answers to these questions is 'Yes' and 'Yes.'
+    
+    </p><p>If you want to learn more about this topic, here are a couple of 
+    reading suggestions:</p>
+    <ul>
+    <li><a href="https://course.mobilecsp.org/mobilecsp/unit?unit=22&amp;lesson=30" target="_blank">Mobile CSP Lesson 3.7 Parity Error Checking</a>
+    </li><li><a href="http://en.wikipedia.org/wiki/Parity_bit" target="_blank">Parity bit</a>.
+      </li><li><a href="https://www.youtube.com/watch?v=cBBTWcHkVVY" target="_blank">Nice video demonstration of error correction</a>.
+      </li><li><a href="http://en.wikipedia.org/wiki/Error_detection_and_correction" target="_blank">Error detection and correction</a>.
+      </li>
+    </ul>
+
 
 Self-Check
 -----------
@@ -267,36 +293,6 @@ Self-Check
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    
-    This lesson has shown that it is possible to detect certain kinds of error in digital
-    documents.  The technique used here, called <i><b>parity checking</b></i>, uses
-    <i><b>redundancy</b></i>.  That is, extra bits are added to the data to enable us
-    to detect the error. 
-    
-    <p>What about detecting errors that involve more than 1 bit?  Is it possible to
-    not only <i>detect</i> an error but to automatically <i>correct</i> it?  The 
-    answers to these questions is 'Yes' and 'Yes.'
-    
-    </p><p>If you want to learn more about this topic, here are a couple of 
-    reading suggestions:</p>
-    <ul>
-    <li><a href="https://course.mobilecsp.org/mobilecsp/unit?unit=22&amp;lesson=30" target="_blank">Mobile CSP Lesson 3.7 Parity Error Checking</a>
-    </li><li><a href="http://en.wikipedia.org/wiki/Parity_bit" target="_blank">Parity bit</a>.
-      </li><li><a href="https://www.youtube.com/watch?v=cBBTWcHkVVY" target="_blank">Nice video demonstration of error correction</a>.
-      </li><li><a href="http://en.wikipedia.org/wiki/Error_detection_and_correction" target="_blank">Error detection and correction</a>.
-      </li>
-    </ul>
-    
 
 Reflection: For Your Portfolio
 -------------------------------

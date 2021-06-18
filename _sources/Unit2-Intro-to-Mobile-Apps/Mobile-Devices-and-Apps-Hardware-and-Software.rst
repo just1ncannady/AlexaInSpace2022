@@ -118,7 +118,25 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
-    
+ 
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Here's <a href="https://www.youtube.com/watch?v=zoR3wyiVzbY&amp;feature=youtu.be" target="_blank">a cool video made by two Googlers</a> that takes apart a Nexus 5 phone and explains what all the parts are. </p>
+    <p>Here are some additional resources you might want to look at to learn more about how computer's work:</p>
+    <ul>
+    <li><a href="http://www.gcflearnfree.org/computerbasics" target="_blank">Computer basics videos and lessons from GCFLearnFree.org</a> on
+          <ul>
+    <li>What is a computer?</li>
+    <li>Understanding operating systems</li>
+    <li>What is the cloud?</li>
+    <li>and other topics...</li>
+    </ul>
+    </li>
+    </ul>   
 
 Self-Check
 -----------
@@ -288,29 +306,6 @@ Self-Check
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Here's <a href="https://www.youtube.com/watch?v=zoR3wyiVzbY&amp;feature=youtu.be" target="_blank">a cool video made by two Googlers</a> that takes apart a Nexus 5 phone and explains what all the parts are. </p>
-    <p>Here are some additional resources you might want to look at to learn more about how computer's work:</p>
-    <ul>
-    <li><a href="http://www.gcflearnfree.org/computerbasics" target="_blank">Computer basics videos and lessons from GCFLearnFree.org</a> on
-          <ul>
-    <li>What is a computer?</li>
-    <li>Understanding operating systems</li>
-    <li>What is the cloud?</li>
-    <li>and other topics...</li>
-    </ul>
-    </li>
-    </ul>
-    
 
 Reflection: For Your Portfolio
 -------------------------------

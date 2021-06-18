@@ -35,5 +35,5 @@ AP CSP Pseudocode
 	 <p>A Mobile CSP teacher Mark Eisenhardt has also developed a <a href="https://drive.google.com/open?id=1FyEsR_saOkdyvhKHbOtAvqWOiZCkRJrHstXsW7FhUWw" target="_blank">slide deck</a> that shows the App Inventor blocks next to the relevant sections of the reference sheet (shown below).</p>
 	
 	
-	<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvx7lOVKV-TZXtMbAI5f_nbQW4AJ_xCFS75wqmehUvX2xvNYa5Paglqh07J_aqV-cla_trZkw1dnGy/embed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	<p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvx7lOVKV-TZXtMbAI5f_nbQW4AJ_xCFS75wqmehUvX2xvNYa5Paglqh07J_aqV-cla_trZkw1dnGy/embed?start=true&loop=true&delayms=5000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 

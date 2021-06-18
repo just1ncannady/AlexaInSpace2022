@@ -2,28 +2,26 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-AP Create 1
-=====================
+ASSESSMENT: AP Create 1
+========================
 
 .. raw:: html
 
-     <h3 id="est-length">Time Estimate: 6 hours (8 45 minute classes) minimum</h3><p>Follow these directions if you are taking CSP as an AP course. If you are in a non-AP CSP course, please go to the next lesson for Non-AP Create directions.<br><br>In this Create Project #1, you will work with a partner to design a socially useful interactive app, that  demonstrates algorithms such as selection and procedural abstractions. As you develop your project keep track of significant errors and bugs that you encountered and how you solved or debugged them in a journal.</p>
+     <h3 id="est-length">Time Estimate: 6 hours (8 45 minute classes) minimum</h3><p>Follow these directions if you are taking CSP as an AP course. If you are in a non-AP CSP course, please go to the next lesson for Non-AP Create directions.
+     
+Introduction and Goals
+-----------------------
 
+.. raw:: html
 
+	<p>In this Create Project #1, you will work with a partner to design a socially useful interactive app, that  demonstrates algorithms such as selection and procedural abstractions. As you develop your project keep track of significant errors and bugs that you encountered and how you solved or debugged them in a journal.</p>
 
      <p>Before beginning, please review the following:</p><ul><li><a href="https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf?course=ap-computer-science-principles#page=4" target="_blank">Create Performance Task Description and Instructions</a></li><li><a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">Create Performance Task Scoring Guidelines</a></li></ul><ul>
      </ul>
      <p>
            In the official Create: Programming Performance Task #2 you will need to address <b>ALL</b> of the requirements and prompts as outlined in the performance task directions (i.e. a list, procedure with parameter, and algorithm with sequence, selection, and iteration). However, this is a <b>PRACTICE</b> programming performance task therefore not all aspects are required to be completed. You are not expected to include a procedure with a parameter for this practice task, but you should at least include a procedure. It is recommended that you try to include a loop.</p>
 
-       <!--
-     [Note: Looking for the old version? <a href="https://drive.google.com/folderview?id=0B86iRIPU8oQlfmJrWlNzS2Y1MlRMZ2V1RHAwMXlJUTBBazdnSGFGWDBGTGpBbnNUSVVadEE&amp;usp=sharing" target="_blank">Try here</a>.]--> 
-
-Iterative Design Thinking Process
-----------------------------------
-
-.. raw:: html
-
+	<h3>Iterative Design Thinking Process</h3>
      <p>Use an Iterative Design Thinking Process to develop your app:<br>
         </p><table style="width: 80%;" border="0">
            <tbody>
@@ -38,18 +36,17 @@ Iterative Design Thinking Process
                <td><img src="../_static/assets/img/CreateDesignThinking.png" class="yui-img" title="Design Thinking Graphic" alt="Design Thinking Graphic" style="width: 250px;"><br>
                </td></tr></tbody></table>
 
-Warm Up Activity: Design a Chair
+Learning Activities 
 ----------------------------------
 
 .. raw:: html
+	
+	<h3>Warm Up Activity: Design a Chair</h3>
 
      <p>Your teacher may have you do the following <a href="https://docs.google.com/document/d/16Y9RPf6IhZ4pZRjtosXdergQPCLRgrmY_TTMr4N9xpU/edit?usp=sharing" target="_blank"> Design Thinking Process: Design a Chair Activity</a> in pairs or groups to practice the Design Thinking Process.
 
 
-Create #1 Directions
------------------------------
-
-.. raw:: html
+	<h3>Create #1 Directions</h3>
 
      <p>Working in pairs, follow the <a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank" title="">Design Thinking iterative development process for the
                Create Performance Tasks</a>.
@@ -217,16 +214,12 @@ Create #1 Directions
 
      -->
 
-Submission
-----------------
-
-.. raw:: html
+	<h3>Submission</h3>
 
      <p>Create a <a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">video demonstration</a> of your app and answer the prompts outlined in the <a href="https://docs.google.com/document/d/1B0VUXo-voVro_paLykF153QKtZ-urzrY-JkNFxBZjDA/copy" target="_blank" title="">Create Performance Task template</a>. Submit your video and answers to the prompts on your portfolio as a <a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/" target="_blank" title="">portfolio write-up</a>.</p>
 
 Resources
 -------------
-
 
 .. raw:: html
 

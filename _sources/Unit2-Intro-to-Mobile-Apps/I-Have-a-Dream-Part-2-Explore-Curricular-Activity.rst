@@ -61,7 +61,7 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h2></h2><h3>If/Else Selection Blocks</h3>
+    <h3>If/Else Selection Blocks</h3>
     <p>The <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html#if" target="_blank">if block</a> in App Inventor can be used to choose between different actions.  All programming languages have something like if blocks, called selection or conditional algorithms, to make decisions based on a condition. In this version of the app, we want to use the buttons to toggle playing and pausing the speeches. When a button is clicked, if that speech is already playing, we want to pause the speech. If it is paused, we want to start playing it again. To do this, we need to use an If block from the Control drawer of the block editor. This block has a blue mutator button where we can drag in an else block to make the block into an <span class="hover vocab yui-wk-div" data-id='If/Else'>If/Else</span> block which will allow us to choose between 2 actions (pause or play) depending on if the speech is already playing.</p><p>
     <img src="../_static/assets/img/IfElseAnimated.gif" style="width:60%"/>
     <br/>

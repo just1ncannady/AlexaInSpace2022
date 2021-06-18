@@ -320,6 +320,16 @@ Other Number Systems
     <div><p>Did you know that the Ancient Maya Civilization used a <span class="hover vocab yui-wk-div" data-id='base'>base</span> 20 number system with just 3 symbols for 0, 1, and 5? Try the <a href="https://maya.nmai.si.edu/maya-sun/maya-math-game?game=practice-1" target="_blank">Maya Math Game</a>. </p></div>
     <a href="https://maya.nmai.si.edu/maya-sun/maya-math-game?game=practice-1" target="_blank"> <img src="https://mayaarchaeologist.co.uk/wp-content/uploads/2016/12/Maya-Numbers-Codex-dresden44b.jpg" style="width:300px;margin-left:100px"/> </a>
     
+Summary
+--------
+
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div class="yui-wk-div" id="summarylist">
+    </div>
+    
 
 Still Curious?
 ---------------
@@ -337,17 +347,6 @@ Still Curious?
     <li>More Fun With Odometers: Here's a <a href="http://mobile-csp.org/webapps/numbers/multiodometer.html" target="_blank">multiple number systems odometer app</a> that will let you experiment with number systems in any <span class="hover vocab yui-wk-div" data-id='base'>base</span> from 2 to 32. </li>
     <!-- &lt;gcb-iframe src=&quot;https://mobile-csp.org/webapps/numbers/multiodometer.html&quot; title=&quot;&quot; height=&quot;400&quot; width=&quot;650&quot; instanceid=&quot;tOwWb20u0Mpb&quot;&gt;&lt;/gcb-iframe&gt; -->
     </ul>
-
-Summary
---------
-
-.. raw:: html
-
-    <p>
-    In this lesson, you learned how to:
-      <div class="yui-wk-div" id="summarylist">
-    </div>
-    
 
 Self-Check
 -----------

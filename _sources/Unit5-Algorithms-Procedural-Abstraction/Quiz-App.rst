@@ -141,7 +141,21 @@ Summary
     In this lesson, you learned how to:
       <div id="summarylist">
     </div>
-    
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>More information about these computer science pioneers can be found below:
+      </p><ul>
+    <li> Alan Turing:   <a href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">wikipedia</a>,<a href="http://www.imdb.com/title/tt2084970/" target="_blank"> the movie "Imitation Game"</a></li>
+    <li> Hidden Figures:  <a href="https://www.nasa.gov/modernfigures" target="_blank">NASA Biographies</a>, <a href="http://www.imdb.com/title/tt4846340/" target="_blank">the Hidden Figures movie</a>, <a href="https://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians/dp/0062363603/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1497143974&amp;sr=1-1&amp;keywords=Margot+Lee+Shetterly" target="_blank">the Hidden Figures book</a>,   
+      <a href="https://en.wikipedia.org/wiki/Katherine_Johnson" target="_blank">Katherine Johnson</a>, <a href="https://en.wikipedia.org/wiki/Mary_Jackson_(engineer)" target="_blank">Mary Jackson</a>,
+      <a href="https://en.wikipedia.org/wiki/Dorothy_Vaughan" target="_blank">Dorothy Vaughan</a>, <a href="http://www.biography.com/news/hidden-figures-movie-real-women" target="_blank">more hidden figures</a></li>
+    <li> <a href="https://en.wikipedia.org/wiki/Grace_Hopper" target="_blank">Admiral Grace Hopper</a></li>
+    </ul>
+
 
 Self-Check
 -----------
@@ -289,16 +303,7 @@ Self-Check
 
 
     <br/>
-    <h2 id="still-curious"><br/>Still Curious?</h2>
-    <p>More information about these computer science pioneers can be found below:
-      </p><ul>
-    <li> Alan Turing:   <a href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">wikipedia</a>,<a href="http://www.imdb.com/title/tt2084970/" target="_blank"> the movie "Imitation Game"</a></li>
-    <li> Hidden Figures:  <a href="https://www.nasa.gov/modernfigures" target="_blank">NASA Biographies</a>, <a href="http://www.imdb.com/title/tt4846340/" target="_blank">the Hidden Figures movie</a>, <a href="https://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians/dp/0062363603/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1497143974&amp;sr=1-1&amp;keywords=Margot+Lee+Shetterly" target="_blank">the Hidden Figures book</a>,   
-      <a href="https://en.wikipedia.org/wiki/Katherine_Johnson" target="_blank">Katherine Johnson</a>, <a href="https://en.wikipedia.org/wiki/Mary_Jackson_(engineer)" target="_blank">Mary Jackson</a>,
-      <a href="https://en.wikipedia.org/wiki/Dorothy_Vaughan" target="_blank">Dorothy Vaughan</a>, <a href="http://www.biography.com/news/hidden-figures-movie-real-women" target="_blank">more hidden figures</a></li>
-    <li> <a href="https://en.wikipedia.org/wiki/Grace_Hopper" target="_blank">Admiral Grace Hopper</a></li>
-    </ul>
-    
+   
 
 Reflection: For Your Portfolio
 -------------------------------

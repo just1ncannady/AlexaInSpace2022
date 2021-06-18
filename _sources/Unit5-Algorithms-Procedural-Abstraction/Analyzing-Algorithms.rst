@@ -33,7 +33,7 @@ Analyzing Algorithms
     
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-    <h3 id="est-length"><b><br/>Time Estimate: 90 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
 Introduction and Goals

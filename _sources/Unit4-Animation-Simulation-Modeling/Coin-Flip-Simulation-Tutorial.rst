@@ -87,7 +87,7 @@ Learning Activities
     <p><h3>A Short Experiment</h3>
     Before getting started on the Coin Flip app, try this simple experiment:
     
-    <blockquote>
+    <blockquote style="font-size: 1.0em;">
     <ul>
     <li>If you flip a <b><i>fair coin</i></b> 20 times -- any type of coin will do -- 
     how many heads would you expect to get?  Write down your answer.
@@ -188,16 +188,6 @@ Learning Activities
     
     </li></ol>
     
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Are coin flips fair?  While it might be the case that the coin itself is fair — i.e., it favors neither heads nor tails — perhaps the act of flipping a coin is not fair.  This <a href="http://www.npr.org/templates/story/story.php?storyId=1697475" target="_blank">NPR story</a> reports on experiments that suggest that coin flips are slightly biased towards heads.</p>
-    
-
 Summary
 --------
 
@@ -207,6 +197,14 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div><br/>
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Are coin flips fair?  While it might be the case that the coin itself is fair — i.e., it favors neither heads nor tails — perhaps the act of flipping a coin is not fair.  This <a href="http://www.npr.org/templates/story/story.php?storyId=1697475" target="_blank">NPR story</a> reports on experiments that suggest that coin flips are slightly biased towards heads.</p>
     
 
 Self-Check

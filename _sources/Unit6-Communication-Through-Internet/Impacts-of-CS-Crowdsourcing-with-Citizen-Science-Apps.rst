@@ -1,4 +1,4 @@
-. raw:: html 
+.. raw:: html 
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
@@ -32,8 +32,14 @@ Introduction and Goals
 
     <p>
     <p>Computing innovations impact our lives in many ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a citizen science computing innovation in preparation for exploring an innovation of your choosing. A computing innovation is an innovation that includes a computer or program code as an integral part of its functionality. Your close examination of this computing innovation will deepen your understanding of computer science principles.</p>
+    
+Learning Activities
+--------------------
+
+.. raw:: html
+
     <h3>Citizen Science Apps</h3>
-    <p>As an example of a computing innovation, let’s explore <i>citizen science apps</i>. Citizen science apps rely on a concept called crowdsourcing, where data or information is collected from a large number of people via the Internet. Crowdsourcing allows people to collaborate on a project by each contributing a small portion of the data, the funding, etc. Watch <a href="http://crowdandcloud.org/watch-the-episodes/episode-one#" target="_blank">Episode 1 of The Crowd and the Cloud</a>. If you do not have time to watch the entire hour-long episode, then focus on the OpenStreetMap [16:55-28:30] and EyesOnALZ [28:30-41:57] segments. Then review the citizen science projects listed under the <a href="http://crowdandcloud.org/join-a-project" target="_blank">Join A Project</a> for The Crowd and the Cloud.</p>
+    <p>As an example of a computing innovation, let’s explore <i>citizen science apps</i>. Citizen science apps rely on a concept called <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>crowdsourcing</span>, where data or information is collected from a large number of people via the Internet. <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>crowdsourcing</span> allows people to collaborate on a project by each contributing a small portion of the data, the funding, etc. Watch <a href="http://crowdandcloud.org/watch-the-episodes/episode-one#" target="_blank">Episode 1 of The Crowd and the Cloud</a>. If you do not have time to watch the entire hour-long episode, then focus on the OpenStreetMap [16:55-28:30] and EyesOnALZ [28:30-41:57] segments. Then review the citizen science projects listed under the <a href="http://crowdandcloud.org/join-a-project" target="_blank">Join A Project</a> for The Crowd and the Cloud.</p>
     <p><a href="http://crowdandcloud.org/watch-the-episodes/episode-one#" target="_blank"><img src="../_static/assets/img/CrowdtoCloudEp1.png"/></a></p>
     <h3>Impact of Citizen Science Apps</h3>
     <p>Next, review the citizen science projects listed under the <a href="http://crowdandcloud.org/join-a-project" target="_blank">Join a Project</a> page by using the search feature (if you choose <i>Area:use a smartphone or tablet</i>, you will see apps). Use one of the apps listed as your computing innovation to answer the questions below. Make sure the citizen science project you select involves a computing innovation that includes a computer, website, or mobile app as a part of its functionality.</p>
@@ -44,16 +50,6 @@ Introduction and Goals
     </ol>
     <p>After you’ve answered these questions, find a partner and share your apps and the answers to the questions. Was the purpose clear for the computing innovation? Can you suggest additional impacts or data?</p>
     
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Citizen science apps are just one example of crowdsourcing in computer science. What are some other examples you can think of? Try exploring the list of articles related to computing on <a href="https://www.diigo.com/user/mobilecsp" target="_blank">diigo</a> for ideas.</p>
-    
-
 Summary
 --------
 
@@ -64,6 +60,14 @@ Summary
       <div id="summarylist">
     </div>
     
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Citizen science apps are just one example of <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>crowdsourcing</span> in computer science. What are some other examples you can think of? Try exploring the list of articles related to computing on <a href="https://www.diigo.com/user/mobilecsp" target="_blank">diigo</a> for ideas.</p>
+
 
 Self Check
 -----------
@@ -75,7 +79,7 @@ Self Check
     <table align="center">
     <tbody>
     <tr>
-    <td><span class="hover vocab yui-wk-div" data-id="encryption">crowdsourcing</span></td>
+    <td><span class="hover vocab yui-wk-div" data-id="crowdsourcing">crowdsourcing</span></td>
     </tr>
     </tbody>
     </table>

@@ -38,7 +38,7 @@ Cryptography Securing the Internet
     
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -51,20 +51,20 @@ Introduction and Goals
       secure the Internet.  For all of the ciphers discussed in the
       <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=25&amp;lesson=122" target="_blank" title="">Cryptography Basics</a>
       lesson,  the same key was used both for encrypting and decrypting messages.  Systems 
-      that use the same key for both encryption and decryption are called <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='symmetric cipher'>symmetric cipher</span>">symmetric ciphers</span>.
+      that use the same key for both encryption and decryption are called <span class="hover vocab yui-wk-div" data-id="symmetric cipher">symmetric cipher</span>.
     </p>
     <p>
       Symmetric ciphers have a serious flaw, known as the 
-      <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='key exchange problem'>key exchange problem</span>"><span class="hover vocab yui-wk-div" data-id='key exchange problem'>key exchange problem</span></span>:  How can 
+      <span class="hover vocab yui-wk-div" data-id="key exchange problem">key exchange problem</span>:  How can 
       Alice and Bob securely exchange the shared key needed to encrypt and decrypt their messages. Hopefully,
       you can see that sending the shared key across the Internet in an email message would not be a very secure
       system -- Eve could easily intercept the key, without Alice and Bob knowing, and would then be able to 
       read all their messages. 
     </p>
-    <p>What's needed in order for cryptography to work on the Internet is an <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='asymmetric cipher'>asymmetric cipher</span>">asymmetric system</span>, in which 
+    <p>What's needed in order for cryptography to work on the Internet is an <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric system</span>, in which 
       the key can be broken into parts so that one key can be used for encrypting and another for decrypting without
-      ever having to share a key. Such systems are examples of <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='public key cryptography'>public key cryptography</span>"><span class="hover vocab yui-wk-div" data-id='public key cryptography'>public key cryptography</span></span> and we will look
-      at two important algorithms,  the <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='diffie-hellman'>diffie-hellman</span>"><span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span></span> key exchange algorithm and the <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='rsa'>rsa</span>">Rivest-Shamir-Adelman (<span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span>)</span>
+      ever having to share a key. Such systems are examples of <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography</span> and we will look
+      at two important algorithms,  the <span class="hover vocab yui-wk-div" data-id="diffie-hellman">Diffie-Hellman</span> key exchange algorithm and the <span class="hover vocab yui-wk-div" data-id="rsa">Rivest-Shamir-Adelman (RSA)</span>
       <span class="hover vocab yui-wk-div" data-id='public key cryptography'>public key cryptography</span> algorithm.
     </p>
     <p>
@@ -101,7 +101,7 @@ Learning Activities
 
     </p>
     <h3>Part 1: Diffie-Hellman Key Exchange Algorithm</h3>
-    <p>This video (slides <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.p5" target="_blank" title="">here</a>) 
+    <p>This video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.p5" target="_blank" title="">here</a>) 
       includes video clips from Brit Cruise's great explanation
       of the <i><span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span> key exchange algorithm</i>.  After watching
       the video, try using the widget below to play with the color-mixing
@@ -128,12 +128,12 @@ Learning Activities
       display the secret color that it shares with you. 
     </p>
     <p>Give it a try.  Colors are represented by hexadecimal numbers as explained in the sidebar.
-      (<a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" target="_blank">Open widget in a separate window</a>)
+      (<a href="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" target="_blank">Open widget in a separate window</a>)
     </p>
     <table>
     <tbody><tr>
     <td>
-    <iframe height="450" instanceid="k8nug819cUct" src="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" title="" width="550">
+    <iframe height="450" instanceid="k8nug819cUct" src="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" title="" width="550">
     </iframe>
     </td>
     <td>In the RGB system colors are represented by 6-digit hexadecimal numbers, 
@@ -158,7 +158,7 @@ Learning Activities
       one-way function -- i.e., a mathematical function that is easy to compute in one direction, but <i><span class="hover vocab yui-wk-div" data-id='intractable'>intractable</span></i>
       to compute in the other.
     </p>
-    <p>The following video (slides <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0254" target="_blank" title="">here</a>) 
+    <p>The following video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0254" target="_blank" title="">here</a>) 
       provides a high-level description of <span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span> without out going too deeply into 
       the mathematical details.
     </p>
@@ -180,7 +180,7 @@ Learning Activities
     <p>
       Now that we have some understanding of the algorithms used to encrypt data, we can take a look at how
       these algorithms work together in the system that secures the Internet.  
-      The following video (slides <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0551" target="_blank" title="">here</a>) 
+      The following video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0551" target="_blank" title="">here</a>) 
       describes the type of communication that takes place behind the scenes when the browser on your phone or 
       tablet or laptop computer makes a secure connection to Amazon or Google or some other Internet service. 
       
@@ -200,21 +200,6 @@ Learning Activities
     </p>
     
 
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <ul>
-    <li><a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://britcruise.com/2012/02/14/2000-years-of-cryptography-in-8-5min/" target="_blank">Brit Cruise</a> has made an entire series of videos explaining encryption. If you're curious about some of the mathematics involved, see his full videos on <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://www.youtube.com/watch?v=YEBfamv-_do" target="_blank"><span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span></a> and <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://www.youtube.com/watch?v=wXB-V_Keiu8" target="_blank"><span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span></a>.</li>
-    <li>You can also read more about how encryption developed in <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf" target="_blank">Chapter 5 of <i>Blown to Bits</i></a> (pg. 178+)</li>
-    <li>The Khan Academy has incorporated the Cruise videos into an excellent interactive <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">course on Cryptography</a>, from the Caesar cipher to public key encryption.</li>
-    <li>The history of <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://en.wikipedia.org/wiki/History_of_cryptography" target="_blank">cryptography</a> is very interesting story of the battle between <i>cryptographers</i>, those who create ciphers, and <i>cryptanalysts</i>, those who try to break ciphers. Until the 1990s cryptographic algorithms were the considered armaments by the U.S. government and it was widely believed that the National Security Agency (NSA) could break all existing ciphers.  That's no longer believed to be true. Today, strong cryptography is available to us on our smart phones.  But we still see the battle playing out between the government and private individuals and corporations over whether the government should have access to the keys that protect the data on our phones.  If you're curious about this, see this article on the <a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute" target="_blank">dispute between Apple and the FBI</a>.</li>
-    <li>The PBS News Hour video has a guest from the <b><a href="<span class="hover vocab yui-wk-div" data-id='https'>https</span>://www.eff.org/" target="_blank">Electronic Frontier Foundation</a></b>, an organization that defends civil liberties related to the digital world. What other issues from the course do they have positions on or have been involved with?</li>
-    </ul>
-    
-
 Summary
 --------
 
@@ -224,7 +209,20 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
-    
+
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <ul>
+    <li><a href="https://britcruise.com/2012/02/14/2000-years-of-cryptography-in-8-5min/" target="_blank">Brit Cruise</a> has made an entire series of videos explaining encryption. If you're curious about some of the mathematics involved, see his full videos on <a href="https://www.youtube.com/watch?v=YEBfamv-_do" target="_blank"><span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span></a> and <a href="https://www.youtube.com/watch?v=wXB-V_Keiu8" target="_blank"><span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span></a>.</li>
+    <li>You can also read more about how encryption developed in <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf" target="_blank">Chapter 5 of <i>Blown to Bits</i></a> (pg. 178+)</li>
+    <li>The Khan Academy has incorporated the Cruise videos into an excellent interactive <a href="https://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">course on Cryptography</a>, from the Caesar cipher to public key encryption.</li>
+    <li>The history of <a href="https://en.wikipedia.org/wiki/History_of_cryptography" target="_blank">cryptography</a> is very interesting story of the battle between <i>cryptographers</i>, those who create ciphers, and <i>cryptanalysts</i>, those who try to break ciphers. Until the 1990s cryptographic algorithms were the considered armaments by the U.S. government and it was widely believed that the National Security Agency (NSA) could break all existing ciphers.  That's no longer believed to be true. Today, strong cryptography is available to us on our smart phones.  But we still see the battle playing out between the government and private individuals and corporations over whether the government should have access to the keys that protect the data on our phones.  If you're curious about this, see this article on the <a href="https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute" target="_blank">dispute between Apple and the FBI</a>.</li>
+    <li>The PBS News Hour video has a guest from the <b><a href="https://www.eff.org/" target="_blank">Electronic Frontier Foundation</a></b>, an organization that defends civil liberties related to the digital world. What other issues from the course do they have positions on or have been involved with?</li>
+    </ul>    
 
 Self-Check
 -----------

@@ -67,6 +67,10 @@ Introduction and Goals
     <p></p>
     </div>
 
+Learning Activities
+--------------------
+
+.. raw:: html
 
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (30 minutes)</h3> 
@@ -115,12 +119,6 @@ Introduction and Goals
     Continue with the rest of the exercises in the <a href="https://docs.google.com/document/d/1AkIwOQLTU4_TonpRh3LEqoLMXWiVdZ4AiYf1y-qWIEI/copy" target="_blank">Image Representation Activity Worksheet</a>.<br/>
     </div>
     
-
-Learning Activities
---------------------
-
-.. raw:: html
-
     <p><h3>Run-Length Encoding</h3><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of RLE image compression (an example of <b><i><span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span></i></b>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
 .. youtube:: xn3-BAiaJ1k
         :width: 650
@@ -176,7 +174,17 @@ Learning Activities
     </ol>
     </div>
     
+Summary
+--------
 
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div class="yui-wk-div" id="summarylist">
+    </div>
+    <p></p>
+    
 Still Curious?
 ---------------
 
@@ -225,7 +233,6 @@ Still Curious?
     <div id="bogus-div">
     <p></p>
     </div>
-
       
       Here's a fun activity if you have a computer or tablet with a microphone. Go to <a href="https://academo.org/demos/virtual-oscilloscope/" target="_blank">https://academo.org/demos/virtual-oscilloscope/</a> or a different audio recorder and see the sound waves that your voice can produce. Think about how they would be represented in 0s and 1s.</p><p>
     
@@ -233,16 +240,6 @@ Still Curious?
     
     </p>
 
-Summary
---------
-
-.. raw:: html
-
-    <p>
-    In this lesson, you learned how to:
-      <div class="yui-wk-div" id="summarylist">
-    </div>
-    <p></p>
 
 Self-Check
 -----------

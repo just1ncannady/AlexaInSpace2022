@@ -52,9 +52,9 @@ Computer Networking
 Introduction and Goals
 -----------------------
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
-    <p>
+	<p>
     <p>
       The Internet is one of the seven Big Ideas of the CS Principles (CSP) curriculum and
       rightly so:  The Internet has had a tremendous impact on our lives and on modern society.
@@ -85,7 +85,7 @@ Introduction and Goals
 Learning Activities
 --------------------
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
     <p><h3>Part 1.  Basic Concepts and Terminology</h3>
     <p>
@@ -229,28 +229,30 @@ Learning Activities
     
     &lt;/li&gt;&lt;/ul&gt;
     -->
-    <h3>Still Curious</h3>
-    <ul>
-    <li><a href="https://youtu.be/ICJqv0TN6-c" target="_blank">This video</a> contains a very visual example of <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> using balloons and pipes that you could even recreate in your classroom.</li>
-    <li><a href="https://youtu.be/F1a-eMF9xdY" target="_blank">This video</a> compares <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> to vehicles such as buses and race cars. It also explains <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> concepts in terms of the speed of light and queues (lines).</li>
-    </ul>
-    
 
 Summary
 --------
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
     <p>
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
     
+Still Curious
+--------------
+.. raw:: html
+
+    <ul>
+    <li><a href="https://youtu.be/ICJqv0TN6-c" target="_blank">This video</a> contains a very visual example of <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> using balloons and pipes that you could even recreate in your classroom.</li>
+    <li><a href="https://youtu.be/F1a-eMF9xdY" target="_blank">This video</a> compares <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> to vehicles such as buses and race cars. It also explains <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> concepts in terms of the speed of light and queues (lines).</li>
+    </ul>
 
 Self-Check
 -----------
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
     <p>
     

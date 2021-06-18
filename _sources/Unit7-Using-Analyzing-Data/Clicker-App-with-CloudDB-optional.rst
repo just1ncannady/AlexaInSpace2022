@@ -89,8 +89,6 @@ Learning Activities
     <p>
     The CloudDB stores two types of records, individual data items in variables or lists. In this app, we will only be using it to store individual data items. Note that the tags are case sensitive in a CloudDB. 
     
-    
-    
       
     </p><h3>Getting Ready</h3>
     <p>Start App Inventor with <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit6/templates/ClickerApp/ClickerWebDBtemplate.asc" target="_blank">Clicker App Template</a>.  Once the project opens use Save As to rename your project <i>ClickerCloudDB</i>. 
@@ -98,6 +96,7 @@ Learning Activities
     <p>
     Follow the video tutorial below or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.<br/>
     </p><p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks instead in this tutorial! <br/>
+
 .. youtube:: 25WJLbsgIrM
         :width: 650
         :height: 415
@@ -109,6 +108,7 @@ Learning Activities
     <p></p>
     </div>
 
+	<h3>Testing the App</h3>
     <p>
     This app is best tested by forming a group of students where everyone in the group loads one student's app using <b>Build/App (provide QR code for apk)</b>.   Make sure that as each person's app loads, that the most recent data stored in the database shows up on the User Interface. When one of student in your group votes, the latest data should update on everyone’s screen. Because this app is more easily tested using .apk files, we recommend it be built (and tested) on Android devices until iOS .apk files become available in App Inventor.</p>
     <h3>Exercises and Enhancements</h3>

@@ -112,7 +112,7 @@ Learning Activities
     <p>This course emphasizes communication and collaboration. You will do many group activities called POGIL Activities in this course, starting with the one below.   <a href="https://pogil.org/about-pogil/what-is-pogil" target="_blank">POGIL</a> stands for Process Oriented Guided Inquiry Learning. In POGIL activities, you will work in self-managed teams of 3 or 4 students where everyone has a role. You will explore an activity or solve a problem together, making sure that everyone in the team participates and learns. In order for these POGIL activities to be effective, each member must be willing to practice good interpersonal skills including communication, consensus building, conflict resolution, and negotiation.</p>
     <br/>Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">using this worksheet</a>. 
        <br/>Here's more information about <a href="https://docs.google.com/document/d/1_NfNLWJxaG4qZ2Jd2x8UctDS05twn1h6p-o3XaAcRv0/edit?usp=sharing" target="_blank">POGIL roles</a>.<br/>
-    <table>
+    <table style="border: 1px solid lightgray;">
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
     <td>Facilitator</td>
@@ -193,7 +193,14 @@ Summary
       <div class="yui-wk-div" id="summarylist">
     </div>
     
+Still Curious?
+---------------
 
+.. raw:: html
+
+    <p>
+    <p>It may seem a bit amazing to you that the three simple control structures we used in the Maze problems are powerful enough, in combination, to build any algorithm that can be thought of. But this fact, known as the <i>structured program theorem</i>, was proved in a 1966 research paper by Corrado Boehm and Guiseppe Jacopini. You can read more about it in this <a href="http://en.wikipedia.org/wiki/Structured_program_theorem">Wikipedia article</a>.</p>
+    
 Self-Check
 -----------
 
@@ -337,18 +344,6 @@ Self-Check
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>It may seem a bit amazing to you that the three simple control structures we used in the Maze problems are powerful enough, in combination, to build any algorithm that can be thought of. But this fact, known as the <i>structured program theorem</i>, was proved in a 1966 research paper by Corrado Boehm and Guiseppe Jacopini. You can read more about it in this <a href="http://en.wikipedia.org/wiki/Structured_program_theorem">Wikipedia article</a>.</p>
-    
 
 Reflection: For Your Portfolio
 -------------------------------

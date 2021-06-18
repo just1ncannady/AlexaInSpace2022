@@ -68,7 +68,7 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h2>Loops with Lists:<br/><br/></h2>
+    <h3>Loops with Lists:</h3>
     <p>
     <a href="https://docs.google.com/presentation/d/1puzK5D_unNI65CMvxNwqPHW6DkDuPq-reuISHST5bMQ/edit?usp=sharing" target="_blank">Presentation slides on Loops with Lists</a></p>
     

@@ -15,7 +15,12 @@ AP Create 2
 	
 	<h3 id="est-length">Time Estimate: 12 hours (16 45 minute classes) minimum</h3>
 	<p>Follow these directions if you are taking CSP as an AP course. If you are in a non-AP CSP course, please go to the next lesson for Non-AP Create directions.</p>
-	
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
+
 	<p>Work with a partner to design a socially useful interactive app, that demonstrates algorithms, data, and procedural abstractions. Although you may start your project together, some of your algorithms must be developed independently. As you develop your project keep track of significant errors and bugs that you encountered and how you solved or debugged them in a journal. Be sure to follow an iterative process when developing your app.
 	</p>
 	
@@ -25,17 +30,16 @@ AP Create 2
 	    <li><a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">Create Performance Task Scoring Guidelines </a> </li>
 	</ul>
 	
-	<p>
-	
-	</p>
+Learning Activities
+--------------------
+
+.. raw:: html
+
 	<h3>Warm Up Activity: Create Grading Rubric</h3>
 	<p>
 	Use the <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">Create Performance Task Scoring Guidelines </a> to grade the two <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=127&amp;lesson=203" target="_blank">Create Performance Task Samples in lesson 8.9</a> to familiarize yourself with the rubric and Create write-ups.</p>
 	
-Iterative Design Thinking Process
----------------------------------
-
-.. raw:: html
+	<h3>Iterative Design Thinking Process</h3>
 
 	<p>Use an Iterative Design Thinking Process to develop your app. The following outline is an example of how you could apply the design thinking process to the development of your Create project. Each iteration should include stepping through the applicable Empathize, Define, Ideate, Prototype, and Test stages. Additional information about each iteration is provided below the outline.<br>
 	   </p><table style="width: 80%;" border="0">

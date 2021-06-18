@@ -47,11 +47,11 @@ Introduction and Goals
     <p>
     <table><tbody><tr><td>
     <!-- 
-      &lt;img src=&quot;assets/img/Preview.png&quot; alt=&quot;Preview of Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>&quot; width=&quot;240px&quot;&gt;
+      &lt;img src=&quot;assets/img/Preview.png&quot; alt=&quot;Preview of Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>Cipher</span>&quot; width=&quot;240px&quot;&gt;
     -->
     <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/U_Lg56Dvg2s" width="315"></iframe>
     </td>
-    <td><p><b><i>Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span> App</i></b> This lesson describes some basic terminology from the field of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, and then introduces the Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>, one of the earliest and simplest examples of a substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, which is an <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> algorithm that replaces letters 
+    <td><p>This lesson describes some basic terminology from the field of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, and then introduces the Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>, one of the earliest and simplest examples of a substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, which is an <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> algorithm that replaces letters 
       in the message with letters from a <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> alphabet.</p>
     <p>Once we understand how the Caesar algorithm works, we will implement it in a simple app that encrypts and decrypts messages</p>. 
     
@@ -115,14 +115,14 @@ Self-Check
     :answer_a: a person who makes up secret codes
     :feedback_a: This is challenging, but rewarding!
     :answer_b: an algorithm that is used to scramble text so that it can be passed in secret
-    :feedback_b: That's right! A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, such as the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> converts <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> into <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> and vice versa.
+    :feedback_b: That's right! A cipher, such as the Caesar cipher, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A cipher converts plaintext into ciphertext and vice versa.
     :answer_c: a lock that can be used to lock a message in a lock box
     :feedback_c: This is challenging, but rewarding!
     :answer_d: any puzzle, such as a crossword or Sudoku puzzle
     :feedback_d: This is challenging, but rewarding!
     :correct: b
 
-    A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> is _________________________.
+    A cipher is _________________________.
 
 
 .. raw:: html
@@ -137,7 +137,7 @@ Self-Check
 .. fillintheblank:: mcsp-6-5-2
     :casei:
 
-    Encrypt the word alphabet using a Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> with a shift of 3. Type your answer into the Textbox.  |blank|
+    Encrypt the word alphabet using a Caesar cipher with a shift of 3. Type your answer into the Textbox.  |blank|
 
     - :doskdehw: That's right! With a Caesar shift of 3, the 'alphabet' is encrypted into 'doskdehw'.
       :x: You're not quite there, yet. Give it another try; with a little more work you can figure this out! 
@@ -155,17 +155,17 @@ Self-Check
 .. mchoice:: mcsp-6-5-3
     :random:
     :practice: T
-    :answer_a: transposition <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
+    :answer_a: transposition cipher
     :feedback_a: Don’t worry, it’s hard! Let’s go back and try it again...
-    :answer_b: bimodal <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
+    :answer_b: bimodal cipher
     :feedback_b: Don’t worry, it’s hard! Let’s go back and try it again...
-    :answer_c: substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
-    :feedback_c: That's right! A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, such as the Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> converts <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> into <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> and vice versa.
-    :answer_d: substantial <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>
+    :answer_c: substitution cipher
+    :feedback_c: That's right! A cipher, such as the Caesar cipher, is an algorithm that is used to encrypt or scramble text so that it is unreadable unless one knows how to descrypt it. A cipher converts plaintext into ciphertext and vice versa.
+    :answer_d: substantial cipher
     :feedback_d: Don’t worry, it’s hard! Let’s go back and try it again...
     :correct: c
 
-    A Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> is an example of a ______________________.
+    A Caesar cipher is an example of a ______________________.
 
 
 .. raw:: html
@@ -180,7 +180,7 @@ Self-Check
 .. fillintheblank:: mcsp-6-5-4
     :casei:
 
-    The following word was encrypted using a Caesar <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> with a shift of 2: ecguct. What word is it? Type your answer into the text box.  |blank|
+    The following word was encrypted using a Caesar cipher with a shift of 2: ecguct. What word is it? Type your answer into the text box.  |blank|
 
     - :caesar: That's right! With a shift of 2, the letter 'c' becomes 'e'. The letter 'a' becomes 'c', and so on giving caesar as the secret word.
       :x: 
@@ -256,16 +256,6 @@ Self-Check
     <li><b>Extend the Alphabet </b> As it is currently implemented, the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet consists only of lowercase letters 'a' through 'z'.  This means that digits (0 through 9) and uppercase letters ('A' through 'Z') are not encrypted.  That's a security flaw that makes it easier for Eve, the eavesdropper, to break the <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> and discover the secret message.  To fix this, extend the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet to include digits and UPPERCASE letters in any order. If you use the appropriate amount of abstraction, this should be a simple change to implement!</li>
     <li><b>Challenging (Optional) </b> Preserving the blank spaces between words makes it easier for Eve the eavesdropper to crack the encrypted message.  To make this more difficult, write a <span class="hover vocab yui-wk-div" data-id='function'>function</span> that will take a sentence and output the letters in blocks of length 4 with all punctuation (i.e., all characters not in the <span class="hover vocab yui-wk-div" data-id='PLAINTEXT'>PLAINTEXT</span> alphabet) removed. For example, the <span class="hover vocab yui-wk-div" data-id='function'>function</span> would take  'this, is a test message!!' return '<b>this isat estm essa ge</b>'.</li>
     </ol>
-    
-
-Still Curious?
----------------
-
-.. raw:: html
-
-    <p>
-    <p>Read more about the historical context of Caesar's <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span> in <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf" target="_blank">Chapter 5 of <i>Blown to Bits</i></a> (pg.165).</p>
-    
 
 Summary
 --------
@@ -276,7 +266,16 @@ Summary
     In this lesson, you learned how to:
       <div class="yui-wk-div" id="summarylist">
     </div>
+    </p>
     
+Still Curious?
+---------------
+
+.. raw:: html
+
+    <p>
+    <p>Read more about the historical context of Caesar's <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span> in <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf" target="_blank">Chapter 5 of <i>Blown to Bits</i></a> (pg.165).</p>
+
 
 Self-Check
 -----------

@@ -194,6 +194,7 @@ Self-Check
     
 
 .. raw:: html
+
 	<h3>Tutorial Part 2:  Varying the Size of the Dots</h3>
     <p>
     <p>Watch the video tutorial below or click <a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/edit?usp=sharing" target="_blank"> here for the text version</a> of the tutorial.
@@ -211,13 +212,7 @@ Self-Check
     <p></p>
     </div>
 
-
-    
-
-AP CSP Pseudocode: Variables and Assignment Statements
--------------------------------------------------------
-
-.. raw:: html
+	<h3>AP CSP Pseudocode: Variables and Assignment Statements</h3>
 
     <p>
     <p>A <b><span class="hover vocab yui-wk-div" data-id='variable'>variable</span></b> provides a way to name a memory location in your program to hold different values. It is a <b>data abstraction</b> that exists in all programming languages. In App Inventor, we set up a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> using the <i>initialize global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span></i> block. The <i>get</i> block is used to get the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>'s current value whenever needed in the program. The <i>set </i>block is used to assign or change the value of the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.
@@ -260,14 +255,23 @@ AP CSP Pseudocode: Variables and Assignment Statements
     
     Some exercises involving AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> for <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> are below. More complex AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> will be shown in Unit 4.
     
-    
 
-Vocabulary
------------
+Summary
+--------
 
 .. raw:: html
 
     <p>
+    In this lesson, you learned how to:
+      <div id="summarylist">
+    </div>
+    
+
+Self-Check
+-----------
+
+.. raw:: html
+	<p>
     
     Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
     
@@ -285,24 +289,6 @@ Vocabulary
     </tr>
     </tbody>
     </table>
-    
-
-Summary
---------
-
-.. raw:: html
-
-    <p>
-    In this lesson, you learned how to:
-      <div id="summarylist">
-    </div>
-    
-
-Self-Check
------------
-
-.. raw:: html
-
     <p>
     
 .. mchoice:: mcsp-3-2-4
@@ -358,17 +344,17 @@ Self-Check
 .. mchoice:: mcsp-3-2-6
     :random:
     :practice: T
-    :answer_a: <img src="assets/img/getdotsize.png" class="yui-img"><br>
-    :feedback_a: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this. This getter block, <img src="assets/img/getdotsize.png" class="yui-img">, can only be used to 'get' the variable's current value.  It cannot be used to change its value.
-    :answer_b: <img src="assets/img/setdotsize.png" class="yui-img"><br>
+    :answer_a: <img src="../_static/assets/img/getdotsize.png" class="yui-img"><br>
+    :feedback_a: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this. This getter block, <img src="../_static/assets/img/getdotsize.png" class="yui-img">, can only be used to 'get' the variable's current value.  It cannot be used to change its value.
+    :answer_b: <img src="../_static/assets/img/setdotsize.png" class="yui-img"><br>
     :feedback_b: Yes, a setter block, <img src="assets/img/setdotsize.png" class="yui-img">, is the correct block to use to change or 'set' a variable's value.
-    :answer_c: <img src="assets/img/initdotsize.png" class="yui-img"><br>
-    :feedback_c: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this. The <img src="assets/img/initdotsize.png" class="yui-img">&nbsp;block can only be used to create and initialize a variable.  It cannot be used to change its value.
+    :answer_c: <img src="../_static/assets/img/initdotsize.png" class="yui-img"><br>
+    :feedback_c: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this. The <img src="../_static/assets/img/initdotsize.png" class="yui-img">&nbsp;block can only be used to create and initialize a variable.  It cannot be used to change its value.
     :answer_d: None of the above.
     :feedback_d: 
     :correct: b
 
-    Suppose you initialize dotsize with the block . Which of the following blocks would you use to change the value of dotsize?
+    Suppose you initialize dotsize with the block <img src="../_static/assets/img/initdotsize.png" class="yui-img"/>. Which of the following blocks would you use to change the value of dotsize?
 
     .. raw:: html
 
@@ -391,7 +377,7 @@ Self-Check
 
         <img class="yui-img" src="../_static/assets/img/dotsizesequence.png"/> |blank|
 
-    - :18: <img src="assets/img/dotsizesequence.png" class="yui-img"><br>This sequence of blocks performs the following actions on <i style="font-weight: bold;">dotsize.</i>&nbsp;When the variable is created (initialized) its initial value is 5. &nbsp;Its value is then set to 10 by the second block in the sequence. &nbsp;Its value is then set to 20 (10 + 10) by the third block in the sequence. &nbsp;Its value is then set to 18 (20 - 2) by the last block in the sequence.&nbsp;
+    - :18: <img src="../_static/assets/img/dotsizesequence.png" class="yui-img"><br>This sequence of blocks performs the following actions on <i style="font-weight: bold;">dotsize.</i>&nbsp;When the variable is created (initialized) its initial value is 5. &nbsp;Its value is then set to 10 by the second block in the sequence. &nbsp;Its value is then set to 20 (10 + 10) by the third block in the sequence. &nbsp;Its value is then set to 18 (20 - 2) by the last block in the sequence.&nbsp;
       :x: 
 
 

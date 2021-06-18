@@ -9,6 +9,10 @@ Successful Learning in Mobile CSP
 
      <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
+Introduction and Goals
+-----------------------
+
+.. raw:: html
 
      <p style="text-align:center"><i>You may not have thought of yourself as a computer scientist before, but,</i><br>
      just like most people can run but may not be runners,<br>
@@ -19,14 +23,22 @@ Successful Learning in Mobile CSP
      <i>opportunity to learn</i> and to stretch your brain.</p>
      <p>Your programs may not work on the first try, but that's okay. It just means that you have an opportunity to learn how to write it correctly the next time.</p>
 
+Learning Activities
+-----------------------
+
+.. raw:: html
+
      <h3>Your Brain Is a Muscle</h3>
      <p>Learn more from Khan Academy about how your brain is a muscle and your intelligence can grow with hard work by watching the video below 
      and then review some of the strategies that have helped other students be successful learners in Mobile CSP.</p>
      <p>
-     
-      <iframe width="100%" height="400" src="https://www.youtube.com/embed/WtKJrB5rOKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+.. youtube:: WtKJrB5rOKs
+        :width: 650
+        :height: 415
+        :align: center
 
+.. raw:: html
 
      <h3>What to Say to Yourself: Growth Mindset</h3>
      

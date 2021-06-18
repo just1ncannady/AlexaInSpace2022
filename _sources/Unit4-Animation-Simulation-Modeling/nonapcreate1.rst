@@ -2,14 +2,19 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-Non-AP Create 1
-=====================
+ASSESSMENT: Non-AP Create 1
+============================s
 
 .. raw:: html
 
      <h3 id="est-length">Time Estimate: 6 hours (8 45 minute classes) minimum</h3>
 
      <p>Follow these directions if you are taking a Non-AP CSP course. If you are taking CSP as an AP course, please go to the previous lesson for the AP Create directions.</p>
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
 
      <p>In this Create Project #1, you will work with a partner to design a socially useful interactive app, that  demonstrates algorithms such as selection and procedural abstractions. As you develop your project keep track of significant errors and bugs that you encountered and how you solved or debugged them in a journal.</p>
 
@@ -28,11 +33,11 @@ Non-AP Create 1
 
      </p>
      
-Iterative Design Thinking Process
-------------------------------------
+Learning Activities
+--------------------
 
 .. raw:: html
-
+	<h3>Iterative Design Thinking Process</h3>
      <p>Use an Iterative Design Thinking Process to develop your app:<br>
         </p><table style="width: 80%;" border="0">
            <tbody>
@@ -47,17 +52,11 @@ Iterative Design Thinking Process
                <td><img src="../_static/assets/img/DesignThinkingimage.png" class="yui-img" title="Design Thinking" alt="Design Thinking" style="width: 250px;"><br>
                </td></tr></tbody></table>
 
-Warm Up Activity: Design a Chair
-----------------------------------
-
-.. raw:: html
+	<h3>Warm Up Activity: Design a Chair</h3>
 
      <p>Your teacher may have you do the following <a href="https://docs.google.com/document/d/16Y9RPf6IhZ4pZRjtosXdergQPCLRgrmY_TTMr4N9xpU/edit?usp=sharing" target="_blank"> Design Thinking Process: Design a Chair Activity</a> in pairs or groups to practice the Design Thinking Process.
 
-Create Task Directions
-----------------------
-
-.. raw:: html
+	<h3>Create Task Directions</h3>
 
      <p>For the Non-AP version of the Create Task, we recommend that you work with a partner using pair or buddy programming to create a socially-useful app. With your partner, follow the iterative development process in <a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank"> Create  Task  with Design Thinking</a>. Here is what you need to turn in at each iteration.
      </p>
@@ -110,8 +109,11 @@ Create Task Directions
 
      <p>Your teacher may use the following <a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric </a>  or something similar to grade your Create project.
 
-     <h3>Resources</h3>
-       <ul>
+Resources
+----------
+
+.. raw:: html
+	<ul>
 
             <li><a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank">Create Task with Design Thinking</a></li><li><a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric&nbsp;</a><br></li><li><a href="https://docs.google.com/document/d/1AqIed1Z9TQ_KWX14Ee8_gOFVbnL6i5sXNOaKtwMTr8g/edit?usp=sharing" target="_blank" title="">Non-AP Create Project Template</a></li><li><a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/" target="_blank" title="">How To: Create a Portfolio Write-Up</a></li><li><a href="https://sites.google.com/site/mobilecspportfoliohelp/performance-tasks/create-1" target="_blank">Portfolio help site</a></li><li><a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/edit" target="_blank">How To: Share Your App</a></li><li><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a></li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank" title="">Mobile CSP: App Feedback Template</a></li><li><a href="https://docs.google.com/document/d/1mYjhGMo8wQzo101bD2Ebvp7ua__8qGQy_BZkT9jq_sw/copy" target="_blank" title="">Journal Entry Template</a></li>
 

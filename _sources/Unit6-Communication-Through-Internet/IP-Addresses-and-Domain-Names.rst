@@ -38,14 +38,6 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
     <p><h3>IP Addresses and Domain Names</h3>
     
     In this lesson, you will learn about IP addresses and Domain Names. We will use an Networking Simulation App to explore how the <b> <span class="hover vocab yui-wk-div" data-id='Domain Name'>Domain Name</span> System (<span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span>)</b> is used to look up the IP addresses of domain names such as google.com.<br/>
@@ -60,6 +52,11 @@ Learning Activities
     <div id="bogus-div">
     <p></p>
     </div>
+
+Learning Activities
+--------------------
+
+.. raw:: html
 
     <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='ip address'>ip address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.
     </p>
@@ -77,7 +74,7 @@ Learning Activities
     <p>
       Now that you understand how the app works, you will need to download the widget on to your tablet or Android phone. You can install the Android .apk file  for the widget by scanning the QR code below with the AI Companion app or by clicking on this link <a href="http://mobile-csp.org/DNSwidgetV13.apk" target="_blank">http://mobile-csp.org/DNSwidgetV13.apk</a> in your Android device's browser. If you are using the emulator or iOS, download  <a href="https://drive.google.com/open?id=0B4W7CJ-1czH5TF9FNHVxX1VRNmU2NS15c25CM0FaVkhLZUhF" target="_blank">this .aia file</a>  and import into App Inventor and then choose Connect. 
     <br/>
-    </p><div class="yui-wk-div" style="text-align: center;"><img alt="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget" class="yui-img selected" src="../_static/assets/img/<span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span>-qr-codeV13.png" title="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget"/><br/></div>
+    </p><div class="yui-wk-div" style="text-align: center;"><img alt="APK file for DNS Widget" class="yui-img selected" src="../_static/assets/img/DNS-qr-codeV13.png" title="APK file for DNS Widget"/><br/></div>
     <p>
     </p><h4>Troubleshooting:</h4>
     <ul>
@@ -87,7 +84,7 @@ Learning Activities
     </ul>
     <p>
        Next, get together with two of your friends in class and do the following activities. (If you are working alone, you may have to skip some of the exercises listed but can still do a majority of the tasks described here.) </p>
-    <h3>Activity 1 : Using the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> to Retrieve and Use IP Addresses</h3>
+    <h3>Activity 1 : Using the DNS to Retrieve and Use IP Addresses</h3>
     <ol>
     <li>After your teacher has assigned you a class code, type that code into the class code textbox on your login screen. Your teacher will receive this code by clicking on the NEW CLASS CODE button on their own app. Only the teacher should click this button. The students in the class should all enter the same code. </li>
     <li>If you are working on this exercise alone, you should press the <b><i>"Assign BOT"</i></b> button a dozen times before you log in to set up about a dozen or so robot users (<b><i>BOTS</i></b>) so you can practice looking up their IP addresses.  If you are working on this exercise as part of a class, you do not need to create any BOTS.
@@ -98,7 +95,7 @@ Learning Activities
               </li><li>Once you have purchased three or more items, it is now time for you to contact one of your friends to brag about your recent purchases. 
                 Locate someone on the same <span class="hover vocab yui-wk-div" data-id='router'>router</span> as you. 
     <br/>
-    <div class="yui-wk-div" style="text-align: center;"><img alt="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget" class="yui-img selected" src="../_static/assets/img/DNSnetworkDiagram.png" title="APK file for <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> Widget"/><br/></div> 
+    <div class="yui-wk-div" style="text-align: center;"><img alt="APK file for DNS Widget" class="yui-img selected" src="../_static/assets/img/DNSnetworkDiagram.png" title="APK file for DNS Widget"/><br/></div> 
       In the network diagram, above, for example, the user (<b><i>jill30</i></b>) resides on <b><i><span class="hover vocab yui-wk-div" data-id='Router'>Router</span> #7</i></b>, along with another user, <b><i>usha66</i></b>, whose <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is not known to <b><i>jill30</i></b>. But these two users are not the only ones on this network. Pressing the PEERs button will reveal all the login IDs on this network.
     <br/>
                   (If there is no other user on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> on the network diagram on your tablet's screen, you may have to skip this part of the exercise.) Notice, that their <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is initially hidden from you (marked with a <b><i>"?"</i></b>. Ask the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> what the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is of the person on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> you wish to contact. After receiving the answer, notice that the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is now visible to you on your tablet's screen. Using this newly discovered address, send a message to this person, letting them know what items you bought from Amazon. Ask the person to send you a reply. NOTE: If the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> responds with <b><i>"Invalid Address"</i></b> to your request, it is likely that you have mistyped your friend's login ID.

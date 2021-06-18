@@ -2,7 +2,7 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-Midterm
+ASSESSMENT: Midterm
 =====================
 
 .. raw:: html
@@ -17,7 +17,11 @@ Midterm
 
      <br>
      <br>
-     <h3>Reference Sheet:</h3>
+
+Reference Sheet
+-----------------
+
+.. raw:: html
 
      <p>The AP CS Principles Exam does not have a designated programming language associated with it. Therefore, the Mobile CSP exams will use generic blocks. 
      A reference sheet is provided to give instructions and explanations to help you understand the format and the meaning of the questions on the exam. The reference sheet 
