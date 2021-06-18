@@ -41,10 +41,10 @@ AP CS Principles Exam Prep
 	 <li>paper and pencil</li>
 	</ul>
 	
-	The following table shows what percentage of questions are in each of the Big Ideas in CSP:<br><br><img src="../static/assets/img/APExamBIWeight.PNG" class="yui-img" title="" alt="">
+	<p>The following table shows what percentage of questions are in each of the Big Ideas in CSP:<br><br><img src="../_static/assets/img/APExamBIWeight.png" class="yui-img" title="" alt=""></p>
 	<h3>Reference Sheet:</h3>
 	<p>The AP CS Principles Exam <i>does not</i> have a designated programming language associated with it. Therefore, a reference sheet is provided to give instructions and explanations to help you understand the format and the meaning of the questions on the exam. The <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf?course=ap-computer-science-principles" target="_blank" title="">reference sheet</a> can be seen below. It includes two programming formats: text-based and block-based. Be sure to review the reference sheet ahead of time and be familiar with the material that it has on it. The next lesson reviews AP pseudocode and compares it to App Inventor Blocks. <br>
-	<iframe src="assets/img/ap-computer-science-principles-exam-reference-sheet.pdf" width="100%" height="500px"> </iframe>
+	<iframe src="../_static/assets/img/ap-computer-science-principles-exam-reference-sheet.pdf" width="100%" height="500px"> </iframe>
 	
 	 
 	</p><h3>Learning Objectives</h3>
@@ -82,7 +82,9 @@ AP CS Principles Exam Prep
 	
 	 <p></p>
 	
-	<h2 id="summary">Summary</h2>
-	In this lesson, you learned how to:
-	 <div id="summarylist" class="yui-wk-div">
-	 </div>
+Summary
+--------
+.. raw:: html
+	<p>In this lesson, you learned how to:</p>
+	<div id="summarylist" class="yui-wk-div">
+	</div>

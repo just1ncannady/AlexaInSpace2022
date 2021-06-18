@@ -86,11 +86,13 @@ AP CS Principles Exam Prep
 	   });
 	 });
 	</script>
+	<h3>Create PT Samples</h3>
 	<p>
 	 Below are some Create Performance Task samples that were submitted in prior years and were selected by the College Board to be featured on the AP CSP Exam page. We have selected some of the samples that used MIT's App Inventor as the programming language. In some cases, additional explanations and commentary are provided to give you more insight into what is expected of you for this task. 
 	</p>
 	
-	<h4>Activity</h4>
+
+	<h3>Activity</h3>
 	<p>Select at least two samples from the list below and try scoring them with the <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">Create Performance Task Rubric</a>. When you are done reviewing the samples, score your Quiz App from Lesson 5.6 or exchange and score your classmate's Quiz app.</p>
 	
 	
@@ -98,12 +100,15 @@ Sample 1 - 2021's Pilot Sample A
 --------------------------------
 
 .. raw:: html
-	   <div id="accordion6" class="yui-wk-div">
+	   <div id="accordion" class="yui-wk-div">
 	
 	<h3>Row 1: Program Purpose and Function (Video and Response 3A)</h3>
 	<div class="yui-wk-div">
 	     <h4>Student Response</h4>
-		<gcb-youtube videoid="https://youtu.be/tQE3bkyaoes" instanceid="X7FYxjVROXgh"></gcb-youtube><br><p>3a.&nbsp;This program was created in MIT App Inventor to address the issue of learning new languages. Here it teaches the user how to say different colors, where the user inputs what language it wants to hear, either Spanish or French, and then taps on a color, prompting the program to output the audio for that certain color. This allows users to quickly learn how to say colors in another language through interaction and output of audio. In the video, it shows an example of the user clicking on the Spanish checkbox and playing the audio for red and blue. The user can hear what it sounds like, and thus learn how to say it correctly. If the user accidentally inputs nolanguage or both, the program will catch the error and notify the user.</p>
+		<!--<gcb-youtube videoid="https://youtu.be/tQE3bkyaoes" instanceid="X7FYxjVROXgh"></gcb-youtube>
+		-->
+		<br>
+		<p>3a.&nbsp;This program was created in MIT App Inventor to address the issue of learning new languages. Here it teaches the user how to say different colors, where the user inputs what language it wants to hear, either Spanish or French, and then taps on a color, prompting the program to output the audio for that certain color. This allows users to quickly learn how to say colors in another language through interaction and output of audio. In the video, it shows an example of the user clicking on the Spanish checkbox and playing the audio for red and blue. The user can hear what it sounds like, and thus learn how to say it correctly. If the user accidentally inputs nolanguage or both, the program will catch the error and notify the user.</p>
 	<table>
 	<tbody><tr>
 		<th>Requirements</th>
@@ -323,7 +328,7 @@ Sample 1 - 2021's Pilot Sample A
 	<p><br></p>
 	
 	</div>	
-	</div> <!-- accordion 6-->
+	</div> <!-- accordion 1-->
 	
 	
 	
@@ -332,7 +337,7 @@ Sample 2 - 2021's Pilot Sample C
 --------------------------------
 
 .. raw:: html
-	   <div id="accordion4" class="yui-wk-div">
+	   <div id="accordion2" class="yui-wk-div">
 	
 	<h3>Row 1: Program Purpose and Function (Video and Response 3A)</h3>
 	<div class="yui-wk-div">
@@ -603,7 +608,7 @@ Sample 2 - 2021's Pilot Sample C
 	<p><br></p>
 	
 	</div>	
-	</div> <!-- accordion 4-->
+	</div> <!-- accordion 2-->
 	
 	
 Sample 3 - 2021's Pilot Sample E
@@ -611,7 +616,7 @@ Sample 3 - 2021's Pilot Sample E
 
 .. raw:: html
 
-	   <div id="accordion5" class="yui-wk-div">
+	   <div id="accordion3" class="yui-wk-div">
 	
 	<h3>Row 1: Program Purpose and Function (Video and Response 3A)</h3>
 	<div class="yui-wk-div">
@@ -830,7 +835,7 @@ Sample 3 - 2021's Pilot Sample E
 	<p><br></p>
 	
 	</div>	
-	</div> <!-- accordion 5-->
+	</div> <!-- accordion 3-->
 	
 	
 Sample 4 - 2019's Sample H
@@ -838,7 +843,7 @@ Sample 4 - 2019's Sample H
 
 .. raw:: html
 
-	   <div id="accordion3" class="yui-wk-div">
+	   <div id="accordion4" class="yui-wk-div">
 	
 	<h3>Row 1: Developing a Program with a Purpose (Video and Response 2A)</h3>
 	<div class="yui-wk-div">
@@ -1105,14 +1110,14 @@ Sample 4 - 2019's Sample H
 	<h4>Additional Explanation</h4>
 	<p><br></p>
 	</div>
-	</div> <!-- accordion 3-->
+	</div> <!-- accordion 4-->
 	
 
 Sample 5 - 2018's Sample E
 --------------------------
 
 .. raw:: html
-	   <div id="accordion2" class="yui-wk-div">
+	   <div id="accordion5" class="yui-wk-div">
 	
 	<h3>Row 1: Developing a Program with a Purpose (Video and Response 2A)</h3>
 	<div class="yui-wk-div">
@@ -1422,7 +1427,7 @@ Sample 5 - 2018's Sample E
 	     the reasons  “...makes the general coding clearer and easier to read…” effectively illustrates the managing of the complexity.  It also subtly 
 	     points out how it reduces redundancy.</p>
 	</div>
-	</div> <!-- accordion 2-->
+	</div> <!-- accordion 5-->
 	
 	
 
@@ -1431,7 +1436,7 @@ Sample 6 - 2017's Sample A
 
 .. raw:: html
 
-	   <div id="accordion" class="yui-wk-div">
+	   <div id="accordion6" class="yui-wk-div">
 	
 	<h3>Row 1: Developing a Program with a Purpose (Video and Response 2A)
 	</h3>
@@ -1799,6 +1804,6 @@ Sample 6 - 2017's Sample A
 	
 	</div>
 	     
-	</div> <!-- accordion 1 -->
+	</div> <!-- accordion 7 -->
 	
 

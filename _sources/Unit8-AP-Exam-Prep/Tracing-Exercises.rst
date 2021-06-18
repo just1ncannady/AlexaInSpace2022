@@ -40,7 +40,7 @@ Tracing Pseudocode Exercises
 	}
 	DISPLAY(total)
 	</pre>
-	Try tracing through the code and see if your results match the trace table below:
+	<p>Try tracing through the code and see if your results match the trace table below:</p>
 	<table border="">
 	 <tbody><tr><th><u>x</u></th><th><u>total</u></th><th><u>Output</u></th></tr>
 	 <tr><td>2</td><td>0</td></tr>
@@ -73,12 +73,7 @@ Tracing Pseudocode Exercises
 	     </tr>
 	 </tbody></table>
 	 
-Writing and Tracing Pseudocode:  Critical Thinking Questions
-------------------------------------------------------------
-
-.. raw:: html
-	 
-	
+	<h4>Writing and Tracing Pseudocode:  Critical Thinking Questions</h4>
 	 <p>Suppose we have a list of numbers -- e.g.,  5,  10, -2,  -3, 7,  8,  12
 	 Here's an algorithm that uses sequence, selection, and iteration (repetition) to add all 
 	 the <b><i>even numbers</i></b> in the list and print out their sum.
@@ -96,8 +91,7 @@ Writing and Tracing Pseudocode:  Critical Thinking Questions
 	9  DISPLAY(total)
 	 </pre>
 	
-	 This algorithm contains  examples of all three types of 
-	 control structures, sequence, selection, and repetition.  The lines are numbered for convenience.
+	 <p>This algorithm contains  examples of all three types of control structures, sequence, selection, and repetition.  The lines are numbered for convenience.</p>
 	 <ol>
 	   <li>Which line(s) of the algorithm contain a repetition control structure? Remember a control structure
 	     can consist of multiple statements.
@@ -131,13 +125,32 @@ Self-Check
 ----------
 .. raw:: html
 	
-	<p></p>
-	<question quid="5177138009341952" qu_type="null" weight="1" instanceid="HaCKFNvEk9Mj"></question><br>
-	<question quid="5332167583334400" qu_type="sa" weight="1" instanceid="Fn5Ljgo8DadW"></question><br>
-	<quizly quizname="quiz_convert_list_to_string" preamble="Create a procedure called  <b>convertListToString</b> below that uses loops with lists. Make sure that all of your code is in the procedure, including initializing text to &amp;ldquo;&amp;rdquo;" \"."="" hasanswerbox="false" isrepeatable="false" hints="true" width="100%" instanceid="69MfN6vXmbKL">
-	</quizly><br>
-	<quizly quizname="quiz_count_nonzeros_in_list_procedure" preamble="Create a procedure called  <b>countNonzerosInList</b> below that uses loops with lists. Make sure that all of your code is in the procedure, including initializing count to 0." hasanswerbox="false" isrepeatable="false" hints="true" width="100%" instanceid="CMcsWiDTnGiA">
-	</quizly><br>
+	<p>MC question should appear below...</p>
+	
+.. mchoice:: mcsp-8-5-1
+	:random:
+	:practice: T
+	:answer_a: Displays 1.
+	:feedback_a: No, the answer is incorrect.
+	:answer_b: Displays all the even numbers between 1 and 100.
+	:feedback_b: No, the answer is incorrect.
+	:answer_c: Displays all the odd numbers between 1 and 100.
+	:feedback_c: Yes, the answer is correct.
+	:answer_d: Displays all the numbers between 1 and 100.
+	:feedback_d: No, the answer is incorrect.
+	:correct: c
+	
+	What does the following code do?
+
+.. quizly:: mscp-8-5-3
+        :quizname: quiz_convert_list_to_string
+     <br/>
+     
+.. quizly:: mcp-8-5-4
+
+	:quizname: quiz_count_nonzeros_in_list_procedure
+	<br />
+	
 	
 	
 	

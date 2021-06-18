@@ -7,7 +7,8 @@ Additional Resources
 
 .. raw:: html
 
-	As you are studying and preparing for the AP CSP exam, here are some additional resources to consider:<ul>
+	<p>As you are studying and preparing for the AP CSP exam, here are some additional resources to consider:</p>
+	<ul>
 	
 	<li>Mobile CSP Teacher Tim Clark's website with <a href="https://sites.google.com/gilroyunified.org/computerscience/principles-ap/create-task/sample-responses/2021-pilot/a" target="_blank">Create 2020-21 Samples</a></li>
 	<li>Beth Simon's UCSD <a href="https://sites.google.com/ucsd.edu/apcspexamprep" target="_blank">exam prep website for AP CSP</a></li>

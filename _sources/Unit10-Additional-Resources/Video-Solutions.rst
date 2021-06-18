@@ -12,16 +12,28 @@ Video Solutions to Selected Exercises and Mini-Projects
 	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-	<h2>Introduction</h2>
+
+Introduction and Goals
+-----------------------
+
+.. raw:: html
 	
 	<p>This page contains links to video clips and screen shots that show how to code some of the exercises and mini-projects in the course's lessons. There are often multiple ways to solve a coding problem. So these solutions may or may not agree with your solution.</p>
 	
-	<h2>How to Use These Materials</h2>
+How to Use These Materials
+-----------------------
+
+.. raw:: html
+
 	<p>Learning to program is learning how to solve problems.  The best way to learn and improve your programming skills is to try to solve the various problems you encounter on your own or by discussing the problems and your attempted solutions with a partner or with your teacher.  However, when you do get stuck on a problem, it is often helpful to see how someone else solved that problem or a related problem.  Studying someone else's code, especially code provided by an experienced programmer,  is often a good way to learn how to improve your programming practices and skills.</p>
 	 
 	<p><b>NOTE:</b> After studying one of the solutions provided on this page, you should implement the solution and integrate it into your own app and test that it works as intended.</p>
 	
-	<h2>Documenting Your Code</h2>
+Documenting Your Code
+-----------------------
+
+.. raw:: html
+
 	<p>If you do use the solutions provided here, you should document the fact that you are using a solution that someone else devised. You can easily do this by including a comment in your code that cites the source of your solution,  as shown in this example.
 	 <br />
 	 
