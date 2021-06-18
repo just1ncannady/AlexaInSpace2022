@@ -255,6 +255,6 @@ def setup(app):
         except ExtensionError:
             app.add_css_file(f)
     for c in custom_css_files:
-        app.add_stylesheet(c)
+        app.add_css_file(c)
     for c in custom_js_files:
-        app.add_javascript(c)
+        app.add_js_file(c)

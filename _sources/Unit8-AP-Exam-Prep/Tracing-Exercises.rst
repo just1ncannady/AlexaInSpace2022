@@ -4,27 +4,9 @@
 
 Tracing Pseudocode Exercises
 ============================
-
+       
 .. raw:: html
-
-	<!-- Copy these 6 lines to the top of the lesson's HTML code.  -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="assets/lib/lessons/tipped.js"></script>
-	<script type="text/javascript" src="assets/lib/Framework2020.js"></script>
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/tipped.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
-	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script type="text/javascript" src="assets/lib/vocabulary.js"></script>
-	
-	<script>
-	$(document).ready(function() {
-		generateSummary(EKmapping['8.03']);
-	   	generateHovers();
-	
-	});
-	</script>
-	
+    
 	
 	<h3 id="est-length">Time Estimate: 45 minutes</h3>
 	
@@ -73,7 +55,8 @@ Tracing Pseudocode Exercises
 	     </tr>
 	 </tbody></table>
 	 
-	<h4>Writing and Tracing Pseudocode:  Critical Thinking Questions</h4>
+	 <b>Writing and Tracing Pseudocode:  Critical Thinking Questions</b>
+
 	 <p>Suppose we have a list of numbers -- e.g.,  5,  10, -2,  -3, 7,  8,  12
 	 Here's an algorithm that uses sequence, selection, and iteration (repetition) to add all 
 	 the <b><i>even numbers</i></b> in the list and print out their sum.
@@ -115,35 +98,78 @@ Tracing Pseudocode Exercises
 Summary
 -------
 
-.. raw:: html
-
-	<p>In this lesson, you learned how to:</p>
-	 <div id="summarylist">
-	 </div>
+In this lesson, you learned how to trace through code.
+	 
 	
 Self-Check
 ----------
+	
 .. raw:: html
-	
-	<p>MC question should appear below...</p>
-	
-.. mchoice:: mcsp-8-5-1
-	:random:
-	:practice: T
-	:answer_a: Displays 1.
-	:feedback_a: No, the answer is incorrect.
-	:answer_b: Displays all the even numbers between 1 and 100.
-	:feedback_b: No, the answer is incorrect.
-	:answer_c: Displays all the odd numbers between 1 and 100.
-	:feedback_c: Yes, the answer is correct.
-	:answer_d: Displays all the numbers between 1 and 100.
-	:feedback_d: No, the answer is incorrect.
-	:correct: c
-	
-	What does the following code do?
 
+    <p>
+    
+.. mchoice:: mcsp-8-5-1
+    :random:
+    :practice: T
+    :answer_a: Displays all the odd numbers between 1 and 100.
+    :feedback_a: 
+    :answer_b: Displays all the even numbers between 1 and 100.
+    :feedback_b: 
+    :answer_c: Displays all the numbers between 1 and 100.
+    :feedback_c: 
+    :answer_d: Displays 1.
+    :feedback_d: 
+    :correct: a
+
+	What does the following code do?
+    
+    .. raw:: html
+    
+       <pre>
+       i ← 1
+       REPEAT UNTIL i >= 100
+       DISPLAY i
+       i ← i + 2
+       </pre>
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+.. fillintheblank:: repl-mcsp-8-5-2
+    :casei:
+
+    Consider the following pseudocode algorithm:
+    
+    .. raw:: html
+    
+       <pre>
+       P ← 1  (Set P to 1)
+       N ← 4  (Set N to 4)
+       REPEAT UNTIL (N = 0)
+       {   
+         P ← P * N  (Set P to the result of multiplying P by N)
+         N ← N - 1  (Subtract 1 from N)
+       }
+       DISPLAY(P)
+       </pre>
+
+    What result would be printed by this algorithm? |blank|
+
+    - :24: Correct.  This is an algorithm that will calculate the factorial.  The factorial of 4 is 4 x 3 x 2 x 1 which equals 24.
+      :x: Correct.  This is an algorithm that will calculate the factorial.  The factorial of 4 is 4 x 3 x 2 x 1 which equals 24.
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+    
 .. quizly:: mscp-8-5-3
-        :quizname: quiz_convert_list_to_string
+    
+    :quizname: quiz_convert_list_to_string
      <br/>
      
 .. quizly:: mcp-8-5-4
@@ -151,26 +177,44 @@ Self-Check
 	:quizname: quiz_count_nonzeros_in_list_procedure
 	<br />
 	
+
 	
 	
 	
 Sample AP CSP Exam Question
 ---------------------------
 
-.. raw:: html
 
-	<p></p>
-	<question quid="5981474378481664" weight="1" instanceid="xMVDHWtEhCzE"></question>
+.. mchoice:: mcsp-8-5-5
+    :random:
+    :practice: T
+    :answer_a: The number 0 is displayed.   
+    :feedback_a: 
+    :answer_b: The number 6 is displayed.
+    :feedback_b: 
+    :answer_c: The number 10 is displayed.
+    :feedback_c: 
+    :answer_d: Nothing is displayed; the program results in an infinite loop.
+    :feedback_d: 
+    :correct: d
+
+    Consider the following program code.Which of the following best describes the result of running the program code?
+
+    .. raw:: html
+
+        <img alt="" class="yui-img" src="../_static/assets/img/Q20Code.PNG" style="line-height: 1.22;" title=""/>
 	
 	
-	<div id="portfolio" class="yui-wk-div">
+	
+	
 
 Reflection: For Your Portfolio
 ------------------------------
 
 .. raw:: html
 	
-	<p>
+	<div id="portfolio" class="yui-wk-div">
+    <p>
 	 Create a page named&nbsp;<i><b>Tracing Pseudocode</b></i> in your portfolio and answer the following questions:</p>
 	
 	<ol>
