@@ -9,13 +9,6 @@ I Have a Dream Tutorial
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
     <style>    td { text-align: left; padding: 5px;}</style>
 
 
@@ -170,7 +163,7 @@ Self-Check
     <h3>Check Your Understanding</h3>
     <p>Complete the following self-check exercises. Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.</p>
     
-.. mchoice:: repl-mcsp-2-2-1
+.. mchoice:: mcsp-2-2-1
     :random:
     :practice: T
     :answer_a: tactile
@@ -193,7 +186,7 @@ Self-Check
     </div>
 
 
-.. mchoice:: repl-mcsp-2-2-2
+.. mchoice:: mcsp-2-2-2
     :random:
     :practice: T
     :answer_a: tactile
@@ -216,7 +209,7 @@ Self-Check
     </div>
 
 
-.. mchoice:: repl-mcsp-2-2-3
+.. mchoice:: mcsp-2-2-3
     :random:
     :practice: T
     :answer_a: A cloud application
@@ -240,7 +233,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-4
+.. mchoice:: mcsp-2-2-4
     :random:
     :practice: T
     :answer_a: A button that appears on the screen. 
@@ -266,7 +259,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-5
+.. mchoice:: mcsp-2-2-5
     :random:
     :practice: T
     :answer_a: The User Interface drawer
@@ -290,7 +283,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-6
+.. mchoice:: mcsp-2-2-6
     :random:
     :practice: T
     :answer_a: Button
@@ -316,7 +309,7 @@ Self-Check
 
 
     
-.. mchoice:: repl-mcsp-2-2-7
+.. mchoice:: mcsp-2-2-7
     :random:
     :practice: T
     :answer_a: The user taps on the screen.
@@ -343,14 +336,14 @@ Self-Check
 
     
     
-.. quizly:: repl-mscp-2-2-8
+.. quizly:: mscp-2-2-8
     
     
     :quizname: quiz_pause_the_player
     
     
     
-.. quizly:: repl-mscp-2-2-9
+.. quizly:: mscp-2-2-9
     
     
     :quizname: quiz_button_click_stop_player
