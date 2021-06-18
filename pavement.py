@@ -15,7 +15,7 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-project_name = "MobileCSP"
+project_name = "mobilecsp"
 
 master_url = None
 
@@ -26,7 +26,7 @@ master_app = 'runestone'
 serving_dir = "./build/mobilecsp"
 
 # Change to False when running localhost; True before pushing  to github
-dynamic_pages = False
+dynamic_pages = True
 
 if dynamic_pages:
     dest = './published'
