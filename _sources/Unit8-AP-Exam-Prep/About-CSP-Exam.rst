@@ -84,7 +84,9 @@ AP CS Principles Exam Prep
 	
 Summary
 --------
+
 .. raw:: html
+
 	<p>In this lesson, you learned how to:</p>
 	<div id="summarylist" class="yui-wk-div">
 	</div>

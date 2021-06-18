@@ -21,7 +21,7 @@ Introduction and Goals
 	<p>This page contains links to video clips and screen shots that show how to code some of the exercises and mini-projects in the course's lessons. There are often multiple ways to solve a coding problem. So these solutions may or may not agree with your solution.</p>
 	
 How to Use These Materials
------------------------
+----------------------------
 
 .. raw:: html
 
