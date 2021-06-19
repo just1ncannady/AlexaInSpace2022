@@ -15,7 +15,7 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-project_name = "MobileCSP"
+project_name = "mobilecsp"
 
 master_url = None
 
