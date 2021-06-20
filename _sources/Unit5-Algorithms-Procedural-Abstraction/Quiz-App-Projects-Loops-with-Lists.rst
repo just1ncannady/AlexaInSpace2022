@@ -183,9 +183,11 @@ Self-Check
     <p>
     <p>You can practice with more algorithms with loops and lists below. It is very useful to know standard algorithms that use loops like searching for an item in a list, finding the minimum or maximum value in a list, computing the sum or average of a list of values, etc. Using existing algorithms as building blocks for constructing new algorithms has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.</p>
     
-    .. quizly:: mscp-5-6-6
     
-        :quizname: quiz_scrambled_sum_a_list
+.. quizly:: mscp-5-6-6
+    
+    
+    :quizname: quiz_scrambled_sum_a_list
     
     <br/>
     
@@ -262,13 +264,13 @@ Self-Check
 .. mchoice:: mcsp-5-6-4
     :random:
     :practice: T
-    :answer_a: (A)&nbsp;IF (IsFound (afternoonList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_a: &nbsp;IF (IsFound (afternoonList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
     :feedback_a: 
-    :answer_b: (B)&nbsp;IF (IsFound (lunchList, child))<blockquote>{<br>&nbsp;APPEND (afternoonList, child)<br>}</blockquote>
+    :answer_b: &nbsp;IF (IsFound (lunchList, child))<blockquote>{<br>&nbsp;APPEND (afternoonList, child)<br>}</blockquote>
     :feedback_b: 
-    :answer_c: (C)&nbsp;IF (IsFound (morningList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_c: &nbsp;IF (IsFound (morningList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
     :feedback_c: 
-    :answer_d: (D)&nbsp;IF ((IsFound (morningList, child)) OR&nbsp;<br><span style="line-height: 1.22;"><span class="Apple-tab-span" style="white-space:pre">    </span>&nbsp; &nbsp;(IsFound (afternoonList, child)))</span><blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_d: &nbsp;IF ((IsFound (morningList, child)) OR&nbsp;<br><span style="line-height: 1.22;"><span class="Apple-tab-span" style="white-space:pre">    </span>&nbsp; &nbsp;(IsFound (afternoonList, child)))</span><blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
     :feedback_d: 
     :correct: a
 
@@ -285,19 +287,19 @@ Self-Check
 .. mchoice:: mcsp-5-6-5
     :random:
     :practice: T
-    :answer_a: (A) gradeList[i] ← min (gradeList[i] + 5, 100)
+    :answer_a:  gradeList[i] ← min (gradeList[i] + 5, 100)
     :feedback_a: 
-    :answer_b: (B) gradeList[i] ← max (gradeList[i] + 5, 100)
+    :answer_b:  gradeList[i] ← max (gradeList[i] + 5, 100)
     :feedback_b: 
-    :answer_c: (C) <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {     gradeList[i] ← gradeList[i] - 5 } </pre>
+    :answer_c:  <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {     gradeList[i] ← gradeList[i] - 5 } </pre>
     :feedback_c: 
-    :answer_d: (D)  <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {      gradeList[i] ← 100  }</pre>
+    :answer_d:   <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {      gradeList[i] ← 100  }</pre>
     :feedback_d: 
     :correct: a,d
 
     A teacher uses the following program to adjust student grades on an assignment by adding 5 points to each student’s original grade. However, if adding 5 points to a student’s original grade causes the grade to exceed 100 points, the student will receive the maximum possible score of 100 points. The students’ original grades are stored in the list gradeList, which is indexed from 1 to n. i ← 1 REPEAT n TIMES  {  &lt;MISSING CODE&gt;  i ← i + 1  }The teacher has the following procedures available.Which of the following code segments can replace &lt;MISSING CODE&gt; so that the program works as intended?Select two answers.
 
-    .. raw:: html
+    .. raw:: html.png"
 
         <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/Q30Table.PNG" style="line-height: 1.22;" title=""/>
 

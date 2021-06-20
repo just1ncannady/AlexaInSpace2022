@@ -43,6 +43,7 @@ Learning Activities
      <h3>What to Say to Yourself: Growth Mindset</h3>
      
      <p>Sometimes we use words that are not of a growth mindset. If you find yourself saying or thinking what's in the left column, try substituting what's in the right column. 
+     <style>    td { text-align: left; padding: 5px;}</style>
      <table border>
        <thead><tr><th>Instead of: </th><th>Try Thinking/Saying:</th></tr></thead>
        <tbody><tr>

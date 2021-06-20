@@ -145,13 +145,13 @@ Self-Check
 .. mchoice:: mcsp-5-9-1
     :random:
     :practice: T
-    :answer_a: (A) 60 seconds
+    :answer_a:  60 seconds
     :feedback_a: Since there are only 2 processors available, one of them must do 2 tasks. Combining any 2 of the X, Y, and Z tasks will add up to more than 70 seconds.
-    :answer_b: (B) 70 seconds
+    :answer_b:  70 seconds
     :feedback_b: Since there are only 2 processors available, one of them must do 2 tasks. Combining any 2 of the X, Y, and Z tasks will add up to more than 70 seconds.<br>
-    :answer_c: (C) 80 seconds
+    :answer_c:  80 seconds
     :feedback_c: If you did process X on processor 1 at the same time as doing process Y and then Z on processor 2, processor 1 would be done in 60 seconds and processor 2 would be done in 80 sections (50+30).&nbsp;
-    :answer_d: (D) 90 seconds
+    :answer_d:  90 seconds
     :feedback_d: This would be true if you did process X and Y on processor 1 (60+30 = 90 seconds) but there is a shorter execution time available if you combined processes in another way.
     :correct: c
 

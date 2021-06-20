@@ -244,20 +244,26 @@ Self-Check
 
     <p>
     
-    .. quizly:: mscp-3-4-7
     
-        :quizname: quiz_initialize_variable
+.. quizly:: mscp-3-4-7
     
-    <br/>
-    .. quizly:: mscp-3-4-8
     
-        :quizname: quiz_incrementing
+    :quizname: quiz_initialize_variable
     
     <br/>
     
-    .. quizly:: mscp-3-4-9
+.. quizly:: mscp-3-4-8
     
-        :quizname: quiz_simple_if_else
+    
+    :quizname: quiz_incrementing
+    
+    <br/>
+    
+    
+.. quizly:: mscp-3-4-9
+    
+    
+    :quizname: quiz_simple_if_else
     <br/>
     <br/>
 .. mchoice:: mcsp-3-4-1
@@ -333,7 +339,7 @@ Self-Check
 .. mchoice:: mcsp-3-4-4
     :random:
     :practice: T
-    :answer_a: (A) II only
+    :answer_a:  II only
     :feedback_a: 
     :answer_b: (B) I and II only
     :feedback_b: 
@@ -355,7 +361,7 @@ Self-Check
 .. mchoice:: mcsp-3-4-5
     :random:
     :practice: T
-    :answer_a: (A) x = 1, y = 2, z = 3
+    :answer_a:  x = 1, y = 2, z = 3
     :feedback_a: 
     :answer_b: (B) x = 1, y = 3, z = 2
     :feedback_b: 

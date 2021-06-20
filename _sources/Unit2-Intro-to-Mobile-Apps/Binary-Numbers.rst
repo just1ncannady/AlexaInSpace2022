@@ -1,6 +1,7 @@
 .. raw:: html 
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+    <style>    td { text-align: left; padding: 5px;}</style>
 
 Binary Numbers
 ======================
@@ -143,7 +144,8 @@ Self-Check
     :feedback_d: Yes.  The largest number that can be represented in 5 bits is 31, which is 1 1111.  To represent 32 you would need a 6th <span class="hover vocab yui-wk-div" data-id='bit'>bit</span>,  10 0000.
     :correct: b,d
 
-    An <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> occurs when there aren't enough bits to represent a given number.  Which of following would cause an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> to occur. (Choose all that apply.)
+    An overflow error occurs when there aren't enough bits to represent a given number.  
+    Which of following would cause an overflow error to occur. (Choose all that apply.)
 
 
 .. raw:: html
@@ -309,7 +311,7 @@ Other Number Systems
     <p>
     <p>One problem with binary  numbers is that it takes lots of digits to represent relatively small numbers. For example,  a number like 1 million would require 20 binary digits: 11110100001001000000. In computer science, we also use the <b>octal</b> (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 8) and <b>hexadecimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 16)</b> number system, which uses the digits 0-9 as well as the letters A-F to represent the decimal numbers 0-15. Each 4 binary bits can be replaced by 1 hex digit. The AP CSP exam no longer covers the <span class="hover vocab yui-wk-div" data-id='hexadecimal number system'>hexadecimal number system</span>, but if you're curious, you can learn more about octal and hex in the links provided in the Still Curious section below.
       
-    </p><table border="">
+    </p><table border>
     <tbody><tr><th>Decimal</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
     <tr><th>Hexadecimal</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr>
     <tr><th>Binary</th><td>0</td><td>1</td><td>10</td><td>11</td>
@@ -375,13 +377,13 @@ Self-Check
 .. mchoice:: mcsp-2-9-4
     :random:
     :practice: T
-    :answer_a: (A) 1001 0100
+    :answer_a:  1001 0100
     :feedback_a: 
-    :answer_b: (B) 1001 0111
+    :answer_b:  1001 0111
     :feedback_b: 
-    :answer_c: (C) 1101 0100
+    :answer_c:  1101 0100
     :feedback_c: 
-    :answer_d: (D) 1101 0111
+    :answer_d:  1101 0111
     :feedback_d: 
     :correct: a
 

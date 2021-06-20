@@ -363,13 +363,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-5-8-5
     :random:
     :practice: T
-    :answer_a: (A) When the problem can be solved in a reasonable time and an approximate solution is acceptable.
+    :answer_a:  When the problem can be solved in a reasonable time and an approximate solution is acceptable.
     :feedback_a: 
-    :answer_b: (B) When the problem can be solved in a reasonable time and an exact solution is needed.
+    :answer_b:  When the problem can be solved in a reasonable time and an exact solution is needed.
     :feedback_b: 
-    :answer_c: (C) When the problem cannot be solved in a reasonable time and an approximate solution is acceptable.
+    :answer_c:  When the problem cannot be solved in a reasonable time and an approximate solution is acceptable.
     :feedback_c: 
-    :answer_d: (D) When the problem cannot be solved in a reasonable time and an exact solution is needed.
+    :answer_d:  When the problem cannot be solved in a reasonable time and an exact solution is needed.
     :feedback_d: 
     :correct: c
 

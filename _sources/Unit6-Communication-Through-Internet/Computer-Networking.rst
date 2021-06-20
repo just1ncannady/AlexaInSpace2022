@@ -400,13 +400,13 @@ Self-Check
 .. mchoice:: mcsp-6-2-6
     :random:
     :practice: T
-    :answer_a: (A) A school allows students to bring a graphing calculator from home to complete in-class mathematics assignments.
+    :answer_a:  A school allows students to bring a graphing calculator from home to complete in-class mathematics assignments.
     :feedback_a: 
-    :answer_b: (B) A school allows students to bring a tablet computer to class every day to participate in graded quizzes.
+    :answer_b:  A school allows students to bring a tablet computer to class every day to participate in graded quizzes.
     :feedback_b: 
-    :answer_c: (C) A school provides a laptop or tablet computer to all students enrolled at the school.
+    :answer_c:  A school provides a laptop or tablet computer to all students enrolled at the school.
     :feedback_c: 
-    :answer_d: (D) A school recommends that all students purchase a computer with as much processing speed as possible so that projects run faster.
+    :answer_d:  A school recommends that all students purchase a computer with as much processing speed as possible so that projects run faster.
     :feedback_d: 
     :correct: c
 

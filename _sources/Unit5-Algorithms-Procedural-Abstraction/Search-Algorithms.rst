@@ -342,13 +342,13 @@ Self-Check
 .. mchoice:: mcsp-5-3-5
     :random:
     :practice: T
-    :answer_a: (A) 10
+    :answer_a:  10
     :feedback_a: 
-    :answer_b: (B) 50
+    :answer_b:  50
     :feedback_b: 
-    :answer_c: (C) 250
+    :answer_c:  250
     :feedback_c: 
-    :answer_d: (D) 500
+    :answer_d:  500
     :feedback_d: 
     :correct: a
 

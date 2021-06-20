@@ -296,13 +296,13 @@ Self-Check
 .. mchoice:: mcsp-6-9-4
     :random:
     :practice: T
-    :answer_a: (A) A vulnerability in the device’s software is exploited to gain unauthorized access to other devices on the user’s home network.
+    :answer_a:  A vulnerability in the device’s software is exploited to gain unauthorized access to other devices on the user’s home network.
     :feedback_a: This sounds like a hacking attack, not a phishing attack.
-    :answer_b: (B) A vulnerability in the device’s software is exploited to install software that reveals the user’s password to an unauthorized individual.
+    :answer_b:  A vulnerability in the device’s software is exploited to install software that reveals the user’s password to an unauthorized individual.
     :feedback_b: This sounds like a hacking attack, not a phishing attack.
-    :answer_c: (C) The user is sent an e-mail appearing to be from the manufacturer, asking the user to confirm the account password by clicking on a link in the e-mail and entering the password on the resulting page.
+    :answer_c:  The user is sent an e-mail appearing to be from the manufacturer, asking the user to confirm the account password by clicking on a link in the e-mail and entering the password on the resulting page.
     :feedback_c: Yes, a phishing attack is usually an e-mail that tries to fool people into revealing private information like passwords.
-    :answer_d: (D) The user’s account is sent an overwhelming number of messages in an attempt to disrupt service on the user’s home network.
+    :answer_d:  The user’s account is sent an overwhelming number of messages in an attempt to disrupt service on the user’s home network.
     :feedback_d: This sounds like a denial of service attack, not a phishing attack.
     :correct: c
 
@@ -319,13 +319,13 @@ Self-Check
 .. mchoice:: mcsp-6-9-5
     :random:
     :practice: T
-    :answer_a: (A) Each employee for a company is issued a USB device that contains a unique token code. To log into a company computer, an employee must insert the USB device into the computer and provide a correct password.
+    :answer_a:  Each employee for a company is issued a USB device that contains a unique token code. To log into a company computer, an employee must insert the USB device into the computer and provide a correct password.
     :feedback_a: 
-    :answer_b: (B) After logging into an account from a new device, a user must enter a code that is sent via e-mail to the e-mail address on file with the account.
+    :answer_b:  After logging into an account from a new device, a user must enter a code that is sent via e-mail to the e-mail address on file with the account.
     :feedback_b: 
-    :answer_c: (C) In order to log into an account, a user must provide both a password and a fingerprint that is captured using the user’s device.
+    :answer_c:  In order to log into an account, a user must provide both a password and a fingerprint that is captured using the user’s device.
     :feedback_c: 
-    :answer_d: (D) When a user enters an incorrect password more than two times in a row, the user is locked out of the account for 24 hours.
+    :answer_d:  When a user enters an incorrect password more than two times in a row, the user is locked out of the account for 24 hours.
     :feedback_d: 
     :correct: d
 

@@ -28,7 +28,7 @@ I Have a Dream Part 2  Explore Curricular Activity
         "Horizontal Arrangement" : "A component used to display a group of components laid out from left to right."
        
         
-      };/
+      }*/
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
@@ -38,6 +38,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
+    <style>    td { text-align: left; padding: 5px;}</style>
     <table><tbody>
     <tr><td>
     <iframe allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/CykBbRvB0lk" width="400"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
@@ -227,13 +228,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-2-4-5
     :random:
     :practice: T
-    :answer_a: (A) Is anyone there?
+    :answer_a:  Is anyone there?
     :feedback_a: This would only display if absent was true, but absent is false.
-    :answer_b: (B) Better late than never.
+    :answer_b:  Better late than never.
     :feedback_b: That's correct!
-    :answer_c: (C) Hello. Is anyone there?
+    :answer_c:  Hello. Is anyone there?
     :feedback_c: Hello would only display if onTime was true, but onTime is false.
-    :answer_d: (D) Hello. Better late than never.
+    :answer_d:  Hello. Better late than never.
     :feedback_d: Hello would only display if onTime was true, but onTime is false.
     :correct: b
 

@@ -89,6 +89,8 @@ Self-Check
     
     
     Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+    
+    <style>    td { text-align: left; padding: 5px;}</style>
     <table align="center">
     <tbody>
     <tr>

@@ -90,7 +90,7 @@ Sample Exam Questions
 
     - .. raw::html
       
-         <img src="../_static/assets/img/APExamPrepQ3ChoiceD.PNG" class="yui-img" title="" alt="">
+         <img src="../_static/assets/img/APExamPrepQ3ChoiceD.png" class="yui-img" title="" alt="">
     
       + Correct
       
@@ -414,7 +414,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ17Question.PNG" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ17Question.png" title=""/>
 
 
 .. raw:: html
@@ -489,7 +489,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion5ASCII.PNG"/>
+        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion5ASCII.png"/>
 
 
 .. raw:: html
@@ -516,7 +516,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.PNG"/>
+        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.png"/>
 
 
 .. raw:: html
@@ -612,7 +612,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion10EfficiencyAlgorithms.PNG"/>
+        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion10EfficiencyAlgorithms.png"/>
 
 
 .. raw:: html
@@ -685,7 +685,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img selected" src="../_static/assets/img/APExamPrepQ13.PNG" style="width: 400px;" title=""/>
+        <img alt="" class="yui-img selected" src="../_static/assets/img/APExamPrepQ13.png" style="width: 400px;" title=""/>
 
 
 .. raw:: html
@@ -699,13 +699,13 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-29
     :random:
     :practice: T
-    :answer_a: <img src="assets/img/APExamPrepQ14ChoiceA.PNG" class="yui-img selected" title="" alt="" align="center" style="display: block;">
+    :answer_a: <img src="assets/img/APExamPrepQ14ChoiceA.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
     :feedback_a: 
-    :answer_b: <img src="assets/img/APExamPrepQ14ChoiceB.PNG" class="yui-img selected" title="" alt="" align="center" style="display: block;">
+    :answer_b: <img src="assets/img/APExamPrepQ14ChoiceB.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
     :feedback_b: 
-    :answer_c: <img src="assets/img/APExamPrepQ14ChoiceC.PNG" class="yui-img" align="center" style="display: block;" title="" alt="">
+    :answer_c: <img src="assets/img/APExamPrepQ14ChoiceC.png" class="yui-img" align="center" style="display: block;" title="" alt="">
     :feedback_c: 
-    :answer_d: <img src="assets/img/APExamPrepQ14ChoiceD.PNG" class="yui-img" align="center" style="display: block;" title="" alt="">
+    :answer_d: <img src="assets/img/APExamPrepQ14ChoiceD.png" class="yui-img" align="center" style="display: block;" title="" alt="">
     :feedback_d: 
     :correct: d
 
@@ -713,7 +713,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ14.PNG" style="width: 200px;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ14.png" style="width: 200px;" title=""/>
 
 
 .. raw:: html
@@ -772,13 +772,13 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-32
     :random:
     :practice: T
-    :answer_a: <img src="assets/img/Q17A1.PNG" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
+    :answer_a: <img src="assets/img/Q17A1.png" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
     :feedback_a: 
-    :answer_b: <img src="assets/img/Q17A2.PNG" class="yui-img" title="" alt=""><br>
+    :answer_b: <img src="assets/img/Q17A2.png" class="yui-img" title="" alt=""><br>
     :feedback_b: 
-    :answer_c: <img src="assets/img/Q17A3.PNG" class="yui-img" title="" alt=""><br>
+    :answer_c: <img src="assets/img/Q17A3.png" class="yui-img" title="" alt=""><br>
     :feedback_c: 
-    :answer_d: <img src="assets/img/Q17A4.PNG" class="yui-img" title="" alt=""><br>
+    :answer_d: <img src="assets/img/Q17A4.png" class="yui-img" title="" alt=""><br>
     :feedback_d: 
     :correct: a
 
@@ -786,7 +786,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html
@@ -799,13 +799,13 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-33
     :random:
     :practice: T
-    :answer_a: <img src="assets/img/Q18A1.PNG" class="yui-img selected" title="" alt="" style="line-height: 1.22;">
+    :answer_a: <img src="assets/img/Q18A1.png" class="yui-img selected" title="" alt="" style="line-height: 1.22;">
     :feedback_a: 
-    :answer_b: <img src="assets/img/Q18A2.PNG" class="yui-img selected" title="" alt="">
+    :answer_b: <img src="assets/img/Q18A2.png" class="yui-img selected" title="" alt="">
     :feedback_b: 
-    :answer_c: <img src="assets/img/Q18A3.PNG" class="yui-img selected" title="" alt="">
+    :answer_c: <img src="assets/img/Q18A3.png" class="yui-img selected" title="" alt="">
     :feedback_c: 
-    :answer_d: <img src="assets/img/Q18A4.PNG" class="yui-img selected" title="" alt="">
+    :answer_d: <img src="assets/img/Q18A4.png" class="yui-img selected" title="" alt="">
     :feedback_d: 
     :correct: c
 
@@ -813,7 +813,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q18SquareQuestion.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q18SquareQuestion.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html
@@ -863,7 +863,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q20Code.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q20Code.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html
@@ -890,7 +890,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q21Table.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q21Table.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html
@@ -999,7 +999,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q30Table.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q30Table.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html
@@ -1192,7 +1192,7 @@ Sample Exam Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img selected" src="../_static/assets/img/Q28Table.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img selected" src="../_static/assets/img/Q28Table.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html

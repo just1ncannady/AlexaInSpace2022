@@ -350,13 +350,13 @@ Self-Check
 .. mchoice:: mcsp-4-5-6
     :random:
     :practice: T
-    :answer_a: (A) Step 3: Increase the value of <i>position</i> by <i>1</i>. <br>Step 4: Repeat steps 2 and 3 until the value of <i>count</i> is greater than <i>100</i>.
+    :answer_a:  Step 3: Increase the value of <i>position</i> by <i>1</i>. <br>Step 4: Repeat steps 2 and 3 until the value of <i>count</i> is greater than <i>100</i>.
     :feedback_a: 
-    :answer_b: (B) Step 3: Increase the value of <i>position </i>by <i>1</i>. <br>Step 4: Repeat steps 2 and 3 until the value of <i>position</i> is greater than <i>n</i>.
+    :answer_b:  Step 3: Increase the value of <i>position </i>by <i>1</i>. <br>Step 4: Repeat steps 2 and 3 until the value of <i>position</i> is greater than <i>n</i>.
     :feedback_b: 
-    :answer_c: (C) Step 3: Repeat step 2 until the value of <i>count</i> is greater than <i>100</i>. <br>Step 4: Increase the value of <i>position</i> by <i>1</i>.
+    :answer_c:  Step 3: Repeat step 2 until the value of <i>count</i> is greater than <i>100</i>. <br>Step 4: Increase the value of <i>position</i> by <i>1</i>.
     :feedback_c: 
-    :answer_d: (D) Step 3: Repeat step 2 until the value of <i>position</i> is greater than <i>n</i>. <br>Step 4: Increase the value of <i>count</i> by <i>1</i>.
+    :answer_d:  Step 3: Repeat step 2 until the value of <i>position</i> is greater than <i>n</i>. <br>Step 4: Increase the value of <i>count</i> by <i>1</i>.
     :feedback_d: 
     :correct: b
 

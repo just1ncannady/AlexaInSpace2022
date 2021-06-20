@@ -168,13 +168,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-4-8-1
     :random:
     :practice: T
-    :answer_a: (A) Computer simulations can only be built after the real-world object or system has been created. <br>
+    :answer_a:  Computer simulations can only be built after the real-world object or system has been created. <br>
     :feedback_a: 
-    :answer_b: (B) Computer simulations only run on very powerful computers that are not available to the general public. 
+    :answer_b:  Computer simulations only run on very powerful computers that are not available to the general public. 
     :feedback_b: 
-    :answer_c: (C) Computer simulations usually make some simplifying assumptions about the real-world object or system being <span class="Apple-tab-span" style="white-space:pre">    </span>modeled.  
+    :answer_c:  Computer simulations usually make some simplifying assumptions about the real-world object or system being <span class="Apple-tab-span" style="white-space:pre">    </span>modeled.  
     :feedback_c: This is correct
-    :answer_d: (D) It is difficult to change input parameters or conditions when using computer simulations. 
+    :answer_d:  It is difficult to change input parameters or conditions when using computer simulations. 
     :feedback_d: 
     :correct: c
 

@@ -348,13 +348,13 @@ Self-Check
 .. mchoice:: mcsp-6-3-5
     :random:
     :practice: T
-    :answer_a: (A) Each packet contains data to be transmitted, along with metadata containing information used for routing the data.
+    :answer_a:  Each packet contains data to be transmitted, along with metadata containing information used for routing the data.
     :feedback_a: 
-    :answer_b: (B) Each packet contains an encrypted version of the data to be transmitted, along with metadata containing the key needed to decrypt the data. 
+    :answer_b:  Each packet contains an encrypted version of the data to be transmitted, along with metadata containing the key needed to decrypt the data. 
     :feedback_b: 
-    :answer_c: (C) Each packet contains only the metadata used to establish a direct connection so that the data can be transmitted.
+    :answer_c:  Each packet contains only the metadata used to establish a direct connection so that the data can be transmitted.
     :feedback_c: 
-    :answer_d: (D) Each packet contains multiple data files bundled together, along with metadata describing how to categorize each data file.
+    :answer_d:  Each packet contains multiple data files bundled together, along with metadata describing how to categorize each data file.
     :feedback_d: 
     :correct: a
 

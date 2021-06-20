@@ -1,6 +1,7 @@
 .. raw:: html 
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
+    <style>    td { text-align: left; padding: 5px;}</style>
 
 Hardware Abstractions  Logic Gates
 ==================================
@@ -129,7 +130,7 @@ Learning Activities
     </li>
     <li>Define 2 truth tables, one for each of the two meanings of OR that you discussed above.  Your truth table should
           consist of 4 rows that together provide all possible values for inputs A and B and what the result Z would be. For example, A is "soup" and B is "salad" and Z is "soup or salad" for one of the meanings of or above. 
-          <table>
+          <table border>
     <tbody><tr><th>A</th><th>B</th><th>Z</th></tr><tr>
     </tr><tr><td>False</td><td>False</td><td> </td></tr>
     <tr><td>False</td><td>True</td><td> </td></tr>
@@ -371,13 +372,13 @@ Self-Check
 .. mchoice:: mcsp-2-10-7
     :random:
     :practice: T
-    :answer_a: (A) Input A must be true.
+    :answer_a:  Input A must be true.
     :feedback_a: This is correct!
-    :answer_b: (B) Input A must be false.
+    :answer_b:  Input A must be false.
     :feedback_b: 
-    :answer_c: (C) Input A can be either true or false.
+    :answer_c:  Input A can be either true or false.
     :feedback_c: 
-    :answer_d: (D) There is no possible value of Input A that will cause the circuit to have the output true.
+    :answer_d:  There is no possible value of Input A that will cause the circuit to have the output true.
     :feedback_d: 
     :correct: a
 
@@ -398,13 +399,13 @@ Self-Check
 .. mchoice:: mcsp-2-10-8
     :random:
     :practice: T
-    :answer_a: (A) (onFloor1 AND callTo2) AND (onFloor2 AND callTo1)
+    :answer_a:  (onFloor1 AND callTo2) AND (onFloor2 AND callTo1)
     :feedback_a: 
-    :answer_b: (B) (onFloor1 AND callTo2) OR (onFloor2 AND callTo1)
+    :answer_b:  (onFloor1 AND callTo2) OR (onFloor2 AND callTo1)
     :feedback_b: That's correct!
-    :answer_c: (C) (onFloor1 OR callTo2) AND (onFloor2 OR callTo1)
+    :answer_c:  (onFloor1 OR callTo2) AND (onFloor2 OR callTo1)
     :feedback_c: 
-    :answer_d: (D) (onFloor1 OR callTo2) OR (onFloor2 OR callTo1)
+    :answer_d:  (onFloor1 OR callTo2) OR (onFloor2 OR callTo1)
     :feedback_d: 
     :correct: b
 

@@ -7,19 +7,7 @@ Welcome to Mobile CSP
 
 .. raw:: html
 
-    <!-- Custom Scripts -->
-    <script src="../_static/assets/lib/lessons/tipped.js" type="text/javascript"></script>
-    <script src="../_static/assets/lib/lessons/Framework2020.js" type="text/javascript"></script>
-    <link href="../_static/assets/lib/lessons/tipped.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/lib/lessons/lessons.css" rel="stylesheet" type="text/css"></link>
-    <link href="../_static/assets/css/custom.css" rel="stylesheet" type="test/css"></link>
-    <script src="../_static/assets/lib/lessons/vocabulary.js" type="text/javascript"></script>
-    <style>    td { text-align: left; padding: 5px;}</style>
-
-
-.. raw:: html
-
-        <div class="gcb-lesson-content" data-question-batch-id="L48" data-scored="False">
+    <div class="gcb-lesson-content" data-question-batch-id="L48" data-scored="False">
     <p>Welcome!  <a href="http://mobile-csp.org" target="_blank">Mobile Computer Science Principles (Mobile CSP)</a> is an Advanced Placement (AP) level introduction to computer science.  As its name suggests, the course teaches about the principles of computer science from the  perspective of mobile computing.  This Google Course Builder site is the free and open online version of the course. </p>
     <p><a href="http://en.wikipedia.org/wiki/Mobile_computing">
     Mobile computing</a> is an emerging field that focuses on mobile devices, such as 
@@ -40,10 +28,10 @@ Welcome to Mobile CSP
     <p>The Mobile CSP course consists of seven main units with the big ideas of the College Board's curricular framework known as <a href="http://apcsprinciples.org/" target="_blank">Computer Science Principles (CSP)</a> spiraled across the units. The CSP framework consists of <b>five Big Ideas</b>: Creative Development (CRD), Data (DAT), Algorithms and Programming (AAP), Computing Systems and Networks (CSN), and Impact of Computing (IOC). In addition, the <b>six Computational Thinking Practices</b>: Computational Solution Design, Algorithms and Program Development, Abstraction in Program Development, Code Analysis, Computing Innovations, and Responsible Computing and their associated skills of the CSP framework are both developmentally sequenced and spiraled across the units, building on each other. The CSP framework was developed by leading computer science educators from around the country with guidance from the College Board and with funding support
     from the National Science Foundation. The first AP CSP exam was offered in spring 2017.</p>
     
-    The following video provides a quick overview of App Inventor and Mobile CSP curriculum. 
-     If you'd prefer to browse through the presentation at your own 
-    pace, click on the "Text Version" button.
+    The following video provides a quick overview of App Inventor and Mobile CSP curriculum in this 
+    <a href="https://docs.google.com/presentation/d/11u5r7W5TrFuqVdVpmZITYTVFLYiKEohnvZoJb4JVQ0I/edit?usp=sharing" target="_blank">presentation</a>.
     <br/><br/>
+
 .. youtube:: 9KQsWrBDvhA
         :width: 650
         :height: 415

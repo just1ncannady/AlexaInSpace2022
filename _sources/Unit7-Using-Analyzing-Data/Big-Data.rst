@@ -371,13 +371,13 @@ Self-Check
 .. mchoice:: mcsp-7-2-8
     :random:
     :practice: T
-    :answer_a: (A) Backing up data   
+    :answer_a:  Backing up data   
     :feedback_a: Not quite - According to the table, backing up data for a company with 100,000 would take over 2,000 hours (200 x 10). Even though that's a long time, there is another task that would take even longer.
-    :answer_b: (B) Deleting entries from data
+    :answer_b:  Deleting entries from data
     :feedback_b: Nice try, but according to this table deleting entries for a company with approximately 100,000 customers would only take 400 hours.
-    :answer_c: (C) Searching through data
+    :answer_c:  Searching through data
     :feedback_c: Nice try, but the question is asking about 100,000 customers.
-    :answer_d: (D) Sorting data
+    :answer_d:  Sorting data
     :feedback_d: That is correct!
     :correct: d
 
@@ -385,7 +385,7 @@ Self-Check
 
     .. raw:: html
 
-        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion10EfficiencyAlgorithms.PNG"/>
+        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion10EfficiencyAlgorithms.png"/>
 
 
 .. raw:: html

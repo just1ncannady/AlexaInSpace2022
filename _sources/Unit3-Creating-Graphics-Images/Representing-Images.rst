@@ -319,13 +319,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-3-3-3
     :random:
     :practice: T
-    :answer_a: (A) Data compression is only useful for files being transmitted over the Internet.
+    :answer_a:  Data compression is only useful for files being transmitted over the Internet.
     :feedback_a: 
-    :answer_b: (B) No matter what compression technique is used, once a data file is compressed, it cannot be restored to its original state.
+    :answer_b:  No matter what compression technique is used, once a data file is compressed, it cannot be restored to its original state.
     :feedback_b: 
-    :answer_c: (C) Sending a compressed version of a file ensures that the contents of the file cannot be intercepted by an unauthorized user.
+    :answer_c:  Sending a compressed version of a file ensures that the contents of the file cannot be intercepted by an unauthorized user.
     :feedback_c: 
-    :answer_d: (D) There are trade-offs involved in choosing a compression technique for storing and transmitting data.
+    :answer_d:  There are trade-offs involved in choosing a compression technique for storing and transmitting data.
     :feedback_d: That's correct!
     :correct: d
 

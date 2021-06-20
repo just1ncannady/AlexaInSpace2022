@@ -474,13 +474,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-5-7-10
     :random:
     :practice: T
-    :answer_a: (A) Algorithm A always calculates the correct average, but Algorithm B does not.
+    :answer_a:  Algorithm A always calculates the correct average, but Algorithm B does not.
     :feedback_a: 
-    :answer_b: (B) Algorithm B always calculates the correct average, but Algorithm A does not.
+    :answer_b:  Algorithm B always calculates the correct average, but Algorithm A does not.
     :feedback_b: 
-    :answer_c: (C) Both Algorithm A and Algorithm B always calculate the correct average.
+    :answer_c:  Both Algorithm A and Algorithm B always calculate the correct average.
     :feedback_c: 
-    :answer_d: (D) Neither Algorithm A nor Algorithm B calculates the correct average.
+    :answer_d:  Neither Algorithm A nor Algorithm B calculates the correct average.
     :feedback_d: 
     :correct: c
 

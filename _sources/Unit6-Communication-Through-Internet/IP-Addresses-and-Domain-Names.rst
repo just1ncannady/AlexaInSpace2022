@@ -320,13 +320,13 @@ Self-Check
 .. mchoice:: mcsp-6-4-4
     :random:
     :practice: T
-    :answer_a: (A) The Domain Name Servers (DNS)
+    :answer_a:  The Domain Name Servers (DNS)
     :feedback_a: The DNS provides look-ups for IP Addresses but does NOT assign them.
-    :answer_b: (B) The Network Service Provider
+    :answer_b:  The Network Service Provider
     :feedback_b: 
-    :answer_c: (C) The Browser
+    :answer_c:  The Browser
     :feedback_c: 
-    :answer_d: (D) The User
+    :answer_d:  The User
     :feedback_d: 
     :correct: b
 
@@ -345,13 +345,13 @@ Self-Check
 .. mchoice:: mcsp-6-4-5
     :random:
     :practice: T
-    :answer_a: (A) about.example.com
+    :answer_a:  about.example.com
     :feedback_a: 
-    :answer_b: (B) example.co.uk
+    :answer_b:  example.co.uk
     :feedback_b: 
-    :answer_c: (C) example.com.org
+    :answer_c:  example.com.org
     :feedback_c: 
-    :answer_d: (D) example.org
+    :answer_d:  example.org
     :feedback_d: 
     :correct: a
 

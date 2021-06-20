@@ -388,13 +388,13 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-5
     :random:
     :practice: T
-    :answer_a: (A)&nbsp;<br><div style="text-align: left;"><img src="assets/img/Q17A1.PNG" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
+    :answer_a: &nbsp;<br><div style="text-align: left;"><img src="assets/img/Q17A1.png" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
     :feedback_a: 
-    :answer_b: (B)&nbsp;<br><img src="assets/img/Q17A2.PNG" class="yui-img" title="" alt=""><br>
+    :answer_b: &nbsp;<br><img src="assets/img/Q17A2.png" class="yui-img" title="" alt=""><br>
     :feedback_b: 
-    :answer_c: (C) <br><img src="assets/img/Q17A3.PNG" class="yui-img" title="" alt=""><br>
+    :answer_c:  <br><img src="assets/img/Q17A3.png" class="yui-img" title="" alt=""><br>
     :feedback_c: 
-    :answer_d: (D) <br><img src="assets/img/Q17A4.PNG" class="yui-img" title="" alt=""><br>
+    :answer_d:  <br><img src="assets/img/Q17A4.png" class="yui-img" title="" alt=""><br>
     :feedback_d: 
     :correct: a
 
@@ -402,7 +402,7 @@ Sample AP CSP Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.png" style="line-height: 1.22;" title=""/>
 
 
 .. raw:: html
@@ -416,13 +416,13 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-6
     :random:
     :practice: T
-    :answer_a: (A)&nbsp;<img src="assets/img/APExamPrepQ14ChoiceA.PNG" class="yui-img selected" title="" alt="" align="center" style="display: block;">
+    :answer_a: &nbsp;<img src="assets/img/APExamPrepQ14ChoiceA.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
     :feedback_a: 
-    :answer_b: (B) <img src="assets/img/APExamPrepQ14ChoiceB.PNG" class="yui-img selected" title="" alt="" align="center" style="display: block;">
+    :answer_b:  <img src="assets/img/APExamPrepQ14ChoiceB.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
     :feedback_b: 
-    :answer_c: (C)&nbsp;<img src="assets/img/APExamPrepQ14ChoiceC.PNG" class="yui-img" align="center" style="display: block;" title="" alt="">
+    :answer_c: &nbsp;<img src="assets/img/APExamPrepQ14ChoiceC.png" class="yui-img" align="center" style="display: block;" title="" alt="">
     :feedback_c: 
-    :answer_d: (D)&nbsp;<img src="assets/img/APExamPrepQ14ChoiceD.PNG" class="yui-img" align="center" style="display: block;" title="" alt="">
+    :answer_d: &nbsp;<img src="assets/img/APExamPrepQ14ChoiceD.png" class="yui-img" align="center" style="display: block;" title="" alt="">
     :feedback_d: 
     :correct: d
 
@@ -430,7 +430,7 @@ Sample AP CSP Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ14.PNG" style="width: 200px;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ14.png" style="width: 200px;" title=""/>
 
 
 .. raw:: html
@@ -443,13 +443,13 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-7
     :random:
     :practice: T
-    :answer_a: (A) Changing line 6 to IF(item = count)
+    :answer_a:  Changing line 6 to IF(item = count)
     :feedback_a: 
-    :answer_b: (B) Changing line 6 to IF(myList[item] = val)
+    :answer_b:  Changing line 6 to IF(myList[item] = val)
     :feedback_b: 
-    :answer_c: (C) Moving the statement in line 5 so that it appears between lines 2 and 3
+    :answer_c:  Moving the statement in line 5 so that it appears between lines 2 and 3
     :feedback_c: 
-    :answer_d: (D) Moving the statement in line 11 so that it appears between lines 9 and 10
+    :answer_d:  Moving the statement in line 11 so that it appears between lines 9 and 10
     :feedback_d: 
     :correct: c
 
@@ -480,7 +480,7 @@ Sample AP CSP Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17Question.PNG?seed=49317&amp;url=assets/img/APExamPrepQ17Question.PNG" title=""/>
+        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17Question.PNG?seed=49317&amp;url=assets/img/APExamPrepQ17Question.png" title=""/>
 
 
 .. raw:: html

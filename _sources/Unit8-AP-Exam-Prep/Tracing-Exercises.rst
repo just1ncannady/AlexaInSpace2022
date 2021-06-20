@@ -202,7 +202,7 @@ Sample AP CSP Exam Question
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q20Code.PNG" style="line-height: 1.22;" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q20Code.png" style="line-height: 1.22;" title=""/>
 	
 	
 	

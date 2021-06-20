@@ -74,7 +74,7 @@ Learning Activities
     Chapter Three of Blown to Bits</a> describes how <span class="hover vocab yui-wk-div" data-id='digital'>digital</span> documents, 
     including images and sounds, are represented by sequences of bits. Why do you think this chapter is called "Ghosts in the Machine"?</p>
     <p>As you learned in the previous lesson and as shown in the this diagram, the first step in representing an image is to convert it into a sequence of bits.  This is known as <i style="font-weight: bold;"><span class="hover vocab yui-wk-div" data-id='modeling'>modeling</span></i>. The model is an <i><b>abstract representation</b></i> of the original image.</p>
-    <div class="yui-wk-div" style="text-align: center"><img class="yui-img selected" src="../_static/assets/img/FaceModel.PNG"/></div>
+    <div class="yui-wk-div" style="text-align: center"><img class="yui-img selected" src="../_static/assets/img/FaceModel.png"/></div>
     <p><b>Activity: </b>Read Chapter Three (up to page 99) to discover what's hidden in electronic documents.</p>
     <ul>
     <li>Part 1: What You See Is Not What the Computer Knows - Read pg. 73 and 74 out loud as a class and discuss the word "redacted." Continue reading this section (up to pg. 80), using the <a href="https://docs.google.com/document/d/1yBzUmMimZ7YVF0x9osqcGRtHP-RkT46MLAjL2mzsAe0/edit?usp=sharing" target="_blank">Conversation Questions Template</a> to write down a question about 3-4 ideas that were important, surprising, or thought provoking. In small groups, discuss your questions. <p><b><i>Metadata</i></b> (data about data) is described and discussed on pg. 78-80. Here are a few additional things you should know about metadata:</p><ul><li>Metadata are used for finding, organizing, and managing information. </li> <li>Metadata can increase the effective use of data or data sets by providing additional information.</li><li> Metadata allow data to be structured and organized.<br/></li></ul>
@@ -142,13 +142,13 @@ Self Check
 .. mchoice:: mcsp-3-10-1
     :random:
     :practice: T
-    :answer_a: (A) Determining the likelihood that the photo is a picture of the sky
+    :answer_a:  Determining the likelihood that the photo is a picture of the sky
     :feedback_a: 
-    :answer_b: (B) Determining the likelihood that the photo was taken at a particular public event
+    :answer_b:  Determining the likelihood that the photo was taken at a particular public event
     :feedback_b: 
-    :answer_c: (C) Determining the number of people that appear in the photo
+    :answer_c:  Determining the number of people that appear in the photo
     :feedback_c: 
-    :answer_d: (D) Determining the usability of the photo for projection onto a particular color background
+    :answer_d:  Determining the usability of the photo for projection onto a particular color background
     :feedback_d: 
     :correct: b
 

@@ -338,13 +338,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-6-7-4
     :random:
     :practice: T
-    :answer_a: (A) I
+    :answer_a:  I
     :feedback_a: 
-    :answer_b: (B) II
+    :answer_b:  II
     :feedback_b: 
-    :answer_c: (C) I and II
+    :answer_c:  I and II
     :feedback_c: 
-    :answer_d: (D) Neither I nor II
+    :answer_d:  Neither I nor II
     :feedback_d: 
     :correct: a
 

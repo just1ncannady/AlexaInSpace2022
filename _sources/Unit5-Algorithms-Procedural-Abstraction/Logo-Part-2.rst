@@ -450,13 +450,13 @@ Sample AP CSP Exam Question
 .. mchoice:: mcsp-5-2-3
     :random:
     :practice: T
-    :answer_a: (A)&nbsp;<br><div style="text-align: left;" class="yui-wk-div"><img src="assets/img/Q18A1.PNG" class="yui-img selected" title="" alt="" style="line-height: 1.22;"></div>
+    :answer_a: &nbsp;<br><div style="text-align: left;" class="yui-wk-div"><img src="assets/img/Q18A1.png" class="yui-img selected" title="" alt="" style="line-height: 1.22;"></div>
     :feedback_a: 
-    :answer_b: (B)&nbsp;<br><img src="assets/img/Q18A2.PNG" class="yui-img selected" title="" alt=""><br>
+    :answer_b: &nbsp;<br><img src="assets/img/Q18A2.png" class="yui-img selected" title="" alt=""><br>
     :feedback_b: 
-    :answer_c: (C) <br><img src="assets/img/Q18A3.PNG" class="yui-img selected" title="" alt=""><br>
+    :answer_c:  <br><img src="assets/img/Q18A3.png" class="yui-img selected" title="" alt=""><br>
     :feedback_c: 
-    :answer_d: (D) <br><img src="assets/img/Q18A4.PNG" class="yui-img selected" title="" alt=""><br>
+    :answer_d:  <br><img src="assets/img/Q18A4.png" class="yui-img selected" title="" alt=""><br>
     :feedback_d: 
     :correct: c
 

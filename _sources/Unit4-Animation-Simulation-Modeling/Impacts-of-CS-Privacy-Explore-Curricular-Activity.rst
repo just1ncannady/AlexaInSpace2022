@@ -34,7 +34,7 @@ Introduction and Goals
     <tbody>
     <tr>
     <td>
-    <img alt="" class="yui-img" height="200px" src="../_static/assets/img/CSPLogo.PNG" style="float:left;padding-right:1em" title=""/></td><td>
+    <img alt="" class="yui-img" height="200px" src="../_static/assets/img/CSPLogo.png" style="float:left;padding-right:1em" title=""/></td><td>
     <p>Like any computing innovation, mobile computing has both positive and negative impacts, including legal and ethical concerns. We need to reflect on these impacts in general. We also need to think about the impacts we will create as we build our own mobile apps. In this lesson, we will explore the following:</p>
     <ul>
     <li>Privacy Concerns - who is collecting our data?</li>
@@ -86,7 +86,7 @@ Learning Activities
     </td>
     <td><div class="yui-wk-div" style="text-align: center;"><iframe align="right" allowfullscreen="true" frameborder="0" height="321" id="nyt_video_player" marginheight="0" marginwidth="0" scrolling="no" src="https://static01.nyt.com/video/players/offsite/index.html?videoId=100000001367956" title="New York Times Video - Embed Player" width="480"></iframe> </div></td>
     </tr></tbody></table>
-    <p><img align="left" alt="" class="yui-img" src="../_static/assets/img/IPOS.PNG" title=""/><b><br/>Input Process Output Storage:</b> Computing innovations involve data which can be used in different ways. Some data is considered <span style="font-weight: bold; font-style: italic;">input</span> while other data is considered <span style="font-weight: bold; font-style: italic;">output</span>. An Input Processing Output Storage (IPOS) Structure Chart helps to classify data and see how that data is being used as input, then <span style="font-weight: bold; font-style: italic;">processed</span> by a program to give an output to the user, and also how that data is <span style="font-weight: bold; font-style: italic;">stored</span>. </p>
+    <p><img align="left" alt="" class="yui-img" src="../_static/assets/img/IPOS.png" title=""/><b><br/>Input Process Output Storage:</b> Computing innovations involve data which can be used in different ways. Some data is considered <span style="font-weight: bold; font-style: italic;">input</span> while other data is considered <span style="font-weight: bold; font-style: italic;">output</span>. An Input Processing Output Storage (IPOS) Structure Chart helps to classify data and see how that data is being used as input, then <span style="font-weight: bold; font-style: italic;">processed</span> by a program to give an output to the user, and also how that data is <span style="font-weight: bold; font-style: italic;">stored</span>. </p>
     <p><b>Exercise:</b> Can you draw, label, and explain the scenario of having to type a paper for a class using an IPOS structure chart?</p>
     <h4><br/><br/><br/><br/><br/>Data Concerns</h4>
     <p>The collection of our data raises a variety of concerns involving <span class="hover vocab yui-wk-div" data-id='data privacy'>data privacy</span>, <span class="hover vocab yui-wk-div" data-id='data security'>data security</span>, and <span class="hover vocab yui-wk-div" data-id='data storage'>data storage</span>. For example, commercial and governmental curation of information may be exploited if privacy and other protections are ignored. Having a website collect and remember your login information, for example, may be convenient because it saves you time, but it also comes with risks and concerns:</p>

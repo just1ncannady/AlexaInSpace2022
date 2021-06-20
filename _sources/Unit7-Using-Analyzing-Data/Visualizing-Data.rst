@@ -186,13 +186,13 @@ Self-Check
 .. mchoice:: mcsp-7-3-1
     :random:
     :practice: T
-    :answer_a: (A) Approximately how many miles did the animal travel in one week?
+    :answer_a:  Approximately how many miles did the animal travel in one week?
     :feedback_a: 
-    :answer_b: (B) Does the animal travel in groups with other tracked animals?
+    :answer_b:  Does the animal travel in groups with other tracked animals?
     :feedback_b: 
-    :answer_c: (C) Do the movement patterns of the animal vary according to the weather?
+    :answer_c:  Do the movement patterns of the animal vary according to the weather?
     :feedback_c: This is correct.
-    :answer_d: (D) In what geographic locations does the animal typically travel?
+    :answer_d:  In what geographic locations does the animal typically travel?
     :feedback_d: 
     :correct: c
 

@@ -55,7 +55,7 @@ Learning Activities
 .. raw:: html
 
     <h3>Algorithms and Programs</h3>
-    <p>As you learned in that activity, an <a href="http://en.wikipedia.org/wiki/Algorithm" target="_blank"><span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></a> 
+    <p>As you learned in that activity, an <a href="http://en.wikipedia.org/wiki/Algorithm" target="_blank"><span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span></a> 
       is a <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> of precise instructions that solves some problem or performs some computation.   
       A <i>program</i> is an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that is written in a programming language that runs on a computer and is often referred to as <i>software</i>.  A program can be described by what it does and how the program statements accomplish its function.
       Each of the levels in the previous activity contained <i>code segments</i> which are collections of program statements that are part of a program. 
@@ -124,8 +124,9 @@ Summary
     You will see tables such as this in many of the lessons.  If you hover over the term, its definition or description will
     pop up.
     
-    <table align="center">
-    <tbody><tr>
+    <style>    td { text-align: left; padding: 5px;}</style>
+    <table align="center" width="80%">
+    <tbody><tr width="80%">
     <td><span class="hover vocab yui-wk-div" data-id="algorithm">algorithm</span>
     <br/><span class="hover vocab yui-wk-div" data-id="control structure">control structure</span>
     <br/><span class="hover vocab yui-wk-div" data-id="sequence">sequence</span>

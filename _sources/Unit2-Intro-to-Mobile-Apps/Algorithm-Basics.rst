@@ -140,7 +140,7 @@ Learning Activities
       </li><li><b> CAN_MOVE( <em>direction</em> )</b> : This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
     </li></ul>
     <br/>Let's put our robot in the maze below. The robot is represented as a black triangle and is initially facing up. It can only move forward to a white square. It cannot move onto the black squares or move beyond the edge of the grid.  <br/>
-      <img src="../_static/assets/img/Q18SquareQuestion.PNG" width="20%"/>
+      <img src="../_static/assets/img/Q18SquareQuestion.png" width="20%"/>
     <p>Answer the following questions with your POGIL group using <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">this worksheet</a>:
       </p><ol>
     <li>For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?
@@ -322,13 +322,13 @@ Self-Check
 .. mchoice:: mcsp-2-3-5
     :random:
     :practice: T
-    :answer_a: <link rel="stylesheet" type="text/css" href="assets/css/apmlblockStyles.css"> <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>   <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br>     &nbsp; &nbsp;<bl>MOVE_FORWARD</bl> </bl> </bl>   </div>
+    :answer_a:  <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>   <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br>     &nbsp; &nbsp;<bl>MOVE_FORWARD</bl> </bl> </bl>   </div>
     :feedback_a: 
-    :answer_b: <link rel="stylesheet" type="text/css" href="assets/css/apmlblockStyles.css"> <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>   <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br>    &nbsp; &nbsp; <bl>MOVE_FORWARD</bl> <br>   ELSE <br>     &nbsp; &nbsp;<bl> ROTATE_RIGHT</bl> </bl>   </bl></div>
+    :answer_b:  <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>   <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br>    &nbsp; &nbsp; <bl>MOVE_FORWARD</bl> <br>   ELSE <br>     &nbsp; &nbsp;<bl> ROTATE_RIGHT</bl> </bl>   </bl></div>
     :feedback_b: 
-    :answer_c: <link rel="stylesheet" type="text/css" href="assets/css/apmlblockStyles.css"> <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>    <bl class="dark">IF <bl>CAN_MOVE <bl>left</bl></bl><br>   &nbsp; &nbsp; <bl>ROTATE_RIGHT</bl> <br>   ELSE <br>     &nbsp; &nbsp;<bl> MOVE_FORWARD</bl> </bl>     </bl> </div>
+    :answer_c: <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>    <bl class="dark">IF <bl>CAN_MOVE <bl>left</bl></bl><br>   &nbsp; &nbsp; <bl>ROTATE_RIGHT</bl> <br>   ELSE <br>     &nbsp; &nbsp;<bl> MOVE_FORWARD</bl> </bl>     </bl> </div>
     :feedback_c: 
-    :answer_d: <link rel="stylesheet" type="text/css" href="assets/css/apmlblockStyles.css"> <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>   <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br>    &nbsp; &nbsp; <bl>MOVE_FORWARD</bl> <br>   ELSE <br>     &nbsp; &nbsp;<bl> ROTATE_LEFT</bl> </bl>   </bl></div>
+    :answer_d:  <div id="APblocks" class="yui-wk-div"> <bl class="dark">REPEAT UNTIL <bl> GoalReached </bl><br>   <bl class="dark">IF <bl>CAN_MOVE <bl>forward</bl></bl><br>    &nbsp; &nbsp; <bl>MOVE_FORWARD</bl> <br>   ELSE <br>     &nbsp; &nbsp;<bl> ROTATE_LEFT</bl> </bl>   </bl></div>
     :feedback_d: 
     :correct: b
 
@@ -362,6 +362,4 @@ Reflection: For Your Portfolio
       &lt;li&gt;(&lt;b&gt;POGIL&lt;/b&gt;) Write an algorithm  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that cups are washed in hot water and dishes in cold water. Use simple commands like &lt;b&gt;hot_wash&lt;/b&gt; and &lt;b&gt;cold_wash&lt;/b&gt;. You may also use the control structures &lt;b&gt;IF&lt;/b&gt; and &lt;b&gt;REPEAT n times&lt;/b&gt;. Identify the parts of your algorithm that are examples  of &lt;i&gt;Sequence, Selection,&lt;/i&gt; and     &lt;i&gt;Repetition&lt;/i&gt;.&lt;/li&gt;
     &lt;/ol&gt;-->
     </div>
-    <p> <b style="color:red"><br/>Registration Reminder</b>:
-    To see the rest of the course, you must officially register for the course at <a href="https://course.mobilecsp.org/mobilecsp/register" target="_blank"> https://course.mobilecsp.org/mobilecsp/register</a>.</p><p></p>
     </div>
