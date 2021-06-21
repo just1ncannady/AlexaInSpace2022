@@ -94,14 +94,6 @@ Learning Activities
     <p></p>
     </div>
 
-
-    
-
-Self-Check
------------
-
-.. raw:: html
-
     <p>
     
 .. mchoice:: mcsp-3-2-1
@@ -251,8 +243,7 @@ Self-Check
     <tr><td>Increment dotsize</td><td> dotsize ← dotsize + 1</td><td> <div class="yui-wk-div" id="APblocks">
     <bl>dotsize ← <bl>dotsize + 1</bl></bl></div></td><td><img src="../_static/assets/img/SetXToX1.png" width="350px"/></td></tr>
     </tbody></table>
-    
-    
+       
     Some exercises involving AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> for <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> are below. More complex AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> will be shown in Unit 4.
     
 

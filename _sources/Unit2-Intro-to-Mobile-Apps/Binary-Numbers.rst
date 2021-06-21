@@ -3,6 +3,7 @@
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
     <style>    td { text-align: left; padding: 5px;}</style>
 
+
 Binary Numbers
 ======================
 
@@ -99,12 +100,6 @@ Learning Activities
     </li>
     </ol>
     
-
-Self-Check
------------
-
-.. raw:: html
-
     <p>
     
 .. mchoice:: mcsp-2-9-1
@@ -174,13 +169,7 @@ Self-Check
     <p></p>
     </div>
 
-
-    
-
-Video: Converting Binary to Decimal
-------------------------------------
-
-.. raw:: html
+	<h3>Video: Converting Binary to Decimal</h3>
 
     <p>
     <p>As you saw in the video, the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> is a <i><b><span class="hover vocab yui-wk-div" data-id='positional number system'>positional number system</span></b></i> 
@@ -203,10 +192,7 @@ Video: Converting Binary to Decimal
     <div>(<a href="http://www.teachertube.com/video/binarytodecimal-348082" target="_blank">Teacher Tube version</a>)</div>
     
 
-Activities: Converting Binary to Decimal
------------------------------------------
-
-.. raw:: html
+	<h3>Activities: Converting Binary to Decimal</h3>
 
     <p>
     Your teacher may choose to have you do some or all of the activities below:
@@ -224,14 +210,9 @@ Activities: Converting Binary to Decimal
 
    :exercise: binary-to-decimal
  
-   
-    
-
-Video: Converting Decimal to Binary
-------------------------------------
-
 .. raw:: html
 
+	<h3>Video: Converting Decimal to Binary</h3>
     <p>
     <p>You can  a similar algorithm to convert decimal numbers into binary. This next short video shows you how.</p>
     
@@ -249,11 +230,7 @@ Video: Converting Decimal to Binary
 
     <div>(<a href="http://www.teachertube.com/video/decimaltobinary-348085" target="_blank">Teacher Tube version</a>)</div>
     
-
-Activities: Converting Decimal to Binary
------------------------------------------
-
-.. raw:: html
+	<h3>Activities: Converting Decimal to Binary</h3>
 
     <p>
     Your teacher may choose to have you do some or all of the activities below:
@@ -302,12 +279,9 @@ Activities: Converting Decimal to Binary
     &lt;/ol&gt;
     -->
     
-
-Other Number Systems
----------------------
-
 .. raw:: html
-
+	
+	<h3>Other Number Systems</h3>
     <p>
     <p>One problem with binary  numbers is that it takes lots of digits to represent relatively small numbers. For example,  a number like 1 million would require 20 binary digits: 11110100001001000000. In computer science, we also use the <b>octal</b> (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 8) and <b>hexadecimal (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 16)</b> number system, which uses the digits 0-9 as well as the letters A-F to represent the decimal numbers 0-15. Each 4 binary bits can be replaced by 1 hex digit. The AP CSP exam no longer covers the <span class="hover vocab yui-wk-div" data-id='hexadecimal number system'>hexadecimal number system</span>, but if you're curious, you can learn more about octal and hex in the links provided in the Still Curious section below.
       
@@ -374,6 +348,7 @@ Self-Check
     </tr>
     </tbody>
     </table>
+    
 .. mchoice:: mcsp-2-9-4
     :random:
     :practice: T

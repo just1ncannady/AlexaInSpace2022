@@ -86,6 +86,9 @@ Learning Activities
     <h3>Activity: Google Trends</h3>
     <p>Google Trends (<a href="http://trends.google.com" target="_blank" title="">trends.google.com</a>) provides charts that show how often a particular term is searched across the world. Take a look at the chart below. What do the horizontal and vertical axis represent? Why do you think there is a large peak at one time of the year and a low point at another? Hint: Look carefully at the dates.</p>
     <p>Read this article from <i>Wired</i> magazine, <a href="https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/" target="_blank">"What We Can Learn From the Epic Failure of Google Flu Trends"</a>. As you read, think about why the flu trends failed, including any assumptions about their data or their model.</p>
+    
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1101_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"computer science principles","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=computer%20science%20principles&date=today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+    
     <!--&lt;div style=&quot;text-align: center&quot; class=&quot;yui-wk-div&quot;&gt;&lt;img src=&quot;https://ram8647.appspot.com/mobileCSP/assets/img/RankingImage.png&quot; align=&quot;center&quot; class=&quot;yui-img selected&quot;&gt;&lt;/div&gt;-->
     <!-- [Terms: nowcasting, big data, ...] -->
     

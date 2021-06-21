@@ -105,9 +105,6 @@ Learning Activities
     <li>Create the CIPHER_ALPHABET that would result from a Caesar shift of 5. Use the widget above on some letters with shift 5 to check your answer.</li>
     <li>Try the self-check exercises below.</li>
     </ol>
-
-Self-Check
------------
     
 .. mchoice:: mcsp-6-5-1
     :random:

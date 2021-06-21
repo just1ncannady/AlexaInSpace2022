@@ -91,12 +91,13 @@ Learning Activities
 --------------------
 
 .. raw:: html
+	
 	<div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom: Creating a Strong Password (15 minutes)</h3>
     <p>To give us a better sense of what it takes to create a strong password -- i.e., one that can
         withstand a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span> attack --  we're going to use the Password Strength Calculator
         to test the strength of various password schemes. (<a href="https://mobile-csp.org/webapps/passwords/index.html" target="_blank" title="">Open widget in a separate window</a>)
-        <iframe height="600" src="https://mobile-csp.org/webapps/passwords/index.html" style="border: 0;" title="Password Strength Calculator" width="850"></iframe>
+        <iframe height="600" src="https://mobile-csp.org/webapps/passwords/index.html" style="border: 0;" title="Password Strength Calculator" width="100%"></iframe>
     </p>
     <p>According to <a href="https://en.wikipedia.org/wiki/Password_cracking" target="_blank">Wikipedia</a>, an ordinary desktop computer 
         equipped with special password cracking software, can test more

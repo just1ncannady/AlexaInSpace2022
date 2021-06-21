@@ -3,7 +3,7 @@
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
 ASSESSMENT: Non-AP Create 1
-============================s
+============================
 
 .. raw:: html
 
@@ -37,6 +37,7 @@ Learning Activities
 --------------------
 
 .. raw:: html
+
 	<h3>Iterative Design Thinking Process</h3>
      <p>Use an Iterative Design Thinking Process to develop your app:<br>
         </p><table style="width: 80%;" border="0">

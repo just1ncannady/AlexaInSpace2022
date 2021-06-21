@@ -84,14 +84,7 @@ Learning Activities
 
     (<a href="http://www.teachertube.com/video/358492" target="_blank">
     Teacher Tube version</a>)
-    
-    
-
-Self-Check
------------
-
-.. raw:: html
-
+  
     <p>
     
 .. fillintheblank:: mcsp-4-7-1
@@ -139,13 +132,7 @@ Self-Check
     <p></p>
     </div>
 
-
-    
-
-Clock Arithmetic and the MOD operator
---------------------------------------
-
-.. raw:: html
+	<h3>Clock Arithmetic and the MOD operator</h3>
 
     <p>
     
@@ -168,11 +155,6 @@ Clock Arithmetic and the MOD operator
 
 
     </p>
-
-Self-Check
------------
-
-.. raw:: html
 
     <p>
     

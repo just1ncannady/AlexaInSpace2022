@@ -80,22 +80,20 @@ Learning Activities
 .. raw:: html
 
 	<h3>Enhancements </h3>
-	<p>Before you can respond to the prompts in the Create Performance Task, you will need to understand how the game works and examine the code that has been provided for you. Complete the enhancement activities to help you get familiar with the code. Remember to work incrementally: implement, test, review, and repeat. You may use <a href="https://docs.google.com/document/d/1RCGzd0OSohNxA5Y5bDARUmUXIAJ-4Uit9UJfwi49NF0/edit" target="_blank" title="">this document</a> to track your progress as you work.<br></p><ol><li>Download the .aia file for The Learning Game.&nbsp;</li><li>Import the file into MIT's App Inventor</li><li>Try playing the game on your device and explore the code.</li><li>Try making these three enhancements:</li><ul><li><span style="white-space: pre;">	</span>Change the app's language to a different language so your app helps you learn to count in that language</li><li><span style="white-space:pre">	</span>Change the initial count of numbers that are spoken to initiate the game.</li><li><span style="white-space:pre">	</span>Try adding a few more numbers to the game</li></ul></ol><ol></ol><ol></ol>&lt;&lt;INSERT VIDEO HERE&gt;&gt;<br>
-	  <h3>Create Performance Task Write-up Activity </h3>
+	<p>Before you can respond to the prompts in the Create Performance Task, you will need to understand how the game works and examine the code that has been provided for you. Complete the enhancement activities to help you get familiar with the code. Remember to work incrementally: implement, test, review, and repeat. You may use <a href="https://docs.google.com/document/d/1RCGzd0OSohNxA5Y5bDARUmUXIAJ-4Uit9UJfwi49NF0/edit" target="_blank" title="">this document</a> to track your progress as you work.<br></p><ol><li>Download the .aia file for The Learning Game.&nbsp;</li><li>Import the file into MIT's App Inventor</li><li>Try playing the game on your device and explore the code.</li><li>Try making these three enhancements:</li><ul><li><span style="white-space: pre;">	</span>Change the app's language to a different language so your app helps you learn to count in that language</li><li><span style="white-space:pre">	</span>Change the initial count of numbers that are spoken to initiate the game.</li><li><span style="white-space:pre">	</span>Try adding a few more numbers to the game</li></ul></ol><ol></ol><ol></ol>
+	<p>&lt;&lt;INSERT VIDEO HERE&gt;&gt;</p><br>
+	  
+	<h3>Create Performance Task Write-up Activity </h3>
 	<p>Once you have tried the game and understand the code, answer the AP CSP Create Performance Task prompts.&nbsp;<br></p><ol><li>Review the Create Performance Task prompts in the&nbsp;<a href="https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf" target="_blank" title="">AP CSP Student Directions</a>.&nbsp;</li><li><span class="yui-non">Review the Create Performance Task <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">scoring guidelines</a>.</span></li><li>Make a copy of the submission&nbsp;<a href="https://docs.google.com/document/d/1pgZntXjhm-IO9iHmNA1lMJE7MBDv-sAJOuSaX9LIFsk/copy" target="_blank" title="">document</a>&nbsp;and record your responses.</li></ol><p></p>
 	
 Summary
 -------
 
-.. raw:: history
+.. raw:: html
 
 	<p>In this lesson, you learned how to:</p>
 	  <div id="summarylist" class="yui-wk-div">
 	  </div>
-	
-	
-Still Curious?
---------------
 
 Self-Check
 ----------

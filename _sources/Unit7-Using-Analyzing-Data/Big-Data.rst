@@ -59,12 +59,6 @@ Learning Activities
     <div class="yui-wk-div" style="text-align: center;"><a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_numbers_everywhere/the-human-face-of-big-data-everything-is-quantifiable/" target="_blank"><img alt="Everything is Quantifiable" class="yui-img" src="../_static/assets/img/HumanFaceofBigData_1Quantifiable.png" title="Everything is Quantifiable"/><br/></a></div>
     <p><br/>
     </p>
-    
-
-Self-Check
------------
-
-.. raw:: html
 
     <p>
     
@@ -133,10 +127,7 @@ Self-Check
     </p>
     
 
-Data Science
--------------
-
-.. raw:: html
+	<h3>Data Science</h3>
 
     <p>
     <p>The field of Data Science deals with extracting information from and visualizing the results of manipulating large
@@ -153,12 +144,7 @@ Data Science
     <p>
     </p>
 
-Self-Check
------------
-
-.. raw:: html
-
-    <p>
+	<p>
     <p>
     
 .. mchoice:: mcsp-7-2-4
@@ -208,10 +194,7 @@ Self-Check
     <br/>
     </p>
 
-Impacts of Big Data
---------------------
-
-.. raw:: html
+	<h3>Impacts of Big Data</h3>
 
     <p><br/>
     <p>Careful analysis of data can help us solve many problems.  Watch the following video to see how tracking data on <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_babies_health/the-human-face-of-big-data-the-smallest-heartbeat/" target="_blank">The Smallest Heartbeat</a> can help save a child's life. </p>
@@ -219,10 +202,7 @@ Impacts of Big Data
     </a></div>
     
 
-Bias in Data
--------------
-
-.. raw:: html
+	<h3>Bias in Data</h3>
 
     <p>
     <p>The path from data to information to knowledge is not always straightforward. Bias can be introduced into the
@@ -268,12 +248,6 @@ Bias in Data
     <!-- &lt;p&gt;To learn more about the underlying research done by Buolamwini, watch &lt;a href=&quot;https://www.youtube.com/watch?v=TWWsW1w-BVo&amp;feature=youtu.be&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Gender Shades&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=UG_X_7g63rY&quot; target=&quot;_blank&quot;&gt;her TED talk&lt;/a&gt;, or &lt;a href=&quot;https://www.youtube.com/watch?v=FejjAbwUqbA&amp;amp;t=723s&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;AI, Ain&#39;t I A Woman? longer version presented by Organizational Transformation&lt;/a&gt;.&lt;/p&gt;
     -->
     
-
-Self-Check
------------
-
-.. raw:: html
-
     <p>
 .. mchoice:: mcsp-7-2-6
     :random:
@@ -318,12 +292,7 @@ Self-Check
     <p></p>
     </div>
 
-
-
-Big Data Activity: Exploring Data Sets
----------------------------------------
-
-.. raw:: html
+	<h3>Big Data Activity: Exploring Data Sets</h3>
 
     <p>
     <p>Explore some of examples of big data and at least 2 data sets that interest you. You will answer some reflection

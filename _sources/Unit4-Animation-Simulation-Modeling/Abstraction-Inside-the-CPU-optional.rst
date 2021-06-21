@@ -141,13 +141,6 @@ Learning Activities
     <p></p>
     </div>
 
-    
-
-Self-Check
------------
-
-.. raw:: html
-
     <p>
     
 .. mchoice:: mcsp-4-9-1
@@ -224,10 +217,7 @@ Self-Check
     <p>As you saw in the last self-check exercise, it is easy to see an <b><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span></b> when the 4-bit computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the computer attempts to handle a very large number that is outside of the defined range of values can be represented.</p><p>
     </p>
 
-Generation 1: Machine Language Programming
--------------------------------------------
-
-.. raw:: html
+	<h3>Generation 1: Machine Language Programming</h3>
 
     <p>
     <p>
@@ -258,13 +248,6 @@ Generation 1: Machine Language Programming
     <p></p>
     </div>
 
-    
-
-Self-Check
------------
-
-.. raw:: html
-
     <p>
     
 .. fillintheblank:: mcsp-4-9-4
@@ -281,13 +264,7 @@ Self-Check
     <p></p>
     </div>
 
-
-    
-
-Generation 2: Assembly Language Programming
---------------------------------------------
-
-.. raw:: html
+	<h3>Generation 2: Assembly Language Programming</h3>
 
     <p>
     <p>
