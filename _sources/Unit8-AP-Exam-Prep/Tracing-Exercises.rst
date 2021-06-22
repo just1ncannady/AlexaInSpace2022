@@ -9,9 +9,19 @@ Tracing Pseudocode Exercises
     
 	
 	<h3 id="est-length">Time Estimate: 45 minutes</h3>
-	
+
+Introduction and Goals
+------------------------
+
+.. raw:: html	
 	
 	<p><b>Tracing</b> is a technique used to simulate a dry run through the code or pseudocode line by line by hand  as if you are the computer executing the code. Tracing can be used for debugging or proving that your program runs correctly or for figuring out what the code actually does.  <b>Trace tables</b> can be used  to track the values of variables as they change throughout a program. To trace through code, write down a variable in each column of the trace table and keep track of its value throughout the program. Some trace tables also keep track of the output and the line number you are currently tracing.
+
+
+Learning Activities
+--------------------
+
+.. raw:: html
 	 
 	 </p><p>For example, here is a simple algorithm that adds x to the total every time through the loop which is executed 3 times. 
 	</p><pre>x ← 2
@@ -103,10 +113,6 @@ In this lesson, you learned how to trace through code.
 	
 Self-Check
 ----------
-	
-.. raw:: html
-
-    <p>
     
 .. mchoice:: mcsp-8-5-1
     :random:
@@ -122,15 +128,15 @@ Self-Check
     :correct: a
 
 	What does the following code do?
-    
-    .. raw:: html
-    
-       <pre>
-       i ← 1
-       REPEAT UNTIL i >= 100
-       DISPLAY i
-       i ← i + 2
-       </pre>
+	
+	.. raw:: html
+	
+		<pre>
+		i ← 1
+		REPEAT UNTIL i >= 100
+		DISPLAY i
+		i ← i + 2
+		</pre>
 
 .. raw:: html
 
@@ -141,20 +147,20 @@ Self-Check
 .. fillintheblank:: repl-mcsp-8-5-2
     :casei:
 
-    Consider the following pseudocode algorithm:
+	Consider the following pseudocode algorithm:
     
-    .. raw:: html
+	.. raw:: html
     
-       <pre>
-       P ← 1  (Set P to 1)
-       N ← 4  (Set N to 4)
-       REPEAT UNTIL (N = 0)
-       {   
-         P ← P * N  (Set P to the result of multiplying P by N)
-         N ← N - 1  (Subtract 1 from N)
-       }
-       DISPLAY(P)
-       </pre>
+		<pre>
+		P ← 1  (Set P to 1)
+		N ← 4  (Set N to 4)
+		REPEAT UNTIL (N = 0)
+		{   
+			P ← P * N  (Set P to the result of multiplying P by N)
+			N ← N - 1  (Subtract 1 from N)
+		}
+		DISPLAY(P)
+		</pre>
 
     What result would be printed by this algorithm? |blank|
 
@@ -186,7 +192,7 @@ Sample AP CSP Exam Question
 
 
 .. mchoice:: mcsp-8-5-5
-    :random:
+	:random:
     :practice: T
     :answer_a: The number 0 is displayed.   
     :feedback_a: 
@@ -198,11 +204,11 @@ Sample AP CSP Exam Question
     :feedback_d: 
     :correct: d
 
-    Consider the following program code.Which of the following best describes the result of running the program code?
+	Consider the following program code. Which of the following best describes the result of running the program code?
 
-    .. raw:: html
+	.. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/Q20Code.png" style="line-height: 1.22;" title=""/>
+		<img alt="" class="yui-img" src="../_static/assets/img/Q20Code.png" style="line-height: 1.22;" title=""/>
 	
 	
 	
