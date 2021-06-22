@@ -25,7 +25,7 @@ if master_url is None:
 master_app = 'runestone'
 serving_dir = "./build/mobilecsp"
 
-# Change to False when running localhost; True before pushing  to github
+# Change to False when running localhost; True before pushing to github
 dynamic_pages = True
 
 if dynamic_pages:

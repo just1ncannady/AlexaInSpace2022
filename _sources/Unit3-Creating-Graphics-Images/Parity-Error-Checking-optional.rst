@@ -184,12 +184,14 @@ Self-Check
     </tbody>
     </table>
     <h3>Parity Questions</h3>
-    .. khanex:: khanex3
-
-   		:exercise: parity-error-detection
+    
+.. khanex:: khanex3
+	
+	:exercise: parity-error-detection
    		
-   	.. khanex:: khanex4
-   		:exercise: parity-error-detection-2
+.. khanex:: khanex4
+
+	:exercise: parity-error-detection-2
     
 
 Reflection: For Your Portfolio

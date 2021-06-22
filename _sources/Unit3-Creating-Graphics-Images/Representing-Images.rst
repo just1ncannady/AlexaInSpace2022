@@ -272,7 +272,18 @@ Self-Check
 .. fillintheblank:: mcsp-3-3-1
     :casei:
 
-    In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its RLE compression? You can use the interactive pixel grid above under Practice or in another tab to work this out.1, 4, 21, 1, 3, 1, 11, 1, 3, 1, 11, 5, 11, 1, 4, 11, 1, 4, 11, 1, 4, 11, 5, 1 |blank|
+    In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its RLE compression? You can use the interactive pixel grid above under Practice or in another tab to work this out.
+	
+	.. raw:: html
+	
+		1, 4, 2<br />
+		1, 1, 3, 1, 1<br />
+		1, 1, 3, 1, 1<br />
+		1, 5, 1<br />
+		1, 1, 4, 1<br />
+		1, 1, 4, 1<br />
+		1, 1, 4, 1<br />
+		1, 5, 1
 
     - :B: 
       :x: 

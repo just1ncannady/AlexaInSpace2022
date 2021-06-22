@@ -384,10 +384,10 @@ Self-Check
 
     Refer to the figure below.
 
- .. raw:: html
-
-        <img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.png"/>
-
+ 	.. raw:: html
+ 		
+ 		<img class="yui-img" src="../_static/assets/img/SampleExamQuestion6LogicGates.png"/>
+        
 
 .. raw:: html
 

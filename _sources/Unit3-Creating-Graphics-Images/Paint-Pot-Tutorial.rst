@@ -345,7 +345,13 @@ Self-Check
     :feedback_d: 
     :correct: b
 
-    Suppose you initialize dotsize with the block <img src="../_static/assets/img/initdotsize.png" class="yui-img"/>. Which of the following blocks would you use to change the value of dotsize?
+    Suppose you initialize dotsize with the block 
+    
+    .. raw:: html
+    
+    	<img src="../_static/assets/img/initdotsize.png" class="yui-img"/>. 
+    
+    Which of the following blocks would you use to change the value of dotsize?
 
     .. raw:: html
 
