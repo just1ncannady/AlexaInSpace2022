@@ -175,86 +175,8 @@ Learning Activities
     </li>
     </ol>
     <a href="https://docs.google.com/document/d/1R6u0geqIRmilERAgnlaRfo9Of5qyl0Z0w_35itx1_Qs/copy" target="_blank"><img src="../_static/assets/img/VennDiagram.png" style="margin-left:15%;" width="75%"/></a>
-    <!-- 2017 worksheet &lt;a href=&quot;https://docs.google.com/document/d/1RfWIEITexC70kKufNXlWTaGL13gUT5CTl8Wah-HmdHY/edit&quot; target=&quot;_blank&quot;&gt;using this worksheet&lt;/a&gt; -->.  
-      <!-- 2017 Questions 
-    The Internet and WWW: Critical Thinking Questions
-    List the brands of Internet browsers that members in your group use. Why might it be more accurate to call an Internet browser &quot;a WWW browser&quot;?
-    Have each member of your group give an example of something you use the WWW for.
-    What are some examples of applications that use the Internet, but not necessarily through a browser?
-    (Portfolio) In your own words, give a sentence that would explain to a friend the difference between the WWW and the Internet.
-    -->
-    <!-- Embedded worksheet 2018? &lt;iframe width=100% height=500px scrolling=yes  style=&quot;border:0;&quot; src=&quot;https://docs.google.com/document/d/e/2PACX-1vSCTaQ2hYO25qAuCOAhdilqiFZ0F4LozaoxK3RH_EOK0OPH9-HJ4vZuOlSvo_CePuUv38A7d_-GMIul/pub&quot;&gt;&lt;/iframe&gt; -->
-    <!-- 2016
-    &lt;h3&gt;Video 2: Measuring the Internet&lt;/h3&gt;
-    &lt;p&gt;
-      (&lt;a target=&quot;_blank&quot; href=&quot;https://docs.google.com/presentation/d/1DqFTlGNYOy0gFP0ByPyLJ8jvVb1N_y_wuDLYVWenUJs&quot;&gt;Slides: Measuring Your Network&lt;/a&gt;)
-    &lt;/p&gt;
+    <br /><br />
     
-    &lt;div class=&quot;pogil&quot;&gt;
-      &lt;h3&gt;POGIL Activity for the Classroom (10 minutes)&lt;/h3&gt; 
-      Using the same groups as the earlier activity, answer the following questions. 
-      
-      &lt;h4&gt;Measuring Your Network: Critical Thinking Questions&lt;/h4&gt;
-      &lt;ol&gt;
-        &lt;li&gt;When measuring bandwidth, would good performance be a large number or a small number?&lt;/li&gt;
-        &lt;li&gt;When measuring latency, would good performance be a large number or a small number?&lt;/li&gt;
-        &lt;li&gt;Use CNET’s bandwidth tool to measure bandwidth at your school and (later) at home).&lt;/li&gt;
-        &lt;li&gt;Use this Ping tool to measure the average latency between the sites &lt;b&gt;http://google.com&lt;/b&gt; and &lt;b&gt;http://whitehouse.gov&lt;/b&gt;&lt;/li&gt;
-        &lt;li&gt;Use Ookla’s Broadband map to explore bandwidth speeds in the US. 
-          &lt;ol&gt;
-            &lt;li&gt;Check for your school&#39;s location.&lt;/li&gt;
-            &lt;li&gt;Which state in the US has the fastest average speed?&lt;/li&gt;
-            &lt;li&gt;Which state has the slowest?&lt;/li&gt;
-            &lt;li&gt;What is the difference between the fastest and slowest states?&lt;/li&gt;
-          &lt;/ol&gt;
-        &lt;li&gt;You can also compare bandwidth speeds between countries using Ookla’s global map.. 
-          &lt;ol&gt;
-            &lt;li&gt;Which country has the fastest average speed? &lt;/li&gt;
-            &lt;li&gt;How does your country compare?&lt;/li&gt;
-          &lt;/ol&gt;
-      &lt;/ol&gt;
-      
-    &lt;/div&gt;
-    
-    -->
-    <!-- 2017
-    &lt;h2&gt;Activity: Computing Ethics&lt;/h2&gt;
-    &lt;p&gt;
-      Innovations in computing have raised legal and ethical concerns. From commercial access to music and movie downloads 
-      and streaming and open source and licensing of software and content, how individuals use computers is 
-      becoming more and more important.&lt;/p&gt;
-    
-    &lt;p&gt;According to the Computer Ethics Institute, here are the &lt;a href=&quot;http://computerethicsinstitute.org/publications/tencommandments.html&quot; target=&quot;blank&quot;&gt;Ten Commandments of Computer Ethics&lt;/a&gt;, describing ethical behavior when using computers:
-      
-      &lt;/p&gt;&lt;ol&gt;
-        &lt;li&gt;You shall not use a computer to harm other people.
-        &lt;/li&gt;&lt;li&gt;You shall not interfere with other people&#39;s computer work.
-        &lt;/li&gt;&lt;li&gt;You shall not snoop around in other people&#39;s computer files.
-        &lt;/li&gt;&lt;li&gt;You shall not use a computer to steal.
-        &lt;/li&gt;&lt;li&gt;You shall not use a computer to bear false witness.
-        &lt;/li&gt;&lt;li&gt;You shall not copy or use proprietary software for which you have not paid without permission.
-        &lt;/li&gt;&lt;li&gt;You shall not use other people&#39;s computer resources without authorization or proper compensation.
-        &lt;/li&gt;&lt;li&gt;You shall not appropriate other people&#39;s intellectual output.
-        &lt;/li&gt;&lt;li&gt;You shall think about the social consequences of the program you are writing or the system you are designing.
-        &lt;/li&gt;&lt;li&gt;You shall always use a computer in ways that ensure consideration and respect for your fellow humans.
-    &lt;/li&gt;&lt;/ol&gt;
-    
-    
-    &lt;div class=&quot;pogil yui-wk-div&quot;&gt;
-      &lt;h3&gt;POGIL Activity for the Classroom (10 minutes)&lt;/h3&gt; 
-      Using the same groups as the earlier activity, answer the following questions, recording your answers &lt;a href=&quot;https://docs.google.com/document/d/1iBxiiOSTEyzWuZRfSBXPkcstXMxU-DoFRryxsY0eCBU/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;using this worksheet&lt;/a&gt;. 
-    
-      &lt;h4&gt;Computer Ethics: Critical Thinking Questions&lt;/h4&gt;
-      As described in this &lt;a target=&quot;_blank&quot; href=&quot;https://www.scu.edu/ethics/focus-areas/internet-ethics/resources/apps-and-privacy/&quot;&gt;short case study&lt;/a&gt; a Silicon Valley social networking company was collecting users &quot;Contacts&quot; data and storing it on their servers.
-      &lt;ol&gt;
-        &lt;li&gt;According to the Commandments, was it unethical for the app developers to do so?  If so, which commandments did they
-        violate?&lt;/li&gt;
-        &lt;li&gt;(&lt;b&gt;Portfolio&lt;/b&gt;) As an app developer, what is your responsibility with regard to user data? Which commandments should serve as your
-        guide on this point?&lt;/li&gt; 
-      &lt;/ol&gt;
-      
-    &lt;/div&gt;
-    -->
     </div>
     
 

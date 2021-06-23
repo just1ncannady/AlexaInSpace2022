@@ -89,7 +89,7 @@ Learning Activities
     <li>
     <b>Formulas and Functions:</b> Each box in the spreadsheet is called a  <b>cell</b>. Every cell  in the spreadsheet is identifiable by its column letter and row number. For example, cell <b>A2</b> refers to the box at column A and row 2 below and contains the data Astraptes SENNOV which is a butterfly species.  
     <br/>
-    <img src="../_static/assets/img/cell.png" width="30%"/>
+    <img src="../_static/assets/img/cell.png" width="50%"/>
     <p>
       We can manipulate numeric data in a spreadsheet by using <b>formulas</b> and <b>functions</b> built into the spreadsheet software. Typing in a <b>=</b> in a cell signals the start of a formula like <b>=K2 + K3</b> or a function like <b>=SUM(K2,K3)</b>. These functions can take a list of cells or a range of cells such as <b>K2:K4</b> which is equivalent to the list <b>K2, K3, K4</b>. There are many built-in functions in standard spreadsheet software, but the most commonly used ones are SUM, AVERAGE, COUNT, MAX, and MIN. Here is a <a href="https://www.gcflearnfree.org/googlespreadsheets/working-with-functions/1/" target="_blank">tutorial</a> that reviews how to use functions in Google Sheets.</p>
     <p>
@@ -100,13 +100,13 @@ Learning Activities
     <li>Type in the formula:
       <b>
         =AVERAGE(K2:K88)</b> like below. This will average the data in column K rows 2-88. You could select the data that you want instead of typing in the cell numbers. When you hit enter, it will compute the average 54.63 (you can control the precision with the precision buttons at the top). <br/>
-    <img src="../_static/assets/img/formula.png" width="30%"/>
+    <img src="../_static/assets/img/formula.png" width="50%"/>
     </li>
     <li> (<b>Reflection)</b> Write another formula that calculates the <b>average elevation</b> for this data. Write your formula and the result found in your portfolio.
          </li>
     </ul>
     </li>
-    <li><img src="../_static/assets/img/filterSheets.png" style="float:right;" width="20%"/>
+    <li><img src="../_static/assets/img/filterSheets.png" style="float:right;" width="50%"/>
     <b>Sort and Filter:</b>
         You can sort and filter columns to find information and extract patterns from the data. To sort by species, click on the A at the top of column A to select the column, and then from the Data menu (or the drop down menu on column A), choose Sort. To undo the sort, select Edit/Undo. 
     
@@ -142,17 +142,17 @@ Learning Activities
          Go to <a href="http://www.google.com/mymaps" target="_blank">http://www.google.com/mymaps</a> and click on the Create A New Map button. The created map will be saved in your Google Drive.
        </li><li>Change the <em>Untitled Map</em> heading to a title like <em>Butterflies Map</em> and click on the blue Import button as seen below:
     <br/>
-    <img src="../_static/assets/img/map1.png" width="30%"/>
+    <img src="../_static/assets/img/map1.png" width="50%"/>
     </li><li>Click on Google Drive as seen below and find your spreadsheet.
     <br/>
-    <img src="../_static/assets/img/map2.png" width="30%"/>
+    <img src="../_static/assets/img/map2.png" width="50%"/>
     </li><li>Scroll down to select the Latitude and Longitude columns as seen below.
     <br/>
-    <img src="../_static/assets/img/map3.png" width="30%"/>
+    <img src="../_static/assets/img/map3.png" width="50%"/>
     </li><li>Pick the herbivore species column as the title for the placemarks.
     Google maps will place your data set as markers on the map. Click on some of the markers to see your data. Click on the paint roller icon like below to group places by herbivore species or by another column like primary eco and add labels from one of the columns, and click on the paintcan to choose different icons.
        <br/>
-    <img src="../_static/assets/img/maplabel.png" width="30%"/>
+    <img src="../_static/assets/img/maplabel.png" width="50%"/>
     </li><li>Click on Share to share your map with your teacher or to change the settings to anyone with the link can view. 
        </li><li>(<b>Reflection</b>) Copy the link to your portfolio. Click on Preview to grab a screenshot of your map to put in your portfolio.
     </li></ol>

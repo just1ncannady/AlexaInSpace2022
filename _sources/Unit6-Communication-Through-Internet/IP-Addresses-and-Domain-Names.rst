@@ -68,7 +68,7 @@ Learning Activities
     <iframe allowfullscreen="" frameborder="0" height="472" src="https://www.youtube.com/embed/rTB0KhkTMQM" width="840">
     </iframe>
     <br/>
-    (<a href="http://www.teachertube.com/video/mobile-csp-how-to-use-the-<span class="hover vocab yui-wk-div" data-id='dns'>dns</span>-widget-to-retrieve-and-use-ip-addresses-458219" target="_blank" title="">Teacher Tube version</a>)
+    (<a href="http://www.teachertube.com/video/mobile-csp-how-to-use-the-dns-widget-to-retrieve-and-use-ip-addresses-458219" target="_blank" title="">Teacher Tube version</a>)
           
     <br/>
     <p>
@@ -141,25 +141,38 @@ Learning Activities
         In pseudocode, this is how this algorithm works:
       </p>
     <table>
-    <tbody><tr><th>Recipient</th><th>Sender1</th></tr><tr>
-    </tr><tr><td>
-    <pre>mailbox ← EMPTY_MAIL_BOX
-    Repeat every 3 seconds
-    {
-       IF (mailbox is not EMPTY_MAIL_BOX)
-       {
-         Retrieve the message
-         mailbox ← EMPTY_MAIL_BOX
-       }
-    }
-        </pre>
-    </td>
-    <td>
-    <pre> recipient’s mailbox ← “sender1:7.13:hello"
-    </pre>
-    </td>
+    <tbody>
+    <tr>
+    	<th>Recipient</th></tr>
+    <tr>
+    	<td>
+	    <pre>mailbox ← EMPTY_MAIL_BOX
+	    Repeat every 3 seconds
+	    {
+	       IF (mailbox is not EMPTY_MAIL_BOX)
+	       {
+	         Retrieve the message
+	         mailbox ← EMPTY_MAIL_BOX
+	       }
+	    }
+	        </pre>
+    	</td>
     </tr>
     </tbody></table>
+    
+    <table>
+    <tbody>
+    <tr>
+    	<th>Sender1</th>
+    </tr>
+    <tr>
+    	<td>
+        <pre> recipient’s mailbox ← “sender1:7.13:hello"
+    	</pre>
+    	</td>
+    </tr>
+    </tbody></table>
+    
     <p>If the recipient only checks the mailbox every 3 seconds, what happens if 2 messages are sent in between the checks? If the message is stored in a single variable, the mailbox, what happens to the first value in a variable if it's reassigned a second value, for example:
     </p><pre>mailbox ← x
     mailbox ← y
@@ -182,30 +195,41 @@ Learning Activities
     <li>Remove_msg_at_end_of_list</li>
     <li>Remove_msg_at_front_of_list</li>
     </ul>
-    <p>
-    </p><table>
-    <tbody><tr><th>Recipient</th><th>Sender1</th></tr><tr>
-    </tr><tr><td>
-    <pre>mailbox ← empty list
-    Repeat every 3 seconds
-    {
-       Repeat until mailbox is empty list
-       {
-          Remove_________________    
-       }   
-    }   
-        </pre>
-    </td>
-    <td>
-    <pre>recipient's mailbox ← Insert_______________________( "sender1:7.13:hello") 
-    </pre>
-    </td>
+    
+    <table>
+    <tbody>
+    <tr>
+    	<th>Recipient</th>
+    </tr>
+    <tr>
+    	<td>
+	    <pre>mailbox ← empty list
+	    Repeat every 3 seconds
+	    {
+	       Repeat until mailbox is empty list
+	       {
+	          Remove_________________    
+	       }   
+	    }   
+		</pre>
+    	</td>
     </tr>
     </tbody></table>
-            Discuss your group’s algorithm in a class discussion until consensus is reached on an appropriate 
-            algorithm for this problem.  Can you defend your solution to this problem by giving an non-computer 
-            analogy of a how a similar, related problem would be handled by your solution?
-          <p></p>
+    
+    <table>
+    <tbody>
+    <tr>
+    	<th>Sender1</th>
+    </tr>
+    <tr>
+    	<td>
+    	<pre>recipient's mailbox ← Insert___________________( "sender1:7.13:hello") 
+    	</pre>
+    	</td>
+    </tr>
+    </tbody></table>
+    
+	<p>Discuss your group’s algorithm in a class discussion until consensus is reached on an appropriate algorithm for this problem. Can you defend your solution to this problem by giving an non-computer analogy of a how a similar, related problem would be handled by your solution?</p>
     </li></ol>
     </div>
     

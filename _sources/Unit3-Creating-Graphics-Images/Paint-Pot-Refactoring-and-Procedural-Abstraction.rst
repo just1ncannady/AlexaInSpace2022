@@ -39,7 +39,7 @@ Introduction and Goals
     <p>
     <table><tbody>
     <tr>
-    <td>
+    <td width="50%">
     <img src="../_static/assets/img/GnuScreen.png" width="315"/>
     </td>
     <td>

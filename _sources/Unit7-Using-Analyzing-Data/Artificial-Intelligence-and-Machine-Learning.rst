@@ -103,7 +103,7 @@ Learning Activities
     Watch the following <a href="https://www.youtube.com/watch?v=gV0_raKR2UQ&ab_channel=CrashCourse" 
     target="_blank">video</a> about algorithmic bias.
 
-.. youtube:: 
+.. youtube:: gV0_raKR2UQ
         :width: 650
         :height: 415
         :align: center   

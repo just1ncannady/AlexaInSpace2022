@@ -31,6 +31,7 @@ Introduction and Goals
     </iframe>
     (<a href="http://www.teachertube.com/video/mobile-csp-logo-1-preview-438790" target="_blank">Teacher Tube version</a>)
     </td>
+    <td width="20px"></td>
     <td>In this lesson you will design, implement, and 
     test algorithms to draw simple shapes using simple commands.
     For example, you will write an algorithm to draw a face made up of
@@ -388,13 +389,13 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-5
     :random:
     :practice: T
-    :answer_a: &nbsp;<br><div style="text-align: left;"><img src="assets/img/Q17A1.png" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
+    :answer_a: &nbsp;<br><div style="text-align: left;"><img src="../_static/assets/img/Q17A1.png" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
     :feedback_a: 
-    :answer_b: &nbsp;<br><img src="assets/img/Q17A2.png" class="yui-img" title="" alt=""><br>
+    :answer_b: &nbsp;<br><img src="../_static/assets/img/Q17A2.png" class="yui-img" title="" alt=""><br>
     :feedback_b: 
-    :answer_c:  <br><img src="assets/img/Q17A3.png" class="yui-img" title="" alt=""><br>
+    :answer_c:  <br><img src="../_static/assets/img/Q17A3.png" class="yui-img" title="" alt=""><br>
     :feedback_c: 
-    :answer_d:  <br><img src="assets/img/Q17A4.png" class="yui-img" title="" alt=""><br>
+    :answer_d:  <br><img src="../_static/assets/img/Q17A4.png" class="yui-img" title="" alt=""><br>
     :feedback_d: 
     :correct: a
 
@@ -416,13 +417,13 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-6
     :random:
     :practice: T
-    :answer_a: &nbsp;<img src="assets/img/APExamPrepQ14ChoiceA.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
+    :answer_a: &nbsp;<img src="../_static/assets/img/APExamPrepQ14ChoiceA.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
     :feedback_a: 
-    :answer_b:  <img src="assets/img/APExamPrepQ14ChoiceB.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
+    :answer_b:  <img src="../_static/assets/img/APExamPrepQ14ChoiceB.png" class="yui-img selected" title="" alt="" align="center" style="display: block;">
     :feedback_b: 
-    :answer_c: &nbsp;<img src="assets/img/APExamPrepQ14ChoiceC.png" class="yui-img" align="center" style="display: block;" title="" alt="">
+    :answer_c: &nbsp;<img src="../_static/assets/img/APExamPrepQ14ChoiceC.png" class="yui-img" align="center" style="display: block;" title="" alt="">
     :feedback_c: 
-    :answer_d: &nbsp;<img src="assets/img/APExamPrepQ14ChoiceD.png" class="yui-img" align="center" style="display: block;" title="" alt="">
+    :answer_d: &nbsp;<img src="../_static/assets/img/APExamPrepQ14ChoiceD.png" class="yui-img" align="center" style="display: block;" title="" alt="">
     :feedback_d: 
     :correct: d
 
@@ -466,13 +467,13 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-8
     :random:
     :practice: T
-    :answer_a: <img src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17ChoiceA.PNG.jpg?seed=80094&amp;url=assets/img/APExamPrepQ17ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_a: <img src="../_static/assets/img/APExamPrepQ17ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_a: 
-    :answer_b: <img src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17ChoiceB.PNG.jpg?seed=65796&amp;url=assets/img/APExamPrepQ17ChoiceB.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_b: <img src="../_static/assets/img/APExamPrepQ17ChoiceB.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_b: 
-    :answer_c: <img src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17ChoiceC.PNG.jpg?seed=7073&amp;url=assets/img/APExamPrepQ17ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_c: <img src="../_static/assets/img/APExamPrepQ17ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_c: 
-    :answer_d: <img src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17ChoiceD.PNG.jpg?seed=92418&amp;url=assets/img/APExamPrepQ17ChoiceD.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_d: <img src="../_static/assets/img/APExamPrepQ17ChoiceD.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_d: 
     :correct: b,c
 
@@ -480,7 +481,7 @@ Sample AP CSP Questions
 
     .. raw:: html
 
-        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ17Question.PNG?seed=49317&amp;url=assets/img/APExamPrepQ17Question.png" title=""/>
+        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ17Question.png" title=""/>
 
 
 .. raw:: html

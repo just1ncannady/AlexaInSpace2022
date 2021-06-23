@@ -33,7 +33,7 @@ Introduction and Goals
     <table>
     <tbody>
     <tr>
-    <td>
+    <td width="40%">
     <img alt="" class="yui-img" height="200px" src="../_static/assets/img/CSPLogo.png" style="float:left;padding-right:1em" title=""/></td><td>
     <p>Like any computing innovation, mobile computing has both positive and negative impacts, including legal and ethical concerns. We need to reflect on these impacts in general. We also need to think about the impacts we will create as we build our own mobile apps. In this lesson, we will explore the following:</p>
     <ul>
@@ -72,23 +72,25 @@ Learning Activities
     <p>First, we need to understand the various types of data and how it is collected from us. Some examples of data types are integers, numbers, booleans, text, image, video, audio, and signals. Data can also infer these types, such as fingerprints, temperature, music, length, pictures, etc. Data is gathered by data collection devices (e.g., keyboards, sensors, cameras, etc.). Complete this <a href="https://docs.google.com/document/d/1YPVGCNXv_eHcahlfEBDqnlczAPCLGZBkpdlEkSte544/copy" target="_blank" title="">Data Types and Data Collection Reference Sheet</a> with some examples of your own and/or with your class. When you’re done, this document can be used as a reference sheet for the remainder of this lesson. </p>
     <h3>Activity - Part 2: Classifying Data</h3>
     <p>Earlier in the course you learned about what a computing innovation is and discussed some examples. You also learned about input and output. Now that you know what a computing innovation is and the kinds of data that can be collected, you can determine what data is collected by specific computing innovations. Using this <a href="https://docs.google.com/document/d/1FqRKMRqCMU7OkIpZySR5ISYbNrzJNxRuF59Iu96sNSY/copy" target="_blank" title="">Classifying Data worksheet</a>, identify the data used by the listed computing innovations and then classify the data as input or output. When you are finished, compare your answers with a classmate.</p>
-    <p><b>How is your data being used and are you concerned?</b> Disparate personal data, such as geolocation, <span class="hover vocab yui-wk-div" data-id="<span class="hover vocab yui-wk-div" data-id='Cookies'>Cookies</span>"><span class="hover vocab yui-wk-div" data-id='Cookies'>Cookies</span></span>, and browsing history, can be aggregated to create knowledge about an individual. PII and other information stored online can be used to enhance a user’s online experiences and to simplify making online purchases. You may have seen targeted ads when browsing the web. Targeted ads are ads specific to you based on your browsing and purchase history. They are being used by stores (as shown in the NY times video below) and by websites for internet advertising.</p>
-    <table>
-    <tbody><tr>
-    <td>
-    <p><b>Discussion:</b> Watch the video to the right on Retailer's Predictions from the New York Times. (<a href="http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&amp;_r=0" target="_blank" title="">Here is the full article</a> if you're interested in reading more.). Then, take a look at a <a href="https://www.thebillfold.com/2016/03/show-us-your-grocery-receipts-part-seven-target/" target="_blank" title="">receipt from Target</a> and the data available on it. Consider the following questions to help you understand how companies like Target collect information on buying habits:<br/></p>
+    <p><b>How is your data being used and are you concerned?</b> Disparate personal data, such as geolocation, <span class="hover vocab yui-wk-div" data-id='Cookies'>Cookies</span>, and browsing history, can be aggregated to create knowledge about an individual. PII and other information stored online can be used to enhance a user’s online experiences and to simplify making online purchases. You may have seen targeted ads when browsing the web. Targeted ads are ads specific to you based on your browsing and purchase history. They are being used by stores (as shown in the NY times video below) and by websites for internet advertising.</p>
+    
+    <p><b>Discussion:</b> Watch the video to the below on Retailer's Predictions from the New York Times. (<a href="http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&amp;_r=0" target="_blank" title="">Here is the full article</a> if you're interested in reading more.). Then, take a look at a <a href="https://www.thebillfold.com/2016/03/show-us-your-grocery-receipts-part-seven-target/" target="_blank" title="">receipt from Target</a> and the data available on it. Consider the following questions to help you understand how companies like Target collect information on buying habits:<br/></p>
     <ul>
     <li>What data is included on the receipt?</li>
     <li>How might this data reveal demographics, personal life details, and other information about the consumer?</li>
     <li>Is it different if you pay for purchases with cash vs a credit or debit card? </li>
     <li>Is it different if you purchase items in the brick-and-mortar store or the online store? </li>
     </ul><br/>
-    </td>
-    <td><div class="yui-wk-div" style="text-align: center;"><iframe align="right" allowfullscreen="true" frameborder="0" height="321" id="nyt_video_player" marginheight="0" marginwidth="0" scrolling="no" src="https://static01.nyt.com/video/players/offsite/index.html?videoId=100000001367956" title="New York Times Video - Embed Player" width="480"></iframe> </div></td>
-    </tr></tbody></table>
-    <p><img align="left" alt="" class="yui-img" src="../_static/assets/img/IPOS.png" title=""/><b><br/>Input Process Output Storage:</b> Computing innovations involve data which can be used in different ways. Some data is considered <span style="font-weight: bold; font-style: italic;">input</span> while other data is considered <span style="font-weight: bold; font-style: italic;">output</span>. An Input Processing Output Storage (IPOS) Structure Chart helps to classify data and see how that data is being used as input, then <span style="font-weight: bold; font-style: italic;">processed</span> by a program to give an output to the user, and also how that data is <span style="font-weight: bold; font-style: italic;">stored</span>. </p>
+    
+    <div class="yui-wk-div" style="text-align: center;"><iframe allowfullscreen="true" frameborder="0" height="321" id="nyt_video_player" marginheight="0" marginwidth="0" scrolling="no" src="https://static01.nyt.com/video/players/offsite/index.html?videoId=100000001367956" title="New York Times Video - Embed Player" width="480"></iframe> </div>
+    
+    <p><img alt="" class="yui-img" src="../_static/assets/img/IPOS.png" title=""/></p>
+    <br />
+    <b>Input Process Output Storage:</b> Computing innovations involve data which can be used in different ways. Some data is considered <span style="font-weight: bold; font-style: italic;">input</span> while other data is considered <span style="font-weight: bold; font-style: italic;">output</span>. An Input Processing Output Storage (IPOS) Structure Chart helps to classify data and see how that data is being used as input, then <span style="font-weight: bold; font-style: italic;">processed</span> by a program to give an output to the user, and also how that data is <span style="font-weight: bold; font-style: italic;">stored</span>. </p>
     <p><b>Exercise:</b> Can you draw, label, and explain the scenario of having to type a paper for a class using an IPOS structure chart?</p>
-    <h4><br/><br/><br/><br/><br/>Data Concerns</h4>
+    
+    <br />
+    <h4>Data Concerns</h4>
     <p>The collection of our data raises a variety of concerns involving <span class="hover vocab yui-wk-div" data-id='data privacy'>data privacy</span>, <span class="hover vocab yui-wk-div" data-id='data security'>data security</span>, and <span class="hover vocab yui-wk-div" data-id='data storage'>data storage</span>. For example, commercial and governmental curation of information may be exploited if privacy and other protections are ignored. Having a website collect and remember your login information, for example, may be convenient because it saves you time, but it also comes with risks and concerns:</p>
     <ul>
     <li><span class="hover vocab yui-wk-div" data-id='Data Privacy'>Data Privacy/span> - assures that personal information (and sometimes corporate confidential information as well) are collected, processed (used), protected and destroyed legally and fairly.  </li>

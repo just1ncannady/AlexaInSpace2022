@@ -85,7 +85,12 @@ Learning Activities
 
 
     <p>Here is a quick review of comparing AP pseudocode and App Inventor blocks for loops with list: <br/>
-    </p><table width="90%">
+    </p>
+    
+    <img src="../_static/assets/img/AP_Loops.png" />
+    
+    <!-- Old Table Format
+    <table width="90%">
     <tbody>
     <tr><td width="20%">AP Text Pseudocode</td><td width="45%">AP Block Pseudocode</td><td width="35%">App Inventor Block</td></tr>
     <tr> <td>
@@ -120,6 +125,8 @@ Learning Activities
     </td> <td><img src="../_static/assets/img/6-3-QuizAppProjectsForLoop.png" width="450px"/> </td>
     </tr>
     <tr><td>questionsList[index]</td><td><div class="yui-wk-div" id="APblocks"><bl>questionsList<bl>index</bl></bl></div></td><td><img src="../_static/assets/img/6-2-QuizAppSelectFromList.png" width="300px"/></td></tr></tbody></table>
+    
+    -->
     
     Basic operations on lists include:
     <ul>

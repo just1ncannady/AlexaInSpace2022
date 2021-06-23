@@ -163,7 +163,7 @@ Learning Activities
     <thead><tr><th style="border:1px solid black;">Linear Search Pseudocode</th><th style="border:1px solid black;">Binary Search Pseudocode</th></tr>
     </thead>
     <tbody>
-    <tr><td style="border:1px solid black;"><pre>FOR EACH item in List     
+    <tr><td valign="top" style="border:1px solid black;"><pre>FOR EACH item in List     
     {
        IF (item = target)
            DISPLAY "Found target!"

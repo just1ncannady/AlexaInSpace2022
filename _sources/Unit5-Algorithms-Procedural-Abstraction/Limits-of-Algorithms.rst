@@ -253,6 +253,7 @@ Self-Check
     <br/><span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems</span>
     <br/><span class="hover vocab yui-wk-div" data-id="reasonable time">Reasonable Time</span>
     <br/><span class="hover vocab yui-wk-div" data-id="unreasonable time">Unreasonable Time</span>
+    
     </td>
     <td>
     <br/><span class="hover vocab yui-wk-div" data-id="The Halting Problem">The Halting Problem</span>

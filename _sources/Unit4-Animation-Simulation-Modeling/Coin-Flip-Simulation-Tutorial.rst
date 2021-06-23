@@ -39,10 +39,11 @@ Introduction and Goals
     <p>
     <table><tbody>
     <tr>
-    <td>
+    <td valign="top">
     <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/YOGEBNeA8tA" width="315">
     </iframe>
     </td>
+    <td width="20px"></td>
     <td>
     <b><i>Coin Flip</i></b> is an app that simulates a coin flip. In
     fact, because it uses App Inventor's <i><b><span class="hover vocab yui-wk-div" data-id='random'>random</span> number generator</b></i>,
@@ -63,20 +64,25 @@ Introduction and Goals
       -- unless the "randomness" that's built into App Inventor is not a very good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of true
       randomness. We'll explore the whole idea of randomness in subsequent lessons in this Unit. 
       </p>
-    <p>
-    <b>Objectives:</b> In this lesson you will learn to:
-    </p><ul>
-    <li>create an artifact that uses Randomness and simulates a <span class="hover vocab yui-wk-div" data-id='model'>model</span>;
-    </li><li>create a simple <span class="hover vocab yui-wk-div" data-id='model'>model</span> of a coin flip;
-    </li><li>use <span class="hover vocab yui-wk-div" data-id='random'>random</span> number blocks to generate a <span class="hover vocab yui-wk-div" data-id='random'>random</span> value in a specific range;
-    </li><li>define a global variable and assign it an initial value;
-    </li><li>use a conditional statement, <i>IF/Else</i>, to evaluate a variable and follow an 
-    algorithm based on the value of a variable;
-    </li><li>use a <i>For each number</i> loop to repeatedly simulate the flipping of the
-      coin and count the number of heads that occur.
-      </li>
-    </ul>
-    </td></tr></tbody></table>
+    </td>
+    </tr>
+    <tr>
+    	<td colspan="3">
+
+	    <b>Objectives:</b> In this lesson you will learn to:
+	    </p><ul>
+	    <li>create an artifact that uses Randomness and simulates a <span class="hover vocab yui-wk-div" data-id='model'>model</span>;
+	    </li><li>create a simple <span class="hover vocab yui-wk-div" data-id='model'>model</span> of a coin flip;
+	    </li><li>use <span class="hover vocab yui-wk-div" data-id='random'>random</span> number blocks to generate a <span class="hover vocab yui-wk-div" data-id='random'>random</span> value in a specific range;
+	    </li><li>define a global variable and assign it an initial value;
+	    </li><li>use a conditional statement, <i>IF/Else</i>, to evaluate a variable and follow an 
+	    algorithm based on the value of a variable;
+	    </li><li>use a <i>For each number</i> loop to repeatedly simulate the flipping of the
+	      coin and count the number of heads that occur.
+	      </li>
+	    </ul>
+    	</td>
+    </tr></tbody></table>
     
 
 Learning Activities

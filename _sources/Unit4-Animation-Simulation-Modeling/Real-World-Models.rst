@@ -51,26 +51,38 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Solar System Models</h3>
+    <h3>Solar System Models</h3>
     <p>Models and simulations are most useful when real-world events are impractical for experiments (e.g., too big, too small, too fast, too slow, too expensive, or too dangerous).   Watch the following videos, paying particular attention to the different ways in which the models <i>abstract away</i> certain details from the real world situations that are being modeled. Discuss with your classmates which features of the solar system each model chose to include and to exclude. How do those choices align with the educational goals of each model?</p>
-    <table>
-    <tbody><tr>
-    <td><h3>Bill Nye's Model</h3>
-    Bill Nye illustrates the problem of trying to build a <i><b>scale model</b></i> of the solar system by using his bicycle to demonstrate the relative sizes and the relative distances between the planets. 
-        </td>
-    <td><h3>7-Mile Long Scale Model</h3>
-          Starting with an Earth the size of a marble, <a href="http://www.cnet.com/news/guys-build-amazing-7-mile-long-model-of-the-solar-system-to-scale/" target="_blank"> these folks</a> built a full-scale model of our solar system across 7 miles of Nevada desert.
-        </td>
-    <td><h3>Second Life 3D Model</h3>
-          This solar system model is built in <a href="http://secondlife.com/?gclid=CI2QgPHxjLwCFU9yQgodI24Arg">Second Life</a>, on online virtual world. Think about the differences between this model and the others.</td>
-    </tr>
-    <tr>
-    <td><iframe allowfullscreen="" frameborder="0" height="160" src="https://www.youtube.com/embed/97Ob0xR0Ut8?rel=0" width="210"></iframe><!-- &lt;gcb-youtube videoid=&quot;97Ob0xR0Ut8&quot;&gt;&lt;/gcb-youtube&gt; --></td>
-    <td><iframe allowfullscreen="" frameborder="0" height="175" mozallowfullscreen="" src="https://player.vimeo.com/video/139407849" webkitallowfullscreen="" width="210">
-    </iframe></td>
-    <td><iframe allowfullscreen="" frameborder="0" height="160" src="https://www.youtube.com/embed/8z5mwAlxBYc?rel=0" width="210"></iframe><!--&lt;gcb-youtube videoid=&quot;8z5mwAlxBYc&quot; instanceid=&quot;3YZj2JgMcJQz&quot;&gt;&lt;/gcb-youtube&gt;--></td>
-    </tr>
-    </tbody></table>
+    
+    <h4>Bill Nye's Model</h4>
+    <p>Bill Nye illustrates the problem of trying to build a <i><b>scale model</b></i> of the solar system by using his bicycle to demonstrate the relative sizes and the relative distances between the planets.</p>
+
+.. youtube:: 97Ob0xR0Ut8
+	:width: 650
+	:height: 415
+	:align: center
+
+
+.. raw:: html
+	
+	<br />
+    <h4>7-Mile Long Scale Model</h4>
+	<p>Starting with an Earth the size of a marble, <a href="http://www.cnet.com/news/guys-build-amazing-7-mile-long-model-of-the-solar-system-to-scale/" target="_blank"> these folks</a> built a full-scale model of our solar system across 7 miles of Nevada desert.</p>
+	
+	<iframe src="https://player.vimeo.com/video/139407849" width="650" height="415" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+	</iframe>
+    <br />   
+
+    <h4>Second Life 3D Model</h4>
+	<p>This solar system model is built in <a href="http://secondlife.com/?gclid=CI2QgPHxjLwCFU9yQgodI24Arg">Second Life</a>, on online virtual world. Think about the differences between this model and the others.</p>
+    
+.. youtube:: 8z5mwAlxBYc
+	:width: 650
+	:height: 415
+	:align: center
+    
+.. raw:: html
+
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (30 minutes)</h3> 
       Break into POGIL teams of 4.  Each team member should take the following roles. Record your answers <a href="https://docs.google.com/document/d/1GpLy6pSJ8DeXCZYfiQBgvBa4MSDDjlQjtGvSLculBMY/edit" target="_blank">using this worksheet</a>. (File-Make a Copy to have a version you can edit.)

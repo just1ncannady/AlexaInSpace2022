@@ -38,6 +38,7 @@ Introduction and Goals
     <td>
     <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/gopOXnrTUHE" width="300"></iframe>
     </td>
+    <td width="20px"</td>
     <td>
             In this lesson you will design, implement, and 
             test algorithms to draw complex shapes using Logo commands.
@@ -162,7 +163,12 @@ Learning Activities
     In this lesson, you will learn to define procedures with <b><span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span></b>, which are variables that hold data sent to the procedure to help it do its job. To do this, you will need get a procedure block from the Procedures drawer. As always, you should give your procedure an appropriate name. To add a parameter to the procedure, click the blue mutator button on the procedure block  and drag an input block from the left into the inputs block on the right. Click the blue button when you have finished adding the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> needed for the procedure.  Replace x in input x with a useful and helpful parameter name such as L or Length for the drawSquare procedure. After you've defined the procedure, look in the Procedures drawer to find the newly generated call block for that procedure which you can use to call the procedure to do its job.<p>
     <img height="200px" src="../_static/assets/img/procedureParamAnimated.gif"/>
     </p><p>  In the AP exam, the following pseudocode is used for procedures with and without <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> compared to App Inventor blocks. Notice that parentheses () are  used after a procedure name in the AP text pseudocode; they can be empty or hold the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>. There is also a special kind of procedure, often called a <b>function</b>, that can return a result. The  RETURN(result) statement can be used inside these procedures to return a calculated result or expression which can be assigned to a variable. For example, result ← procName(arg1, arg2, …) to assign to result the “value of the procedure” being returned by calling PROCEDURE procName(parameter1, parameter2, …).  The AP pseudocode provides a procedure DISPLAY(expression)  to display the value of expression, followed by a space, and a procedure INPUT(), which accepts a value from the user and returns the input value often assigned to a variable. <br/>
-    </p><table border="">
+    </p>
+    
+    <img src="../_static/assets/img/AP_Procedures.png" />
+    
+    <!-- Old Table Format
+    <table border="">
     <tbody>
     <tr><td width="10%"></td><td width="25%">AP Text Pseudocode</td><td width="30%">AP Block Pseudocode</td><td width="30%">App Inventor Block</td></tr>
     <tr><td>Procedures</td><td>
@@ -201,6 +207,8 @@ Learning Activities
     </bl></div></td>
     <td><img src="../_static/assets/img/procedurewresult.png" width="100%"/></td></tr>
     </tbody></table>
+    
+    -->
     <p>The following example uses <span class="hover vocab yui-wk-div" data-id='procedural abstraction'>procedural abstraction</span> and <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> to write a procedure <i>welcome(name)</i> that will work for any name. We can call  the procedure welcome with different <span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span> "Ali" and "Skyler". The argument value gets assigned to the parameter name when the procedure is called so that it can display hello to whichever name it is given. When you call the procedure welcome with a name, the program  jumps to the procedure and executes those statements. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.<br/>
     <img src="../_static/assets/img/procedureCall.png" width="350"/>
     </p><h3>Tutorial: DrawSquare(L)</h3>

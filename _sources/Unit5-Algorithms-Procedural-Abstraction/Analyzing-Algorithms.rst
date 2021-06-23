@@ -42,11 +42,14 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <table><tbody><tr><td>
+    <table><tbody>
+    <tr>
+    <td valign="top">
     <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/t9PVjJDXWTk" width="315">
     </iframe>
     (<a href="http://www.teachertube.com/video/359065" target="_blank">Teacher Tube version</a>)
     </td>
+    <td width="20px"></td>
     <td><b><i>Searching and Sorting Experiments.</i></b>
     In this lesson we are going to use an App Inventor app to experiment with and
     analyze the algorithms we have been studying.  You will be running two different
@@ -99,7 +102,7 @@ Learning Activities
     <h3>Search Experiment</h3>
     <table><tbody>
     <tr>
-    <td>
+    <td valign="top" width="40%" style="padding: 10px;">
     <img src="../_static/assets/img/searchappscreen.png" width="200"/>
     </td>
     <td>
@@ -166,7 +169,7 @@ Learning Activities
     <h3>Sort Experiment</h3>
     <table><tbody>
     <tr>
-    <td>
+    <td valign="top" width="40%" style="padding: 10px;">
     <img src="../_static/assets/img/sortappscreen.png" width="200"/>
     </td>
     <td>
@@ -484,7 +487,23 @@ Sample AP CSP Exam Question
     :feedback_d: 
     :correct: c
 
-    There are 32 students standing in a classroom. Two different algorithms are given for findingthe average height of the students.Algorithm AStep 1: All students stand.Step 2: A randomly selected student writes his or her height on a card and is seated.Step 3: A randomly selected standing student adds his or her height to the value on the card,records the new value on the card, and is seated. The previous value on the card is erased.Step 4: Repeat step 3 until no students remain standing.Step 5: The sum on the card is divided by 32. The result is given to the teacher.Algorithm BStep 1: All students stand.Step 2: Each student is given a card. Each student writes his or her height on the card.Step 3: Standing students form random pairs at the same time. Each pair adds the numberswritten on their cards and writes the result on one student’s card; the other student isseated. The previous value on the card is erased.Step 4: Repeat step 3 until one student remains standing.Step 5: The sum on the last student’s card is divided by 32. The result is given to the teacher.Which of the following statements is true?
+    There are 32 students standing in a classroom. Two different algorithms are given for findingthe average height of the students.
+    
+    .. raw:: html
+    	
+    	<b>Algorithm A</b><br />
+    	Step 1: All students stand.<br />
+    	Step 2: A randomly selected student writes his or her height on a card and is seated. <br />
+    	Step 3: A randomly selected standing student adds his or her height to the value on the card,records the new value on the card, and is seated. The previous value on the card is erased.<br />
+    	Step 4: Repeat step 3 until no students remain standing.<br />
+    	Step 5: The sum on the card is divided by 32. The result is given to the teacher.<br /><br />
+    	<b>Algorithm B</b><br />
+    	Step 1: All students stand.<br />
+    	Step 2: Each student is given a card. Each student writes his or her height on the card.<br />
+    	Step 3: Standing students form random pairs at the same time. Each pair adds the numberswritten on their cards and writes the result on one student’s card; the other student isseated. The previous value on the card is erased.<br />
+    	Step 4: Repeat step 3 until one student remains standing.<br />
+    	Step 5: The sum on the last student’s card is divided by 32. The result is given to the teacher.<br /><br />
+    	Which of the following statements is true?
 
 
 .. raw:: html

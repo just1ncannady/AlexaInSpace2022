@@ -45,6 +45,7 @@ Introduction and Goals
     <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/PWKGUzdiP44" width="315"></iframe>
         (<a href="http://www.teachertube.com/video/paintpot2preview-347830" target="_blank">TeacherTube Version</a>)
       </td>
+	<td width="20px"</td>
     <td>
     <b><i>Paint Pot</i></b> is a basic “finger painting” app. It 
         simulates  dipping your finger in a pot of a paint and then 

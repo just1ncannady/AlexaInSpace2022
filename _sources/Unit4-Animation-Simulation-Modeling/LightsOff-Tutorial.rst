@@ -35,7 +35,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <table><tbody><tr><td>
+    <table><tbody><tr><td valign="top">
     <!-- 
     &lt;img width=&quot;315&quot; src=&quot;assets/img/LightsOutPart1.png&quot; /&gt; 
     -->
@@ -44,7 +44,7 @@ Introduction and Goals
       (<a href="https://teachertube.com/video/lightsoff-tutorial-preview-476362" target="_blank">Teacher Tube version</a>) 
     
     </td>
-    <td><b><i>LightsOff App</i></b> 
+    <td valign="top"><b><i>LightsOff App</i></b> 
       is a variation of the classic Whack-a-Mole game  -- this one promoting the socially useful message of saving electricity.  In the game, a light bulb (represented by an ImageSprite) pops up at random positions on the screen. The player can score by touching the light bulb before it disappears and pops up in a new position. 
       
     <br/>This app uses animation, a clock, and randomness to move the ImageSprite around the canvas. This tutorial guides you through the basic steps in creating the animation. 
@@ -52,21 +52,25 @@ Introduction and Goals
     <br/>
     <br/>
     <p>
-    <b>Objectives:</b> In this lesson you will:</p>
-    <ul>
-    <li>follow an instructor-led walkthrough to create the <i>LightsOff</i> app on a mobile device;
-        </li><li>develop your understanding of how timing, animation, and randomness are programmed;
-    
-        </li><li>learn how to use the Canvas and ImageSprites in App Inventor;</li>
-    <li>develop your understanding of procedures and procedural abstraction;
-        </li><li>deepen your understanding of event-driven programming.
-        </li>
-    </ul>
-    <br/> <br/> <br/>
-    <p><b>Acknowledgement: </b> The socially useful theme for this app -- helping to save electricity -- was suggested by 
-        Boston Latin Academy students Adam Vardaro and Daniel Rodriguez through their teacher, Ms. Ingrid Roche.
-      </p>
     </td>
+    </tr>
+    <tr>
+    	<td colspan="2">
+	    <b>Objectives:</b> In this lesson you will:</p>
+	    <ul>
+	    <li>follow an instructor-led walkthrough to create the <i>LightsOff</i> app on a mobile device;
+	        </li><li>develop your understanding of how timing, animation, and randomness are programmed;
+	    
+	        </li><li>learn how to use the Canvas and ImageSprites in App Inventor;</li>
+	    <li>develop your understanding of procedures and procedural abstraction;
+	        </li><li>deepen your understanding of event-driven programming.
+	        </li>
+	    </ul>
+	    </td>
+	</tr>
+	<tr>
+		<td colspan="2"><b>Acknowledgement: </b> The socially useful theme for this app -- helping to save electricity -- was suggested by Boston Latin Academy students Adam Vardaro and Daniel Rodriguez through their teacher, Ms. Ingrid Roche.
+    	</td>
     </tr>
     </tbody></table>
     

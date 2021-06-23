@@ -40,21 +40,26 @@ Introduction and Goals
     <p>
     <style>    td { text-align: left; padding: 5px;}</style>
     <table><tbody>
-    <tr><td>
-    <iframe allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/CykBbRvB0lk" width="400"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
-    <td><b><i>Enhancing I Have a Dream. </i></b>The I Have a Dream app only had one picture and speech, and it didn't allow you to pause the speeches. In part 2, you'll add a speech of Malcolm X to show the contrast of these two great leaders, and you'll code it so each speech can be paused. <br/><br/>
-    This tutorial introduces the concept of an <i><b>if-else condition</b></i>, which enables an app (an example of a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span>) to ask questions and make decisions-- it's one of the fundamentals of "artificial intelligence".
+    <tr>
+    	<td valign="top">
+    		<iframe allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/CykBbRvB0lk" width="400"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
+    	<td><b><i>Enhancing I Have a Dream. </i></b>The I Have a Dream app only had one picture and speech, and it didn't allow you to pause the speeches. In part 2, you'll add a speech of Malcolm X to show the contrast of these two great leaders, and you'll code it so each speech can be paused. <br/><br/>
+    This tutorial introduces the concept of an <i><b>if-else condition</b></i>, which enables an app (an example of a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span>) to ask questions and make decisions-- it's one of the fundamentals of "artificial intelligence".</td>
+    </tr>
+    <tr>
+    	<td colspan="2">
         
-    <p><b>Objectives:</b> In this lesson you will learn to:</p>
-    <ul>
-    <li>Follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device.
-    </li><li>Use a selection <i>if-else</i> block to pause and start the speeches. 
-      </li><li>Reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor
-      </li><li>Use a <span class="hover vocab yui-wk-div" data-id='horizontal arrangement'>horizontal arrangement</span> to layout buttons side-by-side
-      </li><li>Name components in a standard format (description followed by component type, e.g. MalcolmButton)
-      </li><li>Understand what a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> is</li></ul>
-    <p></p>
-    </td></tr></tbody></table>
+	    <p><b>Objectives:</b> In this lesson you will learn to:</p>
+	    <ul>
+	    <li>Follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device.
+	    </li><li>Use a selection <i>if-else</i> block to pause and start the speeches. 
+	      </li><li>Reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor
+	      </li><li>Use a <span class="hover vocab yui-wk-div" data-id='horizontal arrangement'>horizontal arrangement</span> to layout buttons side-by-side
+	      </li><li>Name components in a standard format (description followed by component type, e.g. MalcolmButton)
+	      </li><li>Understand what a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> is</li></ul>
+    
+    	</td>
+    </tr></tbody></table>
     
 
 Learning Activities
