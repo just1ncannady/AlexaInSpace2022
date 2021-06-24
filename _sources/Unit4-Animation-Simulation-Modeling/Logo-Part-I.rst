@@ -334,7 +334,19 @@ Self-Check
     :feedback_d: Don’t worry, it’s hard! Let’s go back and try it again. This algorithm draws a rectangle.
     :correct: c
 
-    Assuming that forward tells the Android to move forward by 10 pixels and turn tells it to turn right by 90 degrees, what shape would be drawn by this algorithm?      forward      forward      turn      forward      turn      forward      forward      turn      forward      turn
+    .. raw:: html
+    
+    	<p>Assuming that forward tells the Android to move forward by 10 pixels and turn tells it to turn right by 90 degrees, what shape would be drawn by this algorithm?</p>
+		forward<br />
+		forward<br />
+		turn<br />
+		forward<br />
+		turn<br />
+		forward<br />
+		forward<br />
+		turn<br />
+		forward<br />
+		turn<br />
 
 
 .. raw:: html
@@ -355,7 +367,14 @@ Self-Check
     :feedback_c: Since 10 is greater than 0, the loop would never run.
     :correct: a
 
-    Given the following code segment, which value of x would cause an infinite loop? REPEAT UNTIL (x &gt; 0){   x ← x - 1}
+    .. raw:: html
+    
+    	<p>Given the following code segment, which value of x would cause an infinite loop?</p>
+    	<pre>REPEAT UNTIL (x &gt; 0)
+    	{
+    	   x ← x - 1
+    	}
+    	</pre>
 
 
 .. raw:: html
@@ -399,12 +418,13 @@ Sample AP CSP Questions
     :feedback_d: 
     :correct: a
 
-    The following question uses a robot in a grid of squares. The robot is represented as a triangle, which is initially in the bottom left square of the grid and facing right.   Consider the following code segment, which moves the robot in the grid.Which of the following shows the location of the robot after running the code segment?
-
     .. raw:: html
-
-        <img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.png" style="line-height: 1.22;" title=""/>
-
+    
+    	<p>The following question uses a robot in a grid of squares. The robot is represented as a triangle, which is initially in the bottom left square of the grid and facing right.</p>
+    	<img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.png" style="line-height: 1.22;" title=""/>
+    	<p>Consider the following code segment, which moves the robot in the grid.</p>
+    	<img alt="" class="yui-img selected" src="../_static/assets/img/Q17Code.png" style="line-height: 1.22;" title=""/>
+    	<p>Which of the following shows the location of the robot after running the code segment?</p>
 
 .. raw:: html
 
@@ -454,7 +474,26 @@ Sample AP CSP Questions
     :feedback_d: 
     :correct: c
 
-    AP 2021 Sample Question:  The following procedure is intended to return the number of times the value val appears in the list myList. The procedure does not work as intended.Line 1: PROCEDURE countNumOccurences(myList, val)Line 2: {Line 3: FOR EACH item IN myListLine 4: {Line 5: count 0Line 6: IF(item = val)Line 7: {Line 8: count count + 1Line 9: }Line 10: }Line 11: RETURN(count)Line 12: }Which of the following changes can be made so that the procedure will work as intended?
+    .. raw:: html
+    
+    	<p><b>AP 2021 Sample Question</b>:  The following procedure is intended to return the number of times the value val appears in the list myList. The procedure does not work as intended.</p>
+    	
+    	<pre>
+    	Line 1: PROCEDURE countNumOccurences(myList, val)
+    	Line 2: {
+    	Line 3: FOR EACH item IN myList
+    	Line 4: {
+    	Line 5: count 0
+    	Line 6: IF(item = val)
+    	Line 7: {
+    	Line 8: count count + 1
+    	Line 9: }
+    	Line 10: }
+    	Line 11: RETURN(count)
+    	Line 12: }
+   		</pre>
+   		
+   		<p>Which of the following changes can be made so that the procedure will work as intended?</p>
 
 
 .. raw:: html
@@ -477,11 +516,25 @@ Sample AP CSP Questions
     :feedback_d: 
     :correct: b,c
 
-    AP 2021 Sample Question: Consider the following procedure.Procedure CallExplanationdrawCircle(xPos, yPos, rad)Draws a circle on a coordinate grid with center (xPos, yPos) and radius radThe drawCircle procedure is to be used to draw the following figure on a coordinate grid.Which of the following code segments can be used to draw the figure?Select two answers.
-
     .. raw:: html
-
+    
+    	<p><b>AP 2021 Sample Question</b>: Consider the following procedure.</p>
+    	<table border="1"><tbody>
+    	<tr>
+    		<th>Procedure Call</th>
+    		<th>Explanation</th>
+    	</tr>
+    	<tr>
+    		<td width="40%" style="padding:2px">drawCircle(xPos, yPos, rad)</td>
+    		<td>Draws a circle on a coordinate grid with center (xPos, yPos) and radius rad</td>
+    	</tr>
+    	</tbody></table>
+    	<br />
+    	<p>The drawCircle procedure is to be used to draw the following figure on a coordinate grid.</p>
         <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ17Question.png" title=""/>
+        <br />
+        <p>Which of the following code segments can be used to draw the figure?</p>
+        <p><b>Select <u>two</u> answers.</p>
 
 
 .. raw:: html

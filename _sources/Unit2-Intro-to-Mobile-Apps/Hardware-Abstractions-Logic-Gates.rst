@@ -409,11 +409,13 @@ Self-Check
     :feedback_d: 
     :correct: b
 
-    An office building has two floors. A computer program is used to control an elevator that travels between the two floors. Physical sensors are used to set the following Boolean variables.The elevator moves when the door is closed and the elevator is called to the floor that it is not currently on. Which of the following Boolean expressions can be used in a selection statement to cause the elevator to move?
+    An office building has two floors. A computer program is used to control an elevator that travels between the two floors. Physical sensors are used to set the following Boolean variables.
 
     .. raw:: html
 
         <img alt="" class="yui-img" src="../_static/assets/img/Q21Table.png" style="line-height: 1.22;" title=""/>
+        <br />
+		<p>The elevator moves when the door is closed and the elevator is called to the floor that it is not currently on. Which of the following Boolean expressions can be used in a selection statement to cause the elevator to move?</p>
 
 
 .. raw:: html

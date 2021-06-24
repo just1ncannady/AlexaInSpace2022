@@ -354,11 +354,6 @@ Self-Check
     
     Which of the following blocks would you use to change the value of dotsize?
 
-    .. raw:: html
-
-        <img class="yui-img selected" src="../_static/assets/img/initdotsize.png"/>
-
-
 .. raw:: html
 
     <div id="bogus-div">
@@ -431,7 +426,16 @@ Self-Check
     :feedback_d: Yes, that's correct. At first a is 1 and b is set to a which is 1. &nbsp;Then, we add 1 to b and it becomes 2. &nbsp; Then, a adds b (which is currently 2) to its value (which is currently 1) and becomes 3.&nbsp;
     :correct: d
 
-    What does the following AP CSP pseudocode display? Remember to trace through the code keeping track of the values in a and b after each line of code.a ← 1        (Set a to 1)b ← a        (Set b to the current value of a)b ← b + 1    (Add 1 to b)a ← a + b    (Set a to be the current value of a + b)DISPLAY(a)DISPLAY(b)
+    What does the following AP CSP pseudocode display? Remember to trace through the code keeping track of the values in a and b after each line of code.
+    
+    .. raw:: html
+    
+    	a ← 1        (Set a to 1)<br />
+    	b ← a        (Set b to the current value of a)<br />
+    	b ← b + 1    (Add 1 to b)<br />
+    	a ← a + b    (Set a to be the current value of a + b)<br />
+    	DISPLAY(a)<br />
+    	DISPLAY(b)<br /><br />
 
 
 .. raw:: html

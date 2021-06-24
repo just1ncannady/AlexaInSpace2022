@@ -244,11 +244,35 @@ Self-Check
     :feedback_d: No, we are associating a new value with the tag 'school'. 
     :correct: c
 
-    Consider the following depiction of the contents of a TinyDb for an app.TagsValuesschoolTrinity CollegetrinityTrinity CollegecollegeAmherst CollegeuniversityHarvardAnd suppose your app just executed the following block:Which of these statements best describes the current state of the database?
-
     .. raw:: html
-
+    
+    	<p>Consider the following depiction of the contents of a TinyDb for an app.</p>
+    	<table border="1"><tbody>
+    	<tr>
+    		<th>Tags</th>
+    		<th>Values</th>
+    	<tr>
+    	<tr>
+    		<td>school</td>
+    		<td>Trinity College</td>
+    	<tr>
+    	<tr>
+    		<td>trinity</td>
+    		<td>Trinity College</td>
+    	<tr>
+    	<tr>
+    		<td>college</td>
+    		<td>Amherst College</td>
+    	<tr>
+    	<tr>
+    		<td>university</td>
+    		<td>Harvard</td>
+    	<tr>
+    	</tbody><table>
+    	<br />
+    	<p>And suppose your app just executed the following block:</p>
         <img src="../_static/assets/img/StoreBowdoin.png" width="200"/>
+        <p>Which of these statements best describes the current state of the database?</p>
 
 
 .. raw:: html

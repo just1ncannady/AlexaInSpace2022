@@ -366,7 +366,18 @@ Self-Check
     :feedback_d: 
     :correct: b
 
-    AP 2021 Sample Question:  A list of numbers has n elements, indexed from 1 to n. The following algorithm is intended to display the number of elements in the list that have a value greater than 100. The algorithm uses the variables count and position. Steps 3 and 4 are missing.Step 1: Set count to 0 and position to 1.Step 2: If the value of the element at index position is greaterthan 100, increase the value of count by 1.Step 3: (missing step)Step 4: (missing step)Step 5: Display the value of count.Which of the following could be used to replace steps 3 and 4 so that the algorithm works as intended?
+    .. raw:: html
+    
+	    <p><b>AP 2021 Sample Question</b>:  A list of numbers has <i>n</i> elements, indexed from <i>1</i> to <i>n</i>. The following algorithm is intended to display the number of elements in the list that have a value greater than <i>100</i>. The algorithm uses the variables <i>count</i> and <i>position</i>. Steps 3 and 4 are missing.</p>
+	    <pre>
+	    Step 1: Set count to 0 and position to 1.
+	    Step 2: If the value of the element at index position is greaterthan 100, increase the value of count by 1.
+	    Step 3: (missing step)
+	    Step 4: (missing step)
+	    Step 5: Display the value of count.
+	    </pre>
+	    
+	    <p>Which of the following could be used to replace steps 3 and 4 so that the algorithm works as intended?</p>
 
 
 .. raw:: html

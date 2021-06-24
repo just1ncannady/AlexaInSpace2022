@@ -371,11 +371,11 @@ Self-Check
     :feedback_d: 
     :correct: d
 
-    AP 2021 Sample Question: The following code segment is intended to set max equal to the maximum value among the integer variables x, y, and z. The code segment does not work as intended in all cases.Which of the following initial values for x, y, and z can be used to show that the code segment does not work as intended?
-
     .. raw:: html
-
-        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ9image_question.PNG.jpg?seed=5522&amp;url=assets/img/APExamPrepQ9image_question.PNG.jpg" title=""/>
+    	
+    	<p><b>AP 2021 Sample Question</b>: The following code segment is intended to set max equal to the maximum value among the integer variables x, y, and z. The code segment does not work as intended in all cases.</p>
+        <p><img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ9image_question.PNG.jpg" title=""/></p>
+        <p>Which of the following initial values for x, y, and z can be used to show that the code segment does not work as intended?</p>
 
 
 .. raw:: html
@@ -397,11 +397,12 @@ Self-Check
     :feedback_d: 
     :correct: a,d
 
-    AP 2021 Sample Question: In the following statement, val1, val2, and result are Booleanvariables. Which of the following code segments produce the same result as the statement above for all possible values of val1 and val2?Select two answers.
-
     .. raw:: html
-
-        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/APExamPrepQ18image_question.PNG.jpg?seed=46066&amp;url=assets/img/APExamPrepQ18image_question.PNG.jpg" title=""/>
+    	
+    	<p><b>AP 2021 Sample Question</b>: In the following statement, val1, val2, and result are Booleanvariables.</p>
+    	<p><img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ18image_question.PNG.jpg" title=""/>
+    	<p>Which of the following code segments produce the same result as the statement above for all possible values of val1 and val2?</p>
+    	<p><b>Select <u>two</u> answers.</b></p>
 
 
 .. raw:: html

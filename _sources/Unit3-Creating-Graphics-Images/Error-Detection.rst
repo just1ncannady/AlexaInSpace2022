@@ -260,7 +260,42 @@ Self-Check
     :feedback_d: Don’t worry, it’s hard! Let’s go back and try it again.
     :correct: a
 
-    Find the flipped bit.For this table, identify the bit that was flipped.1001111100110100
+    .. raw:: html
+    
+    	<table><tbody>
+    	<tr>
+    		<td valign="top"><b>Find the flipped bit.</b><br />For this table, identify the bit that was flipped.</td>
+    		<td>
+	    		<table border="1"><tbody>
+	    		<tr>
+	    			<td>1</td>
+	    			<td>0</td>
+	    			<td>0</td>
+	    			<td>1</td>
+	    		</tr>
+	    		<tr>
+	    			<td>1</td>
+	    			<td>1</td>
+	    			<td>1</td>
+	    			<td>1</td>
+	    		</tr>
+	    		<tr>
+	    			<td>0</td>
+	    			<td>0</td>
+	    			<td>1</td>
+	    			<td>1</td>
+	    		</tr>
+	    		<tr>
+	    			<td>0</td>
+	    			<td>1</td>
+	    			<td>0</td>
+	    			<td>0</td>
+	    		</tr>
+	    		</tbody></table>	
+    		</td>
+    	</tr>
+    	</tbody>
+    	</table>
 
 
 .. raw:: html
@@ -284,9 +319,34 @@ Self-Check
     :answer_d: <table> <tr><td>1</td><td>0</td><td>0</td><td>1</td></tr> <tr><td>1</td><td>1</td><td>1</td><td>1</td></tr> <tr><td>0</td><td>0</td><td>1</td><td>1</td></tr> <tr><td>0</td><td>1</td><td>0</td><td>1</td></tr> </table> 
     :feedback_d: 
     :correct: d
-
-    Complete the trick.For this 3 x 3 table of bits, which of the choices below would be the correct 4 x 4 table for being able to detect when bit is flipped.100111001
-
+    
+    .. raw:: html
+    
+    	<table><tbody>
+    	<tr>
+    		<td valign="top"><p><b>Complete the trick.</b></p><p>For this 3 x 3 table of bits, which of the choices below would be the correct 4 x 4 table for being able to detect when bit is flipped.</p></td>
+    		<td>
+    			<table border="1"><tbody>
+    			<tr>
+    				<td>1</td>
+    				<td>0</td>
+    				<td>0</td>
+    			</tr>
+    			<tr>
+    				<td>1</td>
+    				<td>1</td>
+    				<td>1</td>
+    			</tr>
+    			<tr>
+    				<td>0</td>
+    				<td>0</td>
+    				<td>1</td>
+    			</tr>
+    			</tbody></table>
+    		</td>
+    	</tr>
+    	</tbody>
+    	</table>
 
 .. raw:: html
 
