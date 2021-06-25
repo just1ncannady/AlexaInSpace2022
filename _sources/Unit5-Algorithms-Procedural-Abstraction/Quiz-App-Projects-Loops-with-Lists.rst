@@ -211,8 +211,10 @@ Self-Check
     :feedback_d: That's correct!
     :correct: d
 
-    What does the following code do? list ← 1, 0, 4, 2x ← -1FOR EACH item IN list       IF item &gt; x        x ← item DISPLAY x
-
+    .. raw:: html
+    
+    	<p>What does the following code do?</p>
+    	<img src="../_static/assets/img/AP_5-6-1.png" width="40%" />
 
 .. raw:: html
 
@@ -234,7 +236,18 @@ Self-Check
     :feedback_d: That's correct!
     :correct: d
 
-    Which code below could be placed in the following loop to print out the item in a list that has the lowest (minimum) value?    list ← [1, 0, 4, 2]   x ← 99   FOR EACH item IN list    {      &lt;MISSING CODE&gt;    }   DISPLAY(x)
+    .. raw:: html
+    
+    	<p>Which code below could be placed in the following loop to print out the item in a list that has the lowest (minimum) value?</p>
+    	<pre>
+    	list ← [1, 0, 4, 2]
+    	x ← 99
+    	FOR EACH item IN list
+    	{      
+    		&lt;MISSING CODE&gt;
+    	}
+    	DISPLAY(x)
+    	</pre>
 
 
 .. raw:: html
@@ -257,7 +270,15 @@ Self-Check
     :feedback_d: APPEND(list,value) puts the value at the end of the list, while INSERT(list, i, value) puts the value at position i in the list and REMOVE(list,i) removes the ith element.
     :correct: c
 
-    What are the values in the list after executing the following code:   list ← [ 0, 3, 5 ]  APPEND( list, 4 )  INSERT( list, 2, 1 )  REMOVE( list, 1 )
+    .. raw:: html
+    
+    	<p>What are the values in the list after executing the following code:</p>
+    	<pre>
+    	list ← [ 0, 3, 5 ]
+    	APPEND( list, 4 )
+    	INSERT( list, 2, 1 )
+    	REMOVE( list, 1 )
+    	</pre>
 
 
 .. raw:: html
@@ -271,17 +292,30 @@ Self-Check
 .. mchoice:: mcsp-5-6-4
     :random:
     :practice: T
-    :answer_a: &nbsp;IF (IsFound (afternoonList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_a: &nbsp;<br />IF (IsFound (afternoonList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
     :feedback_a: 
-    :answer_b: &nbsp;IF (IsFound (lunchList, child))<blockquote>{<br>&nbsp;APPEND (afternoonList, child)<br>}</blockquote>
+    :answer_b: &nbsp;<br />IF (IsFound (lunchList, child))<blockquote>{<br>&nbsp;APPEND (afternoonList, child)<br>}</blockquote>
     :feedback_b: 
-    :answer_c: &nbsp;IF (IsFound (morningList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_c: &nbsp;<br />IF (IsFound (morningList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
     :feedback_c: 
-    :answer_d: &nbsp;IF ((IsFound (morningList, child)) OR&nbsp;<br><span style="line-height: 1.22;"><span class="Apple-tab-span" style="white-space:pre">    </span>&nbsp; &nbsp;(IsFound (afternoonList, child)))</span><blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_d: &nbsp;<br />IF ((IsFound (morningList, child)) OR&nbsp;<br><span style="line-height: 1.22;"><span class="Apple-tab-span" style="white-space:pre">    </span>&nbsp; &nbsp;(IsFound (afternoonList, child)))</span><blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
     :feedback_d: 
     :correct: a
 
-    A summer camp offers a morning session and an afternoon session. The list morningList contains the names of all children attending the morning session, and the list afternoonList contains the names of all children attending the afternoon session. Only children who attend both sessions eat lunch at the camp. The camp director wants to create lunchList, which will contain the names of children attending both sessions. The following code segment is intended to create lunchList, which is initially empty. It uses the procedure IsFound (list, name), which returns true if name is found in list and returns false otherwise.FOR EACH child IN morningList{  &lt;MISSING CODE&gt; }Which of the following could replace &lt;MISSING CODE&gt; so that the code segment works as intended?
+    .. raw:: html
+    
+    	<p>A summer camp offers a morning session and an afternoon session.</p>
+    	<p>The list <i>morningList</i> contains the names of all children attending the morning session, and the list <i>afternoonList</i> contains the names of all children attending the afternoon session.</p>
+    	<p>Only children who attend both sessions eat lunch at the camp. The camp director wants to create <i>lunchList</i>, which will contain the names of children attending both sessions.</p>
+    	<p>The following code segment is intended to create <i>lunchList</i>, which is initially empty. It uses the procedure <i>IsFound (list, name)</i>, which returns <i>true</i> if <i>name</i> is found in <i>list</i> and returns <i>false</i> otherwise.</p>
+    	<pre>
+    	FOR EACH child IN morningList
+    	{  
+    		&lt;MISSING CODE&gt;
+    	}
+    	</pre>
+    	<br />
+    	<p>Which of the following could replace &lt;MISSING CODE&gt; so that the code segment works as intended?</p>
 
 
 .. raw:: html
@@ -294,22 +328,31 @@ Self-Check
 .. mchoice:: mcsp-5-6-5
     :random:
     :practice: T
-    :answer_a:  gradeList[i] ← min (gradeList[i] + 5, 100)
+    :answer_a:  <br />gradeList[i] ← min (gradeList[i] + 5, 100)
     :feedback_a: 
-    :answer_b:  gradeList[i] ← max (gradeList[i] + 5, 100)
+    :answer_b:  <br />gradeList[i] ← max (gradeList[i] + 5, 100)
     :feedback_b: 
-    :answer_c:  <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {     gradeList[i] ← gradeList[i] - 5 } </pre>
+    :answer_c:  <br />gradeList[i] ← gradeList[i] + 5<br />IF (gradeList[i] &gt; 100)<br />{<br />&Tab;gradeList[i] ← gradeList[i] - 5<br />}<br />
     :feedback_c: 
-    :answer_d:   <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {      gradeList[i] ← 100  }</pre>
+    :answer_d:   <br />gradeList[i] ← gradeList[i] + 5<br />IF (gradeList[i] &gt; 100)<br />{<br />&Tab;gradeList[i] ← 100<br />}<br />
     :feedback_d: 
     :correct: a,d
 
-    A teacher uses the following program to adjust student grades on an assignment by adding 5 points to each student’s original grade. However, if adding 5 points to a student’s original grade causes the grade to exceed 100 points, the student will receive the maximum possible score of 100 points. The students’ original grades are stored in the list gradeList, which is indexed from 1 to n. i ← 1 REPEAT n TIMES  {  &lt;MISSING CODE&gt;  i ← i + 1  }The teacher has the following procedures available.Which of the following code segments can replace &lt;MISSING CODE&gt; so that the program works as intended?Select two answers.
-
-    .. raw:: html.png"
-
-        <img alt="" class="yui-img" src="https://course.mobilecsp.org/mobilecsp/assets/img/Q30Table.PNG" style="line-height: 1.22;" title=""/>
-
+    .. raw:: html
+    
+    	<p>A teacher uses the following program to adjust student grades on an assignment by adding 5 points to each student’s original grade. However, if adding 5 points to a student’s original grade causes the grade to exceed 100 points, the student will receive the maximum possible score of 100 points. The students’ original grades are stored in the list <i>gradeList</i>, which is indexed from 1 to <i>n</i>.</p>
+    	<pre>
+    	i ← 1
+    	REPEAT n TIMES
+    	{  
+    		&lt;MISSING CODE&gt;
+    		i ← i + 1
+    	}
+    	</pre>
+    	<p>The teacher has the following procedures available.</p>
+    	<img src="../_static/assets/img/Q30Table.png" />
+    	<p>Which of the following code segments can replace &lt;MISSING CODE&gt; so that the program works as intended?</p>
+    	<p>Select <u>two</u> answers.</p>
 
 .. raw:: html
 

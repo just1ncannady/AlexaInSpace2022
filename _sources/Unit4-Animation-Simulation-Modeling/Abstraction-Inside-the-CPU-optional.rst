@@ -148,15 +148,19 @@ Learning Activities
     :practice: T
     :answer_a: The decimal value 3.
     :feedback_a: Yes, when stored in a memory location, 0011 could represent the decimal value 3.  So this is part of the correct answer.
-    :answer_b: The machine instruction for ADDing a number to the <span class="hover vocab yui-wk-div" data-id='accumulator'>accumulator</span>.
-    :feedback_b: Yes, if it occurred in the <span class="hover vocab yui-wk-div" data-id='Instruction Register'>Instruction Register</span> (IREG) or as part of a machine language program, 0011 would represent the machine language ADD instruction. So this is part of the correct answer. 
-    :answer_c: A memory location in the computer's <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>.
+    :answer_b: The machine instruction for ADDing a number to the accumulator
+    :feedback_b: Yes, if it occurred in the Instruction Register (IREG) or as part of a machine language program, 0011 would represent the machine language ADD instruction. So this is part of the correct answer. 
+    :answer_c: A memory location in the computer's RAM.
     :feedback_c: Yes, memory locations in the 4-bit simulator have addresses that range from 0000 to 1111, so 0011 could be the address of a memory location.  So this is part of the correct answer. 
     :answer_d: The decimal value 17. 
-    :feedback_d: If 0011 represents a number, then it would have to be a value between 0 and 15.  The value 17 cannot be represented in 4 bits.  So this is not part of the correct answer.  
+    :feedback_d: If 0011 represents a number, then it would have to be a value between 0 and 15.  The value 17 cannot be represented in 4 bits. So this is not part of the correct answer.  
     :correct: a,b,c
 
-    What is 0011?In the 4-bit computer we can find several occurrences of the 4-bit string,  0011.   What does this string of bits represent?Choose all answers that apply. 
+    .. raw:: html
+    	
+    	<h4>What is 0011?</h4>
+    	<p>In the 4-bit computer we can find several occurrences of the 4-bit string, <b>0011</b>. What does this string of bits represent?</p>
+    	<p>Choose all answers that apply.</p>
 
 
 .. raw:: html
@@ -170,17 +174,20 @@ Learning Activities
 .. mchoice:: mcsp-4-9-2
     :random:
     :practice: T
-    :answer_a: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1001 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Print the value in location 1010 Stop </pre>
+    :answer_a: <br />Load the value at 1000 into the Accumulator<br />Add the value in 1001 to the Accumulator<br />Print the value in location 1010<br />Stop  	
     :feedback_a: This algorithm wouldn't work. The sum hasn't been put into location 1010 before printing it. 
-    :answer_b: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1000 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Store the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> at location 1010 Print the value in location 1010 Stop </pre>
+    :answer_b: <br />Load the value at 1000 into the Accumulator<br />Add the value in 1000 to the Accumulator<br />Store the Accumulator at location 1010<br />Print the value in location 1010<br />Stop	
     :feedback_b: This algorithm wouldn't work. It would add 1 + 1 and print 2.
-    :answer_c: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1001 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Store the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> at location 1010 Print the value in location 1010 Stop </pre>
-    :feedback_c: Yes, that is the correct algorithm. <p>   As you can see from the algorithm, in order to add two numbers,   the numbers had to be moved into the <i><span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span></i>, a    special register in the computer's <i>Arithmetic Logic Unit (<span class="hover vocab yui-wk-div" data-id='ALU'>ALU</span>)</i>   where all logic and arithmetic operations are performed. </p> <p>Even though the details are hidden from us now by the sophisticated   software we use, today's computers still work the same way.  When    you add two numbers in App Inventor, software has to translate your   program code into machine language instructions that load the numbers   into the <span class="hover vocab yui-wk-div" data-id='ALU'>ALU</span> registers before performing the addition and storing    the numbers back to <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>. </p>
-    :answer_d: <pre> Load the value at 1000 into the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Add the value in 1001 to the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> Store the <span class="hover vocab yui-wk-div" data-id='Accumulator'>Accumulator</span> at location 1010 Stop </pre>
+    :answer_c: <br />Load the value at 1000 into the Accumulator<br />Add the value in 1001 to the Accumulator<br />Store the Accumulator at location 1010<br />Print the value in location 1010<br />Stop	
+    :feedback_c: Yes, that is the correct algorithm. As you can see from the algorithm, in order to add two numbers, the numbers had to be moved into the Accumulator, a special register in the computer's Arithmetic Logic Unit (ALU) where all logic and arithmetic operations are performed. Even though the details are hidden from us now by the sophisticated   software we use, today's computers still work the same way. When you add two numbers in App Inventor, software has to translate your program code into machine language instructions that load the numbers   into the ALU registers before performing the addition and storing the numbers back to RAM. </p>
+    :answer_d: <br />Load the value at 1000 into the Accumulator<br />Add the value in 1001 to the Accumulator<br />Store the Accumulator at location 1010<br />Stop	
     :feedback_d: This algorithm wouldn't work. It has no print statement. 
     :correct: c
 
-    What's the Algorithm?Generation 0 of the 4-bit computer comes pre-loaded with a program that adds 1 and 2 and outputs their sum, 3. The value 1 in decimal is stored in location 1000. And the value 2 is stored in location 1001. Which of the following pseudocode algorithms correctly describes that program's machine language algorithm?
+    .. raw:: html
+    
+    	<h4>What's the Algorithm?</h4>
+    	<p><a href="https://mobile-csp.org/webapps/computer/gen0.html">Generation 0</a> of the 4-bit computer comes pre-loaded with a program that adds 1 and 2 and outputs their sum, 3. The value 1 in decimal is stored in location 1000. And the value 2 is stored in location 1001. Which of the following pseudocode algorithms correctly describes that program's machine language algorithm?</p>
 
 
 .. raw:: html
@@ -195,16 +202,27 @@ Learning Activities
     :random:
     :practice: T
     :answer_a: 0
-    :feedback_a: Yes, the correct answer is 0. This would be an example of an <b><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span></b>. But it would not crash the machine.
+    :feedback_a: Yes, the correct answer is 0. This would be an example of an <b>overflow error</b>. But it would not crash the machine.
     :answer_b: 255
     :feedback_b: No. You would get 255 if you added 0 to 255. 
     :answer_c: 256
-    :feedback_c: No.  The value 256 cannot be represented at all in 8 bits.  In 8 bits you can represent 256 different values, ranging from 00000000 to 11111111,  decimal 0 to decimal 255. 
-    :answer_d: No value.  The machine would crash.
-    :feedback_d: No.  Adding 1 to 255 in 8 bits causes an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span>, but it would not crash the machine. 
+    :feedback_c: No. The value 256 cannot be represented at all in 8 bits. In 8 bits you can represent 256 different values, ranging from 00000000 to 11111111, decimal 0 to decimal 255. 
+    :answer_d: No value. The machine would crash.
+    :feedback_d: No. Adding 1 to 255 in 8 bits causes an overflow error, but it would not crash the machine. 
     :correct: a
 
-    What's the Output?Our 4-bit computer uses 8-bit bytes to represent its data. An 8-bit byte can store values ranging from 0 to 255 -- i.e., 00000000 to 11111111.  What do you suppose would happen if you added 1 to 11111111?To help answer this question, you might want to use the 4-bit simulator to write a little machine language program to see what happens. By default, the 4-bit computer adds the values in locations 1000 and 1001 and prints the sum. So here is how you would set up the machine to add 11111111 and 00000001:Put the value 11111111 (decimal 255) in memory location 1000.Put the value 00000001 (decimal 1) in memory location 1001.Run the program and observe the output.What decimal value do you get when you add binary 1 to binary 11111111?
+    .. raw:: html
+    
+    	<h4>What's the Output?</h4>
+    	<p>Our 4-bit computer uses 8-bit bytes to represent its data. An 8-bit byte can store values ranging from 0 to 255 -- i.e., 00000000 to 11111111.  What do you suppose would happen if you added 1 to 11111111?</p>
+    	<p>To help answer this question, you might want to use the <a href="https://mobile-csp.org/webapps/computer/gen0.html">4-bit simulator</a> to write a little machine language program to see what happens. By default, the 4-bit computer adds the values in locations 1000 and 1001 and prints the sum. So here is how you would set up the machine to add 11111111 and 00000001:</p>
+    	<ul>
+    		<li>Put the value 11111111 (decimal 255) in memory location 1000.</li>
+    		<li>Put the value 00000001 (decimal 1) in memory location 1001.
+    		<li>Run the program and observe the output.</li>
+    	</ul>
+    	
+    	<p>What decimal value do you get when you add binary 1 to binary 11111111?</p>
 
 
 .. raw:: html
@@ -252,7 +270,55 @@ Learning Activities
     
 .. fillintheblank:: mcsp-4-9-4
 
-    What's the Output?  As you saw in the demo video,   the 4-bit editor requires you to organize your program as follows:      Data initialization statements    Machine language instructions    Type the following machine language program into the editor --   just the 0s and 1s part, not the pseudocode comments,   which begin after the --.           1000:00001111       1001:00001000        00011000         01011001        00101010         10001010          00000000        -- Initialize memory location 1000 to 00001111      -- Initialize memory location 1001 to 00001000     -- Loads value at memory location 1000 into ACC    -- Multiplies value at memory location 1001 to ACC     -- Stores value in ACC to location 1010   -- Prints the value currently in location 1010     -- Stops the program      Then click the "Load" button to load it into memory and then run   the program.  What value does it output? |blank|
+    .. raw:: html
+    
+    	<h4>What's the Output?</h4>
+    	<p>As you saw in the <a href="https://www.youtube.com/watch?v=qFMH6fI_oFQ">demo video</a>, the 4-bit editor requires you to organize your program as follows:</p>
+    	<pre>
+    	Data initialization statements
+    	Machine language instructions
+    	</pre>
+    	<p>Type the following machine language program into the editor --   just the 0s and 1s part, not the pseudocode comments,   which begin after the --.</p>
+    	<br />
+    	<table border="1"><tbody>
+    	<tr>
+    		<td>1000:00001111</td>
+    		<td width="8px"></td>
+    		<td>-- Initialize memory location 1000 to 00001111</td>
+    	</tr>
+    	<tr>
+    		<td>1001:00001000</td>
+    		<td width="8px"></td>
+    		<td>-- Initialize memory location 1001 to 00001000</td>
+    	</tr>
+    	<tr>
+    		<td>00011000</td>
+    		<td width="8px"></td>
+    		<td>-- Loads value at memory location 1000 into ACC</td>
+    	</tr>
+    	<tr>
+    		<td>01011001</td>
+    		<td width="8px"></td>
+    		<td>-- Multiplies value at memory location 1001 to ACC</td>
+    	</tr>
+    	<tr>
+    		<td>00101010</td>
+    		<td width="8px"></td>
+    		<td>-- Stores value in ACC to location 1010</td>
+    	</tr>
+    	<tr>
+    		<td>10001010</td>
+    		<td width="8px"></td>
+    		<td>-- Prints the value currently in location 1010</td>
+    	</tr>
+    	<tr>
+    		<td>00000000</td>
+    		<td width="8px"></td>
+    		<td>-- Stops the program</td>
+    	</tr>
+    	</tbody></table>
+    	<br /><br />
+    	<p>Then click the "Load" button to load it into memory and then run   the program.  What value does it output?</p>
 
     - :120: The correct answer is 120. The program multiplies the numbers 15 x 8, which equals 120. 
       :x: Don't forget the colon in the data initialization statements. 
@@ -351,7 +417,21 @@ Self-Check
 .. fillintheblank:: mcsp-4-9-5
     :casei:
 
-    What's the Output?  As you saw in the demo video,   Generation 2   of the 4-bit computer lets you use an assembly language to program the  machine.  Here's an example:  VAR A 10  VAR B 0  LDA A  MUL A  STA B  PRN B  NOP  Type that program into the Editor and then assemble, load, and run it.  What output do you get? |blank|
+    .. raw:: html
+    	
+    	<h4>What's the Output?</h4>
+    	<p>As you saw in the <a href="https://www.youtube.com/watch?v=-3URMbryRrM">demo video</a>, <a href="https://mobile-csp.org/webapps/computer/gen2.html">Generation 2</a> of the 4-bit computer lets you use an assembly language to program the  machine. Here's an example:</p>
+    	<pre>
+    	VAR A 10
+    	VAR B 0
+    	LDA A
+    	MUL A
+    	STA B
+    	PRN B
+    	NOP
+    	</pre>
+    	<br />
+    	<p>Type that program into the Editor and then assemble, load, and run it. What output do you get?</p>
 
     - :100: The correct answer is 100.  The program multiplies 10 x 10.  
       :x: Make sure you type in the program exactly as given. The opcodes and variable names are <i><b>case sensitive</b></i>.

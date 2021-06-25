@@ -155,7 +155,27 @@ Self-Check
     :feedback_d: This would be true if you did process X and Y on processor 1 (60+30 = 90 seconds) but there is a shorter execution time available if you combined processes in another way.
     :correct: c
 
-    AP 2021 Sample Question: A certain computer has two identical processors that are able to run in parallel.Each processor can run only one process at a time, and each process must beexecuted on a single processor. The following table indicates the amount of timeit takes to execute each of three processes on a single processor. Assume thatnone of the processes are dependent on any of the other processes.ProcessExecution Time on Either ProcessorX 60 secondsY 30 secondsZ 50 secondsWhich of the following best approximates the minimum possible time to execute all three processes when the two processors are run in parallel? 
+    .. raw:: html
+	    <p><b>AP 2021 Sample Question</b>: A certain computer has two identical processors that are able to run in parallel. Each processor can run only one process at a time, and each process must be executed on a single processor. The following table indicates the amount of time it takes to execute each of three processes on a single processor. Assume that none of the processes are dependent on any of the other processes.</p>
+	    <table border="1"><tbody>
+	    <tr>
+	    	<th>Process</th>
+	    	<th>Execution Time on Either Processor</th>
+	    </tr>
+	    <tr>
+	    	<td>X</td>
+	    	<td>60 seconds</td>
+	    </tr>
+	        <tr>
+	    	<td>Y</td>
+	    	<td>30 seconds</td>
+	    </tr>
+	    <tr>
+	    	<td>Z</td>
+	    	<td>50 seconds</td>
+	    </tr>
+	    	
+		<p>Which of the following best approximates the minimum possible time to execute all three processes when the two processors are run in parallel?</p> 
 
 
 .. raw:: html
