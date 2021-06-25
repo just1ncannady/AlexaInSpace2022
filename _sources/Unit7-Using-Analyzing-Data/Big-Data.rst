@@ -71,7 +71,9 @@ Learning Activities
     :feedback_b: That's right! A Terabyte is extremely large. One Terabyte is equivalent to 1 trillion bytes!
     :correct: b
 
-    True or False: A Terabyte is equivalent to 1000 bytes. 
+    .. raw:: html
+    
+    	<p><b>True or False</b>: A Terabyte is equivalent to 1000 bytes.</p> 
 
 
 .. raw:: html
@@ -90,7 +92,9 @@ Learning Activities
     :feedback_b: Big data can also refer to large complex data made up of more than just numbers, like the images, audio, video and text we share on social media.&nbsp;
     :correct: b
 
-    True or False: Big data only contains numeric data, it does not include text, images or videos.
+    .. raw:: html
+    
+    	<p><b>True or False</b>: Big data only contains numeric data, it does not include text, images or videos.</p>
 
 
 .. raw:: html
@@ -113,7 +117,9 @@ Learning Activities
     :feedback_d: That's right! Big data sets are extremely large sets of data that are very complex.
     :correct: d
 
-    The term Big Data refers to _________________.
+    .. raw:: html
+    
+    	<p>The term <b><i>Big Data</i></b> refers to _________________.</p>
 
 
 .. raw:: html
@@ -258,7 +264,9 @@ Learning Activities
     :feedback_b: 
     :correct: a
 
-    True or False: When Joy Buolamwini says that current face recognition systems are "pale and male" she means that since the data used to train these systems consisted largely of white, male faces, these systems perform poorly for other faces.
+    .. raw:: html
+    
+    	<p><b>True or False</b>: When Joy Buolamwini says that current face recognition systems are "pale and male" she means that since the data used to train these systems consisted largely of white, male faces, these systems perform poorly for other faces.</p>
 
 
 .. raw:: html

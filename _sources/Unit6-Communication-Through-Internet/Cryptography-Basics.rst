@@ -335,7 +335,9 @@ Self-Check
 .. fillintheblank:: mcsp-6-6-2
     :casei:
 
-    Suppose that the following word, EAIWSQI, was encrypted with a Caesar cipher and when you do a frequency analysis you learn that the most frequent letter was 'i'. What is the secret word? Type your answer into the Textbox.  (Make sure there are no extra spaces in your answer.)  |blank|
+    .. raw:: html
+    
+    	<p>Suppose that the following word, <b>EAIWSQI</b>, was encrypted with a Caesar cipher and when you do a frequency analysis you learn that the most frequent letter was 'i'. What is the secret word? Type your answer into the Textbox.  (Make sure there are no extra spaces in your answer.)</p>
 
     - :awesome: That's right! The secret word is <i><b>awesome</i></b>. Given the information that the most frequent letter was the letter 'i', you would figure that the shift used in this case was 4. That means that 'a' is encrypted as 'e' and 'w' is encrypted as 'a', and 'e' is encrypted as 'i', and so on. Proceeding in this way you can break the cipher.
       :x: 
@@ -363,7 +365,9 @@ Self-Check
     :feedback_d: Yes this is part of the correct answer.
     :correct: a,d
 
-    Caesar cipher, simple substitution cipher, and Vigener cipher are all examples of __________ ciphers.
+    .. raw:: html
+    	
+    	<p><i>Caesar cipher</i>, <i>simple substitution</i> cipher, and <i>Vigener</i> cipher are all examples of __________ ciphers.</p>
 
 
 .. raw:: html
@@ -385,7 +389,9 @@ Self-Check
     :feedback_d: That is correct.  An example would be the <i>Vigenere</i> cipher, which uses a <i>keyword</i> to select several alphabets to use in encryption and decryption. 
     :correct: d
 
-    A polyalphabetic cipher is one that ______________.
+    .. raw:: html
+    
+    	<p>A <i>polyalphabetic</i> cipher is one that ______________.</p>
 
 
 .. raw:: html
@@ -408,7 +414,9 @@ Self-Check
     :feedback_d: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this. There is no such effort.  It would be a bad idea to store everyone's keys in something like a central bank.
     :correct: b
 
-    The key exchange problem is ____
+    .. raw:: html
+    
+    	<p>The <i>key exchange problem</i> is ____</p>
 
 
 .. raw:: html

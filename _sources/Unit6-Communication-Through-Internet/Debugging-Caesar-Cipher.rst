@@ -130,7 +130,9 @@ Self-Check
     :feedback_b: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this; the term "bug" was actually used in an account by computer pioneer Grace Hopper regarding an error that was found to be related to a moth that was trapped in the machine.
     :correct: a
 
-    True or False: In computer programming, a bug is an error or defect that prevents the app from working the way it is supposed to. 
+    .. raw:: html
+    
+    	<p><b>True or False</b>: In computer programming, a <b><i>bug</i></b> is an error or defect that prevents the app from working the way it is supposed to.</p>
 
 
 .. raw:: html
@@ -154,7 +156,9 @@ Self-Check
     :feedback_d: That's right! Programming languages all have syntax, a set of rules, that must be followed when writing code.
     :correct: d
 
-    In computer programming, syntax is the __________ that determines whether statements are correctly formulated. 
+    .. raw:: html
+    
+    	<p>In computer programming, <b><i>syntax</i></b> is the __________ that determines whether statements are correctly formulated.</p>
 
 
 .. raw:: html
@@ -214,7 +218,9 @@ Self-Check
     :feedback_b: That's right! Semantic errors cannot be detected by the compiler. Only the programmer knows what it wants the program to do.
     :correct: b
 
-    True or False: Semantic errors can be detected by the compiler. 
+    .. raw:: html
+    
+    	<p><b>True or False</b>: Semantic errors can be detected by the compiler. 
 
 
 .. raw:: html
@@ -238,7 +244,9 @@ Self-Check
     :feedback_d: True. This would be correct syntactically, however, based on the documentation (the name of the button) it would not do what the programmer had intended it to, which would be to set the paint color to red when the ButtonRed is clicked.
     :correct: a,d
 
-    Which of the following are examples of semantic errors in App Inventor? Check all that apply. 
+    .. raw:: html
+    
+    	<p>Which of the following are examples of <b><i>semantic errors</i></b> in App Inventor? Check all that apply. 
 
 
 .. raw:: html

@@ -196,7 +196,15 @@ Self-Check
     :feedback_d: 
     :correct: c
 
-    Biologists often attach tracking collars to wild animals. For each animal, the following geolocation data is collected at frequent intervals.The timeThe date The location of the animalWhich of the following questions about a particular animal could NOT be answered using only the data collected from the tracking collars?
+    .. raw:: html
+    
+    	<p>Biologists often attach tracking collars to wild animals. For each animal, the following geolocation data is collected at frequent intervals.</p>
+    	<ul>
+    		<li>The time</li>
+    		<li>The date</li>
+    		<li>The location of the animal</li>
+    	</ul>
+    	<p>Which of the following questions about a particular animal could <b>NOT</b> be answered using only the data collected from the tracking collars?</p>
 
 
 .. raw:: html

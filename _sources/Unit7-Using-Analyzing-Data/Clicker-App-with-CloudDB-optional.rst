@@ -166,7 +166,9 @@ Self-Check
     :feedback_d: OK, so you didn’t get it right this time. Let’s look at this as an opportunity to learn. Try reviewing this; synchronous means "at the same time".  So synchronous operations are performed instantaneously, whereas asynchronous operations are not.  Operations over the Internet are asynchronous.
     :correct: b
 
-    To say that the operation of requesting data from a CloudDB is asynchronous means 
+    .. raw:: html
+    
+    	<p>To say that the operation of requesting data from a CloudDB is <b><i>asynchronous</i></b> means</p>
 
 
 .. raw:: html
@@ -214,7 +216,9 @@ Self-Check
     :feedback_d: We’re in the learning zone today. Mistakes are our friends!
     :correct: c
 
-    A TinyDb component does not have an event handler. Why do CloudDB need a GotValue event handler? 
+    .. raw:: html
+    
+    	<p>A <b><i>TinyDb</i></b> component does not have an event handler. Why do <b><i>CloudDB</i></b> need a GotValue event handler?</p>
 
 
 .. raw:: html
@@ -238,7 +242,9 @@ Self-Check
     :feedback_d: Both CloudDB and TinyDB can store lists of data.  So this is not a distinguishing feature. 
     :correct: b
 
-    When should an app's data be stored in a CloudDB as opposed to a TinyDb?
+    .. raw:: html
+    
+    	<p>When should an app's data be stored in a <b><i>CloudDB</i></b> as opposed to a <b><i>TinyDb</i></b>?
 
 
 .. raw:: html

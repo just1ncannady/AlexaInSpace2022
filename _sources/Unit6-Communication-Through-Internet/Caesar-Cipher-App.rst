@@ -134,7 +134,9 @@ Learning Activities
 .. fillintheblank:: mcsp-6-5-2
     :casei:
 
-    Encrypt the word alphabet using a Caesar cipher with a shift of 3. Type your answer into the Textbox.  |blank|
+    .. raw:: html
+    
+    	<p>Encrypt the word <b>alphabet</b> using a Caesar cipher with a shift of 3. Type your answer into the Textbox.</p>
 
     - :doskdehw: That's right! With a Caesar shift of 3, the 'alphabet' is encrypted into 'doskdehw'.
       :x: You're not quite there, yet. Give it another try; with a little more work you can figure this out! 
@@ -177,7 +179,9 @@ Learning Activities
 .. fillintheblank:: mcsp-6-5-4
     :casei:
 
-    The following word was encrypted using a Caesar cipher with a shift of 2: ecguct. What word is it? Type your answer into the text box.  |blank|
+    .. raw:: html
+    
+    	<p>The following word was encrypted using a Caesar cipher with a shift of 2: <b>ecguct</b>. What word is it? Type your answer into the text box.</p>
 
     - :caesar: That's right! With a shift of 2, the letter 'c' becomes 'e'. The letter 'a' becomes 'c', and so on giving caesar as the secret word.
       :x: 

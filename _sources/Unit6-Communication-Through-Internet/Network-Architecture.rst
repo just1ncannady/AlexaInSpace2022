@@ -267,7 +267,9 @@ Self-Check
     :feedback_b: That's right! Circuit switching means that there is a continuous circuit set up to send the data, as in a telephone call. Packet switching means that data is broken up into small packets and sent out in parts.
     :correct: b
 
-    True or False: The main difference between circuit switching and packet switching is that in circuit switching data is broken up and sent in parts and in packet switching data is sent out on a continuous circuit. 
+    .. raw:: html
+    
+    	<p><b>True or False:</b> The main difference between circuit switching and packet switching is that in circuit switching data is broken up and sent in parts and in packet switching data is sent out on a continuous circuit.</p> 
 
 
 .. raw:: html
@@ -288,7 +290,9 @@ Self-Check
     :feedback_b: That's right! Data packets sent over the Internet have different possible routes that they can take to get to their destination.
     :correct: b
 
-    True or False: All routes on the internet are specified in advance and not set dynamically. For every packet of data sent over the Internet, there is only one route it can take to reach its destination. 
+    .. raw:: html
+    
+    	<p><b>True or False:</b> All routes on the internet are specified in advance and not set dynamically. For every packet of data sent over the Internet, there is only one route it can take to reach its destination.</p>
 
 
 .. raw:: html
@@ -358,7 +362,9 @@ Self-Check
     :feedback_d: 
     :correct: a
 
-    AP 2021 Sample Question: Which of the following best explains how data is typically assembled in packets for transmission over the Internet?
+    .. raw:: html
+    
+    	<p><b>AP 2021 Sample Question</b>: Which of the following best explains how data is typically assembled in packets for transmission over the Internet?</p>
 
 
 .. raw:: html

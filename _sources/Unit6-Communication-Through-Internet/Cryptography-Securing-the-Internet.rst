@@ -268,7 +268,9 @@ Self-Check
     :feedback_d: Yes. The Diffie-Hellman algorithm was the first algorithm to be used solve the key exchange problem.
     :correct: a,c,d
 
-    An asymmetric cipher________________ 
+    .. raw:: html
+    
+    	<p>An <i>asymmetric cipher</i>________________ </p>
 
 
 .. raw:: html
@@ -292,7 +294,9 @@ Self-Check
     :feedback_d: Right.  An example would be  y = x<sup>3</sup> mod 17. Given <i>x</i> it is easy to compute y.  But given <i>y</i> it is difficult to compute <i>x</i>.  This is an example of the function used (in different form) in both Diffie-Hellman and RSA.
     :correct: d
 
-    One one-way function ________________
+    .. raw:: html
+    
+    	<p>One <i>one-way function</i> ________________</p>
 
 
 .. raw:: html
@@ -316,7 +320,9 @@ Self-Check
     :feedback_d: This is part of the correct answer. Certificate Authorities, such as Verisign, serve as <i>trusted third parties</i> to authenticate the identity of the server and its public key.
     :correct: a,b,c,d
 
-    The HTTPs protocol _______________.
+    .. raw:: html
+    
+    	<p>The <i>HTTPs</i> protocol _______________.</p>
 
 
 .. raw:: html
@@ -348,7 +354,13 @@ Sample AP CSP Exam Question
     :feedback_d: 
     :correct: a
 
-    Which of the following are true statements about digital certificates in Web browsers? I. Digital certificates are used to verify the ownership of encrypted keys used in secured communication.  II. Digital certificates are used to verify that the connection to a Web site is fault tolerant.
+    .. raw:: html
+    
+    	<p>Which of the following are true statements about digital certificates in Web browsers?</p>
+    	<ol type="I">
+    		<li>Digital certificates are used to verify the ownership of encrypted keys used in secured communication.</li>
+    		<li>Digital certificates are used to verify that the connection to a Web site is fault tolerant.</li>
+    	</ol>
 
 
 .. raw:: html

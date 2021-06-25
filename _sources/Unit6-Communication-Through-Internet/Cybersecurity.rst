@@ -185,6 +185,8 @@ Summary
     
 Still Curious
 --------------
+.. raw:: html
+
     <ul>
     <li>Try <a href="https://www.hacksplaining.com/lessons" target="_blank">hacksplaining.com</a> which describe hacking exploits and how to protect against them.</li>
     <li>Try the <a href="https://www.pbs.org/wgbh/nova/labs/lab/cyber/" target="_blank">PBS Cybersecurity Lab</a> where you protect a business against attacks.</li>
@@ -258,7 +260,9 @@ Self-Check
     :feedback_d: 
     :correct: b,c,d
 
-    Which of the following can you do to prevent against malware? Select all that apply.
+    .. raw:: html
+    
+    	<p>Which of the following can you do to prevent against malware? <i>Select all that apply</i>.</p>
 
 
 .. raw:: html
@@ -282,7 +286,9 @@ Self-Check
     :feedback_d: 
     :correct: a,c,d
 
-    Unauthorized access to computing resources can be gained through which of the following? Select all that apply.
+    .. raw:: html
+    
+    	<p><i>Unauthorized access</i> to computing resources can be gained through which of the following? <i>Select all that apply</i>.</p>
 
 
 .. raw:: html
@@ -306,7 +312,9 @@ Self-Check
     :feedback_d: This sounds like a denial of service attack, not a phishing attack.
     :correct: c
 
-    AP 2021 Practice Question: A user purchased a new smart home device with embedded software andconnected the device to a home network. The user then registered the devicewith the manufacturer, setting up an account using a personal e-mail andpassword. Which of the following explains how a phishing attack could occuragainst the user of the smart home device?
+    .. raw:: html
+    
+    	<p><b>AP 2021 Practice Question</b>: A user purchased a new smart home device with embedded software andconnected the device to a home network. The user then registered the devicewith the manufacturer, setting up an account using a personal e-mail andpassword. Which of the following explains how a phishing attack could occuragainst the user of the smart home device?</p>
 
 
 .. raw:: html
@@ -329,7 +337,9 @@ Self-Check
     :feedback_d: 
     :correct: d
 
-    AP 2021 Sample Question:  A Web site uses several strategies to prevent unauthorized individuals from accessing user accounts. Which of the following is NOT an example of multifactor authentication?
+    .. raw:: html
+    
+    	<p><b>AP 2021 Sample Question</b>:  A Web site uses several strategies to prevent unauthorized individuals from accessing user accounts. Which of the following is NOT an example of multifactor authentication?</p>
 
 
 .. raw:: html

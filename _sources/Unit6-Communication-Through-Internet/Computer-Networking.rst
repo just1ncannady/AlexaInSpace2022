@@ -299,7 +299,9 @@ Self-Check
     :feedback_b: Don’t worry, it’s hard! Let’s go back and try it again.
     :correct: a
 
-    True or False: Cloud computing is made possible by the Internet and the World Wide Web and employs a computation model known as client-server computing. 
+    .. raw:: html
+    
+    	<p><b>True or False</b>: Cloud computing is made possible by the Internet and the World Wide Web and employs a computation model known as client-server computing.</p>
 
 
 .. raw:: html
@@ -410,7 +412,9 @@ Self-Check
     :feedback_d: 
     :correct: c
 
-    AP 2021 Sample Question: Which of the following school policies is most likely to have a positive impact on the digital divide?
+    .. raw:: html
+    
+    	<p><b>AP 2021 Sample Question</b>: Which of the following school policies is most likely to have a positive impact on the digital divide?</p>
 
 
 .. raw:: html
