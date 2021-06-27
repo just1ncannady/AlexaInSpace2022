@@ -105,31 +105,26 @@ Learning Activities
         :height: 415
         :align: center
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
     <div id="bogus-div">
     <p></p>
     </div>
 
-    (<a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.teachertube.com/video/359108" target="_blank">Teacher Tube version</a>)
+    (<a href="http://www.teachertube.com/video/359108" target="_blank">Teacher Tube version</a>)
     
     <h3>Activity 1 </h3>
-    <!-- Map no longer there --
-    Explore the &lt;a href=&quot;<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.internetsociety.org/map/global-internet-report&quot; target=&quot;_blank&quot; data-saferedirecturl=&quot;https://www.google.com/url?hl=en&amp;amp;q=<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.internetsociety.org/map/global-internet-report&amp;amp;source=gmail&amp;amp;ust=1499951266125000&amp;amp;usg=AFQjCNG3EJa_opVQ6rM8gBg388P1AmsF7A&quot; style=&quot;color: rgb(17, 85, 204);&quot;&gt;Internet Society’s Interactive map&lt;/a&gt; of global internet statistics and choose different data sets from the menu at the top right to answer these questions. You may want to guess the answer in your class before checking the map. -->
+    
     Answer the following questions in pairs, groups, or as class discussion:
     <ul>
-    <li>Which country has the fastest download speeds on the Internet? Is the U.S. in the top 3? Try to guess the answers to these before looking them up on <a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.speedtest.net/global-index" target="_blank">Speed Test Global Stats</a>. </li>
-    <li>What is the percentage of Internet user penetration for the United States? The <b>Internet user penetration</b> is the percentage of the population that has access to and uses the Internet. Access to the Internet depends on the ability to connect a computing device to an Internet-connected device like a <span class="hover vocab yui-wk-div" data-id='router'>router</span>. Do you think we are close to 100%? Try to guess before you look online. You may get different data depending on the date of the data.  Some sources are <a href="https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users" target="_blank">https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users</a>, <a href="https://www.internetworldstats.com/stats.htm" target="_blank">https://www.internetworldstats.com/stats.htm</a>,  <a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.internetlivestats.com/internet-users-by-country/" target="_blank">Internet Live Stats site</a> which presents  Internet penetration data by country.  </li>
+    <li>Which country has the fastest download speeds on the Internet? Is the U.S. in the top 3? Try to guess the answers to these before looking them up on <a href="http://www.speedtest.net/global-index" target="_blank">Speed Test Global Stats</a>. </li>
+    <li>What is the percentage of Internet user penetration for the United States? The <b>Internet user penetration</b> is the percentage of the population that has access to and uses the Internet. Access to the Internet depends on the ability to connect a computing device to an Internet-connected device like a <span class="hover vocab yui-wk-div" data-id='router'>router</span>. Do you think we are close to 100%? Try to guess before you look online. You may get different data depending on the date of the data.  Some sources are <a href="https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users" target="_blank">https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users</a>, <a href="https://www.internetworldstats.com/stats.htm" target="_blank">https://www.internetworldstats.com/stats.htm</a>,  <a href="http://www.internetlivestats.com/internet-users-by-country/" target="_blank">Internet Live Stats site</a> which presents  Internet penetration data by country.  </li>
     <li>Do all countries have similar Internet user penetration or is there a <b><span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span></b> (a gap between those who have Internet access and those who don't)? How big is the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> between continents or countries? Find data online using the sources above or others to answer this question.
       </li>
     <li>What can we do to reduce the effects of the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> both locally and globallly? Discuss in your class.</li>
     </ul>
-    <p>The <b><span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span></b> refers to a gap or differing access to computing devices and the Internet based on socioeconomic, geographic, or demographic characteristics. It can affect both groups and individuals and can be affected by individuals, organizations and government actions. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> raises issues of equity, access, and influence, both globally and locally. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> is huge when we compare first and third world countries. But even students in the U.S. experience the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> in different schools. If you're interested in this topic, watch the National Geographic's <a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.digitaldivide.com/" target="_blank" title="">Without a Net: <span class="hover vocab yui-wk-div" data-id='Digital Divide'>Digital Divide</span> documentary</a>. The documentary can also be found on <a href="https://www.youtube.com/watch?v=lBAkCgDD-BE" target="_blank" title="">YouTube</a>.   </p>
-    <!-- Explore it&#39;s evolution using this 
-    &lt;a href=&quot;<span class="hover vocab yui-wk-div" data-id='http'>http</span>://evolutionofweb.appspot.com/?hl=en#/growth/day&quot; target=&quot;_blank&quot;&gt;interactive graphic&lt;/a&gt;
-     to see what new technologies have impacted growth.&lt;/p&gt;
-    -->
-    <h3>Part 2. <span class="hover vocab yui-wk-div" data-id='Client'>Client</span>/<span class="hover vocab yui-wk-div" data-id='Server'>Server</span> Model</h3>
+    <p>The <b><span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span></b> refers to a gap or differing access to computing devices and the Internet based on socioeconomic, geographic, or demographic characteristics. It can affect both groups and individuals and can be affected by individuals, organizations and government actions. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> raises issues of equity, access, and influence, both globally and locally. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> is huge when we compare first and third world countries. But even students in the U.S. experience the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> in different schools. If you're interested in this topic, watch the National Geographic's <a href="http://www.digitaldivide.com/" target="_blank" title="">Without a Net: Digital Divide documentary</a>. The documentary can also be found on <a href="https://www.youtube.com/watch?v=lBAkCgDD-BE" target="_blank" title="">YouTube</a>.   </p>
+    <h3>Part 2. Client/Server Model</h3>
     <p>When you are using the Internet to read email or visit a web site, your device (phone or tablet or computer)
       is playing the role of a <i><b><span class="hover vocab yui-wk-div" data-id='client'>client</span></b></i>.  It is using <span class="hover vocab yui-wk-div" data-id='client'>client</span> software, such as a web browser or email application 
       to communicate with a <i><b><span class="hover vocab yui-wk-div" data-id='server'>server</span></b></i>, which is computer on the Internet that provides a specific service, such as
@@ -145,15 +140,15 @@ Learning Activities
         :height: 415
         :align: center
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
     <div id="bogus-div">
     <p></p>
     </div>
 
-    (<a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.teachertube.com/video/359099" target="_blank">Teacher Tube version</a>)
+    (<a href="http://www.teachertube.com/video/359099" target="_blank">Teacher Tube version</a>)
     
-    <h3>Activity 2:  <span class="hover vocab yui-wk-div" data-id='Client'>Client</span>/<span class="hover vocab yui-wk-div" data-id='Server'>Server</span> Model</h3>
+    <h3>Activity 2: Client/Server Model</h3>
     <p>
     Complete the activity in <a href="https://docs.google.com/document/d/1_98lN-rMLDScg9EPTUdFfdY36cGFd2njqkFF2NLtPSI/edit?usp=sharing" target="_blank">this worksheet</a> to review the <span class="hover vocab yui-wk-div" data-id='client'>client</span>/<span class="hover vocab yui-wk-div" data-id='server'>server</span> model.
     </p>
@@ -195,20 +190,20 @@ Learning Activities
         :height: 415
         :align: center
 
-.. raw:: <span class="hover vocab yui-wk-div" data-id='html'>html</span>
+.. raw:: html
 
     <div id="bogus-div">
     <p></p>
     </div>
 
-    (<a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.teachertube.com/video/359096" target="_blank">Teacher Tube version</a>)
+    (<a href="http://www.teachertube.com/video/359096" target="_blank">Teacher Tube version</a>)
     
-    <h3>Activity 3: Measuring <span class="hover vocab yui-wk-div" data-id='Bandwidth'>Bandwidth</span> and <span class="hover vocab yui-wk-div" data-id='Latency'>Latency</span></h3>
+    <h3>Activity 3: Measuring Bandwidth and Latency</h3>
     
-    Use the <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.bandwidthplace.com/&amp;source=gmail&amp;ust=1499951266125000&amp;usg=AFQjCNHMHLIizAlqwNGn2AsPqZzvfHye1w" href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.bandwidthplace.com/" style="color: rgb(17, 85, 204);" target="_blank"><span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.bandwidthplace.com/</a> tool (or <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=<span class="hover vocab yui-wk-div" data-id='http'>http</span>://speedtest.xfinity.com/)&amp;source=gmail&amp;ust=1499951266126000&amp;usg=AFQjCNG5a3gBgWzaRAyVZaY_RjH_iMDRxg" href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://speedtest.xfinity.com/)" style="color: rgb(17, 85, 204);" target="_blank"> <span class="hover vocab yui-wk-div" data-id='http'>http</span>://speedtest.xfinity.com/)</a> to measure the <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> and <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> of your Internet connection.
+    Use the <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.bandwidthplace.com/&amp;source=gmail&amp;ust=1499951266125000&amp;usg=AFQjCNHMHLIizAlqwNGn2AsPqZzvfHye1w" href="http://www.bandwidthplace.com/" style="color: rgb(17, 85, 204);" target="_blank">http://www.bandwidthplace.com/</a> tool (or <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://speedtest.xfinity.com/)&amp;source=gmail&amp;ust=1499951266126000&amp;usg=AFQjCNG5a3gBgWzaRAyVZaY_RjH_iMDRxg" href="http://speedtest.xfinity.com/)" style="color: rgb(17, 85, 204);" target="_blank"> http://speedtest.xfinity.com/)</a> to measure the <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> and <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> of your Internet connection.
     <ol>
     <li>What are the download and upload speeds for your Internet connection. Note that these <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> are measured in megabits per second (Mbps). Why do you think Internet Service Providers (ISPs) provide different bandwidths for downloading and uploading from the Internet?</li>
-    <li> Measure the <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> at school and at home. Are they different? How do they compare to the fastest download speeds you found in Activity 1 on the <a href="<span class="hover vocab yui-wk-div" data-id='http'>http</span>://www.speedtest.net/global-index" target="_blank">Speed Test Global Stats site</a>?
+    <li> Measure the <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> at school and at home. Are they different? How do they compare to the fastest download speeds you found in Activity 1 on the <a href="http://www.speedtest.net/global-index" target="_blank">Speed Test Global Stats site</a>?
       </li>
     <li>This speed test also provides a <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> test using a utility called ping which returns the amount of time (usually measured in milliseconds) to send a small packet of data from one computer (the bandwidthplace <span class="hover vocab yui-wk-div" data-id='server'>server</span>) to another (your computer). What is the <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> for your connection? Why is this a useful measurement?</li>
     </ol>
