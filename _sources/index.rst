@@ -6,7 +6,31 @@
 Mobile CSP 
 ==========================================
 
-Welcome to Mobile CSP!
+.. raw:: html
+
+	<!-- pop up code -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	 <script src="assets/lib/popup.js"></script>
+	<!-- end pop  up -->
+	
+	<!-- <img align="left" src="../_static/assets/img/MobileCSPnewLogoSmall.png" style="padding-right:5px"> -->
+	<p>Welcome to Mobile CS Principles. Please <a href="https://course.mobilecsp.org/mobilecsp/register" target="_blank">register</a> to freely view the full curriculum; only Unit 1 and parts of Unit 2 are available without registration.  To see the updates and changes that were made for this edition of the course, click <a target="_blank" href="https://docs.google.com/document/d/1kpKG7KMA2p118vrba9MT7F_pYGqoEJjpYagCMzn9qTY/pub">here</a>.</p>
+	
+	<p>Mobile Computer Science Principles (<a target="_blank" href="http://mobile-csp.org">Mobile CSP</a>) is an NSF-funded effort to provide a broad and rigorous introduction to computer science based on MIT App Inventor, a programming language for creating apps for mobile devices.  Mobile CSP is a program of the <a href="http://www.css.edu/csed" target="_blank">National Center for Computer Science Education</a>. Mobile CSP is an approved curriculum provider for the College Board's  Advanced Placement (AP) Computer Science Principles curriculum framework for introductory computer science.</p>
+	
+	<p>In Mobile CSP you will learn computer science by building socially useful mobile apps.  In addition to programming and computer science principles, Mobile CSP is project-based and emphasizes writing, communication, collaboration, and creativity. </p>
+	
+	<p><span style="background-color: yellow; font-weight: bold">UPDATE:</span> Mobile CSP will be moving to a new platform for the 2021-2022 school year. Read more about the transition at <a href="https://www.mobile-csp.org/migration" target="_blank">mobile-csp.org/migration</a>.</p>
+	
+	<p><img align="left" src="https://www.nsf.gov/pubs/1998/nsf98142/nsf4c.jpg" width="32"> The material on this site is based upon work supported by the National Science Foundation under Grant Nos. CNS-1240841, CNS-1440947, CNS-1637601, CNS-1836990, CNS-1836983, CNS-1837112, and CNS-1837723. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
+	
+	<p><b>License:</b>  Unless otherwise noted, the materials on this site are licensed under
+	  <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons 
+	    Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
+	
+	</p>
 
 Table of Contents
 ::::::::::::::::::
