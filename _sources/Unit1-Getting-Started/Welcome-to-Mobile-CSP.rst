@@ -110,6 +110,11 @@ Survey
 	
 	Have you been diagnosed with a disability or impairment (especially with an IEP or 504 plan)? (optional)
 
+.. shortanswer:: mcsp-1-1-7
 	
+	In what state do you attend school?
 	
+.. shortanswer:: mcsp-1-1-8
+	
+	In what country do you attend school?
 	
