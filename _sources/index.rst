@@ -16,7 +16,7 @@ Mobile CSP
 	<!-- end pop  up -->
 	
 	<!-- <img align="left" src="../_static/assets/img/MobileCSPnewLogoSmall.png" style="padding-right:5px"> -->
-	<p>Welcome to Mobile CS Principles. Please <a href="https://course.mobilecsp.org/mobilecsp/register" target="_blank">register</a> to freely view the full curriculum; only Unit 1 and parts of Unit 2 are available without registration.  To see the updates and changes that were made for this edition of the course, click <a target="_blank" href="https://docs.google.com/document/d/1kpKG7KMA2p118vrba9MT7F_pYGqoEJjpYagCMzn9qTY/pub">here</a>.</p>
+	<p>Welcome to Mobile CS Principles. Please <a href="https://runestone.academy/runestone/default/user/profile" target="_blank">register</a> to freely view the full curriculum; only Unit 1 and parts of Unit 2 are available without registration.  To see the updates and changes that were made for this edition of the course, click <a target="_blank" href="https://docs.google.com/document/d/1kpKG7KMA2p118vrba9MT7F_pYGqoEJjpYagCMzn9qTY/pub">here</a>.</p>
 	
 	<p>Mobile Computer Science Principles (<a target="_blank" href="http://mobile-csp.org">Mobile CSP</a>) is an NSF-funded effort to provide a broad and rigorous introduction to computer science based on MIT App Inventor, a programming language for creating apps for mobile devices.  Mobile CSP is a program of the <a href="http://www.css.edu/csed" target="_blank">National Center for Computer Science Education</a>. Mobile CSP is an approved curriculum provider for the College Board's  Advanced Placement (AP) Computer Science Principles curriculum framework for introductory computer science.</p>
 	

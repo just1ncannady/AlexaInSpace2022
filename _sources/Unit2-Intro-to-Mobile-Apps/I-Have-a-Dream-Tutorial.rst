@@ -42,11 +42,9 @@ I Have a Dream Tutorial
         
       };*/
     </script>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/time.png" style="float:left" width="25"/>
+    <img height="25" src="../_static/assets/img/time.png" style="float:left" width="25"/>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
-    <img height="25" src="https://course.mobilecsp.org/mobilecsp/assets/img/introandgoalsicon.png" style="float:left" width="25">
-    
-
+ 
 Introduction and Goals
 -----------------------
 
@@ -54,7 +52,7 @@ Introduction and Goals
 
     <p>
     <table><tbody>
-    <tr><td><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
+    <tr><td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
     <br/>(<a href="http://www.teachertube.com/video/358482" target="_blank">Teacher Tube version</a>)</td>
     <td>
     <p><b><i>I Have a Dream!</i></b> is an educational "soundboard" app that plays the famous speech of Martin Luther King. This is a great example of a socially-useful app which provides multimedia education on African-American history and the civil rights movement.</p>
@@ -66,6 +64,10 @@ Introduction and Goals
         </li><li>develop your understanding of event handlers.
         </li>
     </ul>
+    </td>
+    </tr>
+    <tr>
+    <td colspan="2">
     <p><b>Language Objectives:</b></p>
     <ul>
     <li>I will be able to use target vocabulary, such as input, output, event handler, button, sound, and label, while describing app features and User Interface with the support of a word bank.
