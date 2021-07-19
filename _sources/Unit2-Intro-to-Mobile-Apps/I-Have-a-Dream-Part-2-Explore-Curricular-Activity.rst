@@ -40,26 +40,28 @@ Introduction and Goals
     <p>
     <style>    td { text-align: left; padding: 5px;}</style>
     <table><tbody>
+    <tr><td valign="top" colspan=2><b><i>Enhancing I Have a Dream. </i></b>The I Have a Dream app only had one picture and speech, and it didn't allow you to pause the speeches. In part 2, you'll add a speech of Malcolm X to show the contrast of these two great leaders, and you'll code it so each speech can be paused. <br/><br/>
+    This tutorial introduces the concept of an <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else condition</span>, which enables an app (an example of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span>) to ask questions and make decisions-- it's one of the fundamentals of "artificial intelligence".</td></tr>
     <tr>
     	<td valign="top">
-    		<iframe allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/CykBbRvB0lk" width="400"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
-    	<td><b><i>Enhancing I Have a Dream. </i></b>The I Have a Dream app only had one picture and speech, and it didn't allow you to pause the speeches. In part 2, you'll add a speech of Malcolm X to show the contrast of these two great leaders, and you'll code it so each speech can be paused. <br/><br/>
-    This tutorial introduces the concept of an <i><b>if-else condition</b></i>, which enables an app (an example of a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span>) to ask questions and make decisions-- it's one of the fundamentals of "artificial intelligence".</td>
-    </tr>
-    <tr>
-    	<td colspan="2">
-        
-	    <p><b>Objectives:</b> In this lesson you will learn to:</p>
+    		<iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube.com/embed/CykBbRvB0lk" width="300"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
+      <td><div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	    <ul>
-	    <li>Follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device.
-	    </li><li>Use a selection <i>if-else</i> block to pause and start the speeches. 
-	      </li><li>Reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor
-	      </li><li>Use a <span class="hover vocab yui-wk-div" data-id='horizontal arrangement'>horizontal arrangement</span> to layout buttons side-by-side
-	      </li><li>Name components in a standard format (description followed by component type, e.g. MalcolmButton)
-	      </li><li>Understand what a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> is</li></ul>
-    
+	    <li>follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device
+	    </li><li>use a selection <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else</span> block to pause and start the speeches
+	      </li><li>reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor
+	      </li><li>use a <span class="hover vocab yui-wk-div" data-id='Horizontal Arrangement'>horizontal arrangement</span> to layout buttons side-by-side
+	      </li><li>name components in a standard format (description followed by component type, e.g. MalcolmButton)
+	      </li><li>understand what a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> is</li></ul>
     	</td>
-    </tr></tbody></table>
+    </tr>
+    <tr><td colspan=2>
+    <div><b>Language Objectives:</b>&nbspI will be able to</div>
+    <ul>
+    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span> conditional, <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> and pair programming, while describing a computing innovation, out loud and in writing, with the support of vocabulary notes from this lesson.</li>
+    </ul>
+    </td></tr>
+    </tbody></table>
     
 
 Learning Activities
@@ -87,7 +89,7 @@ Learning Activities
     <p></p>
     </div>
 
-    <h3>Explore Curricular Activity: Computing Innovations and Collaboration</h3>Discuss the following two paragraphs with your classmate(s) and/or a friend. You can use this <a href="https://docs.google.com/document/d/1Y_LDNnjXkmj-RzOM3dlIkcvmUjP8KUWlSlE2aVdiCJY/copy" target="_blank" title="">Notes Worksheet</a> to help guide your discussion. Check with your instructor to see if they have additional worksheets or activities for you to complete.<br/><br/>With the expansion of computers and the Internet, every day new computing innovations are being developed. A <b><span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span></b> includes a program as an integral part of its function. The purpose of computing innovations is to solve problems or to pursue interests through creative expression. Understanding the purpose of a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> provides developers with an improved ability to develop that <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span>. Additionally, a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> can be physical, non-physical computing software, or non-physical computing concepts. For example, self-driving cars, picture editing software, e-commerce. In this lesson, we're also creating a mobile app, which is certainly an example of a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span>. Can you think of other examples of computing innovations? Can you identify the function or purpose of each of those computing innovations?<br/><br/>Computing innovations, such as the I Have a Dream mobile app, are often improved through collaboration. Most computing innovations are developed by groups or teams of developers. Effective collaboration can take many forms. It can range from working with a diverse group of people to create or modify the <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> to consulting and communicating with users as part of the development process of the computing innovations (e.g. gathering information from potential users of your app to help understand the program from diverse perspectives). In the end, effective collaboration produces a <span class="hover vocab yui-wk-div" data-id='computing innovation'>computing innovation</span> that reflects the diversity of talents and perspectives of those who designed it. Collaboration that includes diverse perspectives is important because it helps avoid bias in the development of computing innovations. One model to help facilitate collaboration is <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a>. This course emphasizes collaboration, so there will be plenty of opportunities for pair programming when developing apps in the course. <br/>
+    <h3>Explore Curricular Activity: Computing Innovations and Collaboration</h3>Discuss the following two paragraphs with your classmate(s) and/or a friend. You can use this <a href="https://docs.google.com/document/d/1Y_LDNnjXkmj-RzOM3dlIkcvmUjP8KUWlSlE2aVdiCJY/copy" target="_blank" title="">Notes Worksheet</a> to help guide your discussion. Check with your instructor to see if they have additional worksheets or activities for you to complete.<br/><br/>With the expansion of computers and the Internet, every day new computing innovations are being developed. A <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> includes a program as an integral part of its function. The purpose of computing innovations is to solve problems or to pursue interests through creative expression. Understanding the purpose of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> provides developers with an improved ability to develop that <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span>. Additionally, a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> can be physical, non-physical computing software, or non-physical computing concepts. For example, self-driving cars, picture editing software, e-commerce. In this lesson, we're also creating a mobile app, which is certainly an example of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span>. Can you think of other examples of computing innovations? Can you identify the function or purpose of each of those computing innovations?<br/><br/>Computing innovations, such as the I Have a Dream mobile app, are often improved through collaboration. Most computing innovations are developed by groups or teams of developers. Effective collaboration can take many forms. It can range from working with a diverse group of people to create or modify the <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> to consulting and communicating with users as part of the development process of the computing innovations (e.g. gathering information from potential users of your app to help understand the program from diverse perspectives). In the end, effective collaboration produces a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>Computing Innovation</span> that reflects the diversity of talents and perspectives of those who designed it. Collaboration that includes diverse perspectives is important because it helps avoid bias in the development of computing innovations. One model to help facilitate collaboration is <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a>. This course emphasizes collaboration, so there will be plenty of opportunities for pair programming when developing apps in the course. <br/>
     
 
 Summary

@@ -77,13 +77,13 @@ Introduction and Goals
     </p>
     <div><b>Learning Objectives:</b>&nbspI will learn to</div>
     <ul>
-    <li>express an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that uses <span class="hover vocab yui-wk-div" data-id='sequence'>sequencing</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span> and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> without using a programming language;</li>
+    <li>express an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that uses <span class="hover vocab yui-wk-div" data-id='sequence'>sequencing</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span> and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> without using a programming language</li>
     <li>create algorithms, write conditional statements, write iteration statements</li>
     </ul>
     <div><b>Language Objectives:</b>&nbspI will be able to</div>
     <ul>
-    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>, <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span>, while describing a problem solving process, out loud and in writing, with the support of vocabulary notes from this lesson;   </li>
-    <li>describe the relationship between the target vocabulary words for the POGIL activity and portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson.</li>
+    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>, <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span>, while describing a problem solving process, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+    <li>describe the relationship between the target vocabulary words for the POGIL activity and portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson</li>
     </ul>
     
 Learning Activities
