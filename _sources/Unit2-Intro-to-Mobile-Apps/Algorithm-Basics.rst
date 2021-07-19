@@ -75,7 +75,17 @@ Introduction and Goals
       would like to write to solve a problem can be built by a combination of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.</p>
     <p>
     </p>
-
+    <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+    <ul>
+    <li>express an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that uses <span class="hover vocab yui-wk-div" data-id='sequence'>sequencing</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span> and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> without using a programming language;</li>
+    <li>create algorithms, write conditional statements, write iteration statements</li>
+    </ul>
+    <div><b>Language Objectives:</b>&nbspI will be able to</div>
+    <ul>
+    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>, <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span>, while describing a problem solving process, out loud and in writing, with the support of vocabulary notes from this lesson;   </li>
+    <li>describe the relationship between the target vocabulary words for the POGIL activity and portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson.</li>
+    </ul>
+    
 Learning Activities
 --------------------
 
@@ -151,7 +161,7 @@ Learning Activities
        <bl>commands</bl></bl>
     </div>
     <br/>Rewrite your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> above using <em>Repeat n times</em> control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times. 
-        </li><li>Can you come up with a more general <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> and then click on and compare to the Maze Navigation <span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span> below.
+        </li><li>Can you come up with a more general <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> and then click on and compare to the Maze Navigation <span class="hover vocab yui-wk-div" data-id='algorithm'>Algorithm</span> below.
       <div class="yui-wk-div" id="accordion">
     <h3>Maze Navigation <span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span> (click here after trying your own <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>)</h3>
     <div class="yui-wk-div" id="APblocks">
@@ -178,8 +188,8 @@ Learning Activities
       </li></ol>
     </li>
     <li>(<span style="font-weight: bold;">Portfolio</span>) 
-        <br/>Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that are examples  of <i><span class="hover vocab yui-wk-div" data-id='Sequence'>Sequence</span>, <span class="hover vocab yui-wk-div" data-id='Selection'>Selection</span>,</i> and
-        <i><span class="hover vocab yui-wk-div" data-id='Repetition'>Repetition</span></i>.</li></ol><br/>
+        <br/>Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that are examples  of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and
+        <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.</li></ol><br/>
     </div>
     
 
