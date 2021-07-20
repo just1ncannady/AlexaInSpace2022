@@ -49,7 +49,18 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
+    <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+    <ul>
+    <li>explain how <span class="hover vocab yui-wk-div" data-id='data'>data</span> can be supported using <span class="hover vocab yui-wk-div" data-id='bit'>bits</span></li>
+    <li>explain how computing devices work together in a <span class="hover vocab yui-wk-div" data-id='network'>network</span></li>
+    </ul>
+    <div><b>Language Objectives:</b>&nbspI will be able to</div>
+    <ul>
+    <li>describe the relationship between <span class="hover vocab yui-wk-div" data-id='data'>data</span> and <span class="hover vocab yui-wk-div" data-id='bit'>bits</span> using target vocabulary, supporting details and examples</li>
+    <li>describe the functionality of <span class="hover vocab yui-wk-div" data-id='hardware'>hardware</span> and <span class="hover vocab yui-wk-div" data-id='software'>software</span> components using target vocabulary, supporting details and examples</li>
+    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='bit'>bits</span>, <span class="hover vocab yui-wk-div" data-id='byte'>bytes</span>, binary code, computing device, while describing how <span class="hover vocab yui-wk-div" data-id='data'>data</span> is represented and how <span class="hover vocab yui-wk-div" data-id='hardware'>hardware</span> and <span class="hover vocab yui-wk-div" data-id='software'>software</span> works together, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+    </ul>
+
     
 
 Learning Activities
@@ -58,9 +69,9 @@ Learning Activities
 .. raw:: html
 
     <p><h3>What is a Computer?</h3>
-    <p>A computing device is an electronic device for storing and processing data by following instructions given to it in a <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Mobile devices – smart phones and tablets – are <b><i>general purpose computers</i></b>. Like desktop and laptop computers, these general purpose computers can run different programs or apps. This contrasts with <b><i>special purpose computers</i></b> which can run only a single set <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Examples of special purpose computers include a simple non-programmable calculator, a microwave oven, a smart thermostat, and a car's anti-lock braking system.<br/><br/>This lesson focuses on the basic <b><span class="hover vocab yui-wk-div" data-id='hardware'>hardware</span></b> and <i><b><span class="hover vocab yui-wk-div" data-id='software'>software</span></b></i> that work together to enable our mobile devices to run the amazing apps that we'll be building. As beginning programmers, it's important that we understand how the programs we write are interpreted and processed by the <span class="hover vocab yui-wk-div" data-id='computer'>computer</span>.</p>
+    <p>A computing device is an electronic device for storing and processing <span class="hover vocab yui-wk-div" data-id='data'>data</span> by following instructions given to it in a <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Mobile devices – smart phones and tablets – are <span class="hover vocab yui-wk-div" data-id='general purpose computer'>general purpose computers</span>. Like desktop and laptop computers, these general purpose computers can run different programs or apps. This contrasts with <span class="hover vocab yui-wk-div" data-id='special purpose computer'>special purpose computers</span> which can run only a single set <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Examples of special purpose computers include a simple non-programmable calculator, a microwave oven, a smart thermostat, and a car's anti-lock braking system.<br/><br/>This lesson focuses on the basic <span class="hover vocab yui-wk-div" data-id='hardware'>hardware</span> and <span class="hover vocab yui-wk-div" data-id='software'>software</span> that work together to enable our mobile devices to run the amazing apps that we'll be building. As beginning programmers, it's important that we understand how the programs we write are interpreted and processed by the <span class="hover vocab yui-wk-div" data-id='computer'>computer</span>.</p>
     <h3>Binary Code</h3>
-    <p>As you will learn in this lesson, computers understand binary code or <span class="hover vocab yui-wk-div" data-id='machine language'>machine language</span>. Binary code consists of 0s and 1s. One binary digit is called a <i>bit</i>. A group of eight bits is referred to as a <i><span class="hover vocab yui-wk-div" data-id='byte'>byte</span></i>. One <span class="hover vocab yui-wk-div" data-id='byte'>byte</span> of memory takes about the same amount of memory as a character, such as the letter 't'. You will learn more about binary in future lessons, including how to convert binary numbers into decimal numbers and how to convert binary numbers into colors or characters.</p>
+    <p>As you will learn in this lesson, computers understand binary code or <span class="hover vocab yui-wk-div" data-id='machine language'>machine language</span>. Binary code consists of 0s and 1s. One binary digit is called a <span class="hover vocab yui-wk-div" data-id='bit'>bit</span>. A group of eight bits is referred to as a <span class="hover vocab yui-wk-div" data-id='byte'>byte</span>. One <span class="hover vocab yui-wk-div" data-id='byte'>byte</span> of memory takes about the same amount of memory as a character, such as the letter 't'. You will learn more about binary in future lessons, including how to convert binary numbers into decimal numbers and how to convert binary numbers into colors or characters.</p>
     <h3>Mobile Apps and Devices</h3>
     <p>If you are unable to stream the YouTube video, click here for a <a href="http://www.teachertube.com/video/mobileappsanddevices-348078" target="_blank">Teacher Tube version</a>. Follow along with the text-version <a href="https://docs.google.com/presentation/d/1Nn9Y1CupKELEJhR6RnFO-MNKDwvGg3MyGkgthTwrK2o" target="_blank" title="">Slides</a>.</p>
     
