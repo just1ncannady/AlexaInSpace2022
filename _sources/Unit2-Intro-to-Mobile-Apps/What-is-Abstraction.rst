@@ -40,7 +40,17 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>An important concept and practice in Computer Science is <i><span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span></i>. But what exactly <i>is</i> <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span>? This lesson is provides a quick introduction to this key concept.</p>
+    <p>An important concept and practice in Computer Science is <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span>. But what exactly <i>is</i> <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span>? This lesson is provides a quick introduction to this key concept.</p>
+    <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+    <ul>
+    <li>explain how <span class="hover vocab yui-wk-div" data-id='data'>data</span> can be represented using <span class="hover vocab yui-wk-div" data-id='bit'>bits</span></li>
+    </ul>
+    <div><b>Language Objectives:</b>&nbspI will be able to</div>
+    <ul>
+    <li>describe <span class="hover vocab yui-wk-div" data-id='abstraction'>abstractions</span> in computer science and in the real world using key vocabulary such as <span class="hover vocab yui-wk-div" data-id='procedural abstraction'>procedural abstraction</span> and <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span>, out loud and in writing, with the support of vocabulary notes from this lesson.</li>
+    </ul>
+    </td>
+        
     <h3>Lecture</h3>
     
 .. youtube:: XpJdZrviSuw
@@ -64,7 +74,7 @@ Learning Activities
     </p><ul>
     <li>
     In pairs, play a guessing game, where 1 student draws something in 10 seconds, and the other student tries to guess what it is. After each drawing, discuss what were the essential features that were drawn that helped to guess what it was, and which features of the actual object were left out. The essential features make up the <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span> or abstract drawing for that object.</li>
-    <li>Go to the <a href="https://www.google.com/search?q=calculator" target="_blank">Google scientific calculator</a>. This is an app that Google programmers have made. The buttons on this calculator are abstractions for the functions that they do. Identify at least 4 functions that are associated with 4 abstract buttons. 
+    <li>Go to the <a href="https://www.google.com/search?q=calculator" target="_blank">Google scientific calculator</a>. This is an app that Google programmers have made. The buttons on this calculator are <span class="hover vocab yui-wk-div" data-id='abstraction'>abstractions</span> for the functions that they do. Identify at least 4 functions that are associated with 4 abstract buttons. 
       </li>
     </ul>
     
