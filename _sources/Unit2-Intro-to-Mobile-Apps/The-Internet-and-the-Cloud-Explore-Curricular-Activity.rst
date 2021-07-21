@@ -51,12 +51,27 @@ Introduction and Goals
     <li>What aspects of the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>’s design and development have enabled it to grow so large and be so influential?</li>
     <li>How do the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and Cloud applications impact our society, positively and negatively? </li>
     </ul>
-    <p>The <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the World Wide Web have had a tremendous influence
+    <p>The <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> (WWW) have had a tremendous influence
     on our world and our lives.  Yet, most people do not really understand what the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> 
     is and how it works.   This lesson provides a high-level overview of some key concepts and clarifies the
-      difference between the <i><span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span></i> and the <i>World Wide Web (WWW)</i>. Lessons
+      difference between the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span>. Lessons
       later in the course will go into greater detail in explaining how the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> works and explore cybersecurity.</p>
-    
+    <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+    <ul>
+    <li>explain how computing innovations are developed by groups of people</li>
+    <li>demonstrate effective interpersonal skills during collaboration</li>
+    <li>describe the differences between the Internet and the World Wide Web</li>
+    <li>explain how an effect of a computing innovation can be both beneficial and harmful</li>
+    <li>explain how a computing innovation can have an impact beyond its intended purpose</li>
+    <li>describe the risks to privacy from collecting and storing personal data on a computer system</li>
+    </ul>
+    <div><b>Language Objectives:</b>&nbspI will be able to</div>
+    <ul>
+    <li>describe the relationship between the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> using target vocabulary, supporting details and examples</li>
+    <li>describe key characteristics, benefits and drawbacks of computing innovations using target vocabulary, supporting details and examples</li>
+    <li>describe the risks to privacy from collecting and storing personal data on a computer system using target vocabulary, supporting details and example</li>
+    <li>use target vocabulary, such as the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>, <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span>, <span class="hover vocab yui-wk-div" data-id='protocol'>protocol</span>, and <span class="hover vocab yui-wk-div" data-id='browser'>browser</span> while completing the content objectives for this lesson, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+    </ul>
 
 Learning Activities
 --------------------
@@ -84,12 +99,12 @@ Learning Activities
     completely different things. The basic distinctions are:
     
     </p><ul>
-    <li>The <b><i>World Wide Web (WWW)</i></b> is an application that runs on the
+    <li>The <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> (WWW) is an application that runs on the
         <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>.  The WWW is a system of interlinked resources -- documents, images, sounds,
         videos, data files -- that are stored on the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and can be accessed through a 
         <i><span class="hover vocab yui-wk-div" data-id='browser'>browser</span></i>.
       </li>
-    <li>The <b><i><span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span></i></b>  is the underlying global network that supports
+    <li>The <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> is the underlying global network that supports
         the WWW and many other applications.  It consists of many different local networks that
         are connected together by various hardware devices.  
       </li>
@@ -98,7 +113,7 @@ Learning Activities
         as <i><b>cloud applications</b></i>.  They could also be called <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> applications.  App 
         Inventor is another example of a cloud application. 
       </li>
-    <li><i><b>Browsers</b></i>: are programs that display web pages and are used to navigate the WWW. Watch this quick, informative
+    <li><span class="hover vocab yui-wk-div" data-id='browser'>Browsers</span> are programs that display web pages and are used to navigate the WWW. Watch this quick, informative
     <a href="https://www.youtube.com/embed/BrXPcaRlBqo" target="_blank">video on browsers</a>.
     
     </li></ul>
@@ -158,9 +173,9 @@ Learning Activities
         </li>
     <li>Classify these apps as 
           <ul>
-    <li>Cloud Applications that happen in the browser, </li>
-    <li>Or Cloud Applications that do not use the browser, </li>
-    <li> Or Applications that do not require the Internet. </li>
+    <li>Cloud Applications that happen in the <span class="hover vocab yui-wk-div" data-id='browser'>browser</span>, </li>
+    <li>Or Cloud Applications that do not use the <span class="hover vocab yui-wk-div" data-id='browser'>browser</span>, </li>
+    <li> Or Applications that do not require the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>. </li>
     </ul>
     </li>
     <li>Put a star * next to any of the applications that can be classified as social media (apps and websites that let you create and share content or participate in social networking). 
