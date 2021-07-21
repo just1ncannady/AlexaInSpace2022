@@ -51,32 +51,34 @@ Introduction and Goals
 .. raw:: html
 
     <p>
+    
     <table><tbody>
-    <tr><td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
-    <br/>(<a href="http://www.teachertube.com/video/358482" target="_blank">Teacher Tube version</a>)</td>
-    <td>
-    <p><b><i>I Have a Dream!</i></b> is an educational "soundboard" app that plays the famous speech of Martin Luther King. This is a great example of a socially-useful app which provides multimedia education on African-American history and the civil rights movement.</p>
-    <p><b>Learning Objectives:</b> In this lesson you will learn to</p>
+    <tr>
+    	<td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
+   		<br/>(<a href="http://www.teachertube.com/video/358482" target="_blank">Teacher Tube version</a>)</td>
+	    <td valign="top">
+	    <p><b><i>I Have a Dream!</i></b> is an educational "soundboard" app that plays the famous speech of Martin Luther King. This is a great example of a socially-useful app which provides multimedia education on African-American history and the civil rights movement.</p>
+	    <p><b>Lesson Resources:</b></p>
     <ul>
-    <li>follow an instructor-led walkthrough to create the <i>I Have a Dream</i> app on a mobile device;
-        </li><li>navigate the App Inventor programming platform;
-        </li><li>develop your understanding of what an App Inventor program is;
-        </li><li>develop your understanding of event handlers.
-        </li>
+    <li><a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">Vocabulary Notes</a></li>
     </ul>
-    </td>
+	    </td>
     </tr>
     <tr>
     <td colspan="2">
+    <p><b>Learning Objectives:</b> In this lesson you will learn to</p>
+	    <ul>
+	    <li>follow an instructor-led walkthrough to create the <i>I Have a Dream</i> app on a mobile device;
+	        </li><li>navigate the App Inventor programming platform;
+	        </li><li>develop your understanding of what an App Inventor program is;
+	        </li><li>develop your understanding of event handlers.
+	        </li>
+	    </ul>
     <p><b>Language Objectives:</b></p>
     <ul>
     <li>I will be able to use target vocabulary, such as input, output, event handler, button, sound, and label, while describing app features and User Interface with the support of a word bank.
     </li>
     <li>I will be able to summarize event driven programming for the portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson.</li>
-    </ul>
-    <p><b>Lesson Resources:</b></p>
-    <ul>
-    <li><a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">Vocabulary Notes</a></li>
     </ul>
     </td></tr>
     </tbody></table>
