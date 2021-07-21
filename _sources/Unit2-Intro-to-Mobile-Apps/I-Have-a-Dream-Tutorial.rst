@@ -56,20 +56,18 @@ Introduction and Goals
     <tr><td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
     <br/>(<a href="http://www.teachertube.com/video/358482" target="_blank">Teacher Tube version</a>)</td>
     <td valign="top">
-    <div><b>Learning Objectives:</b>&nbspI will learn to</div>
-    <ul>
-    <li>follow an instructor-led walkthrough to create the <i>I Have a Dream</i> app on a mobile device
-        </li><li>navigate the App Inventor programming platform
-        </li><li>develop your understanding of what an App Inventor program is
-        </li><li>develop your understanding of event handlers
-        </li>
-    </ul>
-    <div><b>Language Objectives:</b>&nbspI will be able to</div>
-    <ul>
-    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, <span class="hover vocab yui-wk-div" data-id='Event Handler'>event handler</span>, button, sound, and label,<!--<span class="hover vocab yui-wk-div" data-id='Button'>button</span>, <span class="hover vocab yui-wk-div" data-id='Sound'>sound</span>, and <span class="hover vocab yui-wk-div" data-id='Label'>label</span>,--> while describing app features and User Interface with the support of a word bank
-    </li>
-    <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson</li>
-    </ul>
+       <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+       <ul>
+           <li>follow an instructor-led walkthrough to create the <i>I Have a Dream</i> app on a mobile device</li>
+           <li>navigate the App Inventor programming platform</li>
+           <li>develop your understanding of what an App Inventor program is</li>
+           <li>develop your understanding of event handlers</li>
+       </ul>
+       <div><b>Language Objectives:</b>&nbspI will be able to</div>
+       <ul>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, <span class="hover vocab yui-wk-div" data-id='Event Handler'>event handler</span>, button, sound, and label,<!--<span class="hover vocab yui-wk-div" data-id='Button'>button</span>, <span class="hover vocab yui-wk-div" data-id='Sound'>sound</span>, and <span class="hover vocab yui-wk-div" data-id='Label'>label</span>,--> while describing app features and User Interface with the support of a word bank</li>
+          <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson</li>
+       </ul>
     </td>
     </tr>
     <tr>

@@ -39,28 +39,36 @@ Introduction and Goals
 
     <p>
     <style>    td { text-align: left; padding: 5px;}</style>
-    <table><tbody>
-    <tr><td valign="top" colspan=2><b><i>Enhancing I Have a Dream. </i></b>The I Have a Dream app only had one picture and speech, and it didn't allow you to pause the speeches. In part 2, you'll add a speech of Malcolm X to show the contrast of these two great leaders, and you'll code it so each speech can be paused. <br/><br/>
-    This tutorial introduces the concept of an <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else condition</span>, which enables an app (an example of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span>) to ask questions and make decisions-- it's one of the fundamentals of "artificial intelligence".</td></tr>
-    <tr>
-    	<td valign="top">
-    		<iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube.com/embed/CykBbRvB0lk" width="300"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)</td>
-      <td><div><b>Learning Objectives:</b>&nbspI will learn to</div>
-	    <ul>
-	    <li>follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device
-	    </li><li>use a selection <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else</span> block to pause and start the speeches
-	      </li><li>reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor
-	      </li><li>use a <span class="hover vocab yui-wk-div" data-id='Horizontal Arrangement'>horizontal arrangement</span> to layout buttons side-by-side
-	      </li><li>name components in a standard format (description followed by component type, e.g. MalcolmButton)
-	      </li><li>understand what a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> is</li></ul>
-    	</td>
-    </tr>
-    <tr><td colspan=2>
-    <div><b>Language Objectives:</b>&nbspI will be able to</div>
-    <ul>
-    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span> conditional, <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> and pair programming, while describing a computing innovation, out loud and in writing, with the support of vocabulary notes from this lesson.</li>
-    </ul>
-    </td></tr>
+    <table><tbody valign="top">
+       <tr>
+         <td colspan=2><b><i>Enhancing I Have a Dream. </i></b>The I Have a Dream app only had one picture and speech, and it didn't allow you to pause the speeches. In part 2, you'll add a speech of Malcolm X to show the contrast of these two great leaders, and you'll code it so each speech can be paused. <br/><br/>
+         This tutorial introduces the concept of an <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else condition</span>, which enables an app (an example of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span>) to ask questions and make decisions-- it's one of the fundamentals of "artificial intelligence".
+         </td>
+       </tr>
+       <tr>
+       	<td>
+       		<iframe allowfullscreen="" frameborder="0" height="300" width="250" src="https://www.youtube.com/embed/CykBbRvB0lk"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)
+         </td>
+         <td>
+            <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+      	   <ul>
+         	   <li>follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device</li>
+               <li>use a selection <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else</span> block to pause and start the speeches</li>
+               <li>reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor</li>
+               <li>use a <span class="hover vocab yui-wk-div" data-id='Horizontal Arrangement'>horizontal arrangement</span> to layout buttons side-by-side   	      </li>
+               <li>name components in a standard format (description followed by component type, e.g. MalcolmButton) </li>
+               <li>understand what a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> is</li>
+            </ul>
+       	</td>
+       </tr>
+       <tr>
+         <td colspan=2>
+            <div><b>Language Objectives:</b>&nbspI will be able to</div>
+             <ul>
+               <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span> conditional, <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> and pair programming, while describing a computing innovation, out loud and in writing, with the support of vocabulary notes from this lesson.</li>
+             </ul>
+         </td>
+       </tr>
     </tbody></table>
     
 
