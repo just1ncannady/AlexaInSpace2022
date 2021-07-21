@@ -43,25 +43,35 @@ Introduction and Goals
     
     <table>
     <tbody>
-    <tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="225" src="https://www.youtube.com/embed/vGrqqz-IFtY" width="300">
-    </iframe><br/>(<a href="http://www.teachertube.com/video/358487" target="_blank">Teacher Tube version</a>)
+    <tr><td  colspan=2><b><i>Be Creative!</i></b> In this lesson you will complete several small programming projects that add enhancements to the I Have a Dream app.  Hints and suggestions are provided.</td>
+    </tr>
+    <tr valign="top">
+       <td>
+         <iframe allowfullscreen="" frameborder="0" height="225" src="https://www.youtube.com/embed/vGrqqz-IFtY" width="300"></iframe><br/>
+         (<a href="http://www.teachertube.com/video/358487" target="_blank">Teacher Tube version</a>)
        </td>
-    <td>
-    <p><b><i>Be Creative!</i></b> In this lesson you will complete several small programming projects that add enhancements to the 
-           I Have a Dream app.  Hints and suggestions are provided.</p>
-    <p><b>Objectives:</b> In this lesson you will: </p>
-    <ul>
-    <li>continue learning to navigate the App Inventor programming platform;</li>
-    <li>deepen your understanding of event-driven programming.</li>
-    </ul>
-    </td>
+       <td>
+          <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+          <ul>
+          <li>better navigate the App Inventor programming platform</li>
+          <li>deepen my understanding of event-driven programming</li>
+          <li>describe the functionality of a computing innovation</li>
+          <li>use pair programming to improve an app</li>
+          </ul>
+       </td>
+    </tr>
+    <tr valign="top">
+       <td colspan=2>
+           <div><b>Language Objectives:</b>&nbspI will be able to</div>
+           <ul>
+           <li>describe the functionality of an app using key vocabulary such as component, event, sensor, <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span>, theme, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+           <li>explain the advantages of collaboration when developing and improving computing innovations using target vocabulary, supporting details and examples</li>
+           </ul>
+       </td>
     </tr>
     </tbody>
     </table>
     
-
 Learning Activities
 ---------------------------------
 
