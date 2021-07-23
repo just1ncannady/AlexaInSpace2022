@@ -506,16 +506,16 @@ Sample AP CSP Questions
 .. mchoice:: mcsp-4-4-8
     :random:
     :practice: T
-    :answer_a: <img src="../_static/assets/img/APExamPrepQ17ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_a: &nbsp;<img src="../_static/assets/img/APExamPrepQ17ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_a: 
-    :answer_b: <img src="../_static/assets/img/APExamPrepQ17ChoiceB.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_b: &nbsp;<img src="../_static/assets/img/APExamPrepQ17ChoiceB.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_b: 
-    :answer_c: <img src="../_static/assets/img/APExamPrepQ17ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_c: &nbsp;<img src="../_static/assets/img/APExamPrepQ17ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_c: 
-    :answer_d: <img src="../_static/assets/img/APExamPrepQ17ChoiceD.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_d: &nbsp;<img src="../_static/assets/img/APExamPrepQ17ChoiceD.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_d: 
     :correct: b,c
-
+    
     .. raw:: html
     
     	<p><b>AP 2021 Sample Question</b>: Consider the following procedure.</p>
@@ -528,14 +528,15 @@ Sample AP CSP Questions
     		<td width="40%" style="padding:2px">drawCircle(xPos, yPos, rad)</td>
     		<td>Draws a circle on a coordinate grid with center (xPos, yPos) and radius rad</td>
     	</tr>
-    	</tbody></table>
-    	<br />
-    	<p>The drawCircle procedure is to be used to draw the following figure on a coordinate grid.</p>
-        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ17Question.png" title=""/>
-        <br />
-        <p>Which of the following code segments can be used to draw the figure?</p>
-        <p><b>Select <u>two</u> answers.</p>
 
+    	</tbody>
+    	</table>
+ 		<br />
+ 		<p>The drawCircle procedure is to be used to draw the following figure on a coordinate grid.</p>
+ 		<p><img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ17Question.png" title="" /></p>
+ 		<br />
+ 		<p>Which of the following code segments can be used to draw the figure?</p>
+ 		<p><b>Select <u>two</u> answers.</b></p>
 
 .. raw:: html
 
