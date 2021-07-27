@@ -38,9 +38,10 @@ Table of Contents
 
 .. raw:: html
 
-   <ul>
-   <li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
-   </ul>
+	<ul>
+		<li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
+		<li><a href="resources.html">Resources</a></li>
+	</ul>
 
 
 .. toctree::
