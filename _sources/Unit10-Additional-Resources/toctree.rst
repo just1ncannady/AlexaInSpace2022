@@ -11,3 +11,4 @@ Additional Resources
 
 
 	Video-Solutions.rst
+	resources.rst

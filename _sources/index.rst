@@ -40,7 +40,7 @@ Table of Contents
 
 	<ul>
 		<li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
-		<li><a href="resources.html">Resources</a></li>
+		<li><a href="Unit10-Additional-Resources/resources.html">Resources</a></li>
 	</ul>
 
 

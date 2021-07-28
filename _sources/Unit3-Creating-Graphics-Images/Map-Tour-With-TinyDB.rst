@@ -243,7 +243,7 @@ Self-Check
     :answer_d: The tag 'school' is still associated with 'Trinity College'. 
     :feedback_d: No, we are associating a new value with the tag 'school'. 
     :correct: c
-
+    
     .. raw:: html
     
     	<p>Consider the following depiction of the contents of a TinyDb for an app.</p>
@@ -251,38 +251,29 @@ Self-Check
     	<tr>
     		<th>Tags</th>
     		<th>Values</th>
-    	<tr>
+    	</tr>
     	<tr>
     		<td>school</td>
     		<td>Trinity College</td>
-    	<tr>
+    	</tr>
     	<tr>
     		<td>trinity</td>
     		<td>Trinity College</td>
-    	<tr>
+    	</tr>
     	<tr>
     		<td>college</td>
     		<td>Amherst College</td>
-    	<tr>
+    	</tr>
     	<tr>
     		<td>university</td>
     		<td>Harvard</td>
-    	<tr>
-    	</tbody><table>
+    	</tr>
+    	</tbody></table>
     	<br />
     	<p>And suppose your app just executed the following block:</p>
         <img src="../_static/assets/img/StoreBowdoin.png" width="200"/>
-        <p>Which of these statements best describes the current state of the database?</p>
-
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
-
-    
+        <p>Which of these statements best describes the current state of the database?		</p>
+        
 .. mchoice:: mcsp-3-9-6
     :random:
     :practice: T
@@ -292,8 +283,8 @@ Self-Check
     :feedback_b: Mistakes are welcome here! Try reviewing this; in computer programming is it a list is often considered to be empty in it's initial state -- before items are added to it.
     :correct: a
 
-    True or False: It is possible to have an empty list -- i.e., a list with no elements. 
-
+    True or False: It is possible to have an empty list -- i.e., a list with no elements.
+ 
 
 .. raw:: html
 
