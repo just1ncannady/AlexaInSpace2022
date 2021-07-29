@@ -142,6 +142,7 @@ Self-Check
     </blockquote>
     <p> </p>
     <br/>
+    
 .. mchoice:: mcsp-5-9-1
     :random:
     :practice: T
@@ -156,6 +157,7 @@ Self-Check
     :correct: c
 
     .. raw:: html
+	    
 	    <p><b>AP 2021 Sample Question</b>: A certain computer has two identical processors that are able to run in parallel. Each processor can run only one process at a time, and each process must be executed on a single processor. The following table indicates the amount of time it takes to execute each of three processes on a single processor. Assume that none of the processes are dependent on any of the other processes.</p>
 	    <table border="1"><tbody>
 	    <tr>
@@ -174,7 +176,9 @@ Self-Check
 	    	<td>Z</td>
 	    	<td>50 seconds</td>
 	    </tr>
-	    	
+	    </tbody>
+	    </table>
+	    <br />	
 		<p>Which of the following best approximates the minimum possible time to execute all three processes when the two processors are run in parallel?</p> 
 
 
