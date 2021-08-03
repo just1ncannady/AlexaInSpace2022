@@ -79,7 +79,7 @@ Unit Overview
     &lt;/ul&gt;
     -->
     <!--2020 Vocab Table-->
-    <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=22&amp;lesson=135" target="_blank" title="">quizlet at the end of the unit</a>.
+    <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit3-Creating-Graphics-Images/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
     
     <table align="center">
     <tbody>
