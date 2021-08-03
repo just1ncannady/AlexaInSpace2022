@@ -13,9 +13,7 @@ Careers in IT and CS
 	
 	<p>Here's an idea: organize a <b>field trip</b> to a local company or have local IT professionals visit your classroom! These do not have to be tech companies, either. Many businesses, governments,  organizations, and even schools rely on Information Technology (IT) departments, including hospitals and clinics, power companies, city government, etc. Not sure where to start? Reach out to your local Chamber of Commerce or your local college or university and ask them.</p>
 	
-	<b>POGIL Activity:</b>
-	
-	In your POGIL groups, explore the following websites and pick an IT/CS career and do further research on it. Prepare a poster or presentation on that career to present to your class. Be sure to talk about the further study required to enter that career.
+	<p><b>POGIL Activity:</b> In your POGIL groups, explore the following websites and pick an IT/CS career and do further research on it. Prepare a poster or presentation on that career to present to your class. Be sure to talk about the further study required to enter that career.</p>
 	
 	<ul>
 	  <li><a href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm" target="_blank">U.S. Bureau of Labor Statistics for Computer and IT Careers</a></li>
@@ -24,8 +22,7 @@ Careers in IT and CS
 	  <li><a href="https://www.reinventedmagazine.com/?fbclid=IwAR1NHpfiLSWsVXJV5LktMTEPTPCD-O3nZwJ3k0cUqG0qFLWPQWLvdCww0fg" target="_blank" title="Reinvented Magazine - Women in STEM">Reinvented Magazine - Women in STEM </a></li>
 	</ul>
 	
-	<b>Videos:</b>
-	Explore the following website to see videos of individuals with careers in IT/CS:
+	<p><b>Videos:</b> Explore the following website to see videos of individuals with careers in IT/CS:</p>
 	<ul>
 	  <li><a href="https://ifthencollection.org/hero-videos" target="_blank" title="">Hero Videos - IF/THEN Collection</a></li>
 	  </ul>

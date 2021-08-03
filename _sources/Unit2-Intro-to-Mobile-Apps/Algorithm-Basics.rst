@@ -54,7 +54,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>In <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=19&amp;lesson=69" target="_blank">Lesson 1.2</a> 
+    <p>In <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit1-Getting-Started/Mazes-Algorithms-and-Programs.html" target="_blank">Lesson 1.2</a> 
       we introduced the term <b><i><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></i></b> and defined it as a <u>step-by-step procedure</u> of <u>precise instructions</u>
       that performs some calculation or computation.
     Algorithms are at the heart of computer science. Algorithms, expressed in computer code 
