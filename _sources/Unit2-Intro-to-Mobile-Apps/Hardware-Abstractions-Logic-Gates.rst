@@ -42,13 +42,22 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
     <p>In this lesson we will look at some additional examples of how  the Big Idea of
       <i>abstraction</i> is used in computing. We will focus on low-level hardware abstractions,
-      in particular, on <i><b>logic gates</b></i>, the fundamental computational building blocks of 
+      in particular, on <span class="hover vocab yui-wk-div" data-id='logic gate'>logic gates</span>, the fundamental computational building blocks of 
       electronic circuits.  We'll tak a first look "under the hood," so to speak, to see how computers 
       process binary information.
      </p>
+     <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+     <ul>
+        <li>write expressions using logical operators</li>
+        <li>evaluate expressions that use logic operators</li>
+     </ul>
+     <div><b>Language Objectives:</b>&nbspI will be able to</div>
+     <ul>
+        <li>describe varying levels of abstractions in hardware, including <span class="hover vocab yui-wk-div" data-id='logic gate'>logic gates</span> and <span class="hover vocab yui-wk-div" data-id='flip flop'>flip-flops</span> using target vocabulary, supporting details and examples</li>
+        <li>explain <span class="hover vocab yui-wk-div" data-id='logic gate'>logic gates</span> using key vocabulary such as <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>, <span class="hover vocab yui-wk-div" data-id='AND gate'>AND gate</span>, <span class="hover vocab yui-wk-div" data-id='NOT gate'>NOT gate</span>, <span class="hover vocab yui-wk-div" data-id='boolean'>Boolean</span>, and <span class="hover vocab yui-wk-div" data-id='flip flop'>flip flop</span>, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+     </ul>
     
 
 Learning Activities
@@ -74,7 +83,6 @@ Learning Activities
 
     <h3>Logicly Activity</h3>
     <p><a href="http://logic.ly/demo" target="_blank">Logicly</a> provides an 
-      
       engaging, hands-on learning environment for teaching logic gates and circuits.  It
       provides some free online-demos of simple logic gates.  To help solidify your
       <img align="right" src="../_static/assets/img/LogiclyLiveExample.png" width="200"/>
@@ -151,14 +159,14 @@ Learning Activities
           truth table you created in part #2. (Hint:  For this circuit you'll need 2 AND gates, 1 <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>,
           and 1 <span class="hover vocab yui-wk-div" data-id='NOT gate'>NOT gate</span>.  Also, you should use switches, not buttons, for the 2 inputs.)
         </li>
-    <li>(<b>Portfolio</b>) Consider these three things: The <i><span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span></i> (i.e., the physical circuit), 
+    <li>(<b>Portfolio</b>) Consider these three things: The <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span> (i.e., the physical circuit), 
         the <i>Boolean OR function</i> (as defined by its truth table), and the <i>OR symbol</i>.  How
         would arrange them from <b>most abstract to least abstract</b>?  And what criterion would you
         use to determine their order?</li>
     <li>Pictured here is a
           Logicly version of the flip-flop discussed in the lecture.  A flip-flop is a basic 
           memory circuit that stores a single bit -- either a 0 or 1.  Implement this circuit in
-           <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a>. NOTE that NOR gates (not OR gates) are being used in this circuit and that
+           <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a>. NOTE that NOR gates (not <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gates</span>) are being used in this circuit and that
           the inputs are Push Buttons (not switches). The light should turn on when you click the bottom button
           and turn off when you click the top button.  Which <b><i>memory state</i></b> (a 0 or a 1) is represented 
           by clicking the bottom button as seen in the image below?
