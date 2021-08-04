@@ -166,7 +166,7 @@ Learning Activities
     <li>Pictured here is a
           Logicly version of the flip-flop discussed in the lecture.  A flip-flop is a basic 
           memory circuit that stores a single bit -- either a 0 or 1.  Implement this circuit in
-           <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a>. NOTE that NOR gates (not <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gates</span>) are being used in this circuit and that
+           <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a>. NOTE that NOR gates (not <span class="hover vocab yui-wk-div" data-id='OR` gate'>OR gates</span>) are being used in this circuit and that
           the inputs are Push Buttons (not switches). The light should turn on when you click the bottom button
           and turn off when you click the top button.  Which <b><i>memory state</i></b> (a 0 or a 1) is represented 
           by clicking the bottom button as seen in the image below?
