@@ -40,26 +40,26 @@ Introduction and Goals
     <p>
     <table><tbody>
     <tr>
+		<td colspan=2><b><i>Be creative!</i></b> In this lesson you will complete several small programming projects that add enhancements to the Paint Pot app.  Hints and suggestions are provided.</td>
+	</tr>
+	<tr>
     <td>
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/2JIoJ-I3jH0" width="315">
+    <iframe allowfullscreen="" frameborder="0" height="275" src="https://www.youtube.com/embed/2JIoJ-I3jH0">
     </iframe>
     </td>
-    <td>
-    <b><i>Be creative!</i></b> In this lesson you will complete 
-    several small programming projects that add enhancements to the 
-    Paint Pot app.  Hints and suggestions are provided. 
-    <br/>
-    <p>
-    <b>Objectives:</b> In this lesson you will:
-    </p><ul>
-    <li>program additional events into an existing mobile app;
-    </li><li>learn to solve simple programming problems.
-    </li></ul>
-    <p></p>
-    <p>
-    <b>Programming Projects</b>.  Working with a partner, complete the creative mini projects given below. 
-    </p>
+    <td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		  <ul>
+          <li>program additional events into an existing mobile app</li>
+          <li>solve simple programming problems</li>
+          </ul>
+          <div><b>Language Objectives:</b>&nbspI will be able to</div>
+          <ul>
+           <li>describe the functionality of an app using key vocabulary such as component, event, and pseudocode, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
+           <li>explain the advantages of collaboration when developing and improving an app using supporting details and examples</li>
+          </ul>
     </td>
+    
     </tr>
     </tbody></table>
     (<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-projects-preview-438235" target="_blank" title="">Teacher Tube version</a>)<br/>
