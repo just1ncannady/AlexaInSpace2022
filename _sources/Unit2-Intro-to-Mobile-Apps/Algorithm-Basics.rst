@@ -82,7 +82,7 @@ Introduction and Goals
     </ul>
     <div><b>Language Objectives:</b>&nbspI will be able to</div>
     <ul>
-    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>, <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span>, while describing a problem solving process, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+    <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>, <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span>, while describing a problem solving process, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
     <li>describe the relationship between the target vocabulary words for the POGIL activity and portfolio reflection questions with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
     </ul>
     

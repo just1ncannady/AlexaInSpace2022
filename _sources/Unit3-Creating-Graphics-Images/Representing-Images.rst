@@ -41,31 +41,34 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    
-    In this lesson we continue the exploration of <i><b>bits</b></i> and  
-    <i><b>binary numbers</b></i> that we began
-    in unit 2.  In this case we learn how to use bits, 1s and 0s,  to represent images. 
-    The objectives of this lesson are:
-    <p></p><ul>
-    <li>to understand that all digital data, including electronic documents, are 
-    composed of bits,
-    </li>
-    <li>to understand that representing an image digitally is another example of 
-    abstraction at work.
-    </li>
-    </ul><div class="yui-wk-div">The image representation technique demonstrated in the video below is known as <i><b>run-length encoding (RLE)</b></i> and it is an <a href="http://en.wikipedia.org/wiki/Image_compression" target="_blank">image compression</a> technique. Image compression is a type of <i>data compression</i> which can reduce the size (number of bits) of transmitted or stored data.<br/></div>
-    <p></p>
-    
-.. youtube:: uaV2RuAJTjQ
-        :width: 650
-        :height: 415
-        :align: center
+    <table>
+    <tbody>
+      <tr>
+		<td valign="top" colspan=2>
+			<p>In this lesson we continue the exploration of <span class="hover vocab yui-wk-div" data-id='bit'>bits</span> and binary numbers that we began in unit 2. In this case we learn how to use bits, 1s and 0s, to represent images.</p>
+			<p>The image representation technique demonstrated in the video below is known as <span class="hover vocab yui-wk-div" data-id='run length encoding'>run-length encoding (RLE)</span> and it is an <a href="http://en.wikipedia.org/wiki/Image_compression" target="_blank">image compression</a> technique. Image compression is a type of <i>data compression</i> which can reduce the size (number of bits) of transmitted or stored data.</p>
+		</td>
+      </tr>    
+      <tr>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="320" src="https://www.youtube.com/embed/uaV2RuAJTjQ"></iframe>
+        </td>
+        <td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+          <ul>
+          <li>convert images to bits using <span class="hover vocab yui-wk-div" data-id='run length encoding'>run length encoding</span> and text to bits using <span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span></li>
+		  <li>describe how <span class="hover vocab yui-wk-div" data-id='bit'>bits</span> can be used to represent digital data, including images, documents, and sounds</li>
+		  <li>understand that digital representations are an example of abstraction</li>
+          </ul>
+          <div><b>Language Objectives:</b>&nbspI will be able to</div>
+          <ul>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span>, <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span>, <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span>, and <span class="hover vocab yui-wk-div" data-id='run length encoding'>run length encoding</span> while describing how images are stored in memory with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+        </ul>
+        </td>
+      </tr>
+    </tbody>
+    </table>
 
-.. raw:: html
 
-    <div id="bogus-div">
-    <p></p>
-    </div>
 
 Learning Activities
 --------------------
@@ -108,7 +111,7 @@ Learning Activities
             btn.style.backgroundColor = "green";
     }
     </script>
-    <p>Try drawing in the following RLE compression and see if you get something you recognize. Remember the first number in each row is the number of white pixels.
+    <p>Try drawing in the following <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE compression</span> and see if you get something you recognize. Remember the first number in each row is the number of white pixels.
       </p><pre>  0, 6
       4, 1, 1
       3, 1, 2
@@ -119,7 +122,7 @@ Learning Activities
     Continue with the rest of the exercises in the <a href="https://docs.google.com/document/d/1AkIwOQLTU4_TonpRh3LEqoLMXWiVdZ4AiYf1y-qWIEI/copy" target="_blank">Image Representation Activity Worksheet</a>.<br/>
     </div>
     
-    <p><h3>Run-Length Encoding</h3><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of RLE image compression (an example of <b><i><span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span></i></b>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
+    <p><h3>Run-Length Encoding</h3><p style="font-family: arial, helvetica, clean, sans-serif; white-space: normal;">The following video presentation explores some of the details of <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE image compression</span> (an example of <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span>) and illustrates some of the ways that images and other data are represented with binary numbers.</p>
 .. youtube:: xn3-BAiaJ1k
         :width: 650
         :height: 415
@@ -134,9 +137,9 @@ Learning Activities
     <ul><li>Fewer bits does not necessarily mean less information.</li>
     <li>The amount of size reduction from compression depends on both the amount of redundancy in the original data representation and the compression algorithm applied.</li><li>The amount of compression can vary depending on how many bits are used to represent each <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> in the image. </li>
     <li>The amount of compression also depends on the number of different colors used in the actual image.  For our black and white spaceship there were only 2 colors, so there were relatively few color changes and therefore lots of long runs. If it were a colored spaceship, there would be many color changes and therefore fewer long runs. So we would get much less compression. </li>
-    <li>A <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithm is one in which no data are lost; the original data can be completely recovered. An example of <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> is RLE.</li>
+    <li>A <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithm is one in which no data are lost; the original data can be completely recovered. An example of <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> is <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE</span>.</li>
     <li>A <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm is one in which some data are lost; the original data cannot be completely restored. An example of <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> is JPEG.</li>
-    <li>Lossy data compression algorithms can usually reduce the number of bits stored or transmitted more than <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithms.</li>
+    <li><span class="hover vocab yui-wk-div" data-id='lossy compression'>Lossy data compression</span> algorithms can usually reduce the number of bits stored or transmitted more than <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithms.</li>
     </ul>
     <div class="pogil yui-wk-div">
     <h3>Other Activities</h3>
@@ -208,8 +211,8 @@ Still Curious?
     </div>
 
 
-    <p><b>How does JPEG encoding work?</b> <br/>JPEG is an example of a <i><b><span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm</b></i>.  JPEG, 
-      which uses the file extension .jpg or .jpeg, is the most common format used today to represent images.The JPEG algorithm was created by the Joint Photographic Experts Group (JPEG), hence its name.  The fact that JPEG is a lossy technique means that some of the information present 
+    <p><b>How does JPEG encoding work?</b> <br/>JPEG is an example of a <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm.  JPEG, 
+      which uses the file extension .jpg or .jpeg, is the most common format used today to represent images.The JPEG algorithm was created by the Joint Photographic Experts Group (JPEG), hence its name.  The fact that JPEG is a <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy</span> technique means that some of the information present 
       in the image is lost during compression and cannot be recovered. Here is a <a href="https://www.youtube.com/watch?v=mKxlrWcvyJs" target="_blank">video lecture on the JPEG compression algorithm</a> (<a href="http://www.teachertube.com/video/mobile-csp-jpeg-lossy-compression-438227" target="_blank" title="">Teacher Tube version</a>). The compression
       algorithm involves some math, but the video describes just enough of the math so 
       that you can see how JPEG works. The video is a summary of an excellent, more detailed 
@@ -220,8 +223,8 @@ Still Curious?
     </p>
     <p><b>How are audio files digitized?</b>
     <br/>
-    What about audio files? How are they digitized and converted to bits? Watch the following <a href="https://www.youtube.com/watch?v=ALFXrlrnAcI" target="_blank">video</a> for a summary of how audio files are converted from <b><span class="hover vocab yui-wk-div" data-id='analog'>analog</span></b> to digital format.  <b><span class="hover vocab yui-wk-div" data-id='Analog'>Analog</span></b> refers to data with values that change continuously, or smoothly, over time, like sound or music files.  
-    <span class="hover vocab yui-wk-div" data-id='Analog'>Analog</span> data is converted to a digital forms, 0s and 1s in binary, using a <span class="hover vocab yui-wk-div" data-id='sampling'>sampling</span> technique, which means measuring values of the <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> signal at regular intervals (usually in time or space) called samples. The samples are measured to figure out the exact bits required to store each sample. The use of digital data to approximate real-world <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> data is a great example of abstraction!
+    What about audio files? How are they digitized and converted to bits? Watch the following <a href="https://www.youtube.com/watch?v=ALFXrlrnAcI" target="_blank">video</a> for a summary of how audio files are converted from <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> to digital format. <span class="hover vocab yui-wk-div" data-id='analog'>Analog</span> refers to data with values that change continuously, or smoothly, over time, like sound or music files.  
+    <span class="hover vocab yui-wk-div" data-id='analog'>Analog</span> data is converted to a digital forms, 0s and 1s in binary, using a <span class="hover vocab yui-wk-div" data-id='sampling'>sampling</span> technique, which means measuring values of the <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> signal at regular intervals (usually in time or space) called samples. The samples are measured to figure out the exact bits required to store each sample. The use of digital data to approximate real-world <span class="hover vocab yui-wk-div" data-id='analog'>analog</span> data is a great example of abstraction!
     <br/>
 .. youtube:: ALFXrlrnAcI
         :width: 650
@@ -272,7 +275,7 @@ Self-Check
 .. fillintheblank:: mcsp-3-3-1
     :casei:
 
-    In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its RLE compression? You can use the interactive pixel grid above under Practice or in another tab to work this out.
+    In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE compression</span>? You can use the interactive pixel grid above under Practice or in another tab to work this out.
 	
 	.. raw:: html
 	
