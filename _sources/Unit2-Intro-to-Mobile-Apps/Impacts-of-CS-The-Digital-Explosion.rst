@@ -48,13 +48,30 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <div class="yui-wk-div" style="float:left;"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19"><img hspace="10" src="../_static/assets/img/blowntobits.jpg" width="150"/></a></div>
-    <p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of <span class="hover vocab yui-wk-div" data-id='data'>data</span> and information,
-    and other issues.</p>
-    <p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also think about the impacts we will create as we build our own mobile apps.</p>
+    <p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of <span class="hover vocab yui-wk-div" data-id='data'>data</span> and information, and other issues.</p>
+    <div class="yui-wk-div">
+    <p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also think about the impacts we will create as we build our own mobile apps.</p>    <table><tbody>
+    <table><tbody>
+      <tr>
+         <td valign="top">             
+             <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19"><img src="../_static/assets/img/blowntobits.jpg" /></a>
+         </td>
+         <td style="padding-left:15px">        
+             <b>Learning Objectives:</b>&nbspI will learn to
+             <ul>
+             <li>explain how data can be represented using bits</li>
+             <li>computing devices represent data digitally, meaning that the lowest-level components of any value are bits</li>
+             </ul>
+             <b>Language Objectives:</b>&nbspI will be able to
+             <ul>
+             <li>summarize important topics from Chapter 1 of Blown to Bits by identifying main ideas, details and important quotes</li>
+             <li>describe how things around me use digital data using key vocabulary out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson.</li>
+             </ul>
+         </td>
+      </tr>       
+      </tbody></table>  
+    </div>
     
-
 Learning Activities
 --------------------
 
@@ -68,9 +85,9 @@ Learning Activities
     <p>
     <p><b>Part 1:</b>
     </p><ol>
-    <li>Read pages 1-4 in Chapter One and Koan 4 about Moore's Law on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/edit" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
+    <li>Read pages 1-4 in Chapter One and Koan 4 about <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/edit" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
     <li>Watch the short video of Moore at the <a href="https://www.intel.com/content/www/us/en/silicon-innovations/moores-law-technology.html" target="_blank">Intel website</a>.
-        </li><li>Below is an image that represents Moore's Law graphically - the observation that the number of transistors per square inch on integrated circuits had doubled every two year since their invention. This means the speed at which we can process digital <span class="hover vocab yui-wk-div" data-id='data'>data</span> increases exponentially every year. Discuss the graphic with your class.</li>
+        </li><li>Below is an image that represents <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> graphically - the observation that the number of transistors per square inch on integrated circuits had doubled every two year since their invention. This means the speed at which we can process digital <span class="hover vocab yui-wk-div" data-id='data'>data</span> increases exponentially every year. Discuss the graphic with your class.</li>
     </ol><br/>
     <img alt="Moore's Law Graph" src="https://c1.staticflickr.com/2/1640/25046013104_68059057ab_b.jpg" width="500px"/>
     <p><b>Part 2:</b> Over the next 24 hours, keep track of all the technology that you use with <a href="https://docs.google.com/document/d/1t108otAa9_MFtFERsozLL0g-UXQkdAKfKotZgIhGCg0/edit?ts=5f6dfd20#" target="_blank" title="">this worksheet</a>. For example, do you use your phone to set an alarm? Does your coffee maker include a mini-computer? Keep a running list of items that you use and then make a tally or count how often you use them during the day. Once you're done, consider how easy or difficult it would be to make it through a single day without using a computer. Which of your daily activities could you do without digital information or devices?</p>

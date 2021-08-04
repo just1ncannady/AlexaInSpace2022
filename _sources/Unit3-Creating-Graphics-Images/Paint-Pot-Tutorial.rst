@@ -40,32 +40,30 @@ Introduction and Goals
     <p>
     <table>
     <tbody>
-    <tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/PWKGUzdiP44" width="315"></iframe>
-        (<a href="http://www.teachertube.com/video/paintpot2preview-347830" target="_blank">TeacherTube Version</a>)
-      </td>
-	<td width="20px"</td>
-    <td>
-    <b><i>Paint Pot</i></b> is a basic “finger painting” app. It 
-        simulates  dipping your finger in a pot of a paint and then 
-        drawing with it on a canvas. The app uses buttons to change the paint colors 
-        and uses App Inventor’s touch and drag event handlers to draw circles and lines
-        on the canvas.
-        <br/>
-    <p>This tutorial also introduces the concept of a global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.</p>
-    <p>
-    <b>Objectives:</b> In this lesson you will learn to:
-        </p>
-    <ul>
-    <li>follow an instructor-led walkthrough to create the <i>PaintPot</i> app on a mobile device;
-          </li><li>continue navigating the App Inventor programming platform;
-          </li><li>develop your understanding of what an App Inventor program is;
-          </li><li>deepen your understanding of event-driven programming;
-          </li> <li>learn how to use a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> to make a program more general.</li>
-    </ul>
-    </td>
-    </tr>
+      <tr>
+		<td valign="top" colspan=2><b><i>Paint Pot</i></b> is a basic “finger painting” app. It simulates  dipping your finger in a pot of a paint and then drawing with it on a canvas. 
+		The app uses buttons to change the paint colors and uses App Inventor’s touch and drag event handlers to draw circles and lines on the canvas.<br/>
+		<p>This tutorial also introduces the concept of a global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.</p>
+		</td>
+      </tr>    
+      <tr>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/PWKGUzdiP44" width="315"></iframe>
+        (<a href="http://www.teachertube.com/video/paintpot2preview-347830" target="_blank">TeacherTube Version</a>)</td>
+        <td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+          <ul>
+          <li>follow an instructor-led walkthrough to create the <i>PaintPot</i> app on a mobile device</li>
+		  <li>continue navigating the App Inventor programming platform</li>
+          <li>develop your understanding of what an App Inventor program is</li>
+          <li>deepen your understanding of event-driven programming</li>
+          <li>learn how to use a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> to make a program more general.</li>
+          </ul>
+		<div><b>Language Objectives:</b>&nbspI will be able to</div>
+       <ul>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>, <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span>, <span class="hover vocab yui-wk-div" data-id='expression'>expression</span>, <span class="hover vocab yui-wk-div" data-id='operator'>operator</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+        </ul>
+        </td>
+      </tr>
     </tbody>
     </table>
     
@@ -208,23 +206,23 @@ Learning Activities
 	<h3>AP CSP Pseudocode: Variables and Assignment Statements</h3>
 
     <p>
-    <p>A <b><span class="hover vocab yui-wk-div" data-id='variable'>variable</span></b> provides a way to name a memory location in your program to hold different values. It is a <b>data abstraction</b> that exists in all programming languages. In App Inventor, we set up a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> using the <i>initialize global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span></i> block. The <i>get</i> block is used to get the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>'s current value whenever needed in the program. The <i>set </i>block is used to assign or change the value of the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.
+    <p>A <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> provides a way to name a memory location in your program to hold different values. It is a <b>data abstraction</b> that exists in all programming languages. In App Inventor, we set up a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> using the <i>initialize global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span></i> block. The <i>get</i> block is used to get the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>'s current value whenever needed in the program. The <i>set </i>block is used to assign or change the value of the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.
     <br/> <img src="../_static/assets/img/initdotsize.png" width="20%"/>
     <img src="../_static/assets/img/getdotsize.png" width="20%"/> <img src="../_static/assets/img/setdotsize.png" width="20%"/>
     <br/>
     </p>
-    <p> The AP CS Principles Exam does not have a designated programming language. It uses   <b><i><span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span></i></b> which is a cross between computer code and everyday English. 
-       <span class="hover vocab yui-wk-div" data-id='Pseudocode'>Pseudocode</span> is less precise than actual computer code, 
+    <p> The AP CS Principles Exam does not have a designated programming language. It uses <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> which is a cross between computer code and everyday English. 
+       <span class="hover vocab yui-wk-div" data-id='pseudocode'>Pseudocode</span> is less precise than actual computer code, 
       such as Java or Python or App Inventor, but more precise and less wordy than everyday English. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam to help you understand the AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> format used in the exam. It includes two <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> styles: text-based and block-based.</p>
-    <p>In the College Board AP CSP exam, App Inventor set blocks are called <b><span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> statements</b> and are represented as the left-pointing arrow (←). The following text and block style <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> is used to assign values to variables:
+    <p>In the College Board AP CSP exam, App Inventor set blocks are called <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> statements and are represented as the left-pointing arrow (←). The following text and block style <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> is used to assign values to variables:
         <br/>
     </p><table border="">
     <thead><tr> <th>Function</th><th>AP Text </th> <th width="25%">AP Block </th><th>App Inventor</th></tr></thead>
     <tbody>
-    <tr><td><span class="hover vocab yui-wk-div" data-id='Assignment'>Assignment</span>:</td><td>a ← <em><span class="hover vocab yui-wk-div" data-id='expression'>expression</span></em></td><td><div class="yui-wk-div" id="APblocks">
+    <tr><td><span class="hover vocab yui-wk-div" data-id='assignment'>Assignment</span>:</td><td>a ← <em><span class="hover vocab yui-wk-div" data-id='expression'>expression</span></em></td><td><div class="yui-wk-div" id="APblocks">
     <bl>a ← <bl><span class="hover vocab yui-wk-div" data-id='expression'>expression</span></bl></bl></div></td><td><img src="../_static/assets/img/setdotsize.png" width="250px"/></td></tr>
     </tbody></table>
-    <p>The DISPLAY statement is used to display <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> values or the value resulting from mathematical expressions like (a+b)/2. <b>Expressions</b> are made up of values, variables, math operators, and sometimes mathematical procedures like getting a random number or squaring a number. In mathematical expressions, the <b>operators</b> * for multiplication, / for division, and the mod <span class="hover vocab yui-wk-div" data-id='operator'>operator</span> (remainder after division) are done before + and - like in math, unless there are parentheses that for example tell the computer to do (a+b) first before dividing by 2. Notice that * is used for multiplication instead of x, because x would get confused with a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> name. Expressions are evaluated to produce a single value.
+    <p>The DISPLAY statement is used to display <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> values or the value resulting from mathematical expressions like (a+b)/2. <span class="hover vocab yui-wk-div" data-id='expression'>Expressions</span> are made up of values, variables, math operators, and sometimes mathematical procedures like getting a random number or squaring a number. In mathematical expressions, the <span class="hover vocab yui-wk-div" data-id='operator'>operators</span> * for multiplication, / for division, and the mod <span class="hover vocab yui-wk-div" data-id='operator'>operator</span> (remainder after division) are done before + and - like in math, unless there are parentheses that for example tell the computer to do (a+b) first before dividing by 2. Notice that * is used for multiplication instead of x, because x would get confused with a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> name. <span class="hover vocab yui-wk-div" data-id='expression'>Expressions</span> are evaluated to produce a single value.
     </p><table border="">
     <thead><tr> <th>Function</th><th>AP Text </th> <th width="25%">AP Block </th></tr></thead>
     <tbody><tr><td>Display:</td><td>DISPLAY(<em><span class="hover vocab yui-wk-div" data-id='expression'>expression</span></em>)</td><td><div class="yui-wk-div" id="APblocks">
