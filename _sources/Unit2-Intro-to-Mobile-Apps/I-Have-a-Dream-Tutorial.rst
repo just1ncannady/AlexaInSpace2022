@@ -66,17 +66,10 @@ Introduction and Goals
        <div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
           <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, <span class="hover vocab yui-wk-div" data-id='Event Handler'>event handler</span>, button, sound, and label,<!--<span class="hover vocab yui-wk-div" data-id='Button'>button</span>, <span class="hover vocab yui-wk-div" data-id='Sound'>sound</span>, and <span class="hover vocab yui-wk-div" data-id='Label'>label</span>,--> while describing app features and User Interface with the support of a word bank</li>
-          <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and vocabulary notes from this lesson</li>
+          <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </td>
     </tr>
-    <tr>
-    <td colspan="2">
-    <p><b>Lesson Resources:</b></p>
-    <ul>
-    <li><a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">Vocabulary Notes</a></li>
-    </ul>
-    </td></tr>
     </tbody></table>
     <br/>    
 

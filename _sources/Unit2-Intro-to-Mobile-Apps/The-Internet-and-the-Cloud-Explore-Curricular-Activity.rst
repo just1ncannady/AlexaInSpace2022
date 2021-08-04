@@ -70,7 +70,7 @@ Introduction and Goals
     <li>describe the relationship between the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> using target vocabulary, supporting details and examples</li>
     <li>describe key characteristics, benefits and drawbacks of computing innovations using target vocabulary, supporting details and examples</li>
     <li>describe the risks to privacy from collecting and storing personal data on a computer system using target vocabulary, supporting details and example</li>
-    <li>use target vocabulary, such as the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>, <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span>, <span class="hover vocab yui-wk-div" data-id='protocol'>protocol</span>, and <span class="hover vocab yui-wk-div" data-id='browser'>browser</span> while completing the content objectives for this lesson, out loud and in writing, with the support of vocabulary notes from this lesson</li>
+    <li>use target vocabulary, such as the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>, <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span>, <span class="hover vocab yui-wk-div" data-id='protocol'>protocol</span>, and <span class="hover vocab yui-wk-div" data-id='browser'>browser</span> while completing the content objectives for this lesson, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
     </ul>
 
 Learning Activities

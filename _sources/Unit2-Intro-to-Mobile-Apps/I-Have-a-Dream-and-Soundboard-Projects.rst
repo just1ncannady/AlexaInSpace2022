@@ -65,7 +65,7 @@ Introduction and Goals
            <div><b>Language Objectives:</b>&nbspI will be able to</div>
            <ul>
            <li>describe the functionality of an app using key vocabulary such as component, event, sensor, <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span>, theme, out loud and in writing, with the support of vocabulary notes from this lesson</li>
-           <li>explain the advantages of collaboration when developing and improving computing innovations using target vocabulary, supporting details and examples</li>
+           <li>explain the advantages of collaboration when developing and improving computing innovations using supporting details and examples</li>
            </ul>
        </td>
     </tr>

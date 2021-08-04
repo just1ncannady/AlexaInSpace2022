@@ -53,8 +53,8 @@ Introduction and Goals
        </ul>
        <div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
-          <li>explain the steps for converting between the decimal and <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number systems</span> key vocabulary such as <span class="hover vocab yui-wk-div" data-id='binary number system'>binary</span>, and <span class="hover vocab yui-wk-div" data-id='positional number system'>positional number system</span>  out loud and in writing, with the support of vocabulary notes from this lesson</li>
           <li>describe the reasons why computers use the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> using target vocabulary, supporting details and examples</li>
+          <li>explain the steps for converting between the decimal and <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number systems</span> using key vocabulary such as <span class="hover vocab yui-wk-div" data-id='binary number system'>binary</span>, and <span class="hover vocab yui-wk-div" data-id='positional number system'>positional number system</span> out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </p>
     <p><img align="left" src="../_static/assets/img/smiley.jpg" width="32"/>
