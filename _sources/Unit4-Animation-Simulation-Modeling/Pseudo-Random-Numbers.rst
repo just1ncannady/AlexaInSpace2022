@@ -226,16 +226,14 @@ Learning Activities
 
     
 .. fillintheblank:: mcsp-4-7-7
-
+	
 	.. raw:: html
 	
-		<p>Suppose your PRNG uses the following formula:</p>
-		<p><span style="font-size: +1;">X</span><sub>i+1</sub> = (<span style="font-size: +1;">X</span><sub>i</sub> * 2 + 1) <i>mod</i> 13</p>
-		<p>What would the next number be if the current number is 10?</p>
-
-    - :8: Yes, the value of (10 * 2 + 1) mod 13 is 21 mod 13, which is 21 -13, which is 8.
-      :x: 
-
+		<p>Suppose your PRNG uses the following formula:</p><p><span style="font-size: +1;">X</span><sub>i+1</sub> = (<span style="font-size: +1;">X</span><sub>i</i> * 2 + 1)</p>
+		
+	- :8: Yes, the value of (10 * 2 + 1) mod 13 is 21 mod 13, which is 21 -13, which is 8.
+	  :x:
+	  
 
 .. raw:: html
 
