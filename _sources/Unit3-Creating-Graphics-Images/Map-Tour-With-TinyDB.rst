@@ -24,9 +24,13 @@ Map Tour With TinyDB
         $(document).ready(function() {
             generateSummary(EKmapping['3.09']);
             generateHovers();
-    
-    
-    
+			Tipped.create('.vocab', function(element) {
+			var vocab = $(element).data('id');
+			return vocabulary[vocab];
+			}, {
+            cache: false,
+              position: 'topleft'
+              });
         });
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
@@ -37,41 +41,37 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <table><tbody>
-    <tr>
-    <td>
-    <!--
-      &lt;img height=&quot;420&quot; src=&quot;assets/img/MapTourScreenshotPart2.png&quot;&gt;
-    -->
-    <iframe allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/PTWhgFo2e_Q?rel=0" width="300">
-    </iframe>
-    
-    (<a href="https://teachertube.com/video/mobile-csp-map-tour-tinydb-revised-476367" target="_blank" title="">Teacher Tube version</a>)<br/>
-    </td>
-    <td>
     <p>  In this lesson we will extend the Map Tour App by adding two new features:
-        </p><ol>
+    <ol>
     <li><b>Adding Destinations to the Tour.</b>  
            We will allow users to click on the map to add new destinations to the map tour.
           </li>
-    <li><b>Data Persistence.</b> We will incorporate  <i>TinyDB</i>, App Inventor's database component, which 
+    <li><b>Data Persistence.</b> We will incorporate  <i>TinyDB</i>, App Inventor's <span class="hover vocab yui-wk-div" data-id="database">database</span> component, which 
             will enable the app to save new destinations for the user.  New locations that are added to the destinations
-            list will be saved to the database and re-loaded into the app when it starts up again. 
+            list will be saved to the <span class="hover vocab yui-wk-div" data-id="database">database</span> and re-loaded into the app when it starts up again. 
           </li>
     </ol>
-    <p>
-    <b>Objectives:</b> In this lesson you will:
-    </p>
-    <ul>
-    <li>how to add items to lists;</li>
-    <li>how to use a Notifier for input;</li>
-    <li>basic concepts about databases and data persistence;</li>
-    <li>
-    how to use a TinyDB database component to permanently save app data on the device.
-    
-        </li>
-    </ul>
+    <table><tbody>
+    <tr>
+    <td>
+		<!--
+		  &lt;img height=&quot;420&quot; src=&quot;assets/img/MapTourScreenshotPart2.png&quot;&gt;
+		-->
+		<iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube.com/embed/PTWhgFo2e_Q?rel=0" width="300"></iframe>
+		(<a href="https://teachertube.com/video/mobile-csp-map-tour-tinydb-revised-476367" target="_blank" title="">Teacher Tube version</a>)<br/>
+    </td>
+    <td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+          <ul>
+          <li>add and remove items from lists</li>
+          <li>use a Notifier for user input to an app</li>
+          <li>describe fundamental concepts of <span class="hover vocab yui-wk-div" data-id="database">databases</span> and data persistence</li>
+          <li>use a TinyDB <span class="hover vocab yui-wk-div" data-id="database">database</span> component to permanently save app data on a device</li>
+          </ul>
+          <div><b>Language Objectives:</b>&nbspI will be able to</div>
+          <ul>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="database">database</span>, while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+        </ul>
     </td>
     </tr>
     </tbody></table>
@@ -85,7 +85,7 @@ Learning Activities
     <p><h3>What is TinyDb?</h3></p>
     <p>Up until now, the data in our apps has been stored either in <b><i>global variables</i></b> or as the value of the <i><b>properties</b></i> of the app’s various components.  For example, when you store a piece of text in a Label, that data is stored in the computer’s main memory, in its RAM — random access memory.  And as we’ve learned, RAM is <b><i>volatile</i></b>,  meaning that any data stored there will be destroyed when the app is exited.
     </p>
-    <p>By contrast, data stored in the computer’s long-term storage — e.g., on the phone’s flash drive — will <b><i>persist</i></b> as long as the app is kept on the device.  There are various ways to store data permanently on a computer.  For example, you could store it in a file, such as a document or image file.   Another way to store persistent data is in a <b><i>database</i></b>.  App Inventor provides us a very simple, easy-to-use database in its <b><i>TinyDb</i></b> component.  Any data that we store in the TinyDb, will not disappear when the app is exited.   Instead, it will persist between uses of the app -- even if you turn off the device.</p>
+    <p>By contrast, data stored in the computer’s long-term storage — e.g., on the phone’s flash drive — will <b><i>persist</i></b> as long as the app is kept on the device.  There are various ways to store data permanently on a computer.  For example, you could store it in a file, such as a document or image file.   Another way to store persistent data is in a <span class="hover vocab yui-wk-div" data-id="database">database</span>.  App Inventor provides us a very simple, easy-to-use <span class="hover vocab yui-wk-div" data-id="database">database</span> in its <b><i>TinyDb</i></b> component.  Any data that we store in the TinyDb, will not disappear when the app is exited.   Instead, it will persist between uses of the app -- even if you turn off the device.</p>
     <p>Before working on incorporating TinyDb into our app, the following video provides a brief overview of this very important component. (<a href="https://www.teachertube.com/videos/tiny-db-438788" target="_blank" title="">Teacher Tube version</a>)</p>
     
 .. youtube:: qVJF-i5LqjQ
@@ -106,7 +106,7 @@ Learning Activities
     <ol>
     <li><b>Text To Speech:</b> Add a TextToSpeech component to the UI, and when the user picks an item from the list, call TextToSpeech.speak to say the selected item.</li>
     <li>
-    <b>Delete Locations:</b> As you are testing your app, you may have added a lot of locations on your map tour that you do not want. You could delete the data stored for the installed app in your device under Settings/Applications Settings or by calling TinyDB.clearAll in your code, but in this enhancement you will add a Delete ListPicker button that lets you choose a location to remove from your lists and update the database. Here are the steps you need to do:
+    <b>Delete Locations:</b> As you are testing your app, you may have added a lot of locations on your map tour that you do not want. You could delete the data stored for the installed app in your device under Settings/Applications Settings or by calling TinyDB.clearAll in your code, but in this enhancement you will add a Delete ListPicker button that lets you choose a location to remove from your lists and update the <span class="hover vocab yui-wk-div" data-id="database">database</span>. Here are the steps you need to do:
     <ul>
     <li>Add a ListPicker to the UI to Delete destinations.
     </li><li>In ListPicker.BeforePicking, set the ListPicker.Elements to the destinations list.
@@ -135,6 +135,17 @@ Self-Check
 .. raw:: html
 
     <p>
+	<h3>Vocabulary</h3>
+    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
+	<table align="center">
+    <tbody>
+    <tr>
+    <td><span class="hover vocab yui-wk-div" data-id="database">database</span>
+    </td>
+	</tr>
+    </tbody>
+    </table>
+	<p>
     
 .. mchoice:: mcsp-3-9-1
     :random:

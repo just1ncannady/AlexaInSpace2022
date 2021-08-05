@@ -47,7 +47,7 @@ Introduction and Goals
     <table><tbody>
 	<tr><td colspan=2>The Map Tour App tutorial showcases some features of the new <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a map tour of different destinations. You will learn about an important <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> called <b>Lists</b> to keep track of the destinations.</td></tr>
     <tr>
-	<td valign=top><iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/JyqhNvOtQfA?rel=0" width="300px"></iframe>       
+	<td valign=top><iframe allowfullscreen="" frameborder="0" height="300px" src="https://www.youtube.com/embed/JyqhNvOtQfA?rel=0" width="290px"></iframe>       
     (<a href="https://www.teachertube.com/video/mobile-csp-map-tour-preview-revised-476365" target="_blank">TeacherTube Version</a>)
     </td>
     <td valign=top>
