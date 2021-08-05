@@ -244,7 +244,6 @@ Self-Check
 
     <p>
     
-    
 .. quizly:: mscp-3-4-7
     
     

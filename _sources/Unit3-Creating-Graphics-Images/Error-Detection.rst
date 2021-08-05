@@ -33,8 +33,6 @@ Error Detection
               });
       });
     
-      var vocabulary = { 
-      };
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
@@ -45,7 +43,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>As we have learned from <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=23" target="_blank">Blown to Bits</a>, "everything is bits" -- i.e., all data are
+	<p>As we have learned from <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=23" target="_blank">Blown to Bits</a>, "everything is bits" -- i.e., all data are
       represented as binary 0s and 1s.
     </p>
     <p>Suppose your bank is doing an electronic funds transfer and one of the bits involved 
@@ -59,50 +57,60 @@ Introduction and Goals
     <p>When something like this happens would it be possible to detect the error?  In this video based on this <a href="http://csunplugged.org/">Computer Science Unplugged</a> project,  you'll see a card trick 
       that shows that it <i><b>is possible</b></i> to detect when a bit is flipped.  In the video, the 
       face-up and face-down cards are analogous to 1s and 0s.</p>
-    <p>Watch carefully to see if you can figure out how the flipped card is detected!
-      
-.. youtube:: PVJO-a2W0BM
-        :width: 650
-        :height: 415
-        :align: center
+    Watch carefully to see if you can figure out how the flipped card is detected!
+	<table>
+    <tbody>
+      <tr>
+		<td valign="top" colspan=2>
+		</td>
+      </tr>    
+      <tr>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/PVJO-a2W0BM" width="315"></iframe>
+		(<a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">Teacher Tube version</a>)
+        </td>
+        <td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+          <ul>
+          <li>execute an algorithm to determine if, in a given binary sequence, a bit has been flipped</li>
+          <li>understand the conditions under which a flipped bit can be detected and corrected</li>
+          <li>explain the consequences of using bits to represent data</li>
+          </ul>
+          <div><b>Language Objectives:</b>&nbspI will be able to</div>
+          <ul>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="parity">parity</span> and <span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span> while describing how errors in data can be detected, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+        </ul>
+        </td>
+      </tr>
+    </tbody>
+    </table>
 
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
-	<p>(<a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">Teacher Tube version</a>)</p><table border="0">
 
 Learning Activities
 --------------------
  
 .. raw:: html
    
-    <table><tbody><tr>
-    <td><iframe height="530" src="https://mobile-csp.org/webapps/parity/ParityMagic.html" style="border: 0;" title="Parity App" width="450"></iframe>
+    <table><tbody>
+	<tr>
+		<td colspan=2><h3>What's the Algorithm?</h3></td>
+    </tr>
+	<tr>
+		<td colspan=2>Here's a bit more explanation about the card trick. </td>
+	</tr>
+	<tr>
+		<td valign=top><iframe height="530" src="https://mobile-csp.org/webapps/parity/ParityMagic.html" style="border: 0;" title="Parity App" width="450"></iframe>
     </td>
     <td>
-    <h3>What's the Algorithm?</h3>
-           Here's a bit more explanation about the card trick. 
-           <br/>
-    <br/>
-           The widget on the left was created by Mobile CSP student Richard Zheng of Westhill High School
-           in Stamford, CT, to help figure out how the card trick works. 
-           <br/>
-    <br/>
-           To follow up on the hint given in the video, 
-           after the demonstrator has added an extra row and column to a 5x5 array of cards (or 
-           Androids in this case) -- 
-           supposedly to make the problem more difficult  -- the Androids will appear as they do 
-           in the widget.   Try shuffling and then flipping one of the cards and to see if you can figure
-           out the trick.  Examine the rows and columns.  What changes for the 6x6 array 
-           when a robot if flipped? 
-           <br/>
-    <br/>Try to figure out the algorithm that is used to identify the flipped Android.
-         </td>
+	   The widget on the left was created by Mobile CSP student Richard Zheng of Westhill High School in Stamford, CT, to help figure out how the card trick works. 
+	   <br/><br/>
+	   To follow up on the hint given in the video, after the demonstrator has added an extra row and column to a 5x5 array of cards (or Androids in this case) -- supposedly to make the problem more difficult  -- the Androids will appear as they do 
+	   in the widget.   Try shuffling and then flipping one of the cards and to see if you can figure out the trick.  Examine the rows and columns.  What changes for the 6x6 array when a robot if flipped? 
+    </td>
+	</tr>
+		<tr><td colspan=2>  Try to figure out the algorithm that is used to identify the flipped Android.<br/></td>
     </tr>
     </tbody></table>
+	<br/>
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (30 minutes)</h3> 
       Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1G7IQDERipCeZPFf4NheSPOMYmWM0f7wAFgPVnNzPvnE/edit" target="_blank">using this worksheet</a>. (File-Make a Copy to have a version you can edit.)
@@ -200,8 +208,8 @@ Learning Activities
     <!-- &lt;p&gt;Answers and explanation at the bottom of the page.&lt;/p&gt; -->
     <h3>Parity Bit Error Detection</h3>
     
-    As you learned in the POGIL activity, the card "trick" is really not a magic trick at all. It is a very precise algorithm of error checking based on the concept of <i><b>parity</b></i>. In mathematics, <i>parity</i> refers to the evenness or oddness of a number. In the card trick, a <b>parity bit -</b> which is a bit that is added as the leftmost bit of
-    a bit string to ensure that the number of bits that are 1 in the bit string are <i>even</i> or <i>odd - </i>was added to each row and column such that the additional bit would make the row or column have an even number of 1 bits. It's important to realize that the parity bit is not part of the data.  It is <i><b>redundant</b></i>, an extra bit, added to the data to allow us to detect if one of the data bits has been flipped from its original value.
+    As you learned in the POGIL activity, the card "trick" is really not a magic trick at all. It is a very precise algorithm of error checking based on the concept of <span class="hover vocab yui-wk-div" data-id="parity">parity</span>. In mathematics, <span class="hover vocab yui-wk-div" data-id="parity">parity</span> refers to the evenness or oddness of a number. In the card trick, a <span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span> - which is a bit that is added as the leftmost bit of
+    a bit string to ensure that the number of bits that are 1 in the bit string are <i>even</i> or <i>odd</i> - was added to each row and column such that the additional bit would make the row or column have an even number of 1 bits. It's important to realize that the <span class="hover vocab yui-wk-div" data-id="parity">parity</span> bit is not part of the data.  It is <i><b>redundant</b></i>, an extra bit, added to the data to allow us to detect if one of the data bits has been flipped from its original value.
 
 Summary
 --------
@@ -245,6 +253,17 @@ Self-Check
 
 .. raw:: html
 
+    <p>
+	Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+    <table align="center">
+    <tbody><tr>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="parity">parity</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span>
+    </td>
+    </tr>
+    </tbody>
+    </table>
     <p>
     <br/>
 .. mchoice:: mcsp-3-6-1
