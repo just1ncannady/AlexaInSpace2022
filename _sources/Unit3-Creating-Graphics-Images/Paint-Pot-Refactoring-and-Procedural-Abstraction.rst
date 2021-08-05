@@ -24,7 +24,13 @@ Paint Pot Refactoring and Procedural Abstraction
         $(document).ready(function() {
             generateSummary(EKmapping['3.05']);
             generateHovers();
-    
+			Tipped.create('.vocab', function(element) {
+			var vocab = $(element).data('id');
+			return vocabulary[vocab];
+			}, {
+            cache: false,
+              position: 'topleft'
+              });
     
         });
     </script>
@@ -37,33 +43,30 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <table><tbody>
-    <tr>
-    <td width="50%">
-    <img src="../_static/assets/img/GnuScreen.png" width="315"/>
-    </td>
-    <td>
-      In this lesson we won’t add new functionality to the Paint Pot app.  Instead, 
-      we will revise the code, leaving the app’s behavior unchanged.  This process 
-      is called <b><i>refactoring</i></b> and programmers do this to improve the quality of 
-      their code in various ways -- e.g., to simplify its design, make it easier to read and 
-      easier to maintain. 
-      <br/>
-    <br/>
-      In this case we will introduce the concept of a <b><i>programmer-defined procedure</i></b> that 
-      will help reduce the complexity of our code and make it easier to read and maintain.  
-      This is an example of <b><i>procedural abstraction</i></b>, a very important concept and practice in programming. 
-    <p>
-    <b>Objectives:</b> The objectives of this lesson are:
-    </p>
-    <ul>
-    <li>to continue learning how to navigate the App Inventor online programming platform;</li>
-    <li>to introduce the concept of a programmer-defined procedure.</li>
-    </ul>
-    </td>
-    </tr>
+    <table><tbody
+	<tr>
+	    <td colspan=2>
+			In this lesson we won’t add new functionality to the Paint Pot app. Instead, we will revise the code, leaving the app’s behavior unchanged. This process is called <span class="hover vocab yui-wk-div" data-id="refactoring">refactoring</span> and programmers do this to improve the quality of their code in various ways -- e.g., to simplify its design, make it easier to read, and easier to maintain. 
+			<br/><br/>
+			In this case we will introduce the concept of a <b><i>programmer-defined procedure</i></b> that will help reduce the complexity of our code and make it easier to read and maintain. This is an example of <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span>, a very important concept and practice in programming. 
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../_static/assets/img/GnuScreen.png"/></td>
+		<td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		  <ul>
+		  <li>further navigate the App Inventor online programming platform</li>
+		  <li>use a programmer-defined procedure and <span class="hover vocab yui-wk-div" data-id="refactoring">refactor</span> existing code</li>
+		  <li>identify, fix, and test <span class="hover vocab yui-wk-div" data-id="computer bug">computer bugs</span></li>
+		  </ul>
+		  <div><b>Language Objectives:</b>&nbspI will be able to</div>
+		  <ul>
+		  <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="refactoring">refactoring</span>, <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span>, <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span>, and <span class="hover vocab yui-wk-div" data-id="comment">comment</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		</ul>
+		</td>
+	</tr>
     </tbody></table>
-    <br/>
     
 
 Learning Activities
@@ -87,32 +90,32 @@ Learning Activities
     <p>(<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-refactoring-438785" target="_blank" title="">Teacher Tube version</a>)<br/></p>
     
     <h3>Procedural Abstraction</h3>
-    <p>In this lesson, we learned how to create <b>procedures</b> in App Inventor to refactor our code and reduce its complexity. <b>Procedural Abstraction</b>, the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job.  We only need to know what it does, not how it does it. </p>
+    <p>In this lesson, we learned how to create <b>procedures</b> in App Inventor to refactor our code and reduce its complexity. <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural Abstraction</span>, the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job.  We only need to know what it does, not how it does it. </p>
     <p>
-    Procedural abstraction allows <b>modularity</b> where a solution to a large problem can be found by creating procedures to solve each of the subproblems.  This modularity serves to organize our code by function and reduce its complexity. In addition, it helps with debugging, code readibility, and maintenance since changes to that block of code only need to happen in one place.  Procedural abstraction allows us to reuse code that is already written instead of rewriting the code and repeating it. 
+    <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural abstraction</span> allows <b>modularity</b> where a solution to a large problem can be found by creating procedures to solve each of the subproblems.  This modularity serves to organize our code by function and reduce its complexity. In addition, it helps with <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span>, code readibility, and maintenance since changes to that block of code only need to happen in one place.  <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural abstraction</span> allows us to reuse code that is already written instead of rewriting the code and repeating it. 
     And it allows programmers to change the internals of the procedure (to make it faster, more efficient, use less storage, etc.) without needing to notify users of the change as long as what the procedure does is preserved.  In Unit 5 in Logo part 2, you will learn to make procedures even more powerful and more abstract by adding parameters to the procedure. </p>
-    <p>In the College Board AP exam and create project, you will be asked to identify and use procedural abstraction. The following AP pseudocode is used for procedures compared to App Inventor code:
+    <p>In the College Board AP exam and Create Performance Task, you will be asked to identify and use procedural abstraction. The following AP pseudocode is used for procedures compared to App Inventor code:
       </p><table>
     <tbody>
-    <tr><td>AP Text Pseudocode</td><td>AP Block Pseudocode</td><td>App Inventor Block</td></tr>
-    <tr><td>
+    <tr><td style="width:33%;text-align:center">AP Text Pseudocode</td><td style="width:33%;text-align:center">AP Block Pseudocode</td><td style="width:33%;text-align:center">App Inventor Block</td></tr>
+    <tr><td style="width:33%;">
     <pre>PROCEDURE name()
     {
      <em>instructions</em>
     }
     </pre>
-    </td><td><div class="yui-wk-div" id="APblocks">
+    </td><td style="width:33%;text-align:center"><div class="yui-wk-div" id="APblocks">
     <bl class="dark">PROCEDURE name <br/>
     <bl>instructions</bl>
     </bl></div></td>
-    <td><img src="../_static/assets/img/procedure.png" width="70%"/></td></tr>
+    <td style="width:33%;text-align:center"><img src="../_static/assets/img/procedure.png" width="70%"/></td></tr>
     </tbody></table>
     <h3>Documenting Code by Adding Comments</h3>
     <p>
       Programmers should document a program throughout its development. That is, a programmer should keep detailed documentation while they are developing a program. An important feature of most programming languages, including MIT App Inventor, 
-      is the ability to add comments internally to the code.   A <b><i>comment</i></b>  is a non-executable block 
+      is the ability to add <span class="hover vocab yui-wk-div" data-id="comment">comments</span> internally to the code.   A <span class="hover vocab yui-wk-div" data-id="comment">comment</span>  is a non-executable block 
       of text that can be added to a program to provide clarification and documentation of the code.   
-      Adding comments to one’s code is a standard practice that programmers employ to help others 
+      Adding <span class="hover vocab yui-wk-div" data-id="comment">comments</span> to one’s code is a standard practice that programmers employ to help others 
       (and themselves) understand their code.
     </p>
     <p>In MIT App Inventor, each non-collapsed block comes with the capability of having a comment 
@@ -123,13 +126,13 @@ Learning Activities
     <img src="../_static/assets/img/CommentRightClick.png" width="500"/>
     </p>
     <p>
-      To add or edit the comment, simply click on the comment-icon and type in your comment, as shown here:
+      To add or edit the <span class="hover vocab yui-wk-div" data-id="comment">comment</span>, simply click on the comment-icon and type in your comment, as shown here:
     </p>
     <br/>
     <img src="../_static/assets/img/CommentDisplayDotsize.png" width="500"/>
     <p>In some programming languages, a form of external documentation may be used, especially if it is not possible to comment directly inside the program code. Some examples of external documentation include using a Google or text document for tracking development, a webpage, or a program index or glossary. MIT App Inventor's has external documentation on <a href="http://appinventor.mit.edu/explore/ai2/support/blocks" target="_blank" title="">Built-in Blocks</a> and on <a href="http://ai2.appinventor.mit.edu/reference/components/" target="_blank" title="">Components</a>. It may be helpful to reference these when building your own apps.</p>
     <p>
-      A good commenting practice to follow is to provide comments in the following situations:
+      A good commenting practice to follow is to provide <span class="hover vocab yui-wk-div" data-id="comment">comments</span> in the following situations:
       </p><ul>
     <li>To document every procedure that you define, as shown in this example here.</li>
     <li>To clarify a complex algorithm that isn’t clearly obvious.</li>
@@ -138,9 +141,9 @@ Learning Activities
     </ul>
     <h3>Debugging</h3>
     
-    As your programs get larger, you will run across more <b>bugs</b> (errors in your program) and you will have to spend more time <b>debugging</b> the programs to remove the bugs. Debugging takes a lot of time in text-based languages like Java because the programmer needs to type in everything exactly in the right case, with the right spelling, and with the right punctuation. App Inventor removes all syntax errors like this because the code is already written for you in the blocks. You do not need to type in any of the code. However, you can still make other errors that you will need to correct. For example, your code might not do what you want it to do. This is a runtime or semantic error.  
+    As your programs get larger, you will run across more <span class="hover vocab yui-wk-div" data-id="computer bug">bugs</span> (errors in your program) and you will have to spend more time <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> the programs to remove the <span class="hover vocab yui-wk-div" data-id="computer bug">bugs</span>. <span class="hover vocab yui-wk-div" data-id="computer bug">Debugging</span> takes a lot of time in text-based languages like Java because the programmer needs to type in everything exactly in the right case, with the right spelling, and with the right punctuation. App Inventor removes all syntax errors like this because the code is already written for you in the blocks. You do not need to type in any of the code. However, you can still make other errors that you will need to correct. For example, your code might not do what you want it to do. This is a runtime or semantic error.  
     
-    Here are some debugging tips:
+    Here are some <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> tips:
     <ul>
     <li>Pretend you are the computer and step through the program line by line and carefully record what happen to see if you can spot the error. This is called <b>tracing</b> the code.</li>
     <li>Put in a <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#Notifier" target="_blank">Notifier</a> block in the UI and then use <b>Notifier.ShowAlert</b> in the blocks to print out the values of different variables to see what they are as you are running the program. Or you could print out the values of variables in a label in your UI.</li>
@@ -166,8 +169,21 @@ Self-Check
 
 .. raw:: html
 
-    <p>
-    <br/>
+    Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+    
+    <table align="center">
+    <tbody><tr>
+    <td><span class="hover vocab yui-wk-div" data-id="comment">comment</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="computer bug">computer bug</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="debugging">debugging</span>
+    </td>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="refactoring">refactoring</span>
+    </td>
+    </tr>
+    </tbody></table>
+	<br/>
     
 .. mchoice:: mcsp-3-5-1
     :random:
