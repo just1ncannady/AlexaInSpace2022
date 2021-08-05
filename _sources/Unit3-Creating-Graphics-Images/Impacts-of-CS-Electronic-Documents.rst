@@ -53,15 +53,37 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=91" target="_blank"><img align="left" hspace="10" src="../_static/assets/img/blowntobits.jpg" width="150"/></a>
-    <p>Computing has transformed our lives in so many ways. And mobile computing, 
-    where we are constantly connected to others and to the world via our mobile
-    devices, is challenging us right now to come with 
-    new norms about privacy, security, the ownership or openness of data and information,
-    and other issues. </p>
-    <p>Like any technology, mobile computing has both positive and 
-    negative impacts. We need to reflect on these impacts in general and we also 
-    need to think about the impacts we will create as we build our own mobile apps. </p>
+    <table>
+    <tbody>
+      <tr>
+		<td valign="top" colspan=2>
+			<p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile
+			devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of data and information,
+			and other issues. </p>
+			<p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also 
+			need to think about the impacts we will create as we build our own mobile apps. </p>
+		</td>
+      </tr>    
+      <tr>
+        <td valign="top"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=91" target="_blank">
+			<img align="left" src="../_static/assets/img/blowntobits.jpg" width="350"/></a>
+        </td>
+        <td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+          <ul>
+          <li>describe digital models and their renderings as abstractions</li>
+		  <li>differentiate between data and metadata</li>
+          <li>describe what information can be extracted from metadata</li>
+          </ul>
+          <div><b>Language Objectives:</b>&nbspI will be able to</div>
+          <ul>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="modeling">modeling</span>, <span class="hover vocab yui-wk-div" data-id="render">render</span>, and <span class="hover vocab yui-wk-div" data-id="digital">digital</span>, while discussing digital models, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+        </ul>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+
     
 
 Learning Activities
@@ -73,13 +95,13 @@ Learning Activities
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf">
     Chapter Three of Blown to Bits</a> describes how <span class="hover vocab yui-wk-div" data-id='digital'>digital</span> documents, 
     including images and sounds, are represented by sequences of bits. Why do you think this chapter is called "Ghosts in the Machine"?</p>
-    <p>As you learned in the previous lesson and as shown in the this diagram, the first step in representing an image is to convert it into a sequence of bits.  This is known as <i style="font-weight: bold;"><span class="hover vocab yui-wk-div" data-id='modeling'>modeling</span></i>. The model is an <i><b>abstract representation</b></i> of the original image.</p>
+    <p>As you learned in the previous lesson and as shown in the this diagram, the first step in representing an image is to convert it into a sequence of bits.  This is known as <span class="hover vocab yui-wk-div" data-id='modeling'>modeling</span>. The model is an <i><b>abstract representation</b></i> of the original image.</p>
     <div class="yui-wk-div" style="text-align: center"><img class="yui-img selected" src="../_static/assets/img/FaceModel.png"/></div>
     <p><b>Activity: </b>Read Chapter Three (up to page 99) to discover what's hidden in electronic documents.</p>
     <ul>
     <li>Part 1: What You See Is Not What the Computer Knows - Read pg. 73 and 74 out loud as a class and discuss the word "redacted." Continue reading this section (up to pg. 80), using the <a href="https://docs.google.com/document/d/1yBzUmMimZ7YVF0x9osqcGRtHP-RkT46MLAjL2mzsAe0/edit?usp=sharing" target="_blank">Conversation Questions Template</a> to write down a question about 3-4 ideas that were important, surprising, or thought provoking. In small groups, discuss your questions. <p><b><i>Metadata</i></b> (data about data) is described and discussed on pg. 78-80. Here are a few additional things you should know about metadata:</p><ul><li>Metadata are used for finding, organizing, and managing information. </li> <li>Metadata can increase the effective use of data or data sets by providing additional information.</li><li> Metadata allow data to be structured and organized.<br/></li></ul>
     </li><br/><li>Part 2: Representation, Reality, and Illusion - Read pg. 80-94 and complete the <a href="https://docs.google.com/document/d/1LvLYKuRZ66FMd_BSkDVBj8rrg6YN5QbHBx8CxcPnq_Q/edit?usp=sharing" target="_blank">Now That's Surprising Template</a>. In small groups, discuss your notes.</li>
-    <li>Part 3: Hiding Information in Images (pg. 95-99) is called <b><i><span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span></i></b>. First, answer the question below, then read the chapter pages as needed to help you complete <a href="https://docs.google.com/document/d/1rMlcppxtV-v9Ti7RDe6L6dlCczXXu8oQjZz8f9KLFaE/edit?usp=sharing" target="_blank">this activity</a>—you'll have an opportunity to hide your initials, or some 3-letter word, in an image. Try it, it's fun!</li>
+    <li>Part 3: Hiding Information in Images (pg. 95-99) is called <span class="hover vocab yui-wk-div" data-id='steganography'>steganography</span>. First, answer the question below, then read the chapter pages as needed to help you complete <a href="https://docs.google.com/document/d/1rMlcppxtV-v9Ti7RDe6L6dlCczXXu8oQjZz8f9KLFaE/edit?usp=sharing" target="_blank">this activity</a>—you'll have an opportunity to hide your initials, or some 3-letter word, in an image. Try it, it's fun!</li>
     </ul>
     <iframe frameborder="0" height="550" marginheight="0" marginwidth="0" src="https://mobile-csp.org/webapps/stego/bitmap-editor.html" width="780"></iframe>
     
