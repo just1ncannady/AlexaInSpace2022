@@ -25,34 +25,34 @@ Introduction and Goals
 
     <p>
     <table>
-    <tbody><tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/9vTB4J0go2A" width="315">
-    </iframe>
-    (<a href="http://www.teachertube.com/video/mobile-csp-logo-1-preview-438790" target="_blank">Teacher Tube version</a>)
-    </td>
-    <td width="20px"></td>
-    <td>In this lesson you will design, implement, and 
-    test algorithms to draw simple shapes using simple commands.
-    For example, you will write an algorithm to draw a face made up of
-    squares and lines like the one in the picture on the left.     
-    <br/>
-    <p>
-    <b>Objectives:</b> In this lesson you will learn to:
-    </p><ul>
-    <li>use primitive <i>Logo</i> commands to draw simple shapes;
-    </li><li>define simple procedures to simplify the drawing process.
-    </li>
-    <li>use loops to replace repeated commands.</li></ul>
-    <p>In our implementation of Logo, we’ve replaced the Turtle with an Android.
-    Here are the drawing commands you can use:
-    
-    </p><ul>
-    <li>The <b>forward</b> command moves the Android <b>forward by 10 pixels</b>.  
-    </li><li>The <b>turn</b> command causes the Android to <b>turn right by 90 degrees</b>. 
-    </li><li>The <b>penUp</b> and <b>penDown</b> commands puts 
-    the Android's pen on or off the canvas.</li></ul>
-    </td>
+    <tbody>
+	<tr>
+		<td colspan=2>
+			<p>In this lesson you will design, implement, and test algorithms to draw simple shapes using simple commands. For example, you will write an algorithm to draw a face made up of squares and lines like the one in the video below. </p>
+			<p>In our implementation of Logo, we’ve replaced the Turtle with an Android. Here are the drawing commands you can use:</p>
+			<ul>
+			<li>The <b>forward</b> command moves the Android <b>forward by 10 pixels</b>.  
+			</li><li>The <b>turn</b> command causes the Android to <b>turn right by 90 degrees</b>. 
+			</li><li>The <b>penUp</b> and <b>penDown</b> commands puts the Android's pen on or off the canvas.</li></ul>
+		</td>	
+	</tr>
+	<tr>
+		<td>
+			<iframe allowfullscreen="" frameborder="0" height="250" width="280" src="https://www.youtube.com/embed/9vTB4J0go2A" ></iframe>
+			(<a href="http://www.teachertube.com/video/mobile-csp-logo-1-preview-438790" target="_blank">Teacher Tube version</a>)
+		</td>
+		<td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			  <ul>
+			  <li>use primitive <i>Logo</i> commands to draw simple shapes</li>
+			  <li>define simple procedures to simplify the drawing process</li>
+			  <li>use loops to replace repeated commands</li>
+			  </ul>
+			  <div><b>Language Objectives:</b>&nbspI will be able to</div>
+			  <ul>
+			  <li>describe the functionality of an app using key vocabulary such as loop, procedure, and refactor, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
+			</ul>
+		</td>
     </tr>
     </tbody>
     </table>
