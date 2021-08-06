@@ -53,28 +53,9 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <p>In <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit1-Getting-Started/Mazes-Algorithms-and-Programs.html" target="_blank">Lesson 1.2</a> 
-      we introduced the term <b><i><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></i></b> and defined it as a <u>step-by-step procedure</u> of <u>precise instructions</u>
-      that performs some calculation or computation.
-    Algorithms are at the heart of computer science. Algorithms, expressed in computer code 
-      and interpreted by the computer, are what make our computers such powerful and adaptable machines. Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <b><span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span></b> which is a way to describe the each step of the code in English to plan it out. 
-    Algorithms can be created from an idea, by combining existing algorithms, or by modifying existing algorithms. 
-    Knowledge of existing algorithms can help in constructing new ones. Using existing correct algorithms as building blocks for constructing another <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.
-    </p>
-    <p>As we saw in the maze problems in Lesson 1.2, algorithms are constructed out of basic building 
-      blocks called <i>control structures</i>.  There are three basic control structures:
-    </p>
-    <ul>
-    <li><b><i><span class="hover vocab yui-wk-div" data-id='Sequence'>Sequence</span></i></b>– a <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> of instructions or statements.</li>
-    <li><b><i><span class="hover vocab yui-wk-div" data-id='Selection'>Selection</span></i></b>– a conditional instruction that lets the program branch between two or more alternatives.</li>
-    <li><b><i><span class="hover vocab yui-wk-div" data-id='Repetition'>Repetition</span> (or <span class="hover vocab yui-wk-div" data-id='Iteration'>Iteration</span>)</i></b>– a structure that repeats one or more instructions.</li>
-    </ul>
-    <p>An amazing fact that has been proved by computer scientists is that all algorithms can be 
-      constructed by using just these three control structures.  In other words, any <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that you 
-      would like to write to solve a problem can be built by a combination of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.</p>
-    <p>
-    </p>
+    <p>In <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit1-Getting-Started/Mazes-Algorithms-and-Programs.html" target="_blank">Lesson 1.2</a> we introduced the term <b><i><span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span></i></b> and defined it as a <u>step-by-step procedure</u> of <u>precise instructions</u> that performs some calculation or computation. Algorithms are at the heart of computer science. Algorithms, expressed in computer code and interpreted by the computer, are what make our computers such powerful and adaptable machines. An amazing fact that has been proved by computer scientists is that all algorithms can be constructed by using just these three control structures.  In other words, any <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that you would like to write to solve a problem can be built by a combination of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.
+	</p>
+    
     <div><b>Learning Objectives:</b>&nbspI will learn to</div>
     <ul>
     <li>express an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that uses <span class="hover vocab yui-wk-div" data-id='sequence'>sequencing</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span> and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> without using a programming language</li>
@@ -92,8 +73,18 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Blockly Maze Problems</h3>
-    <p>If you didn't get a chance to work through the Maze problems in Unit 1 or if you want to solve a
-      few more maze problems that use <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span>, here's a link to 
+	<p>Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <b><span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span></b> which is a way to describe the each step of the code in English to plan it out. 
+    Algorithms can be created from an idea, by combining existing algorithms, or by modifying existing algorithms. 
+    Knowledge of existing algorithms can help in constructing new ones. Using existing correct algorithms as building blocks for constructing another <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.
+    </p>
+    <p>As we saw in the maze problems in Lesson 1.2, algorithms are constructed out of basic building blocks called <i>control structures</i>.  There are three basic control structures:
+    </p>
+    <ul>
+    <li><b><i><span class="hover vocab yui-wk-div" data-id='Sequence'>Sequence</span></i></b>– a <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> of instructions or statements.</li>
+    <li><b><i><span class="hover vocab yui-wk-div" data-id='Selection'>Selection</span></i></b>– a conditional instruction that lets the program branch between two or more alternatives.</li>
+    <li><b><i><span class="hover vocab yui-wk-div" data-id='Repetition'>Repetition</span> (or <span class="hover vocab yui-wk-div" data-id='Iteration'>Iteration</span>)</i></b>– a structure that repeats one or more instructions.</li>
+    </ul>
+    <p>If you didn't get a chance to work through the Maze problems in Unit 1 or if you want to solve a few more maze problems that use <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span>, here's a link to 
       <a href="https://blockly-games.appspot.com/maze" target="_blank">some additional problems</a> that use the Blockly language 
       (<a href="https://docs.google.com/document/d/1q8Tqyi9DTRIGsrqQEVMdLNEEKBX-LYVl6I9n5cgZe-8" target="_blank">instructions</a>).
     </p>
