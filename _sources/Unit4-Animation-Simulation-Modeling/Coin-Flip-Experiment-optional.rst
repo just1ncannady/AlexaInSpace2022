@@ -28,7 +28,7 @@ Coin Flip Experiment optional
         "hypothesis":"A hypothesis is an explanation that can be tested by experimentation.",
       };      */
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -37,34 +37,37 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <table><tbody><tr><td>
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/XoAoL6dGdCE" width="315">
-    </iframe>
-    <!-- 
-      (&lt;a target=&quot;_blank&quot; href=&quot;http://www.teachertube.com/video/358491&quot;&gt;Teacher Tube version&lt;/a&gt;)
-    -->
-    </td><td>
-    <b><i>Coin Flip Experiment</i></b>.  
-    In this lesson you will use a slightly modified version of the app that you 
-      built in the preceding lesson, the <i>Coin Flip Simulation</i> Tutorial.
-    <p>
-      The <i>CoinFlipExperiment</i> app will let you conduct an experiment 
-      aimed at determining how ‘good’ App Inventor’s Pseudo Random Number 
-      Generator (<span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>) is.  The app will let you ‘flip a coin’ N times and display the results.  
-      </p>
-    <p>
-    In this lesson you will run the app several times, recording and tallying the results 
-        and calculating the percentage of heads.  
-        The expectation is that as N gets large, the percentage of heads should approach 50%.
-      </p>
-    <p>
-    <b>Objectives:</b> In this lesson you will learn to :
-    </p><ul>
-    <li>use software to conduct an experiment;
-    </li><li>make and test a <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> about App Inventor's ability to generate
-    random numbers. 
-    </li></ul>
-    </td></tr></tbody></table>
+    <table><tbody>
+	<tr>
+		<td colspan=2>
+			<b><i>Coin Flip Experiment</i></b>.  
+			In this lesson you will use a slightly modified version of the app that you built in the preceding lesson, the <i>Coin Flip Simulation</i> Tutorial.</p>
+			<p>The <i>CoinFlipExperiment</i> app will let you conduct an experiment aimed at determining how ‘good’ App Inventor’s Pseudo Random Number 
+			Generator (<span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>) is.  The app will let you ‘flip a coin’ N times and display the results.</p>
+			<p>In this lesson you will run the app several times, recording and tallying the results 
+			and calculating the percentage of heads. The expectation is that as N gets large, the percentage of heads should approach 50%.</p>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+			<iframe allowfullscreen="" frameborder="0" height="225" src="https://www.youtube.com/embed/XoAoL6dGdCE" width="300"></iframe>
+			<!-- 
+			  (&lt;a target=&quot;_blank&quot; href=&quot;http://www.teachertube.com/video/358491&quot;&gt;Teacher Tube version&lt;/a&gt;)
+			-->
+		</td>
+		<td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>use software to conduct an experiment</li>
+			<li>make and test a <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> about App Inventor's ability to generate random numbers</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>, <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span>, and <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span> while using an app to explore a <span class="hover vocab yui-wk-div" data-id="model">model</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
+		</td>
+	</tr>
+    </tbody></table>
     
 
 Learning Activities
@@ -77,16 +80,16 @@ Learning Activities
     <ul>
     <li>Randomness is used in lots of programs, especially games (Android Mash) and simulations (Coin Flip, 4-bit Computer Simulator).</li>
     <li>Creating a truly random process is hard to do.  And creating a truly random process in a computer is no exception.</li>
-    <li>Because creating true randomness is hard, computers use algorithms known as <i><b>pseudo random number 
-        generators (PRNGs)</b></i> to simulate randomness.  This is much easier to do than generating truly random numbers. If 
-      you are curious about how PRNGs work, the 
+    <li>Because creating true randomness is hard, computers use algorithms known as <span class="hover vocab yui-wk-div" data-id="PRNG">pseudo random number 
+        generators (PRNGs)</span> to simulate randomness.  This is much easier to do than generating truly random numbers. If 
+      you are curious about how <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>s work, the 
         next lesson goes into the details.</li>
-    <li>PRNGs generate a sequence of "random seeming" numbers.</li>
-    <li>PRNGs are <i><b>models</b></i> of true randomness.  As such, they can be 'good' or 'bad' depending on how well they <i><b>approximate</b></i> true randomness. Much research by mathematicians and computer scientists goes into creating good PRNGs.</li>
+    <li><span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>s generate a sequence of "random seeming" numbers.</li>
+    <li><span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>s are <span class="hover vocab yui-wk-div" data-id="model">models</span> of true randomness.  As such, they can be 'good' or 'bad' depending on how well they <i><b>approximate</b></i> true randomness. Much research by mathematicians and computer scientists goes into creating good <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>s.</li>
     <li>App Inventor uses a standard and well established <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>, which should do a good job of modeling randomness.</li>
     </ul>
     <h3>The Experiment</h3>
-    <p>Our CoinFlip app simulates flipping a coin.  If you had a <b><i><span class="hover vocab yui-wk-div" data-id='fair coin'>fair coin</span></i></b>
+    <p>Our CoinFlip app simulates flipping a coin.  If you had a <span class="hover vocab yui-wk-div" data-id='fair coin'>fair coin</span>
     and you flipped it many, many times -- maybe a million times -- then if it were truly
     fair, you would expect it to come up "Heads" half the time.  That's why we say for
     any coin flip, it has a 50:50 chance of coming up heads.
@@ -99,7 +102,7 @@ Learning Activities
     <br/><img alt="App Inventor's random integer block" src="http://appinventor.mit.edu/explore/sites/all/files/UserGuide/blocks/math/randomint.png"/>
     </p>
     <h3>Hypothesis</h3>
-    <p>Our <b><i><span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span></i></b> is that App Inventor’s random integer block is a 
+    <p>Our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> is that App Inventor’s random integer block is a 
     good approximation  of the process of randomly generating a 1 half the time and a 
     2 half the time.
     </p>
@@ -213,7 +216,7 @@ Still Curious?
 .. raw:: html
 
     <p>
-    <p>Hopefully this lesson has made you curious about how PRNGs work.  If so, you should check out <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=23&amp;lesson=65" target="_blank" title="">this lesson</a>, which shows how to use some simple mathematics to create a PRNG.</p>
+    <p>Hopefully this lesson has made you curious about how <span class="hover vocab yui-wk-div" data-id="PRNG">PRNGs</span> work.  If so, you should check out <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=23&amp;lesson=65" target="_blank" title="">this lesson</a>, which shows how to use some simple mathematics to create a <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>.</p>
 
 Self-Check
 -----------
@@ -262,11 +265,11 @@ Reflection: For Your Portfolio
     Discuss what you expected to happen and what you observed?
     &lt;/li&gt;
     
-    &lt;li&gt;What does this experiment tell you about App Inventor’s PRNG?  Is it ‘good’?
+    &lt;li&gt;What does this experiment tell you about App Inventor’s <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>?  Is it ‘good’?
     &lt;/li&gt;
     
     &lt;li&gt;How many trials should be performed in order to draw a conclusion one way 
-    or the other about our hypothesis?
+    or the other about our <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span>?
     &lt;/li&gt;
     
     
