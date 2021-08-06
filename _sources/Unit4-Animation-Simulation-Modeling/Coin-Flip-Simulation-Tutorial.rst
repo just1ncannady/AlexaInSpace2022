@@ -28,7 +28,7 @@ Coin Flip Simulation Tutorial
         "random number generator":"A random number generator (PRNG) is an algorithm that generates a sequence of numbers that seem to occur in random order.", 
       };      */
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -38,51 +38,43 @@ Introduction and Goals
 
     <p>
     <table><tbody>
+	<tr>
+		<td colspan=2>
+			<p><b><i>Coin Flip</i></b> is an app that simulates a coin flip. In fact, because it uses App Inventor's <span class="hover vocab yui-wk-div" data-id='random number generator'>random number generator</span>,
+			it may actually be fairer than a real coin flip. That is, it may come closer than a real coin flip to producing "heads" 50% of the time.</p>
+			<p>This tutorial has two parts.  In the first part we will build a simple app that simulates
+			a coin flip.  The coin will be represented by a global variable.  Heads will be represented
+			by 1 and tails by 2, and flipping the coin will be a matter of randomly assigning 1 or 2 to 
+			that variable.  The result will be displayed as either an image depicting the heads or tails
+			of a coin.</p>
+			<p>In part two, we will extend the app to perform the coin flip many times -- in effect, will
+			create an app that will let us experiment with the idea of "randomness" or "fairness".  If 
+			you flip a real coin lots of times, it should come up heads close to 50% of the time.  If 
+			you simulate a coin flip lots of times, it too should come up heads close to 50% of the time
+			-- unless the "randomness" that's built into App Inventor is not a very good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of true
+			randomness. We'll explore the whole idea of randomness in subsequent lessons in this Unit. </p>
+		</td>
+	</tr>
     <tr>
-    <td valign="top">
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/YOGEBNeA8tA" width="315">
-    </iframe>
-    </td>
-    <td width="20px"></td>
-    <td>
-    <b><i>Coin Flip</i></b> is an app that simulates a coin flip. In
-    fact, because it uses App Inventor's <i><b><span class="hover vocab yui-wk-div" data-id='random'>random</span> number generator</b></i>,
-    it may actually be fairer than a real coin flip. That is, it may come closer than a real 
-    coin flip to producing "heads" 50% of the time .
-    <p>
-      This tutorial has two parts.  In the first part we will build a simple app that simulates
-      a coin flip.  The coin will be represented by a global variable.  Heads will be represented
-      by 1 and tails by 2, and flipping the coin will be a matter of randomly assigning 1 or 2 to 
-      that variable.  The result will be displayed as either an image depicting the heads or tails
-      of a coin.
-    </p>
-    <p>
-      In part two, we will extend the app to perform the coin flip many times -- in effect, will
-      create an app that will let us experiment with the idea of "randomness" or "fairness".  If 
-      you flip a real coin lots of times, it should come up heads close to 50% of the time.  If 
-      you simulate a coin flip lots of times, it too should come up heads close to 50% of the time
-      -- unless the "randomness" that's built into App Inventor is not a very good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of true
-      randomness. We'll explore the whole idea of randomness in subsequent lessons in this Unit. 
-      </p>
-    </td>
+		<td valign="top">
+			<iframe allowfullscreen="" frameborder="0" height="375" src="https://www.youtube.com/embed/YOGEBNeA8tA" width="275"></iframe>
+		</td>
+		<td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>create an artifact that uses randomness and simulates a <span class="hover vocab yui-wk-div" data-id='model'>model</span></li>
+			<li>create a simple <span class="hover vocab yui-wk-div" data-id='model'>model</span> of a coin flip</li>
+			<li>use the <span class="hover vocab yui-wk-div" data-id='random'>random</span> number block to generate <span class="hover vocab yui-wk-div" data-id='random'>random</span> values in a specific range</li>
+			<li>use a conditional statement, <i>IF/Else</i>, to evaluate a variable and follow an algorithm based on the value of a variable</li>
+			<li>use a <i>For each number</i> loop to repeatedly simulate the flipping of the coin</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="model">model</span>, <span class="hover vocab yui-wk-div" data-id="random">random</span>, <span class="hover vocab yui-wk-div" data-id="random event">random event</span>, and <span class="hover vocab yui-wk-div" data-id="random number generator">random number generator</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>		
+		</td>
     </tr>
-    <tr>
-    	<td colspan="3">
-
-	    <b>Objectives:</b> In this lesson you will learn to:
-	    </p><ul>
-	    <li>create an artifact that uses Randomness and simulates a <span class="hover vocab yui-wk-div" data-id='model'>model</span>;
-	    </li><li>create a simple <span class="hover vocab yui-wk-div" data-id='model'>model</span> of a coin flip;
-	    </li><li>use <span class="hover vocab yui-wk-div" data-id='random'>random</span> number blocks to generate a <span class="hover vocab yui-wk-div" data-id='random'>random</span> value in a specific range;
-	    </li><li>define a global variable and assign it an initial value;
-	    </li><li>use a conditional statement, <i>IF/Else</i>, to evaluate a variable and follow an 
-	    algorithm based on the value of a variable;
-	    </li><li>use a <i>For each number</i> loop to repeatedly simulate the flipping of the
-	      coin and count the number of heads that occur.
-	      </li>
-	    </ul>
-    	</td>
-    </tr></tbody></table>
+	</tbody></table>
     
 
 Learning Activities
@@ -112,10 +104,10 @@ Learning Activities
     </p>
     <h3>The Random Block</h3>
     
-    In App Inventor, we will use the <span class="hover vocab yui-wk-div" data-id='Random'>Random</span> block to get pseudo-<span class="hover vocab yui-wk-div" data-id='random'>random</span> numbers. In the AP CSP exam, the function <span class="hover vocab yui-wk-div" data-id='RANDOM'>RANDOM</span>(1,3) is used to return a <span class="hover vocab yui-wk-div" data-id='random'>random</span> number from 1 to 3 (including 1, 2, or 3). 
+    In App Inventor, we will use the <span class="hover vocab yui-wk-div" data-id='random'>random</span> block to get pseudo-<span class="hover vocab yui-wk-div" data-id='random'>random</span> numbers. In the AP CSP exam, the function <span class="hover vocab yui-wk-div" data-id='RANDOM'>RANDOM</span>(1,3) is used to return a <span class="hover vocab yui-wk-div" data-id='random'>random</span> number from 1 to 3 (including 1, 2, or 3). 
     <table border="">
     <tbody><tr><th>AP Pseudocode</th> <th>App Inventor</th></tr>
-    <tr><td>x = <span class="hover vocab yui-wk-div" data-id='RANDOM'>RANDOM</span>(1,3)</td> <td><img src="../_static/assets/img/setxtorandomint.png" width="350px"/></td></tr>
+    <tr><td>x = <span class="hover vocab yui-wk-div" data-id='random'>RANDOM</span>(1,3)</td> <td><img src="../_static/assets/img/setxtorandomint.png" width="350px"/></td></tr>
     </tbody></table>
     <h3>Tutorial Part I: Simulating a Coin Flip</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit4/templates/CoinFlipMediaOnly/CoinFlipMediaOnly.asc" target="_blank">
