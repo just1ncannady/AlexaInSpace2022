@@ -772,21 +772,23 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-32
     :random:
     :practice: T
-    :answer_a: <img src="assets/img/Q17A1.png" class="yui-img" title="" alt="" style="line-height: 1.22;"></div>
+    :answer_a: <img src="../_static/assets/img/Q17A1.png" class="yui-img" title="" alt="" style="line-height: 1.22;">
     :feedback_a: 
-    :answer_b: <img src="assets/img/Q17A2.png" class="yui-img" title="" alt=""><br>
+    :answer_b: <img src="../_static/assets/img/Q17A2.png" class="yui-img" title="" alt=""><br />
     :feedback_b: 
-    :answer_c: <img src="assets/img/Q17A3.png" class="yui-img" title="" alt=""><br>
+    :answer_c: <img src="../_static/assets/img/Q17A3.png" class="yui-img" title="" alt=""><br />
     :feedback_c: 
-    :answer_d: <img src="assets/img/Q17A4.png" class="yui-img" title="" alt=""><br>
+    :answer_d: <img src="../_static/assets/img/Q17A4.png" class="yui-img" title="" alt=""><br />
     :feedback_d: 
     :correct: a
 
-    The following question uses a robot in a grid of squares. The robot is represented as a triangle, which is initially in the bottom left square of the grid and facing right.   Consider the following code segment, which moves the robot in the grid.Which of the following shows the location of the robot after running the code segment?
-
     .. raw:: html
 
+		<p>The following question uses a robot in a grid of squares. The robot is represented as a triangle, which is initially in the bottom left square of the grid and facing right.</p>
         <img alt="" class="yui-img selected" src="../_static/assets/img/Q17SquareQuestion.png" style="line-height: 1.22;" title=""/>
+        <p>Consider the following code segment, which moves the robot in the grid.</p>
+        <img alt="" class="yui-img selected" src="../_static/assets/img/Q17Code.png" style="line-height: 1.22;" title=""/>
+        <p>Which of the following shows the location of the robot after running the code segment?</p>
 
 
 .. raw:: html
@@ -799,21 +801,24 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-33
     :random:
     :practice: T
-    :answer_a: <img src="assets/img/Q18A1.png" class="yui-img selected" title="" alt="" style="line-height: 1.22;">
+    :answer_a: <img src="../_static/assets/img/Q18A1.png" class="yui-img selected" title="" alt="" style="line-height: 1.22;">
     :feedback_a: 
-    :answer_b: <img src="assets/img/Q18A2.png" class="yui-img selected" title="" alt="">
+    :answer_b: <img src="../_static/assets/img/Q18A2.png" class="yui-img selected" title="" alt="">
     :feedback_b: 
-    :answer_c: <img src="assets/img/Q18A3.png" class="yui-img selected" title="" alt="">
+    :answer_c: <img src="../_static/assets/img/Q18A3.png" class="yui-img selected" title="" alt="">
     :feedback_c: 
-    :answer_d: <img src="assets/img/Q18A4.png" class="yui-img selected" title="" alt="">
+    :answer_d: <img src="../_static/assets/img/Q18A4.png" class="yui-img selected" title="" alt="">
     :feedback_d: 
     :correct: c
 
-    The figure below shows a robot in a grid of squares. The robot is represented as a triangle, which is initially facing upward. The robot can move into a white or gray square but cannot move into a black region.   Consider the procedure MoveAndTurn below.Which of the following code segments will move the robot to the gray square?
-
     .. raw:: html
 
+		<p>The figure below shows a robot in a grid of squares. The robot is represented as a triangle, which is initially facing upward. The robot can move into a white or gray square but cannot move into a black region.</p>
         <img alt="" class="yui-img" src="../_static/assets/img/Q18SquareQuestion.png" style="line-height: 1.22;" title=""/>
+        <p>Consider the procedure MoveAndTurn below.</p>
+        <img alt="" class="yui-img" src="../_static/assets/img/Q18Code.png" style="line-height: 1.22;" title=""/>
+        <p>Which of the following code segments will move the robot to the gray square?</p>
+        
 
 
 .. raw:: html
@@ -826,17 +831,28 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-34
     :random:
     :practice: T
-    :answer_a: IF (IsFound (afternoonList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_a: <pre>IF (IsFound (afternoonList, child))&#10;{&#10;&nbsp;APPEND (lunchList, child)&#10;}</pre>
     :feedback_a: 
-    :answer_b: IF (IsFound (lunchList, child))<blockquote>{<br>&nbsp;APPEND (afternoonList, child)<br>}</blockquote>
+    :answer_b: <pre>IF (IsFound (lunchList, child))&#10;{&#10;&nbsp;APPEND (afternoonList, child)&#10;}</pre>
     :feedback_b: 
-    :answer_c: IF (IsFound (morningList, child))<blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_c: <pre>IF (IsFound (morningList, child))&#10;{&#10;&nbsp;APPEND (lunchList, child)&#10;}</pre>
     :feedback_c: 
-    :answer_d: IF ((IsFound (morningList, child)) OR&nbsp;<br><span style="line-height: 1.22;"><span class="Apple-tab-span" style="white-space:pre">    </span>&nbsp; &nbsp;(IsFound (afternoonList, child)))</span><blockquote>{<br>&nbsp;APPEND (lunchList, child)<br>}</blockquote>
+    :answer_d: <pre>IF ((IsFound (morningList, child)) OR&#10;&nbsp; &nbsp;(IsFound (afternoonList, child)))&#10;{&#10;&nbsp;APPEND (lunchList, child)&#10;}
     :feedback_d: 
     :correct: a
 
-    A summer camp offers a morning session and an afternoon session. The list morningList contains the names of all children attending the morning session, and the list afternoonList contains the names of all children attending the afternoon session. Only children who attend both sessions eat lunch at the camp. The camp director wants to create lunchList, which will contain the names of children attending both sessions. The following code segment is intended to create lunchList, which is initially empty. It uses the procedure IsFound (list, name), which returns true if name is found in list and returns false otherwise.FOR EACH child IN morningList{  &lt;MISSING CODE&gt; }Which of the following could replace &lt;MISSING CODE&gt; so that the code segment works as intended?
+    .. raw:: html
+    
+    	<p>A summer camp offers a morning session and an afternoon session. The list morningList contains the names of all children attending the morning session, and the list afternoonList contains the names of all children attending the afternoon session.</p>
+    	<p>Only children who attend both sessions eat lunch at the camp. The camp director wants to create lunchList, which will contain the names of children attending both sessions.</p>
+    	<p>The following code segment is intended to create lunchList, which is initially empty. It uses the procedure IsFound (list, name), which returns true if name is found in list and returns false otherwise.</p>
+    	<pre>
+    	FOR EACH child IN <i>morningList</i>
+    	{  &lt;MISSING CODE&gt; 
+    	}
+    	</pre>
+    	
+    	<p>Which of the following could replace &lt;MISSING CODE&gt; so that the code segment works as intended?</p>
 
 
 .. raw:: html
@@ -972,13 +988,13 @@ Sample Exam Questions
 .. mchoice:: mcsp-8-6-40
     :random:
     :practice: T
-    :answer_a: gradeList[i] ← min (gradeList[i] + 5, 100)
+    :answer_a: <pre>gradeList[i] ← min (gradeList[i] + 5, 100)</pre>
     :feedback_a: 
-    :answer_b: gradeList[i] ← max (gradeList[i] + 5, 100)
+    :answer_b: <pre>gradeList[i] ← max (gradeList[i] + 5, 100)</pre>
     :feedback_b: 
-    :answer_c: <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {     gradeList[i] ← gradeList[i] - 5 } </pre>
+    :answer_c: <pre>gradeList[i] ← gradeList[i] + 5&#10;IF (gradeList[i] &gt; 100)&#10;{&#10;   gradeList[i] ← gradeList[i] - 5&#10;} </pre>
     :feedback_c: 
-    :answer_d:  <pre>gradeList[i] ← gradeList[i] + 5  IF (gradeList[i] &gt; 100)  {      gradeList[i] ← 100  }</pre>
+    :answer_d:  <pre>gradeList[i] ← gradeList[i] + 5 &#10;IF (gradeList[i] &gt; 100)&#10;{&#10;   gradeList[i] ← 100&#10;}</pre>
     :feedback_d: 
     :correct: a,d
 
@@ -1007,7 +1023,7 @@ Sample Exam Questions
     <div id="bogus-div">
     <p></p>
     </div>
-    <b>Additional Sample Questions:</b>
+    <p><b>Additional Sample Questions:</b></p>
 
 
 .. raw:: html
