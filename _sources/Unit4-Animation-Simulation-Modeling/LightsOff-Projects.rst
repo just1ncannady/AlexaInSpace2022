@@ -39,23 +39,25 @@ Introduction and Goals
     <p>
     <table>
     <tbody>
+	<tr>
+		<td colspan=2><b><i>Be creative!</i></b> In this lesson you will complete several small programming projects that add enhancements to the <i>LightsOff</i> app. Hints and suggestions are provided.</td>
+	</tr>
     <tr>
-    <td width="30%"> <img class="yui-img" src="../_static/assets/img/LightsOutPart2.png" width="300px"/> </td>
-    <td><b><i>Be creative!</i></b> In this lesson you will complete several small programming projects that add
-                enhancements to the <i>LightsOff</i> app. Hints and suggestions are provided.
-                <p> <b>Objectives:</b> In this lesson you will learn to : </p>
-    <ul>
-    <li>iteratively develop a new app using Design Thinking;; </li>
-    <li>deepen your understanding of event-driven programming; </li>
-    <li>develop your understanding of how variables are incremented; </li>
-    <li>develop a better understanding of conditional <i>if</i> blocks and apps that make decisions. </li>
-    </ul>
-    <p></p>
-    </td>
+		<td valign="top"> <img class="yui-img" src="../_static/assets/img/LightsOutPart2.png" width="325px"/> </td>
+        <td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			  <ul>
+			  <li>iteratively develop a new app using Design Thinking</li>
+			  <li>use programming concepts such as variables and conditional <i>if</i> blocks in more advanced ways to enhance an app's functionality</li>
+			  </ul>
+			  <div><b>Language Objectives:</b>&nbspI will be able to</div>
+			  <ul>
+			  <li>describe the design process of an app using key vocabulary such as empathize, ideate, and prototype, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>			
+			  </ul>
+		</td>
     </tr>
     </tbody>
     </table>
-    <p> </p>
     
 
 Learning Activities
@@ -85,27 +87,31 @@ Learning Activities
     <table border="0" style="width: 100%;">
     <tbody>
     <tr>
-    <td><b>Design Thinking Process</b><br/>
-    <ol>
-    <li><strong>Empathize: </strong>Investigate and understand your users to identify the program requirements</li>
-    <ul><li>collect data through surveys</li>
-    <li>conduct user testing</li>
-    <li>conduct interviews </li>
-    <li>make direct observations</li></ul>
-    <li><strong>Define:</strong> Analyze the problem and determine the program specifications</li>
-    <li><strong>Ideate:</strong> Brainstorm possible solutions</li>
-    <ul><li>make a list of your ideas</li>
-    <li><span class="yui-non">do a <a href="https://www.sciencedirect.com/science/article/pii/S1877042815027123" target="" title="">6-3-5 brainwriting activity</a> (<a href="https://drive.google.com/open?id=1Qho7PgaSKt7zJhrxx100vFv4gV-voOE4" target="_blank" title="">template</a>)</span></li>
-    <li><span class="yui-non">draw paper prototypes (<a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/" target="_blank" title="">template</a>)</span></li></ul>
-    <li><strong>Prototype:</strong> Creatively build simple solutions</li>
-    <li><strong>Test:</strong> Evaluate the solutions</li>
-    </ol>
-    <p>When following the design thinking process, keep the following in mind:</p>
-    <p><i>Program requirements</i> describe how a program functions which may include a description of user interactions that a program must provide. A <i>program’s specification</i> defines the requirements for the program. The <i>designing</i> part of the design thinking process (i.e. the define and ideate phases) is where you outline how to accomplish a given program specification.</p>
-    </td>
-    <td><img alt="Design Thinking" class="yui-img" src="../_static/assets/img/DesignThinkingimage.png" style="width: 250px;" title="Design Thinking"/><br/>
-    </td>
+		<td style="width:65%">
+			<b>Design Thinking Process</b><br/>
+			<ol>
+			<li><strong>Empathize: </strong>Investigate and understand your users to identify the program requirements</li>
+			<ul><li>collect data through surveys</li>
+			<li>conduct user testing</li>
+			<li>conduct interviews </li>
+			<li>make direct observations</li></ul>
+			<li><strong>Define:</strong> Analyze the problem and determine the program specifications</li>
+			<li><strong>Ideate:</strong> Brainstorm possible solutions</li>
+			<ul><li>make a list of your ideas</li>
+			<li><span class="yui-non">do a <a href="https://www.sciencedirect.com/science/article/pii/S1877042815027123" target="" title="">6-3-5 brainwriting activity</a> (<a href="https://drive.google.com/open?id=1Qho7PgaSKt7zJhrxx100vFv4gV-voOE4" target="_blank" title="">template</a>)</span></li>
+			<li><span class="yui-non">draw paper prototypes (<a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/" target="_blank" title="">template</a>)</span></li></ul>
+			<li><strong>Prototype:</strong> Creatively build simple solutions</li>
+			<li><strong>Test:</strong> Evaluate the solutions</li>
+			</ol>
+		</td>
+		<td valign=top><img alt="Design Thinking" class="yui-img" src="../_static/assets/img/DesignThinkingimage.png" title="Design Thinking"/><br/>    </td>
     </tr>
+	<tr>
+		<td colspan=2>When following the design thinking process, keep the following in mind:
+	</tr>
+	<tr>
+		<td colspan=2><i>Program requirements</i> describe how a program functions which may include a description of user interactions that a program must provide. A <i>program’s specification</i> defines the requirements for the program. The <i>designing</i> part of the design thinking process (i.e. the define and ideate phases) is where you outline how to accomplish a given program specification.</td>
+	</tr>
     </tbody>
     </table>
     <h3>LightsOff Projects</h3>
