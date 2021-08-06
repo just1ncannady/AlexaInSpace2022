@@ -71,7 +71,7 @@ Learning Activities
     </p>
     <h3>How does a PRNG Work</h3>
     
-.. youtube:: ufiFEubOSd0
+.. youtube:: IZ56vqQZux4
         :width: 650
         :height: 415
         :align: center
@@ -156,7 +156,7 @@ Learning Activities
     
     
     
-.. youtube:: 6Rl2ARJjjP8
+.. youtube:: BLSdUYtQmeo
         :width: 650
         :height: 415
         :align: center
