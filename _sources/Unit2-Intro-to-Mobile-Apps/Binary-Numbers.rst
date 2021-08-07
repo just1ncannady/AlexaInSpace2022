@@ -57,11 +57,16 @@ Introduction and Goals
           <li>explain the steps for converting between the decimal and <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number systems</span> using key vocabulary such as <span class="hover vocab yui-wk-div" data-id='binary number system'>binary</span>, and <span class="hover vocab yui-wk-div" data-id='positional number system'>positional number system</span> out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </p>
-    <p><img align="left" src="../_static/assets/img/smiley.jpg" width="32"/>
-    </p><h3><font color="blue">There are only 10 types of people in the world. 
-    Those who understand binary and 
-    those who don't!</font></h3>
     
+Learning Activities
+--------------------
+
+.. raw:: html
+
+    <h3><font color="blue">There are only 10 types of people in the world. Those who understand binary and those who don't!</font><img align="right" src="../_static/assets/img/smiley.jpg" width="32"/></h3>
+	
+
+    <h3>Lecture</h3>
 .. youtube:: 3PULJnSP74Y
         :width: 650
         :height: 415
@@ -73,16 +78,9 @@ Introduction and Goals
     <p></p>
     </div>
 
-
     <div>(<a href="http://www.teachertube.com/video/binaryintrol-348081" target="_blank">Teacher Tube version</a>)</div>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Video: Counting in Binary</h3>
+	
+	<p><h3>Video: Counting in Binary</h3>
     <p>Do you get the joke at the beginning this lesson?  If not, you'll certainly get it
     after watching this video from the <a href="http://csunplugged.org/" target="_blank">Computer Science 
     Unplugged</a>, which illustrates how the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> works. </p>
