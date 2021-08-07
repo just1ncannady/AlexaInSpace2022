@@ -52,6 +52,17 @@ Introduction and Goals
     from the type described in the lessons below.  But the general principles are very much the
     same.
     </p>
+	<p>
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		<ul>
+		<li>use <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span> to produce a remainder, which can be used to create pseudorandom numbers</li>
+		<li>recognize the difference between random and pseduorandom numbers, and the implciations of this difference on real world applications</li>
+		</ul>
+		<div><b>Language Objectives:</b>&nbspI will be able to</div>
+		<ul>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span>, <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span>, and <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span> while considering how a computer models randomness, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		</ul>
+	</p>
     
 
 Learning Activities
@@ -150,7 +161,7 @@ Learning Activities
 
     <p>
     
-    The <b>MOD</b> operator gives the remainder when one number is divided by another. For example, 3 MOD 2 is 1 because 3 can be divided by 2 once with a remainder of 1.  In the AP CSP exam, the a MOD b operator is defined as the remainder of a divided by b for positive numbers a and b. App Inventor also has a "Modulo of" block. In arithmetic expressions, the <span class="hover vocab yui-wk-div" data-id='MOD operator'>MOD operator</span> has the same precedence as the * and / operators which means that MOD, *, and / are evaluated before + and - unless there are parentheses. 
+    The <span class="hover vocab yui-wk-div" data-id="mod operator">MOD operator</span> gives the remainder when one number is divided by another. For example, 3 MOD 2 is 1 because 3 can be divided by 2 once with a remainder of 1. In the AP CSP exam, the a MOD b operator is defined as the remainder of a divided by b for positive numbers a and b. App Inventor also has a "Modulo of" block. In arithmetic expressions, the <span class="hover vocab yui-wk-div" data-id='mod operator'>MOD operator</span> has the same precedence as the * and / operators which means that MOD, *, and / are evaluated before + and - unless there are parentheses. 
     
     <p>We use <b>modulo</b> 12 arithmetic every day when we read clocks with 12 hours.
     
@@ -316,7 +327,7 @@ Still Curious?
     <p>
     <p>Learn about how a Russian crew was able to figure out how <i>not</i> to lose at slot machines in this <a href="https://www.npr.org/sections/money/2017/05/24/529865107/episode-773-slot-flaw-scofflaws" target="_blank">Planet Money podcast</a>.</p>
     <p>Read more about <a href="http://en.wikipedia.org/wiki/Linear_congruential_generator" target="_blank">linear congruential generators</a> on Wikipedia. </p>
-    <br/><br/>PRNGs are also useful when securing the Internet, which is covered later in the course. For now, you can watch this video about CloudFlare and how lava lamps are helping to keep the Internet secure.<br/>
+    <br/><br/><span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>s are also useful when securing the Internet, which is covered later in the course. For now, you can watch this video about CloudFlare and how lava lamps are helping to keep the Internet secure.<br/>
 .. youtube:: 1cUUfMeOijg
         :width: 650
         :height: 415
