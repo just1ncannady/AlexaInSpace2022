@@ -43,6 +43,8 @@ Introduction and Goals
 .. raw:: html
 
     <p>
+	<p>Binary numbers are used to represent all computer data. That is, everything is in 0s and 1s. In this lesson, we'll explore the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> and learn how to count in binary.
+	</p>
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
           <li>identify and correct errors in an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> or program</li>
