@@ -192,7 +192,7 @@ Learning Activities
     <br/>
       (<a href="https://upload.teachertube.com/video/paintpot2-varying-the-dotsize-478432" target="_blank" title="">TeacherTube version</a>)</p>
     
-.. youtube:: 7eY2aSeP9Oc
+.. youtube:: ETLkyDKIinc
         :width: 650
         :height: 415
         :align: center
