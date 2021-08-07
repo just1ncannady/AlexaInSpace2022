@@ -185,6 +185,10 @@ Self-Check
     </table>
 	<p>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
+	
 .. fillintheblank:: mcsp-3-8-1
     :casei:
 

@@ -251,8 +251,9 @@ Self-Check
 
     <p>
     
-    
-    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
+    <h3>Vocabulary</h3>
+    <p>Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+    </p>
     <table align="center">
     <tbody>
     <tr>
@@ -272,6 +273,10 @@ Self-Check
     </tbody>
     </table>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
+	
 .. fillintheblank:: mcsp-3-3-1
     :casei:
 

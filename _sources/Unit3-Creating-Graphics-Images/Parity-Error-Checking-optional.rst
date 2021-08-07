@@ -168,8 +168,10 @@ Self-Check
 .. raw:: html
 
     <p>
+    <h3>Vocabulary</h3>
+	<p> Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+    </p>
     
-    Here is a table of the technical terms introduced in this lesson. Hover over the terms to review the definitions.
     <table align="center">
     <tbody>
     <tr>
@@ -181,7 +183,10 @@ Self-Check
     </tr>
     </tbody>
     </table>
-    <h3>Parity Questions</h3>
+	
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
     
 .. khanex:: khanex3
 	

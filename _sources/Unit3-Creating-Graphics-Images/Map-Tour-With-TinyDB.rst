@@ -148,6 +148,10 @@ Self-Check
     </table>
 	<p>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
+	
 .. mchoice:: mcsp-3-9-1
     :random:
     :practice: T

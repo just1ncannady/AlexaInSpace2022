@@ -244,6 +244,10 @@ Self-Check
 .. raw:: html
 
     <p>
+	
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
     
 .. quizly:: mscp-3-4-7
     
