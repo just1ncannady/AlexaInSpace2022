@@ -43,6 +43,8 @@ Introduction and Goals
 .. raw:: html
 
     <p>
+	<p>Binary numbers are used to represent all computer data. That is, everything is in 0s and 1s. In this lesson, we'll explore the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> and learn how to count in binary.
+	</p>
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
           <li>identify and correct errors in an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> or program</li>
@@ -57,11 +59,16 @@ Introduction and Goals
           <li>explain the steps for converting between the decimal and <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number systems</span> using key vocabulary such as <span class="hover vocab yui-wk-div" data-id='binary number system'>binary</span>, and <span class="hover vocab yui-wk-div" data-id='positional number system'>positional number system</span> out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </p>
-    <p><img align="left" src="../_static/assets/img/smiley.jpg" width="32"/>
-    </p><h3><font color="blue">There are only 10 types of people in the world. 
-    Those who understand binary and 
-    those who don't!</font></h3>
     
+Learning Activities
+--------------------
+
+.. raw:: html
+
+    <h3><font color="blue">There are only 10 types of people in the world. Those who understand binary and those who don't!</font><img align="right" src="../_static/assets/img/smiley.jpg" width="32"/></h3>
+	
+
+    <h3>Lecture</h3>
 .. youtube:: 3PULJnSP74Y
         :width: 650
         :height: 415
@@ -73,16 +80,9 @@ Introduction and Goals
     <p></p>
     </div>
 
-
     <div>(<a href="http://www.teachertube.com/video/binaryintrol-348081" target="_blank">Teacher Tube version</a>)</div>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Video: Counting in Binary</h3>
+	
+	<p><h3>Video: Counting in Binary</h3>
     <p>Do you get the joke at the beginning this lesson?  If not, you'll certainly get it
     after watching this video from the <a href="http://csunplugged.org/" target="_blank">Computer Science 
     Unplugged</a>, which illustrates how the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary number system</span> works. </p>
@@ -344,7 +344,9 @@ Self-Check
 .. raw:: html
 
     <p>
-    <p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.</p>
+    <h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+	</p>
     <table align="center">
     <tbody>
     <tr>
@@ -363,6 +365,9 @@ Self-Check
     </tbody>
     </table>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
 .. mchoice:: mcsp-2-9-4
     :random:
     :practice: T

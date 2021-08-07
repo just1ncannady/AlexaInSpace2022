@@ -126,7 +126,9 @@ Self-Check
 .. raw:: html
 
     <p>
-    Vocabulary:<br/>
+    <h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+	</p>
     <table align="center">
     <tbody><tr>
     <td>
@@ -137,6 +139,9 @@ Self-Check
     </td></tr>
     </tbody></table>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
 .. mchoice:: mcsp-2-4-1
     :random:
     :practice: T

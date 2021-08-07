@@ -43,24 +43,13 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    
-    Throughout this course, there is a focus on 3 key questions about the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>; they are introduced here and revisited throughout the course:
-    <ul>
-    <li>What is the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>, how is it built, and how does it work?</li>
-    <li>What aspects of the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>’s design and development have enabled it to grow so large and be so influential?</li>
-    <li>How do the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and Cloud applications impact our society, positively and negatively? </li>
-    </ul>
-    <p>The <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> (WWW) have had a tremendous influence
-    on our world and our lives.  Yet, most people do not really understand what the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> 
-    is and how it works.   This lesson provides a high-level overview of some key concepts and clarifies the
-      difference between the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span>. Lessons
-      later in the course will go into greater detail in explaining how the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> works and explore cybersecurity.</p>
+    <p>The <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> (WWW) have had a tremendous influence on our world and our lives.  Yet, most people do not really understand what the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> is and how it works.   This lesson provides a high-level overview of some key concepts and clarifies the
+    difference between the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span>. Lessons later in the course will go into greater detail in explaining how the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> works and explore cybersecurity.</p>
     <div><b>Learning Objectives:</b>&nbspI will learn to</div>
     <ul>
     <li>explain how computing innovations are developed by groups of people</li>
     <li>demonstrate effective interpersonal skills during collaboration</li>
-    <li>describe the differences between the Internet and the World Wide Web</li>
+    <li>describe the differences between the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span></li>
     <li>explain how an effect of a computing innovation can be both beneficial and harmful</li>
     <li>explain how a computing innovation can have an impact beyond its intended purpose</li>
     <li>describe the risks to privacy from collecting and storing personal data on a computer system</li>
@@ -78,7 +67,15 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Video: The Internet and World Wide Web</h3>
+    <p>
+    Throughout this course, there is a focus on 3 key questions about the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>; they are introduced here and revisited throughout the course:
+    <ul>
+    <li>What is the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>, how is it built, and how does it work?</li>
+    <li>What aspects of the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>’s design and development have enabled it to grow so large and be so influential?</li>
+    <li>How do the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and Cloud applications impact our society, positively and negatively? </li>
+    </ul>
+	</p>
+	<p><h3>Video: The Internet and World Wide Web</h3>
     <p><a href="https://docs.google.com/document/d/1vCnh_0xrVIhhNW9ve6ngLeoNfzEVPCj8HleS_9dlPu0/edit" target="_blank">Guided Worksheet:</a> answer these questions as you watch the video<br/>
     <a href="https://docs.google.com/presentation/d/1AxexCFAWMwo1qckAa2CK-_m-6Y62wBQtOhc4um_uhuU" target="_blank">Slides: Internet and WWW</a></p>
     
@@ -119,27 +116,6 @@ Learning Activities
     </li></ul>
     <p>
     
-    Here is a table of some of the technical vocabulary we've introduced in this lesson. Hover over the terms to review the definitions.
-    <br/>
-    </p>
-    <table align="center">
-    <tbody><tr>
-    <td><span class="hover vocab yui-wk-div" data-id="Internet">Internet</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">World Wide Web (WWW)</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="browser">Browser</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="protocol">Protocol</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP</span>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="HTTP">HTTP</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="open standard">Open standard</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="IETF">IETF</span>
-    </td>
-    </tr>
-    </tbody></table>
-    <br/>
     <h3>Explore Curricular Activity: Beneficial and Harmful Effects of Computing Innovations</h3>
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (25 minutes)</h3>
@@ -225,7 +201,31 @@ Self-Check
 .. raw:: html
 
     <p>
-    <p>Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.<br/>
+	<h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+	</p>
+	
+    <table align="center">
+    <tbody><tr>
+    <td><span class="hover vocab yui-wk-div" data-id="Internet">Internet</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">World Wide Web (WWW)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="browser">Browser</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="protocol">Protocol</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP</span>
+    </td>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="HTTP">HTTP</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="open standard">Open standard</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="IETF">IETF</span>
+    </td>
+    </tr>
+    </tbody></table>
+	
+    <h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
     
 .. mchoice:: mcsp-2-6-1
     :random:

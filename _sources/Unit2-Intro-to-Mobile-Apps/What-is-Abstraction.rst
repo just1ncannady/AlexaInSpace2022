@@ -51,6 +51,11 @@ Introduction and Goals
     </ul>
     </td>
         
+Learning Activities
+--------------------
+
+.. raw:: html
+
     <h3>Lecture</h3>
     
 .. youtube:: XpJdZrviSuw
@@ -60,16 +65,12 @@ Introduction and Goals
 
 .. raw:: html
 
-
     <div>(<a href="http://www.teachertube.com/video/abstraction-347740" target="_blank">Teacher Tube version</a>)</div>
-    
-
-Learning Activities
---------------------
-
+	
 .. raw:: html
 
-    <p>
+    <h3>Practice with Abstraction</h3>	
+	<p>
     <p>Your teacher may have you do some of the following activities.
     </p><ul>
     <li>
@@ -96,10 +97,10 @@ Self-Check
 .. raw:: html
 
     <p>
-    
-    
-    Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
-    
+    <h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+	</p>
+        
     <style>    td { text-align: left; padding: 5px;}</style>
     <table align="center">
     <tbody>
@@ -116,6 +117,9 @@ Self-Check
     </tbody>
     </table>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
 .. mchoice:: mcsp-2-8-1
     :random:
     :practice: T
