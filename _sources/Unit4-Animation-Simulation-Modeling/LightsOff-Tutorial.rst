@@ -42,7 +42,7 @@ Introduction and Goals
 		<!-- 
 		&lt;img width=&quot;315&quot; src=&quot;assets/img/LightsOutPart1.png&quot; /&gt; 
 		-->
-		<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/bWLkchEpy6w" width="315"></iframe>
+		<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/bWLkchEpy6w" width="285"></iframe>
 		(<a href="https://teachertube.com/video/lightsoff-tutorial-preview-476362" target="_blank">Teacher Tube version</a>) 
     </td>
     <td valign="top">
@@ -54,6 +54,7 @@ Introduction and Goals
 		</ul>
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
+		<li>discuss the benefits of writing procedures in programming</li>
 		<li>describe the functionality of an app using key vocabulary such as event, timer, and sprite, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
 		</ul>
 	</td>
