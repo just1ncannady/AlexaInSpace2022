@@ -50,6 +50,18 @@ Introduction and Goals
       Inventor lets you take a photo by using a single <i>Camera.TakePicture</i> block in your app.  But think about all of the very low-level
       operations that have to take place to focus the camera, gather and convert light rays into pixels and then into bits and then into 
       an image file on your device.  The App Inventor block hides all of that complexity. 
+	<p>
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		<ul>
+		<li>describe how abstractions in the <span class="hover vocab yui-wk-div" data-id="CPU">CPU</span> hide complexity and make a computer easier to use </li>
+		<li>explain in detail how the <span class="hover vocab yui-wk-div" data-id="CPU">CPU</span> executes the instrucitons of a program</li>
+		</ul>
+		<div><b>Language Objectives:</b>&nbspI will be able to</div>
+		<ul>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="machine language">machine language</span>, <span class="hover vocab yui-wk-div" data-id="fetch-execute cycle">fetch-execute cycle</span>, and <span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span> while describing abstractions within the <span class="hover vocab yui-wk-div" data-id="overflow error">CPU</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		</ul>
+
+	</p>
     
 
 Learning Activities
@@ -78,7 +90,7 @@ Learning Activities
     <a href="https://vimeo.com/107667129" target="_blank"><img alt="Women programming ENIAC" class="yui-img" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Reprogramming_ENIAC.png" style="max-width: 100%"/></a>
     <h3>4-Bit Computer Simulator</h3>
     <p>The ENIAC weighed 30 tons. But in the hardware of the day it could store only 20 10-digit numbers in its
-      <i>accumulators</i> or memory registers. Programs had to be written by hand on paper and once the algorithm
+      <span class="hover vocab yui-wk-div" data-id='accumulator'>accumulators</span> or memory registers. Programs had to be written by hand on paper and once the algorithm
       was figured out, it would often take days to get the program into the ENIAC by manipulating its switches
       and cables. Later on, punched cards like the following were used to input programs or a simple addition calculation.<br/><img src="../_static/assets/img/punchedCard.jpg" width="300px"/><br/></p>
     <img align="right" alt="Gen 0 4-bit" class="yui-img" hspace="20px" src="../_static/assets/img/Gen0.png" title="Gen 0 4-bit" vspace="20px" width="250"/>
@@ -99,11 +111,11 @@ Learning Activities
         <em>editor</em>, 
         which will let us type out the machine instructions, and a <em>loader</em>, which will load the instructions 
         into memory for us.</li>
-    <li><b>Generation 2. Using an <span class="hover vocab yui-wk-div" data-id='Assembly Language'>Assembly Language</span></b>. Instead of having to deal with 0s and 1s, our 
-        <i><span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span></i> will give us a higher-level abstraction by letting us deal with 
+    <li><b>Generation 2. Using an <span class="hover vocab yui-wk-div" data-id='assembly language'>Assembly Language</span></b>. Instead of having to deal with 0s and 1s, our 
+        <span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span> will give us a higher-level abstraction by letting us deal with 
         symbolic names for instructions and data. </li>
     </ul>
-    <p>The simulator models a simple <b><span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span> Fetch/Execute Cycle</b> like below but where the instructions are 1) Fetched from <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>, 2) Decoded in the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span> 3) Any needed data is fetched from <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span> and 4) the operation is Executed in the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span>.
+    <p>The simulator models a simple <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span> <span class="hover vocab yui-wk-div" data-id='fetch-execute cycle'>Fetch/Execute Cycle</span> like below but where the instructions are 1) Fetched from <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span>, 2) Decoded in the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span> 3) Any needed data is fetched from <span class="hover vocab yui-wk-div" data-id='RAM'>RAM</span> and 4) the operation is Executed in the <span class="hover vocab yui-wk-div" data-id='CPU'>CPU</span>.
       <br/><img class="yui-img" src="../_static/assets/img/FetchExecuteCycle.png" width="450px"/>
     <!-- 
     &lt;h2&gt;Ready for a Challenge?&lt;/h2&gt;
@@ -232,7 +244,7 @@ Learning Activities
     </div>
 
 
-    <p>As you saw in the last self-check exercise, it is easy to see an <b><span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span></b> when the 4-bit computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the computer attempts to handle a very large number that is outside of the defined range of values can be represented.</p><p>
+    <p>As you saw in the last self-check exercise, it is easy to see an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the 4-bit computer attempts to handle a number that is larger than the memory it has available. Even modern computers can occasionally have an <span class="hover vocab yui-wk-div" data-id='overflow error'>overflow error</span> when the computer attempts to handle a very large number that is outside of the defined range of values can be represented.</p><p>
     </p>
 
 	<h3>Generation 1: Machine Language Programming</h3>
@@ -335,7 +347,7 @@ Learning Activities
     <p>
     <p>
     <a href="https://mobile-csp.org/webapps/computer/gen2.html" target="_blank" title="">Generation 2</a> 
-      of the 4-bit computer introduces some additional software in the form of an <b><i><span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span></i></b>.  
+      of the 4-bit computer introduces some additional software in the form of an <span class="hover vocab yui-wk-div" data-id='assembly language'>assembly language</span>.  
       Assembly languages were the first step in the direction of raising the level of abstraction used in writing 
       and debugging programs.  It's not a big step beyond machine language.  But it does succeed in hiding some 
       of the machine's underlying complexity, including the need to remember binary opcodes, memory addresses and 
