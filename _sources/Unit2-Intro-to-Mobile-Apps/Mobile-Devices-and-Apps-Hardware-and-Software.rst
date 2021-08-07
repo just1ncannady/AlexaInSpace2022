@@ -88,38 +88,9 @@ Learning Activities
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    <h3>Vocabulary</h3>
     
-    Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
-    
-    <table align="center">
-    <tbody><tr>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="byte">byte</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="chip">chip</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="compilation">compilation</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="computer">computer</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="CPU">CPU</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="general purpose computer">general purpose computer</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="hardware">hardware</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="high level language">high level language</span>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="interpretation">interpretation</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="machine language">machine language</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="motherboard">motherboard</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="program">program</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="RAM">RAM</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="software">software</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="special purpose computer">special purpose computer</span>
-    </td>
-    </tr>
-    </tbody>
-    </table>
     <h3>Activity</h3>
-    <p>Working in pairs, quiz each other on the vocabulary words above or complete the following <a href="https://docs.google.com/drawings/d/1l50CFlksBCdfjfmwkyCvsYo0mEZ5BzyTxOABXkS0vr4/copy" target="_blank">interactive worksheet</a> to match some of the vocabulary to a picture of a computer system or this
+    <p>Working in pairs, complete the following <a href="https://docs.google.com/drawings/d/1l50CFlksBCdfjfmwkyCvsYo0mEZ5BzyTxOABXkS0vr4/copy" target="_blank">interactive worksheet</a> to match some of the vocabulary to a picture of a computer system or this
        <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/edit" target="_blank">computer terms matching worksheet</a>.</p>
     
 
@@ -157,7 +128,38 @@ Self-Check
 
 .. raw:: html
 
-    <p>
+    <p><h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+	</p>
+	
+	<table align="center">
+    <tbody><tr>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="byte">byte</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="chip">chip</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="compilation">compilation</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="computer">computer</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="CPU">CPU</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="general purpose computer">general purpose computer</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="hardware">hardware</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="high level language">high level language</span>
+    </td>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="interpretation">interpretation</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="machine language">machine language</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="motherboard">motherboard</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="program">program</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="RAM">RAM</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="software">software</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="special purpose computer">special purpose computer</span>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+	
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
     
 .. mchoice:: mcsp-2-5-1
     :random:

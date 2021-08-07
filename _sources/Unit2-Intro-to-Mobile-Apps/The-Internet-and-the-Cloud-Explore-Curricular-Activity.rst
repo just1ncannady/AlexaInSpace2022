@@ -116,27 +116,6 @@ Learning Activities
     </li></ul>
     <p>
     
-    Here is a table of some of the technical vocabulary we've introduced in this lesson. Hover over the terms to review the definitions.
-    <br/>
-    </p>
-    <table align="center">
-    <tbody><tr>
-    <td><span class="hover vocab yui-wk-div" data-id="Internet">Internet</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">World Wide Web (WWW)</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="browser">Browser</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="protocol">Protocol</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP</span>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="HTTP">HTTP</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="open standard">Open standard</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="IETF">IETF</span>
-    </td>
-    </tr>
-    </tbody></table>
-    <br/>
     <h3>Explore Curricular Activity: Beneficial and Harmful Effects of Computing Innovations</h3>
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (25 minutes)</h3>
@@ -222,7 +201,31 @@ Self-Check
 .. raw:: html
 
     <p>
-    <p>Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.<br/>
+	<h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+	</p>
+	
+    <table align="center">
+    <tbody><tr>
+    <td><span class="hover vocab yui-wk-div" data-id="Internet">Internet</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">World Wide Web (WWW)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="browser">Browser</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="protocol">Protocol</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP</span>
+    </td>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="HTTP">HTTP</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="open standard">Open standard</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="IETF">IETF</span>
+    </td>
+    </tr>
+    </tbody></table>
+	
+    <h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
     
 .. mchoice:: mcsp-2-6-1
     :random:

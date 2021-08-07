@@ -137,6 +137,7 @@ Self-Check
 
     <p>
     <h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.</p>
     <table align="center">
     <tbody><tr>
     <td>
