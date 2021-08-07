@@ -47,19 +47,20 @@ Introduction and Goals
 		</td>
       </tr>    
       <tr>
-        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/PWKGUzdiP44" width="315"></iframe>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/PWKGUzdiP44" width="275"></iframe>
         (<a href="http://www.teachertube.com/video/paintpot2preview-347830" target="_blank">TeacherTube Version</a>)</td>
         <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
           <ul>
           <li>follow an instructor-led walkthrough to create the <i>PaintPot</i> app on a mobile device</li>
-		  <li>continue navigating the App Inventor programming platform</li>
-          <li>develop your understanding of what an App Inventor program is</li>
-          <li>deepen your understanding of event-driven programming</li>
-          <li>learn how to use a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> to make a program more general.</li>
+          <li>develop an understanding of what an App Inventor program is</li>
+          <li>deepen an understanding of event-driven programming</li>
+          <li>learn how to use a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> to make a program more general</li>
           </ul>
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
+		  <li>explain the result of programming statements that include <span class="hover vocab yui-wk-div" data-id='variable'>variables</span> and <span class="hover vocab yui-wk-div" data-id='assignment'>assignments</span></li>
+		  <li>describe how a global variable is an abstraction</li>
           <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>, <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span>, <span class="hover vocab yui-wk-div" data-id='expression'>expression</span>, <span class="hover vocab yui-wk-div" data-id='operator'>operator</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
         </td>

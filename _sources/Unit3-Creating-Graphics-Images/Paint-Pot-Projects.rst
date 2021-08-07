@@ -43,8 +43,8 @@ Introduction and Goals
 		<td colspan=2><b><i>Be creative!</i></b> In this lesson you will complete several small programming projects that add enhancements to the Paint Pot app.  Hints and suggestions are provided.</td>
 	</tr>
 	<tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="275" src="https://www.youtube.com/embed/2JIoJ-I3jH0">
+    <td valign="top">
+    <iframe allowfullscreen="" frameborder="0" height="325" width="270" src="https://www.youtube.com/embed/2JIoJ-I3jH0">
     </iframe>
     </td>
     <td valign="top">
@@ -55,8 +55,9 @@ Introduction and Goals
           </ul>
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
-           <li>describe the functionality of an app using key vocabulary such as component, event, and pseudocode, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
            <li>explain the advantages of collaboration when developing and improving an app using supporting details and examples</li>
+		   <li>discuss errors in my program when I run my code, including how the errors could be fixed and tested</li>
+		   <li>describe the functionality of an app using key vocabulary such as component, event, and pseudocode, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>       
           </ul>
     </td>
     
