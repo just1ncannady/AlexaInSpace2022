@@ -51,6 +51,11 @@ Introduction and Goals
     </ul>
     </td>
         
+Learning Activities
+--------------------
+
+.. raw:: html
+
     <h3>Lecture</h3>
     
 .. youtube:: XpJdZrviSuw
@@ -60,16 +65,12 @@ Introduction and Goals
 
 .. raw:: html
 
-
     <div>(<a href="http://www.teachertube.com/video/abstraction-347740" target="_blank">Teacher Tube version</a>)</div>
-    
-
-Learning Activities
---------------------
-
+	
 .. raw:: html
 
-    <p>
+    <h3>Practice with Abstraction</h3>	
+	<p>
     <p>Your teacher may have you do some of the following activities.
     </p><ul>
     <li>
