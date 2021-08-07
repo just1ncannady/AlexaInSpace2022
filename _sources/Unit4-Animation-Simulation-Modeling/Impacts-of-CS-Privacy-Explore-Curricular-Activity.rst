@@ -32,17 +32,30 @@ Introduction and Goals
     <p>
     <table>
     <tbody>
+	<tr><td colspan=2>
+	    <p>Like any computing innovation, mobile computing has both positive and negative impacts, including legal and ethical concerns. We need to reflect on these impacts in general. We also need to think about the impacts we will create as we build our own mobile apps. In this lesson, we will explore the following:</p>
+		<ul>
+		<li>Privacy Concerns - who is collecting our data?</li>
+		<li>What information and data are collected and how are they collected?</li>
+		<li>How is the information and data collected used?</li>
+		<li>How has social media affected our privacy?</li>
+		</ul>
+	</td></tr>
     <tr>
-    <td width="40%">
-    <img alt="" class="yui-img" height="200px" src="../_static/assets/img/CSPLogo.png" style="float:left;padding-right:1em" title=""/></td><td>
-    <p>Like any computing innovation, mobile computing has both positive and negative impacts, including legal and ethical concerns. We need to reflect on these impacts in general. We also need to think about the impacts we will create as we build our own mobile apps. In this lesson, we will explore the following:</p>
-    <ul>
-    <li>Privacy Concerns - who is collecting our data?</li>
-    <li>What information and data are collected and how are they collected?</li>
-    <li>How is the information and data collected used?</li>
-    <li>How has social media affected our privacy?</li>
-    </ul>
-    </td>
+    <td><img alt="" class="yui-img" width="450px" height="200px" src="../_static/assets/img/CSPLogo.png" title=""/></td>
+	<td>
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		<ul>
+		<li>understand how private information can be collected and exploited</li>
+		<li>consider how data is used in apps I write and how it needs to be protected</li>
+		<li>discuss ethical implications of data collection</li>
+		</ul>
+		<div><b>Language Objectives:</b>&nbspI will be able to</div>
+		<ul>
+		<li>identify and describe <span class="hover vocab yui-wk-div" data-id="Data Privacy">data privacy</span>, <span class="hover vocab yui-wk-div" data-id="Data Security">data security</span>, and <span class="hover vocab yui-wk-div" data-id="Data Storage">data storage</span> concerns of computing innovations</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="Cookies">cookies</span> and <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PTI)</span> while discussing privacy concerns, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		</ul>
+	</td>
     </tr>
     </tbody>
     </table>
@@ -72,7 +85,7 @@ Learning Activities
     <p>First, we need to understand the various types of data and how it is collected from us. Some examples of data types are integers, numbers, booleans, text, image, video, audio, and signals. Data can also infer these types, such as fingerprints, temperature, music, length, pictures, etc. Data is gathered by data collection devices (e.g., keyboards, sensors, cameras, etc.). Complete this <a href="https://docs.google.com/document/d/1YPVGCNXv_eHcahlfEBDqnlczAPCLGZBkpdlEkSte544/copy" target="_blank" title="">Data Types and Data Collection Reference Sheet</a> with some examples of your own and/or with your class. When you’re done, this document can be used as a reference sheet for the remainder of this lesson. </p>
     <h3>Activity - Part 2: Classifying Data</h3>
     <p>Earlier in the course you learned about what a computing innovation is and discussed some examples. You also learned about input and output. Now that you know what a computing innovation is and the kinds of data that can be collected, you can determine what data is collected by specific computing innovations. Using this <a href="https://docs.google.com/document/d/1FqRKMRqCMU7OkIpZySR5ISYbNrzJNxRuF59Iu96sNSY/copy" target="_blank" title="">Classifying Data worksheet</a>, identify the data used by the listed computing innovations and then classify the data as input or output. When you are finished, compare your answers with a classmate.</p>
-    <p><b>How is your data being used and are you concerned?</b> Disparate personal data, such as geolocation, <span class="hover vocab yui-wk-div" data-id='Cookies'>Cookies</span>, and browsing history, can be aggregated to create knowledge about an individual. PII and other information stored online can be used to enhance a user’s online experiences and to simplify making online purchases. You may have seen targeted ads when browsing the web. Targeted ads are ads specific to you based on your browsing and purchase history. They are being used by stores (as shown in the NY times video below) and by websites for internet advertising.</p>
+    <p><b>How is your data being used and are you concerned?</b> Disparate personal data, such as geolocation, <span class="hover vocab yui-wk-div" data-id='Cookies'>cookies</span>, and browsing history, can be aggregated to create knowledge about an individual. PII and other information stored online can be used to enhance a user’s online experiences and to simplify making online purchases. You may have seen targeted ads when browsing the web. Targeted ads are ads specific to you based on your browsing and purchase history. They are being used by stores (as shown in the NY times video below) and by websites for internet advertising.</p>
     
     <p><b>Discussion:</b> Watch the video to the below on Retailer's Predictions from the New York Times. (<a href="http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&amp;_r=0" target="_blank" title="">Here is the full article</a> if you're interested in reading more.). Then, take a look at a <a href="https://www.thebillfold.com/2016/03/show-us-your-grocery-receipts-part-seven-target/" target="_blank" title="">receipt from Target</a> and the data available on it. Consider the following questions to help you understand how companies like Target collect information on buying habits:<br/></p>
     <ul>
@@ -91,9 +104,9 @@ Learning Activities
     
     <br />
     <h4>Data Concerns</h4>
-    <p>The collection of our data raises a variety of concerns involving <span class="hover vocab yui-wk-div" data-id='data privacy'>data privacy</span>, <span class="hover vocab yui-wk-div" data-id='data security'>data security</span>, and <span class="hover vocab yui-wk-div" data-id='data storage'>data storage</span>. For example, commercial and governmental curation of information may be exploited if privacy and other protections are ignored. Having a website collect and remember your login information, for example, may be convenient because it saves you time, but it also comes with risks and concerns:</p>
+    <p>The collection of our data raises a variety of concerns involving <span class="hover vocab yui-wk-div" data-id='Data Privacy'>data privacy</span>, <span class="hover vocab yui-wk-div" data-id='Data Security'>data security</span>, and <span class="hover vocab yui-wk-div" data-id='Data Storage'>data storage</span>. For example, commercial and governmental curation of information may be exploited if privacy and other protections are ignored. Having a website collect and remember your login information, for example, may be convenient because it saves you time, but it also comes with risks and concerns:</p>
     <ul>
-    <li><span class="hover vocab yui-wk-div" data-id='Data Privacy'>Data Privacy/span> - assures that personal information (and sometimes corporate confidential information as well) are collected, processed (used), protected and destroyed legally and fairly.  </li>
+    <li><span class="hover vocab yui-wk-div" data-id='Data Privacy'>Data Privacy</span> - assures that personal information (and sometimes corporate confidential information as well) are collected, processed (used), protected and destroyed legally and fairly.  </li>
     <li><span class="hover vocab yui-wk-div" data-id='Data Security'>Data Security</span></span> - controls access to personal information and protects against its unauthorized use and acquisition. </li>
     <li><span class="hover vocab yui-wk-div" data-id='Data Storage'>Data Storage</span> - how you archive your data. The two types of storage are hard data (RAM, Hard Drive, flash drives, solid state) and remote data (cloud computing) - <a href="https://www.techopedia.com/definition/23342/data-storage" target="_blank" title="">Techopedia</a></li>
     </ul>
