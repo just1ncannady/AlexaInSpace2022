@@ -127,7 +127,8 @@ Still Curious?
 
 .. raw:: html
 
-    <p>
+    <p>Did you enjoy creating your own app? In this course, you will get the chance to build lots of apps like this with the help of tutorials and you'll even have the chance to work on your own original app idea! If you finish this lesson early and want to try creating another app now, check out these <a href="https://appinventor.mit.edu/explore/ai2/beginner-videos" target="_blank" title="beginner App Inventor tutorials">fun beginner tutorials</a> from MIT App Inventor.
+	</p>
     
 Self-Check
 -----------
