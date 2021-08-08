@@ -70,7 +70,7 @@ Introduction and Goals
           </ul>
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
-		  <li>describe the benefits of data persistence for an app</li>
+		  <li>explain what it means for data to persist in an app</li>
           <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="database">database</span>, while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
     </td>
