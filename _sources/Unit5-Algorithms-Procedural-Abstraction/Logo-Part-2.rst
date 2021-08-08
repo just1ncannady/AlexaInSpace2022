@@ -22,7 +22,7 @@ Logo Part 2
       });
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
 Introduction and Goals
 -----------------------
@@ -34,34 +34,36 @@ Introduction and Goals
 
     <table>
     <tbody>
+	<tr>
+		<td colspan=2>
+		 In this lesson you will design, implement, and test algorithms to draw complex shapes using Logo commands. For example, you will write an algorithm to draw shapes and flowers as shown in the video below.     
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2>
+			For this set of exercises we will be using a more powerful set of abstractions for forward and turn:<br/>
+			<ul>
+			<li>The <b>forward(N)</b> command moves the Android <b>forward by N pixels</b>.</li>
+			<li>The <b>turn(D)</b> command causes the Android to <b>turn right by D degrees</b>.</li>
+			</ul>
+		</td>
+	</tr>
     <tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/gopOXnrTUHE" width="300"></iframe>
-    </td>
-    <td width="20px"</td>
-    <td>
-            In this lesson you will design, implement, and 
-            test algorithms to draw complex shapes using Logo commands.
-            For example, you will write an algorithm to draw shapes like the
-            flower shown in the screen shot on the left.     
-            <br/>
-    <p>
-    <b>Objectives:</b> In this lesson you will learn to :
-            </p>
-    <ul>
-    <li>use Logo commands to draw shapes;</li>
-    <li>learn how to incorporate parameters into your procedures; </li>
-    <li>define your own procedures, your own abstractions, to draw more complex shapes.</li>
-    </ul>
-    <p>
-              For this set of exercises we will be using a more powerful set of abstractions for forward and turn:
-            </p>
-    <ul>
-    <li>The <b>forward(N)</b> command moves the Android <b>forward by N pixels</b>.</li>
-    <li>The <b>turn(D)</b> command causes the Android to <b>turn right by D degrees</b>.</li>
-    </ul>
-    </td>
-    </tr>
+		<td valign="top"><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/gopOXnrTUHE" width="275"></iframe></td>
+		<td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>use Logo commands to draw shapes</li>
+			<li>incorporate <span class="hover vocab yui-wk-div" data-id="parameters">parameters</span> into my procedures</li>
+			<li>define my own procedures - my own abstractions - to draw more complex shapes</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>explain how writing procedures manages the complexity of my program</li>
+			<li>explain why adding well-defined <span class="hover vocab yui-wk-div" data-id="parameters">parameters</span> makes procedures more abstract</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="parameters">parameters</span> <span class="hover vocab yui-wk-div" data-id="arguments">arguments</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
+		</td>
     </tbody>
     </table>
     
@@ -96,7 +98,7 @@ Learning Activities
       </li>
     </ul>
     <p>
-      The N and D here are called <b><i><span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span></i></b> which are input variables for a procedure. They are given values called <b><i><span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span></i></b> when you call the procedure to do its job.
+      The N and D here are called <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> which are input variables for a procedure. They are given values called <span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span> when you call the procedure to do its job.
        A simple example will illustrate the
       advantage of using <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>. 
     </p>
@@ -122,7 +124,7 @@ Learning Activities
     </table>
     <p>
       With this new set of commands to move forward by 40 pixels we can pass
-      the value 40 to the procedure through its parameter.  So going foward
+      the value 40 to the procedure through its <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span>.  So going foward
        by 40 pixels requires only one command:
     </p>
     <table border="1">
@@ -140,15 +142,15 @@ Learning Activities
     </table>
     <p>
       The earlier version of <i>forward()</i> was very specific whereas the new 
-      <i>parameterized</i> version is more general, and it is the inclusion of the parameter 
+      <i>parameterized</i> version is more general, and it is the inclusion of the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> 
       that gives it its generality.  Instead of always going forward by 10 pixels, we can 
       now go forward by any number of pixels with one procedure call by simply passing the
-      distance we want to travel as the argument value which will be assigned to the parameter variable.
+      distance we want to travel as the <span class="hover vocab yui-wk-div" data-id="arguments">argument</span> value which will be assigned to the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> variable.
     </p>
     <p>
       The same observations would apply to the <i>turn()</i> procedure.  
       The earlier abstraction was too specific, allowing us only to turn by 90 degrees.  
-      The new one, because it involves a parameter, lets us turn by any number of degrees.
+      The new one, because it involves a <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span>, lets us turn by any number of degrees.
       The old version and the new version of Logo procedures are both abstractions. 
       But clearly, the new set of abstractions are much more powerful.  
     </p>
@@ -160,7 +162,7 @@ Learning Activities
     
     A <b>procedure</b> is a named group of programming instructions that may have <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> and return values. Procedures are referred to by different names, such as method or function, depending on the programming language. A procedure call interrupts the sequential execution of statements, causing the program to execute the statements within the procedure before continuing. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.
     
-    In this lesson, you will learn to define procedures with <b><span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span></b>, which are variables that hold data sent to the procedure to help it do its job. To do this, you will need get a procedure block from the Procedures drawer. As always, you should give your procedure an appropriate name. To add a parameter to the procedure, click the blue mutator button on the procedure block  and drag an input block from the left into the inputs block on the right. Click the blue button when you have finished adding the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> needed for the procedure.  Replace x in input x with a useful and helpful parameter name such as L or Length for the drawSquare procedure. After you've defined the procedure, look in the Procedures drawer to find the newly generated call block for that procedure which you can use to call the procedure to do its job.<p>
+    In this lesson, you will learn to define procedures with <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>, which are variables that hold data sent to the procedure to help it do its job. To do this, you will need get a procedure block from the Procedures drawer. As always, you should give your procedure an appropriate name. To add a <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> to the procedure, click the blue mutator button on the procedure block  and drag an input block from the left into the inputs block on the right. Click the blue button when you have finished adding the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> needed for the procedure.  Replace x in input x with a useful and helpful <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> name such as L or Length for the drawSquare procedure. After you've defined the procedure, look in the Procedures drawer to find the newly generated call block for that procedure which you can use to call the procedure to do its job.<p>
     <img height="200px" src="../_static/assets/img/procedureParamAnimated.gif"/>
     </p><p>  In the AP exam, the following pseudocode is used for procedures with and without <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> compared to App Inventor blocks. Notice that parentheses () are  used after a procedure name in the AP text pseudocode; they can be empty or hold the <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span>. There is also a special kind of procedure, often called a <b>function</b>, that can return a result. The  RETURN(result) statement can be used inside these procedures to return a calculated result or expression which can be assigned to a variable. For example, result ← procName(arg1, arg2, …) to assign to result the “value of the procedure” being returned by calling PROCEDURE procName(parameter1, parameter2, …).  The AP pseudocode provides a procedure DISPLAY(expression)  to display the value of expression, followed by a space, and a procedure INPUT(), which accepts a value from the user and returns the input value often assigned to a variable. <br/>
     </p>
@@ -182,7 +184,7 @@ Learning Activities
     <bl>instructions</bl>
     </bl></div></td>
     <td><img src="../_static/assets/img/procedure.png" width="70%"/></td></tr>
-    <tr><td>Procedures with <span class="hover vocab yui-wk-div" data-id='Parameters'>Parameters</span></td><td>
+    <tr><td>Procedures with <span class="hover vocab yui-wk-div" data-id='parameters'>Parameters</span></td><td>
     <pre>PROCEDURE name(param1,param2,...)
     {
      <em>instructions</em>
@@ -209,7 +211,7 @@ Learning Activities
     </tbody></table>
     
     -->
-    <p>The following example uses <span class="hover vocab yui-wk-div" data-id='procedural abstraction'>procedural abstraction</span> and <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> to write a procedure <i>welcome(name)</i> that will work for any name. We can call  the procedure welcome with different <span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span> "Ali" and "Skyler". The argument value gets assigned to the parameter name when the procedure is called so that it can display hello to whichever name it is given. When you call the procedure welcome with a name, the program  jumps to the procedure and executes those statements. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.<br/>
+    <p>The following example uses <span class="hover vocab yui-wk-div" data-id='procedural abstraction'>procedural abstraction</span> and <span class="hover vocab yui-wk-div" data-id='parameters'>parameters</span> to write a procedure <i>welcome(name)</i> that will work for any name. We can call  the procedure welcome with different <span class="hover vocab yui-wk-div" data-id='arguments'>arguments</span> "Ali" and "Skyler". The <span class="hover vocab yui-wk-div" data-id="arguments">argument</span> value gets assigned to the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> name when the procedure is called so that it can display hello to whichever name it is given. When you call the procedure welcome with a name, the program  jumps to the procedure and executes those statements. Once the last statement in the procedure (or a return statement) has executed, flow of control is returned to the point immediately following where the procedure was called.<br/>
     <img src="../_static/assets/img/procedureCall.png" width="350"/>
     </p><h3>Tutorial: DrawSquare(L)</h3>
     <p>
@@ -245,10 +247,10 @@ Learning Activities
       draw an L x L square where L is the length of the side using a for each loop.  <b> To test your algorithm, you have to call it from the <i>ButtonDraw.Click</i> handler.</b>
     </p>
     <p>
-      NOTE and HINT:  <i><font color="magenta">In App Inventor and other programming languages the name of the parameter 
-      doesn’t matter so you can use names that are descriptive of the parameter’s purpose.</font></i>  For example, either 
+      NOTE and HINT:  <i><font color="magenta">In App Inventor and other programming languages the name of the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> 
+      doesn’t matter so you can use names that are descriptive of the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span>’s purpose.</font></i>  For example, either 
       of these  procedure definition blocks could be used as the basis of your drawSquare procedure.  The key is to use 
-      parameter names that are meaningful to you and other programmers.
+      <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> names that are meaningful to you and other programmers.
       <br/>
     <img src="../_static/assets/img/TwoDrawSquareProcs.png" width="500px"/>
     </p>
@@ -260,12 +262,10 @@ Learning Activities
       <img align="left" src="../_static/assets/img/Triangle.png" width="100px"/>
     </p><p>You also need to figure out what angle to use for the turns. You could  use trial and error, or notice that you need the exterior angles of a triangle. To close a shape, you need to rotate 360 degrees. For the square, which has 4 sides, we need 360/4 = 90 degree angles (here the exterior and interior angles are the same). For the triangle, the interior and exterior angles are different, and you need the exterior angle to close the shape.</p>
     <p>  Once you’ve got the algorithm figured out, implement it in App Inventor and test it.  Because you might want to 
-      use your triangle algorithm again, define it into a procedure with a parameter.  What should the parameter represent?
-      <br/>
-    <br/>
+      use your triangle algorithm again, define it into a procedure with a <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span>.  What should the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> represent?
     </p>
     <p>
-    <b><br/>3.</b> Draw a pentagon -- i.e., a 5-sided figure with equal sides and angles.  Again, first design it by 
+    <b>3.</b> Draw a pentagon -- i.e., a 5-sided figure with equal sides and angles.  Again, first design it by 
       hand -- how much does the Android have to turn to draw a pentagon?  Since this is another example of a repetition, 
       use the for-each block in your algorithm. How many repetitions are necessary? 
       
@@ -275,8 +275,8 @@ Learning Activities
       this translate to a pentagon?
       <br/>
       Once you have figured out the algorithm, implement it in App Inventor and test it.   Because you might want 
-      to use your pentagon algorithm again, define it into a procedure with a parameter.  
-      What should the parameter represent?
+      to use your pentagon algorithm again, define it into a procedure with a <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span>.  
+      What should the <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> represent?
     </p>
     <p>
     <b>4.</b> (Advanced) Squares and pentagons are both examples of a more general shape, a polygon. A polygon is 
