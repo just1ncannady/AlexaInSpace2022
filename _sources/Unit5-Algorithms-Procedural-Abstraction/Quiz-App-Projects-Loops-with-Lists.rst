@@ -40,24 +40,27 @@ Introduction and Goals
     <p>
     <table>
     <tbody>
+	<tr>
+		<td valign="top" colspan=2>In this lesson, you will complete several small programming projects that add enhancements to the Quiz App.  You are encouraged to discuss your ideas for how to solve these problems with the instructor and with your partner  and other students. Hints and suggestions are provided.	</td>
+	</tr>
     <tr>
-    <td width="30%">
-    <!--  &lt;img src=&quot;assets/img/6-3-QuizAppProjectsUI.png&quot; width=&quot;100%&quot;&gt; -->
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/1Mb_Hr8nqEU" width="315"></iframe>
-    </td>
     <td>
-            In this lesson, you will complete several small programming 
-            projects that add enhancements to the Quiz App.  You are encouraged to discuss 
-            your ideas for how to solve these problems with the instructor and with your partner 
-            and other students. Hints and suggestions are provided.
-            <p>
-    <b>Objectives:</b> In this lesson, you will :</p>
-    <ul>
-    <li>learn to count right/wrong answers using a list to keep track of which questions have already been answered;</li>
-    <li>learn to use loops with lists and standard algorithms with loops;</li>
-    <li>solidify your understanding of the quiz app through personalizing and customizing it.</li>
-    </ul>
+		<!--  &lt;img src=&quot;assets/img/6-3-QuizAppProjectsUI.png&quot; width=&quot;100%&quot;&gt; -->
+		<iframe allowfullscreen="" frameborder="0" height="325" src="https://www.youtube.com/embed/1Mb_Hr8nqEU" width="275"></iframe>
     </td>
+	<td valign="top">
+		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		<ul>
+		<li>count right/wrong answers using a list to keep track of which questions have already been answered</li>
+		<li>use loops with lists and standard algorithms to enhance my app</li>
+		<li>manipulate lists in pseudocode using the insert, append, and length procedures</li>
+		<li>design and implement my own custom quiz app features</li>
+		</ul>
+		<div><b>Language Objectives:</b>&nbspI will be able to</div>
+		<ul>
+		<li>use target vocabulary, such as insert, append, and length while improving app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		</ul>
+	</td>
     </tr>
     </tbody>
     </table>
