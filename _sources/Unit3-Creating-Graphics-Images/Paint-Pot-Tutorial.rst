@@ -60,7 +60,7 @@ Introduction and Goals
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
 		  <li>explain the result of programming statements that include <span class="hover vocab yui-wk-div" data-id='variable'>variables</span> and <span class="hover vocab yui-wk-div" data-id='assignment'>assignments</span></li>
-		  <li>describe how a global variable is an abstraction</li>
+		  <li>describe how a global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> is an abstraction</li>
           <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>, <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span>, <span class="hover vocab yui-wk-div" data-id='expression'>expression</span>, <span class="hover vocab yui-wk-div" data-id='operator'>operator</span>, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
         </td>
@@ -262,10 +262,12 @@ Self-Check
 -----------
 
 .. raw:: html
+	
 	<p>
-    
-    Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
-    
+    <h3>Vocabulary</h3>
+    <p>Here is a table of some of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.
+    </p>
+	
     <table align="center">
     <tbody><tr>
     <td>
@@ -282,6 +284,9 @@ Self-Check
     </table>
     <p>
     
+	<h3>Check Your Understanding</h3>
+    <p>Complete the following self-check exercises. 
+	</p>
 .. mchoice:: mcsp-3-2-4
     :random:
     :practice: T
