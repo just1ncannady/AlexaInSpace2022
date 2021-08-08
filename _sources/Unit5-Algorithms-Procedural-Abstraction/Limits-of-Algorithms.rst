@@ -37,7 +37,7 @@ Limits of Algorithms
     
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
 Introduction and Goals
 -----------------------
@@ -45,31 +45,35 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>We've been using algorithms to build our apps and we've learned
-      about algorithms for solving certain types of problems, such as
-      searching and sorting problems.
-    </p>
-    <p>It may seem that no matter what the problem, we can find an
-      algorithm to solve it.  But that is not true.  And in this
-      lesson we want to look at some problems that algorithms cannot solve 
-      or cannot solve efficiently.
-    </p>
+    <p>We've been using algorithms to build our apps and we've learned about algorithms for solving certain types of problems, such as searching and sorting problems.</p>
+    <p>It may seem that no matter what the problem, we can find an algorithm to solve it.  But that is not true.  And in this lesson we want to look at some problems that algorithms cannot solve or cannot solve efficiently.</p>
+	<p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>differentiate between problems that have <span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable</span> solutions and those that do not </li>
+	<li>discuss <span class="hover vocab yui-wk-div" data-id="heuristic algorithm">heuristic</span> solutions when an optimal solution is not possible</li>
+	<li>explain how <span class="hover vocab yui-wk-div" data-id="intractable problems">intractability</span> can be used to solve problems such as password security</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time</span>, <span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time</span>, <span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems</span>, <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems</span> and <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problem</span> while discussing algorithms, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+	</p>
+	
     <p>There are two senses in which an algorithm cannot solve a 
       problem:
       </p><ol>
-    <li><b><span class="hover vocab yui-wk-div" data-id='Undecidable Problems'>Undecidable Problems</span></b>.  There are certain problems
-          which are the theoretically impossible to solve — by any algorithm. The <b>halting problem</b> is a <b><span class="hover vocab yui-wk-div" data-id='decision problem'>decision problem</span></b> (with a yes or no answer) that is undecidable. A computer cannot tell if it is in an infinite loop or it will at some point stop!
+    <li><span class="hover vocab yui-wk-div" data-id='undecidable problems'>Undecidable Problems</span>.  There are certain problems
+          which are the theoretically impossible to solve — by any algorithm. The <span class="hover vocab yui-wk-div" data-id="The Halting Problem">halting problem</span> is a <span class="hover vocab yui-wk-div" data-id='decision problem'>decision problem</span> (with a yes or no answer) that is <span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable</span>. A computer cannot tell if it is in an infinite loop or it will at some point stop!
         </li>
-    <li><b><span class="hover vocab yui-wk-div" data-id='Intractable Problems'>Intractable Problems</span></b>.  There are problems that are
-          practically impossible to solve in a <b><span class="hover vocab yui-wk-div" data-id='reasonable time'>reasonable time</span></b> — i.e., there are known algorithmic
+    <li><span class="hover vocab yui-wk-div" data-id='intractable problems'>Intractable Problems</span>.  There are problems that are
+          practically impossible to solve in a <span class="hover vocab yui-wk-div" data-id='reasonable time'>reasonable time</span> — i.e., there are known algorithmic
           solutions, but the algorithms are too inefficient/slow to solve the 
           problem when the number of inputs grows large.
         </li>
     </ol>
     <p>
-      The following video will give us an overview of these types of limits
-      to algorithms and will illustrate how we can use the fact that certain
-      problems are intractable to protect our passwords and other information.
+      The following video will give us an overview of these types of limits to algorithms and will illustrate how we can use the fact that certain problems are <span class="hover vocab yui-wk-div" data-id='intractable problems'>intractable</span> to protect our passwords and other information.
     </p>
     
 .. youtube:: 6uErSfQdIc0
@@ -145,21 +149,20 @@ Learning Activities
     </div>
     <h3>Heuristic Solutions to Intractable Problems</h3>
     <p>For some <span class="hover vocab yui-wk-div" data-id='intractable problems'>intractable problems</span>, we need to have practical 
-      solutions.  One such example is the <i><b>Traveling Salesman Problem (TSP)</b></i>:
-      Construct the most efficient route, <b>the optimal route</b>, that visits <i>N</i> cities. This is an <b><span class="hover vocab yui-wk-div" data-id='optimization problem'>optimization problem</span></b> where the goal is to find the "best" (most optimal) solution among many.
+      solutions.  One such example is the <span class="hover vocab yui-wk-div" data-id='The Traveling Salesman Problem'>Traveling Salesman Problem (TSP)</span>:
+      Construct the most efficient route, <b>the optimal route</b>, that visits <i>N</i> cities. This is an <span class="hover vocab yui-wk-div" data-id='optimization problem'>optimization problem</span> where the goal is to find the "best" (most optimal) solution among many.
     </p>
     <p>Clearly, this is a problem we would like to be able to solve.  And clearly, variations
       of this problem are the kinds of problems that Google maps and other apps solve for us
       when we ask for driving directions.
     </p>
     <p>Fortunately, there are so-called heuristic algorithms that computer
-      scientists use to solve such problems. A <i><b><span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic algorithm</span></b></i> is one
+      scientists use to solve such problems. A <span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic algorithm</span> is one
       that provides a solution to a problem, although in many cases the solution may not be
       the best possible solution -- i.e., it may not be an optimal solution.
     </p>
     <p>
-      The following video will give us an overview of the Traveling
-      Salesman Problem.
+      The following video will give us an overview of the <span class="hover vocab yui-wk-div" data-id='The Traveling Salesman Problem'>Traveling Salesman Problem</span>.
     </p>
     
 .. youtube:: -S3q68v5vts
@@ -195,14 +198,14 @@ Learning Activities
     
       <h3>Questions</h3>
     <ol>
-    <li>Starting and ending at Trinity College, what route would the <i>nearest neighbor heuristic</i>
+    <li>Starting and ending at Trinity College, what route would the <i>nearest neighbor <span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic</span></i>
           produce for the proposed visits? 
         </li>
     <li>Starting and ending at Trinity College, find the optimal route that visits all schools. (HINT: To prove that
           your route is optimal, you'll have to compare it to all possible routes starting and ending at Trinity.) 
         </li>
     <li>(<b>Portfolio</b>) For routes starting and ending at Trinity College, you have identified the nearest neighbor route and
-          the optimal route.  What does this show you about the nearest neighbor heuristic?
+          the optimal route.  What does this show you about the nearest neighbor <span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic</span>?
         </li>
     </ol>
     </div>
@@ -239,11 +242,9 @@ Self-Check
 .. raw:: html
 
     <p>
-    Here is a table of some of the technical terms discussed in this
-    lesson. Hover over the terms to review the definitions.
+    Here is a table of some of the technical terms discussed in this lesson. Hover over the terms to review the definitions.
     
-    <blockquote>
-    <table align="left">
+    <table align="center">
     <tbody>
     <tr>
     <td>
@@ -251,8 +252,8 @@ Self-Check
     <br/><span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems</span>
     <br/><span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable problems</span>
     <br/><span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="reasonable time">Reasonable Time</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="unreasonable time">Unreasonable Time</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable Time</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable Time</span>
     
     </td>
     <td>
@@ -265,10 +266,7 @@ Self-Check
     </tr>
     </tbody>
     </table>
-    </blockquote>
     <br/>
-    <br/>
-    <br/><br/><br/>
     <br/>
 .. mchoice:: mcsp-5-8-1
     :random:
