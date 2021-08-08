@@ -35,36 +35,45 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <p>Search is a very important area of study in computer science. Just think of how 
-    often you search for information on the Internet using Google or some other search 
-    engine.  It's remarkable how much information Google's algorithms search through and
-    how fast they deliver the results.  
-    
-    
-.. youtube:: 0eKVizvYSUQ
-        :width: 650
-        :height: 415
-        :align: center
+	<p>
+    <table>
+    <tbody>
+      <tr>
+		<td valign="top" colspan=2>Search is a very important area of study in computer science. Just think of how often you search for information on the Internet using Google or some other search engine.  It's remarkable how much information Google's algorithms search through and how fast they deliver the results.</td>
+      </tr>    
+      <tr>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="275" width="315" src="https://www.youtube.com/embed/0eKVizvYSUQ"></iframe>
+        </td>
+        <td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>identify the strengths and weaknesses of the sequential and binary search algorithms</li>
+			<li>determine the number of iterations required to find a value in a data set</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>use target vocabulary, such as binary search and sequential search while considering algorithms for finding a value in a data set, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
+        </td>
+      </tr>
+	  <tr>
+		<td valign="top" colspan=2>
+			<p>So, as the video described, when you do a Google search, you aren't actually
+			searching the Web, you're searching Google's index of the Web.  Google's
+			<i>spider programs</i> are constantly traversing the web, collecting millions of 
+			web pages and organizing them into an <i>index</i>.  When you do a Web search
+			Google's algorithms are searching that index.
+			</p>
+			<p>What's the best algorithm for searching an index?  An index is an <i>ordered</i> 
+			collection.  Think of the index that comes  at the back of a textbook.  It is organized 
+			in alphabetical order. Each entry in the index refers to some page in the book. 
+			</p>
+		</td>
+      </tr>
+    </tbody>
+    </table>
 
-.. raw:: html
 
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
-
-    </p>
-    <p>So, as the video described, when you do a Google search, you aren't actually
-    searching the Web, you're searching Google's index of the Web.  Google's
-    <i>spider programs</i> are constantly traversing the web, collecting millions of 
-    web pages and organizing them into an <i>index</i>.  When you do a Web search
-    Google's algorithms are searching that index.
-    </p>
-    <p>What's the best algorithm for searching an index?  An index is an <i>ordered</i> 
-    collection.  Think of the index that comes  at the back of a textbook.  It is organized 
-    in alphabetical order. Each entry in the index refers to some page in the book. 
-    </p>
     
 Learning Activities
 --------------------
