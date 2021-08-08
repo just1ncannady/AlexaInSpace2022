@@ -38,23 +38,26 @@ Introduction and Goals
     <p>
     <table>
     <tbody>
+      <tr>
+		<td valign="top" colspan=2>The Quiz App presents a quiz about pioneers in computer science. The questions, answers, and corresponding images are in <b>parallel lists</b> where the first question in the question list matches with the first answer in the answer list and the first picture in the picture list, etc.</td>
+      </tr>	
     <tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/G_BrTzwHcoU" width="315">
-    </iframe>
-    <!-- (&lt;a target=&quot;_blank&quot; href=&quot;&quot;&gt;Teacher Tube version&lt;/a&gt;)-->
-    </td>
-    <td>The Quiz App presents a quiz about pioneers in computer science.The quiz uses lists, labels, images, and a button to create a simple question and answer quiz that displays ‘Correct!’ or ‘Incorrect!’ depending on the user’s answer. An index variable is used to keep track of the current question and access its  correct answer and corresponding image. The questions, answers, and corresponding images are in <b>parallel lists</b> where the first question in the question list matches with the first answer in the answer list and the first picture in the picture list, etc.
-    
-          
-            <p><b>Objectives:</b> In this lesson you will learn to:</p>
-    <ul>
-    <li>navigate through a list using an index variable;</li>
-    <li>select items from a list;</li>
-    <li>check for the end of the list;</li>
-    <li>work with parallel lists.</li>
-    </ul>
-    </td>
+	<tr>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/G_BrTzwHcoU" width="300"></iframe>
+		<!-- (&lt;a target=&quot;_blank&quot; href=&quot;&quot;&gt;Teacher Tube version&lt;/a&gt;)-->
+        </td>
+        <td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>navigate a list using an index variable</li>
+			<li>perform operations on a list, such as selecting items and checking for the end</li>
+			<li>use parallel lists to organize data</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>use target vocabulary, such as index and parallel list, while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
+        </td>
     </tr>
     </tbody>
     </table>

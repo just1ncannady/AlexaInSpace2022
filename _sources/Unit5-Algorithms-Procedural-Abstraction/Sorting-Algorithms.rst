@@ -41,9 +41,20 @@ Introduction and Goals
     help you understand the algorithms better. Alternatively, you can use <a href="http://PlayingCards.io" target="_blank" title="">PlayingCards.io</a>.</p><p>Sorting is a very important area of study in computer science. As we saw in the previous
     lesson on <i>Search</i>, it is much more efficient to search a collection if its elements
     are in order.  <i>Sorting</i> is the process of putting objects in order. Sorting
-    algorithms have been studied extensively by computer scientists.
+    algorithms have been studied extensively by computer scientists.</p>
     
-    </p><p>One of simplest sorting algorithms is the <i>bubble sort</i>.  Here's a video
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>apply sorting algorithms to given data sets</li>
+	<li>identify the strengths and weaknesses of the bubble sort, merge sort, and bucket sort algorithms</li>
+	<li>describe the difference between comparison sorts such as bubble sort and merge sort, and non-comparison sorts such as bucket sort.</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>use target vocabulary, such as bubble sort, merge sort, bucket sort, and radix sort, while considering algorithms for sorting data sets, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
+    <p>One of simplest sorting algorithms is the <i>bubble sort</i>.  Here's a video
     that demonstrates a version of the bubble sort on a collection of 13 playing cards.  
     As you watch it, see if you can discover the algorithm.
     
