@@ -43,36 +43,30 @@ Introduction and Goals
 
     <p>
     <table><tbody>
+	<tr><td colspan=2>
+		<i>Searching and Sorting Experiments.</i></b>In this lesson we are going to use an App Inventor app to analyze the algorithms we have been studying. You will be running two different apps, one to test the search algorithms and one to test the sorting algorithms.
+		<p>This activity will resemble that of a scientific investigation.  You'll run the apps repeatedly on different lists of data, record the running times of the algorithms, tabulate and graph your data, and then analyze the results.  Can you figure out from the results, which algorithm is which?</p>
+		<p>Another way to look at this activity is as <i>quality assurance (QA)</i>.  Many careers in the computing field start with assignments in QA.  This is where you help software developers test and debug their apps. 
+		</td>
+	</tr>
     <tr>
-    <td valign="top">
-    <iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/t9PVjJDXWTk" width="315">
-    </iframe>
-    (<a href="http://www.teachertube.com/video/359065" target="_blank">Teacher Tube version</a>)
-    </td>
-    <td width="20px"></td>
-    <td><b><i>Searching and Sorting Experiments.</i></b>
-    In this lesson we are going to use an App Inventor app to experiment with and
-    analyze the algorithms we have been studying.  You will be running two different
-    apps, one to test the search algorithms and one to test the sorting algorithms.
-    
-    <p>This activity will resemble that of a scientific investigation.  You'll run the 
-    apps repeatedly on different lists of data, record the running times of the algorithms,
-    tabulate and graph your data, and then analyze the results.  Can you figure out from
-    the results, which algorithm is which?
-    
-    </p><p>Another way to look at this activity is as <i>quality assurance (QA)</i>.  Many
-    careers in the computing field start with assignments in QA.  This is where you help
-    software developers test and debug their apps. 
-    
-    </p><p><b>Objectives:</b> In this lesson you will learn to :
-    </p><ul>
-    <li>conduct an empirical (experimental) investigation of basic search and sort 
-    algorithms;
-    </li><li>determine the <span class="hover vocab yui-wk-div" data-id='efficiency'>efficiency</span> (how fast they run) for basic search and sort algorithms depending on input size;
-    </li><li>deepen your understanding of basic search and sort algorithms.
-    </li></ul>
-    <p></p>
-    </td></tr>
+		<td valign="top"><iframe allowfullscreen="" frameborder="0" height="340" src="https://www.youtube.com/embed/t9PVjJDXWTk" width="250"></iframe>
+		(<a href="http://www.teachertube.com/video/359065" target="_blank">Teacher Tube version</a>)
+		</td>
+		<td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>conduct an empirical (experimental) investigation of basic search and sort algorithms</li>
+			<li>determine the <span class="hover vocab yui-wk-div" data-id='efficiency'>efficiency</span> (how fast they run) for basic search and sort algorithms depending on input size</li>
+			<li>deepen my understanding of search and sort algorithms</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>analyze and make conclusions about the algorithms being run based on my data</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=efficiency>efficiency</span> and <span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem</span> while experimenting with search and sort algorithms with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>	
+		</td>
+	</tr>
     </tbody></table>
     
 
@@ -108,8 +102,7 @@ Learning Activities
     <td>
     <b><i>Empirical Search Analysis.</i></b>
     
-    In this activity you are going to use an App Inventor app to experiment with and
-    analyze the binary and sequential search algorithms.  
+    In this activity you are going to use an App Inventor app to experiment with and analyze the binary and sequential search algorithms.  
     
     <ol>
     <li>Create a portfolio page named <i>Search Experiment</i>.
@@ -187,7 +180,7 @@ Learning Activities
     SortExperiment app (APK)</a>
     from the QR code:
     <br/>
-    <img align="right" alt="" src="../_static/assets/img/SortAppQR.png" title=""/>
+    <img align="right" alt="" src="../_static/assets/img/SortAppQR.png" style="width: 200px; height: 200px;" title=""/>
     If you are using the emulator, you can download the <a href="assets/img/SortExperiment.aia" target="_blank">aia file</a> and import it into App Inventor.
     
     </li>
@@ -228,13 +221,8 @@ Self-Check
 
 .. raw:: html
 
-    <p>
-    
-    Here is a table of some of the technical terms discussed in this
-    lesson. Hover over the terms to review the definitions.
-    
-    <blockquote>
-    <table align="left">
+    <p>Here is a table of some of the technical terms discussed in this lesson. Hover over the terms to review the definitions.
+    <table>
     <tbody>
     <tr>
     <td>
@@ -256,10 +244,7 @@ Self-Check
     </tr>
     </tbody>
     </table>
-    </blockquote>
-    <br/>
-    <br/>
-    <br/><br/><br/>
+	<br/>
     
 .. fillintheblank:: mcsp-5-7-1
 
