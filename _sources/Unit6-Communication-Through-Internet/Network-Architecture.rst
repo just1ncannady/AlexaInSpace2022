@@ -34,7 +34,7 @@ Network Architecture
         "abstraction layer" : "The Internet is organized into several abstraction layers that are controlled by various protocols. From the bottom up, we have the link layer (Ethernet protocol), the Internet layer (IP), transport layer (TCP), and application layer (HTTP).",
       };      */
     </script>
-    <h3 id="est-length"><b>Time Estimate: 90 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
 Introduction and Goals
@@ -43,17 +43,27 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-    <p>As we've learned in previous lessons, the Internet is network of networks that is managed by a collection of protocols.  We've already seen the role that the HTTP protocol plays in supporting the World Wide Web application.  In this lesson we delve more deeply into the basic architecture and infrastructure of the Internet.  We'll learn that the main Internet protocols are organized into a hierarchy of abstraction layers -- the application, transport, internet, and link layers -- each of which manages certain specific tasks required to route messages between hosts on the Internet. We'll learn about:
+    <p>As we've learned in previous lessons, the Internet is network of networks that is managed by a collection of protocols.  We've already seen the role that the HTTP protocol plays in supporting the World Wide Web application.  In this lesson we delve more deeply into the basic architecture and infrastructure of the Internet.  We'll learn that the main Internet protocols are organized into a hierarchy of abstraction layers -- the application, transport, internet, and link layers -- each of which manages certain specific tasks required to route messages between <span class="hover vocab yui-wk-div" data-id="host">hosts</span> on the Internet. We'll learn about:
       </p><ul>
-    <li>Internet architecture and abstraction layers</li>
-    <li>The <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching routing scheme</li>
+    <li>Internet architecture and <span class="hover vocab yui-wk-div" data-id='abstraction layer'>abstraction layers</span></li>
+    <li>The <span class="hover vocab yui-wk-div" data-id='packet switching'>packet switching</span> routing scheme</li>
     <li>The TCP/IP protocol</li>
     </ul>
     <p>  
       After this lesson you should have a pretty good understanding of how some of your familiar applications -- web browsing,
       email, smartphone apps -- are supported by the underlying Internet hardware and software. Here is a short video called <a href="https://www.youtube.com/watch?v=ewrBalT_eBM" target="_blank">A Packet's Tale</a> to get us started on our journey.
     </p>
-    <p><br/></p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>explain how data are sent through the Internet via <span class="hover vocab yui-wk-div" data-id="packet">packets</span></li>
+	<li>identify and describe the benefits of <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault-tolerant networks</span></li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>discuss the benefits of <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span> and Internet abstraction layers</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="router">router</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>, and <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault tolerant</span> while describing how data is transported across the Internet, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
     
 
 Learning Activities
@@ -64,11 +74,11 @@ Learning Activities
     <p><h3>Part 1: Network Architecture and Packet Switching</h3>
     <p>
       This first video focuses on basic architecture of the internet and <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching. 
-     The Internet has been engineered to be <b><span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span></b>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b><span class="hover vocab yui-wk-div" data-id='scalability'>scalability</span></b> of a system is the capacity for the system to change in size and scale to meet new demands. 
+     The Internet has been engineered to be <span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b>scalability</b> of a system is the capacity for the system to change in size and scale to meet new demands. 
       
-      </p><p>The video also illustrates how the <b><i><span class="hover vocab yui-wk-div" data-id='ping'>ping</span></i></b>
-      utility can be used to test whether certain hosts are reachable on the network.  And it introduces a new 
-      tool, <b><i><span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span></i></b>, that can be used to trace the routes that packets take from one computer to 
+      </p><p>The video also illustrates how the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span>
+      utility can be used to test whether certain <span class="hover vocab yui-wk-div" data-id="host">hosts</span> are reachable on the network.  And it introduces a new 
+      tool, <span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span>, that can be used to trace the routes that packets take from one computer to 
       another on the Internet. (<a href="https://docs.google.com/presentation/d/1g7NmzbMvyBYLZwe2NtWXSurW4D7o-uCKYCdI2yvDFIc" target="_blank" title="">Slides</a>)</p>
     <!-- Old video id:  f4TjIlS8Bms   -->
     
@@ -147,7 +157,7 @@ Learning Activities
 
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity 2  - TCP/IP Packet Routing (15 minutes)</h3>
-    <p>In the same POGIL team of 4, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of 4 should be given an <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
+    <p>In the same POGIL team of 4, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of 4 should be given an <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
     
     </p><table border="">
     <tbody><tr>
@@ -160,12 +170,12 @@ Learning Activities
     <br/><b>Receive:</b> Receives packets from the Internet layer, puts them in order, and passes them to the application layer when all is received.
     </td></tr>
     <tr><th>Internet Layer (protocol: IP)</th><td>
-    <b>Send: </b> Uses a routing table (given in the handout)  to add the destination <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> to each <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> and passes them to the Link layer.
-    <br/> <b>Receive:</b> Receives packets from the Link layer and checks that it’s their own group’s <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span>. If it is, it passes it to the transport layer. If it is not, it gives it back to the link layer to give to another group.
+    <b>Send: </b> Uses a routing table (given in the handout)  to add the destination <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> to each <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> and passes them to the Link layer.
+    <br/> <b>Receive:</b> Receives <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> from the Link layer and checks that it’s their own group’s <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>. If it is, it passes it to the transport layer. If it is not, it gives it back to the link layer to give to another group.
     </td></tr>
     <tr><th>Link Layer (protocol: Ethernet)</th><td>
-    <b>Send:</b> Passes the individual packets randomly to the link layer of other groups.
-    <br/> <b>Receive:</b> Receives packets from other groups and passes them to the Internet Layer.
+    <b>Send:</b> Passes the individual <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> randomly to the link layer of other groups.
+    <br/> <b>Receive:</b> Receives <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> from other groups and passes them to the Internet Layer.
      </td></tr>
     </tbody></table>
     <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/edit?usp=sharing" target="_blank">these handouts</a> to simulate <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> routing in the TCP/IP model.
@@ -209,7 +219,7 @@ Still Curious
     
     
     </li><li>The <a href="http://computer.howstuffworks.com/router1.htm" target="_blank">
-    How Stuff Works</a> site has a nice animated description of how routers
+    How Stuff Works</a> site has a nice animated description of how <span class="hover vocab yui-wk-div" data-id="router">routers</span>
     work to direct traffic on the Internet. 
     
     </li>
@@ -233,29 +243,27 @@ Self-Check
 
     <p>
     
-    Here is a table of some of the technical terms discussed in this
-    lesson. Hover over the terms to review the definitions.
-    <blockquote>
+    Here is a table of some of the technical terms discussed in this lesson. Hover over the terms to review the definitions.
     <table align="center">
     <tbody>
     <tr>
-    <td><span class="hover vocab yui-wk-div" data-id="host">host</span>
+    <td>
+	<span class="hover vocab yui-wk-div" data-id="host">host</span>
     <br/><span class="hover vocab yui-wk-div" data-id="router">router</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="IP address">IP address</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="IP Address">IP address</span>
     <br/><span class="hover vocab yui-wk-div" data-id="ping">ping</span>
     <br/><span class="hover vocab yui-wk-div" data-id="traceroute">traceroute</span>
     </td>
     <td>
-    <br/><span class="hover vocab yui-wk-div" data-id="packet">packet</span>
+    <span class="hover vocab yui-wk-div" data-id="packet">packet</span>
     <br/><span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>
     <br/><span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault-tolerant</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="scalability">scalability</span>
     <br/><span class="hover vocab yui-wk-div" data-id="abstraction layer">abstraction layer</span>
     </td>
     </tr>
     </tbody>
     </table>
-    </blockquote>
+	<p>
     <!-- &lt;question quid=&quot;4911545570033664&quot; weight=&quot;1&quot; instanceid=&quot;nsSuWrvMAauX&quot;&gt;&lt;/question&gt; -->
     
 .. mchoice:: mcsp-6-3-1
