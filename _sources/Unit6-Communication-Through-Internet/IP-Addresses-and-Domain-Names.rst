@@ -31,7 +31,7 @@ IP Addresses and Domain Names
         "DNS": "Domain Name System (or Service or Server) is an Internet service that translates domain names into IP addresses."
       };      */
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
 Introduction and Goals
 -----------------------
@@ -40,7 +40,7 @@ Introduction and Goals
 
     <p><h3>IP Addresses and Domain Names</h3>
     
-    In this lesson, you will learn about IP addresses and Domain Names. We will use an Networking Simulation App to explore how the <b> <span class="hover vocab yui-wk-div" data-id='Domain Name'>Domain Name</span> System (<span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span>)</b> is used to look up the IP addresses of domain names such as google.com.<br/>
+    In this lesson, you will learn about <span class="hover vocab yui-wk-div" data-id='IP Address'>IP addresses</span> and <span class="hover vocab yui-wk-div" data-id='domain name'>domain names</span>. We will use a networking simulation app to explore how the <span class="hover vocab yui-wk-div" data-id='DNS'>Domain Name System (DNS)</span> is used to look up the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP addresses</span> of <span class="hover vocab yui-wk-div" data-id='domain name'>domain names</span> such as google.com.<br/>
     
 .. youtube:: H81xmsxNdV8
         :width: 650
@@ -52,13 +52,22 @@ Introduction and Goals
     <div id="bogus-div">
     <p></p>
     </div>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>describe how the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> works and helps users connect to web servers on the Internet</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, and <span class="hover vocab yui-wk-div" data-id="DNS">DNS</span> while describing how networks connect, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
 
 Learning Activities
 --------------------
 
 .. raw:: html
 
-    <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='ip address'>ip address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.
+    <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.
     </p>
     <h3>Networking Simulation Activities</h3>
     <p>
@@ -87,18 +96,18 @@ Learning Activities
     <h3>Activity 1 : Using the DNS to Retrieve and Use IP Addresses</h3>
     <ol>
     <li>After your teacher has assigned you a class code, type that code into the class code textbox on your login screen. Your teacher will receive this code by clicking on the NEW CLASS CODE button on their own app. Only the teacher should click this button. The students in the class should all enter the same code. </li>
-    <li>If you are working on this exercise alone, you should press the <b><i>"Assign BOT"</i></b> button a dozen times before you log in to set up about a dozen or so robot users (<b><i>BOTS</i></b>) so you can practice looking up their IP addresses.  If you are working on this exercise as part of a class, you do not need to create any BOTS.
+    <li>If you are working on this exercise alone, you should press the <b><i>"Assign BOT"</i></b> button a dozen times before you log in to set up about a dozen or so robot users (<b><i>BOTS</i></b>) so you can practice looking up their <span class="hover vocab yui-wk-div" data-id='IP Address'>IP addresses</span>.  If you are working on this exercise as part of a class, you do not need to create any BOTS.
       </li><li>Choose a short login name for yourself, enter it in the login box, and press the LOGIN button. An example of a good login would be three or four letters such as jim or mimi. Note that the system will append a number to your name when creating your login ID, to reduce the likelihood of you having the same login as someone else in the class. (Remember that your teacher will be checking your work at the end of this exercise, so do not use anything inappropriate for your login credentials). </li>
-    <li>Once the app confirms that you have successfully logged into the system, send a message to the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> asking it for the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for Amazon in this simulation. To do this, enter the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> of the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> seen at the top into the <b><i>"To:"</i></b> field. In the message field, enter "get amazon". Then press the <b><i>SEND</i></b> button. NOTE: When you type commands or login IDs into the Mobile CSP <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> widget, it does not matter if you use upper or lower case characters.
-          </li><li>Using the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> you have discovered for Amazon, send Amazon a message to buy something. In the <b>"TO"</b> field of the message you will need to enter Amazon's <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span>. In the message body, you will need to enter <b><i>"buy X"</i></b> where X is the item you wish to purchase. Then press the <b><i>"SEND"</i></b> button.
-            </li><li>Repeat the previous step to purchase at least two more items.
-              </li><li>Once you have purchased three or more items, it is now time for you to contact one of your friends to brag about your recent purchases. 
+    <li>Once the app confirms that you have successfully logged into the system, send a message to the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> asking it for the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> for Amazon in this simulation. To do this, enter the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP Address</span> of the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> seen at the top into the <b><i>"To:"</i></b> field. In the message field, enter "get amazon". Then press the <b><i>SEND</i></b> button. NOTE: When you type commands or login IDs into the Mobile CSP <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> widget, it does not matter if you use upper or lower case characters.
+    </li><li>Using the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP Address</span> you have discovered for Amazon, send Amazon a message to buy something. In the <b>"TO"</b> field of the message you will need to enter Amazon's <span class="hover vocab yui-wk-div" data-id='IP Address'>IP Address</span>. In the message body, you will need to enter <b><i>"buy X"</i></b> where X is the item you wish to purchase. Then press the <b><i>"SEND"</i></b> button.
+    </li><li>Repeat the previous step to purchase at least two more items.
+    </li><li>Once you have purchased three or more items, it is now time for you to contact one of your friends to brag about your recent purchases. 
                 Locate someone on the same <span class="hover vocab yui-wk-div" data-id='router'>router</span> as you. 
     <br/>
     <div class="yui-wk-div" style="text-align: center;"><img alt="APK file for DNS Widget" class="yui-img selected" src="../_static/assets/img/DNSnetworkDiagram.png" title="APK file for DNS Widget"/><br/></div> 
-      In the network diagram, above, for example, the user (<b><i>jill30</i></b>) resides on <b><i><span class="hover vocab yui-wk-div" data-id='Router'>Router</span> #7</i></b>, along with another user, <b><i>usha66</i></b>, whose <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is not known to <b><i>jill30</i></b>. But these two users are not the only ones on this network. Pressing the PEERs button will reveal all the login IDs on this network.
+      In the network diagram, above, for example, the user (<b><i>jill30</i></b>) resides on <b><i><span class="hover vocab yui-wk-div" data-id='router'>Router</span> #7</i></b>, along with another user, <b><i>usha66</i></b>, whose <span class="hover vocab yui-wk-div" data-id='IP Address'>IP Address</span> is not known to <b><i>jill30</i></b>. But these two users are not the only ones on this network. Pressing the PEERs button will reveal all the login IDs on this network.
     <br/>
-                  (If there is no other user on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> on the network diagram on your tablet's screen, you may have to skip this part of the exercise.) Notice, that their <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is initially hidden from you (marked with a <b><i>"?"</i></b>. Ask the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> what the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is of the person on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> you wish to contact. After receiving the answer, notice that the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> is now visible to you on your tablet's screen. Using this newly discovered address, send a message to this person, letting them know what items you bought from Amazon. Ask the person to send you a reply. NOTE: If the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> responds with <b><i>"Invalid Address"</i></b> to your request, it is likely that you have mistyped your friend's login ID.
+                  (If there is no other user on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> on the network diagram on your tablet's screen, you may have to skip this part of the exercise.) Notice, that their <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> is initially hidden from you (marked with a <b><i>"?"</i></b>. Ask the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> what the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> is of the person on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> you wish to contact. After receiving the answer, notice that the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> is now visible to you on your tablet's screen. Using this newly discovered address, send a message to this person, letting them know what items you bought from Amazon. Ask the person to send you a reply. NOTE: If the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> responds with <b><i>"Invalid Address"</i></b> to your request, it is likely that you have mistyped your friend's login ID.
                   </li><li>Of course, on the Internet, we can communicate with anyone connected to the network, not just those on our <span class="hover vocab yui-wk-div" data-id='router'>router</span>. Now click the <b><i>"PEERS"</i></b> button on your screen. It will bring up a <b><i>LISTPICKER</i></b> which will display the login IDs of everyone in your class who is also on your network. Locate one of your friends in class who is on the network but not on your <span class="hover vocab yui-wk-div" data-id='router'>router</span> in this list and select this person. Note that the app has filled in the message fields with the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> address in the <b><i>"TO"</i></b> field and an appropriate <b><i>"get"</i></b> request in the message field. Simply press the <b><i>"SEND"</i></b> button to ask the <span class="hover vocab yui-wk-div" data-id='DNS'>DNS</span> to fetch the address of your friend. 
                     </li><li>Once you have your friend's address, converse with them back and forth with a few messages describing your recent purchases. <b>Remember that all your messages are being logged and will be reviewed by your instructor at the end of this exercise.</b>
     </li><li>After you have finished these exercises, raise your hand to show your instructor your message log.
@@ -117,7 +126,7 @@ Learning Activities
         </li>
     </ul>
     <h3>Activity</h3>
-    <p>Repeat the following activity three or more times.  Have the two senders enter the <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> of the 
+    <p>Repeat the following activity three or more times.  Have the two senders enter the <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> of the 
         recipient and a <b><i>unique</i></b> message -- so that the recipient will be able to easily distinguish 
         the two messages.  Now, by coordinating verbally, have both senders press the app’s <b>SEND</b> button at 
         the same time.  For each trial, record the following results:
@@ -136,7 +145,7 @@ Learning Activities
         recipient’s messages.  Initially, this variable is given the value <b><i>EMPTY_MAIL_BOX</i></b> to signify that 
         there are no messages waiting for that recipient.  When the recipient receives a message, it is put 
         into the recipient’s mailbox.  A typical message might be <i><b>sender1:7.13:hello</b></i>. This means that the 
-        message “hello” was sent by “sender1” at <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> “7.13”.   When the recipient retrieves the message 
+        message “hello” was sent by “sender1” at <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> “7.13”.   When the recipient retrieves the message 
         from mailbox, it replaces it with <i><b>EMPTY_MAIL_BOX</b></i> to signify that the mailbox is empty again.  
         In pseudocode, this is how this algorithm works:
       </p>
@@ -252,9 +261,7 @@ Self-Check
 
     <p>
     
-    Here is a table of some of the technical terms discussed in this
-    lesson. Hover over the terms to review the definitions.
-    <blockquote>
+    Here is a table of some of the technical terms discussed in this lesson. Hover over the terms to review the definitions.
     <table align="center">
     <tbody>
     <tr>
@@ -270,7 +277,7 @@ Self-Check
     </tr>
     </tbody>
     </table>
-    </blockquote>
+	<br/>
     
 .. mchoice:: mcsp-6-4-1
     :random:
