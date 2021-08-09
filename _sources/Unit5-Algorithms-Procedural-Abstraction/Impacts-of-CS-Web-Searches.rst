@@ -37,15 +37,41 @@ Impacts of CS Web Searches
         "algorithm": "An algorithm is a step-by-step procedures for solving a particular problem.",  
       };
     </script>
-    <h3 id="est-length"><b>Time Estimate: 135 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 135 minutes</h3>
 
 Introduction and Goals
 -----------------------
 
 .. raw:: html
 
-    <p>
-    <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter4.pdf" target="_blank"><img class="yui-img" src="../_static/assets/img/blowntobits.jpg" style="float:left; width:200px; padding-right: 1.5em; padding-bottom: 1em;"/></a>
+	<p>
+    <table>
+    <tbody>
+      <tr>
+		<td valign="top" colspan=2>
+		</td>
+      </tr>    
+      <tr>
+        <td valign="top"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter4.pdf" target="_blank"><img class="yui-img" width="400" height="200" src="../_static/assets/img/blowntobits.jpg"/></a>
+        </td>
+        <td valign="top">
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>describe the algorithm Google uses to return search results</li>
+			<li>identify factors that affect web searches</li>
+			<li>describe how web search results may not be trustworthy</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>describe risks to privacy from collecting and storing personal data on a computer system</li>
+			<li>discuss positive and negative impacts of how search trends are used to predict information</li>
+			<li>use target vocabulary, such as search, trend, and captcha while describing web searches, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+   
     
 
 Learning Activities
