@@ -46,7 +46,7 @@ Computer Networking
     
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -55,32 +55,36 @@ Introduction and Goals
 .. raw:: html
 
 	<p>
-    <p>
-      The Internet is one of the seven Big Ideas of the CS Principles (CSP) curriculum and
+      Computer systems and networks is one of the five Big Ideas of the CS Principles (CSP) curriculum and
       rightly so:  The Internet has had a tremendous impact on our lives and on modern society.
       Yet, despite its impact and influence, most people do not really understand what the Internet  
       is and how it works.
     </p>
     <p>
-      We introduced the Internet in <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=1&amp;lesson=146" target="_blank">Unit 2</a>,
-      where we covered the following points:
-      </p><ul>
-    <li>The Internet is the global public <span class="hover vocab yui-wk-div" data-id='network'>network</span> of independent and autonomous 
-          networks that are governed by the Internet <span class="hover vocab yui-wk-div" data-id='Protocol'>Protocol</span> Suite.
+      We introduced the Internet in <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=1&amp;lesson=146" target="_blank">Unit 2</a>, where we covered the following points:
+		<ul>
+    <li>The Internet is the global public <span class="hover vocab yui-wk-div" data-id='network'>network</span> of independent and autonomous networks that are governed by the Internet <span class="hover vocab yui-wk-div" data-id='protocol'>Protocol</span> Suite.
         </li>
-    <li>The Internet is <i><b>not</b></i> the same as the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> (WWW).  The
-          WWW is an application that runs on the Internet using the <span class="hover vocab yui-wk-div" data-id='HTTP'>HTTP</span> <span class="hover vocab yui-wk-div" data-id='protocol'>protocol</span>.
-        </li><li>The Internet is based on <i>open (non-proprietary) standards</i>, which has
-          enabled it to grow exponentially since its inception in the early 1980s. 
+    <li>The Internet is <i><b>not</b></i> the same as the <span class="hover vocab yui-wk-div" data-id='World Wide Web'>World Wide Web</span> (WWW).  The WWW is an application that runs on the Internet using <span class="hover vocab yui-wk-div" data-id='HTTP'>HTTP</span>.
+        </li><li>The Internet is based on <i>open (non-proprietary) standards</i>, which has enabled it to grow exponentially since its inception in the early 1980s. 
         </li>
     <li>The cloud is an everyday term for the Internet and/or WWW.
         </li>
     </ul>
-    <p>This lesson provides a high-level overview of some of the Internet's
-      and WWW's key concepts and terminology.   A follow-up lesson will go into 
-      greater detail in explaining how the Internet works.
+    <p>This lesson provides a high-level overview of some of the Internet's and WWW's key concepts and terminology.   A follow-up lesson will go into greater detail in explaining how the Internet works.
     </p>
-    
+	<p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>explain the fundmentals of how the Internet works</li>
+	<li>describe the client/server model of networking</li>
+	<li>explain how bandwidth and latecy independently affect an internet connection</li>
+	<li>describe issues that contribute to the digital divide</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>	
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span>, <span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth</span>, <span class="hover vocab yui-wk-div" data-id="latency">latency</span>, and <span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span> while describing computer <span class="hover vocab yui-wk-div" data-id='network'>networks</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</p>
 
 Learning Activities
 --------------------
@@ -90,10 +94,9 @@ Learning Activities
     <p><h3>Part 1.  Basic Concepts and Terminology</h3>
     <p>
       In Unit 2 we defined the Internet as a <i><b><span class="hover vocab yui-wk-div" data-id='network'>network</span> of disparate networks</b></i> that is governed by 
-      systems of rules, known as <i><b>protocols</b></i>.  In this first presentation we'll see some 
-      examples of different types of networks and we'll learn about the role
-      that special devices known as <i><b>routers</b></i> play in enabling communication between different
-      types of networks.
+      systems of rules, known as <span class="hover vocab yui-wk-div" data-id="protocol">protocols</span>.  In this first presentation we'll see some 
+      examples of different types of networks and we'll learn about the role that special devices known as <span class="hover vocab yui-wk-div" data-id="router">routers</span> play in enabling communication between different
+      types of <span class="hover vocab yui-wk-div" data-id='network'>networks</span>.
     </p>
     
     
@@ -119,16 +122,16 @@ Learning Activities
     <ul>
     <li>Which country has the fastest download speeds on the Internet? Is the U.S. in the top 3? Try to guess the answers to these before looking them up on <a href="http://www.speedtest.net/global-index" target="_blank">Speed Test Global Stats</a>. </li>
     <li>What is the percentage of Internet user penetration for the United States? The <b>Internet user penetration</b> is the percentage of the population that has access to and uses the Internet. Access to the Internet depends on the ability to connect a computing device to an Internet-connected device like a <span class="hover vocab yui-wk-div" data-id='router'>router</span>. Do you think we are close to 100%? Try to guess before you look online. You may get different data depending on the date of the data.  Some sources are <a href="https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users" target="_blank">https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users</a>, <a href="https://www.internetworldstats.com/stats.htm" target="_blank">https://www.internetworldstats.com/stats.htm</a>,  <a href="http://www.internetlivestats.com/internet-users-by-country/" target="_blank">Internet Live Stats site</a> which presents  Internet penetration data by country.  </li>
-    <li>Do all countries have similar Internet user penetration or is there a <b><span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span></b> (a gap between those who have Internet access and those who don't)? How big is the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> between continents or countries? Find data online using the sources above or others to answer this question.
+    <li>Do all countries have similar Internet user penetration or is there a <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> (a gap between those who have Internet access and those who don't)? How big is the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> between continents or countries? Find data online using the sources above or others to answer this question.
       </li>
     <li>What can we do to reduce the effects of the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> both locally and globallly? Discuss in your class.</li>
     </ul>
-    <p>The <b><span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span></b> refers to a gap or differing access to computing devices and the Internet based on socioeconomic, geographic, or demographic characteristics. It can affect both groups and individuals and can be affected by individuals, organizations and government actions. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> raises issues of equity, access, and influence, both globally and locally. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> is huge when we compare first and third world countries. But even students in the U.S. experience the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> in different schools. If you're interested in this topic, watch the National Geographic's <a href="http://www.digitaldivide.com/" target="_blank" title="">Without a Net: Digital Divide documentary</a>. The documentary can also be found on <a href="https://www.youtube.com/watch?v=lBAkCgDD-BE" target="_blank" title="">YouTube</a>.   </p>
+    <p>The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> refers to a gap or differing access to computing devices and the Internet based on socioeconomic, geographic, or demographic characteristics. It can affect both groups and individuals and can be affected by individuals, organizations and government actions. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> raises issues of equity, access, and influence, both globally and locally. The <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> is huge when we compare first and third world countries. But even students in the U.S. experience the <span class="hover vocab yui-wk-div" data-id='digital divide'>digital divide</span> in different schools. If you're interested in this topic, watch the National Geographic's <a href="http://www.digitaldivide.com/" target="_blank" title="">Without a Net: Digital Divide documentary</a>. The documentary can also be found on <a href="https://www.youtube.com/watch?v=lBAkCgDD-BE" target="_blank" title="">YouTube</a>.   </p>
     <h3>Part 2. Client/Server Model</h3>
     <p>When you are using the Internet to read email or visit a web site, your device (phone or tablet or computer)
-      is playing the role of a <i><b><span class="hover vocab yui-wk-div" data-id='client'>client</span></b></i>.  It is using <span class="hover vocab yui-wk-div" data-id='client'>client</span> software, such as a web browser or email application 
-      to communicate with a <i><b><span class="hover vocab yui-wk-div" data-id='server'>server</span></b></i>, which is computer on the Internet that provides a specific service, such as
-      email or web browsing.  Clients and servers form a <b><span class="hover vocab yui-wk-div" data-id='computing system'>computing system</span></b> which is a group of computing devices and programs working together for a common purpose. The TCP and IP protocols <i><b>route</b></i> messages between the clients and servers finding a path from the sender to the receiver. In this next presentation we'll look at how communication occurs between a <span class="hover vocab yui-wk-div" data-id='client'>client</span>   and <span class="hover vocab yui-wk-div" data-id='server'>server</span> using the <i><b><span class="hover vocab yui-wk-div" data-id='HTTP'>HTTP</span> <span class="hover vocab yui-wk-div" data-id='Protocol'>Protocol</span></b></i>.
+      is playing the role of a <span class="hover vocab yui-wk-div" data-id='client'>client</span>.  It is using <span class="hover vocab yui-wk-div" data-id='client'>client</span> software, such as a web browser or email application 
+      to communicate with a <span class="hover vocab yui-wk-div" data-id='server'>server</span>, which is computer on the Internet that provides a specific service, such as
+      email or web browsing.  Clients and servers form a <span class="hover vocab yui-wk-div" data-id='computing system'>computing system</span> which is a group of computing devices and programs working together for a common purpose. The TCP and IP protocols <i><b>route</b></i> messages between the clients and servers finding a path from the sender to the receiver. In this next presentation we'll look at how communication occurs between a <span class="hover vocab yui-wk-div" data-id='client'>client</span>   and <span class="hover vocab yui-wk-div" data-id='server'>server</span> using <span class="hover vocab yui-wk-div" data-id='HTTP'>HTTP</span>.
     </p>
       
     (<a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/edit#slide=id.p5" target="_blank" title="">Slides</a>)
@@ -175,9 +178,9 @@ Learning Activities
     &lt;p&gt;&lt;/p&gt;
     -->
     <h3>Part 3. Internet Performance</h3>
-    <p>In this next presentation we learn about two important measures of Internet performance.  The first, <b><i><span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span></i></b>,
+    <p>In this next presentation we learn about two important measures of Internet performance.  The first, <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span>,
       refers to the amount of data that can be sent in a fixed amount of time and is usually measured in kilobits or megabits
-      per second.  The second, <b><i><span class="hover vocab yui-wk-div" data-id='latency'>latency</span></i></b>, refers to how long it takes a packet of data to go from its source (e.g., 
+      per second.  The second, <span class="hover vocab yui-wk-div" data-id='latency'>latency</span>, refers to how long it takes a packet of data to go from its source (e.g., 
       a <span class="hover vocab yui-wk-div" data-id='client'>client</span>) to its destination (e.g., a <span class="hover vocab yui-wk-div" data-id='server'>server</span>).   You'll be introduced to some easy-to-use tools that will enable you to
       measure <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> and <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> from your home or school networks. 
     </p>
@@ -202,7 +205,7 @@ Learning Activities
     
     Use the <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.bandwidthplace.com/&amp;source=gmail&amp;ust=1499951266125000&amp;usg=AFQjCNHMHLIizAlqwNGn2AsPqZzvfHye1w" href="http://www.bandwidthplace.com/" style="color: rgb(17, 85, 204);" target="_blank">http://www.bandwidthplace.com/</a> tool (or <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://speedtest.xfinity.com/)&amp;source=gmail&amp;ust=1499951266126000&amp;usg=AFQjCNG5a3gBgWzaRAyVZaY_RjH_iMDRxg" href="http://speedtest.xfinity.com/)" style="color: rgb(17, 85, 204);" target="_blank"> http://speedtest.xfinity.com/)</a> to measure the <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> and <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> of your Internet connection.
     <ol>
-    <li>What are the download and upload speeds for your Internet connection. Note that these <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> are measured in megabits per second (Mbps). Why do you think Internet Service Providers (ISPs) provide different bandwidths for downloading and uploading from the Internet?</li>
+    <li>What are the download and upload speeds for your Internet connection. Note that these <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> are measured in megabits per second (Mbps). Why do you think <span class="hover vocab yui-wk-div" data-id="Internet Service Provider">Internet Service Providers (ISPs)</span> provide different bandwidths for downloading and uploading from the Internet?</li>
     <li> Measure the <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> at school and at home. Are they different? How do they compare to the fastest download speeds you found in Activity 1 on the <a href="http://www.speedtest.net/global-index" target="_blank">Speed Test Global Stats site</a>?
       </li>
     <li>This speed test also provides a <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> test using a utility called ping which returns the amount of time (usually measured in milliseconds) to send a small packet of data from one computer (the bandwidthplace <span class="hover vocab yui-wk-div" data-id='server'>server</span>) to another (your computer). What is the <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> for your connection? Why is this a useful measurement?</li>
