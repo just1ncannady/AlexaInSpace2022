@@ -11,6 +11,7 @@ Unit Overview
     <script>
     $(document).ready(function() {
         generateBIEU('5');
+		generateHovers();
       Tipped.create('.vocab', function(element) {
         var vocab = $(element).data('id');
         return vocabulary[vocab];
@@ -58,34 +59,34 @@ Unit Overview
     <tbody>
     <tr>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="arguments ">arguments </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="binary search ">binary search </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="brute force ">brute force </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decidable problems ">decidable problems </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decision problem ">decision problem </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="arguments">arguments </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="brute force">brute force </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="decision problem">decision problem </span><br/>
     </td>
     <td>
     <span class="hover vocab yui-wk-div" data-id="distributed computing">distributed computing</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="efficiency ">efficiency </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="heuristic algorithm ">heuristic algorithm </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="instance of a problem ">instance of a problem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="intractable problems ">intractable problems </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="efficiency">efficiency </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="heuristic algorithm">heuristic algorithm </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems </span><br/>
     </td>
-    <td><span class="hover vocab yui-wk-div" data-id="linear or sequential search ">linear or sequential search </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="more efficient ">more efficient </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="optimization problem ">optimization problem </span><br/>
+    <td><span class="hover vocab yui-wk-div" data-id="linear or sequential search">linear or sequential search </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="more efficient">more efficient </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="optimization problem">optimization problem </span><br/>
     <span class="hover vocab yui-wk-div" data-id="parallel computing">parallel computing</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="parameters ">parameters </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="parameters">parameters </span><br/>
     </td>
-    <td><span class="hover vocab yui-wk-div" data-id="reasonable time ">reasonable time </span><br/>
+    <td><span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time </span><br/>
     <span class="hover vocab yui-wk-div" data-id="sequential computing">sequential computing</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="sorting algorithm ">sorting algorithm </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="sorting algorithm">sorting algorithm </span><br/>
     <span class="hover vocab yui-wk-div" data-id="speedup">speedup</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="The Halting Problem ">The Halting Problem </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="The Halting Problem">The Halting Problem </span><br/>
     </td>
-    <td><span class="hover vocab yui-wk-div" data-id="The Traveling Salesman Problem ">The Traveling Salesman Problem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="undecidable problems ">undecidable problems </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="unreasonable time ">unreasonable time </span><br/>
+    <td><span class="hover vocab yui-wk-div" data-id="The Traveling Salesman Problem">The Traveling Salesman Problem </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable problems </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time </span><br/>
     </td>
     </tr>
     </tbody>
