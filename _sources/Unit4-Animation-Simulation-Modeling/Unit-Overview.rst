@@ -81,13 +81,13 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="accumulator">accumulator</span><br/>
     <span class="hover vocab yui-wk-div" data-id="ALU">ALU</span><br/>
     <span class="hover vocab yui-wk-div" data-id="assembly language">assembly language</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Cookies ">Cookies </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="cookies ">cookies </span><br/>
     <span class="hover vocab yui-wk-div" data-id="CPU">CPU</span><br/>
     </td>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="Data Privacy ">Data Privacy </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Data Security ">Data Security </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Data Storage ">Data Storage </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Data Privacy">data privacy </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Data Security">data security </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Data Storage">data storage </span><br/>
     <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span><br/>
     <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span><br/>
     </td>
@@ -103,7 +103,7 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="model">model</span><br/>
     <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span><br/>
     <span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII) ">Personally Identifiable Information (PII) </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PII) </span><br/>
     </td>
     <td>
     <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span><br/>
