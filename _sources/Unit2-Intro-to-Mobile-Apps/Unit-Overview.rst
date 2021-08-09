@@ -11,14 +11,15 @@ Unit Overview
     <script>
     $(document).ready(function() {
         generateBIEU('2');
+		generateHovers();
       Tipped.create('.vocab', function(element) {
-        var vocab = $(element).<span class="hover vocab yui-wk-div" data-id='data'>data</span>('id');
+        var vocab = $(element).data('id');
         return vocabulary[vocab];
           }, {
             cache: false,
               position: 'topleft'
               });
-    });
+      });
     </script>
     <!--
     &lt;p&gt;This unit will provide an introduction to the App Inventor &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Integrated_development_environment&quot;&gt;Integrated Development Environment&lt;/a&gt; (IDE). An <span class="hover vocab yui-wk-div" data-id='IDE'>IDE</span>is an integrated set of <span class="hover vocab yui-wk-div" data-id='software'>software</span> tools used to develop <span class="hover vocab yui-wk-div" <span class="hover vocab yui-wk-div" data-id='data'>data</span>-id='computer'>computer</span> <span class="hover vocab yui-wk-div" data-id='software'>software</span>.  You will learn how to use App Inventor to design, develop, and test a simple mobile app.  IDEs are key part of the toolkit that programmers use to develop <span class="hover vocab yui-wk-div" data-id='software'>software</span>.
@@ -100,7 +101,7 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="boolean">boolean</span><br/>
     </td>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="browser ">browser </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="browser">browser </span><br/>
     <span class="hover vocab yui-wk-div" data-id="byte">byte</span><br/>
     <span class="hover vocab yui-wk-div" data-id="character">character</span><br/>
     <span class="hover vocab yui-wk-div" data-id="chip">chip</span><br/>
@@ -119,8 +120,8 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="data network">data network</span><br/>
     <span class="hover vocab yui-wk-div" data-id="decimal number system">decimal number system</span><br/>
     <span class="hover vocab yui-wk-div" data-id="disk drive">disk drive</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Event Handler ">Event Handler </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming ">Event-driven Programming </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Event Handler">Event Handler </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">Event-driven Programming </span><br/>
     <span class="hover vocab yui-wk-div" data-id="flip flop">flip flop</span><br/>
     </td>
     <td>
@@ -131,15 +132,15 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="high level language">high level language</span><br/>
     <span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">Horizontal Arrangement</span><br/>
     <span class="hover vocab yui-wk-div" data-id="HTTP (HyperText Transfer Protocol)">HTTP</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="IDE ">IDE </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="IDE">IDE </span><br/>
     <span class="hover vocab yui-wk-div" data-id="IETF">IETF</span><br/>
     <span class="hover vocab yui-wk-div" data-id="If/Else">If/Else</span><br/>
     </td>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="Input ">Input </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Input">Input </span><br/>
     <span class="hover vocab yui-wk-div" data-id="integrated circuit">integrated circuit</span><br/>
     <span class="hover vocab yui-wk-div" data-id="intellectual property">intellectual property</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Internet ">Internet </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Internet">Internet </span><br/>
     <span class="hover vocab yui-wk-div" data-id="interpretation">interpretation</span><br/>
     <span class="hover vocab yui-wk-div" data-id="iteration">iteration</span><br/>
     <span class="hover vocab yui-wk-div" data-id="logic gate">logic gate</span><br/>
@@ -170,17 +171,17 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="social network">social network</span><br/>
     <span class="hover vocab yui-wk-div" data-id="software">software</span><br/>
     <span class="hover vocab yui-wk-div" data-id="special purpose computer">special purpose computer</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="TCP/IP (Transmission Control Protocol/Internet Protocol) ">TCP/IP </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP </span><br/>
     </td>
     <td>
     <span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span><br/>
     <span class="hover vocab yui-wk-div" data-id="transistor">transistor</span><br/>
     <span class="hover vocab yui-wk-div" data-id="UI Components">UI Components</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Events ">User Events </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Interface ">User Interface </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="User Events">User Events </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="User Interface">User Interface </span><br/>
     <span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/>
     <span class="hover vocab yui-wk-div" data-id="whitelist">whitelist</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW) ">WWW </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">WWW </span><br/>
     <span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span><br/>
     </td>
     </tr>
