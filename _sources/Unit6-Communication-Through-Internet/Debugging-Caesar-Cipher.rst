@@ -40,9 +40,10 @@ Introduction and Goals
     <p>
     <p>In this lesson, we will learn more about the types of errors you might get in a program, including tips for identifying, fixing, and preventing them. First, watch the video below. After watching the video, try to identify and correct the errors in the Caesar Cipher app and then answer the questions about <span class="hover vocab yui-wk-div" data-id='debugging'>debugging</span>. When watching the video, look for these important terms and concepts: </p>
     <ul>
-    <li><b>Bug</b> - In computer programming, a bug is an error or defect, that prevents the app from working the way it is supposed to.
-      </li><li><b><span class="hover vocab yui-wk-div" data-id='Debugging'>Debugging</span></b> - The process of removing errors from computer hardware or software.
-      </li><li><b>Logic Error</b> - A mistake in the algorithm or program that causes it to behave incorrectly or unexpectedly. Also referred to as a <span class="hover vocab yui-wk-div" data-id='semantic error'>semantic error</span>.</li><li><b><span class="hover vocab yui-wk-div" data-id='Syntax Error'>Syntax Error</span></b> - A mistake in the program where the rules of the programming language are not followed.
+    <li><b>Bug</b> - In computer programming, a <span class="hover vocab yui-wk-div" data-id='computer bug'>bug</span> is an error or defect that prevents the app from working the way it is supposed to.
+      </li><li><b><span class="hover vocab yui-wk-div" data-id='debugging'>Debugging</span></b> - The process of removing errors from computer hardware or software.
+      </li><li><b>Logic Error</b> - A mistake in the algorithm or program that causes it to behave incorrectly or unexpectedly. Also referred to as a <span class="hover vocab yui-wk-div" data-id='semantic error'>semantic error</span>.</li>
+	  <li><b><span class="hover vocab yui-wk-div" data-id='syntax error'>Syntax Error</span></b> - A mistake in the program where the rules of the programming language are not followed.
     </li></ul>
     
 .. youtube:: g48gxSkOeik
@@ -54,11 +55,19 @@ Introduction and Goals
 
     <div id="bogus-div">
     <p></p>
-    </div>
-
+    </div>	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>identify and correct errors in a program</li>
+	<li>explain the difference between <span class="hover vocab yui-wk-div" data-id="syntax error">syntax errors</span> and <span class="hover vocab yui-wk-div" data-id="semantic error">semantic errors</span></li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="syntax error">syntax error</span>, <span class="hover vocab yui-wk-div" data-id="semantic error">semantic error</span>, and <span class="hover vocab yui-wk-div" data-id="run-time error">run-time error</span> while fixing errors in an app, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
 
     (<a href="http://www.teachertube.com/video/359067" target="_blank">Teacher Tube version</a>)
     
+	
     
 
 Learning Activities
@@ -67,14 +76,13 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Activity</h3>
-    <p>The activity for this lesson is to debug a version of 
-    the Caesar cipher app. There are at least <b>five errors</b> in 
+    <p>The activity for this lesson is to <span class="hover vocab yui-wk-div" data-id="debugging">debug</span> a version of the Caesar cipher app. There are at least <b>five errors</b> in 
     this version of the app. See if you can find and correct them all! To get started, 
     <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/CaesarApp/CaesarCipherBuggy.asc" target="_blank">open App Inventor with the Caesar Cipher Buggy template</a>. 
     </p>
     <p>Here are some hints and suggestions.
       </p><ul>
-    <li>If you see a <i><b><span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> message</b></i>, read it carefully - it's trying to tell you where the bug is. A <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> is a mistake in the program that occurs during the execution of a program. Programming languages, such as MIT App Inventor, define their own run-time errors.  For example, if the <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> complains about exceeding the length of the text, then the loop going through the text letter by letter did not stop at the end of the text.</li><li>The bugs can be in both the encryption and decryption steps.  So make sure you test the app thoroughly, with appropriate inputs. When you are testing this app, <b>only type in lowercase letters in the plaintext textbox to encrypt, and only type in uppercase letters in the Ciphertext textbox to decrypt</b>.</li>
+    <li>If you see a <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> message, read it carefully - it's trying to tell you where the bug is. A <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> is a mistake in the program that occurs during the execution of a program. Programming languages, such as MIT App Inventor, define their own run-time errors.  For example, if the <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> complains about exceeding the length of the text, then the loop going through the text letter by letter did not stop at the end of the text.</li><li>The bugs can be in both the encryption and decryption steps.  So make sure you test the app thoroughly, with appropriate inputs. When you are testing this app, <b>only type in lowercase letters in the plaintext textbox to encrypt, and only type in uppercase letters in the Ciphertext textbox to decrypt</b>.</li>
     <li>You are may see more problems if you encrypt longer rather than shorter messages.</li>
     <li>If you are having trouble locating a problem, use a <i>Notifier</i> or use <i>Label1</i> to 
           display intermediate values of local or global variables.  
@@ -106,7 +114,6 @@ Self-Check
     Here is a table of some of the technical terms discussed in this
     lesson. Hover over the terms to review the definitions.
     
-    <blockquote>
     <table align="center">
     <tbody>
     <tr>
@@ -119,8 +126,8 @@ Self-Check
     </tr>
     </tbody>
     </table>
-    </blockquote>
     
+	
 .. mchoice:: mcsp-6-8-1
     :random:
     :practice: T
