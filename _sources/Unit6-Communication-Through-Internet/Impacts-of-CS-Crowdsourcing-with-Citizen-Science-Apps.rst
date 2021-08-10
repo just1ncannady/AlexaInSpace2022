@@ -32,6 +32,17 @@ Introduction and Goals
 
     <p>
     <p>Computing innovations impact our lives in many ways that require considerable study and reflection for us to fully understand them. In this performance task, you will explore a citizen science computing innovation in preparation for exploring an innovation of your choosing. A computing innovation is an innovation that includes a computer or program code as an integral part of its functionality. Your close examination of this computing innovation will deepen your understanding of computer science principles.</p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>explain how people participate in problem-solving processes at scale</li>
+	<li>research the impact of a computing innovation on society, economy, and culture</li>
+	<li>describe how the use of computing innovations can raise legal, ethical, and privacy concerns</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="crowdsourcing">crowdsourcing</span> while describing the impact of citizen science apps, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
     
 Learning Activities
 --------------------
@@ -39,7 +50,7 @@ Learning Activities
 .. raw:: html
 
     <h3>Citizen Science Apps</h3>
-    <p>As an example of a computing innovation, let’s explore <i>citizen science apps</i>. Citizen science apps rely on a concept called <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>crowdsourcing</span>, where data or information is collected from a large number of people via the Internet. <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>crowdsourcing</span> allows people to collaborate on a project by each contributing a small portion of the data, the funding, etc. Watch <a href="http://crowdandcloud.org/watch-the-episodes/episode-one#" target="_blank">Episode 1 of The Crowd and the Cloud</a>. If you do not have time to watch the entire hour-long episode, then focus on the OpenStreetMap [16:55-28:30] and EyesOnALZ [28:30-41:57] segments. Then review the citizen science projects listed under the <a href="http://crowdandcloud.org/join-a-project" target="_blank">Join A Project</a> for The Crowd and the Cloud.</p>
+    <p>As an example of a computing innovation, let’s explore <i>citizen science apps</i>. Citizen science apps rely on a concept called <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>crowdsourcing</span>, where data or information is collected from a large number of people via the Internet. <span class="hover vocab yui-wk-div" data-id='crowdsourcing'>Crowdsourcing</span> allows people to collaborate on a project by each contributing a small portion of the data, the funding, etc. Watch <a href="http://crowdandcloud.org/watch-the-episodes/episode-one#" target="_blank">Episode 1 of The Crowd and the Cloud</a>. If you do not have time to watch the entire hour-long episode, then focus on the OpenStreetMap [16:55-28:30] and EyesOnALZ [28:30-41:57] segments. Then review the citizen science projects listed under the <a href="http://crowdandcloud.org/join-a-project" target="_blank">Join A Project</a> for The Crowd and the Cloud.</p>
     <p><a href="http://crowdandcloud.org/watch-the-episodes/episode-one#" target="_blank"><img src="../_static/assets/img/CrowdtoCloudEp1.png"/></a></p>
     <h3>Impact of Citizen Science Apps</h3>
     <p>Next, review the citizen science projects listed under the <a href="http://crowdandcloud.org/join-a-project" target="_blank">Join a Project</a> page by using the search feature (if you choose <i>Area:use a smartphone or tablet</i>, you will see apps). Use one of the apps listed as your computing innovation to answer the questions below. Make sure the citizen science project you select involves a computing innovation that includes a computer, website, or mobile app as a part of its functionality.</p>
