@@ -54,14 +54,14 @@ Introduction and Goals
       that use the same key for both encryption and decryption are called <span class="hover vocab yui-wk-div" data-id="symmetric cipher">symmetric cipher</span>.
     </p>
     <p>
-      Symmetric ciphers have a serious flaw, known as the 
+      <span class="hover vocab yui-wk-div" data-id="symmetric cipher">Symmetric ciphers</span> have a serious flaw, known as the 
       <span class="hover vocab yui-wk-div" data-id="key exchange problem">key exchange problem</span>:  How can 
-      Alice and Bob securely exchange the shared key needed to encrypt and decrypt their messages. Hopefully,
+      Alice and Bob securely exchange the shared key needed to encrypt and decrypt their messages? Hopefully,
       you can see that sending the shared key across the Internet in an email message would not be a very secure
-      system -- Eve could easily intercept the key, without Alice and Bob knowing, and would then be able to 
+      system -- Eve could easily intercept the key without Alice and Bob knowing, and would then be able to 
       read all their messages. 
     </p>
-    <p>What's needed in order for cryptography to work on the Internet is an <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric system</span>, in which 
+    <p>What's needed in order for cryptography to work on the Internet is an <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric</span> system, in which 
       the key can be broken into parts so that one key can be used for encrypting and another for decrypting without
       ever having to share a key. Such systems are examples of <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography</span> and we will look
       at two important algorithms,  the <span class="hover vocab yui-wk-div" data-id="diffie-hellman">Diffie-Hellman</span> key exchange algorithm and the <span class="hover vocab yui-wk-div" data-id="rsa">Rivest-Shamir-Adelman (RSA)</span>
@@ -72,10 +72,22 @@ Introduction and Goals
       breakthroughs in modern cryptography -- and without this discovery it would simply be impossible to have an Internet
       today that we could use for banking, buying goods on Amazon, and so on. 
     </p>
-    <p><span class="hover vocab yui-wk-div" data-id='Public key cryptography'>Public key cryptography</span> is a very technical topic, the mathematical details of which go beyond the scope of this course.
+    <p><span class="hover vocab yui-wk-div" data-id='public key cryptography'>Public key cryptography</span> is a very technical topic, the mathematical details of which go beyond the scope of this course.
       However, it's important that you understand the basic ideas around how it works and are able to see that current
       cryptographic systems can be trusted to secure our private transactions on the Internet.
     </p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>explain the <span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span> key exchange algorithm using the shared color analogy</li>
+	<li>describe how modular arithmetic forms the basis for <span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span> public key encryption</li>
+	<li>describe how encryption and <span class="hover vocab yui-wk-div" data-id='digital certificate'>digital certificates</span> work together to secure the Internet</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>explain how <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography</span> is not symmetric</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric cipher</span>, <span class="hover vocab yui-wk-div" data-id="https">HTTPS</span>, and <span class="hover vocab yui-wk-div" data-id="certificate authority">certificate authority</span> while describing modern cryptography, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
     
 
 Learning Activities
@@ -84,7 +96,7 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Doubly Locked Box Analogy</h3>
-    <p>This video shows one helpful model for public key encryption, a <b><i>doubly-locked box</i></b>, in which Alice
+    <p>This video shows one helpful model for <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key</span> encryption, a <b><i>doubly-locked box</i></b>, in which Alice
       and Bob each have their own keys, both of which are used to securely transmit information.
       
 .. youtube:: jJrICB_HvuI
@@ -103,9 +115,7 @@ Learning Activities
     <h3>Part 1: Diffie-Hellman Key Exchange Algorithm</h3>
     <p>This video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.p5" target="_blank" title="">here</a>) 
       includes video clips from Brit Cruise's great explanation
-      of the <i><span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span> key exchange algorithm</i>.  After watching
-      the video, try using the widget below to play with the color-mixing
-      analogy. 
+      of the <span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span> key exchange algorithm. After watching the video, try using the widget below to play with the color-mixing analogy. 
     </p>
     <br/>
 .. youtube:: oUvelH9ADjs
@@ -133,10 +143,10 @@ Learning Activities
     <table>
     <tbody><tr>
     <td>
-    <iframe height="450" instanceid="k8nug819cUct" src="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" title="" width="550">
+    <iframe style="float:right" height="410" instanceid="k8nug819cUct" src="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" title="" width="515">
     </iframe>
-    </td>
-    <td>In the RGB system colors are represented by 6-digit hexadecimal numbers, 
+    
+    In the RGB system colors are represented by 6-digit hexadecimal numbers, 
           where the first two digits represent the amount of red, the next two represent 
           amount of green, and the last two represent amount blue.  Pure 
           <font color="red">red</font> is <font color="red">FF0000</font>, where FF is 
@@ -152,15 +162,13 @@ Learning Activities
     <br/>
     <h3>Part 2: RSA Public Key Encryption</h3>
     <p>
-      The Rivest-Shamir-Adleman (<span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span>) algorithm is the most widely used public key encryption algorithm for
-      securing the Internet. Like <span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span>, it is an <span class="hover vocab yui-wk-div" data-id='asymmetric cipher'>asymmetric cipher</span>, in which the key is broken into
-      two related parts using mathematical techniques.  And also, like <span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span>, it depends on the use of a
-      one-way function -- i.e., a mathematical function that is easy to compute in one direction, but <i><span class="hover vocab yui-wk-div" data-id='intractable'>intractable</span></i>
-      to compute in the other.
+      The Rivest-Shamir-Adleman (<span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span>) algorithm is the most widely used public key encryption algorithm for
+      securing the Internet. Like <span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span>, it is an <span class="hover vocab yui-wk-div" data-id='asymmetric cipher'>asymmetric cipher</span>, in which the key is broken into
+      two related parts using mathematical techniques.  And also, like <span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span>, it depends on the use of a
+      one-way function -- i.e., a mathematical function that is easy to compute in one direction, but <span class="hover vocab yui-wk-div" data-id='intractable'>intractable</span> to compute in the other.
     </p>
     <p>The following video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0254" target="_blank" title="">here</a>) 
-      provides a high-level description of <span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span> without out going too deeply into 
-      the mathematical details.
+      provides a high-level description of <span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span> without out going too deeply into the mathematical details.
     </p>
     
 .. youtube:: Z6OCgIRt54g
@@ -217,11 +225,11 @@ Still Curious?
 
     <p>
     <ul>
-    <li><a href="https://britcruise.com/2012/02/14/2000-years-of-cryptography-in-8-5min/" target="_blank">Brit Cruise</a> has made an entire series of videos explaining encryption. If you're curious about some of the mathematics involved, see his full videos on <a href="https://www.youtube.com/watch?v=YEBfamv-_do" target="_blank"><span class="hover vocab yui-wk-div" data-id='Diffie-Hellman'>Diffie-Hellman</span></a> and <a href="https://www.youtube.com/watch?v=wXB-V_Keiu8" target="_blank"><span class="hover vocab yui-wk-div" data-id='RSA'>RSA</span></a>.</li>
+    <li><a href="https://britcruise.com/2012/02/14/2000-years-of-cryptography-in-8-5min/" target="_blank">Brit Cruise</a> has made an entire series of videos explaining encryption. If you're curious about some of the mathematics involved, see his full videos on <a href="https://www.youtube.com/watch?v=YEBfamv-_do" target="_blank"><span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span></a> and <a href="https://www.youtube.com/watch?v=wXB-V_Keiu8" target="_blank"><span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span></a>.</li>
     <li>You can also read more about how encryption developed in <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf" target="_blank">Chapter 5 of <i>Blown to Bits</i></a> (pg. 178+)</li>
-    <li>The Khan Academy has incorporated the Cruise videos into an excellent interactive <a href="https://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">course on Cryptography</a>, from the Caesar cipher to public key encryption.</li>
+    <li>Khan Academy has incorporated the Cruise videos into an excellent interactive <a href="https://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">course on Cryptography</a>, from the Caesar cipher to public key encryption.</li>
     <li>The history of <a href="https://en.wikipedia.org/wiki/History_of_cryptography" target="_blank">cryptography</a> is very interesting story of the battle between <i>cryptographers</i>, those who create ciphers, and <i>cryptanalysts</i>, those who try to break ciphers. Until the 1990s cryptographic algorithms were the considered armaments by the U.S. government and it was widely believed that the National Security Agency (NSA) could break all existing ciphers.  That's no longer believed to be true. Today, strong cryptography is available to us on our smart phones.  But we still see the battle playing out between the government and private individuals and corporations over whether the government should have access to the keys that protect the data on our phones.  If you're curious about this, see this article on the <a href="https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute" target="_blank">dispute between Apple and the FBI</a>.</li>
-    <li>The PBS News Hour video has a guest from the <b><a href="https://www.eff.org/" target="_blank">Electronic Frontier Foundation</a></b>, an organization that defends civil liberties related to the digital world. What other issues from the course do they have positions on or have been involved with?</li>
+    <li>The PBS News Hour video has a guest from the <a href="https://www.eff.org/" target="_blank">Electronic Frontier Foundation</a>, an organization that defends civil liberties related to the digital world. What other issues from the course do they have positions on or have been involved with?</li>
     </ul>    
 
 Self-Check
@@ -240,8 +248,8 @@ Self-Check
     <br/><span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography</span>
     </td>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="diffie-hellman">diffie-hellman</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="rsa">rsa</span>
+    <span class="hover vocab yui-wk-div" data-id="diffie-hellman">Diffie-Hellman</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="rsa">RSA</span>
     <br/><span class="hover vocab yui-wk-div" data-id="https">HTTPS</span>
     <br/><span class="hover vocab yui-wk-div" data-id="ssl">SSL</span>
     </td>
