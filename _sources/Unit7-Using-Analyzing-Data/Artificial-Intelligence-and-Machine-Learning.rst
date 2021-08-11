@@ -37,8 +37,20 @@ Introduction and Goals
 .. raw:: html
 
     <p><h3>Can a computer recognize your doodles?</h3>
-    <p><b><i>Artificial intelligence (AI)</i></b> is sometimes described as getting a computer to do complex tasks that humans find easy.  Examples would be walking, seeing, and understanding speech.  These activities, which come naturally to us, are very difficult to develop traditional step-by-step algorithms for.</p>
-    <p>But AI researchers have developed an approach known as <i><b><span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span></b></i> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i><b>learns</b></i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  
+    <p>Artificial intelligence (AI) is sometimes described as getting a computer to do complex tasks that humans find easy.  Examples would be walking, seeing, and understanding speech.  These activities, which come naturally to us, are very difficult to develop traditional step-by-step algorithms for.</p>
+    <p>But AI researchers have developed an approach known as <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i>learns</i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>explain the basics of <span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span></li>
+	<li>identify aspects of every day life that use <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span></li>
+	<li>describe how computing innovations that use <span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span> have biases</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>explain how computing innovations that use <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> can raise ethical concerns</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="neural network">neural network</span> while describing the beneficial and harmful effects of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
 
 Learning Activities
 --------------------
@@ -157,11 +169,11 @@ Still Curious?
       </p>
       <h5>Machine Learning: </h5>
       <ul>
-    <li>In this video two Googlers, Nat and Lo, interview a couple of Google AI researchers who describe <a href="https://www.youtube.com/watch?time_continue=1&amp;v=bHvf7Tagt18" target="_blank">how <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> works</a>. This video was made as part of their "20% project".  One of the cool features of working at Google and other technology companies is that employees get to spend part of their time (1 day per week in this case) working on projects that they themselves choose.   
+    <li>In this video two Googlers, Nat and Lo, interview a couple of Google <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> researchers who describe <a href="https://www.youtube.com/watch?time_continue=1&amp;v=bHvf7Tagt18" target="_blank">how <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> works</a>. This video was made as part of their "20% project".  One of the cool features of working at Google and other technology companies is that employees get to spend part of their time (1 day per week in this case) working on projects that they themselves choose.   
         </li>
     <li>The <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">Google Self-Driving Car</a> is an example of the research being done by car industry researchers to create fully autonomous vehicles.  As the video points out, an autonomous vehicle is much different than the computer-assisted vehicles that are currently available today.  
         </li>
-    <li>Computer vision is a long-standing AI research area. In this TED talk, Wei-wei Li from Stanford University describes how she used <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> and crowd source to to <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">teach a computer to understand pictures</a>.
+    <li>Computer vision is a long-standing <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> research area. In this TED talk, Wei-wei Li from Stanford University describes how she used <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> and crowd source to to <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">teach a computer to understand pictures</a>.
         </li>
     <li>The <a href="https://machinelearningforkids.co.uk/" target="_blank">machinelearningforkids.co.uk/</a> site uses IBM's <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> processors online to train and use models in Scratch and in an App Inventor extension. Using these materials does require setting up accounts with IBM and some set up time.</li> 
     </ul>
@@ -171,7 +183,7 @@ Still Curious?
      <li>Here is a Ted Talk video on <a href="https://www.youtube.com/watch?v=UG_X_7g63rY" target="_blank">Bias in Facial Recognition</a> by Joy Buolamwini and another on <a href="https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end" target="_blank">Blind Faith in Big Data Must End</a> by Cathy O'Neil.</li>
     <li>This <a href="https://www.youtube.com/watch?v=Fq1SEqNT-7c" target="_blank">video</a> is on the use of Facial Recognition in China and privacy concerns.</li>
     <li>This is <a href="https://www.youtube.com/watch?v=7lpCWxlRFAw" target="_blank">a report on police crime prediction software and bias.</a></li>
-    <li> Microsoft had to silence its new AI chat bot. 
+    <li> Microsoft had to silence its new <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>	 chat bot. 
     </li>
     <li><a href="https://www.utsa.edu/today/2020/08/story/algorithm-bias-health-tweets.html" target="_blank">Bias in Health tracking</a>  
     </li>
@@ -180,7 +192,7 @@ Still Curious?
 
     <h3>Optional: App Inventor Artificial Intelligence Tutorials</h3>
     
-    Check out these <a href="http://appinventor.mit.edu/explore/ai-with-mit-app-inventor" target="_blank">AI tutorials in MIT App Inventor</a>. The Image Classifier tutorials require an AI extension that some mobile devices can use (<a href="http://appinventor.mit.edu/explore/ai-compatible-devices" target="_blank">list of compatible devices and an apk</a> that you can test on your device to see if it can use these extensions).  The Therapist Bot tutorial and the Rock-Paper-Scissors Tutorials do not require this AI extension and can be implemented on any device. They are a lot of fun! 
+    Check out these <a href="http://appinventor.mit.edu/explore/ai-with-mit-app-inventor" target="_blank">AI tutorials in MIT App Inventor</a>. The Image Classifier tutorials require an <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> extension that some mobile devices can use (<a href="http://appinventor.mit.edu/explore/ai-compatible-devices" target="_blank">list of compatible devices and an apk</a> that you can test on your device to see if it can use these extensions).  The Therapist Bot tutorial and the Rock-Paper-Scissors Tutorials do not require this <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> extension and can be implemented on any device. They are a lot of fun! 
     
     
 Self-Check
