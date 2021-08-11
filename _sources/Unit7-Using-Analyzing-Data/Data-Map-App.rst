@@ -28,7 +28,7 @@ Data Map App
         "API":"The Application Programming Interface (API) for a program or web service defines how other programs can communicate with it and use it. ",
       };      */
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -39,26 +39,28 @@ Introduction and Goals
     <p>
     <table>
     <tbody>
+	<tr>
+		<td colspan=2>In this lesson, you will build an App Inventor app that visualizes data in a map. The Data Map app uses a <span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span> data file to draw states on the map. Then, a spreadsheet <span class="hover vocab yui-wk-div" data-id='CSV files'>CSV</span> file of data about the states is read in and displayed when each state is clicked.</td>
+	</tr>
     <tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/ug6NxkEP7_I?rel=0" width="350"></iframe>
+		<td valign="top">
+		<iframe allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/ug6NxkEP7_I?rel=0" width="225"></iframe>
          (<span class="yui-non"><a href="https://www.teachertube.com/video/data-map-app-preview-476360" target="_blank">TeacherTube Version</a></span>)
-          </td>
-    <td><p>
-            In this lesson, you will build an App Inventor app that visualizes data in a map.
-    The Data Map app uses a <span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span> data file to draw states on the map. Then, a spreadsheet CSV file of data about the states is read in and displayed when each state is clicked.
-    
-    
-              
-            </p><p><b>Objectives:</b> In this lesson, you will learn to:
-              </p><ul>
-    <li>use <span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span> files to draw polygons on a map,</li>
-    <li>use a local CSV file and read in data from the file into a List of Lists data structure,</li>
-    <li>iterate through a list using a loop to process the data file and display it on the map in infoBoxes.</li>
-    <li>Use data visualization on a map to display different shading to represent different data values.</li>
-    <li>Use an <span class="hover vocab yui-wk-div" data-id='API'>API</span> to read in real-time weather data.</li>
-    </ul>
-    </td>
+        </td>
+		<td valign="top">   
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>read data from a file into an app</li>
+			<li>store data into and manipulate a list of lists</li>
+			<li>use data visualization on a map to represent different data values</li>
+			<li>use <span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span> files to draw polygons on a map</li>
+			<li>use an <span class="hover vocab yui-wk-div" data-id='API'>API</span> to read in real-time weather data</li>			
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="JSON">JSON</span> and <span class="hover vocab yui-wk-div" data-id="API">API</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
+		</td>
     </tr>
     </tbody>
     </table>
@@ -76,15 +78,15 @@ Learning Activities
       </li><li>By using a web <span class="hover vocab yui-wk-div" data-id='API'>API</span> to read in the data: This is a good option if the data changes frequently.
       </li></ol>
     
-    Often a single data source does not contain the necessary data to draw a conclusion. It may be required to combine data from a variety of sources to formulate a conclusion. This app uses 2 data files which are already uploaded into the app template in its Media section. The first data file is a <a href="https://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">Comma-Separated-Values (CSV) file</a>. Any spreadsheet in Excel or Google Sheets can be saved as a .csv file which just has the text separated by commas, which is a great format for importing into App Inventor. The .csv file in this app contains state data from the <a href="https://www.cdc.gov/nchs/pressroom/stats_of_the_states.htm" target="_blank">Center for Disease Control (CDC)</a> that includes data about each state's population, non-insured rate, firearms death rates, drug overdose death rates, and a URL for state information at the CDC website.
+    Often a single data source does not contain the necessary data to draw a conclusion. It may be required to combine data from a variety of sources to formulate a conclusion. This app uses 2 data files which are already uploaded into the app template in its Media section. The first data file is a <a href="https://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">Comma-Separated-Values (<span class="hover vocab yui-wk-div" data-id='CSV files'>CSV</span>) file</a>. Any spreadsheet in Excel or Google Sheets can be saved as a .csv file which just has the text separated by commas, which is a great format for importing into App Inventor. The .csv file in this app contains state data from the <a href="https://www.cdc.gov/nchs/pressroom/stats_of_the_states.htm" target="_blank">Center for Disease Control (CDC)</a> that includes data about each state's population, non-insured rate, firearms death rates, drug overdose death rates, and a URL for state information at the CDC website.
     
     
     <p>
-      The second file, <a href="https://docs.google.com/document/d/18zBz7OfIgiDXdhe8JWMQhHyxCRsrUbLsfjE2oGpbFEM/edit?usp=sharing" target="_blank">us_states.<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span></a>, loads in the polygon shapes of each state to overlay on the map so that we can click on them. <a href="http://<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span>.org/" target="_blank"><span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span></a> (pronounced geo-jay-sun) is a standard agreed-upon format for geographical information used on the web and in data files. <a href="https://www.<span class="hover vocab yui-wk-div" data-id='json'>json</span>.org/"><span class="hover vocab yui-wk-div" data-id='JSON'>JSON</span> (Javascript Object Notation)</a> is a general format that describes features and values for any object that many web servers use to communicate and store data. If you open this <a href="https://docs.google.com/document/d/18zBz7OfIgiDXdhe8JWMQhHyxCRsrUbLsfjE2oGpbFEM/edit?usp=sharing" target="_blank">us_states.<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span></a> file, you'll see that it has a set of latitude and longitude pairs that describe the points of the polygon to draw each of the state shapes.
-    You can create your own <span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span> files at <a href="http://<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span>.io" target="_blank">http://<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span>.io</a> and find free public ones online for example at <a href="https://<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span>-maps.ash.ms/" target="_blank">https://<span class="hover vocab yui-wk-div" data-id='geojson'>geojson</span>-maps.ash.ms/</a>.
+      The second file, <a href="https://docs.google.com/document/d/18zBz7OfIgiDXdhe8JWMQhHyxCRsrUbLsfjE2oGpbFEM/edit?usp=sharing" target="_blank">US States <span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span></a>, loads in the polygon shapes of each state to overlay on the map so that we can click on them. <a href="http://GeoJSON.org/" target="_blank"><span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span>.org</a> (pronounced geo-jay-sun) is a standard agreed-upon format for geographical information used on the web and in data files. <a href="https://www.json.org/"><span class="hover vocab yui-wk-div" data-id='JSON'>JSON</span>.org</a> is a general format that describes features and values for any object that many web servers use to communicate and store data. If you open this <a href="https://docs.google.com/document/d/18zBz7OfIgiDXdhe8JWMQhHyxCRsrUbLsfjE2oGpbFEM/edit?usp=sharing" target="_blank">us_states.geojson</a> file, you'll see that it has a set of latitude and longitude pairs that describe the points of the polygon to draw each of the state shapes.
+    You can create your own <span class="hover vocab yui-wk-div" data-id='GeoJSON'>GeoJSON</span> files at <a href="http://GeoJSON.io" target="_blank">http://geojson.io</a> and find free public ones online for example at <a href="https://geojson-maps.ash.ms/" target="_blank">https://geojson-maps.ash.ms/</a>.
     </p>
-    <p>APIs are very useful for real-time data that changes frequently. In the projects for this app, you can use the OpenWeatherMap <span class="hover vocab yui-wk-div" data-id='API'>API</span> to read in and display weather data for each state. Here’s a list of different public APIs that you can use in apps: <a href="https://github.com/toddmotto/public-apis">https://github.com/toddmotto/public-apis</a>.</p>
-    <p>Using and processing data sets in programs can have certain challenges. For example, the data may be incomplete or invalid or it may not have been entered in a uniform way with variations in spelling and capitalization.  <b><span class="hover vocab yui-wk-div" data-id='Cleaning data'>Cleaning data</span></b> is a process that makes the data uniform without changing its meaning, for example, replacing all equivalent abbreviations, spellings, and capitalizations with the same word. Sometimes data translation and transformation is necessary to convert data from one format to another. When data is transformed using tools and programs, patterns can emerge, allowing us to gain insight and knowledge. More complex data operations such as clustering similar data or categorizing and labeling data can also help us to gain knowledge. However, the ability to process data depends on the capabilities of the users and their tools.
+    <p><span class="hover vocab yui-wk-div" data-id='API'>APIs</span> are very useful for real-time data that changes frequently. In the projects for this app, you can use the OpenWeatherMap <span class="hover vocab yui-wk-div" data-id='API'>API</span> to read in and display weather data for each state. Here’s a list of different public <span class="hover vocab yui-wk-div" data-id='API'>APIs</span> that you can use in apps: <a href="https://github.com/toddmotto/public-apis">https://github.com/toddmotto/public-apis</a>.</p>
+    <p>Using and processing data sets in programs can have certain challenges. For example, the data may be incomplete or invalid or it may not have been entered in a uniform way with variations in spelling and capitalization. <span class="hover vocab yui-wk-div" data-id='cleaning data'>Cleaning data</span> is a process that makes the data uniform without changing its meaning, for example, replacing all equivalent abbreviations, spellings, and capitalizations with the same word. Sometimes data translation and transformation is necessary to convert data from one format to another. When data is transformed using tools and programs, patterns can emerge, allowing us to gain insight and knowledge. More complex data operations such as clustering similar data or categorizing and labeling data can also help us to gain knowledge. However, the ability to process data depends on the capabilities of the users and their tools.
       
     </p><h3>Tutorial</h3>
     <p>Start App Inventor with <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit7/templates/DataMap/DataMapTemplate.asc" target="_blank">Data Map App Template</a>.  Once the project opens use Save As to rename your project. 
@@ -107,7 +109,7 @@ Learning Activities
     <b>Weather <span class="hover vocab yui-wk-div" data-id='API'>API</span> (Optional, requires registration to get a free <span class="hover vocab yui-wk-div" data-id='API'>API</span> key):</b> <a href="https://en.wikipedia.org/wiki/Application_programming_interface" target="_blank">APIs</a> can be used to read in real-time current data, for example the current weather report for a clicked state.  Read about the OpenWeatherMap <span class="hover vocab yui-wk-div" data-id='API'>API</span> here: <a href="https://openweathermap.org/current" target="_blank">https://openweathermap.org/current</a>. Try clicking on this example: <a href="https://samples.openweathermap.org/data/2.5/weather?q=London,uk&amp;appid=b6907d289e10d714a6e88b30761fae22" target="_blank">https://samples.openweathermap.org/data/2.5/weather?q=London,uk&amp;appid=b6907d289e10d714a6e88b30761fae22</a> to get the current weather data in <span class="hover vocab yui-wk-div" data-id='JSON'>JSON</span> format for London. OpenWeatherMap requires a registration key called appid. To get this free key, your instructor should follow the directions at  <a href="https://openweathermap.org/appid" target="_blank">https://openweathermap.org/appid</a> and then tell you the key, for example appid=8bb5e8bedfe6fe3f1a44e0a2c04b6540.
         <p>To build the app, we need to build a url for each clicked state and pull out the main weather description.  To make an <span class="hover vocab yui-wk-div" data-id='API'>API</span> request, you will need a <a href="http://ai2.appinventor.mit.edu/reference/components/connectivity.html#Web" target="_blank">Connectivity/Web component</a> in your UI (this is different than the WebViewer component).
           </p><ul>
-    <li>Use a Map.FeatureClick event handler and set the Web.url to the <span class="hover vocab yui-wk-div" data-id='API'>API</span> url like <b>http://<span class="hover vocab yui-wk-div" data-id='api'>api</span>.openweathermap.org/data/2.5/weather?q=<em>state</em>\&amp;appid=<em>yourAppId</em></b> using a join to put in the state name which is the title of the clicked feature (using an Any Feature Component) and the appid (<span class="hover vocab yui-wk-div" data-id='API'>API</span> key) that you got from your instructor (you can try the Mobile CSP one appid=8bb5e8bedfe6fe3f1a44e0a2c04b6540 but it may be blocked if too many people are using it).</li>
+    <li>Use a Map.FeatureClick event handler and set the Web.url to the <span class="hover vocab yui-wk-div" data-id='API'>API</span> url like <b>http://api.openweathermap.org/data/2.5/weather?q=<em>state</em>\&amp;appid=<em>yourAppId</em></b> using a join to put in the state name which is the title of the clicked feature (using an Any Feature Component) and the appid (<span class="hover vocab yui-wk-div" data-id='API'>API</span> key) that you got from your instructor (you can try the Mobile CSP one appid=8bb5e8bedfe6fe3f1a44e0a2c04b6540 but it may be blocked if too many people are using it).</li>
     <li>Then, call Web1.get. This will fetch that webpage and then go to the event-handler When Web1.GotText.</li>
     <li>In the GotText event handler, you will need to parse the result to find the weather main description, for example “clouds” below:
     {"coord":{"lon":-78.39,"lat":43.1},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}. The <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#lookupinpairs" target="_blank">List/Lookup in pairs block</a> can pull out the weather key and then the main key in the result text. The following code will pull out this part of the <span class="hover vocab yui-wk-div" data-id='JSON'>JSON</span> data returned from this <span class="hover vocab yui-wk-div" data-id='API'>API</span> which you can then display in a label:<br/>
