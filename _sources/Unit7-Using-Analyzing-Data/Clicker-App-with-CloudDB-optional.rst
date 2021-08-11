@@ -40,22 +40,30 @@ Introduction and Goals
     <table>
     <tbody>
     <tr>
-    <td>
-    <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/TD0B60NsMz8" width="420"></iframe>
-    <!-- (&lt;span class=&quot;yui-non&quot;&gt;TeacherTube Version&lt;/span&gt;)-->
-    </td>
-    <td>In earlier apps that we designed in this course, we used TinyDB to store and retrieve data on our physical device (phone or tablet). But in this lesson, we will build a simple Clicker App that will store and retrieve data from a cloud database on the web.
-            <p> Imagine a teacher asking the class a question and students voting on it. We want to design an app that can not only store the results from each student in one central place 
-              but also allow the teacher and the students to view the results in real time.
-              
-            </p><p><b>Objectives:</b> In this lesson, you will learn to:
-              </p><ul>
-    <li>create an app that can be used to poll individuals and store responses on the web</li>
-    <li>understand the concept of <b>centralizing</b> and sharing data using <i>CloudDB</i></li>
-    <li>grasp the difference between <b>synchronous</b> and <b>asynchronous</b> operations</li>
-    </ul>
-    </td>
-    </tr>
+    <td colspan=2>
+		<p>In earlier apps that we designed in this course, we used TinyDB to store and retrieve data on our physical device (phone or tablet). But in this lesson, we will build a simple Clicker App that will store and retrieve data from a cloud database on the web.</p>
+        <p> Imagine a teacher asking the class a question and students voting on it. We want to design an app that can not only store the results from each student in one central place but also allow the teacher and the students to view the results in real time.</p>
+	</td>
+	</tr>
+    <tr>
+		<td valign=top>
+		<iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube-nocookie.com/embed/TD0B60NsMz8" width="275"></iframe>
+		<!-- (&lt;span class=&quot;yui-non&quot;&gt;TeacherTube Version&lt;/span&gt;)-->
+		</td>
+		<td valign=top>
+        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+		<ul>
+		<li>differentiate between synchronous and asynchronous operations</li>
+		<li>create an app using the CloudDB component to store data on the web so it can be shared by different users</li>
+		</ul>
+		<div><b>Language Objectives:</b>&nbspI will be able to</div>
+		<ul>
+		<li>describe and give examples of syncrhonous and asyncronous operations</li>
+		<li>describe how using a database helps reduce detail in an app</li>
+		<li>use target vocabulary while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		</ul>
+		</td>
+	</tr>
     </tbody>
     </table>
     
