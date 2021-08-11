@@ -28,7 +28,7 @@ Visualizing Data
     
         });
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -39,6 +39,18 @@ Introduction and Goals
     <p>
     <p>In lesson <a href="../unit?unit=26&amp;lesson=87" target="_blank">7.2 Big Data</a>, we investigated large data sets and how to process them. In this lesson, we will create our own data visualizations using charts in Google Spreadsheets and maps using Google My Maps.
     </p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>describe what information can be extracted from data and metadata</li>
+	<li>identify how a visualization can be used to mislead the audience about its underlying data</li>
+	<li>use software to create visualizations</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>explain insights and knowledge gained from programs and visualizations that process data</li>
+	<li>use target vocabulary, such as data, metadata, and correlation while interpreting and creating visualizations, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
     
 
 Learning Activities
