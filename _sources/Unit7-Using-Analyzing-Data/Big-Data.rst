@@ -27,7 +27,7 @@ Big Data
     
       });
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -44,6 +44,19 @@ Introduction and Goals
     <a href="https://www.visualcapitalist.com/wp-content/uploads/2019/04/data-generated-each-day-full.html" target="_blank"><img alt="Big Data infographic" class="yui-img" src="https://assets.weforum.org/editor/large_EtPUkpGXyTdl9eydWTMVIhXdNquLOB8IdyieBBGARiw.jpg" style="width: 60%; margin: auto;" title="Big Data infographic"/></a>
     <p>How much is an Exabyte or Zettabyte? Here is a table from the same <a href="https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/" target="_blank">article </a>at the World Economic Forum:</p>
     <img alt="Table of bytes" class="yui-img" src="https://assets.weforum.org/editor/large_1wZFPPQxA3arZahkXNge_pYCgI7alwllw3o5S6fgqc8.png" style="width: 70%; margin: auto;" title="Table of bytes"/>
+	<p>
+	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>describe what information can be extracted from data</li>
+	<li>identify what qualifies as big data</li>
+	<li>describe challenges associated with processing big data sets</li>
+	<li>recognize both benefits and harms of using big data</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>discuss privacy and security concerns related to a data set</li>
+	<li>use target vocabulary, such as megabyte, gigabyte, and terabyte while describing the effects of big data, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
     
 
 Learning Activities
