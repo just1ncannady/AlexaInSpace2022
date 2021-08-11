@@ -28,7 +28,7 @@ Data Visualization Project
     
         });
     </script>
-    <h3 id="est-length"><b>Time Estimate: 90 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 90 minutes</h3>
     
 
 Introduction and Goals
@@ -39,7 +39,18 @@ Introduction and Goals
     <p>
     <p>In this lesson, you will work with a partner to identify and analyze a large data set that interests both of you. This project requires developing several questions, or hypotheses, about the data and then investigating them by creating visualizations to answer those questions. As you complete your project, keep track of your process on your portfolio using the reflection questions as a guide.
     </p>
-    
+    <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+	<ul>
+	<li>develop hypotheses about data</li>
+	<li>create a visualization from data</li>
+	<li>work with a partner to gain new insights about data</li>
+	</ul>
+	<div><b>Language Objectives:</b>&nbspI will be able to</div>
+	<ul>
+	<li>summarize a set of data and describe what information can be extraced from it</li>
+	<li>use target vocabulary while making hypotheses, creating visualizations, and gaining knowledge from data, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	</ul>
+
 
 Learning Activities
 --------------------
