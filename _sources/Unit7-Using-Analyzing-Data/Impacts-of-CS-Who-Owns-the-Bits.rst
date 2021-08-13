@@ -49,22 +49,22 @@ Introduction and Goals
       </tr>    
       <tr>
         <td valign="top">
-			<a href="https://drive.google.com/file/d/1DrdNv5qL6cqaehEBlyRqqUEc5D5XUyWt/view?usp=sharing" target="_blank" width="200">
-			<img alt="" class="yui-img" src="../_static/assets/img/blowntobits.jpg" style="float:left; width:200px; padding-right: 1.5em; padding-bottom: 1em;" title=""/></a>
+			<a href="https://drive.google.com/file/d/1DrdNv5qL6cqaehEBlyRqqUEc5D5XUyWt/view?usp=sharing" target="_blank">
+			<img alt="" class="yui-img" src="../_static/assets/img/blowntobits.jpg" style="width:400px;" title=""/></a>
         </td>
         <td valign="top">
-	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
-	<ul>
-	<li>define <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span> and explain what different levels of <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span> mean</li>
-	<li>explain the role of the government as it relates to copyrighted materials, specifically the <span class="hover vocab yui-wk-div" data-id="DMCA">Digital Millenium Copyright Act</span></li>
-	<li>consider my role as a consumer of digial media in regards to downloads, sharing, and otherwise interacting with <span class="hover vocab yui-wk-div" data-id="copyright">copyrighted</span> material</li>
-	<li>consider my role as an app developer in regards to fair use of <span class="hover vocab yui-wk-div" data-id="copyright">copyrighted</span> material</li>
-	</ul>
-	<div><b>Language Objectives:</b>&nbspI will be able to</div>
-	<ul>
-	<li>explain how the use of computing can raise legal and ethical concerns</li>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="creative commons">Creative Commons</span>, <span class="hover vocab yui-wk-div" data-id="fair use">fair use</span>, <span class="hover vocab yui-wk-div" data-id="DRM">DRM</span>, and <span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span> while describing issuses pertaining to <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
-	</ul>
+			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
+			<ul>
+			<li>define <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span> and explain what different levels of <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span> mean</li>
+			<li>explain the role of the government as it relates to copyrighted materials, specifically the <span class="hover vocab yui-wk-div" data-id="DMCA">Digital Millenium Copyright Act</span></li>
+			<li>consider my role as a consumer of digial media in regards to downloads, sharing, and otherwise interacting with <span class="hover vocab yui-wk-div" data-id="copyright">copyrighted</span> material</li>
+			<li>consider my role as an app developer in regards to fair use of <span class="hover vocab yui-wk-div" data-id="copyright">copyrighted</span> material</li>
+			</ul>
+			<div><b>Language Objectives:</b>&nbspI will be able to</div>
+			<ul>
+			<li>explain how the use of computing can raise legal and ethical concerns</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="creative commons">Creative Commons</span>, <span class="hover vocab yui-wk-div" data-id="fair use">fair use</span>, <span class="hover vocab yui-wk-div" data-id="DRM">DRM</span>, and <span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span> while describing issuses pertaining to <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			</ul>
         </td>
       </tr>
     </tbody>
