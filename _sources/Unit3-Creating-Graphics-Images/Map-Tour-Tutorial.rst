@@ -45,21 +45,21 @@ Introduction and Goals
 
     <p>
     <table><tbody>
-	<tr><td colspan=2>The Map Tour App tutorial showcases some features of the new <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a map tour of different destinations. You will learn about an important <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> called <b>Lists</b> to keep track of the destinations.</td></tr>
+	<tr><td colspan=2>The Map Tour App tutorial showcases some features of the <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a map tour of different destinations. You will learn about an important <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> called <b>Lists</b> to keep track of the destinations.</td></tr>
     <tr>
-	<td valign=top><iframe allowfullscreen="" frameborder="0" height="300px" src="https://www.youtube.com/embed/JyqhNvOtQfA?rel=0" width="290px"></iframe>       
+	<td valign=top><iframe allowfullscreen="" frameborder="0" height="275px" src="https://www.youtube.com/embed/JyqhNvOtQfA?rel=0" width="250px"></iframe>       
     (<a href="https://www.teachertube.com/video/mobile-csp-map-tour-preview-revised-476365" target="_blank">TeacherTube Version</a>)
     </td>
     <td valign=top>
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 		<ul>
-		<li>use the Map, ListPicker, and WebViewer UI components in App Inventor</li>
+		<li>use the <i>Map</i>, <i>ListPicker</i>, and <i>WebViewer</i> UI components in App Inventor</li>
 		<li>use <span class="hover vocab yui-wk-div" data-id='list'>lists</span> to store and access destinations on the map</li>
 		<li>use an <span class="hover vocab yui-wk-div" data-id='API'>API</span> (Application Programming Interface) to display Wikipedia pages of destinations</li>
 		</ul>
         <div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
-		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=list>list</span>, <span class="hover vocab yui-wk-div" data-id=index>index</span>, <span class="hover vocab yui-wk-div" data-id=string>string</span>, <span class="hover vocab yui-wk-div" data-id=concatenation>concatenation</span>, and <span class="hover vocab yui-wk-div" data-id=API>API</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=list>list</span>, <span class="hover vocab yui-wk-div" data-id=index>index</span>, <span class="hover vocab yui-wk-div" data-id=string>string</span>, <span class="hover vocab yui-wk-div" data-id=concatenation>concatenation</span>, and <span class="hover vocab yui-wk-div" data-id=API>API</span> while describing app features and UI components, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
     </td>
 	</tr>

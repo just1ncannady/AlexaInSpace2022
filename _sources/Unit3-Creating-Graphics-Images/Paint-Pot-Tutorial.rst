@@ -41,20 +41,18 @@ Introduction and Goals
     <table>
     <tbody>
       <tr>
-		<td valign="top" colspan=2><b><i>Paint Pot</i></b> is a basic “finger painting” app. It simulates  dipping your finger in a pot of a paint and then drawing with it on a canvas. 
-		The app uses buttons to change the paint colors and uses App Inventor’s touch and drag event handlers to draw circles and lines on the canvas.<br/>
-		<p>This tutorial also introduces the concept of a global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.</p>
+		<td valign="top" colspan=2><b><i>Paint Pot</i></b> is a “finger painting” app. It simulates dipping your finger in a pot of a paint then drawing with it on a canvas. 
+		The app uses buttons to change the paint colors and App Inventor’s <i>touch</i> and <i>drag</i> event handlers to draw circles and lines on the canvas.<br/>
 		</td>
       </tr>    
       <tr>
-        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/PWKGUzdiP44" width="275"></iframe>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="365" src="https://www.youtube.com/embed/PWKGUzdiP44" width="275"></iframe>
         (<a href="http://www.teachertube.com/video/paintpot2preview-347830" target="_blank">TeacherTube Version</a>)</td>
         <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
           <ul>
-          <li>follow an instructor-led walkthrough to create the <i>PaintPot</i> app on a mobile device</li>
-          <li>develop an understanding of what an App Inventor program is</li>
-          <li>deepen an understanding of event-driven programming</li>
+          <li>follow a tutorial to create the <i>PaintPot</i> app</li>
+          <li>deepen my understanding of event-driven programming</li>
           <li>learn how to use a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> to make a program more general</li>
           </ul>
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>

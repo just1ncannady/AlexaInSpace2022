@@ -47,7 +47,7 @@ Introduction and Goals
            We will allow users to click on the map to add new destinations to the map tour.
           </li>
     <li><b>Data Persistence.</b> We will incorporate  <i>TinyDB</i>, App Inventor's <span class="hover vocab yui-wk-div" data-id="database">database</span> component, which 
-            will enable the app to save new destinations for the user.  New locations that are added to the destinations
+            will enable the app to save new destinations for the user.  Locations that are added to the destinations
             list will be saved to the <span class="hover vocab yui-wk-div" data-id="database">database</span> and re-loaded into the app when it starts up again. 
           </li>
     </ol>
@@ -57,21 +57,21 @@ Introduction and Goals
 		<!--
 		  &lt;img height=&quot;420&quot; src=&quot;assets/img/MapTourScreenshotPart2.png&quot;&gt;
 		-->
-		<iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube.com/embed/PTWhgFo2e_Q?rel=0" width="300"></iframe>
+		<iframe allowfullscreen="" frameborder="0" height="260" src="https://www.youtube.com/embed/PTWhgFo2e_Q?rel=0" width="250"></iframe>
 		(<a href="https://teachertube.com/video/mobile-csp-map-tour-tinydb-revised-476367" target="_blank" title="">Teacher Tube version</a>)<br/>
     </td>
     <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
           <ul>
           <li>add and remove items from lists</li>
-          <li>use a Notifier for user input to an app</li>
+          <li>use a <i>Notifier</i> for user input to an app</li>
           <li>describe fundamental concepts of <span class="hover vocab yui-wk-div" data-id="database">databases</span> and data persistence</li>
           <li>use a TinyDB <span class="hover vocab yui-wk-div" data-id="database">database</span> component to permanently save app data on a device</li>
           </ul>
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
 		  <li>explain what it means for data to persist in an app</li>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="database">database</span>, while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+          <li>use target vocabulary such as <span class="hover vocab yui-wk-div" data-id="database">database</span> while describing app features and UI components, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
     </td>
     </tr>

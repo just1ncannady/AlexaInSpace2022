@@ -57,16 +57,14 @@ Introduction and Goals
     <tbody>
       <tr>
 		<td valign="top" colspan=2>
-			<p>Computing has transformed our lives in so many ways. And mobile computing, where we are constantly connected to others and to the world via our mobile
-			devices, is challenging us right now to come with new norms about privacy, security, the ownership or openness of data and information,
-			and other issues. </p>
-			<p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and we also 
-			need to think about the impacts we will create as we build our own mobile apps. </p>
+			<p>Computing has transformed our lives in so many ways. Mobile computing, where we are constantly connected to others and to the world via our
+			devices, is challenging us to develop new norms about privacy, security, rights, and other issues. </p>
+			<p>Like any technology, mobile computing has both positive and negative impacts. We need to reflect on these impacts in general and on the impacts of the mobile apps we create. </p>
 		</td>
       </tr>    
       <tr>
         <td valign="top"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=91" target="_blank">
-			<img align="left" src="../_static/assets/img/blowntobits.jpg" width="350"/></a>
+			<img align="left" src="../_static/assets/img/blowntobits.jpg" height="190px" width="350"/></a>
         </td>
         <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
@@ -77,7 +75,8 @@ Introduction and Goals
           </ul>
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="modeling">modeling</span>, <span class="hover vocab yui-wk-div" data-id="render">render</span>, and <span class="hover vocab yui-wk-div" data-id="digital">digital</span>, while discussing digital models, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		  <li>discuss the beneficial and harmful effects of computing innovations</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="modeling">modeling</span>, and <span class="hover vocab yui-wk-div" data-id="render">render</span>, while discussing <span class="hover vocab yui-wk-div" data-id="digital">digital</span> models, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
         </td>
       </tr>

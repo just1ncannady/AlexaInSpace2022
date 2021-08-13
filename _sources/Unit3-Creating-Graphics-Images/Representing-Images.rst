@@ -45,12 +45,12 @@ Introduction and Goals
     <tbody>
       <tr>
 		<td valign="top" colspan=2>
-			<p>In this lesson we continue the exploration of <span class="hover vocab yui-wk-div" data-id='bit'>bits</span> and binary numbers that we began in unit 2. In this case we learn how to use bits, 1s and 0s, to represent images.</p>
+			<p>In this lesson we continue the exploration of <span class="hover vocab yui-wk-div" data-id='bit'>bits</span> and binary numbers that we began in Unit 2. In this case we learn how to use bits, 1s and 0s, to represent images.</p>
 			<p>The image representation technique demonstrated in the video below is known as <span class="hover vocab yui-wk-div" data-id='run length encoding'>run-length encoding (RLE)</span> and it is an <a href="http://en.wikipedia.org/wiki/Image_compression" target="_blank">image compression</a> technique. Image compression is a type of <i>data compression</i> which can reduce the size (number of bits) of transmitted or stored data.</p>
 		</td>
       </tr>    
       <tr>
-        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="320" src="https://www.youtube.com/embed/uaV2RuAJTjQ"></iframe>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" width="265" height="320" src="https://www.youtube.com/embed/uaV2RuAJTjQ"></iframe>
         </td>
         <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
@@ -61,7 +61,8 @@ Introduction and Goals
           </ul>
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span>, <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span>, <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span>, and <span class="hover vocab yui-wk-div" data-id='run length encoding'>run length encoding</span> while describing how images are stored in memory with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		  <li>compare and contrast <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless</span> and <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy</span> compression techniques</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span>, <span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span>, and <span class="hover vocab yui-wk-div" data-id='run length encoding'>run length encoding</span> while describing how images and text are stored in memory, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
         </td>
       </tr>

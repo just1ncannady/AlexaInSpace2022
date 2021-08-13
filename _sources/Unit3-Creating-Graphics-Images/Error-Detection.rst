@@ -46,8 +46,7 @@ Introduction and Goals
 	<p>As we have learned from <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=23" target="_blank">Blown to Bits</a>, "everything is bits" -- i.e., all data are
       represented as binary 0s and 1s.
     </p>
-    <p>Suppose your bank is doing an electronic funds transfer and one of the bits involved 
-      switches from 0 to 1 or vice versa?  This could 
+    <p>Suppose your bank is doing an electronic funds transfer and one of the bits involved switches from 0 to 1 or vice versa? This is known as a <i><b>flipped bit</i></b>. It could 
       happen because of an error during transmission or while the data is being written to a disk drive. 
       And the error could make a significant difference.  For example, if we use only 8 bits then flipping
       the leftmost bit 00000001 to 10000001  changes the value from $1.00 to $129.00.  But if
@@ -55,7 +54,7 @@ Introduction and Goals
       value from $1.00 to $32,769.00.
     </p>
     <p>When something like this happens would it be possible to detect the error?  In this video based on this <a href="http://csunplugged.org/">Computer Science Unplugged</a> project,  you'll see a card trick 
-      that shows that it <i><b>is possible</b></i> to detect when a bit is flipped.  In the video, the 
+      that shows that it is <i>possible</i> to detect when a bit is flipped.  In the video, the 
       face-up and face-down cards are analogous to 1s and 0s.</p>
     Watch carefully to see if you can figure out how the flipped card is detected!
 	<table>

@@ -52,18 +52,18 @@ Introduction and Goals
 		</td>
 	</tr>
 	<tr>
-		<td valign="top"><img height="290" width="1000" src="../_static/assets/img/GnuScreen.png"/></td>
+		<td valign="top"><img height="220" width="700" src="../_static/assets/img/GnuScreen.png"/></td>
 		<td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 		  <ul>
-		  <li>further navigate the App Inventor online programming platform</li>
-		  <li>use a programmer-defined procedure and <span class="hover vocab yui-wk-div" data-id="refactoring">refactor</span> existing code</li>
+		  <li>create a procedure and <span class="hover vocab yui-wk-div" data-id="refactoring">refactor</span> existing code</li>
+		  <li>add <span class="hover vocab yui-wk-div" data-id="comment">comments</span> to document and clarify code in an app</li>
 		  <li>identify, fix, and test <span class="hover vocab yui-wk-div" data-id="computer bug">computer bugs</span></li>
 		  </ul>
 		  <div><b>Language Objectives:</b>&nbspI will be able to</div>
 		  <ul>
 		  <li>describe how procedures can decrease the complexity of a program without changing its functionality</li>
-		  <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="refactoring">refactoring</span>, <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span>, <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span>, and <span class="hover vocab yui-wk-div" data-id="comment">comment</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		  <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="refactoring">refactoring</span>, <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span>, and <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> while describing improvements to an app, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
 		</td>
 	</tr>
