@@ -116,3 +116,11 @@ Self-Check
 	
 Reflection: For Your Portfolio
 -------------------------------
+
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1yRuMynaOfK35rFE1a50Ci859ETebV5Fjm1WUCCF1FmY/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQ_HBxohjEp6LRFTvRoUNiKyZshstbAQMQOmEhFWp2pHANiQiYgjvOFw8lwJG6Ur37vaAHRGYnTZ_L-/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>
