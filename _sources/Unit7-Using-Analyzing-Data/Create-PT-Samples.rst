@@ -2,7 +2,7 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-AP CS Principles Exam Prep 
+Create PT Prep and Samples 
 ==========================
 
 .. raw:: html
