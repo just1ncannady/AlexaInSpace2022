@@ -60,3 +60,11 @@ Unit 2 Quiz
       
 Reflection: For Your Portfolio
 -------------------------------
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1Ys-bZS1IXcSsQxEWTi0l3PKVDie2MdM9hzTSBiuHJfo/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <p>If you are using a Google Sites portfolio, see the videos on the <a href="https://sites.google.com/site/mobilecspportfoliohelp/home/portfolio-help" target="_blank">portfolio help page</a> on how to embed your google document in your web page.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRpem1NOuT94Myj9Bt8iJcM7RoEONHS1NO31MsMUmBv7-niC9yAdehqhIL2i7LIyLTl4JGE7zW1dmNo/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>
