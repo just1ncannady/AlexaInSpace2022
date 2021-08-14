@@ -28,7 +28,7 @@ LightsOff Projects
         });
     </script>
     <!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -43,7 +43,7 @@ Introduction and Goals
 		<td colspan=2><b><i>Be creative!</i></b> In this lesson you will complete several small programming projects that add enhancements to the <i>LightsOff</i> app. Hints and suggestions are provided.</td>
 	</tr>
     <tr>
-		<td valign="top"> <img class="yui-img" src="../_static/assets/img/LightsOutPart2.png" width="325px"/> </td>
+		<td valign="top"> <img class="yui-img" src="../_static/assets/img/LightsOutPart2.png" height="200" width="400px"/> </td>
         <td valign="top">
 			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 			  <ul>
@@ -52,6 +52,7 @@ Introduction and Goals
 			  </ul>
 			  <div><b>Language Objectives:</b>&nbspI will be able to</div>
 			  <ul>
+			  <li>discuss changes to my code will produce desired outputs in my app</li>
 			  <li>describe the design process of an app using key vocabulary such as empathize, ideate, and prototype, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>			
 			  </ul>
 		</td>

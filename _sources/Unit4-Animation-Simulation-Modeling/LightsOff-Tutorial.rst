@@ -35,8 +35,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-	LightsOff App</i></b> is a variation of the classic Whack-a-Mole game  -- this one promoting the socially useful message of saving electricity.  In the game, a light bulb (represented by an ImageSprite) pops up at random positions on the screen. The player can score by touching the light bulb before it disappears and pops up in a new position.
-	<br/>This app uses animation, a clock, and randomness to move the ImageSprite around the canvas. This tutorial guides you through the basic steps in creating the animation.
+	LightsOff App</i></b> is a variation of the classic Whack-a-Mole game  -- this one promoting the socially useful message of saving electricity.  In the game, a light bulb pops up at random positions on the screen. The player can score by touching the light bulb before it disappears and pops up in a new position. This tutorial guides you through the basic steps in creating the game.
 	<table><tbody>
 	<tr><td valign="top">
 		<!-- 
@@ -48,13 +47,13 @@ Introduction and Goals
     <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 		<ul>
-		<li>use the Canvas and ImageSprite components in AppInventor</li>
+		<li>use the <i>Canvas</i> and <i>ImageSprite</i> components in AppInventor</li>
 		<li>further develop an understanding of procedures and procedural abstraction</li>
 		<li>use timing, animation, and randomness as part of an event-driven program</li>
 		</ul>
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
-		<li>discuss the benefits of writing procedures in programming</li>
+		<li>discuss in detail the benefits of writing procedures in programming</li>
 		<li>describe the functionality of an app using key vocabulary such as event, timer, and sprite, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
 		</ul>
 	</td>
