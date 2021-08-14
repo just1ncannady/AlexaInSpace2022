@@ -33,9 +33,9 @@ Introduction and Goals
     <table>
     <tbody>
 	<tr><td colspan=2>
-	    <p>Like any computing innovation, mobile computing has both positive and negative impacts, including legal and ethical concerns. We need to reflect on these impacts in general. We also need to think about the impacts we will create as we build our own mobile apps. In this lesson, we will explore the following:</p>
+	    Like any computing innovation, mobile computing has both positive and negative impacts, including legal and ethical concerns. We need to reflect on these impacts in general. We also need to think about the impacts we will create as we build our own mobile apps. In this lesson, we will explore the following:
 		<ul>
-		<li>Privacy Concerns - who is collecting our data?</li>
+		<li>Privacy concerns - who is collecting our data?</li>
 		<li>What information and data are collected and how are they collected?</li>
 		<li>How is the information and data collected used?</li>
 		<li>How has social media affected our privacy?</li>

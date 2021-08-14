@@ -34,7 +34,7 @@ Abstraction Inside the CPU optional
         "overflow error": "An overflow error is an error that occurs when the computer attempts to handle a number that is outside of the defined range of values can be represented."
       };    */    
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
 
 Introduction and Goals
 -----------------------
@@ -42,7 +42,7 @@ Introduction and Goals
 .. raw:: html
 
     <p><h3>Abstraction In Hardware and Software</h3>
-    <p><strong><em>Abstraction</em></strong> is an important concept in CS -- and justifiably so. 
+    <p><i>Abstraction</i> is an important concept in CS -- and justifiably so. 
       In fact, the history of computing can be seen as an advance from very primitive abstractions to very 
       high-level abstractions.
     </p>

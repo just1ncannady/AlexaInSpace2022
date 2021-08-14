@@ -41,16 +41,16 @@ Introduction and Goals
 	<tr>
 		<td colspan=2>
 			<b><i>Coin Flip Experiment</i></b>.  
-			In this lesson you will use a slightly modified version of the app that you built in the preceding lesson, the <i>Coin Flip Simulation</i> Tutorial.</p>
-			<p>The <i>CoinFlipExperiment</i> app will let you conduct an experiment aimed at determining how ‘good’ App Inventor’s Pseudo Random Number 
-			Generator (<span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>) is.  The app will let you ‘flip a coin’ N times and display the results.</p>
-			<p>In this lesson you will run the app several times, recording and tallying the results 
-			and calculating the percentage of heads. The expectation is that as N gets large, the percentage of heads should approach 50%.</p>
+			In this lesson you will use a slightly modified version of the app that you built in the preceding lesson, the <i>Coin Flip Simulation</i> tutorial.</p>
+			<p>The <i>CoinFlipExperiment</i> app will let you conduct an experiment aimed at determining how good App Inventor’s pseudorandom number 
+			generator (<span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span>) is.  The app will let you quickly "flip a coin" many times and display the results.</p>
+			<p>In this lesson you will run the app several times, record and tally the results, 
+			and calculate the percentage of heads. The expectation is that as you flip a coin more times, the percentage of heads should approach 50%.</p>
 		</td>
 	</tr>
 	<tr>
 		<td valign="top">
-			<iframe allowfullscreen="" frameborder="0" height="225" src="https://www.youtube.com/embed/XoAoL6dGdCE" width="300"></iframe>
+			<iframe allowfullscreen="" frameborder="0" height="285" src="https://www.youtube.com/embed/XoAoL6dGdCE" width="300"></iframe>
 			<!-- 
 			  (&lt;a target=&quot;_blank&quot; href=&quot;http://www.teachertube.com/video/358491&quot;&gt;Teacher Tube version&lt;/a&gt;)
 			-->
@@ -63,7 +63,8 @@ Introduction and Goals
 			</ul>
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
-			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>, <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span>, and <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span> while using an app to explore a <span class="hover vocab yui-wk-div" data-id="model">model</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			<li>represent data in a table, explore the results of a simulation, and test my <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>, <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span>, and <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span> while using an app to examine a <span class="hover vocab yui-wk-div" data-id="model">model</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>
 		</td>
 	</tr>

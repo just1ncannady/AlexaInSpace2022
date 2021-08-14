@@ -35,7 +35,7 @@ Introduction and Goals
 .. raw:: html
 
     <p>
-	LightsOff App</i></b> is a variation of the classic Whack-a-Mole game  -- this one promoting the socially useful message of saving electricity.  In the game, a light bulb pops up at random positions on the screen. The player can score by touching the light bulb before it disappears and pops up in a new position. This tutorial guides you through the basic steps in creating the game.
+	The <i>LightsOff</i> app is a variation of the classic Whack-a-Mole game  -- this one promoting the socially useful message of saving electricity.  In the game, a light bulb pops up at random positions on the screen. The player can score by touching the light bulb before it disappears and pops up in a new position. This tutorial guides you through the basic steps in creating the game.
 	<table><tbody>
 	<tr><td valign="top">
 		<!-- 

@@ -47,8 +47,8 @@ Introduction and Goals
     
     <p>This <a href="https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs--pseudorandom-number-generators" target="_blank">
     Khan Academy video by Brit Cruise</a> provides a nice conceptual overview of
-    <i>pseudo randomness</i> and how it differs from true randomness. The type 
-    of <i>pseudo random number generator</i> described in the video is different
+    <i>pseudorandomness</i> and how it differs from true randomness. The type 
+    of <span class="hover vocab yui-wk-div" data-id='PRNG'>pseudorandom number generator (PRNG)</span> described in the video is different
     from the type described in the lessons below.  But the general principles are very much the
     same.
     </p>
@@ -60,6 +60,7 @@ Introduction and Goals
 		</ul>
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
+		<li>examine a series of numbers and discuss whether or not they look random</li> 
 		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span>, <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span>, and <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span> while considering how a computer models randomness, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
 	</p>

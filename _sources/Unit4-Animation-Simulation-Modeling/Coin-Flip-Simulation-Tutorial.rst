@@ -45,14 +45,13 @@ Introduction and Goals
 			<p>This tutorial has two parts.  In the first part we will build a simple app that simulates
 			a coin flip.  The coin will be represented by a global variable.  Heads will be represented
 			by 1 and tails by 2, and flipping the coin will be a matter of randomly assigning 1 or 2 to 
-			that variable.  The result will be displayed as either an image depicting the heads or tails
+			that variable.  The result will be displayed as an image depicting either the heads or tails
 			of a coin.</p>
-			<p>In part two, we will extend the app to perform the coin flip many times -- in effect, will
-			create an app that will let us experiment with the idea of "randomness" or "fairness".  If 
+			<p>In part two, we will extend the app to perform the coin flip many times in order to experiment with the idea of "randomness" or "fairness".  If 
 			you flip a real coin lots of times, it should come up heads close to 50% of the time.  If 
-			you simulate a coin flip lots of times, it too should come up heads close to 50% of the time
+			you simulate a coin flip lots of times, it should also come up heads close to 50% of the time
 			-- unless the "randomness" that's built into App Inventor is not a very good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of true
-			randomness. We'll explore the whole idea of randomness in subsequent lessons in this Unit. </p>
+			randomness. We'll explore the idea of randomness later in this Unit. </p>
 		</td>
 	</tr>
     <tr>

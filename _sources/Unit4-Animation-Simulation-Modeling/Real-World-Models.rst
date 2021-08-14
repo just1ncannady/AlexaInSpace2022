@@ -27,7 +27,7 @@ Real World Models
     
         });
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -35,15 +35,14 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <p>The models we have studied in this unit are designed to illustrate some of the principles of building and using models:</p>
+    <p></p>
+	In this unit, we have learned a number of important factors for building and using models.
     <ul>
-    <li>The use of <i>abstraction</i> to remove extraneous detail and focus the
-    model on essential aspects of the problem.
-    </li><li>The use of pseudo randomness to model events, such as coin flips.
-    </li><li>The importance of representation in the model.
-    </li><li>The use of the model for making and testing hypotheses.
-    </li></ul>
+    <li><i>abstraction</i> is used to remove extraneous details and focus the model on essential aspects of the problem.</li>
+	<li><i>pseudorandomness</i> is used to model events, such as coin flips</li>
+	<li>plan what the model represents and how it accomplishes that representation</li>
+	<li>consider how the model can be used for making and testing hypotheses</li>
+	</ul>
 	<p>
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 		<ul>

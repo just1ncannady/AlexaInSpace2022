@@ -28,8 +28,9 @@ Introduction and Goals
     <tbody>
 	<tr>
 		<td colspan=2>
-			<p>In this lesson you will design, implement, and test algorithms to draw simple shapes. For example, you will write an algorithm to draw a face made up of squares and lines like the one in the video below. </p>
-			<p>In our implementation of <i>Logo</i>, we’ve replaced the Turtle with an Android. Here are the drawing commands you can use:</p>
+			In this lesson you will design, implement, and test algorithms to draw simple shapes. For example, you will write an algorithm to draw a face made up of squares and lines like the one in the video below.
+			<br/><br/>
+			In our implementation of <i>Logo</i>, we’ve replaced the Turtle with an Android. Here are the drawing commands you can use:
 			<ul>
 			<li>The <b>forward</b> command moves the Android <b>forward by 10 pixels</b>.  
 			</li><li>The <b>turn</b> command causes the Android to <b>turn right by 90 degrees</b>. 
