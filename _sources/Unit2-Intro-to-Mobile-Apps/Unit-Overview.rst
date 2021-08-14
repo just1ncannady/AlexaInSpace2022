@@ -64,7 +64,7 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="binary sequence">binary sequence</span><br/>
     <span class="hover vocab yui-wk-div" data-id="bit">bit</span><br/>
     <span class="hover vocab yui-wk-div" data-id="blacklist">blacklist</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="boolean">boolean</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="boolean">Boolean</span><br/>
     </td>
     <td>
     <span class="hover vocab yui-wk-div" data-id="browser">browser </span><br/>
@@ -73,7 +73,7 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="chip">chip</span><br/>
     <span class="hover vocab yui-wk-div" data-id="compilation">compilation</span><br/>
     <span class="hover vocab yui-wk-div" data-id="computer">computer</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Computing Innovation">Computing Innovation</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Computing Innovation">computing innovation</span><br/>
     <span class="hover vocab yui-wk-div" data-id="constant">constant</span><br/>
     <span class="hover vocab yui-wk-div" data-id="control structure">control structure</span><br/>
     <span class="hover vocab yui-wk-div" data-id="CPU">CPU</span><br/>
@@ -86,8 +86,8 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="data network">data network</span><br/>
     <span class="hover vocab yui-wk-div" data-id="decimal number system">decimal number system</span><br/>
     <span class="hover vocab yui-wk-div" data-id="disk drive">disk drive</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Event Handler">Event Handler </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">Event-driven Programming </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Event Handler">event handler </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming </span><br/>
     <span class="hover vocab yui-wk-div" data-id="flip flop">flip flop</span><br/>
     </td>
     <td>
@@ -96,14 +96,14 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="hardware">hardware</span><br/>
     <span class="hover vocab yui-wk-div" data-id="hexadecimal number system">hexadecimal number system</span><br/>
     <span class="hover vocab yui-wk-div" data-id="high level language">high level language</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">Horizontal Arrangement</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">horizontal arrangement</span><br/>
     <span class="hover vocab yui-wk-div" data-id="HTTP (HyperText Transfer Protocol)">HTTP</span><br/>
     <span class="hover vocab yui-wk-div" data-id="IDE">IDE </span><br/>
     <span class="hover vocab yui-wk-div" data-id="IETF">IETF</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="If/Else">If/Else</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="If/Else">if/else</span><br/>
     </td>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="Input">Input </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Input">input </span><br/>
     <span class="hover vocab yui-wk-div" data-id="integrated circuit">integrated circuit</span><br/>
     <span class="hover vocab yui-wk-div" data-id="intellectual property">intellectual property</span><br/>
     <span class="hover vocab yui-wk-div" data-id="Internet">Internet </span><br/>
@@ -120,7 +120,7 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="octal number system">octal number system</span><br/>
     <span class="hover vocab yui-wk-div" data-id="open standard">open standard</span><br/>
     <span class="hover vocab yui-wk-div" data-id="OR gate">OR gate</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Output">Output </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="Output">output </span><br/>
     <span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span><br/>
     <span class="hover vocab yui-wk-div" data-id="positional number system">positional number system</span><br/>
     <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span><br/>
@@ -142,9 +142,9 @@ Unit Overview
     <td>
     <span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span><br/>
     <span class="hover vocab yui-wk-div" data-id="transistor">transistor</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="UI Components">UI Components</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Events">User Events </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Interface">User Interface </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="User Events">user events </span><br/>
+    <span class="hover vocab yui-wk-div" data-id="User Interface">user interface </span><br/>
     <span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/>
     <span class="hover vocab yui-wk-div" data-id="whitelist">whitelist</span><br/>
     <span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">WWW </span><br/>
