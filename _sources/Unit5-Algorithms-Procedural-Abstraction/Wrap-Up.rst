@@ -58,3 +58,11 @@ Unit 5 Quiz
 
 Reflection: For Your Portfolio
 -------------------------------
+
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/10uwF9HJztaMKV2ZKGq4qjxTLWftcpFdpyDQHcPrGQoQ/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQDFKV6ABapA47PQTLAdEDzOJNR8928iT_Df3Rf3LvX3EIhnUZ6_EnZc5QRF3JUufYYTEGViNfzdVOd/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>
