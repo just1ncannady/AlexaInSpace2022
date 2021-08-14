@@ -52,3 +52,10 @@ Vocabulary Review
 
 Reflection: For Your Portfolio
 -------------------------------
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1UbD97wyTgvJAhrPChbK1bG8VlFyC11OKLMbQrtBHmdE/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vS4aMSFZnw_y2bA2Ujz3Apin_c7nt1c2NK30X6hjwRpj09xrDS31ptgbliPrL-Nyw9pNuTeyMWcqMIk/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>
