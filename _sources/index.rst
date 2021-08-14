@@ -22,7 +22,7 @@ Mobile CSP
 	
 	<p>In Mobile CSP you will learn computer science by building socially useful mobile apps.  In addition to programming and computer science principles, Mobile CSP is project-based and emphasizes writing, communication, collaboration, and creativity. </p>
 	
-	<p><span style="background-color: yellow; font-weight: bold">UPDATE:</span> Mobile CSP will be moving to a new platform for the 2021-2022 school year. Read more about the transition at <a href="https://www.mobile-csp.org/migration" target="_blank">mobile-csp.org/migration</a>.</p>
+	<p><span style="background-color: yellow; font-weight: bold">UPDATE:</span> Mobile CSP is excited to be on Runestone Academy starting in August 2021! Read more about the transition at <a href="https://www.mobile-csp.org/migration" target="_blank">mobile-csp.org/migration</a>.</p>
 	
 	<p><img align="left" src="https://www.nsf.gov/pubs/1998/nsf98142/nsf4c.jpg" width="32"> The material on this site is based upon work supported by the National Science Foundation under Grant Nos. CNS-1240841, CNS-1440947, CNS-1637601, CNS-1836990, CNS-1836983, CNS-1837112, and CNS-1837723. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
 	

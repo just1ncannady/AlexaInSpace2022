@@ -99,6 +99,9 @@ Unit Overview
     </table>
     </div>
     
+Self-Check
+-----------
+
 .. shortanswer:: vocab-ref-7.1.1
 	
 	Identify 1-2 vocabulary terms from the table above that you know and define them in your own words. If you don't know any of these words yet, that's ok! Instead, write 1-2 sentences on how you plan to practice learning the vocabulary for this unit.
@@ -110,3 +113,6 @@ Unit Overview
 .. shortanswer:: vocab-ref-7.1.3
 
 	Identify 1-2 vocabulary terms from the table above that you don't know but want to learn in this unit.
+	
+Reflection: For Your Portfolio
+-------------------------------

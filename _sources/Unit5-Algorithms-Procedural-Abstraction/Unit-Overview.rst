@@ -92,6 +92,9 @@ Unit Overview
     </tbody>
     </table>
     </div>
+    
+Self-Check
+------------
 
 .. shortanswer:: vocab-ref-5.1.1
 	
@@ -104,3 +107,6 @@ Unit Overview
 .. shortanswer:: vocab-ref-5.1.3
 
 	Identify 1-2 vocabulary terms from the table above that you don't know but want to learn in this unit.
+	
+Reflection: For Your Portfolio
+-------------------------------

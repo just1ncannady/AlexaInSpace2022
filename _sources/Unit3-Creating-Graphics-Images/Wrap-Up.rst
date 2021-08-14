@@ -49,3 +49,13 @@ Vocabulary Review
     <iframe height="500" src="https://quizlet.com/422492575/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe>
     <div class="yui-wk-div"><h2><span class="yui-tag-span yui-tag" tag="span">Unit 3 Quiz</span></h2><span class="yui-tag-span yui-tag" tag="span">Before moving on, check with your instructor to see if there is a quiz for Unit 3.</span><br/></div>
     </div>
+
+Reflection: For Your Portfolio
+-------------------------------
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1UbD97wyTgvJAhrPChbK1bG8VlFyC11OKLMbQrtBHmdE/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vS4aMSFZnw_y2bA2Ujz3Apin_c7nt1c2NK30X6hjwRpj09xrDS31ptgbliPrL-Nyw9pNuTeyMWcqMIk/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>
