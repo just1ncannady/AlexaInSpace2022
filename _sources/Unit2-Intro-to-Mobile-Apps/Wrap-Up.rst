@@ -20,7 +20,7 @@ Wrap Up
 .. raw:: html
 
         <div class="gcb-lesson-content" data-question-batch-id="L134" data-scored="False">
-        Congratulations on making it to the end of Unit 2!
+        <p>Congratulations on making it to the end of Unit 2!</p>
     
     
 
@@ -29,9 +29,9 @@ App Inventor Drills
 
 .. raw:: html
 
-    <p>
-    <p>Test and improve your coding knowledge and skills with some additional exercises.  For this unit there is one set of Drills.
-    </p><ul>
+    <p>Test and improve your coding knowledge and skills with some additional exercises.  For this unit there is one set of Drills.</p>
+    
+    <ul>
     <li><a href="https://docs.google.com/document/d/10Km3PTjrSa4LUof1G5utgqdo8XjGebuOvDA8aoLKSzk" target="_blank">Basic App Inventor</a> -- drills that use basic App Inventor components, such as <i>Buttons</i>, <i>Labels</i>, <i>Sounds</i>, and a <i>Checkbox</i> together with basic programming concepts such as <i>if/else</i> and App Inventor's <i>event-driven programming</i> model.</li>
     </ul>
     
@@ -42,8 +42,8 @@ Vocabulary Review
 .. raw:: html
 
     <p>
-    The following <a href="https://quizlet.com/422073374/unit-2-introduction-to-mobile-apps-pair-programming-2019-flash-cards/" target="_blank">Unit 2 quizlet</a> contains all of the vocabulary from Unit 2 of the Mobile CSP Course. <br/>
-    <iframe height="500" src="https://quizlet.com/422073374/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe>
+    The following <a href="https://quizlet.com/422073374/unit-2-introduction-to-mobile-apps-pair-programming-2019-flash-cards/" target="_blank">Unit 2 quizlet</a> contains all of the vocabulary from Unit 2 of the Mobile CSP Course. <br/></p>
+    <p><iframe height="500" src="https://quizlet.com/422073374/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe></p>
     
 
 Unit 2 Quiz
@@ -53,5 +53,10 @@ Unit 2 Quiz
 
     <p>
     Before moving on, check with your instructor to see if there is a quiz for Unit 2.
+    </p>
+    
         
       </div>
+      
+Reflection: For Your Portfolio
+-------------------------------
