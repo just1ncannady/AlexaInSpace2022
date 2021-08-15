@@ -2,7 +2,7 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-AP CS Principles Exam Prep 
+Create PT Prep and Samples 
 ==========================
 
 .. raw:: html
@@ -95,20 +95,26 @@ AP CS Principles Exam Prep
 	<h3>Activity</h3>
 	<p>Select at least two samples from the list below and try scoring them with the <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">Create Performance Task Rubric</a>. When you are done reviewing the samples, score your Quiz App from Lesson 5.6 or exchange and score your classmate's Quiz app.</p>
 	
-	
 Sample 1 - 2021's Pilot Sample A
 --------------------------------
 
 .. raw:: html
-	   <div id="accordion" class="yui-wk-div">
+
+	<div id="accordion" class="yui-wk-div">
 	
 	<h3>Row 1: Program Purpose and Function (Video and Response 3A)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
-		<!--<gcb-youtube videoid="https://youtu.be/tQE3bkyaoes" instanceid="X7FYxjVROXgh"></gcb-youtube>
-		-->
-		<br>
-		<p>3a.&nbsp;This program was created in MIT App Inventor to address the issue of learning new languages. Here it teaches the user how to say different colors, where the user inputs what language it wants to hear, either Spanish or French, and then taps on a color, prompting the program to output the audio for that certain color. This allows users to quickly learn how to say colors in another language through interaction and output of audio. In the video, it shows an example of the user clicking on the Spanish checkbox and playing the audio for red and blue. The user can hear what it sounds like, and thus learn how to say it correctly. If the user accidentally inputs nolanguage or both, the program will catch the error and notify the user.</p>
+		<h4>Student Response</h4>
+
+.. youtube:: tQE3bkyaoes
+        :width: 600
+        :height: 415
+        :align: center
+		
+.. raw:: html
+
+		<!--<gcb-youtube videoid="https://youtu.be/tQE3bkyaoes" instanceid="X7FYxjVROXgh"></gcb-youtube>-->
+		<br><p>3a.&nbsp;This program was created in MIT App Inventor to address the issue of learning new languages. Here it teaches the user how to say different colors, where the user inputs what language it wants to hear, either Spanish or French, and then taps on a color, prompting the program to output the audio for that certain color. This allows users to quickly learn how to say colors in another language through interaction and output of audio. In the video, it shows an example of the user clicking on the Spanish checkbox and playing the audio for red and blue. The user can hear what it sounds like, and thus learn how to say it correctly. If the user accidentally inputs nolanguage or both, the program will catch the error and notify the user.</p>
 	<table>
 	<tbody><tr>
 		<th>Requirements</th>
@@ -142,7 +148,8 @@ Sample 1 - 2021's Pilot Sample A
 	<h3>Row 2: Data Abstraction (Response 3B)</h3>
 	<div class="yui-wk-div">
 	<h4>Student Response</h4>
-		<p><br><img src="../_static/assets/img/APCSP2021SampleA_3b1.PNG?seed=83392&amp;url=../_static/assets/img/APCSP2021SampleA_3b1.png" class="yui-img" title="" alt=""><br><img src="../_static/assets/img/APCSP2021SampleA_3b2.PNG?seed=37936&amp;url=../_static/assets/img/APCSP2021SampleA_3b2.png" class="yui-img" title="" alt=""><br>3b.&nbsp;The data contained in the list Audio is the list of available color names. It represents all the colors a user can pick for the program in English. These are used to create the corresponding Spanish or French audio files based on which language is selected. When a button is pressed, it will get the English color word from the index of the color in the list. Here, the language the user has chosen does not matter. The program will then create the audio file name for the Spanish or French audio based on what language the user has check marked by manipulating the text (for example, adding“-spanish” to the end if they selected spanish) and then adding “.mp3” to the end in order to call the correct audio file. For the program to function without lists in general, each button will have to call the individual audio file, meaning we would need to have buttons for every color and language combination making the code and user interface more complex.</p><table>
+		<p><br><img src="../_static/assets/img/APCSP2021SampleA_3b1.PNG?seed=83392&amp;url=../_static/assets/img/APCSP2021SampleA_3b1.png" class="yui-img" title="" alt=""><br><img src="../_static/assets/img/APCSP2021SampleA_3b2.PNG?seed=37936&amp;url=../_static/assets/img/APCSP2021SampleA_3b2.png" class="yui-img" title="" alt=""><br>3b.&nbsp;The data contained in the list Audio is the list of available color names. It represents all the colors a user can pick for the program in English. These are used to create the corresponding Spanish or French audio files based on which language is selected. When a button is pressed, it will get the English color word from the index of the color in the list. Here, the language the user has chosen does not matter. The program will then create the audio file name for the Spanish or French audio based on what language the user has check marked by manipulating the text (for example, adding“-spanish” to the end if they selected spanish) and then adding “.mp3” to the end in order to call the correct audio file. For the program to function without lists in general, each button will have to call the individual audio file, meaning we would need to have buttons for every color and language combination making the code and user interface more complex.</p>
+	<table>
 	<tbody><tr>
 		<th>Requirements</th>
 		<th>Score</th>
@@ -152,14 +159,10 @@ Sample 1 - 2021's Pilot Sample A
 		<td>
 			<p>The written response:
 	<br>• includes two program code segments:
-	- one that shows how data has been stored in
-	this list (or other collection type).
-	- one that shows the data in this same list being
-	used as part of fulfilling the program’s purpose.
-	<br>• identifies the name of the variable representing the
-	list being used in this response.
-	<br>• describes what the data contained in this list is
-	representing in the program.
+	- one that shows how data has been stored in this list (or other collection type).
+	- one that shows the data in this same list being used as part of fulfilling the program’s purpose.
+	<br>• identifies the name of the variable representing the list being used in this response.
+	<br>• describes what the data contained in this list is representing in the program.
 	</p>
 		</td>
 		<td>
@@ -173,7 +176,8 @@ Sample 1 - 2021's Pilot Sample A
 	</p>
 		</td>
 	</tr>
-	</tbody></table>
+	</tbody>
+	</table>
 	<h4>Additional Explanation</h4>
 	<p></p>
 	
@@ -181,10 +185,11 @@ Sample 1 - 2021's Pilot Sample A
 	
 	<h3>Row 3: Managing Complexity (Response 3B)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
+		<h4>Student Response</h4>
 		<p><img src="../_static/assets/img/APCSP2021SampleA_3b1.PNG?seed=1060&amp;url=../_static/assets/img/APCSP2021SampleA_3b1.png" class="yui-img" title="" alt=""><br><img src="../_static/assets/img/APCSP2021SampleA_3b2.PNG?seed=11354&amp;url=../static/assets/img/APCSP2021SampleA_3b2.png" class="yui-img" title="" alt=""><br>3b.&nbsp;The data contained in the list Audio is the list of available color names. It represents all the colors a user can pick for the program in English. These are used to create the corresponding Spanish or French audio files based on which language is selected. When a button is pressed, it will get the English color word from the index of the color in the list. Here, the language the user has chosen does not matter. The program will then create the audio file name for the Spanish or French audio based on what language the user has check marked by manipulating the text (for example, adding“-spanish” to the end if they selected spanish) and then adding “.mp3” to the end in order to call the correct audio file. For the program to function without lists in general, each button will have to call the individual audio file, meaning we would need to have buttons for every color and language combination making the code and user interface more complex.</p>
 	<table>
-	<tbody><tr>
+	<tbody>
+	<tr>
 		<th>Requirements</th>
 		<th>Score</th>
 		<th>Explanation</th>
@@ -192,12 +197,8 @@ Sample 1 - 2021's Pilot Sample A
 	<tr>
 		<td>
 			<p>The written response:
-	<br>• includes a program code segment that shows a list
-	being used to manage complexity in the program.
-	<br>• explains how the named, selected list manages
-	complexity in the program code by explaining why
-	the program code could not be written, or how it
-	would be written differently, without using this list.</p>
+	<br>• includes a program code segment that shows a list being used to manage complexity in the program.
+	<br>• explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list.</p>
 		</td>
 		<td>
 			<p>1</p>
@@ -209,17 +210,19 @@ Sample 1 - 2021's Pilot Sample A
 			
 		</td>
 	</tr>
-	</tbody></table>
+	</tbody>
+	</table>
 	<h4>Additional Explanation</h4>
 	
 	</div>
 	   
 	<h3>Row 4: Procedural Abstraction (Response 3C)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
+		<h4>Student Response</h4>
 		<p><img src="../_static/assets/img/APCSP2021SampleA_3C.PNG?seed=26303&amp;url=../_static/assets/img/APCSP2021SampleA_3C.png" class="yui-img" title="" alt=""><br>3c.&nbsp;This procedure helps to contribute to the overall functionality of the program by selecting the correct audio file based on what language and color the user has selected. Since this algorithm is needed every time a user presses a button, the procedure helps the overall efficiency of the program by having the code located in one location that the program repeatedly calls on. When a user presses a certain color button, the button returns an index pertaining to the main audio list of colors. Then, the procedure takes the index of the color as a parameter and selects the respective list element, which is a string that contains the certain color. Then, depending on the language, the procedure will append a language identifier (for example, “-spanish”) and then add “.mp3”. It will then use this to call a certain color from the database of audio files that is named accordingly. The procedure is able to take parameters and inputs from the user and then output them as such by constructing certain audio file names and then pulling them from the database to play. This action demonstrates selection, and sequencing is when the procedure is able to order tasks accordingly and call from a list. Iteration is used when the procedure senses that there are no languages or both languages selected, and thus repeats the audio of “Select a language!” until the user does so.</p>
 	<table>
-	<tbody><tr>
+	<tbody>
+	<tr>
 		<th>Requirements</th>
 		<th>Score</th>
 		<th>Explanation</th>
@@ -228,14 +231,9 @@ Sample 1 - 2021's Pilot Sample A
 		<td>
 			<p>The written response:
 	<br>• includes two program code segments:
-	- one showing a student-developed procedure
-	with at least one parameter that has an effect
-	on the functionality of the procedure.
-	- one showing where the student-developed
-	procedure is being called.
-	<br>• describes what the identified procedure does and
-	how it contributes to the overall functionality of the
-	program. </p>
+	- one showing a student-developed procedure with at least one parameter that has an effect on the functionality of the procedure.
+	- one showing where the student-developed procedure is being called.
+	<br>• describes what the identified procedure does and how it contributes to the overall functionality of the program. </p>
 	     	</td>
 		<td>
 			<p>1</p>
@@ -247,15 +245,16 @@ Sample 1 - 2021's Pilot Sample A
 	</p>
 		</td>
 	</tr>
-	</tbody></table>
+	</tbody>
+	</table>
 	<h4>Additional Explanation</h4>
 	<p></p>
 	
-	</div>   
-	   
+	</div>
+	
 	<h3>Row 5: Algorithm Implementation (Response 3C)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
+		<h4>Student Response</h4>
 		<p><img src="../_static/assets/img/APCSP2021SampleA_3C.PNG?seed=26303&amp;url=../_static/assets/img/APCSP2021SampleA_3C.png" class="yui-img" title="" alt=""><br>3c.&nbsp;This procedure helps to contribute to the overall functionality of the program by selecting the correct audio file based on what language and color the user has selected. Since this algorithm is needed every time a user presses a button, the procedure helps the overall efficiency of the program by having the code located in one location that the program repeatedly calls on. When a user presses a certain color button, the button returns an index pertaining to the main audio list of colors. Then, the procedure takes the index of the color as a parameter and selects the respective list element, which is a string that contains the certain color. Then, depending on the language, the procedure will append a language identifier (for example, “-spanish”) and then add “.mp3”. It will then use this to call a certain color from the database of audio files that is named accordingly. The procedure is able to take parameters and inputs from the user and then output them as such by constructing certain audio file names and then pulling them from the database to play. This action demonstrates selection, and sequencing is when the procedure is able to order tasks accordingly and call from a list. Iteration is used when the procedure senses that there are no languages or both languages selected, and thus repeats the audio of “Select a language!” until the user does so.</p>
 	<table>
 	<tbody><tr>
@@ -270,9 +269,7 @@ Sample 1 - 2021's Pilot Sample A
 	- sequencing
 	- selection
 	- iteration
-	<br>• explains in detailed steps how the identified
-	algorithm works in enough detail that someone else
-	could recreate it.</p>
+	<br>• explains in detailed steps how the identified algorithm works in enough detail that someone else could recreate it.</p>
 		</td>
 		<td>
 			<p>1</p>
@@ -284,7 +281,8 @@ Sample 1 - 2021's Pilot Sample A
 	</p>
 		</td>
 	</tr>
-	</tbody></table>
+	</tbody>
+	</table>
 	<h4>Additional Explanation</h4>
 	<p></p>
 	
@@ -292,11 +290,12 @@ Sample 1 - 2021's Pilot Sample A
 	   
 	<h3>Row 6: Testing (Response 3D and Procedure from 3C)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
+		<h4>Student Response</h4>
 		<p>3D.&nbsp;The test cases are based on the conditions of what language is selected and what button for what color is pressed, which is represented by the parameter “index”. We would want to check the program for both Spanish and French. For the language Spanish, we could select one of the colors, for example Orange, and the program should give us the correct translation for
 	Spanish. For the language French, we could select one of the colors, for example Orange, and the program should give us the correct translation for French. To further test the program, we should select another color, for example green, and the program should give us the correct translation for the pre-selected language. Each of these test cases executes different parts of the algorithm, going by the condition of which checkboxes are checked for which languages.<br></p>
 	<table>
-	<tbody><tr>
+	<tbody>
+	<tr>
 		<th>Requirements</th>
 		<th>Score</th>
 		<th>Explanation</th>
@@ -323,7 +322,8 @@ Sample 1 - 2021's Pilot Sample A
 	      </p>
 		</td>
 	</tr>
-	</tbody></table>
+	</tbody>
+	</table>
 	<h4>Additional Explanation</h4>
 	<p><br></p>
 	
@@ -332,18 +332,26 @@ Sample 1 - 2021's Pilot Sample A
 	
 	
 	
-	
 Sample 2 - 2021's Pilot Sample C
 --------------------------------
 
 .. raw:: html
-	   <div id="accordion2" class="yui-wk-div">
+
+	<div id="accordion2" class="yui-wk-div">
 	
 	<h3>Row 1: Program Purpose and Function (Video and Response 3A)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
-		<gcb-youtube videoid="YuVkNwbtRoo" instanceid="2c5AL6KcHVni"></gcb-youtube><br><p>3a. My app is intended to lessen the effects of global warming and to decrease the amount of non recyclable waste we produce. In the video, you can see the question label that displays a random list item from “global questions list”. Once the user reads the question, they answer it using the text box. Depending on the users input, the program will produce various outputs, which it pulls from “global solutions list”. If the program decides the user spends too much time driving, using their AC, or doesn’t recycle enough, they will notify them by displaying an output on “output label” that tells them what they can do to lessen their carbon footprint. Also, a thumbs down image is displayed, unless the input
-	indicates they are being good with their emissions. In that case, a thumbs up is displayed and “output label” tells the user they are doing good and to keep it up.</p>
+		<h4>Student Response</h4>
+
+.. youtube:: YuVkNwbtRoo
+        :width: 600
+        :height: 415
+        :align: center
+		
+.. raw:: html
+		
+		<!--<gcb-youtube videoid="YuVkNwbtRoo" instanceid="2c5AL6KcHVni"></gcb-youtube>-->
+		<br><p>3a. My app is intended to lessen the effects of global warming and to decrease the amount of non recyclable waste we produce. In the video, you can see the question label that displays a random list item from “global questions list”. Once the user reads the question, they answer it using the text box. Depending on the users input, the program will produce various outputs, which it pulls from “global solutions list”. If the program decides the user spends too much time driving, using their AC, or doesn’t recycle enough, they will notify them by displaying an output on “output label” that tells them what they can do to lessen their carbon footprint. Also, a thumbs down image is displayed, unless the input indicates they are being good with their emissions. In that case, a thumbs up is displayed and “output label” tells the user they are doing good and to keep it up.</p>
 	<table>
 	<tbody><tr>
 		<th>Requirements</th>
@@ -361,17 +369,10 @@ Sample 2 - 2021's Pilot Sample C
 		</td>
 		<td>
 			<p>The response earned the point for this row, meeting all six criteria:
-	<br>• The video demonstrates the running of the program, including input (user answering questions),
-	functionality (processing of user input), and output (statement and visual “thumbs-up” or “thumbsdown”). This satisfies the first three criteria for the video.
-	<br>• The response describes the program’s overall purpose as being “to lessen the effects of global
-	warming and to decrease the amount of non recyclable [sic] waste we produce.”
-	<br>• The response describes the functionality as follows: “displays a random list item from ‘global
-	questions list’.”
-	<br>• The response describes the input and output as “Once the user reads the question, they answer it
-	using the text box. Depending on the users [sic] input, the program will produce various outputs,
-	which it pulls from ‘global solutions list,’” and, “Also, a thumbs down image is displayed, unless the
-	input indicates they are being good with their emissions. In that case, a thumbs up is displayed and
-	‘output label’ tells the user they are doing good and to keep it up.”</p>
+	<br>• The video demonstrates the running of the program, including input (user answering questions), functionality (processing of user input), and output (statement and visual “thumbs-up” or “thumbsdown”). This satisfies the first three criteria for the video.
+	<br>• The response describes the program’s overall purpose as being “to lessen the effects of global warming and to decrease the amount of non recyclable [sic] waste we produce.”
+	<br>• The response describes the functionality as follows: “displays a random list item from ‘global questions list’.”
+	<br>• The response describes the input and output as “Once the user reads the question, they answer it using the text box. Depending on the users [sic] input, the program will produce various outputs, which it pulls from ‘global solutions list,’” and, “Also, a thumbs down image is displayed, unless the input indicates they are being good with their emissions. In that case, a thumbs up is displayed and ‘output label’ tells the user they are doing good and to keep it up.”</p>
 		</td>
 	</tr>
 	</tbody></table>
@@ -395,14 +396,10 @@ Sample 2 - 2021's Pilot Sample C
 		<td>
 			<p>The written response:
 	<br>• includes two program code segments:
-	- one that shows how data has been stored in
-	this list (or other collection type).
-	- one that shows the data in this same list being
-	used as part of fulfilling the program’s purpose.
-	<br>• identifies the name of the variable representing the
-	list being used in this response.
-	<br>• describes what the data contained in this list is
-	representing in the program.
+	- one that shows how data has been stored in this list (or other collection type).
+	- one that shows the data in this same list being used as part of fulfilling the program’s purpose.
+	<br>• identifies the name of the variable representing the list being used in this response.
+	<br>• describes what the data contained in this list is representing in the program.
 	</p>
 		</td>
 		<td>
@@ -410,14 +407,9 @@ Sample 2 - 2021's Pilot Sample C
 		</td>
 		<td>
 			<p>The response earned the point for this row, meeting all three criteria:
-	<br>• The response includes program code segments for initialization of two named lists,
-	solution_list and question_list, as well as a code segment showing how the data in
-	both lists are processed as a part of fulfilling the program’s purpose of questioning the user and
-	evaluating responses.
-	<br>• The response identifies the list to be considered as question_list, so this is the list that was
-	used to determine the score.
-	<br>• The response describes the data in question_list to be “questions that the program displays
-	for the user.”
+	<br>• The response includes program code segments for initialization of two named lists, solution_list and question_list, as well as a code segment showing how the data in both lists are processed as a part of fulfilling the program’s purpose of questioning the user and evaluating responses.
+	<br>• The response identifies the list to be considered as question_list, so this is the list that was used to determine the score.
+	<br>• The response describes the data in question_list to be “questions that the program displays for the user.”
 	</p>
 		</td>
 	</tr>
@@ -429,7 +421,7 @@ Sample 2 - 2021's Pilot Sample C
 	
 	<h3>Row 3: Managing Complexity (Response 3B)</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4>
+		<h4>Student Response</h4>
 		<p><img src="../_static/assets/img/2021CreateSampleC_3B.png" class="yui-img" title="" alt=""><br>3b. The data in “questions_list” are questions that the program displays for the user. The questions are then interpreted by the user and the user gives the program its input through the text box. The procedure check through “questions list” to see which element in the list matches the question that is displayed on “question label” so that it can provided the right “output label” based on the “number of hours” that was input. The use of the questions_list manages complexity in my program, because the program would be more complicated if I had to type the question into the if statements.</p>
 	<table>
 	<tbody><tr>
@@ -440,37 +432,24 @@ Sample 2 - 2021's Pilot Sample C
 	<tr>
 		<td>
 			<p>The written response:
-	<br>• includes a program code segment that shows a list
-	being used to manage complexity in the program.
-	<br>• explains how the named, selected list manages
-	complexity in the program code by explaining why
-	the program code could not be written, or how it
-	would be written differently, without using this list.</p>
+	<br>• includes a program code segment that shows a list being used to manage complexity in the program.
+	<br>• explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list.</p>
 		</td>
 		<td>
 			<p>0</p>
 		</td>
 		<td><p>The response did not earn the point for this row. The response does not meet either of the two criteria:
-	<br>• The procedure, interpret_response, shows the list question_list being used; however,
-	the value of each index in the list that is being stored in item is never used, making the list
-	irrelevant. Instead, the list access and processing have been hard-coded based on list index number
-	and do not manage complexity in the program as written, since the code has not been made easier
-	to maintain and changes to the size of the list would require significant modifications to the code.
-	<br>• The response states, “The use of the question_list manages complexity in my program,
-	because the program would be more complicated if I had to type the question into the if
-	statements.” However, the code only uses lists to replace the question strings in a hard-coded
-	manner, so the use of the list is irrelevant. Additionally, changes to the size of the list (i.e., the
-	number of questions) would necessitate significant modifications to the code.</p>
-			
+	<br>• The procedure, interpret_response, shows the list question_list being used; however, the value of each index in the list that is being stored in item is never used, making the list irrelevant. Instead, the list access and processing have been hard-coded based on list index number and do not manage complexity in the program as written, since the code has not been made easier to maintain and changes to the size of the list would require significant modifications to the code.
+	<br>• The response states, “The use of the question_list manages complexity in my program, because the program would be more complicated if I had to type the question into the if statements.” However, the code only uses lists to replace the question strings in a hard-coded manner, so the use of the list is irrelevant. Additionally, changes to the size of the list (i.e., the number of questions) would necessitate significant modifications to the code.</p>
 		</td>
 	</tr>
 	</tbody></table>
 	<h4>Additional Explanation</h4>
 	<p>Remember that for managing complexity, the data abstraction must make the program easier to develop (alternatives would be more complex) or easier to maintain (future changes to the size of the list would otherwise require significant modifications to the program code). Consider how the code would change if they were adding/removing items from the list. In this particular sample, it might be difficult to understand why this sample did not earn a point for this row. The programmer of this sample would need to add more selection statements.  Here is an example of how the sample could be <i>modified</i> to meet the criteria for this row (note that this example  could be further modified so that the hard-coded index in the else statement is removed): 
-	     <br><img src="../_static/assets/img/Create2021SampleC3BModified.png" class="yui-img selected" title="" alt=""></p>
+	<br><img src="../_static/assets/img/Create2021SampleC3BModified.png" class="yui-img selected" title="" alt=""></p>
 	
 	</div>
-	   
+	
 	<h3>Row 4: Procedural Abstraction (Response 3C)</h3>
 	<div class="yui-wk-div">
 	     <h4>Student Response</h4>
@@ -621,7 +600,16 @@ Sample 3 - 2021's Pilot Sample E
 	<h3>Row 1: Program Purpose and Function (Video and Response 3A)</h3>
 	<div class="yui-wk-div">
 	     <h4>Student Response</h4>
-		<gcb-youtube videoid="Nexmm80Wu98" instanceid="lLK2WYXPcCzm"></gcb-youtube><br><p>3a.&nbsp;My program ultimately works to address the issue of screen addiction in society, as users who record their usage are more conscious of their own addiction. My program then tackles the issue head on, as new alternatives to screen usage can be selected with the activities button, mitigating overall screen usage. As can be seen from the illustration of my program, users are able to <b>input the amount of time</b> they spend on their screen each day. This data is collected and can be paused by the users, and resumed at whatever time they continue use of their screen. Then once the user feels that have used a sufficient amount of screen time in a day, they can <b>click the screen free challenge button to output an amount of time to go screen free</b>. They also have the activity button which outputs different activities to try that don’t involve screens.</p>
+
+.. youtube:: Nexmm80Wu98
+        :width: 600
+        :height: 415
+        :align: center
+		
+.. raw:: html
+
+		<!--<gcb-youtube videoid="Nexmm80Wu98" instanceid="lLK2WYXPcCzm"></gcb-youtube>-->
+		<br><p>3a.&nbsp;My program ultimately works to address the issue of screen addiction in society, as users who record their usage are more conscious of their own addiction. My program then tackles the issue head on, as new alternatives to screen usage can be selected with the activities button, mitigating overall screen usage. As can be seen from the illustration of my program, users are able to <b>input the amount of time</b> they spend on their screen each day. This data is collected and can be paused by the users, and resumed at whatever time they continue use of their screen. Then once the user feels that have used a sufficient amount of screen time in a day, they can <b>click the screen free challenge button to output an amount of time to go screen free</b>. They also have the activity button which outputs different activities to try that don’t involve screens.</p>
 	<table>
 	<tbody><tr>
 		<th>Requirements</th>
@@ -848,7 +836,16 @@ Sample 4 - 2019's Sample H
 	<h3>Row 1: Developing a Program with a Purpose (Video and Response 2A)</h3>
 	<div class="yui-wk-div">
 	     <h4>Student Response</h4>
-		<gcb-youtube videoid="FCgR0IaIVcA" instanceid="LSet4qsVNxwE"></gcb-youtube><br><p>2a.The programming language I used was MIT App Inventor. The purpose of my program is a game where the user clicks pictures of comets to get points within a
+
+.. youtube:: FCgR0IaIVcA
+        :width: 600
+        :height: 415
+        :align: center
+		
+.. raw:: html
+
+		<!--<gcb-youtube videoid="FCgR0IaIVcA" instanceid="LSet4qsVNxwE"></gcb-youtube>-->
+		<br><p>2a.The programming language I used was MIT App Inventor. The purpose of my program is a game where the user clicks pictures of comets to get points within a
 	time limit. My video shows how the game works, and shows what happens when you win and when you lose. It shows how the timer counts down, and how the score increases every time a comet is clicked. If the score reaches 10, then the user wins, If it does not reach 10, the user loses.</p>
 	<table>
 	<tbody><tr>
@@ -1117,6 +1114,7 @@ Sample 5 - 2018's Sample E
 --------------------------
 
 .. raw:: html
+
 	   <div id="accordion5" class="yui-wk-div">
 	
 	<h3>Row 1: Developing a Program with a Purpose (Video and Response 2A)</h3>
@@ -1441,7 +1439,8 @@ Sample 6 - 2017's Sample A
 	<h3>Row 1: Developing a Program with a Purpose (Video and Response 2A)
 	</h3>
 	<div class="yui-wk-div">
-	     <h4>Student Response</h4><p>2a. Narration in video</p><table>
+	     <h4>Student Response</h4><p>2a. Narration in video Note: This video is no longer available from the College Board.</p>
+		 <table>
 	     <tbody><tr>
 	      
 	
@@ -1804,6 +1803,6 @@ Sample 6 - 2017's Sample A
 	
 	</div>
 	     
-	</div> <!-- accordion 7 -->
+	</div> <!-- accordion 6 -->
 	
 

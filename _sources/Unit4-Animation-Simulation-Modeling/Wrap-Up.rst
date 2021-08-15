@@ -52,7 +52,15 @@ Unit 4 Quiz
 
     <p>
     Before moving on, check with your instructor to see if there is a quiz for Unit 4.</ul>
-    </div>
+
     
 Reflection: For Your Portfolio
 -------------------------------
+
+.. raw:: html
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/17VlNR_3la0APxwuytseG7oPZEdyvuqworfrFx2s9xHg/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vR0pdAG8fGQFnH5V6VU-FcYhN7hEcq48iATrElkdi1fgeas2vfod_2rkuX01wDSYhskkEdqrj25bDwp/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>

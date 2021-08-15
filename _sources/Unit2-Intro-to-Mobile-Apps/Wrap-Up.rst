@@ -54,9 +54,6 @@ Unit 2 Quiz
     <p>
     Before moving on, check with your instructor to see if there is a quiz for Unit 2.
     </p>
-    
-        
-      </div>
       
 Reflection: For Your Portfolio
 -------------------------------
