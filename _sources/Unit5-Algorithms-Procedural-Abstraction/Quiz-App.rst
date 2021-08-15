@@ -39,11 +39,11 @@ Introduction and Goals
     <table>
     <tbody>
       <tr>
-		<td valign="top" colspan=2>The Quiz App presents a quiz about pioneers in computer science. The questions, answers, and corresponding images are in <b>parallel lists</b> where the first question in the question list matches with the first answer in the answer list and the first picture in the picture list, etc.</td>
+		<td valign="top" colspan=2>The Quiz App presents a quiz about pioneers in computer science. The questions, answers, and images are in <b>parallel lists</b> where the first question in the question list corresponds to the first answer in the answer list and the first image in the image list, and so on for each element in the lists.</td>
       </tr>	
     <tr>
 	<tr>
-        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/G_BrTzwHcoU" width="300"></iframe>
+        <td valign="top"><iframe allowfullscreen="" frameborder="0" height="275" src="https://www.youtube.com/embed/G_BrTzwHcoU" width="300"></iframe>
 		<!-- (&lt;a target=&quot;_blank&quot; href=&quot;&quot;&gt;Teacher Tube version&lt;/a&gt;)-->
         </td>
         <td valign="top">
@@ -55,6 +55,7 @@ Introduction and Goals
 			</ul>
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
+			<li>explain how items in parallel lists are related to each other</li>
 			<li>use target vocabulary, such as index and parallel list, while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>
         </td>
@@ -72,7 +73,7 @@ Learning Activities
     <p>
       To get started, open App Inventor with the 
       <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit6/templates/QuizApp/QuizAppTemplate.asc" target="_blank">Quiz App template</a> 
-      in a separate tab and follow along with the following video tutorials or the <a href="https://docs.google.com/document/d/1RPxUXIbluNl4RBjEsBojSzQTvBZqWm3eO5Y9Fci_-0k/edit?usp=sharing" target="_blank">text tutorial</a> or for an extra challenge use just the  <a href="https://docs.google.com/document/d/1esBQ08ydu6a-ZpNjQ9FPk-qMuHmg6gjSRtnLPaOLo60/edit?usp=sharing" target="_blank">short handout</a>.
+      in a separate tab and follow along with the video tutorial below or this <a href="https://docs.google.com/document/d/1RPxUXIbluNl4RBjEsBojSzQTvBZqWm3eO5Y9Fci_-0k/edit?usp=sharing" target="_blank">text tutorial</a>. For an extra challenge use just the <a href="https://docs.google.com/document/d/1esBQ08ydu6a-ZpNjQ9FPk-qMuHmg6gjSRtnLPaOLo60/edit?usp=sharing" target="_blank">short handout</a>.
     </p>
     
 .. youtube:: y7epbJbCZOI
@@ -88,10 +89,13 @@ Learning Activities
 
 
     <h3>Quiz Questions</h3>
-    <p>The template contains the images used in this quiz, however you will be typing in the quiz questions and answers:
+    <p>In the app you will construct three separate lists for the questions, answers, and the names of image files. The first question in the question list corresponds to the first answer in answer list and the first image in the image list. This is known as a <b><i>parallel list construction</i></b>.  
+		This parallel setup allows you to use an <i><b>index</b></i> variable to associate each question with its corresponding answer and image. For example, when the index variable has the value 2, it is referring to the second question, second answer, and second image.	
+
+	<p>You will be typing in the quiz questions, answers, and image names (the image jpg files are provided in the Quiz App template).</p>
       
-    <br/>The questions are:
-    </p><ol>
+    The questions are:
+    <ol>
     <li>Which computer science pioneer broke the German Enigma Code during the World War II?
       </li>
     <li>Which recent movie showcases the first African-American women who worked as human “computers” for NASA?
@@ -99,33 +103,34 @@ Learning Activities
     <li>Which Navy admiral led the creation of COBOL, one of the first high level programming languages?
       </li>
     </ol>
-    The matching answers are:
+    The corresponding answers are:
     <ol>
     <li>Alan Turing</li>
     <li>Hidden Figures</li>
     <li>Grace Hopper</li>
-    </ol>
-    <p>In the app you will construct separate lists for the questions and answers (and picture files) in which
-      the first question in the question list goes with the first answer in answer list.  This is known as a 
-      <b><i>parallel list construction</i></b>.  This parallel setup allows you to easily keep track of questions, 
-      their answers, and their pictures using an <i><b>index</b></i> variable. 
-    
+    </ol>   
+    The corresponding images are:
+    <ol>
+    <li>AlanTuring.jpg</li>
+    <li>MaryJackson.jpg</li>
+    <li>GraceHopper.jpg</li>
+    </ol> 
     
     </p><h3>Enhancements and Extensions</h3>
     <p>Here are some programming problems that will let you enhance and extend the Quiz App. 
       </p><ol>
-    <li>As you might have noticed, if the answer is “Alan Turing” and the user types in “alan turing”, 
+    <li style="margin-bottom: 5px;">As you might have noticed, if the answer is “Alan Turing” and the user types in “alan turing”, 
           the answer will be marked incorrect.  That’s not very nice for the user.  To remedy this 
           problem you will want to convert both the user’s answer and the stored answer to upper case 
-          “ALAN TURING”.  (HINT: use the <b><i>upcase block</i></b> in the Text drawer to convert both strings.)
+          “ALAN TURING”.  (HINT: use the <b><i>upcase</i></b> block in the <i>Text</i> drawer to convert both strings.)
         </li>
-    <li>When the user gets an incorrect answer, instead of just reporting “incorrect”, use a join 
-          block to also display the correct answer.  “Sorry, that is incorrect. The correct answer is Grace Hopper.” 
+    <li style="margin-bottom: 5px;">When the user gets an incorrect answer, instead of just reporting “incorrect”, use a <i><b>join</i></b> 
+          block to also display the correct answer. For example, “Sorry, that is incorrect. The correct answer is Grace Hopper.” 
         </li>
-    <li>  Add <i>RandomButton</i> to the app that when clicked will display a random 
-          question from the quiz.  (HINT:  You could use some new blocks from the <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#pickrandomitem" target="_blank">List drawer</a> such as a <em>pick a random  item</em> block fed into a <em>index in list thing</em> block to set the index randomly.)
+    <li style="margin-bottom: 5px;">  Add <i>RandomButton</i> to the app that when clicked will display a random 
+          question from the quiz.  (HINT:  You could use some new blocks from the <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#pickrandomitem" target="_blank">List drawer</a> such as a <em>pick a random item</em> block fed into an <em>index in list thing</em> block to set the index randomly.)
         </li>
-    <li>Add a fourth question (and answer and picture) to the quiz.  If you like, you can research 
+    <li>Add a fourth question (and answer and image) to the quiz.  If you like, you can research 
           "famous computer scientists" on the Web to discover a fourth person.  Or, if you wish, you can 
           create a question about <a href="http://news.mit.edu/2011/abelson-sigcse-award" target="_blank">Hal Abelson</a>, 
           the creator of our App Inventor programming language. (HINT: You should only have to modify the 3 lists 

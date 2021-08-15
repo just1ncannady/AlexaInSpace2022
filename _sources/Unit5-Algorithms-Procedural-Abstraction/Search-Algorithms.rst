@@ -27,7 +27,7 @@ Search Algorithms
     
         });
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -39,7 +39,7 @@ Introduction and Goals
     <table>
     <tbody>
       <tr>
-		<td valign="top" colspan=2>Search is a very important area of study in computer science. Just think of how often you search for information on the Internet using Google or some other search engine.  It's remarkable how much information Google's algorithms search through and how fast they deliver the results.</td>
+		<td valign="top" colspan=2>Search is an important area of study in computer science. Just think of how often you search for information on the Internet using Google or some other search engine.  It's remarkable how much information Google's algorithms search through and how fast they deliver the results.</td>
       </tr>    
       <tr>
         <td valign="top"><iframe allowfullscreen="" frameborder="0" height="275" width="315" src="https://www.youtube.com/embed/0eKVizvYSUQ"></iframe>
@@ -48,27 +48,13 @@ Introduction and Goals
 			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 			<ul>
 			<li>identify the strengths and weaknesses of the sequential and binary search algorithms</li>
-			<li>determine the number of iterations required to find a value in a data set</li>
+			<li>determine the number of steps required to find a value in a data set</li>
 			</ul>
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
 			<li>use target vocabulary, such as binary search and sequential search while considering algorithms for finding a value in a data set, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>
         </td>
-      </tr>
-	  <tr>
-		<td valign="top" colspan=2>
-			<p>So, as the video described, when you do a Google search, you aren't actually
-			searching the Web, you're searching Google's index of the Web.  Google's
-			<i>spider programs</i> are constantly traversing the web, collecting millions of 
-			web pages and organizing them into an <i>index</i>.  When you do a Web search
-			Google's algorithms are searching that index.
-			</p>
-			<p>What's the best algorithm for searching an index?  An index is an <i>ordered</i> 
-			collection.  Think of the index that comes  at the back of a textbook.  It is organized 
-			in alphabetical order. Each entry in the index refers to some page in the book. 
-			</p>
-		</td>
       </tr>
     </tbody>
     </table>
@@ -80,6 +66,16 @@ Learning Activities
 
 .. raw:: html
 
+	<p>As the video above describes, when you do a Google search, you aren't actually
+			searching the Web, you're searching Google's <i>index</i> of the Web.  Google's
+			<i>spider programs</i> are constantly traversing the web, collecting millions of 
+			web pages and organizing them into an index.  When you do a Web search
+			Google's algorithms are searching that index.
+			</p>
+			<p>What's the best algorithm for searching an index?  An index is an <i>ordered</i> 
+			collection.  Think of the index that comes  at the back of a textbook.  It is organized 
+			in alphabetical order. Each entry in the index refers to some page in the book. 
+			</p>
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (15 minutes)</h3>
     <p>To help you think about the <b>problem of searching an index</b> we're going to play 
@@ -92,7 +88,7 @@ Learning Activities
     </iframe>
     </center>
     <p></p>
-    <p>Or, you can play the game "by hand", in which case one team member will
+    <p>Or, you can play the game without a computer, in which case one team member will
         think of a secret number between 1 and 100 and the other team members will 
         collaborate to try to come up with the best guess. Just as in the widget,
         after each guess, the person who knows the secret will tell the guessers
@@ -146,7 +142,7 @@ Learning Activities
     </center>
     <p></p>
     <h3>An Efficient Algorithm</h3>
-    <p>There is a very efficient algorithm for the guessing game problem, known as the <b>binary search algorithm</b>. It is called binary search because you repeatedly divide the search space into two and eliminate one half of the search space. 
+    <p>There is an efficient algorithm for the guessing game problem, known as the <b>binary search algorithm</b>. It is called binary search because you repeatedly divide the search space into two and eliminate one half of the search space. 
       Click <a href="https://mobile-csp.org/webapps/search/binarysearch.html" target="_blank">here</a> to see 
       the pseudocode or see the algorithm comparison section below.
     </p>

@@ -57,12 +57,12 @@ Introduction and Goals
 			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 			<ul>
 			<li>conduct an empirical (experimental) investigation of basic search and sort algorithms</li>
-			<li>determine the <span class="hover vocab yui-wk-div" data-id='efficiency'>efficiency</span> (how fast they run) for basic search and sort algorithms depending on input size</li>
+			<li>determine the <span class="hover vocab yui-wk-div" data-id='efficiency'>efficiency</span> for basic search and sort algorithms depending on input size</li>
 			<li>deepen my understanding of search and sort algorithms</li>
 			</ul>
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
-			<li>analyze and make conclusions about the algorithms being run based on my data</li>
+			<li>represent data in a graph then analyze and make conclusions about the algorithms being run based on my data</li>
 			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=efficiency>efficiency</span> and <span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem</span> while experimenting with search and sort algorithms with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>	
 		</td>
