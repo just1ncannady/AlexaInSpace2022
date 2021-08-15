@@ -130,10 +130,10 @@ Learning Activities
     <iframe height="350" src="https://mobile-csp.org/webapps/crypto/simplesubstitution.html" style="border: 0;" title="" width="650"></iframe>
     <br/>
     <ol>
-    <li><b>By Hand:</b> Use a simple <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution cipher</span> to encrypt your name. 
+    <li style="margin-bottom: 5px;"><b>By Hand:</b> Use a simple <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution cipher</span> to encrypt your name. 
     Choose your own keyword to create a <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> alphabet. Then use the widget above to check your result.
     
-    </li><li><b>Decrypt:</b> The following word,  <b><i>SIRTQSMTCKJ</i></b>, 
+    </li><li style="margin-bottom: 5px;"><b>Decrypt:</b> The following word,  <b><i>SIRTQSMTCKJ</i></b>, 
     was encrypted with the keyword <b><i>simple</i></b>.  Can you decrypt it?
     
     </li><li><b><span class="hover vocab yui-wk-div" data-id='brute force attack'>Brute force attack</span>.</b> How many keys (arrangements of the alphabet) 

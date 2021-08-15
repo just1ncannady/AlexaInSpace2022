@@ -141,21 +141,22 @@ Learning Activities
         will successfully identify the flipped card when some from the class secretly flips a single card.
       </p>
     <ol>
-    <li>In the video, are the 6th row and 6th column being laid out in a truly random way or
+    <li style="margin-bottom: 5px;">In the video, are the 6th row and 6th column being laid out in a truly random way or
           is some kind of rule or algorithm being used? If so, what's the rule?</li>
-    <li>HINT:  Count the number of face cards in each row and column?  What pattern or
+    <li style="margin-bottom: 5px;">HINT:  Count the number of face cards in each row and column?  What pattern or
             rule do you see if you do that? </li>
-    <li>Practice: Everyone on the team should practice the "trick" using the widgets or the deck of
+    <li style="margin-bottom: 5px;">Practice: Everyone on the team should practice the "trick" using the widgets or the deck of
           cards.
         
-        </li><li>(<b>Portfolio</b>) What is the "trick"?  Of course, it's not really a trick. It's an algorithm. 
+        </li>
+	<li style="margin-bottom: 5px;">(<b>Portfolio</b>) What is the "trick"?  Of course, it's not really a trick. It's an algorithm. 
           So, describe an algorithm in pseudocode that solves the problem of identifying the flipped card.
         </li>
-    <li>(<b>Portfolio</b>)The card "trick" shows that it is always possible to identify the card 
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>)The card "trick" shows that it is always possible to identify the card 
           that was flipped as long as only one card was flipped. Would it be possible always to determine if an 
           error occurred if two cards were flipped?  Experiment with the cards or widgets to help
           answer this question.</li>
-    <li>In this case, the 25 original cards (bits) are data and the 11 additional bits are for 
+    <li style="margin-bottom: 5px;">In this case, the 25 original cards (bits) are data and the 11 additional bits are for 
           error detection, meaning that 25/36 = 69% of the bits are data and 31% are redundant bits
           used for error detection.  Suppose the original array was 3x3.  How many error detection 
           bits would you need in that case and what percentage of the total bits would now be data bits? 

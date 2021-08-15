@@ -63,10 +63,10 @@ Learning Activities
     Working with a partner,  explore the following visualization(or another visualization that your teacher suggests) and answer the following questions. <br/>
     <img class="yui-img" height="400px" src="../_static/assets/img/infographic.gif"/> <br/>
     <ol>
-    <li>What is the data shown in this visualization?</li>
-    <li>What type of data is used — text, numbers, geocodes, date and time, etc.?</li>
-    <li>What conclusions can you draw from the data?</li>
-    <li>How is the data presented in the visualization that makes it easy to understand and use?
+    <li style="margin-bottom: 5px;">What is the data shown in this visualization?</li>
+    <li style="margin-bottom: 5px;">What type of data is used — text, numbers, geocodes, date and time, etc.?</li>
+    <li style="margin-bottom: 5px;">What conclusions can you draw from the data?</li>
+    <li style="margin-bottom: 5px;">How is the data presented in the visualization that makes it easy to understand and use?
       </li>
     <li>What are the drawbacks of this visualization?</li></ol>
     <p>Watch and discuss the TED-Ed video below on how data can also be manipulated in data visualizations.<br/>
@@ -91,16 +91,12 @@ Learning Activities
     A <b>spreadsheet</b> is a document where the data is arranged in rows and columns. Spreadsheets allow formulas to be used to make calculations from the data and charting capabilities. Spreadsheet programs can also be used to filter and clean digital data. We will be using Google Sheets in Google Drive as our spreadsheet software in the following project.
     </p>
     <ol>
-    <li>
+    <li style="margin-bottom: 5px;">
         Open and copy the <a href="https://docs.google.com/spreadsheets/d/12fRy-mhBAhj-6GlHi9y-5tKlkBo7OeSgcWzAKgIXQ30/copy" target="_blank">Astraptes Butterflies data set</a> into your Google Drive. Your instructor may ask you to do File/Move to move the file to a certain folder on your drive or to Share it.  </li>
-    <li>
-    This data set shows butterfly specimens captured and tagged in the Guanacaste National Park in Costa Rica.  Look through the data and notice that the first column (herbivore species) is the species of each butterfly that was tagged. The last columns show the latitude and longitude  where each butterfly was tagged. The first row is metadata that describes the data in each column. <b>Metadata</b> is data about data. It can be associated with the primary data, and changes and deletions made to metadata do not change the primary data. Metadata allows data to be structured and organized and is used for finding, organizing and managing information. Metadata can increase the effective use of data or data sets by providing additional information about various aspects of that data.
-    
-     </li>
-    <br/>
-    <li>
+    <li style="margin-bottom: 5px;">
+    This data set shows butterfly specimens captured and tagged in the Guanacaste National Park in Costa Rica.  Look through the data and notice that the first column (herbivore species) is the species of each butterfly that was tagged. The last columns show the latitude and longitude  where each butterfly was tagged. The first row is metadata that describes the data in each column. <b>Metadata</b> is data about data. It can be associated with the primary data, and changes and deletions made to metadata do not change the primary data. Metadata allows data to be structured and organized and is used for finding, organizing and managing information. Metadata can increase the effective use of data or data sets by providing additional information about various aspects of that data. </li>
+    <li style="margin-bottom: 5px;">
     <b>Formulas and Functions:</b> Each box in the spreadsheet is called a  <b>cell</b>. Every cell  in the spreadsheet is identifiable by its column letter and row number. For example, cell <b>A2</b> refers to the box at column A and row 2 below and contains the data Astraptes SENNOV which is a butterfly species.  
-    <br/>
     <img src="../_static/assets/img/cell.png" width="50%"/>
     <p>
       We can manipulate numeric data in a spreadsheet by using <b>formulas</b> and <b>functions</b> built into the spreadsheet software. Typing in a <b>=</b> in a cell signals the start of a formula like <b>=K2 + K3</b> or a function like <b>=SUM(K2,K3)</b>. These functions can take a list of cells or a range of cells such as <b>K2:K4</b> which is equivalent to the list <b>K2, K3, K4</b>. There are many built-in functions in standard spreadsheet software, but the most commonly used ones are SUM, AVERAGE, COUNT, MAX, and MIN. Here is a <a href="https://www.gcflearnfree.org/googlespreadsheets/working-with-functions/1/" target="_blank">tutorial</a> that reviews how to use functions in Google Sheets.</p>
@@ -114,7 +110,7 @@ Learning Activities
         =AVERAGE(K2:K88)</b> like below. This will average the data in column K rows 2-88. You could select the data that you want instead of typing in the cell numbers. When you hit enter, it will compute the average 54.63 (you can control the precision with the precision buttons at the top). <br/>
     <img src="../_static/assets/img/formula.png" width="50%"/>
     </li>
-    <li> (<b>Reflection)</b> Write another formula that calculates the <b>average elevation</b> for this data. Write your formula and the result found in your portfolio.
+    <li> (<b>Portfolio)</b> Write another formula that calculates the <b>average elevation</b> for this data. Write your formula and the result found in your portfolio.
          </li>
     </ul>
     </li>
@@ -126,7 +122,7 @@ Learning Activities
      
         </p><p>Here’s a <a href="https://edu.gcfglobal.org/en/googlespreadsheets/sorting-and-filtering-data/1/" target="_blank">tutorial about sorting and filtering</a> in Google Sheets.
       </p></li>
-    <li><b>Charts:</b> Let’s make a chart to visualize some of the data in this spreadsheet. 
+    <li style="margin-bottom: 5px;"><b>Charts:</b> Let’s make a chart to visualize some of the data in this spreadsheet. 
     <ul>
     <li>Click on the A heading in the first column (herbivore species).  </li>
     <li>From the Insert menu at the top, select Chart.  
@@ -139,34 +135,34 @@ Learning Activities
     </ul>
     </li><li> Make more charts to answer the following questions:
     <ul>
-    <li>  (<b>Reflection</b>) Are there more male or female butterflies in this data set? Include a screenshot of your chart in your portfolio to answer this question. What kind of data is in your chart?
+    <li style="margin-bottom: 5px;">  (<b>Portfolio</b>) Are there more male or female butterflies in this data set? Include a screenshot of your chart in your portfolio to answer this question. What kind of data is in your chart?
       </li>
-    <li>(<b>Reflection</b>) Which ecological environment (primary eco column) do these butterflies like to live in? There is no clear winner in this question so give the percentages in each ecological environment in a screenshot of your chart and describe the data in your portfolio.
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) Which ecological environment (primary eco column) do these butterflies like to live in? There is no clear winner in this question so give the percentages in each ecological environment in a screenshot of your chart and describe the data in your portfolio.
       </li>
-    <li>(<b>Reflection</b>) Come up with a 3rd question and use charting to answer it. Include a screenshot of your chart in your portfolio to answer this question. What kind of data is in your chart?</li>
+    <li>(<b>Portfolio</b>) Come up with a 3rd question and use charting to answer it. Include a screenshot of your chart in your portfolio to answer this question. What kind of data is in your chart?</li>
     </ul>
     </li>
     </ol>
     <h3>Activity 3: Google Maps</h3>
     The last columns in the spreadsheet contain location data, latitudes and longitude in which the butterflies were found.  We can map this data using Google Maps. For troubleshooting in this activity, refer to the <a href="https://support.google.com/mymaps/#topic=3188329" target="_blank">Google My Maps Help Center</a>
     <ol>
-    <li>
+    <li style="margin-bottom: 5px;">
          Go to <a href="http://www.google.com/mymaps" target="_blank">http://www.google.com/mymaps</a> and click on the Create A New Map button. The created map will be saved in your Google Drive.
-       </li><li>Change the <em>Untitled Map</em> heading to a title like <em>Butterflies Map</em> and click on the blue Import button as seen below:
+       </li><li style="margin-bottom: 5px;">Change the <em>Untitled Map</em> heading to a title like <em>Butterflies Map</em> and click on the blue Import button as seen below:
     <br/>
     <img src="../_static/assets/img/map1.png" width="50%"/>
-    </li><li>Click on Google Drive as seen below and find your spreadsheet.
+    </li><li style="margin-bottom: 5px;">Click on Google Drive as seen below and find your spreadsheet.
     <br/>
     <img src="../_static/assets/img/map2.png" width="50%"/>
-    </li><li>Scroll down to select the Latitude and Longitude columns as seen below.
+    </li><li style="margin-bottom: 5px;">Scroll down to select the Latitude and Longitude columns as seen below.
     <br/>
     <img src="../_static/assets/img/map3.png" width="50%"/>
-    </li><li>Pick the herbivore species column as the title for the placemarks.
+    </li><li style="margin-bottom: 5px;">Pick the herbivore species column as the title for the placemarks.
     Google maps will place your data set as markers on the map. Click on some of the markers to see your data. Click on the paint roller icon like below to group places by herbivore species or by another column like primary eco and add labels from one of the columns, and click on the paintcan to choose different icons.
        <br/>
     <img src="../_static/assets/img/maplabel.png" width="50%"/>
-    </li><li>Click on Share to share your map with your teacher or to change the settings to anyone with the link can view. 
-       </li><li>(<b>Reflection</b>) Copy the link to your portfolio. Click on Preview to grab a screenshot of your map to put in your portfolio.
+    </li><li style="margin-bottom: 5px;">Click on Share to share your map with your teacher or to change the settings to anyone with the link can view. 
+       </li><li>(<b>Portfolio</b>) Copy the link to your portfolio. Click on Preview to grab a screenshot of your map to put in your portfolio.
     </li></ol>
     
 Summary

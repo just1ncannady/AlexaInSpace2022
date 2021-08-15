@@ -145,22 +145,22 @@ Learning Activities
     </tbody></table>
     <p>Do the following activities with your group. Click  <a href="https://docs.google.com/document/d/1R6u0geqIRmilERAgnlaRfo9Of5qyl0Z0w_35itx1_Qs/copy" target="_blank">here to make a copy of the worksheet for this POGIL activity.</a>
     </p><ol>
-    <li>What applications do you use throughout the day? In your group, make a list of 4-6 apps that you use on your phone or computer. 
+    <li style="margin-bottom: 5px;">What applications do you use throughout the day? In your group, make a list of 4-6 apps that you use on your phone or computer. 
         </li>
-    <li>Classify these apps as 
+    <li style="margin-bottom: 5px;">Classify these apps as 
           <ul>
     <li>Cloud Applications that happen in the <span class="hover vocab yui-wk-div" data-id='browser'>browser</span>, </li>
     <li>Or Cloud Applications that do not use the <span class="hover vocab yui-wk-div" data-id='browser'>browser</span>, </li>
     <li> Or Applications that do not require the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>. </li>
     </ul>
     </li>
-    <li>Put a star * next to any of the applications that can be classified as social media (apps and websites that let you create and share content or participate in social networking). 
+    <li style="margin-bottom: 5px;">Put a star * next to any of the applications that can be classified as social media (apps and websites that let you create and share content or participate in social networking). 
     
         </li>
-    <li>Changing Behaviors : As computing evolves, the way people complete tasks often changes to incorporate new computing innovations. Describe one task that is now done differently due to a social media app.</li>
-    <li>
+    <li style="margin-bottom: 5px;">Changing Behaviors : As computing evolves, the way people complete tasks often changes to incorporate new computing innovations. Describe one task that is now done differently due to a social media app.</li>
+    <li style="margin-bottom: 5px;">
           Make a Venn Diagram (see <a href="https://docs.google.com/document/d/1R6u0geqIRmilERAgnlaRfo9Of5qyl0Z0w_35itx1_Qs/copy" target="_blank">worksheet</a> or below) to classify the effects of the Social Media apps as harmful or beneficial to society, culture, or economy. Keep in mind, a single effect can be viewed as beneficial to some people and harmful to others.</li>
-    <li>Computing innovations can be used in ways that the creator had not originally intended. For example, the World Wide Web was originally intended only for sharing information within the scientific community, but it has grown into a vital part of our social and economic lives. The large number of users that use the WWW in different ways has resulted in significant impacts beyond its original purpose. The total effects of a social media app cannot always anticipated in advance. Discuss how some social media apps have had complex effects that were not anticipated. Describe one example of an effect of a social media app that was not originally anticipated.</li>
+    <li style="margin-bottom: 5px;">Computing innovations can be used in ways that the creator had not originally intended. For example, the World Wide Web was originally intended only for sharing information within the scientific community, but it has grown into a vital part of our social and economic lives. The large number of users that use the WWW in different ways has resulted in significant impacts beyond its original purpose. The total effects of a social media app cannot always anticipated in advance. Discuss how some social media apps have had complex effects that were not anticipated. Describe one example of an effect of a social media app that was not originally anticipated.</li>
     <li>If you were a developer of one of the social media apps that you listed, how would you reduce its harmful effects?
      Responsible programmers try to consider the unintended ways their computing innovations can be used and the potential beneficial and harmful effects of these new uses, although it is not possible for a programmer to consider all the ways a computing innovation can be used. Rapid sharing of a program or running a program with a large number of users can result in significant impacts beyond the intended purpose or control of the programmer. Some of these impacts may be beneficial, for example leading to advances in other fields. Some of these impacts may be harmful, for example information placed online or on social media apps can be shared with unintended audiences, affecting our privacy -- an email message may be forwarded, tweets can be retweeted, and social media posts can be viewed by potential employers. 
     </li>

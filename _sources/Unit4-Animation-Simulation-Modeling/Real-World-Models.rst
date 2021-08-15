@@ -120,12 +120,12 @@ Learning Activities
         shows how nature attempts to stay balanced. Read the Learner's Tab about how the simulation works and then complete 
         the following activities. (Note that this simulator works best in the Firefox browser).</p>
     <ol>
-    <li>On the Activity tab, click Start Simulation. You can open the population graphs at any point to see how they 
+    <li style="margin-bottom: 5px;">On the Activity tab, click Start Simulation. You can open the population graphs at any point to see how they 
           change over time. Record your groups observations about how the population of rabbits and wolves changed over time.
         </li>
-    <li><b>Hypothesis:</b> What would happen if there were lots more bunnies than there were wolves? Would the bunnies take over and live forever? <br/><b>Experiment:</b> Test the hypothesis by first resetting the simulation. Then click the View/Modify Parameters button followed by the View/Modify Start Parameters (Note that the View/Modify parameters button does not currently work in Chrome, but does work in Firefox). Adjust the settings to increase the initial number of rabbits. Record your observations. Did your prediction match with the results? How was it different than the first run of the simulation?</li>
-    <li><b>(Portfolio)</b> Reverse the hypothesis: What would happen if there were lots more wolves than there are bunnies? Would the wolves live forever? Record your hypothesis, prediction and       experiment results. (Don't forget to reset the simulation before changing the parameters.)</li>
-    <li>Explain how the rabbits and wolves live in balance in this simulation.</li>
+    <li style="margin-bottom: 5px;"><b>Hypothesis:</b> What would happen if there were lots more bunnies than there were wolves? Would the bunnies take over and live forever? <br/><b>Experiment:</b> Test the hypothesis by first resetting the simulation. Then click the View/Modify Parameters button followed by the View/Modify Start Parameters (Note that the View/Modify parameters button does not currently work in Chrome, but does work in Firefox). Adjust the settings to increase the initial number of rabbits. Record your observations. Did your prediction match with the results? How was it different than the first run of the simulation?</li>
+    <li style="margin-bottom: 5px;"><b>(Portfolio)</b> Reverse the hypothesis: What would happen if there were lots more wolves than there are bunnies? Would the wolves live forever? Record your hypothesis, prediction and       experiment results. (Don't forget to reset the simulation before changing the parameters.)</li>
+    <li style="margin-bottom: 5px;">Explain how the rabbits and wolves live in balance in this simulation.</li>
     <li><b>(Portfolio)</b> This model chose to include certain features and exclude other features. For example, this simulation only includes rabbits, wolves, and grass but there are other predators of rabbits and other food sources for rabbits. Why do you think the creators focused on these data elements and not others? How might this introduce <i>bias</i> (concentration on or interest in a particular area) into the simulation?</li>
     </ol>
     </div>

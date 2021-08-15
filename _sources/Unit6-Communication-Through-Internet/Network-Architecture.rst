@@ -130,11 +130,11 @@ Learning Activities
     kyoto-u.ac.jp,
     usp.br) to answer the questions below:
         </p><ol>
-    <li> Did any of the servers lose packets or time out?  Some servers will block <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for security reasons which are seen as time outs. Were there any surprising locations in the hops that the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> went through?</li>
-    <li>Did different trials have different results for the same destination? Do packets always get routed in the same way?</li>
-    <li>Can you guess where the network-tools server is located based on the latency data you collected? Can you confirm your guess using trace or whois (which gives you information about who owns a server)? </li>
-    <li>Select one route and specify all the directly-connected computing devices along the route which form a path between the sender and the receiver. How many hops are taken on this path? List each device on this path.</li>
-    <li>How does the number of hops in the trace affect latency (the round trip time seen in <span class="hover vocab yui-wk-div" data-id='ping'>ping</span>)?  </li>
+    <li style="margin-bottom: 5px;">Did any of the servers lose packets or time out?  Some servers will block <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for security reasons which are seen as time outs. Were there any surprising locations in the hops that the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> went through?</li>
+    <li style="margin-bottom: 5px;">Did different trials have different results for the same destination? Do packets always get routed in the same way?</li>
+    <li style="margin-bottom: 5px;">Can you guess where the network-tools server is located based on the latency data you collected? Can you confirm your guess using trace or whois (which gives you information about who owns a server)? </li>
+    <li style="margin-bottom: 5px;">Select one route and specify all the directly-connected computing devices along the route which form a path between the sender and the receiver. How many hops are taken on this path? List each device on this path.</li>
+    <li style="margin-bottom: 5px;">How does the number of hops in the trace affect latency (the round trip time seen in <span class="hover vocab yui-wk-div" data-id='ping'>ping</span>)?  </li>
     <li> (<b>Portfolio</b>) How does geographical distance affect latency? What are some other factors that may be affecting latency? </li>
     </ol><br/>
     </div>
@@ -181,9 +181,10 @@ Learning Activities
     <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/edit?usp=sharing" target="_blank">these handouts</a> to simulate <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> routing in the TCP/IP model.
         Once your group has sent and received a message, discuss the following questions.
     </p><ol>
-    <li><b><span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Order. </b> Does it matter whether the packets of a message arrive in order?  Explain how this set of protocols handles that. </li>
-    <li>(<b>Portfolio</b>) <b>Missing Packets.</b> What should happen if a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> goes missing? Who (which layer) would handle this?  What action would they have to take?  And what additional information would be needed in the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> in order to handle it?  </li>
-    <li><b>Corrupted Packets.</b> Suppose there’s some kind hardware glitch that corrupts one or more bits in a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span>? Can this be detected?  What action should be taken in this case?  What additional information would be needed to handle this issue? </li><li><b>Fault-Tolerance. </b>Complex systems, like networks, fail at unexpected times. Often multiple devices fail at the same time.  Explain how the TCP/IP model continues to function even when parts of the system fail.<br/></li>
+    <li style="margin-bottom: 5px;"><b><span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Order. </b> Does it matter whether the packets of a message arrive in order?  Explain how this set of protocols handles that. </li>
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) <b>Missing Packets.</b> What should happen if a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> goes missing? Who (which layer) would handle this?  What action would they have to take?  And what additional information would be needed in the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> in order to handle it?  </li>
+    <li style="margin-bottom: 5px;"><b>Corrupted Packets.</b> Suppose there’s some kind hardware glitch that corrupts one or more bits in a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span>? Can this be detected?  What action should be taken in this case?  What additional information would be needed to handle this issue? </li>
+	<li style="margin-bottom: 5px;"><b>Fault-Tolerance. </b>Complex systems, like networks, fail at unexpected times. Often multiple devices fail at the same time.  Explain how the TCP/IP model continues to function even when parts of the system fail.<br/></li>
     <li>(<b>Portfolio</b>) <b>Security/Privacy.</b>  As the packets are being transmitted through the network, can people other than the sender and receiver read the messages? What methods can we use to protect the message?  </li>
     </ol>
     </div>

@@ -135,28 +135,28 @@ Learning Activities
     <p></p>
     </div>
 
-    <ul><li>Fewer bits does not necessarily mean less information.</li>
-    <li>The amount of size reduction from compression depends on both the amount of redundancy in the original data representation and the compression algorithm applied.</li><li>The amount of compression can vary depending on how many bits are used to represent each <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> in the image. </li>
-    <li>The amount of compression also depends on the number of different colors used in the actual image.  For our black and white spaceship there were only 2 colors, so there were relatively few color changes and therefore lots of long runs. If it were a colored spaceship, there would be many color changes and therefore fewer long runs. So we would get much less compression. </li>
-    <li>A <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithm is one in which no data are lost; the original data can be completely recovered. An example of <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> is <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE</span>.</li>
-    <li>A <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm is one in which some data are lost; the original data cannot be completely restored. An example of <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> is JPEG.</li>
+    <ul><li style="margin-bottom: 5px;">Fewer bits does not necessarily mean less information.</li>
+    <li style="margin-bottom: 5px;">The amount of size reduction from compression depends on both the amount of redundancy in the original data representation and the compression algorithm applied.</li><li>The amount of compression can vary depending on how many bits are used to represent each <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> in the image. </li>
+    <li style="margin-bottom: 5px;">The amount of compression also depends on the number of different colors used in the actual image.  For our black and white spaceship there were only 2 colors, so there were relatively few color changes and therefore lots of long runs. If it were a colored spaceship, there would be many color changes and therefore fewer long runs. So we would get much less compression. </li>
+    <li style="margin-bottom: 5px;">A <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithm is one in which no data are lost; the original data can be completely recovered. An example of <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> is <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE</span>.</li>
+    <li style="margin-bottom: 5px;">A <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> algorithm is one in which some data are lost; the original data cannot be completely restored. An example of <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy compression</span> is JPEG.</li>
     <li><span class="hover vocab yui-wk-div" data-id='lossy compression'>Lossy data compression</span> algorithms can usually reduce the number of bits stored or transmitted more than <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless compression</span> algorithms.</li>
     </ul>
     <div class="pogil yui-wk-div">
     <h3>Other Activities</h3>
     <p>Your teacher may ask you to do some of the following activities in POGIL teams or pairs.
     </p><ol>
-    <li>
+    <li style="margin-bottom: 5px;">
     American Standard Code for Information Interchange (<span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span>) is character code that includes 128 characters.
     Write your own message in binary that someone else could decode using an <a href="http://sticksandstones.kstrom.com/appen.html" target="_blank"><span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span> to Binary table</a>. Trade messages in class and decode each others.
     </li>
-    <li> 
+    <li style="margin-bottom: 5px;"> 
     In web pages and in App Inventor, colors are represented using hexcode for Red, Green, and Blue values.
     Here’s <a href="http://www.w3schools.com/colors/colors_mixer.asp" target="_blank" title="">a color mixer app</a> 
     that lets you explore the different colors that are used in Web pages.  You can also try making a Custom Color in App Inventor by changing the Screen's BackgroundColor property to Custom. How many bits are used to 
     represent the colors in Hex Code?   Figure out  the Hex code for pure red?  pure green? pure blue?
     </li>
-    <li>Research another image type (e.g. 
+    <li style="margin-bottom: 5px;">Research another image type (e.g. 
     <a href="http://en.wikipedia.org/wiki/Graphics_Interchange_Format" target="_blank">GIF</a>, 
     <a href="http://en.wikipedia.org/wiki/Portable_Network_Graphics" target="_blank">PNG</a>, 
     <a href="http://en.wikipedia.org/wiki/BMP_file_format" target="_blank">BMP</a>, 
@@ -164,7 +164,7 @@ Learning Activities
     and compare and contrast the data needed to 
     store information about the images. Include what type of compression is used. 
     </li>
-    <li>If you have a digital camera or a smartphone or tablet, find out what image representation scheme 
+    <li style="margin-bottom: 5px;">If you have a digital camera or a smartphone or tablet, find out what image representation scheme 
     it uses?  How come all images are not the same size?
     </li>
     <li><span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span> is one type of character code, but 128 characters is not enough for today’s computers, 

@@ -94,18 +94,18 @@ Learning Activities
 
 
     <p>As you saw in the video, you can train a simple <span class="hover vocab yui-wk-div" data-id='neural network'>neural network</span> to distinguish between three classes: green, purple, and orange.  The network will associate a certain inputs from your video camera (hand up, funny face) with certain GIF images (cat, dog) or sounds (hello, hey). Once you've trained the network to make the desired associations, you have created a <i><b>model</b></i>. </p>
-    <p>Now it's your turn to try it. If your computer does not have a camera, use your tablet or phone for this activity. When you click on the <a href="https://teachablemachine.withgoogle.com/v1/" target="_blank">link to the Teachable Machine Version 1</a>, you should see the following interface (note there is also a version 2 that you could try by deleting /v1 from the URL):
+    <p>Now it's your turn to try it. If your computer does not have a camera, use your tablet or phone for this activity. When you click on the <a href="https://teachablemachine.withgoogle.com/v1/" target="_blank">link to the Teachable Machine Version 1</a>, you should see the following interface (note there is also a version 2 that you could try by deleting /v1 from the URL).</p>
       <br/>
     <a href="https://teachablemachine.withgoogle.com/v1/" target="_blank"><img src="../_static/assets/img/TeachableMachine.png" style="float:center;" width="400"/></a>
-    <br/>
+    <br/><br/>
       
-      Here are some exercises and experiments to try:</p>
+    Here are some exercises and experiments to try:
     <ol>
-    <li>First, just to make sure everything is working properly, do the tutorial by clicking on the "Let's Go!" button.  The tutorial will lead you through creating the model that you saw in the demo video (hand up, funny face).</li>
-    <li>Next, tweak the model by replacing the GIFs with sounds, creating your own sounds.</li>
-    <li>Next, customize a model with your own inputs and outputs.</li>
-    <li>Here's an experiment to try:  Does it take more training cycles to train a model to distinguish between (left-hand-up, right-hand-up) than a model that distinguishes between (hand-up, no-hand-up)? </li>
-    <li><b>Facial recognition?</b> Pair up with one or two of your classmates and explore whether the network can be trained to distinguish between your faces.
+    <li style="margin-bottom: 5px;">First, just to make sure everything is working properly, do the tutorial by clicking on the "Let's Go!" button.  The tutorial will lead you through creating the model that you saw in the demo video (hand up, funny face).</li>
+    <li style="margin-bottom: 5px;">Next, tweak the model by replacing the GIFs with sounds, creating your own sounds.</li>
+    <li style="margin-bottom: 5px;">Next, customize a model with your own inputs and outputs.</li>
+    <li style="margin-bottom: 5px;">Here's an experiment to try:  Does it take more training cycles to train a model to distinguish between (left-hand-up, right-hand-up) than a model that distinguishes between (hand-up, no-hand-up)? </li>
+    <li style="margin-bottom: 5px;"><b>Facial recognition?</b> Pair up with one or two of your classmates and explore whether the network can be trained to distinguish between your faces.
       </li><li>Design your own experiment(s) with or without classmates.  For example, can you find two or three inputs that the machine cannot distinguish between no matter how many learning cycles you do? 
     </li></ol>
     
@@ -126,13 +126,13 @@ Learning Activities
 
     <h4>Five Types of Algorithmic Bias</h4>
     <ol>
-    <li>The data reflects an existing bias in society.  For example, an image search for nurses may return more female nurses than male nurses.
+    <li style="margin-bottom: 5px;">The data reflects an existing bias in society.  For example, an image search for nurses may return more female nurses than male nurses.
     </li>
-    <li>The training data is biased or incomplete. For example, facial recognition algorithms that are trained on photos of mostly white faces may not work as well for other skin colors.
+    <li style="margin-bottom: 5px;">The training data is biased or incomplete. For example, facial recognition algorithms that are trained on photos of mostly white faces may not work as well for other skin colors.
     </li>
-    <li>The data is oversimplified into quantitative values. The data may be too complicated to measure so simpler quantitative measures are used that may cause bias, for example counting the sentence length as an oversimplified measure of good writing. 
+    <li style="margin-bottom: 5px;">The data is oversimplified into quantitative values. The data may be too complicated to measure so simpler quantitative measures are used that may cause bias, for example counting the sentence length as an oversimplified measure of good writing. 
     </li>
-    <li>Data can be affected by a feedback loop. If biased data is fed back into the algorithm that then  generates new data, it causes a feedback loop of more biased data.  For example,  predictive policing software may recommend an increased police presence in neighborhoods based on previous arrests, ignoring other neighborhoods, but this could form a feedback loop where the increased police presence leads to more arrests and more bias in the decision.
+    <li style="margin-bottom: 5px;">Data can be affected by a feedback loop. If biased data is fed back into the algorithm that then  generates new data, it causes a feedback loop of more biased data.  For example,  predictive policing software may recommend an increased police presence in neighborhoods based on previous arrests, ignoring other neighborhoods, but this could form a feedback loop where the increased police presence leads to more arrests and more bias in the decision.
     </li>
     <li>Data can be manipulated. In 2016 Microsoft launched the virtual assistant Tay. People on Twitter bombarded Tay with racist comments and soon many of the responses were racist in nature. Microsoft pulled the plug on Tay after 24 hours.
     </li>

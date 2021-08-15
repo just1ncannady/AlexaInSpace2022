@@ -144,15 +144,15 @@ Learning Activities
       <img src="../_static/assets/img/Q18SquareQuestion.png" width="20%"/>
     <p>Answer the following questions with your POGIL group using <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">this worksheet</a>:
       </p><ol>
-    <li>For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?
-         </li><li>(<span style="font-weight: bold;">Portfolio</span>) Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> using the 4 commands above to navigate the robot through the maze to reach the gray square. You can pretend that one of you is the robot and walk through your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> with your fingers on the maze. Are there commands that are repeated in your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>? Circle them.
-        </li><li>(<span style="font-weight: bold;">Portfolio</span>) Let's replace the repeated commands with a <b><span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span></b> <span class="hover vocab yui-wk-div" data-id='control structure'>control structure</span>. The following command can be used to repeat a block of commands:
+    <li style="margin-bottom: 5px;">For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?
+         </li><li style="margin-bottom: 5px;">(<span style="font-weight: bold;">Portfolio</span>) Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> using the 4 commands above to navigate the robot through the maze to reach the gray square. You can pretend that one of you is the robot and walk through your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> with your fingers on the maze. Are there commands that are repeated in your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>? Circle them.
+        </li><li style="margin-bottom: 5px;">(<span style="font-weight: bold;">Portfolio</span>) Let's replace the repeated commands with a <b><span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span></b> <span class="hover vocab yui-wk-div" data-id='control structure'>control structure</span>. The following command can be used to repeat a block of commands:
     <div class="yui-wk-div" id="apml">
     <bl class="dark">REPEAT n times<br/>
        <bl>commands</bl></bl>
     </div>
     <br/>Rewrite your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> above using <em>Repeat n times</em> control structures (substituting in a number for n) instead of repeating the MOVE_FORWARD command many times. 
-        </li><li>Can you come up with a more general <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> and then click on and compare to the Maze Navigation <span class="hover vocab yui-wk-div" data-id='algorithm'>Algorithm</span> below.
+        </li><li style="margin-bottom: 5px;">Can you come up with a more general <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> to navigate a maze using <b>IF</b> commands and  a <b>REPEAT UNTIL GoalReached</b> command, which tests if the robot has reached the gray square goal? Try to come up with an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> and then click on and compare to the Maze Navigation <span class="hover vocab yui-wk-div" data-id='algorithm'>Algorithm</span> below.
       <div class="yui-wk-div" id="accordion">
     <h3>Maze Navigation <span class="hover vocab yui-wk-div" data-id='Algorithm'>Algorithm</span> (click here after trying your own <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>)</h3>
     <div class="yui-wk-div" id="APblocks">
@@ -178,9 +178,8 @@ Learning Activities
     <li type="a">(<span style="font-weight: bold;">Portfolio</span>) Can you come up with a maze that this <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> will not be able to solve? Include a description or a photo of your drawing of such a maze in your portfolio.
       </li></ol>
     </li>
-    <li>(<span style="font-weight: bold;">Portfolio</span>) 
-        <br/>Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that are examples  of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and
-        <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.</li></ol><br/>
+    <li>(<span style="font-weight: bold;">Portfolio</span>) Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>  for washing a stack of 10 items that are cups and dishes mixed together, where the rule is that the cups are washed in hot water and the dishes in cold water. Use simple commands like <b>hot_wash</b> and <b>cold_wash</b>. You may also use the control structures <b>IF</b> and <b>REPEAT n times</b>. Identify the parts of your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that are examples  of <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and
+        <span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span>.</li></ol>
     </div>
     
 

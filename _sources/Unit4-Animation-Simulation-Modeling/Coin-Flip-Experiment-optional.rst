@@ -170,14 +170,14 @@ Learning Activities
     <h3>Experimental Procedure</h3>
     <p>Our <span class="hover vocab yui-wk-div" data-id='hypothesis'>hypothesis</span> for this experiment: <i><b>App Inventor's <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> provides a good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of randomness</b></i>.</p>
     <p>Perform the following steps.</p>
-    <ol><li>Repeatedly run the app on each device and record the number of heads and tails received in each trial.  
+    <ol><li style="margin-bottom: 5px;">Repeatedly run the app on each device and record the number of heads and tails received in each trial.  
         Do at least 20 runs (<b>trials</b>) among the team. The maximum number of "flips" per trial is 100.
         Your team should have at least 2000 "flips".
         </li>
-    <li>Tally your results and calculate the percentage of heads for each trial.  In addition, calculate
+    <li style="margin-bottom: 5px;">Tally your results and calculate the percentage of heads for each trial.  In addition, calculate
           the cumulative number and percentage of heads after each trial. For example, after the 5th trial of 100
         flips, your table will show the number and percentage of heads for 500 flips.</li>
-    <li>(<b>Portfolio</b>) Record your teams results for each trial in a neatly organized table.  That is, if you did 20 trials
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) Record your teams results for each trial in a neatly organized table.  That is, if you did 20 trials
           of 100 coin flips each, your table should have 20 rows of results, with the percentage for 
           each trial along with the cumulative numbers. Here's an example:
           <blockquote style="font-size: 1.0em;" >
@@ -190,7 +190,7 @@ Learning Activities
           that you can use to record your data.  Just enter your data in columns B and C.  The rest of the columns will be calculated
           automatically. 
         </li>
-    <li>(<b>Portfolio</b>) According to your results, does App Inventor's <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> provide a good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of randomness?
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) According to your results, does App Inventor's <span class="hover vocab yui-wk-div" data-id='PRNG'>PRNG</span> provide a good <span class="hover vocab yui-wk-div" data-id='model'>model</span> of randomness?
         </li>
     <li>(<b>Portfolio</b>) A friend claims that flipping a coin 100 times and 
           finding that it comes up heads only 45% of the time shows that the coin is biased. How

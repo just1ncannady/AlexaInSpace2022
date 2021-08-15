@@ -59,21 +59,21 @@ Learning Activities
 
     <p><h3>Process</h3>
     <ol>
-    <li>Work collaboratively to research, investigate and analyze a large data set making sure that your project meets the following specifications.
+    <li style="margin-bottom: 5px;">Work collaboratively to research, investigate and analyze a large data set making sure that your project meets the following specifications.
          <ol type="a">
     <li><b>Data Sources:</b> For this project, your large data set must contain at least 1,000 data values or cells. (You may use one of <a href="https://docs.google.com/document/d/13qhmWAlwmUVWZQei5DJazUlYLyrWVHprRrfghWpv6_E/edit?usp=sharing" target="_blank">these data sources</a>, but you are encouraged to find others!)</li>
     <li><b>Questions &amp; Hypotheses:</b> Brainstorm with your partner 3-5 questions and corresponding hypotheses that you believe can be answered using your chosen data set. <br/>First, write a question you have about the data set you chose. <br/>Now, convert that question into a hypothesis (a statement) with your prediction about the data. <br/>Hypotheses take the form of "If __________, then _________." <br/>For example, a hypothesis about student debt data could be, "If the tuition costs are higher at an institution, the student debt will be higher."</li>
     </ol>
     </li>
-    <li>Download the data and put it into a Google Spreadsheet. Record where you found the data set and when you downloaded it so you can cite it in your portfolio write-up.</li>
-    <li>Work collaboratively to use the tools available on the Google Spreadsheets and/or Google My Maps to determine if your 3-5 hypotheses are correct.</li>
-    <li>Create your own data visualizations that illustrate your hypotheses using Google Spreadsheets and/or Google My Maps. (Do not use any existing visualizations that may have accompanied your data set, but create your own.) 
+    <li style="margin-bottom: 5px;">Download the data and put it into a Google Spreadsheet. Record where you found the data set and when you downloaded it so you can cite it in your portfolio write-up.</li>
+    <li style="margin-bottom: 5px;">Work collaboratively to use the tools available on the Google Spreadsheets and/or Google My Maps to determine if your 3-5 hypotheses are correct.</li>
+    <li style="margin-bottom: 5px;">Create your own data visualizations that illustrate your hypotheses using Google Spreadsheets and/or Google My Maps. (Do not use any existing visualizations that may have accompanied your data set, but create your own.) 
       <ol style="list-style-type:lower-alpha;">
     <li>If you need a refresher on different types of graphs and when to use them, this short <a href="http://www.mathgoodies.com/lessons/graphs/compare_graphs.html" target="_blank" title="">tutorial from MathGoodies</a> may be helpful, as well as this reference to <a href="https://support.google.com/docs/answer/190718" target="_blank">different types of charts available in Google Sheets</a></li>
     <li>For each chart, make sure it includes a title and has the appropriate values labeled on its axes.  </li>
     </ol>
     </li>
-    <li>Complete the portfolio reflection questions below.</li>
+    <li style="margin-bottom: 5px;">Complete the portfolio reflection questions below.</li>
     <li><i>(Optional) Give a 5-10 minute oral presentation with visuals (a PowerPoint with charts, graphs, etc.) Your presentations should follow the same structure as your portfolio write-up.</i></li>
     </ol>
     

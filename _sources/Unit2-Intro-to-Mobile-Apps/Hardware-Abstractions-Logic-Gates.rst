@@ -130,13 +130,13 @@ Learning Activities
     </tbody></table>
     <h3>Designing a Computational Circuit:  Critical Thinking Exercises</h3>
     <ol>
-    <li>The word <b>OR</b> has different meaning in the following two sentences; which meaning corresponds to the Boolean <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>?
+    <li style="margin-bottom: 5px;">The word <b>OR</b> has different meaning in the following two sentences; which meaning corresponds to the Boolean <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>?
           <ul>
     <li>Choose either soup <b>OR</b> salad with your entree.</li>
     <li>Insurance benefits will be paid in case of accident <b>OR</b> illness.</li>
     </ul>
     </li>
-    <li>Define 2 truth tables, one for each of the two meanings of OR that you discussed above.  Your truth table should
+    <li style="margin-bottom: 5px;">Define 2 truth tables, one for each of the two meanings of OR that you discussed above.  Your truth table should
           consist of 4 rows that together provide all possible values for inputs A and B and what the result Z would be. For example, A is "soup" and B is "salad" and Z is "soup or salad" for one of the meanings of or above. 
           <table border>
     <tbody><tr><th>A</th><th>B</th><th>Z</th></tr><tr>
@@ -146,7 +146,7 @@ Learning Activities
     <tr><td>True</td><td>True</td><td> </td></tr>
     </tbody></table>
     </li>
-    <li>(<b>Portfolio</b>) The first sense of <b>OR</b> (soup or salad) is known as <b>Exclusive OR</b> and
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) The first sense of <b>OR</b> (soup or salad) is known as <b>Exclusive OR</b> and
           the second sense (accident or illness) is known as <b>Inclusive-OR</b>.  Inclusive-OR
           is the same as Boolean OR.  Exclusive-OR can
           be defined as:
@@ -159,11 +159,11 @@ Learning Activities
           truth table you created in part #2. (Hint:  For this circuit you'll need 2 AND gates, 1 <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span>,
           and 1 <span class="hover vocab yui-wk-div" data-id='NOT gate'>NOT gate</span>.  Also, you should use switches, not buttons, for the 2 inputs.)
         </li>
-    <li>(<b>Portfolio</b>) Consider these three things: The <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span> (i.e., the physical circuit), 
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) Consider these three things: The <span class="hover vocab yui-wk-div" data-id='OR gate'>OR gate</span> (i.e., the physical circuit), 
         the <i>Boolean OR function</i> (as defined by its truth table), and the <i>OR symbol</i>.  How
         would arrange them from <b>most abstract to least abstract</b>?  And what criterion would you
         use to determine their order?</li>
-    <li>Pictured here is a
+    <li style="margin-bottom: 5px;">Pictured here is a
           Logicly version of the flip-flop discussed in the lecture.  A flip-flop is a basic 
           memory circuit that stores a single bit -- either a 0 or 1.  Implement this circuit in
            <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a>. NOTE that NOR gates (not <span class="hover vocab yui-wk-div" data-id='OR` gate'>OR gates</span>) are being used in this circuit and that
