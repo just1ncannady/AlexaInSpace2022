@@ -108,9 +108,9 @@ Learning Activities
     <ul>
     <li>Discuss with your class: Have you ever had a <span class="hover vocab yui-wk-div" data-id='virus'>virus</span> on your computer? What happened and how did you get rid of it?</li>
     </ul>
-    <p>Watch the following <a href="https://www.youtube.com/watch?v=_4sFZgUWhB4" target="_blank">video</a> about <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>:</p>
+    <p>Watch the following <a href="https://www.youtube.com/watch?v=XU8PHihT_P4&ab_channel=FTCvideos" target="_blank">video</a> about <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>:</p>
     
-.. youtube:: _4sFZgUWhB4
+.. youtube:: XU8PHihT_P4
         :width: 650
         :height: 415
         :align: center
@@ -125,9 +125,9 @@ Learning Activities
     <p>Computer <span class="hover vocab yui-wk-div" data-id='virus'>virus</span> and <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> <b>scanning software</b> can protect a computing system against infection. Many operating systems like Windows come with their own free <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> scanners like Windows Defender. It is very important to auto-update the <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> scanning software with  newly discovered <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> signatures. Explore the <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> scanner on your computer. Regular software updates help to fix errors that would compromise a computing system. All real-world systems have errors or design flaws that can be exploited. </p>
     <h3>Unauthorized Access</h3>
     <p>Criminals can gain unauthorized access to computing systems in many ways by exploiting the users and the staff of the system. They can gain access through <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> or by stealing or cracking passwords or hacking in through unprotected areas. </p>
-    <p><span class="hover vocab yui-wk-div" data-id='phishing'>Phishing</span> is a common technique that is used to trick a user into providing personal information usually through email. That personal information can then be used to access sensitive online resources, such as bank accounts and emails. A malicious <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span> or <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> link can be disguised on a web page or in an email message. Watch the following <a href="https://www.youtube.com/watch?v=eWS8cYoj2oA" target="_blank">video</a> on <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span>. </p>
+    <p><span class="hover vocab yui-wk-div" data-id='phishing'>Phishing</span> is a common technique that is used to trick a user into providing personal information usually through email. That personal information can then be used to access sensitive online resources, such as bank accounts and emails. A malicious <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span> or <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> link can be disguised on a web page or in an email message. Watch the following <a href="https://youtu.be/qkzAveeAuts" target="_blank">video</a> on <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span>. </p>
     
-.. youtube:: eWS8cYoj2oA
+.. youtube:: qkzAveeAuts
         :width: 650
         :height: 415
         :align: center

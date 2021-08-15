@@ -7,11 +7,7 @@ ASSESSMENT: AP Create 2
 
 .. raw:: html
 
-	<!-- Copy these 3 lines to the top of the lesson's HTML code.  -->
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/tipped.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
+	
 	
 	<h3 id="est-length">Time Estimate: 12 hours (16 45 minute classes) minimum</h3>
 	<p>Follow these directions if you are taking CSP as an AP course. If you are in a non-AP CSP course, please go to the next lesson for Non-AP Create directions.</p>

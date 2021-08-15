@@ -7,13 +7,6 @@ Mobile CSP
 ==========================================
 
 .. raw:: html
-
-	<!-- pop up code -->
-	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	 <script src="assets/lib/popup.js"></script>
-	<!-- end pop  up -->
 	
 	<!-- <img align="left" src="../_static/assets/img/MobileCSPnewLogoSmall.png" style="padding-right:5px"> -->
 	<p>Welcome to Mobile CS Principles!</p>

@@ -7,17 +7,7 @@ AP CSP Vocabulary Review
 
 .. raw:: html
 
-	<!-- Copy these 6 lines to the top of the lesson's HTML code.  -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="assets/lib/lessons/tipped.js"></script>
-	<script type="text/javascript" src="assets/lib/lessons/framework.js"></script>
-	<!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
-	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/tipped.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
-	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script type="text/javascript" src="assets/lib/vocabulary.js"></script>
-	<script>
+    <script>
 	$(document).ready(function() {
 	  // FIRST GENERATE VOCAB TABLE, then add hover
 	    generateVocabTable();

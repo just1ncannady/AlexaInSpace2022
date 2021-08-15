@@ -5,13 +5,6 @@
 Video Solutions to Selected Exercises and Mini-Projects
 ==========================================================
 
-.. raw:: html
-
-	<!-- Copy these 3 lines to the top of the lesson's HTML code.  -->
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/tipped.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<!-- can use: #self-check, #still-curious, .pogil, #portfolio -->
 
 Introduction and Goals
 -----------------------

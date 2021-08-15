@@ -6,7 +6,8 @@ build
 *.txt
 nongit/
 savedsources/
-
+__pycache__
+*/*.pyc
 
 
 

@@ -7,16 +7,6 @@ AP CS Principles Exam Prep
 
 .. raw:: html
 
-	<!-- Copy these 6 lines to the top of the lesson's HTML code.  -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="assets/lib/lessons/tipped.js"></script>
-	<script type="text/javascript" src="assets/lib/Framework2020.js"></script>
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/tipped.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/lessons/lessons.css">
-	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script type="text/javascript" src="assets/lib/vocabulary.js"></script>
-	
 	<script>
 	$(document).ready(function() {
 		generateSummary(EKmapping['8.02']);
