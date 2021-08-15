@@ -128,42 +128,27 @@ Learning Activities
     </p><p>        For these exercises below, before coding your solution in App Inventor, it would be a good idea  to first write out the solution in pseudocode and discuss it with your coding partner. Download and print <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing">this graph paper</a>         to use when designing your algorithms in the following exercises.
     </p>
     <ol>
-    <li><b>40x40 Square:</b> Design an algorithm for drawing a 40-by-40 square.  Then         implement your algorithm by defining a procedure named <i>square40</i> that         draws a 40-by-40 square. Then modify the <i>ButtonDraw.Click</i> handler so that it calls         the <i>square40</i> procedure.
+    <li style="margin-bottom: 5px;"><b>40x40 Square:</b> Design an algorithm for drawing a 40-by-40 square.  Then         implement your algorithm by defining a procedure named <i>square40</i> that         draws a 40-by-40 square. Then modify the <i>ButtonDraw.Click</i> handler so that it calls         the <i>square40</i> procedure.
     To simplify this algorithm, use a <i><b>for-each</b></i> loop to repeat the commands      needed to draw a square.</li>
-    <li><b>Line40:</b> Define a procedure name <b><i>line40</i></b>  that draws a <b>line</b> of length 40. Test it by calling it     from the ButtonDraw.Click handler.       </li>
-    <li>
+    <li style="margin-bottom: 5px;"><b>Line40:</b> Define a procedure name <b><i>line40</i></b>  that draws a <b>line</b> of length 40. Test it by calling it     from the ButtonDraw.Click handler.       </li>
+    <li style="margin-bottom: 5px;">
     <b><i>Refactor</i></b> your square40 procedure to use a for-each loop and the line40 procedure to draw a 40-by-40 square.  As we learned in an earlier lesson, refactoring means to revise your code         without changing the basic functionality of your app.   Test your algorithm by calling it from the <i>ButtonDraw.Click</i> handler.  </li>
-    <li><b>Draw a Face:</b> Design an algorithm for drawing a face with a large square for the head, 2 small squares for eyes, and a line for the mouth, as shown below.   Design and define any other procedures         you need  to help simplify this problem -- e.g., the outline of the head, the eyes, and so on.  Make appropriate use of loops in your algorithm.
-        
-    <br/><img src="../_static/assets/img/face.png" width="150px"/>
-    <p><b>Design first, then code:</b>  This algorithm will be quite a bit more complex than 
-    any of the others you’ve done.  You’ll have to use the <i>penUp</i> procedure to 
-    lift the Android off of the drawing canvas.  And you’ll have to plan how far 
-    to move forward to get the eyes and mouth placed properly.  You will definitely 
-    want to plan and test this algorithm on paper or on the board before trying to 
-    program it. <b><i>Use your graph paper</i></b> to help figure the distances.
-    </p>
-    <p>Once you’ve designed a correct algorithm, implement it by defining a 
-    procedure named drawFace that draws the face.  Then test your code to 
-    make sure you got it right. Post a screenshot of your face drawing on your portfolio. 
-    </p>
-    <p>Here is a plan to follow:
-    </p>
-    <ul>
-    <li>First,  draw a <b><i>scale model</i></b>  of your face.  For this you need to decide what 
-    each square on the graph paper represents -- e.g., is each square 10 pixels?  5 pixels?
-    </li>
-    <li>Based on your model, write out the commands for drawing the face using <b>pencil 
-    and paper</b> -- i.e., write out your algorithm right on the graph paper.
-    </li>
-    <li>Code your face-drawing algorithm and test it.  <b>Define a procedure named drawFace and 
-    call it in the ButtonDraw.Click procedure</b>.  Keep testing and refining your algorithm until it 
-    correctly draws a face. 
-    </li>
-    <li><b>Abstraction:</b>  Once you can successfully drawn the face, <b>refactor your code</b> to 
-    make good use of procedures that break the face into parts, e.g., head,           left eye, right eye, mouth, moves.
-    </li>
-    </ul>
+    
+	<li style="margin-bottom: 5px;">
+		<img style="float:right" src="../_static/assets/img/face.png" width="150px"/>
+		<p><b>Draw a Face:</b> Design an algorithm for drawing a face with a large square for the head, 2 small squares for eyes, and a line for the mouth, as shown below. Design and define any other procedures         you need  to help simplify this problem -- e.g., the outline of the head, the eyes, and so on.  Make appropriate use of loops in your algorithm.</p>
+		<p><b>Design first, then code:</b>  This algorithm will be quite a bit more complex than any of the others you’ve done.  You’ll have to use the <i>penUp</i> procedure to lift the Android off of the drawing canvas.  And you’ll have to plan how far to move forward to get the eyes and mouth placed properly.  You will definitely want to plan and test this algorithm on paper or on the board before trying to     program it. <b><i>Use your graph paper</i></b> to help figure the distances.</p>
+		<p>Once you’ve designed a correct algorithm, implement it by defining a procedure named drawFace that draws the face.  Then test your code to make sure you got it right. Post a screenshot of your face drawing on your portfolio. </p>
+		Here is a plan to follow:
+		<ul>
+		<li style="margin-bottom: 5px;">First,  draw a <b><i>scale model</i></b>  of your face.  For this you need to decide what each square on the graph paper represents -- e.g., is each square 10 pixels?  5 pixels?</li>
+		<li style="margin-bottom: 5px;">Based on your model, write out the commands for drawing the face using <b>pencil and paper</b> -- i.e., write out your algorithm right on the graph paper.</li>
+		<li style="margin-bottom: 5px;">Code your face-drawing algorithm and test it.  <b>Define a procedure named drawFace and 
+		call it in the ButtonDraw.Click procedure</b>.  Keep testing and refining your algorithm until it 
+		correctly draws a face. </li>
+		<li><b>Abstraction:</b>  Once you can successfully drawn the face, <b>refactor your code</b> to make good use of procedures that break the face into parts, e.g., head, left eye, right eye, mouth, moves.
+		</li>
+		</ul>
     </li>
     <li><b>Refactor</b>  your drawFace procedure by breaking it up into smaller procedures.  
     This will make it easier to understand.   For example, here’s a possible algorithm you might use:

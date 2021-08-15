@@ -104,13 +104,13 @@ Learning Activities
     
     Use <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> for this project. You and your partner will:
     <ol>
-    <li>Create your own <i>Soundboard</i> app with at least three pictures and  three sound files that are played 
+    <li style="margin-bottom: 5px;">Create your own <i>Soundboard</i> app with at least three pictures and  three sound files that are played 
       when you click the pictures.  Make sure that your app doesn't allow the sounds to overlap each other.  That is,
       when you click a button to play a sound, the app should pause any sound that is already playing.  This will
       require the use of an <b>if/else</b> block.</li>
-    <li><span class="yui-non">Create a one minute <b>narrated</b> video in .mp4, .wmv, .avi, or .mov format that demonstrates and explains  
+    <li style="margin-bottom: 5px;"><span class="yui-non">Create a one minute <b>narrated</b> video in .mp4, .wmv, .avi, or .mov format that demonstrates and explains  
         your app. The video must not exceed 1 minute in length and must not exceed 30MB in size. See <a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a> for help with creating a video.</span></li>
-    <li>Post your video on your portfolio.</li>
+    <li style="margin-bottom: 5px;">Post your video on your portfolio.</li>
     <li>Reflect with your partner on how creating a computing innovation like this app was improved with collaboration. Post your reflection on your portfolio.</li>
     </ol>
     <p><b>Optional:</b> Create your own icons, images, and sound files for your app using programs such as 

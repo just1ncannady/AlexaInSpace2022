@@ -153,28 +153,28 @@ Learning Activities
     and help build your programming skills. Here's the <a href="https://docs.google.com/document/d/1AKHpiQ87bE4W1YzHlAFh2uNAHuEtdMOCQVV6HfxfDzc" target="_blank">text version</a> for these projects.
     
     <ol>
-    <li>Modify the app so that the user can also shake the phone to flip the coin. 
+    <li style="margin-bottom: 5px;">Modify the app so that the user can also shake the phone to flip the coin. 
     (HINT: Use the <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html#AccelerometerSensor" target="_blank">
       Accelerometer Sensor</a>.)  NOTE: Instead of copying and pasting the coin-flip
       algorithm, you'll want to use a <i><b>procedure</b></i> to reduce complexity in 
       your code.  
     </li>
-    <li> Modify your app so that “heads” or “tails” is spoken when the coin is flipped. (HINT: Use the
+    <li style="margin-bottom: 5px;"> Modify your app so that “heads” or “tails” is spoken when the coin is flipped. (HINT: Use the
     <a href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank">
     TextToSpeech</a> component.)
     </li>
-    <li>Modify the event handler in the Coin Flip app to use a <span class="hover vocab yui-wk-div" data-id='random'>random</span> fraction block instead of 
+    <li style="margin-bottom: 5px;">Modify the event handler in the Coin Flip app to use a <span class="hover vocab yui-wk-div" data-id='random'>random</span> fraction block instead of 
     <span class="hover vocab yui-wk-div" data-id='random'>random</span> integer. (HINT: A <i><span class="hover vocab yui-wk-div" data-id='random'>random</span> fraction</i> is a decimal number between 
     0 and 1, not including 1.  Some examples: 0, 0.25, 0.33, 0.5, 0.66, 0,75, 0.99.)
     </li>
-    <li> <b>If/else Algorithm</b> You now have an app that can flip a two-sided coin. 
+    <li style="margin-bottom: 5px;"> <b>If/else Algorithm</b> You now have an app that can flip a two-sided coin. 
     Modify your app that so that it can flip a 
     <a href="http://www.statisticool.com/3sided.htm" target="_blank">three-sided coin</a>. 
     (Hint: You will need an if/else block with three conditions.   You’ll need a third image 
     for this problem; here’s one that is openly licensed: 
     <a href="assets/img/Coin-edge.gif" target="_blank">coin on edge</a>.)
     </li>
-    <li>According to 
+    <li style="margin-bottom: 5px;">According to 
     <a href="http://mathtourist.blogspot.com/2011/02/penny-bias.html" target="_blank">this report</a>, if you stand a 
     bunch of Lincoln pennies on their edge and then bang the table, 
     they have a strong bias toward coming up heads. Let’s suppose 

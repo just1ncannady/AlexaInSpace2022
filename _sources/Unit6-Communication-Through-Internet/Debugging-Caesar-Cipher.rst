@@ -29,7 +29,7 @@ Debugging Caesar Cipher
         "debugging":"The process of removing errors from computer hardware or software.",
        };    */
     </script>
-    <h3 id="est-length"><b>Time Estimate: 45 minutes</b></h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
     
 
 Introduction and Goals
@@ -82,9 +82,9 @@ Learning Activities
     </p>
     <p>Here are some hints and suggestions.
       </p><ul>
-    <li>If you see a <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> message, read it carefully - it's trying to tell you where the bug is. A <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> is a mistake in the program that occurs during the execution of a program. Programming languages, such as MIT App Inventor, define their own run-time errors.  For example, if the <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> complains about exceeding the length of the text, then the loop going through the text letter by letter did not stop at the end of the text.</li><li>The bugs can be in both the encryption and decryption steps.  So make sure you test the app thoroughly, with appropriate inputs. When you are testing this app, <b>only type in lowercase letters in the plaintext textbox to encrypt, and only type in uppercase letters in the Ciphertext textbox to decrypt</b>.</li>
-    <li>You are may see more problems if you encrypt longer rather than shorter messages.</li>
-    <li>If you are having trouble locating a problem, use a <i>Notifier</i> or use <i>Label1</i> to 
+    <li style="margin-bottom: 5px;">If you see a <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> message, read it carefully - it's trying to tell you where the bug is. A <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> is a mistake in the program that occurs during the execution of a program. Programming languages, such as MIT App Inventor, define their own run-time errors.  For example, if the <span class="hover vocab yui-wk-div" data-id='run-time error'>run-time error</span> complains about exceeding the length of the text, then the loop going through the text letter by letter did not stop at the end of the text.</li><li>The bugs can be in both the encryption and decryption steps.  So make sure you test the app thoroughly, with appropriate inputs. When you are testing this app, <b>only type in lowercase letters in the plaintext textbox to encrypt, and only type in uppercase letters in the Ciphertext textbox to decrypt</b>.</li>
+    <li style="margin-bottom: 5px;">You are may see more problems if you encrypt longer rather than shorter messages.</li>
+    <li style="margin-bottom: 5px;">If you are having trouble locating a problem, use a <i>Notifier</i> or use <i>Label1</i> to 
           display intermediate values of local or global variables.  
         </li><li>You may also compare this code to your finished Caesar Cipher app from the previous lesson.</li>
     <li>Use App Inventor's Do It tool to evaluate expressions and intermediate values. Here's a short

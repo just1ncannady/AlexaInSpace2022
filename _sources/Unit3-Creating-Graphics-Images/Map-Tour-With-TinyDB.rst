@@ -105,8 +105,8 @@ Learning Activities
     Your instructor may ask you to do some or all  of the following enhancements for your Map Tour with TinyDB app.
     
     <ol>
-    <li><b>Text To Speech:</b> Add a TextToSpeech component to the UI, and when the user picks an item from the list, call TextToSpeech.speak to say the selected item.</li>
-    <li>
+    <li style="margin-bottom: 5px;"><b>Text To Speech:</b> Add a TextToSpeech component to the UI, and when the user picks an item from the list, call TextToSpeech.speak to say the selected item.</li>
+    <li style="margin-bottom: 5px;">
     <b>Delete Locations:</b> As you are testing your app, you may have added a lot of locations on your map tour that you do not want. You could delete the data stored for the installed app in your device under Settings/Applications Settings or by calling TinyDB.clearAll in your code, but in this enhancement you will add a Delete ListPicker button that lets you choose a location to remove from your lists and update the <span class="hover vocab yui-wk-div" data-id="database">database</span>. Here are the steps you need to do:
     <ul>
     <li>Add a ListPicker to the UI to Delete destinations.

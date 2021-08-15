@@ -257,13 +257,13 @@ Learning Activities
     <h3>Optional Enhancements</h3>
     <p>Create one or more of your own enhancements or variations for this app. Here are some ideas:</p>
     <ul>
-    <li>You could also implement keeping track of the number of misses -- i.e., the number of times the player failed
+    <li style="margin-bottom: 5px;">You could also implement keeping track of the number of misses -- i.e., the number of times the player failed
             to touch the ImageSprite -- and factor this into your scoring algorithm.</li>
-    <li><strong>Challenge: </strong>Add another sprite or two. You could ask the player to distinguish between "good"
+    <li style="margin-bottom: 5px;"><strong>Challenge: </strong>Add another sprite or two. You could ask the player to distinguish between "good"
             and "bad" sprites. For example, if your app had a nutrition theme, perhaps one image could be a picture of a
             healthy food item and the other a not-so-healthy item. Perhaps the player's score decreases if they touch the
             "bad" choice.</li>
-    <li><strong>Abstraction:</strong> Multiple sprites will share some common code and have some unique code. For
+    <li style="margin-bottom: 5px;"><strong>Abstraction:</strong> Multiple sprites will share some common code and have some unique code. For
             example, all sprites may play the same sound when touched but have different scoring code. Use one of the
             following abstraction techniques on the common code:</li>
     <ul>
@@ -273,7 +273,8 @@ Learning Activities
               choose "Make Generic" to make it work for any sprite on the screen. This is a powerful abstraction feature.
               You will also need to add in moveTo blocks for the new sprites in moveRandom() to make them move.</li>
     </ul>
-    <li><strong>Abstraction:</strong> Multiple sprites all have to be moved. You may need to define different versions of the moveRandom procedure for each sprite. </li><li><strong>Challenge: </strong>Change the speed of the sprite when the player reaches a certain score. (Hint:
+    <li style="margin-bottom: 5px;"><strong>Abstraction:</strong> Multiple sprites all have to be moved. You may need to define different versions of the moveRandom procedure for each sprite. </li>
+	<li><strong>Challenge: </strong>Change the speed of the sprite when the player reaches a certain score. (Hint:
             Recall that in this app, the sprite's speed is controlled by the Clock timer.)</li>
     </ul>
     

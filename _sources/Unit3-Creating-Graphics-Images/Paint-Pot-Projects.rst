@@ -78,18 +78,18 @@ Learning Activities
         version of this lesson</a>.
     </p>
     <ol>
-    <li>Add a custom image to the app instead of using the cat image that is provided. 
+    <li style="margin-bottom: 5px;">Add a custom image to the app instead of using the cat image that is provided. 
         You can upload images to your project from either the Designer View  or Blocks Editor view.   
         Use the image as the Canvas background image.  Make sure the image doesn’t have any copyright restrictions.
       </li>
-    <li>Add a button to support a 4th color option for the app.
+    <li style="margin-bottom: 5px;">Add a button to support a 4th color option for the app.
       </li>
-    <li>The app currently has a ButtonPlus and ButtonMinus. But, we only completed the code for ButtonPlus. Now that
+    <li style="margin-bottom: 5px;">The app currently has a ButtonPlus and ButtonMinus. But, we only completed the code for ButtonPlus. Now that
         you understand how to increment variables by 1, implement an algorithm for ButtonMinus that will subtract 1 from
         dotsize. </li>
     <li><b>Test Cases:</b> It is important to test out code to make sure it does what is expected, especially for
       critical values or boundary values. Check if your program performs correctly in the following test
-      cases and make note of which tests fail--we will fix those soon: </li>
+      cases and make note of which tests fail--we will fix those soon. </li>
     <div class="yui-wk-div" style="margin-left: 30px;">
     <table>
     <tbody>
@@ -122,7 +122,7 @@ Learning Activities
     </tbody>
     </table>
     </div>
-    <li><b>If Block Exercise:</b> In computer programming, a bug is an error or defect, that prevents the app from
+    <li style="margin-bottom: 5px;"><b>If Block Exercise:</b> In computer programming, a bug is an error or defect, that prevents the app from
         working the way it is supposed to. The <i>Lower Bounds Test</i> above demonstrates a bug, the value of dotsize
         will eventually become negative. If dotsize is negative, what will be drawn when the user touches the screen?
         Try fixing this bug by adding an if/then algorithm to the ButtonMinus block. (Hint: The If/Then block is found
@@ -133,7 +133,7 @@ Learning Activities
         to the dot size? As an app designer, we can set an upper bound for the dot size and make this a program
         requirement. We will set a program requirement that the dot size cannot get larger than 25. Add an If block to
         the ButtonPlus block that will implement the new program requirement and satisfy the new test case we will
-        define:</li>
+        define.</li>
     <div class="yui-wk-div" style="margin-left: 30px;">
     <table>
     <tbody>
@@ -152,15 +152,15 @@ Learning Activities
     </tbody>
     </table>
     </div>
-    <li>Currently, if a user wants to use a larger dot and then use a smaller dot (or vice versus), they have to
+    <li style="margin-bottom: 5px;">Currently, if a user wants to use a larger dot and then use a smaller dot (or vice versus), they have to
         continually press the ButtonMinus (or ButtonPlus). If the current value of dotsize is 25, getting to a size of 4
         would be pain. For easier use, add a button that resets the size of the dot (circle) back to its original value.
         (HINT: You’ll need a second variable here to remember the original value of the dotsize.) </li>
-    <li><b>Optional:</b> Instead of using an existing image, take a photo with the camera and use that as the Canvas 
+    <li style="margin-bottom: 5px;"><b>Optional:</b> Instead of using an existing image, take a photo with the camera and use that as the Canvas 
         background image! (Hint: For this you’ll need to use a new Button, the Camera component from the Media drawer, and the Camera’s TakePicture command and the
         AfterPicture event handler where you can set the image returned by the camera as Canvas' background image.)  
       </li>
-    <li><b>Optional:</b> Add a <a href="http://ai2.appinventor.mit.edu/reference/components/social.html#Sharing" target="_blank">Social/Sharing component</a> and a share button to email what is drawn on the canvas using the Sharing.ShareFile block with the <a href="http://ai2.appinventor.mit.edu/reference/components/animation.html#Canvas" target="_blank">Canvas.Save block</a>. You will have to set up an email account on your tablet to use the share component.  (This may not work yet on iOS devices). </li>
+    <li style="margin-bottom: 5px;"><b>Optional:</b> Add a <a href="http://ai2.appinventor.mit.edu/reference/components/social.html#Sharing" target="_blank">Social/Sharing component</a> and a share button to email what is drawn on the canvas using the Sharing.ShareFile block with the <a href="http://ai2.appinventor.mit.edu/reference/components/animation.html#Canvas" target="_blank">Canvas.Save block</a>. You will have to set up an email account on your tablet to use the share component.  (This may not work yet on iOS devices). </li>
     <li><b>Optional:</b> Create one or more of your own enhancements for your app. Remember to write your ideas 
         down in pseudocode before you begin programming.
       </li>
