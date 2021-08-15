@@ -131,7 +131,7 @@ Learning Activities
           question from the quiz.  (HINT:  You could use some new blocks from the <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#pickrandomitem" target="_blank">List drawer</a> such as a <em>pick a random item</em> block fed into an <em>index in list thing</em> block to set the index randomly.)
         </li>
     <li>Add a fourth question (and answer and image) to the quiz.  If you like, you can research 
-          "famous computer scientists" on the Web to discover a fourth person.  Or, if you wish, you can 
+          famous computer scientists on the Web to discover a fourth person.  Or, if you wish, you can 
           create a question about <a href="http://news.mit.edu/2011/abelson-sigcse-award" target="_blank">Hal Abelson</a>, 
           the creator of our App Inventor programming language. (HINT: You should only have to modify the 3 lists 
           and upload an image file. The code should work with any number of questions as long as you used 

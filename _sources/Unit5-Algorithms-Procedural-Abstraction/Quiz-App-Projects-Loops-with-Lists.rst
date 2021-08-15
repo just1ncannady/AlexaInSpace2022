@@ -51,7 +51,7 @@ Introduction and Goals
 	<td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 		<ul>
-		<li>count right/wrong answers using a list to keep track of which questions have already been answered</li>
+		<li>count right and wrong answers using a list to keep track of which questions have already been answered</li>
 		<li>use loops with lists and standard algorithms to enhance my app</li>
 		<li>manipulate lists in pseudocode using the insert, append, and length procedures</li>
 		<li>design and implement my own custom quiz app features</li>
@@ -139,11 +139,11 @@ Learning Activities
     <li>Assigning a value to an element of a list: 
         <ul>
     <li>list[i] ← x assigns the value of x to list[i].</li>
-    <li>   list[i] ← list[j] assigns the value of list[j] to list[i].</li>
+    <li>list[i] ← list[j] assigns the value of list[j] to list[i].</li>
     </ul>
     </li></ul>
-    <p>Some other list operations in AP-style questions are:
-    </p><ul>
+    Some other list operations in AP-style questions are:
+    <ul>
     <li>INSERT(list, i, value) : inserts value into the list at index i, moving down all other items at and after i in the list.</li>
     <li>APPEND(list, value): adds value to the end of the list.</li>
     <li>REMOVE(list, i): removes the item at index i and moves up all items after the ith item.</li>
@@ -158,15 +158,15 @@ Learning Activities
     </p>
     <p></p>
     <ol>
-    <li><b>If/else Scoring Algorithm:</b> Modify your app to keep score of how many questions are answered correctly or 
-        incorrectly. Be sure and restrict it so that the quiz taker can only receive credit 
+    <li style="margin-bottom: 5px;"><b>If/else Scoring Algorithm:</b> Modify your app to keep score of how many questions are answered correctly or 
+        incorrectly. Be sure to restrict it so that the quiz taker can only receive credit 
         for answering each question once (i.e., if there are three questions, the quiz taker 
         can only be credited with three correct answers).
         Use this <a href="https://docs.google.com/document/d/1g3vEjfz1jBxCAoddWHA2D_CxpY7PPk6Qkw1H90Imxy8/edit?usp=sharing" target="_blank">short handout</a> to guide you with this project.
         
-      </li><br/>
-    <li><b>Loop Algorithm for Searching:</b> Add a keyword search capability to your app.  For example, if the user types in NASA and clicks on the search button, you should find the question or answer with the word NASA in it and show that question.  This will be a linear search through the parallel question and answer lists using a loop. Use this <a href="https://docs.google.com/document/d/1IuSbMQM_NlNplN2pzNRNTD7LduyxAScvmzKz5En1u18/edit?usp=sharing" target="_blank">short handout</a> to guide you with this project.
-      </li><br/>
+      </li>
+    <li style="margin-bottom: 5px;"><b>Loop Algorithm for Searching:</b> Add a keyword search capability to your app.  For example, if the user types in NASA and clicks on the search button, you should find the question or answer with the word NASA in it and show that question.  This will be a linear search through the parallel question and answer lists using a loop. Use this <a href="https://docs.google.com/document/d/1IuSbMQM_NlNplN2pzNRNTD7LduyxAScvmzKz5En1u18/edit?usp=sharing" target="_blank">short handout</a> to guide you with this project.
+      </li>
     <li><b>Your Own Quiz App:</b> Use the Quiz App as a template to 
         create a quiz on a topic of your own choosing. Besides changing the questions, 
         answers, and pictures, add at least one enhancement to the app. Be creative! 
@@ -191,7 +191,7 @@ Self-Check
 .. raw:: html
 
     <p>
-    <p>You can practice with more algorithms with loops and lists below. It is very useful to know standard algorithms that use loops like searching for an item in a list, finding the minimum or maximum value in a list, computing the sum or average of a list of values, etc. Using existing algorithms as building blocks for constructing new algorithms has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.</p>
+    <p>You can practice more algorithms with loops and lists below. It is useful to know standard algorithms that use loops like searching for an item in a list, finding the minimum or maximum value in a list, computing the sum or average of a list of values, etc. Using existing algorithms as building blocks for constructing new algorithms has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.</p>
     
     
 .. quizly:: mscp-5-6-6

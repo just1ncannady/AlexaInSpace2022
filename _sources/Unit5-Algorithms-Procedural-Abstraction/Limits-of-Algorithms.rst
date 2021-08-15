@@ -47,7 +47,6 @@ Introduction and Goals
     <p>
     <p>We've been using algorithms to build our apps and we've learned about algorithms for solving certain types of problems, such as searching and sorting problems.</p>
     <p>It may seem that no matter what the problem, we can find an algorithm to solve it.  But that is not true.  And in this lesson we want to look at some problems that algorithms cannot solve or cannot solve efficiently.</p>
-	<p>
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	<ul>
 	<li>differentiate between problems that have <span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable</span> solutions and those that do not </li>
@@ -58,16 +57,14 @@ Introduction and Goals
 	<ul>
 	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time</span>, <span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time</span>, <span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems</span>, <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems</span> and <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problem</span> while discussing algorithms, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
-	</p>
 	
-    <p>There are two senses in which an algorithm cannot solve a 
-      problem:
-      </p><ol>
-    <li><span class="hover vocab yui-wk-div" data-id='undecidable problems'>Undecidable Problems</span>.  There are certain problems
-          which are the theoretically impossible to solve — by any algorithm. The <span class="hover vocab yui-wk-div" data-id="The Halting Problem">halting problem</span> is a <span class="hover vocab yui-wk-div" data-id='decision problem'>decision problem</span> (with a yes or no answer) that is <span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable</span>. A computer cannot tell if it is in an infinite loop or it will at some point stop!
+    There are two categories of problems that an algorithm cannot solve.
+    <ol>
+    <li style="margin-bottom: 5px"><span class="hover vocab yui-wk-div" data-id='undecidable problems'>Undecidable Problems</span>.  These problems
+          are the theoretically impossible to solve — by any algorithm. The <span class="hover vocab yui-wk-div" data-id="The Halting Problem">halting problem</span> is a <span class="hover vocab yui-wk-div" data-id='decision problem'>decision problem</span> (with a yes or no answer) that is <span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable</span>. A computer cannot tell if it is in an infinite loop or it will at some point stop!
         </li>
-    <li><span class="hover vocab yui-wk-div" data-id='intractable problems'>Intractable Problems</span>.  There are problems that are
-          practically impossible to solve in a <span class="hover vocab yui-wk-div" data-id='reasonable time'>reasonable time</span> — i.e., there are known algorithmic
+    <li><span class="hover vocab yui-wk-div" data-id='intractable problems'>Intractable Problems</span>.  These problems are
+          theoretically impossible to solve in a <span class="hover vocab yui-wk-div" data-id='reasonable time'>reasonable time</span> — i.e., there are known algorithmic
           solutions, but the algorithms are too inefficient/slow to solve the 
           problem when the number of inputs grows large.
         </li>
@@ -101,10 +98,10 @@ Learning Activities
     <p>To give us a better sense of what it takes to create a strong password -- i.e., one that can
         withstand a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span> attack --  we're going to use the Password Strength Calculator
         to test the strength of various password schemes. (<a href="https://mobile-csp.org/webapps/passwords/index.html" target="_blank" title="">Open widget in a separate window</a>)
-        <iframe height="600" src="https://mobile-csp.org/webapps/passwords/index.html" style="border: 0;" title="Password Strength Calculator" width="100%"></iframe>
+        <iframe height="700" src="https://mobile-csp.org/webapps/passwords/index.html" style="border: 0;" title="Password Strength Calculator" width="100%"></iframe>
     </p>
     <p>According to <a href="https://en.wikipedia.org/wiki/Password_cracking" target="_blank">Wikipedia</a>, an ordinary desktop computer 
-        equipped with special password cracking software, can test more
+        equipped with special password cracking software can test more
         than 100 million passwords per second.  
         The goal of this activity is to come up with the <b><i>optimal password scheme</i></b> that would take
         an ordinary PC, equipped with password-cracking software, more than 10 years to crack. 
@@ -134,12 +131,12 @@ Learning Activities
 
     <p><h3>Questions</h3>
     <ol>
-    <li>(<b>Portfolio</b>) A <b><i>password scheme</i></b> consists of a minimum password length and 
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) A <b><i>password scheme</i></b> consists of a minimum password length and 
           the different types of symbols  (i.e., letters, numbers, specials) that can be used in the password.
           Using the Password Strength Calculator, determine the <b><i>optimal scheme</i></b> for withstanding a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span>
           attack of at least 10 years by an ordinary PC performing 100 million tests per second. 
         </li>
-    <li>(<b>Portfolio</b>) According to <a href="http://arstechnica.com/security/2012/12/25-gpu-cluster-cracks-every-standard-windows-password-in-6-hours/" target="_blank">this 
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) According to <a href="http://arstechnica.com/security/2012/12/25-gpu-cluster-cracks-every-standard-windows-password-in-6-hours/" target="_blank">this 
           2012 article</a>, a password-cracking computer can try 350 billion passwords per second.  How would you have
           to modify your scheme to withstand a 10-year attack by this specially designed computer? 
         </li>
@@ -152,7 +149,7 @@ Learning Activities
       solutions.  One such example is the <span class="hover vocab yui-wk-div" data-id='The Traveling Salesman Problem'>Traveling Salesman Problem (TSP)</span>:
       Construct the most efficient route, <b>the optimal route</b>, that visits <i>N</i> cities. This is an <span class="hover vocab yui-wk-div" data-id='optimization problem'>optimization problem</span> where the goal is to find the "best" (most optimal) solution among many.
     </p>
-    <p>Clearly, this is a problem we would like to be able to solve.  And clearly, variations
+    <p>This is a problem we would like to be able to solve.  Variations
       of this problem are the kinds of problems that Google maps and other apps solve for us
       when we ask for driving directions.
     </p>
@@ -187,21 +184,19 @@ Learning Activities
         distances between each pair of schools.  The student needs a good route, starting and ending at Trinity College,
         that will visit all of the schools.
       </blockquote>
-    <br/>
     <center>
     <img src="../_static/assets/img/TSPMap.png" width="400"/>.
       </center>
-    <br/>
     <br/>
         Use the map to answer the following questions. 
     
     
       <h3>Questions</h3>
     <ol>
-    <li>Starting and ending at Trinity College, what route would the <i>nearest neighbor <span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic</span></i>
+    <li style="margin-bottom: 5px;">Starting and ending at Trinity College, what route would the <i>nearest neighbor <span class="hover vocab yui-wk-div" data-id='heuristic algorithm'>heuristic</span></i>
           produce for the proposed visits? 
         </li>
-    <li>Starting and ending at Trinity College, find the optimal route that visits all schools. (HINT: To prove that
+    <li style="margin-bottom: 5px;">Starting and ending at Trinity College, find the optimal route that visits all schools. (HINT: To prove that
           your route is optimal, you'll have to compare it to all possible routes starting and ending at Trinity.) 
         </li>
     <li>(<b>Portfolio</b>) For routes starting and ending at Trinity College, you have identified the nearest neighbor route and

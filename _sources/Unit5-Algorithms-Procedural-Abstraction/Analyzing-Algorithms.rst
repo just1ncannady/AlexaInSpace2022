@@ -44,7 +44,7 @@ Introduction and Goals
     <p>
     <table><tbody>
 	<tr><td colspan=2>
-		<i>Searching and Sorting Experiments.</i></b>In this lesson we are going to use an App Inventor app to analyze the algorithms we have been studying. You will be running two different apps, one to test the search algorithms and one to test the sorting algorithms.
+		<p><i>Searching and Sorting Experiments.</i></b>In this lesson we are going to use an App Inventor app to analyze the algorithms we have been studying. You will be running two different apps, one to test the search algorithms and one to test the sorting algorithms.</p>
 		<p>This activity will resemble that of a scientific investigation.  You'll run the apps repeatedly on different lists of data, record the running times of the algorithms, tabulate and graph your data, and then analyze the results.  Can you figure out from the results, which algorithm is which?</p>
 		<p>Another way to look at this activity is as <i>quality assurance (QA)</i>.  Many careers in the computing field start with assignments in QA.  This is where you help software developers test and debug their apps. 
 		</td>
@@ -96,8 +96,8 @@ Learning Activities
     <h3>Search Experiment</h3>
     <table><tbody>
     <tr>
-    <td valign="top" width="40%" style="padding: 10px;">
-    <img src="../_static/assets/img/searchappscreen.png" width="200"/>
+    <td valign="top">
+    <img src="../_static/assets/img/searchappscreen.png" width="750"/>
     </td>
     <td>
     <b><i>Empirical Search Analysis.</i></b>
@@ -105,14 +105,14 @@ Learning Activities
     In this activity you are going to use an App Inventor app to experiment with and analyze the binary and sequential search algorithms.  
     
     <ol>
-    <li>Create a portfolio page named <i>Search Experiment</i>.
+    <li style="margin-bottom: 5px;">Create a portfolio page named <i>Search Experiment</i>.
     </li>
-    <li>On an Android device, use the AI Companion app to scan and install
+    <li style="margin-bottom: 5px;">On an Android device, use the AI Companion app to scan and install
     the
       <!-- &lt;a target=&quot;_blank&quot; href=&quot;https://drive.google.com/open?id=0B86iRIPU8oQlZnZXdG5ycDdpU2M&quot; title=&quot;&quot;&gt;Search Experiment app (APK)&lt;/a&gt;
     -->
     <a href="http://mobile-csp.org/SearchExperiment.apk" target="_blank" title="">Search Experiment app (APK)</a>
-    from the QR code:
+    from the QR code.
     <br/>
     <img align="right" alt="" src="../_static/assets/img/SearchAppQR.png" style="width: 200px; height: 200px;" title=""/>
     <br/>
@@ -120,19 +120,23 @@ Learning Activities
      <p> <font color="red">NOTE: When you run this app it may initially display a blank screen while it is initializing
         some data.  This may take a minute. Please wait.</font>
     </p></li>
-    <li>You will be performing a <b>worst case</b> analysis of the algorithms.  Whenever
+	</ol>
+	</td></tr>
+	<tr><td colspan=2>
+    <ol start="3">
+	<li style="margin-bottom: 5px;">You will be performing a <b>worst case</b> analysis of the algorithms.  Whenever
     you press the search button, the app will search for a number that is <i>not</i> in the
     list.
     </li>
-    <li>Test each search algorithm on lists of size 1000, 2000, ..., 10,000 numbers. 
+    <li style="margin-bottom: 5px;">Test each search algorithm on lists of size 1000, 2000, ..., 10,000 numbers. 
     <b>NOTE: </b> Because these algorithms involve loops, you may see an ANR
     (App Not Responding) popup informing you that the app is not responding and
     giving you the option to "wait" or stop the app.  Choose "wait". It takes awhile to generate all the numbers.
     </li>
-    <li> Use  this <a href="https://docs.google.com/spreadsheets/d/1HR0hn2x8Lpc-KJRBJ_pE_auOYx-q2Ifi6YTplonijY4/copy" target="_blank">spreadsheet</a>  to enter the data and graph your results or <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank">empty graph paper</a>.  Put the data results and your graph in your portfolio.
+    <li style="margin-bottom: 5px;"> Use  this <a href="https://docs.google.com/spreadsheets/d/1HR0hn2x8Lpc-KJRBJ_pE_auOYx-q2Ifi6YTplonijY4/copy" target="_blank">spreadsheet</a>  to enter the data and graph your results or <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank">empty graph paper</a>.  Put the data results and your graph in your portfolio.
     </li>
     <li>Analyze your results to determine which algorithm is which. Which is the
-    <i>binary</i> and which is the <i>sequential</i> search.  Provide a clear
+    <i>binary</i> and which is the <i>sequential</i> search?  Provide a clear
     description, referring to your graph and your tabulated data, to explain how 
     you arrived at your conclusion.
     </li>
@@ -162,8 +166,8 @@ Learning Activities
     <h3>Sort Experiment</h3>
     <table><tbody>
     <tr>
-    <td valign="top" width="40%" style="padding: 10px;">
-    <img src="../_static/assets/img/sortappscreen.png" width="200"/>
+    <td valign="top">
+    <img src="../_static/assets/img/sortappscreen.png" width="700"/>
     </td>
     <td>
     <b><i>Empirical Sort Analysis.</i></b>
@@ -172,29 +176,32 @@ Learning Activities
     analyze the bubble, merge, and bucket sort algorithms.  
     
     <ol>
-    <li>Create a portfolio page named <i>Sort Experiment</i>.
+    <li style="margin-bottom: 5px;">Create a portfolio page named <i>Sort Experiment</i>.
     </li>
-    <li>Use the Barcode Scanner app -- you can download it from the Play Store
+    <li style="margin-bottom: 5px;">Use the Barcode Scanner app -- you can download it from the Play Store
     if you don't have it -- to download the 
     <a href="http://mobile-csp.org/SortExperiment.apk" target="_blank">
     SortExperiment app (APK)</a>
-    from the QR code:
+    from the QR code.
     <br/>
     <img align="right" alt="" src="../_static/assets/img/SortAppQR.png" style="width: 200px; height: 200px;" title=""/>
-    If you are using the emulator, you can download the <a href="assets/img/SortExperiment.aia" target="_blank">aia file</a> and import it into App Inventor.
-    
+    If you are using the emulator or an iOS device, you can download the <a href="assets/img/SortExperiment.aia" target="_blank">aia file</a> and import it into App Inventor.
     </li>
-    <li>Test each sort algorithm on lists of size 10, 20, ..., 100 numbers. These are called <b>instances of the problem</b>. An <span class="hover vocab yui-wk-div" data-id='instance of a problem'>instance of a problem</span> also includes specific input. For example, sorting is a problem, sorting the list (2,3,1,7) is an instance of the problem.
+	</ol>
+	</tr></tr>
+	<tr><td colspan="2">
+    <ol start="3">
+	<li style="margin-bottom: 5px;">Test each sort algorithm on lists of size 10, 20, ..., 100 numbers. These are called <b>instances of the problem</b>. An <span class="hover vocab yui-wk-div" data-id='instance of a problem'>instance of a problem</span> also includes specific input. For example, sorting is a problem, sorting the list (2,3,1,7) is an instance of the problem.
     <br/>
     <b>NOTE: </b> Because these algorithms involve loops, you may see an ANR
     (App Not Responding) popup informing you that the app is not responding and
     giving you the option to "wait" or stop the app.  Choose "wait". It takes a while to generate all the numbers. 
     </li>
-    <li> Use  this <a href="https://docs.google.com/spreadsheets/d/1HR0hn2x8Lpc-KJRBJ_pE_auOYx-q2Ifi6YTplonijY4/copy" target="_blank">spreadsheet</a>  to enter the data and graph your results or <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank">empty graph paper</a>.  Put the data results and your graph in your portfolio.
+    <li style="margin-bottom: 5px;"> Use  this <a href="https://docs.google.com/spreadsheets/d/1HR0hn2x8Lpc-KJRBJ_pE_auOYx-q2Ifi6YTplonijY4/copy" target="_blank">spreadsheet</a>  to enter the data and graph your results or use <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank">empty graph paper</a>.  Put the data results and your graph in your portfolio.
     </li>
     <li>Analyze your results to determine which algorithm is which. Which is the
     <i>bubble</i>, and which is the <i>merge</i>, and which is the
-    <i>bucket</i> sort.  Provide a clear
+    <i>bucket</i> sort? Provide a clear
     description, referring to your graph and your tabulated data, to explain how 
     you arrived at your conclusion.
     </li>
