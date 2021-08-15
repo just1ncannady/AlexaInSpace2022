@@ -56,8 +56,6 @@ Unit 7 Quiz
 
     <p>
     Before moving on, check with your instructor to see if there is a quiz for Unit 7.
-        
-      </div>
       
 Reflection: For Your Portfolio
 -------------------------------
