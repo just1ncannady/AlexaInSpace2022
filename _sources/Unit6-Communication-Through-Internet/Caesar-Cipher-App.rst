@@ -44,13 +44,11 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
+    <p></p>
     <table><tbody>
 	<tr>
-	<td colspan=2>This lesson describes some basic terminology from the field of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, and then introduces the Caesar Cipher, one of the earliest and simplest examples of a substitution <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, which is an <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> algorithm that replaces letters 
-      in the message with letters from a <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> alphabet.</p>
-    <p>Once we understand how the Caesar algorithm works, we will implement it in a simple app that encrypts and decrypts messages</p>.
-	
+	<td colspan=2>This lesson describes some basic terminology from the field of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, and then introduces the Caesar Cipher, one of the earliest and simplest examples of a <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution cipher</span>.</p>
+    <p>Once we understand how the Caesar algorithm works, we will implement it in a simple app that encrypts and decrypts messages.</p>	
 	</td>
 	</tr>
 	
@@ -72,7 +70,7 @@ Introduction and Goals
 		</ul>
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
-		<li>explain the difference between local and global variables</li>
+		<li>explain the difference between <span class="hover vocab yui-wk-div" data-id='local variables'>local</span> and global variables</li>
 		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="encryption key">encryption key</span>, <span class="hover vocab yui-wk-div" data-id="encryption algorithm">encryption algorithm</span>, and <span class="hover vocab yui-wk-div" data-id="substitution cipher">substitution cipher</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
     </td>
@@ -112,8 +110,8 @@ Learning Activities
       <pre>PLAIN_ALPHABET:   abcdefghijklmnopqrstuvwxyz
     CIPHER_ALPHABET:  DEFGHIJKLMNOPQRSTUVWXYZABC</pre>
     </li>
-    <li>Encrypt a short message for your partner by hand using the cipher_alphabet with shift 3 above. Trade the encrypted messages and decrypt them by hand. Use the widget to check your answer.   </li>
-    <li>Create the CIPHER_ALPHABET that would result from a Caesar shift of 5. Use the widget above on some letters with shift 5 to check your answer.</li>
+    <li style="margin-bottom: 5px;">Encrypt a short message for your partner by hand using the cipher alphabet with shift 3 above. Trade the encrypted messages and decrypt them by hand. Use the widget to check your answer.   </li>
+    <li style="margin-bottom: 5px;">Create the CIPHER_ALPHABET that would result from a Caesar shift of 5. Use the widget above on some letters with shift 5 to check your answer.</li>
     <li>Try the self-check exercises below.</li>
     </ol>
     
@@ -203,18 +201,16 @@ Learning Activities
     <div id="bogus-div">
     <p></p>
     </div>
-
-
-    <br/>
+	<br/>
     <h3>Part II: Caesar Cipher App</h3>
-    <p>To get started click on this link to <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/CaesarApp/CaesarCipherTemplate.asc" target="_blank">open App Inventor and import the CaesarCipherTemplate</a>.   Use the Save As button to rename your project "CaesarCipherApp".</p>
+    <p>To get started click on this link to <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/CaesarApp/CaesarCipherTemplate.asc" target="_blank">open App Inventor and import the CaesarCipherTemplate</a>.   Use the <i>Save As</i> button to rename your project "CaesarCipherApp".</p>
     <p>You are provided with a template that sets up the environment for implementing Caesar <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> and <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>.  Your task will be to implement the <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> <span class="hover vocab yui-wk-div" data-id='function'>function</span> following the tutorial and implement the  <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span> <span class="hover vocab yui-wk-div" data-id='function'>function</span> as an enhancement.</p>
-    <p>Programming constructs you will learn in building this app are: </p>
+    Programming constructs you will learn in building this app are
     <ul>
-    <li>Defining and using <span class="hover vocab yui-wk-div" data-id='local variables'>local variables</span>.</li>
-    <li>Defining and using procedures with returns (<span class="hover vocab yui-wk-div" data-id='function'>functions</span>).</li>
-    <li>Using a for-range loop and an index to process a string of letters in a message.</li>
-    <li>Using built-in Text <span class="hover vocab yui-wk-div" data-id='function'>functions</span> to process a string of letters in a message.</li>
+    <li>Defining and using <span class="hover vocab yui-wk-div" data-id='local variables'>local variables</span></li>
+    <li>Defining and using procedures with returns (also called <span class="hover vocab yui-wk-div" data-id='function'>functions</span>)</li>
+    <li>Using a for-range loop and an index to process a string of letters in a message</li>
+    <li>Using built-in text <span class="hover vocab yui-wk-div" data-id='function'>functions</span> to process a string of letters in a message</li>
     </ul>
     
 .. youtube:: ZKcv1IfrS7A
@@ -236,8 +232,8 @@ Learning Activities
     <table border="">
     <tbody>
     <tr><td width="10%"></td><td width="25%">AP Text Pseudocode</td><td width="30%">AP Block Pseudocode</td><td width="30%">App Inventor Block</td></tr>
-    <tr><td>Procedures</td><td>
-    <pre>PROCEDURE name(param1,param2,...)
+    <tr><td>Procedure</td><td>
+    <pre>PROCEDURE name(param1,...)
     {
      <em>instructions</em>
     }
@@ -247,8 +243,8 @@ Learning Activities
     <bl>instructions</bl>
     </bl></div></td>
     <td><img src="../_static/assets/img/procedurewparams.png" width="100%"/></td></tr>
-    <tr><td>Functions (procedures with return value)</td><td>
-    <pre>PROCEDURE name(param1,param2,...)
+    <tr><td>Function</td><td>
+    <pre>PROCEDURE name(param1,...)
     {
      <em>instructions</em>
      RETURN (expression)
@@ -263,8 +259,13 @@ Learning Activities
     </tbody></table>
     <h3>Enhancements and Extensions</h3>
     <ol>
-    <li style="margin-bottom: 5px;"><b><span class="hover vocab yui-wk-div" data-id='decryption'>Decryption</span>.</b> Implement the <i>caesarDecrypt</i> <span class="hover vocab yui-wk-div" data-id='function'>function</span> and the handler for the Decrypt button to enable the app to
-        perform <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>.  <span class="hover vocab yui-wk-div" data-id='decryption'>Decryption</span> is the mirror image of <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>.  Whereas for <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>, you replace every character in the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span>  with the corresponding letter from the CIPHER_ALPHABET,  for <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span> your loop goes through the <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> and replaces every character with the corresponding letter from the <b>PLAIN_ALPHABET</b>. When you are testing this app, only type in lowercase letters in the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> textbox to encrypt, and only type in <b>uppercase letters</b> in the <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> textbox to decrypt or inside ButtonDecrypt.Click, you could put the TextBoxCipherText.Text through the Text/upcase block before sending it to your decrypt <span class="hover vocab yui-wk-div" data-id='function'>function</span>.</li>
+    <li style="margin-bottom: 5px;"><b>Decryption</b> Implement the <i>caesarDecrypt</i> <span class="hover vocab yui-wk-div" data-id='function'>function</span> and the handler for the decrypt button to enable the app to
+        perform <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>.  
+		<ul>
+		<li style="margin-bottom:5px;"><span class="hover vocab yui-wk-div" data-id='decryption'>Decryption</span> is the mirror image of <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>.  Whereas for <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> you replace every character in the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> with the corresponding letter from the CIPHER_ALPHABET, for <span class="hover vocab yui-wk-div" data-id='decryption'>decryption</span>, loop through the <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> and replace every character with the corresponding letter from the PLAIN_ALPHABET.</li>
+		<li style="margin-bottom:5px;">When you test the app, it will only work if you type lowercase letters into the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> textbox to encrypt, and type uppercase letters in the <span class="hover vocab yui-wk-div" data-id='ciphertext'>ciphertext</span> textbox to decrypt.</li>
+		<li>To fix this, in the <i>ButtonDecrypt.Click</i>, you could use <img style="height:25px; width:70px" src="../_static/assets/img/upcaseBlock.jpg"/> before calling your decrypt <span class="hover vocab yui-wk-div" data-id='function'>function</span>.</li>
+		</ul>
     <li style="margin-bottom: 5px;"><b>Extend the Alphabet </b> As it is currently implemented, the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet consists only of lowercase letters 'a' through 'z'.  This means that digits (0 through 9) and uppercase letters ('A' through 'Z') are not encrypted.  That's a security flaw that makes it easier for Eve, the eavesdropper, to break the <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> and discover the secret message.  To fix this, extend the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet to include digits and UPPERCASE letters in any order. If you use the appropriate amount of abstraction, this should be a simple change to implement!</li>
     <li><b>Challenging (Optional) </b> Preserving the blank spaces between words makes it easier for Eve the eavesdropper to crack the encrypted message.  To make this more difficult, write a <span class="hover vocab yui-wk-div" data-id='function'>function</span> that will take a sentence and output the letters in blocks of length 4 with all punctuation (i.e., all characters not in the <span class="hover vocab yui-wk-div" data-id='plaintext'>plaintext</span> alphabet) removed. For example, the <span class="hover vocab yui-wk-div" data-id='function'>function</span> would take  'this, is a test message!!' return '<b>this isat estm essa ge</b>'.</li>
     </ol>
