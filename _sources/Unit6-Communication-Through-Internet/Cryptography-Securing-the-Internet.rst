@@ -61,7 +61,9 @@ Introduction and Goals
       system -- Eve could easily intercept the key without Alice and Bob knowing, and would then be able to 
       read all their messages. 
     </p>
-    <p>What's needed in order for cryptography to work on the Internet is an <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric</span> system, in which 
+    <p>
+	<img style="float:right" width="250px" src="../_static/assets/img/AliceBobAsymmetricEncryption.JPG"/>
+	What's needed in order for cryptography to work on the Internet is an <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric</span> system, in which 
       the key can be broken into parts so that one key can be used for encrypting and another for decrypting without
       ever having to share a key. Such systems are examples of <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography</span> and we will look
       at two important algorithms,  the <span class="hover vocab yui-wk-div" data-id="diffie-hellman">Diffie-Hellman</span> key exchange algorithm and the <span class="hover vocab yui-wk-div" data-id="rsa">Rivest-Shamir-Adelman (RSA)</span>
@@ -69,7 +71,7 @@ Introduction and Goals
     </p>
     <p>
       The discovery of a solution to the <span class="hover vocab yui-wk-div" data-id='key exchange problem'>key exchange problem</span> was one of the biggest 
-      breakthroughs in modern cryptography -- and without this discovery it would simply be impossible to have an Internet
+      breakthroughs in modern cryptography -- and without this discovery it would be impossible to have an Internet
       today that we could use for banking, buying goods on Amazon, and so on. 
     </p>
     <p><span class="hover vocab yui-wk-div" data-id='public key cryptography'>Public key cryptography</span> is a very technical topic, the mathematical details of which go beyond the scope of this course.

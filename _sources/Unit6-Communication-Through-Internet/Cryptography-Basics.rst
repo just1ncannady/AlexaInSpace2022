@@ -53,15 +53,19 @@ Introduction and Goals
     In the preceding lesson, you built a Caesar Cipher app and learned that <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span> means <i>secret writing</i>. It is the art and science of
     sending secret messages and it has been used by generals and governments and everyday people practically since the invention of written language. 
   
-    </p><p>As we will see in this lesson, modern cryptographic techniques are essential to guaranteeing the security of our transactions on the Internet.  <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span> plays a
-    role whenever you make an online purchase at Amazon or provide your password to Google.  If we couldn't rely on those transactions being secure -- i.e., being encrypted using some cryptographic algorithm -- we really wouldn't have the Internet as we know it today.
-    
-    </p><p>This lesson focuses on some of the classical <span class="hover vocab yui-wk-div" data-id='cipher'>ciphers</span> that followed the Caesar Cipher,
+    </p><p>As we will see in this lesson, modern cryptographic techniques are essential to guaranteeing the security of our transactions on the Internet.  <span class="hover vocab yui-wk-div" data-id='cryptography'>Cryptography</span> plays a
+    role whenever you make an online purchase at Amazon or provide your password to Google.  If we couldn't rely on those transactions being secure -- i.e., being encrypted using some cryptographic algorithm -- we wouldn't have the Internet as we know it today.
+    </p>
+	<p>
+	<img style="float:right" width="250px" src="../_static/assets/img/AliceBobSymmetricEncryption.JPG"/>
+	This lesson focuses on some of the classical <span class="hover vocab yui-wk-div" data-id='cipher'>ciphers</span> that followed the Caesar Cipher,
     which Julius Caesar used in 34 B.C.  Like the Caesar cipher, the other ciphers we will study in this lesson will use <span class="hover vocab yui-wk-div" data-id='symmetric encryption'>symmetric encryption</span>,
     which means that the same <i>key</i> is used both for <i>encrypting</i> and <i>decrypting</i> messages.   As we will also see, all ciphers consist of two parts,
     the <i>key</i> and their <i>algorithm</i>.  And it is the key, not the algorithm, that allows the <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> to create secret messages. In fact, in modern <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span> the
     algorithms are all based on <i>open standards</i> that are created by teams of experts, discussed openly and adopted and maintained by standards organizations.
-    
+
+    </p>
+	
     </p><p>So, let's take a look at some of the classical ciphers and some of the basic principles of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>.  There are several hands-on activities in this lesson, where you'll have a chance to practice encrypting and decrypting messages and analyzing
     ciphers.
     
@@ -130,13 +134,13 @@ Learning Activities
     <iframe height="350" src="https://mobile-csp.org/webapps/crypto/simplesubstitution.html" style="border: 0;" title="" width="650"></iframe>
     <br/>
     <ol>
-    <li style="margin-bottom: 5px;"><b>By Hand:</b> Use a simple <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution cipher</span> to encrypt your name. 
+    <li style="margin-bottom: 5px;"><b>By Hand.</b> Use a simple <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution cipher</span> to encrypt your name. 
     Choose your own keyword to create a <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span> alphabet. Then use the widget above to check your result.
     
-    </li><li style="margin-bottom: 5px;"><b>Decrypt:</b> The following word,  <b><i>SIRTQSMTCKJ</i></b>, 
+    </li><li style="margin-bottom: 5px;"><b>Decrypt.</b> The following word,  <b><i>SIRTQSMTCKJ</i></b>, 
     was encrypted with the keyword <b><i>simple</i></b>.  Can you decrypt it?
     
-    </li><li><b><span class="hover vocab yui-wk-div" data-id='brute force attack'>Brute force attack</span>.</b> How many keys (arrangements of the alphabet) 
+    </li><li><b>Brute force attack.</b> How many keys (arrangements of the alphabet) 
     would you have to try to perform a <span class="hover vocab yui-wk-div" data-id='brute force attack'>brute force attack</span>?
     
     </li></ol>
@@ -153,18 +157,17 @@ Learning Activities
     <p></p>
     </div>
 
-
-    <br/>
     <h3>Activity: Frequency Analysis</h3>
     <p>(<a href="https://mobile-csp.org/webapps/crypto/freqanalyzer.html" target="_blank">Open widget in separate window</a>)</p>
     <iframe height="400" src="https://mobile-csp.org/webapps/crypto/freqanalyzer.html" style="border: 0;" title="" width="675"></iframe>
-    <ol>
-    <li><b><span class="hover vocab yui-wk-div" data-id='frequency analysis'>Frequency analysis</span>:</b> One of the following messages was encrypted 
+	<p>
+	<p>	<b><span class="hover vocab yui-wk-div" data-id='frequency analysis'>Frequency analysis</span>.</b> One of the following messages was encrypted 
     using a <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution cipher</span> and the other with a <span class="hover vocab yui-wk-div" data-id='transposition cipher'>transposition cipher</span>.
     Can you identify which is which? Paste the messages into the frequency analyzer tool (above) and observe their frequency histograms. 
-    
-    <br/><br/><b>Text 1.</b>
-    <pre> 
+    </p>
+    <b>Text 1.</b>
+    <div style="width:675px;overflow:auto">
+	<pre> 
     nybfx ymjgj xytky nrjxn ybfxy mjbtw xytky nrjx nybfx ymjfl jtkbn xitrn ybfxy mjflj 
     tkktt qnxms jxxn ybfxy mjjut hmtkg jqnjk nybfx ymjju thmtk nshwj izqny dnyb fxymj 
     xjfxt stkqn lmyny bfxym jxjfx tstki fwpsj xxny bfxym jxuwn sltkm tujny bfxym jbnsy 
@@ -173,8 +176,10 @@ Learning Activities
     mjuwj xjsy ujwnt iymfy xtrjt knyxs tnxnj xyfzy mtwny njxns xnxyj itsny xgjn slwjh jnaji 
     ktwlt titwk twjan qnsym jxzuj wqfyn ajijl wjjt khtru fwnxt stsqd
     </pre>
+	</div>
     <br/><b>Text 2.</b>
-    <pre>ttbti swhot istta osmwh gflhs tsecf liaho ondia henit ahena nwtpnf ewtie fpree rhbou 
+    <div style="width:675px;overflow:auto">
+	<pre>ttbti swhot istta osmwh gflhs tsecf liaho ondia henit ahena nwtpnf ewtie fpree rhbou 
     hnhbo uerli deovw rlode oeasr hrdsa itrei ttein ittie ntote gceoo rrits etegc psoya hsfmt 
     sesfm iahew dtseo oiewh pheet tecir uytss sohts ssoks isero oisen oeawa vtnee watne 
     ewagn rtenw egnit htwih tpiao reeet eoaoo sieuo tiiei ieidg dfvih pliee omrol setet wtese 
@@ -182,8 +187,8 @@ Learning Activities
     sdbnv foone avefi nweoi arowg fiaef nsteb isefc tieag ieare ahgha hrdhy irsoi rseli ceeli 
     ctryt ewskh nphst oahss nsrer oelur droan
     </pre>
-    </li>
-    </ol>
+	</div>
+    
     <h3>Part 3: Vigenere Cipher</h3>
     
 .. youtube:: cPiHgaLB8yY
@@ -204,28 +209,25 @@ Learning Activities
     (<a href="https://mobile-csp.org/webapps/crypto/vigenere.html" target="_blank">Open widget in separate window</a>)
     <iframe height="400" src="https://mobile-csp.org/webapps/crypto/vigenere.html" style="border: 0;" title="" width="650"></iframe><br/>
     <ol>
-    <li><b>By Hand:</b> Use the Vigenere cipher to encrypt your name. Choose your own keyword.
+    <li style="padding-bottom:5px"><b>By Hand.</b> Use the Vigenere cipher to encrypt your name. Choose your own keyword.</li>
+	<li><b>Decrypt</b> the following message, which was encrypted using Vigenere Cipher, with the keyword <i>zebras</i>. 
     
-    <p></p></li><li><b>Decrypt</b> the following message, which was encrypted using Vigenere Cipher with the keyword <i>zebras</i>. 
-    
+    <blockquote><div style="width:250px;overflow:auto"><pre>SLJJ IK OSMPADOLBSELHG</pre></div></blockquote>
+    </li>
+    <li><b>Frequency Analysis.</b> Use the <i>Frequency Analyzer</i> tool (above) to count the letter frequencies in the following text, which is the same text that was encrypted in an earlier exercise.  In this case it was encrypted using Vigenere Cipher.  What differences do you observe from the histograms you used in the previous exercise?
+    </li>
+    </ol>
     <blockquote>
-    <pre>SLJJ IK OSMPADOLBSELHG 
-    </pre>
-    </blockquote>
-    <br/></li>
-    <li><b><span class="hover vocab yui-wk-div" data-id='frequency analysis'>Frequency analysis</span>:</b> Use the <i>Frequency Analyzer</i> tool (above) to count the letter frequencies in the following text, which is the same text that was encrypted in an earlier exercise.  In this case it was encrypted using Vigenere Cipher.  What differences do you observe from the histograms you used in the previous exercise?
-    <blockquote>
+	<div style="width:650px;overflow:auto">
     <pre>sabjt zdffj tgexj dekhx xrslg ixfrk ssgki edwj kwsrx ivayd sgnik csnzt ozwuy esfip wfgnp 
     jjhfd wtzt ozwuy ewosd yoxai mzexh xxrsl gifgo ugsgz nuqie llasc jkws rxivs wzwpe 
     oxhki kilve tkhwr ibjof njbik fdwt ztozw uyeko vjegg elpge asabj tzdaj etwqs gueko ejiw 
     wgeev vwqcu yifff fwojd ytnez zhoft zhrhs exnvf lsod afies kphfi ffhji eusxp vandr xvwwq 
     ibcly nmoxd aqidk tzds uyejv ezznk gsskt zdtfi igcab jsgee scicd xivpj dwfet hdvj fdlge 
     ujoed sgztk msjji wrxbl tznvj kiwrm ojiks iefna swcv iffvf teaui ewojf spuoj essvv akmok 
-    hwryq vrdzx jmevd ksve gegpd psqmt fngmp z
-    </pre>
+    hwryq vrdzx jmevd ksve gegpd psqmt fngmp z</pre></div>
     </blockquote>
-    </li>
-    </ol>
+
     <h3>Part 4: Perfect Secrecy and the Key Exchange Problem</h3>
     
 .. youtube:: UkC233aGc8Y

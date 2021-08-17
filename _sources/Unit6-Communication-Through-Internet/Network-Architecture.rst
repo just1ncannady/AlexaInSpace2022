@@ -42,14 +42,14 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <p>As we've learned in previous lessons, the Internet is network of networks that is managed by a collection of protocols.  We've already seen the role that the HTTP protocol plays in supporting the World Wide Web application.  In this lesson we delve more deeply into the basic architecture and infrastructure of the Internet.  We'll learn that the main Internet protocols are organized into a hierarchy of abstraction layers -- the application, transport, internet, and link layers -- each of which manages certain specific tasks required to route messages between <span class="hover vocab yui-wk-div" data-id="host">hosts</span> on the Internet. We'll learn about:
-      </p><ul>
+    <p></p>
+	As we've learned in previous lessons, the Internet is a network of networks that is managed by a collection of protocols.  We've already seen the role that the HTTP protocol plays in supporting the World Wide Web application.  In this lesson we delve more deeply into the basic architecture and infrastructure of the Internet.  We'll learn that the main Internet protocols are organized into a hierarchy of abstraction layers -- the application, transport, internet, and link layers -- each of which manages certain specific tasks required to route messages between <span class="hover vocab yui-wk-div" data-id="host">hosts</span> on the Internet. We'll learn about
+	<ul>
     <li>Internet architecture and <span class="hover vocab yui-wk-div" data-id='abstraction layer'>abstraction layers</span></li>
     <li>The <span class="hover vocab yui-wk-div" data-id='packet switching'>packet switching</span> routing scheme</li>
     <li>The TCP/IP protocol</li>
     </ul>
-    <p>  
+	<p>
       After this lesson you should have a pretty good understanding of how some of your familiar applications -- web browsing,
       email, smartphone apps -- are supported by the underlying Internet hardware and software. Here is a short video called <a href="https://www.youtube.com/watch?v=ewrBalT_eBM" target="_blank">A Packet's Tale</a> to get us started on our journey.
     </p>
@@ -73,7 +73,7 @@ Learning Activities
 
     <p><h3>Part 1: Network Architecture and Packet Switching</h3>
     <p>
-      This first video focuses on basic architecture of the internet and <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching. 
+      This first video focuses on basic architecture of the Internet and the technique of <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching. 
      The Internet has been engineered to be <span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b>scalability</b> of a system is the capacity for the system to change in size and scale to meet new demands. 
       
       </p><p>The video also illustrates how the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span>
@@ -118,18 +118,14 @@ Learning Activities
     </tbody></table>
     <p>
       In this activity, 
-      you will use the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and <span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span> utilities at <a href="http://network-tools.com/" target="_blank">network-tools.com</a> to measure the latency and observe trace routes to answer the question:
+      you will use the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and <span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span> utilities at <a href="http://network-tools.com/" target="_blank">network-tools.com</a> to measure the latency and observe trace routes to answer the following question.
       </p><blockquote>
     <b>Does geographical distance between the source and the destination 
           on the network affect latency?
         </b>
     </blockquote>
-    <p>You will use multiple trials of <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for 5 university servers around the globe (mit.edu,
-    stanford.edu,
-    ox.ac.uk,
-    kyoto-u.ac.jp,
-    usp.br) to answer the questions below:
-        </p><ol>
+    <p>You will use multiple trials of <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for 5 university servers around the globe (mit.edu, stanford.edu, ox.ac.uk, kyoto-u.ac.jp, usp.br) to answer the questions below.</p>
+	<ol>
     <li style="margin-bottom: 5px;">Did any of the servers lose packets or time out?  Some servers will block <span class="hover vocab yui-wk-div" data-id='ping'>ping</span> and trace for security reasons which are seen as time outs. Were there any surprising locations in the hops that the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> went through?</li>
     <li style="margin-bottom: 5px;">Did different trials have different results for the same destination? Do packets always get routed in the same way?</li>
     <li style="margin-bottom: 5px;">Can you guess where the network-tools server is located based on the latency data you collected? Can you confirm your guess using trace or whois (which gives you information about who owns a server)? </li>
@@ -157,33 +153,45 @@ Learning Activities
 
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity 2  - TCP/IP Packet Routing (15 minutes)</h3>
-    <p>In the same POGIL team of 4, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of 4 should be given an <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
+    <p>In the same POGIL team of four, you will act out the layers in the TCP/IP model to encapsulate and transmit data.  Each group of four should be given an <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> such as 10.1, 10.2, etc. in a local area network (LAN). Each group member should take on the role of one of the layers below:
     
     </p><table border="">
-    <tbody><tr>
-    <th>Application Layer (protocol: SMTP)</th><td>
-    <b>Send:</b> Composes a message to another student and passes it to the Transport layer.
-      <br/><b>  Receive:</b>  Receives and reads out messages from other students passed on from the Transport layer. 
-     </td></tr>
-    <tr><th>Transport Layer (protocol: TCP)</th><td>
-    <b>Send:</b> Splits the message into packets, adds TCP headers to number the packets, and sends them to the Internet layer.
-    <br/><b>Receive:</b> Receives packets from the Internet layer, puts them in order, and passes them to the application layer when all is received.
-    </td></tr>
-    <tr><th>Internet Layer (protocol: IP)</th><td>
-    <b>Send: </b> Uses a routing table (given in the handout)  to add the destination <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> to each <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> and passes them to the Link layer.
-    <br/> <b>Receive:</b> Receives <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> from the Link layer and checks that it’s their own group’s <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>. If it is, it passes it to the transport layer. If it is not, it gives it back to the link layer to give to another group.
-    </td></tr>
-    <tr><th>Link Layer (protocol: Ethernet)</th><td>
-    <b>Send:</b> Passes the individual <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> randomly to the link layer of other groups.
-    <br/> <b>Receive:</b> Receives <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> from other groups and passes them to the Internet Layer.
-     </td></tr>
+    <tbody>
+	<tr>
+		<th>Application Layer (protocol: SMTP)</th>
+		<td>
+			<b>Send:</b> Composes a message to another student and passes it to the Transport layer.
+			<br/><b>Receive:</b>  Receives and reads out messages from other students passed on from the Transport layer. 
+		</td>
+	</tr>
+    <tr>
+		<th>Transport Layer (protocol: TCP)</th>
+		<td>
+		<b>Send:</b> Splits the message into packets, adds TCP headers to number the packets, and sends them to the Internet layer.
+		<br/><b>Receive:</b> Receives packets from the Internet layer, puts them in order, and passes them to the Application layer when all are received.
+		</td>
+	</tr>
+    <tr>
+		<th>Internet Layer (protocol: IP)</th>
+		<td>
+		<b>Send: </b> Uses a routing table (given in the handout)  to add the destination <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span> to each <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> and passes them to the Link layer.
+		<br/> <b>Receive:</b> Receives <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> from the Link layer and checks that it’s their own group’s <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>. If it is, it passes it to the Transport layer. If it is not, it gives it back to the Link layer to give to another group.
+		</td>
+	</tr>
+    <tr>
+		<th>Link Layer (protocol: Ethernet)</th>
+	<td>
+		<b>Send:</b> Passes the individual <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> randomly to the Link layer of other groups.
+		<br/> <b>Receive:</b> Receives <span class="hover vocab yui-wk-div" data-id='packet'>packets</span> from other groups and passes them to the Internet Layer.
+		</td>
+	</tr>
     </tbody></table>
     <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/edit?usp=sharing" target="_blank">these handouts</a> to simulate <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> routing in the TCP/IP model.
         Once your group has sent and received a message, discuss the following questions.
     </p><ol>
     <li style="margin-bottom: 5px;"><b><span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Order. </b> Does it matter whether the packets of a message arrive in order?  Explain how this set of protocols handles that. </li>
     <li style="margin-bottom: 5px;">(<b>Portfolio</b>) <b>Missing Packets.</b> What should happen if a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> goes missing? Who (which layer) would handle this?  What action would they have to take?  And what additional information would be needed in the <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> in order to handle it?  </li>
-    <li style="margin-bottom: 5px;"><b>Corrupted Packets.</b> Suppose there’s some kind hardware glitch that corrupts one or more bits in a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span>? Can this be detected?  What action should be taken in this case?  What additional information would be needed to handle this issue? </li>
+    <li style="margin-bottom: 5px;"><b>Corrupted Packets.</b> Suppose there is some kind hardware glitch that corrupts one or more bits in a <span class="hover vocab yui-wk-div" data-id='packet'>packet</span>? Can this be detected?  What action should be taken in this case?  What additional information would be needed to handle this issue? </li>
 	<li style="margin-bottom: 5px;"><b>Fault-Tolerance. </b>Complex systems, like networks, fail at unexpected times. Often multiple devices fail at the same time.  Explain how the TCP/IP model continues to function even when parts of the system fail.<br/></li>
     <li>(<b>Portfolio</b>) <b>Security/Privacy.</b>  As the packets are being transmitted through the network, can people other than the sender and receiver read the messages? What methods can we use to protect the message?  </li>
     </ol>
