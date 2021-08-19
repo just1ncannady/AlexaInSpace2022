@@ -76,7 +76,7 @@ Introduction and Goals
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
 		  <li>discuss the beneficial and harmful effects of computing innovations</li>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="modeling">modeling</span>, and <span class="hover vocab yui-wk-div" data-id="render">render</span>, while discussing <span class="hover vocab yui-wk-div" data-id="digital">digital</span> models, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="modeling">modeling</span>, and <span class="hover vocab yui-wk-div" data-id="render">render</span>, while discussing <span class="hover vocab yui-wk-div" data-id="digital">digital</span> models, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1Pfrv_g1AGKNFPmgir1uGApfHtkhB783Te5kzVz5FZ8c/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
         </td>
       </tr>

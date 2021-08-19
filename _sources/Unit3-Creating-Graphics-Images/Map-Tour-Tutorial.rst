@@ -59,7 +59,7 @@ Introduction and Goals
 		</ul>
         <div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
-		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=list>list</span>, <span class="hover vocab yui-wk-div" data-id=index>index</span>, <span class="hover vocab yui-wk-div" data-id=string>string</span>, <span class="hover vocab yui-wk-div" data-id=concatenation>concatenation</span>, and <span class="hover vocab yui-wk-div" data-id=API>API</span> while describing app features and UI components, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=list>list</span>, <span class="hover vocab yui-wk-div" data-id=index>index</span>, <span class="hover vocab yui-wk-div" data-id=string>string</span>, <span class="hover vocab yui-wk-div" data-id=concatenation>concatenation</span>, and <span class="hover vocab yui-wk-div" data-id=API>API</span> while describing app features and UI components, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1Pfrv_g1AGKNFPmgir1uGApfHtkhB783Te5kzVz5FZ8c/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
     </td>
 	</tr>

@@ -57,7 +57,7 @@ Introduction and Goals
           <ul>
            <li>explain the advantages of collaboration when developing and improving an app using supporting details and examples</li>
 		   <li>discuss errors in my program when I run my code, including how the errors could be fixed and tested</li>
-		   <li>describe the functionality of an app using key vocabulary such as component, event, and pseudocode, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>       
+		   <li>describe the functionality of an app using key vocabulary such as component, event, and pseudocode, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1Pfrv_g1AGKNFPmgir1uGApfHtkhB783Te5kzVz5FZ8c/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>       
           </ul>
     </td>
     

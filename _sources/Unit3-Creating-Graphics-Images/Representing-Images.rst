@@ -62,7 +62,7 @@ Introduction and Goals
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
 		  <li>compare and contrast <span class="hover vocab yui-wk-div" data-id='lossless compression'>lossless</span> and <span class="hover vocab yui-wk-div" data-id='lossy compression'>lossy</span> compression techniques</li>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span>, <span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span>, and <span class="hover vocab yui-wk-div" data-id='run length encoding'>run length encoding</span> while describing how images and text are stored in memory, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span>, <span class="hover vocab yui-wk-div" data-id='ASCII'>ASCII</span>, and <span class="hover vocab yui-wk-div" data-id='run length encoding'>run length encoding</span> while describing how images and text are stored in memory, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1Pfrv_g1AGKNFPmgir1uGApfHtkhB783Te5kzVz5FZ8c/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
         </ul>
         </td>
       </tr>
