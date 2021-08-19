@@ -35,15 +35,20 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    
+    <p>    
     We live in the information age with an exponential growth of data. In 2010 Eric Schmidt, the CEO of Google, said,
-        "There were 5 Exabytes of information created between the dawn of civilization through 2003, but that much
+        "There were five exabytes of information created between the dawn of civilization through 2003, but that much
         information is now created every 2 days." In 2019, the <a href="https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/" target="_blank">World Economic Forum</a> estimated that "the entire digital universe is expected to reach 44
-        zettabytes by 2020."<br/>
-    <a href="https://www.visualcapitalist.com/wp-content/uploads/2019/04/data-generated-each-day-full.html" target="_blank"><img alt="Big Data infographic" class="yui-img" src="https://assets.weforum.org/editor/large_EtPUkpGXyTdl9eydWTMVIhXdNquLOB8IdyieBBGARiw.jpg" style="width: 60%; margin: auto;" title="Big Data infographic"/></a>
-    <p>How much is an Exabyte or Zettabyte? Here is a table from the same <a href="https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/" target="_blank">article </a>at the World Economic Forum:</p>
-    <img alt="Table of bytes" class="yui-img" src="https://assets.weforum.org/editor/large_1wZFPPQxA3arZahkXNge_pYCgI7alwllw3o5S6fgqc8.png" style="width: 70%; margin: auto;" title="Table of bytes"/>
+        zettabytes by 2020."</p>
+		How much is an Exabyte or Zettabyte? Here is a visualization and a table from the same <a href="https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/" target="_blank">article</a> at the World Economic Forum. Click on each to view full-size versions.</p>
+	<table>
+	<tbody>
+	<tr>
+		<td width="42%"><a href="https://www.visualcapitalist.com/wp-content/uploads/2019/04/data-generated-each-day-full.html" target="_blank"><img alt="Big Data infographic" class="yui-img" src="https://assets.weforum.org/editor/large_EtPUkpGXyTdl9eydWTMVIhXdNquLOB8IdyieBBGARiw.jpg" title="Big Data infographic"/></a></td>
+		<td width="58%"><a href="https://assets.weforum.org/editor/large_1wZFPPQxA3arZahkXNge_pYCgI7alwllw3o5S6fgqc8.png" target="_blank"><img alt="Table of bytes" class="yui-img" src="https://assets.weforum.org/editor/large_1wZFPPQxA3arZahkXNge_pYCgI7alwllw3o5S6fgqc8.png" title="Table of bytes"/></a></td>	
+	</tr>
+	</tbody>
+	</table>
 	<p>
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	<ul>
@@ -66,9 +71,9 @@ Learning Activities
 
     <p><h3>Big Data</h3>
     <p>We live in the era of Big Data which refers to data sets that are too large to fit on a normal
-          computer or be processed by a standard spreadsheet or database program. Large data sets are difficult to process using a single computer and may require parallel systems. Scalability of systems is an important consideration when working with large data sets, as the computational capacity of a system affects how data sets can be processed and stored.
+          computer or be processed by a standard spreadsheet or database program. Large data sets are difficult to process using a single computer and may require parallel systems (multiple computers working together to run an algorithm). Scalability of systems is an important consideration when working with large data sets, as the computational capacity of a system affects how data sets can be processed and stored.
     </p>
-    <p>We will explore Big Data through a number of videos from the PBS documentary, The Human Face of Big Data. We will start with a short (2:31) video, <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_numbers_everywhere/the-human-face-of-big-data-everything-is-quantifiable/" style="font-family: yui-tmp;" target="_blank" title="">Everything Is Quantifiable.</a></p>
+    <p>We will explore Big Data through a number of videos from the PBS documentary, The Human Face of Big Data. We will start with a short (2:31) video, <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_numbers_everywhere/the-human-face-of-big-data-everything-is-quantifiable/" target="_blank" title="">Everything Is Quantifiable.</a></p>
     <div class="yui-wk-div" style="text-align: center;"><a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_numbers_everywhere/the-human-face-of-big-data-everything-is-quantifiable/" target="_blank"><img alt="Everything is Quantifiable" class="yui-img" src="../_static/assets/img/HumanFaceofBigData_1Quantifiable.png" title="Everything is Quantifiable"/><br/></a></div>
     <p><br/>
     </p>
@@ -150,22 +155,16 @@ Learning Activities
 
     <p>
     <p>The field of Data Science deals with extracting information from and visualizing the results of manipulating large
-          data sets. The size of a data set affects the amount of information that can be extracted from it. Given enough data, programs can  be used to process the data and extract useful information from it.  From this information, further analysis may yield knowledge or even wisdom. Tables, diagrams, text, and other visual tools can be used to communicate insight and knowledge gained from data. We often think of data,
+          data sets. The size of a data set affects the amount and quality of information that can be extracted from it. From this information, further analysis may yield knowledge or even wisdom. Tables, diagrams, text, and other visual tools can be used to communicate insight and knowledge gained from data. We often think of data,
           information, knowledge and wisdom forming a pyramid.
-    
-        </p><p> </p>
+    </p>
     <div class="yui-wk-div" style="text-align: center;"><img alt="DIKW Pyramid" class="yui-img" src="https://live.staticflickr.com/4169/34764532445_e3883bd446_b.jpg" style="width: 450px; height: 255px;" title="DIKW Pyramid"/></div>
     <p> Data provide opportunities for identifying trends, making connections, and addressing problems. Computing enables new methods of deriving information from
           data, driving monumental change across many disciplines — from art to business to science. Keep the DIKW pyramid in mind as you watch the short 3 minute video, <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_word_births/the-human-face-of-big-data-aquiring-language/" target="_blank">Learning Revealed: Acquiring Language</a>. </p>
     <div class="yui-wk-div" style="text-align: center;"><a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_word_births/the-human-face-of-big-data-aquiring-language/" target="_blank"><img alt="Acquiring Language" class="yui-img" src="../_static/assets/img/HumanFaceofBigData_2LearningRevealed.png"/><br/>
     </a></div>
-    <p> </p>
-    <p>
-    </p>
-
-	<p>
-    <p>
-    
+    <br/>
+	
 .. mchoice:: mcsp-7-2-4
     :random:
     :practice: T
@@ -177,7 +176,7 @@ Learning Activities
     :feedback_c: Data is basic facts such as when each word was spoken, not generalize knowledge.
     :correct: a
 
-     Order the following statements on the Data-Information-Knowledge-Wisdom      pyramidThe child said "water" most frequently in the        kitchen and the bathroomThe child is likely to learn words heard in        multiple locationsThe child said "Truck" for the first time at 11:45        on January 15, 2017
+	Which of the following best matches statements from the video to the Data-Information-Knowledge-Wistom pyramid?
 
 
 .. raw:: html
@@ -212,11 +211,8 @@ Learning Activities
 
     <br/>
     </p>
-
 	<h3>Impacts of Big Data</h3>
-
-    <p><br/>
-    <p>Careful analysis of data can help us solve many problems.  Watch the following video to see how tracking data on <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_babies_health/the-human-face-of-big-data-the-smallest-heartbeat/" target="_blank">The Smallest Heartbeat</a> can help save a child's life. </p>
+    <p>Careful analysis of data can help us solve many problems.  Watch the following 4-minute video to see how tracking data on <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_babies_health/the-human-face-of-big-data-the-smallest-heartbeat/" target="_blank">The Smallest Heartbeat</a> can help save a child's life. </p>
     <div class="yui-wk-div" style="text-align: center;"><a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_babies_health/the-human-face-of-big-data-the-smallest-heartbeat/" target="_blank"><img alt="Acquiring Language" class="yui-img" src="../_static/assets/img/The-smallest-heartbeat.png"/><br/>
     </a></div>
     
@@ -226,7 +222,7 @@ Learning Activities
     <p>
     <p>The path from data to information to knowledge is not always straightforward. Bias can be introduced into the
           collection and analysis of data with dangerous results. Care must be taken when collecting and analyzing data. Problems of bias are often caused by the type or source of data that is being collected. Bias is not eliminated by simply collecting more data. </p>
-    <p>Joy Buolamwini from the MIT Media labs studies the impact of bias in face recognition systems. Watch the following video about her research:
+    <p>Joy Buolamwini from the MIT Media labs studies the impact of bias in face recognition systems. Watch the following video about her research.
       <br/>
     
 .. youtube:: TWWsW1w-BVo
@@ -314,11 +310,16 @@ Learning Activities
     </div>
 
 	<h3>Big Data Activity: Exploring Data Sets</h3>
-
-    <p>
-    <p>Explore some of examples of big data and at least 2 data sets that interest you. You will answer some reflection
-          questions on a data set you chose below. Here are some websites where you can explore big data sets: </p>
-    <ul>
+	Explore some of examples of big data and find at least two data sets that interest you. Some ideas of where to find data sets are below. Then, answer the following reflection questions in your portfolio.
+    <ol>
+    <li style="margin-bottom: 5px;">What specifically were the types of data (text, sounds, transactions, etc.) included in the data set you chose?
+        </li><li style="margin-bottom: 5px;">What new facts did you learn when exploring the data set? List at least 3 facts.
+     </li><li style="margin-bottom: 5px;">Write a question you have about the data set you chose. Now, convert that question into a hypothesis (a statement) with your prediction about the data.
+     </li><li style="margin-bottom: 5px;">Identify at least one security and/or privacy concern that is associated with the data in the data set you chose.
+     </li><li>If your data set included a visualization, explain the purpose of the visualization. How would you change or improve the visualization? If it did not include a visualization, describe one that you think would be useful in understanding the data.</li></ol>
+    
+	Here are some websites where you can explore big data sets.
+	<ul>
     <li><a href="http://en.wikipedia.org/wiki/Big_data" target="blank">Wikipedia Article on Big Data</a> </li>
     <li>Reddit maintains a <a href="http://www.reddit.com/r/dataisbeautiful/top/" target="blank">Data is Beautiful</a>
             site that has lots of visualizations of interesting data sets. Browse through that collection. </li>
@@ -330,13 +331,6 @@ Learning Activities
     <li>NY Times <a href="https://www.nytimes.com/interactive/2017/01/18/world/how-much-warmer-was-your-city-in-2016.html#hfd" target="_blank"> How much warmer was your city in 2016? visualization</a></li>
     <li>NY Times <a href=" https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html" target="_blank"> Air Pollution in Cities visualization</a></li>
     </ul>
-    <p>Here are the reflection questions to answer once you pick a data set:
-      </p><ol>
-    <li style="margin-bottom: 5px;">  Choose one of the data sets listed above in the Activity section or one that you find on your own and give a brief description of it. What specifically were the types of data (text, sounds, transactions, etc.) included in the data set you chose?
-        </li><li style="margin-bottom: 5px;">What new facts did you learn when exploring the data set? List at least 3 facts.
-     </li><li style="margin-bottom: 5px;">Write a question you have about the data set you chose. Now, convert that question into a hypothesis (a statement) with your prediction about the data.
-     </li><li style="margin-bottom: 5px;">Identify at least one security and/or privacy concern that is associated with the data in the data set you chose?
-     </li><li>If your data set included a visualization, explain the purpose of the visualization. How would you change or improve the visualization? If it did not include a visualization, describe one that you think would be useful in understanding the data.</li></ol>
     
 
 Summary

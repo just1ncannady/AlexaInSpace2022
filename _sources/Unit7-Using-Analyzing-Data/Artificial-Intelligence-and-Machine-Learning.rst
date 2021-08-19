@@ -58,10 +58,10 @@ Learning Activities
 .. raw:: html
     
     </p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
-    <p>Give it a try yourself!  Click on the <a href="https://quickdraw.withgoogle.com/" target="_blank">flag doodle</a> here to see how well the computer can recognize your doodles. 
+    <p>Give it a try yourself!  Click on the <a href="https://quickdraw.withgoogle.com/" target="_blank">flag doodle</a> to see how well the computer can recognize your doodles. 
     </p>
     <h3>Video: What is Machine Learning?</h3>
-    Watch the following short <a href="https://www.youtube.com/watch?v=QghjaS0WQQU&ab_channel=GCFLearnFree.org" target="_blank">video</a> (2 minutes) on Machine Learning.
+    Watch the following short <a href="https://www.youtube.com/watch?v=QghjaS0WQQU&ab_channel=GCFLearnFree.org" target="_blank">video</a> (2 minutes) introducing Machine Learning.
 
     
 .. youtube:: QghjaS0WQQU
@@ -101,10 +101,10 @@ Learning Activities
       
     Here are some exercises and experiments to try:
     <ol>
-    <li style="margin-bottom: 5px;">First, just to make sure everything is working properly, do the tutorial by clicking on the "Let's Go!" button.  The tutorial will lead you through creating the model that you saw in the demo video (hand up, funny face).</li>
-    <li style="margin-bottom: 5px;">Next, tweak the model by replacing the GIFs with sounds, creating your own sounds.</li>
-    <li style="margin-bottom: 5px;">Next, customize a model with your own inputs and outputs.</li>
-    <li style="margin-bottom: 5px;">Here's an experiment to try:  Does it take more training cycles to train a model to distinguish between (left-hand-up, right-hand-up) than a model that distinguishes between (hand-up, no-hand-up)? </li>
+    <li style="margin-bottom: 5px;">Do the tutorial by clicking on the "Let's Go!" button.  The tutorial will lead you through creating the model that you saw in the demo video (hand up, funny face).</li>
+    <li style="margin-bottom: 5px;">Tweak the model by replacing the GIFs with sounds, creating your own sounds.</li>
+    <li style="margin-bottom: 5px;">Customize a model with your own inputs and outputs.</li>
+    <li style="margin-bottom: 5px;">Here's an experiment to try:  Does it take more training cycles to train a model to distinguish between left-hand-up/right-hand-up than a model that distinguishes between hand-up/no-hand-up? </li>
     <li style="margin-bottom: 5px;"><b>Facial recognition?</b> Pair up with one or two of your classmates and explore whether the network can be trained to distinguish between your faces.
       </li><li>Design your own experiment(s) with or without classmates.  For example, can you find two or three inputs that the machine cannot distinguish between no matter how many learning cycles you do? 
     </li></ol>
@@ -164,30 +164,23 @@ Still Curious?
 
 .. raw:: html
 
-    <p>
-    <p> There are lots of interesting videos and presentations online to help you learn more about AI and the impact it is having in the world.  Here's a selection:
-      </p>
-      <h5>Machine Learning: </h5>
-      <ul>
-    <li>In this video two Googlers, Nat and Lo, interview a couple of Google <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> researchers who describe <a href="https://www.youtube.com/watch?time_continue=1&amp;v=bHvf7Tagt18" target="_blank">how <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> works</a>. This video was made as part of their "20% project".  One of the cool features of working at Google and other technology companies is that employees get to spend part of their time (1 day per week in this case) working on projects that they themselves choose.   
-        </li>
-    <li>The <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">Google Self-Driving Car</a> is an example of the research being done by car industry researchers to create fully autonomous vehicles.  As the video points out, an autonomous vehicle is much different than the computer-assisted vehicles that are currently available today.  
-        </li>
-    <li>Computer vision is a long-standing <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> research area. In this TED talk, Wei-wei Li from Stanford University describes how she used <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> and crowd source to to <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">teach a computer to understand pictures</a>.
-        </li>
-    <li>The <a href="https://machinelearningforkids.co.uk/" target="_blank">machinelearningforkids.co.uk/</a> site uses IBM's <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> processors online to train and use models in Scratch and in an App Inventor extension. Using these materials does require setting up accounts with IBM and some set up time.</li> 
+    <p>There are lots of interesting videos and presentations online to help you learn more about AI and the impact it is having in the world.</p>
+    <h4>Machine Learning</h4>
+    <ul>
+    <li style="padding-bottom:5px">In this video two Googlers, Nat and Lo, interview a couple of Google <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> researchers who describe <a href="https://www.youtube.com/watch?time_continue=1&amp;v=bHvf7Tagt18" target="_blank">how <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> works</a>. This video was made as part of their "20% project".  One of the cool features of working at Google and other technology companies is that employees get to spend part of their time (1 day per week in this case) working on projects that they themselves choose. </li>
+    <li style="padding-bottom:5px">The <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">Google Self-Driving Car</a> is an example of the research being done by car industry researchers to create fully autonomous vehicles.  As the video points out, an autonomous vehicle is much different than the computer-assisted vehicles that are currently available today.  </li>
+    <li style="padding-bottom:5px">Computer vision is a long-standing <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> research area. In this TED talk, Wei-wei Li from Stanford University describes how she used <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> and crowd source to to <a href="https://www.youtube.com/watch?time_continue=1&amp;v=tiwVMrTLUWg" target="_blank">teach a computer to understand pictures</a>.</li>
+    <li style="padding-bottom:5px">The <a href="https://machinelearningforkids.co.uk/" target="_blank">machinelearningforkids.co.uk/</a> site uses IBM's <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> processors online to train and use models in Scratch and in an App Inventor extension. Using these materials does require setting up accounts with IBM and some set up time.</li> 
     </ul>
     
-    <h4>Algorithmic Bias: </h4>
+    <h4>Algorithmic Bias</h4>
     <ul>
-     <li>Here is a Ted Talk video on <a href="https://www.youtube.com/watch?v=UG_X_7g63rY" target="_blank">Bias in Facial Recognition</a> by Joy Buolamwini and another on <a href="https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end" target="_blank">Blind Faith in Big Data Must End</a> by Cathy O'Neil.</li>
-    <li>This <a href="https://www.youtube.com/watch?v=Fq1SEqNT-7c" target="_blank">video</a> is on the use of Facial Recognition in China and privacy concerns.</li>
-    <li>This is <a href="https://www.youtube.com/watch?v=7lpCWxlRFAw" target="_blank">a report on police crime prediction software and bias.</a></li>
-    <li> Microsoft had to silence its new <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>	 chat bot. 
-    </li>
-    <li><a href="https://www.utsa.edu/today/2020/08/story/algorithm-bias-health-tweets.html" target="_blank">Bias in Health tracking</a>  
-    </li>
-    <li><a href="https://www.cnn.com/2020/08/23/tech/algorithms-bias-inequality-intl-gbr/index.html" target="_blank">Bias in college acceptance</a>  
+    <li style="padding-bottom:5px">Here is a Ted Talk video on <a href="https://www.youtube.com/watch?v=UG_X_7g63rY" target="_blank">Bias in Facial Recognition</a> by Joy Buolamwini and another on <a href="https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end" target="_blank">Blind Faith in Big Data Must End</a> by Cathy O'Neil.</li>
+    <li style="padding-bottom:5px">This <a href="https://www.youtube.com/watch?v=Fq1SEqNT-7c" target="_blank">video</a> is on the use of Facial Recognition in China and privacy concerns.</li>
+    <li style="padding-bottom:5px">This is <a href="https://www.youtube.com/watch?v=7lpCWxlRFAw" target="_blank">a report on police crime prediction software and bias.</a></li>
+    <li style="padding-bottom:5px"> Microsoft had to silence its new <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>	 chat bot. </li>
+    <li style="padding-bottom:5px"><a href="https://www.utsa.edu/today/2020/08/story/algorithm-bias-health-tweets.html" target="_blank">Bias in Health tracking</a>  </li>
+    <li style="padding-bottom:5px"><a href="https://www.cnn.com/2020/08/23/tech/algorithms-bias-inequality-intl-gbr/index.html" target="_blank">Bias in college acceptance</a>  
     </ul>
 
     <h3>Optional: App Inventor Artificial Intelligence Tutorials</h3>

@@ -41,7 +41,7 @@ Introduction and Goals
     <tbody>
     <tr>
     <td colspan=2>
-		<p>In earlier apps that we designed in this course, we used TinyDB to store and retrieve data on our physical device (phone or tablet). But in this lesson, we will build a simple Clicker App that will store and retrieve data from a cloud database on the web.</p>
+		<p>In earlier apps that we designed in this course, we used TinyDB to store and retrieve data on our physical device (phone or tablet). In this lesson, we will build a simple Clicker App that will store and retrieve data from a cloud database on the web.</p>
         <p> Imagine a teacher asking the class a question and students voting on it. We want to design an app that can not only store the results from each student in one central place but also allow the teacher and the students to view the results in real time.</p>
 	</td>
 	</tr>
@@ -74,36 +74,41 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Introduction:  Abstracting an App's Data</h3>
-    <p> In this polling app, we will create a clicker that can answer a yes/no question while allowing the user to see the poll results in real time. When your code is completed, you will have a clicker app that stores all 
-      of its data outside of the app using a cloud database for a high-level <b>data abstraction</b>.</p>
+    <p>We will create a polling app that enables students to answer a yes/no question then display the poll results in real time. When your code is completed, you will have a clicker app that stores all 
+      of its data on the Web using a cloud database for a high-level <b>data abstraction</b>.</p>
     <h3>Database Concepts: TinyDB vs.  CloudDBs</h3>
     <p>
       Before working on the app itself, it is important to understand what <i>CloudDB</i> is and how it differs from <i>TinyDB</i>.  As you know from a 
-      <a href="../mobilecsp/unit?unit=22&amp;lesson=187" target="_blank">previous lesson</a>, 
+      <a href="../Unit3-Creating-Graphics-Images/Map-Tour-With-TinyDB.html" target="_blank">previous lesson</a>, 
       we can use a TinyDB component to <i><b>persist</b></i> data.  TinyDB stores its data on the
       device itself—the phone or tablet—and access to the data is <i><b>synchronous</b></i>, 
-      which means that access to the data is immediate. It's good for sharing data between uses of the app on the same device, but it is not good for sharing data among multiple users on multiple devices.
+      which means that access to the data is immediate. It's good for sharing data between uses of the app on the same device, but it is not good for sharing data among users on different devices.
     </p>
-    <p> <b>CloudDB</b> is a web-based database service. It is non-visible component that can be used to store and retrieve data values in a database located on the Web.  It can be found in the Palette’s <b>Storage</b> drawer. Whereas TinyDB stores data only on the device running the app, CloudDB can be shared among multiple users and multiple devices running the same app because it is online in the cloud, as its name implies. Access to the web data is <i><b>asynchronous</b></i>, which means that it may not happen immediately. Your program must request the data operation, and the web database will signal the program when it is completed. The app can continue running other commands at the same time as the web database is doing the data operation, until it is interrupted by the signal or event that the data operation is complete. 
+	<p>
+	<img src="../_static/assets/img/diary.png" width="125" style="float:right;padding-left:5px"/>
+	For example, consider a diary app which enables a user to record entries that contain personal information. The synchronous storage of a TinyDB would be effective for storing entries in this app that a user does not want to share with anyone on a different device. 
+	Next, consider a messaging app intended to allow users to communicate with other users of the app. If a TinyDB was used to store the messages, users of the app on different devices would not be able to access the messages and the app would not work as intended. For this app, a CloudDB would be a better choice.
+	</p>
+	<p> <b>CloudDB</b> is a web-based database service. It is a non-visible App Inventor component that can be used to store and retrieve data values in a database located on the Web.  It can be found in the palette’s <b>Storage</b> drawer. Whereas TinyDB stores data only on the device running the app, a CloudDB is shared among users on multiple devices running the same app because it stores data online, in the cloud. 
+	Access to the web data is <i><b>asynchronous</b></i>, which means storing and retrieving data may not happen immediately. Your program must request the data operation, and the CloudDB will signal the program when it is completed. The app can continue running other commands at the same time as the web database is doing the data operation, until it is interrupted by the event that the data operation is complete. 
     </p>
-    <p>Note that App Inventor also has <b>TinyWebDB</b> and <b>FirebaseDB</b> which are also web databases that can be used the same way as CloudDB with slight differences in the blocks. TinyWebDB does not have a when data changed block to push updates to all the shared devices. FirebaseDB  is a Google product and charges for some services. CloudDB is based on FirebaseDB with all the same blocks but it is hosted at MIT. </p><p>
-    </p><p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks instead in this tutorial! </p>
-    <p>The following tutorial video explains the basic concepts involved in using a web-based database like CloudDB.</p><p>
+    <p>Note that App Inventor also has <b>TinyWebDB</b> and <b>FirebaseDB</b> which are also web databases that can be used the same way as CloudDB with slight differences in the blocks. TinyWebDB does not have a <i>when data changed</i> block to push updates to all the shared devices. FirebaseDB  is a Google product and charges for some services. CloudDB is based on FirebaseDB with all the same blocks but it is hosted at MIT. </p>
+	<p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks for this tutorial! </p>
+    <p>The following video explains the basic concepts of using a web-based database like CloudDB.</p>
     <iframe allowfullscreen="" frameborder="0" height="470" src="https://www.youtube-nocookie.com/embed/TrxBrGq0c2U" width="630"></iframe>
     <br/>
         (<a href="https://www.teachertube.com/video/mobile-csp-database-fundamentals-485235" target="_blank" title="">TeacherTube Version</a>)
       <br/>
     </p>
     <p>
-    The CloudDB stores two types of records, individual data items in variables or lists. In this app, we will only be using it to store individual data items. Note that the tags are case sensitive in a CloudDB. 
-    
+    CloudDB stores two types of records, individual data items in variables or lists. In this app, we will only be using it to store individual data items. Note that the tags are case sensitive in a CloudDB. 
       
     </p><h3>Getting Ready</h3>
     <p>Start App Inventor with <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit6/templates/ClickerApp/ClickerWebDBtemplate.asc" target="_blank">Clicker App Template</a>.  Once the project opens use Save As to rename your project <i>ClickerCloudDB</i>. 
     </p>
     <p>
-    Follow the video tutorial below or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.<br/>
-    </p><p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks instead in this tutorial! <br/>
+    Follow the video tutorial below or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.</p>
+	<p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks for this tutorial! </p>
 
 .. youtube:: 25WJLbsgIrM
         :width: 650
@@ -118,27 +123,35 @@ Learning Activities
 
 	<h3>Testing the App</h3>
     <p>
-    This app is best tested by forming a group of students where everyone in the group loads one student's app using <b>Build/App (provide QR code for apk)</b>.   Make sure that as each person's app loads, that the most recent data stored in the database shows up on the User Interface. When one of student in your group votes, the latest data should update on everyone’s screen. Because this app is more easily tested using .apk files, we recommend it be built (and tested) on Android devices until iOS .apk files become available in App Inventor.</p>
+    This app is best tested by forming a group of students where everyone in the group loads one student's app using <b>Build/App (provide QR code for apk)</b>.   Make sure that as each person's app loads, that the most recent data stored in the database shows up on their device. When one of student in your group votes, the latest data should update on everyone’s screen. Because this app is more easily tested using .apk files, we recommend it be built (and tested) on Android devices until iOS .apk files become available in App Inventor.</p>
     <h3>Exercises and Enhancements</h3>
     <p>To appreciate the increased flexibility and generality that we get from centralizing data on the web, here are
-      some simple exercises to try. </p><ol>
-    <li><b>Create a Percentage Display Using the Thumb Switches</b>
-    <p>Read the         <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#Slider" target="_blank" title="">documentation on Thumb Sliders </a>before proceeding.
-        </p><p>The sliders or thumb switches are most frequently used to allow the user to set the value of some property by moving their thumb on a sliding scale. For our Clicker app, we     will be using this component in reverse - to create a percentage display based on the ratio of “Agree” and “Disagree” votes recorded by the app. <a href="https://www.youtube.com/watch?v=cm2-kVcWTuw&amp;feature=youtu.be" target="_blank" title="">This video</a> provides additional details on how to program the sliders to display percentages.
-        </p></li>
-    <li><p><b>Allow Users to Vote Only Once<br/></b>Modify the app so that the Clicker only allows the user to vote once (hint: there is an Enabled property for buttons). Votes will still be updated by the DataChanged procedure which is called automatically when the data in the database is updated. Add re-enabling the voting buttons when the user hits reset.  Re-enable the voting buttons when the user hits reset. Note: For testing purposes, it might be easier to disable the "vote only once" feature while testing other enhancements.</p></li>
-    <li style=""><p><b>Build a Teacher Version<br/></b> This special version of the app, the “Teacher” version, will update the question displayed on the screen in real time. 
-     First in the student app:
-      </p><ul>
-    <li>Change the student version of the app to accept new questions while the app is running. This will involve adding code to the CloudDB.DataChanged event handler to see if the question was changed in the database and changing the question label accordingly and re-enabling the voting buttons. Use the tag name "question". Note that the Question data will consist of a string, whereas the agree and disagree data were numbers.</li>
-    <li>Remove the RESET button from the UI of the student side so that only the teacher can reset the counters. </li>
+      some exercises to try. </p><ol>
+    <li style="padding-bottom:5px"><b>Create a Percentage Display Using the Thumb Switches<br/></b>
+		<ul>
+			<li style="padding-bottom:5px">Read the <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#Slider" target="_blank" title="">documentation on Thumb Sliders </a>before proceeding.</li>
+			<li style="padding-bottom:5px">The sliders or thumb switches are most frequently used to allow the user to set the value of some property by moving their thumb on a sliding scale. For our Clicker app, we will be using this component in reverse - to create a percentage display based on the ratio of “Agree” and “Disagree” votes recorded by the app.</li>
+			<li style="padding-bottom:5px"><a href="https://www.youtube.com/watch?v=cm2-kVcWTuw&amp;feature=youtu.be" target="_blank" title="">This video</a> provides additional details on how to program the sliders to display percentages.</li>
+		</ul>
+	</li>
+    <li style="padding-bottom:5px"><b>Allow Users to Vote Only Once<br/></b>
+	<ul>
+		<li style="padding-bottom:5px">Modify the app so that the app only allows the user to vote once (hint: there is an <i>Enabled</i> property for buttons). Votes will still be updated by the <i>DataChanged</i> procedure which is called automatically when the data in the database is updated. 
+		<li style="padding-bottom:5px">Add re-enabling the voting buttons when the user hits reset. Note: For testing purposes, it might be easier to disable the "vote only once" feature while testing other enhancements.</li>
+	</ul>
+    <li style="padding-bottom:5px"><b>Build a Teacher Version<br/></b> This special version of the app, the “Teacher” version, will update the question displayed on the screen in real time. 
+     First in the student app.
+      <ul>
+    <li style="padding-bottom:5px">Change the student version of the app to accept new questions while the app is running. This will involve adding code to the <i>CloudDB.DataChanged</i> event handler to see if the question was changed in the database and changing the question label accordingly and re-enabling the voting buttons. Use the tag name "question". Note that the question data will consist of a string, whereas the agree and disagree data were numbers.</li>
+    <li style="padding-bottom:5px">Remove the RESET button from the UI of the student side so that only the teacher can reset the counters. </li>
     </ul>
-    <p>Build a separate version of the app called "ClickerTeacher" (use Projects/Save As). Allow only this version to change the questions. Note that when you use Projects/Save As, the CloudDB token and ProjectID will both stay the same, so the student app and the teacher app can share the same database. Also, when testing the app, it may be easier to use QR codes to load the two versions of the app instead of trying to use the Companion.</p> <p style="color:red"> Note: If using Projects/Save As does not copy the CloudDB token, you may need to copy and paste the token from the student version into a text editor (e.g. a Google doc) and then copy and paste the token from the text editor into the teacher version.</p><ul>
-    <li>
-    Replace the Question Label in the teacher version of the app with a TextBox to allow the teacher to update the question field in real time. 
+    <p>Build a separate version of the app called "ClickerTeacher" (use Projects/Save As). Allow only this version to change the questions. Note that when you use Projects/Save As, the CloudDB token and ProjectID will both stay the same, so the student app and the teacher app can share the same database. Also, when testing the app, it may be easier to use QR codes to load the two versions of the app instead of trying to use the Companion.</p> <p style="color:red"> Note: If using Projects/Save As does not copy the CloudDB token, you may need to copy and paste the token from the student version into a text editor (e.g. a Google doc) and then copy and paste the token from the text editor into the teacher version.</p>
+	<ul>
+    <li style="padding-bottom:5px">
+    Replace the question label in the teacher version of the app with a <i>TextBox</i> to allow the teacher to update the question field in real time. 
       </li>
-    <li>Add a “Update Question” button to the teacher app that will store the new question into the CloudDB database from where it will get pushed to all the users. Remember the tag name you used (question)! Also, reset the counters and store them in the database too. </li>
-    <li>Test with your group with one student using the teacher app and the rest using the corresponding student apps.</li>
+    <li style="padding-bottom:5px">Add an “Update Question” button to the teacher app that will store the new question into the CloudDB from where it will get pushed to all the users. Remember the tag name you used (question)! Also, reset the counters and store them in the database too. </li>
+    <li style="padding-bottom:5px">Test with your group with one student using the teacher app and the rest using the corresponding student apps.</li>
     </ul> </li>
     </ol>
     
