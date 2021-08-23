@@ -53,19 +53,20 @@ Introduction and Goals
     <p>
     <table><tbody>
     <tr><td valign="top" colspan=2><p><b><i>I Have a Dream!</i></b> is an educational "soundboard" app that plays the famous speech of Martin Luther King. This is a great example of a socially-useful app which provides multimedia education on American history and the civil rights movement.</p></td></tr>
-    <tr><td valign="top"><iframe allowfullscreen="" frameborder="0" height="420" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="315"></iframe>
+    <tr><td valign="top"><iframe allowfullscreen="" frameborder="0" height="365" src="https://www.youtube.com/embed/pQ0zjP-VC2E" width="275"></iframe>
     <br/>(<a href="http://www.teachertube.com/video/358482" target="_blank">Teacher Tube version</a>)</td>
     <td valign="top">
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
-           <li>follow an instructor-led walkthrough to create the <i>I Have a Dream</i> app on a mobile device</li>
-           <li>navigate the App Inventor programming platform</li>
+           <li>follow a tutorial to create the <i>I Have a Dream</i> app on a mobile device</li>
            <li>develop your understanding of what an App Inventor program is</li>
+		   <li>navigate the App Inventor programming platform</li>
            <li>develop your understanding of event handlers</li>
+		   <li>identify elements of the <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span></li>
        </ul>
        <div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, <span class="hover vocab yui-wk-div" data-id='Event Handler'>event handler</span>, button, sound, and label,<!--<span class="hover vocab yui-wk-div" data-id='Button'>button</span>, <span class="hover vocab yui-wk-div" data-id='Sound'>sound</span>, and <span class="hover vocab yui-wk-div" data-id='Label'>label</span>,--> while describing app features and User Interface with the support of a word bank</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, <span class="hover vocab yui-wk-div" data-id='Event Handler'>event handler</span>, button, sound, and label,<!--<span class="hover vocab yui-wk-div" data-id='Button'>button</span>, <span class="hover vocab yui-wk-div" data-id='Sound'>sound</span>, and <span class="hover vocab yui-wk-div" data-id='Label'>label</span>,--> while describing app features and user interface with the support of a word bank</li>
           <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </td>
@@ -141,17 +142,16 @@ Self-Check
     <table align="center">
     <tbody><tr>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="Input">Input</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Output">Output</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Interface">User Interface (UI)</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI Components</span>
+    <span class="hover vocab yui-wk-div" data-id="Input">input</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Output">output</span><br/>
+    <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span>
     </td>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="User Events">User Events</span>
-    <br/>
-    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">Event-driven Programming</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Event Handler">Event Handler</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="IDE">Integrated Development Environment (IDE)</span>
+    <span class="hover vocab yui-wk-div" data-id="User Events">user events</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Event Handler">event handler</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="IDE">integrated development environment (IDE)</span>
     </td>
     </tr>
     </tbody></table>

@@ -47,7 +47,6 @@ Introduction and Goals
 	</p>
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
-          <li>identify and correct errors in an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> or program</li>
           <li>explain how data can be represented in <span class="hover vocab yui-wk-div" data-id='bit'>bits</span></li>
           <li>explain the consequences of using <span class="hover vocab yui-wk-div" data-id='bit'>bits</span> to store data</li>
           <li>calculate the <span class="hover vocab yui-wk-div" data-id='binary number system'>binary</span> (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 2) equivalent of a positive integer (<span class="hover vocab yui-wk-div" data-id='base'>base</span> 10) and vice versa</li>

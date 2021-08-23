@@ -59,7 +59,7 @@ Introduction and Goals
     <div><b>Learning Objectives:</b>&nbspI will learn to</div>
     <ul>
     <li>express an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> that uses <span class="hover vocab yui-wk-div" data-id='sequence'>sequencing</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span> and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> without using a programming language</li>
-    <li>create algorithms, write conditional statements, write iteration statements</li>
+    <li>create algorithms, write conditional statements, and write iteration statements</li>
     </ul>
     <div><b>Language Objectives:</b>&nbspI will be able to</div>
     <ul>
@@ -73,7 +73,7 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Blockly Maze Problems</h3>
-	<p>Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <b><span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span></b> which is a way to describe the each step of the code in English to plan it out. 
+	<p>Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> which is a way to describe the each step of the code in English to plan it out. 
     Algorithms can be created from an idea, by combining existing algorithms, or by modifying existing algorithms. 
     Knowledge of existing algorithms can help in constructing new ones. Using existing correct algorithms as building blocks for constructing another <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.
     </p>
@@ -135,15 +135,19 @@ Learning Activities
     <h3>Algorithms: Solving a Maze</h3>
     <p>The problem below is similar to a type of AP CSP exam question. Consider a robot that can follow the simple <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span> commands below:
      </p><ul>
-    <li> <b>MOVE_FORWARD</b> : The robot moves 1 square forward in the direction it is facing.
-      </li><li> <b> ROTATE_RIGHT </b>: The robot turns right 90 degrees, staying in the same square but facing right.
-      </li><li><b> ROTATE_LEFT</b> : The robot turns left 90 degrees, staying in the same square but facing left.
-      </li><li><b> CAN_MOVE( <em>direction</em> )</b> : This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
+    <li style="padding-bottom:5px"> <b>MOVE_FORWARD</b>: The robot moves 1 square forward in the direction it is facing.
+      </li><li style="padding-bottom:5px"><b>ROTATE_RIGHT </b>: The robot turns right 90 degrees, staying in the same square.
+      </li><li style="padding-bottom:5px"><b>ROTATE_LEFT</b>: The robot turns left 90 degrees, staying in the same square.
+      </li><li style="padding-bottom:5px"><b>CAN_MOVE(<em>direction</em>)</b>: This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
     </li></ul>
-    <br/>Let's put our robot in the maze below. The robot is represented as a black triangle and is initially facing up. It can only move forward to a white square. It cannot move onto the black squares or move beyond the edge of the grid.  <br/>
-      <img src="../_static/assets/img/Q18SquareQuestion.png" width="20%"/>
-    <p>Answer the following questions with your POGIL group using <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">this worksheet</a>:
-      </p><ol>
+    <p>
+	Let's put our robot in the maze below. The robot is represented as a black triangle and is initially facing up. It can only move forward to a white square. It cannot move onto the black squares or move beyond the edge of the grid.
+	<br/>
+	<img src="../_static/assets/img/Q18SquareQuestion.png" width="20%" style="display: block; margin-left: auto; margin-right: auto;"/>
+	</p>
+	<br/>
+    Answer the following questions with your POGIL group using <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">this worksheet</a>.
+	  <ol>
     <li style="margin-bottom: 5px;">For the robot in the maze above, is CAN_MOVE(forward) true? Is CAN_MOVE(right) true?
          </li><li style="margin-bottom: 5px;">(<span style="font-weight: bold;">Portfolio</span>) Write an <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> using the 4 commands above to navigate the robot through the maze to reach the gray square. You can pretend that one of you is the robot and walk through your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span> with your fingers on the maze. Are there commands that are repeated in your <span class="hover vocab yui-wk-div" data-id='algorithm'>algorithm</span>? Circle them.
         </li><li style="margin-bottom: 5px;">(<span style="font-weight: bold;">Portfolio</span>) Let's replace the repeated commands with a <b><span class="hover vocab yui-wk-div" data-id='repetition'>repetition</span></b> <span class="hover vocab yui-wk-div" data-id='control structure'>control structure</span>. The following command can be used to repeat a block of commands:

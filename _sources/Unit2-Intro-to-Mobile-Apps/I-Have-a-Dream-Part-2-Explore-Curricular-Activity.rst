@@ -47,24 +47,19 @@ Introduction and Goals
        </tr>
        <tr>
        	<td>
-       		<iframe allowfullscreen="" frameborder="0" height="300" width="250" src="https://www.youtube.com/embed/CykBbRvB0lk"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)
+       		<iframe allowfullscreen="" frameborder="0" height="325" width="275" src="https://www.youtube.com/embed/CykBbRvB0lk"></iframe><br/>(<a href="http://www.teachertube.com/video/358484" target="_blank">Teacher Tube version</a>)
          </td>
          <td>
             <div><b>Learning Objectives:</b>&nbspI will learn to</div>
       	   <ul>
-         	   <li>follow an instructor-led walkthrough to create the <i>I Have a Dream </i>app on a mobile device</li>
+         	   <li>follow a tutorial to enhance the <i>I Have a Dream </i>app and add a new speech</li>
                <li>use a selection <span class="hover vocab yui-wk-div" data-id='If/Else'>if-else</span> block to pause and start the speeches</li>
-               <li>reuse code efficiently by using the copy and paste blocks feature in App Inventor Blocks Editor</li>
-               <li>use a <span class="hover vocab yui-wk-div" data-id='Horizontal Arrangement'>horizontal arrangement</span> to layout buttons side-by-side   	      </li>
                <li>name components in a standard format (description followed by component type, e.g. MalcolmButton) </li>
                <li>understand what a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> is</li>
             </ul>
-       	</td>
-       </tr>
-       <tr>
-         <td colspan=2>
             <div><b>Language Objectives:</b>&nbspI will be able to</div>
              <ul>
+				<li>differentiate between the functionality and purpose of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span></li>
                <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span> conditional, <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> and pair programming, while describing a computing innovation, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson.</li>
              </ul>
          </td>

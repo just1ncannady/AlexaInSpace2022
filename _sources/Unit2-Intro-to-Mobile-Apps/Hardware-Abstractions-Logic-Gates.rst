@@ -138,19 +138,22 @@ Learning Activities
     </li>
     <li style="margin-bottom: 5px;">Define 2 truth tables, one for each of the two meanings of OR that you discussed above.  Your truth table should
           consist of 4 rows that together provide all possible values for inputs A and B and what the result Z would be. For example, A is "soup" and B is "salad" and Z is "soup or salad" for one of the meanings of or above. 
-          <table border>
-    <tbody><tr><th>A</th><th>B</th><th>Z</th></tr><tr>
-    </tr><tr><td>False</td><td>False</td><td> </td></tr>
+          
+	<table style="width:200px; border: 1px solid black; margin-left: auto; margin-right: auto;">
+    <tbody>
+	<tr><th style="border: 1px solid black; text-align:center;width:75px;">A</th><th style="border: 1px solid black; text-align:center;width:75px;">B</th><th style="border: 1px solid black; text-align:center;width:75px;">Z</th></tr>
+	<tr><td>False</td><td>False</td><td></td></tr>
     <tr><td>False</td><td>True</td><td> </td></tr>
     <tr><td>True</td><td>False</td><td> </td></tr>
     <tr><td>True</td><td>True</td><td> </td></tr>
     </tbody></table>
+	<br/>
     </li>
     <li style="margin-bottom: 5px;">(<b>Portfolio</b>) The first sense of <b>OR</b> (soup or salad) is known as <b>Exclusive OR</b> and
           the second sense (accident or illness) is known as <b>Inclusive-OR</b>.  Inclusive-OR
           is the same as Boolean OR.  Exclusive-OR can
           be defined as:
-          <br/><br/>
+          <br/>
     <center style="font-size:large">(Either A <font color="red">OR</font> B) <font color="red">AND</font>  (<font color="red">NOT</font> 
             (both A <font color="red"> AND </font> B)).</center>
     <br/> Use  <a href="http://logic.ly/demo" target="_blank">Logicly edit mode</a> to construct the Exclusive-OR
