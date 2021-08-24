@@ -38,8 +38,9 @@ I Have a Dream Tutorial
         "User Events" : "Actions by the user such as button clicks.",
         "Event-driven Programming" : "In event-driven programming, the program is activated by events such as button clicks.",
         "Event Handler" : "A block of code that reacts to an event like a button click.",
-        "IDE" : "An IDE is software that provides comprehensive tools for programming such as UI design, code editing, and a way to interpret and run the program."
-        
+        "IDE" : "An IDE is software that provides comprehensive tools for programming such as UI design, code editing, and a way to interpret and run the program.",
+		"program" : "Code statements to be executed by a computer to perform a task. Also called software or an app.",
+		"program function" : "The behavior of a program when it is executed. What code does when it is run.",			
       };*/
     </script>
     <img height="25" src="../_static/assets/img/time.png" style="float:left" width="25"/>
@@ -66,7 +67,7 @@ Introduction and Goals
        </ul>
        <div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, <span class="hover vocab yui-wk-div" data-id='Event Handler'>event handler</span>, button, sound, and label,<!--<span class="hover vocab yui-wk-div" data-id='Button'>button</span>, <span class="hover vocab yui-wk-div" data-id='Sound'>sound</span>, and <span class="hover vocab yui-wk-div" data-id='Label'>label</span>,--> while describing app features and user interface with the support of a word bank</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, and <span class="hover vocab yui-wk-div" data-id='program function'>program function</span> while describing and app, its features, and user interface with the support of a word bank</li>
           <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </td>
@@ -142,16 +143,19 @@ Self-Check
     <table align="center">
     <tbody><tr>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="Input">input</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Output">output</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="User Events">user events</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>
+    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>
     <br/><span class="hover vocab yui-wk-div" data-id="Event Handler">event handler</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Input">input</span>
     <br/><span class="hover vocab yui-wk-div" data-id="IDE">integrated development environment (IDE)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Output">output</span><br/>
+	</td>
+    <td>
+	<span class="hover vocab yui-wk-div" data-id="program">program</span>
+	<br/><span class="hover vocab yui-wk-div" data-id="program">program function</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="User Events">user events</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span>
+
     </td>
     </tr>
     </tbody></table>

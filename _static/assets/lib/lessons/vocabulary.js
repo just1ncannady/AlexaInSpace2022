@@ -8,6 +8,9 @@ var vocabulary = {
     "Event-driven Programming" : "In event-driven programming, the program is activated by events such as button clicks.",
     "Event Handler" : "A block of code that reacts to an event like a button click.",
     "IDE" : "An IDE is software that provides comprehensive tools for programming such as UI design, code editing, and a way to interpret and run the program.",
+	//"program": "A  computer program is a sequence of instructions that controls the computer.",
+	"program" : "Code statements to be executed by a computer to perform a task. Also called software or an app.",
+	"program function" : "The behavior of a program when it is executed. What code does when it is run.",
   
   // Lesson 2.3
   "Internet" : "The Internet is the global public network of independent and autonomous networks that are governed by the Internet Protocol Suite (TCP/IP).",
@@ -29,7 +32,6 @@ var vocabulary = {
   
   //Lesson 2.5
   "computer":"A computer is a machine that processes information under the control of a program.",
-    "program": "A  computer program is a sequence of instructions that controls the computer.",
     "hardware": "A computer's hardware includes its electronic and mechanical components that carries out the instructions of a computer program.",
     "software": "Software consists of the programs that control the computer.",
     "general purpose computer":"A general purpose computer is one that can run many different programs (e.g. a  smartphone).",

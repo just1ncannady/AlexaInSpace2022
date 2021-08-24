@@ -128,6 +128,7 @@ Unit Overview
     <span class="hover vocab yui-wk-div" data-id="program">program</span><br/>
     </td>
     <td>
+	<span class="hover vocab yui-wk-div" data-id="program">program function</span><br/>
     <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span><br/>
     <span class="hover vocab yui-wk-div" data-id="pseudocode">pseudocode</span><br/>
     <span class="hover vocab yui-wk-div" data-id="RAM">RAM</span><br/>
