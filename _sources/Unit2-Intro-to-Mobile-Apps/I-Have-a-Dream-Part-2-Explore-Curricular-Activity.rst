@@ -59,7 +59,7 @@ Introduction and Goals
             </ul>
             <div><b>Language Objectives:</b>&nbspI will be able to</div>
              <ul>
-				<li>differentiate between the functionality and purpose of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span></li>
+				<li>differentiate between the functionality and <span class="hover vocab yui-wk-div" data-id="program purpose">purpose</span> of a <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span></li>
                <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='If/Else'>if/else</span> conditional, <span class="hover vocab yui-wk-div" data-id='Computing Innovation'>computing innovation</span> and pair programming, while describing a computing innovation, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson.</li>
              </ul>
          </td>
@@ -127,10 +127,11 @@ Self-Check
     <table align="center">
     <tbody><tr>
     <td>
-    <span class="hover vocab yui-wk-div" data-id="Computing Innovation">Computing Innovation</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="If/Else">If/Else</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI Components</span>
-    <br/><span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">Horizontal Arrangement</span>
+    <span class="hover vocab yui-wk-div" data-id="Computing Innovation">computing innovation</span>
+	<br/><span class="hover vocab yui-wk-div" data-id="program purpose">program purpose</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="If/Else">if/else</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">horizontal arrangement</span>
     </td></tr>
     </tbody></table>
     

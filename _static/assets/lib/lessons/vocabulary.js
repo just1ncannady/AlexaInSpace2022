@@ -10,7 +10,7 @@ var vocabulary = {
     "IDE" : "An IDE is software that provides comprehensive tools for programming such as UI design, code editing, and a way to interpret and run the program.",
 	//"program": "A  computer program is a sequence of instructions that controls the computer.",
 	"program" : "Code statements to be executed by a computer to perform a task. Also called software or an app.",
-	"program function" : "The behavior of a program when it is executed. What code does when it is run.",
+	"program function" : "The behavior of a program when it is executed. What the code does when it is run.",
   
   // Lesson 2.3
   "Internet" : "The Internet is the global public network of independent and autonomous networks that are governed by the Internet Protocol Suite (TCP/IP).",
@@ -29,6 +29,7 @@ var vocabulary = {
     "If/Else" : "Selection or conditional algorithm that allows a program to choose between different actions. ",
     "UI Components" : "Parts of the user interface such as Buttons, Labels, etc.",
     "Horizontal Arrangement" : "A component used to display a group of components laid out from left to right.",
+	"program purpose" : "The problem a program is intending to solve or the creative interest being pursued by a program. Why the program was written.",
   
   //Lesson 2.5
   "computer":"A computer is a machine that processes information under the control of a program.",
