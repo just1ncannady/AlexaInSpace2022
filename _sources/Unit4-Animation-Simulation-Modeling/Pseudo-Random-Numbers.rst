@@ -61,7 +61,7 @@ Introduction and Goals
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
 		<li>examine a series of numbers and discuss whether or not they look random</li> 
-		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span>, <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span>, and <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span> while considering how a computer models randomness, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span>, <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span>, and <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span> while considering how a computer models randomness, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
 	</p>
     

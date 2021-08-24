@@ -54,7 +54,7 @@ Introduction and Goals
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
 		<li>discuss in detail the benefits of writing procedures in programming</li>
-		<li>describe the functionality of an app using key vocabulary such as event, timer, and sprite, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
+		<li>describe the functionality of an app using key vocabulary such as event, timer, and sprite, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>
 		</ul>
 	</td>
 	</tr>
