@@ -53,7 +53,7 @@ Introduction and Goals
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
 		<li>identify and describe <span class="hover vocab yui-wk-div" data-id="Data Privacy">data privacy</span>, <span class="hover vocab yui-wk-div" data-id="Data Security">data security</span>, and <span class="hover vocab yui-wk-div" data-id="Data Storage">data storage</span> concerns of computing innovations</li>
-		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="Cookies">cookies</span> and <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PTI)</span> while discussing privacy concerns, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="Cookies">cookies</span> and <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PTI)</span> while discussing privacy concerns, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
 	</td>
     </tr>

@@ -64,7 +64,7 @@ Introduction and Goals
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
 			<li>represent data in a table, explore the results of a simulation, and test my <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span>
-			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>, <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span>, and <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span> while using an app to examine a <span class="hover vocab yui-wk-div" data-id="model">model</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>, <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span>, and <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span> while using an app to examine a <span class="hover vocab yui-wk-div" data-id="model">model</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>
 		</td>
 	</tr>

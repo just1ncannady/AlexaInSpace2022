@@ -53,7 +53,7 @@ Introduction and Goals
 			  <div><b>Language Objectives:</b>&nbspI will be able to</div>
 			  <ul>
 			  <li>discuss how code changes will produce desired outputs in my app</li>
-			  <li>describe the design process of an app using key vocabulary such as empathize, ideate, and prototype, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>			
+			  <li>describe the design process of an app using key vocabulary such as empathize, ideate, and prototype, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>			
 			  </ul>
 		</td>
     </tr>
