@@ -39,7 +39,7 @@ I Have a Dream Tutorial
         "Event-driven Programming" : "In event-driven programming, the program is activated by events such as button clicks.",
         "Event Handler" : "A block of code that reacts to an event like a button click.",
         "IDE" : "An IDE is software that provides comprehensive tools for programming such as UI design, code editing, and a way to interpret and run the program.",
-		"program" : "Code statements to be executed by a computer to perform a task. Also called software or an app.",
+		"program" : "Code statements or a sequence of instructions to be executed by a computer to perform a task.  Also called software or an app.",
 		"program function" : "The behavior of a program when it is executed. What code does when it is run.",			
       };*/
     </script>
@@ -60,14 +60,14 @@ Introduction and Goals
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
            <li>follow a tutorial to create the <i>I Have a Dream</i> app on a mobile device</li>
-           <li>develop your understanding of what an App Inventor program is</li>
+           <li>develop your understanding of what an App Inventor <span class="hover vocab yui-wk-div" data-id="program">program</span> is</li>
 		   <li>navigate the App Inventor programming platform</li>
            <li>develop your understanding of event handlers</li>
 		   <li>identify elements of the <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span></li>
        </ul>
        <div><b>Language Objectives:</b>&nbspI will be able to</div>
        <ul>
-          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, and <span class="hover vocab yui-wk-div" data-id='program function'>program function</span> while describing and app, its features, and user interface with the support of a word bank</li>
+          <li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id='Input'>input</span>, <span class="hover vocab yui-wk-div" data-id='Output'>output</span>, and <span class="hover vocab yui-wk-div" data-id='program function'>program function</span> while describing an app, its features, and user interface with the support of a word bank</li>
           <li>summarize <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span> for the portfolio reflection questions with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
        </ul>
     </td>
@@ -108,9 +108,9 @@ Learning Activities
     <h3>Input/Output</h3>
     <p><img src="../_static/assets/img/phoneIO.png" style="float:left;margin:2px" width="250px"/> 
     
-    Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <span class="hover vocab yui-wk-div" data-id="Input">input</span> from the users and displaying <span class="hover vocab yui-wk-div" data-id="Output">output</span><br/> to the users. Input  is data sent to a computer for processing by a program, and output is the data sent back from the program to the device.  Program output is usually based on a program’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
-    <p>Designing a good <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span> for a program is very important! User Experience (UX) designers are very much in demand. Most programs and apps these days are <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>, which means they display the UI and wait for a <span class="hover vocab yui-wk-div" data-id="User Events">user event</span>, for example for the user to touch a button as input.  In event-driven programming, program statements are executed when triggered rather than through the sequential flow of control.
-    Events are triggered when a key is pressed, a mouse is clicked, a program is started by another application, etc., and they supply input data to a program and trigger different blocks of code in the program that influence its behavior.  A program needs to work for a variety of inputs and situations!</p>
+    Our mobile devices and computers are built to interact with us. The mobile apps that you create will also communicate with users by getting <span class="hover vocab yui-wk-div" data-id="Input">input</span> from the users and displaying <span class="hover vocab yui-wk-div" data-id="Output">output</span><br/> to the users. Input  is data sent to a computer for processing by a <span class="hover vocab yui-wk-div" data-id="program">program</span>, and output is the data sent back from the <span class="hover vocab yui-wk-div" data-id="program">program</span> to the device.  <span class="hover vocab yui-wk-div" data-id="program">Program</span> output is usually based on a <span class="hover vocab yui-wk-div" data-id="program">program</span>’s input or prior state (e.g., internal values or variables). Input and output can come in many forms, such as <b>tactile</b> (for example touching a button or the device vibrating), <b>audible</b> (a sound), <b>visual</b> (an image), or <b>text</b>. Try listing all the forms of input and output in the I Have a Dream app!  </p>
+    <p>Designing a good <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span> for a <span class="hover vocab yui-wk-div" data-id="program">program</span> is very important! User Experience (UX) designers are very much in demand. Most <span class="hover vocab yui-wk-div" data-id="program">programs</span> and apps these days are <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming</span>, which means they display the UI and wait for a <span class="hover vocab yui-wk-div" data-id="User Events">user event</span>, for example for the user to touch a button as input.  In <span class="hover vocab yui-wk-div" data-id='Event-driven Programming'>event-driven programming</span>, <span class="hover vocab yui-wk-div" data-id="program">program</span> statements are executed when triggered rather than through the sequential flow of control.
+    Events are triggered when a key is pressed, a mouse is clicked, a <span class="hover vocab yui-wk-div" data-id="program">program</span> is started by another application, etc., and they supply input data to a <span class="hover vocab yui-wk-div" data-id="program">program</span> and trigger different blocks of code in the <span class="hover vocab yui-wk-div" data-id="program">program</span> that influence its behavior.  A <span class="hover vocab yui-wk-div" data-id="program">program</span> needs to work for a variety of inputs and situations!</p>
     
 
 Summary
