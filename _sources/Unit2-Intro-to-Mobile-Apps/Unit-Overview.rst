@@ -51,110 +51,154 @@ Unit Overview
     &lt;/li&gt;&lt;/ul&gt;
     
     <!--2020 Vocab Table-->
-    <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit2-Intro-to-Mobile-Apps/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.<table align="center">
+    <h3>Vocabulary Terms</h3> <p>Below are the vocabular terms that you'll learn in this unit separated into categories. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit2-Intro-to-Mobile-Apps/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.<br></p>
+	
+	<table border align="left" width="100%" >
     <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">MIT App Inventor</th> 
+	</tr>
     <tr>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="abstracting">abstracting</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="abstraction">abstraction</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="algorithm">algorithm</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="AND gate">AND gate</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="base">base</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="binary number system">binary number system</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="binary sequence">binary sequence</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="bit">bit</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="blacklist">blacklist</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="boolean">Boolean</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="browser">browser </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="byte">byte</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="character">character</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="chip">chip</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="compilation">compilation</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="computer">computer</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Computing Innovation">computing innovation</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="constant">constant</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="control structure">control structure</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="CPU">CPU</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="cyberspace">cyberspace</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="data">data</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="data abstraction">data abstraction</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="data center">data center</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="data network">data network</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decimal number system">decimal number system</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="disk drive">disk drive</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Event Handler">event handler </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="flip flop">flip flop</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="flowchart">flowchart</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="general purpose computer">general purpose computer</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="hardware">hardware</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="hexadecimal number system">hexadecimal number system</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="high level language">high level language</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">horizontal arrangement</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="HTTP (HyperText Transfer Protocol)">HTTP</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="IDE">IDE </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="IETF">IETF</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="If/Else">if/else</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="Input">input </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="integrated circuit">integrated circuit</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="intellectual property">intellectual property</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Internet">Internet </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="interpretation">interpretation</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="iteration">iteration</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="logic gate">logic gate</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="machine language">machine language</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Moore’s Law">Moore’s Law</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="motherboard">motherboard</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="network">network</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="NOT gate">NOT gate</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="octal number system">octal number system</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="open standard">open standard</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="OR gate">OR gate</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Output">output </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="positional number system">positional number system</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="processor">processor</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="program">program</span><br/>
-    </td>
-    <td>
-	<span class="hover vocab yui-wk-div" data-id="program function">program function</span><br/>
-		<span class="hover vocab yui-wk-div" data-id="program purpose">program purpose</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="pseudocode">pseudocode</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="RAM">RAM</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="repetition">repetition</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="selection">selection</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="sequence">sequence</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="social network">social network</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="software">software</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="special purpose computer">special purpose computer</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP </span><br/>
-	<span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="transistor">transistor</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Events">user events </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="User Interface">user interface </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="whitelist">whitelist</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">WWW </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span><br/>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Event Handler">event handler </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Event-driven Programming">event-driven programming </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Horizontal Arrangement">horizontal arrangement</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="UI Components">UI components</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="User Events">user events </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="User Interface">user interface </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th> 
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="abstracting">abstracting</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="abstraction">abstraction</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="algorithm">algorithm</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="base">base</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="binary number system">binary number system</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="binary sequence">binary sequence</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="bit">bit</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="boolean">Boolean</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="byte">byte</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Computing Innovation">computing innovation</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="constant">constant</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="control structure">control structure</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data">data</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data abstraction">data abstraction</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="decimal number system">decimal number system</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="HTTP (HyperText Transfer Protocol)">HTTP</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="If/Else">if/else</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Input">input </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Internet">Internet </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="iteration">iteration</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="network">network</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Output">output </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="procedural abstraction">procedural abstraction</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="program">program</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="program function">program function</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="program purpose">program purpose</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="protocol">protocol</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="pseudocode">pseudocode</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="repetition">repetition</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="selection">selection</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="sequence">sequence</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="software">software</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="special purpose computer">special purpose computer</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="TCP/IP">TCP/IP </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="World Wide Web (WWW)">WWW </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="WWW as a higher level of abstraction">WWW as a higher level of abstraction</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+    <th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th> 
+	</tr>
+	<tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="blacklist">blacklist</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="browser">browser </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="character">character</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="compilation">compilation</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="computer">computer</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="cyberspace">cyberspace</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data center">data center</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data network">data network</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="flowchart">flowchart</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="general purpose computer">general purpose computer</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="hexadecimal number system">hexadecimal number system</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="high level language">high level language</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="IDE">IDE </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="IETF">IETF</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="interpretation">interpretation</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="logic gate">logic gate</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="machine language">machine language</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Moore’s Law">Moore’s Law</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="octal number system">octal number system</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="open standard">open standard</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="positional number system">positional number system</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="social network">social network</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Tim Berners-Lee">Tim Berners-Lee</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="whitelist">whitelist</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%">
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3"> Hardware</th> 
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="AND gate">AND gate</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="chip">chip</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="CPU">CPU</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="disk drive">disk drive</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="flip flop">flip flop</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="hardware">hardware</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="integrated circuit">integrated circuit</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="motherboard">motherboard</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="NOT gate">NOT gate</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="OR gate">OR gate</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="processor">processor</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="RAM">RAM</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="transistor">transistor</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	<br>
+	
     </div>
 
 Self-Check
