@@ -63,7 +63,7 @@ Introduction and Goals
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
 			<li>represent data in a graph then analyze and make conclusions about the algorithms being run based on my data</li>
-			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=efficiency>efficiency</span> and <span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem</span> while experimenting with search and sort algorithms with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id=efficiency>efficiency</span> and <span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem</span> while experimenting with search and sort algorithms with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>	
 		</td>
 	</tr>

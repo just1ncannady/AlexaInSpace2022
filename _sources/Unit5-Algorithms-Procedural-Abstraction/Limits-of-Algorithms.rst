@@ -55,10 +55,16 @@ Introduction and Goals
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time</span>, <span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time</span>, <span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems</span>, <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems</span> and <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problem</span> while discussing algorithms, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time</span>, <span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time</span>, <span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems</span>, <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems</span> and <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problem</span> while discussing algorithms, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
+
+Learning Activities
+--------------------
+
+.. raw:: html
 	
-    There are two categories of problems that an algorithm cannot solve.
+    <p> There are two categories of problems that an algorithm cannot solve.
+	</p>
     <ol>
     <li style="margin-bottom: 5px"><span class="hover vocab yui-wk-div" data-id='undecidable problems'>Undecidable Problems</span>.  These problems
           are the theoretically impossible to solve — by any algorithm. The <span class="hover vocab yui-wk-div" data-id="The Halting Problem">halting problem</span> is a <span class="hover vocab yui-wk-div" data-id='decision problem'>decision problem</span> (with a yes or no answer) that is <span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable</span>. A computer cannot tell if it is in an infinite loop or it will at some point stop!
@@ -86,13 +92,6 @@ Introduction and Goals
 
 
     <br/>
-       
-
-Learning Activities
---------------------
-
-.. raw:: html
-	
 	<div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom: Creating a Strong Password (15 minutes)</h3>
     <p>To give us a better sense of what it takes to create a strong password -- i.e., one that can
