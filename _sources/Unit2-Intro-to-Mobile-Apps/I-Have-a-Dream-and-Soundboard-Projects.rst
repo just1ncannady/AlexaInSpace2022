@@ -53,7 +53,7 @@ Introduction and Goals
        <td>
           <div><b>Learning Objectives:</b>&nbspI will learn to</div>
           <ul>
-          <li>better navigate the App Inventor programming platform</li>
+          <li>better navigate the MIT App Inventor programming platform</li>
           <li>deepen my understanding of event-driven programming</li>
           <li>describe the functionality of a computing innovation</li>
           <li>use pair programming to improve an app</li>
@@ -74,13 +74,13 @@ Learning Activities
 .. raw:: html
 
     <h3>Enhancing the I Have a Dream App</h3>
-    <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open App Inventor</a>
+    <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open MIT App Inventor</a>
      in a separate tab and open your I Have a Dream app from the previous lesson.
       Complete the programming exercises described below and in the preview video.  Then, design your own sound board project below.
       
      </p><ol>
     <li>Give the app its own custom icon that will appear in the device's app launcher when the app is packaged (built). (Hint: Look in the <i>Screen</i>'s properties);</li>
-    <li>Use App Inventor's <a href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank">
+    <li>Use MIT App Inventor's <a href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank">
          Text-to-Speech</a> component (Media drawer) to get the app to speak some words
          instead of playing a speech when the Malcolm X button is pressed.
        </li>
@@ -89,7 +89,7 @@ Learning Activities
          Not all Android devices have a vibrate mode, which is usually a Sound setting.  
          For example, Nexus 7 tablets can not vibrate.)
        </li>
-    <li>Use App Inventor's <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html#AccelerometerSensor" target="_blank">
+    <li>Use MIT App Inventor's <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html#AccelerometerSensor" target="_blank">
          Accelerometer Sensor</a> (Sensor drawer) to trigger Malcolm X's Text-to-Speech when the device is shaken. 
        </li>
     </ol>
@@ -127,7 +127,7 @@ Learning Activities
     <li><a href="http://www.freesfx.co.uk/">Freesfx.co.uk</a> (requires registration)</li>
     </ul>
     <h3>Resizing Images and Sound Files</h3>
-    <p>App Inventor apps have a <b>5 Mb size limit</b>.  Therefore not all images and
+    <p>MIT App Inventor apps have a <b>5 Mb size limit</b>.  Therefore not all images and
       sounds you upload will work in your app.  Here are some tools that can
       be used to resize images and sounds:
     </p>
@@ -202,7 +202,7 @@ Self-Check
     :feedback_c: Let me add new information to help you solve this; a function is a block you place within an event handler. It is something the app does.
     :correct: a
 
-    In an App Inventor app, shaking the phone is a:
+    In an MIT App Inventor app, shaking the phone is a:
 
 
 .. raw:: html
@@ -250,7 +250,7 @@ Reflection: For Your Portfolio
       &lt;ol&gt;
         &lt;li&gt;In this lesson, you created your own &lt;i&gt;sound board app&lt;/i&gt;.  Give a brief description of it here.  Describe its theme, if it has one, and what particular sounds (music or speeches) it plays. Include the 1 minute video that you made for your app.&lt;/li&gt;
         &lt;li&gt;Describe how you designed your app&#39;s UI. What components does it use?&lt;/li&gt;
-        &lt;li&gt;Now that you&#39;ve had some experience building apps in App Inventor, what do you think about &lt;i&gt;&lt;b&gt;programming&lt;/b&gt;&lt;/i&gt;.  Is it a creative activity?  In what ways does it allow you to express yourself?&lt;/li&gt;
+        &lt;li&gt;Now that you&#39;ve had some experience building apps in MIT App Inventor, what do you think about &lt;i&gt;&lt;b&gt;programming&lt;/b&gt;&lt;/i&gt;.  Is it a creative activity?  In what ways does it allow you to express yourself?&lt;/li&gt;
       &lt;/ol&gt;-->
     </div>
     </div>

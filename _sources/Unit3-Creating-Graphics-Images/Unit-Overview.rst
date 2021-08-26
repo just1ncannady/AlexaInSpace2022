@@ -21,7 +21,7 @@ Unit Overview
     });
     </script>
     <!--
-    &lt;p&gt;This unit focuses on App Inventor&#39;s drawing and painting features and related topics
+    &lt;p&gt;This unit focuses on MIT App Inventor&#39;s drawing and painting features and related topics
     from the CS Principles curriculum.
     
     &lt;/p&gt;&lt;h3&gt;Unit Features&lt;/h3&gt;
@@ -29,14 +29,14 @@ Unit Overview
     &lt;li&gt;&lt;b&gt;Programming:&lt;/b&gt; The programming in this unit focuses mainly on App 
     Inventor&#39;s graphics features.  
     
-    &lt;p&gt;The  &lt;i&gt;Paint Pot&lt;/i&gt; app, the App Inventor version of the
+    &lt;p&gt;The  &lt;i&gt;Paint Pot&lt;/i&gt; app, the MIT App Inventor version of the
     classic finger painting program,  is presented in three parts.   A basic Paint Pot  tutorial introduces
-    App Inventor&#39;s &lt;i&gt;Canvas&lt;/i&gt; component and some of its drawing and painting commands as well as introduces the concept of 
+    MIT App Inventor&#39;s &lt;i&gt;Canvas&lt;/i&gt; component and some of its drawing and painting commands as well as introduces the concept of 
     a &lt;i&gt;global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>&lt;/i&gt; and the programming technique of &lt;i&gt;incrementing a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>&lt;/i&gt;.
     This tutorial is also followed by creative exercises. Later in the unit, images will be used with the Canvas and saved using &lt;i&gt;persistent&lt;/i&gt; data.  
     
     &lt;/p&gt;&lt;p&gt;Two additional programming lessons, the &lt;i&gt;Map Tour Tutorial &lt;/i&gt;and &lt;i&gt;Map Tour with <span class="hover vocab yui-wk-div" data-id='GPS'>GPS</span> and TInyDB,&amp;nbsp;&lt;/i&gt;introduce a technique
-    for accessing other apps from within App Inventor.  In this example, we learn how to access
+    for accessing other apps from within MIT App Inventor.  In this example, we learn how to access
     and control Google Maps from within a mobile app.
     
     
@@ -50,7 +50,7 @@ Unit Overview
     &lt;/li&gt;&lt;/ul&gt;
     -->
     <!--Below is the &quot;studentized&quot; version of the overview from the official syllabus-->
-    <p class="overview">This unit extends your mobile programming toolkit to several new App Inventor components and introduces a number of new programming concepts, including the concepts of <span class="hover vocab yui-wk-div" data-id="variable">variables</span>,  <span class="hover vocab yui-wk-div" data-id="list">list</span> and <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span>.  The main app in this unit, <i>The Paint Pot app</i>, a computational model of finger painting,  focuses on App Inventor's drawing and painting features and related topics from the CS Principles framework. The app is presented in three parts each of which is followed by a set of creative project exercises and challenges. This unit also introduces two other apps:  <i>Map Tour</i> app, which provides a first introduction to <span class="hover vocab yui-wk-div" data-id='list'>lists</span>, and <i>Map Tour with TinyDB</i>, which demonstrates how to incorporate external data and location into a mobile app.  You will also further your understanding of the <span class="hover vocab yui-wk-div" data-id="binary number system">binary number system</span> and be introduced to the idea of a <span class="hover vocab yui-wk-div" data-id='bit'>bit</span> as the fundamental unit of <span class="hover vocab yui-wk-div" data-id='data'>data</span>. Through a number of hands-on and interactive activities, you will explore how bits are used to represent images and how redundant <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bits can be used to detect simple data transmission errors. These lessons are complemented by an <i>Impact of CS</i> reading and activity.
+    <p class="overview">This unit extends your mobile programming toolkit to several new MIT App Inventor components and introduces a number of new programming concepts, including the concepts of <span class="hover vocab yui-wk-div" data-id="variable">variables</span>,  <span class="hover vocab yui-wk-div" data-id="list">list</span> and <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span>.  The main app in this unit, <i>The Paint Pot app</i>, a computational model of finger painting,  focuses on MIT App Inventor's drawing and painting features and related topics from the CS Principles framework. The app is presented in three parts each of which is followed by a set of creative project exercises and challenges. This unit also introduces two other apps:  <i>Map Tour</i> app, which provides a first introduction to <span class="hover vocab yui-wk-div" data-id='list'>lists</span>, and <i>Map Tour with TinyDB</i>, which demonstrates how to incorporate external data and location into a mobile app.  You will also further your understanding of the <span class="hover vocab yui-wk-div" data-id="binary number system">binary number system</span> and be introduced to the idea of a <span class="hover vocab yui-wk-div" data-id='bit'>bit</span> as the fundamental unit of <span class="hover vocab yui-wk-div" data-id='data'>data</span>. Through a number of hands-on and interactive activities, you will explore how bits are used to represent images and how redundant <span class="hover vocab yui-wk-div" data-id='parity'>parity</span> bits can be used to detect simple data transmission errors. These lessons are complemented by an <i>Impact of CS</i> reading and activity.
     </p>
     <div class="yui-wk-div" id="overview"><!-- Generated by generateBIEU --></div>
     <!--Original vocab <span class="hover vocab yui-wk-div" data-id='list'>list</span> 

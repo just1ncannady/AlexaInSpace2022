@@ -107,7 +107,7 @@ Learning Activities
       </li>
     <li>The <b><i>Cloud</i></b> is just a popular term for the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> and its applications used 
         largely in marketing and advertising. Facebook,  Google, Twitter, Dropbox are often referred to
-        as <i><b>cloud applications</b></i>.  They could also be called <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> applications.  App 
+        as <i><b>cloud applications</b></i>.  They could also be called <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span> applications. MIT App 
         Inventor is another example of a cloud application. 
       </li>
     <li><span class="hover vocab yui-wk-div" data-id='browser'>Browsers</span> are programs that display web pages and are used to navigate the WWW. Watch this quick, informative

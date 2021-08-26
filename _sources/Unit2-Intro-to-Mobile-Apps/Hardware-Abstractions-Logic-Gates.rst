@@ -182,7 +182,7 @@ Learning Activities
     </div>
     <h3>AP CSP Pseudocode Logical Operators</h3>
     
-    In App Inventor and in the AP CSP pseudocode, the logical operators AND, OR, and NOT can be used to combine boolean expressions in programming, and they behave in the same way that the AND, OR, and NOT logic gates behave in computer hardware. The exam reference sheet provides the definitions for the following logical operators where the condition can be a single boolean value or a boolean expression made up of other values and operators.
+    In MIT App Inventor and in the AP CSP pseudocode, the logical operators AND, OR, and NOT can be used to combine boolean expressions in programming, and they behave in the same way that the AND, OR, and NOT logic gates behave in computer hardware. The exam reference sheet provides the definitions for the following logical operators where the condition can be a single boolean value or a boolean expression made up of other values and operators.
     <ul>
     <li> <b> NOT condition</b>: evaluates to true if condition is false; otherwise it evaluates to false.</li>
     <li> <b>condition1 AND condition2</b>:  evaluates to true if both condition1 and condition2 are true; otherwise it evaluates to false. </li>

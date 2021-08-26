@@ -60,8 +60,8 @@ Introduction and Goals
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
            <li>follow a tutorial to create the <i>I Have a Dream</i> app on a mobile device</li>
-           <li>develop your understanding of what an App Inventor <span class="hover vocab yui-wk-div" data-id="program">program</span> is</li>
-		   <li>navigate the App Inventor programming platform</li>
+           <li>develop your understanding of what an MIT App Inventor <span class="hover vocab yui-wk-div" data-id="program">program</span> is</li>
+		   <li>navigate the MIT App Inventor programming platform</li>
            <li>develop your understanding of event handlers</li>
 		   <li>identify elements of the <span class="hover vocab yui-wk-div" data-id="User Interface">user interface (UI)</span></li>
        </ul>
@@ -83,7 +83,7 @@ Learning Activities
     <p>
     <h3>Tutorial</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/tutorials/aias/IHaveADreamStarter.asc" target="_blank">
-    open the I Have a Dream Starter project with the embedded tutorial in App Inventor</a> and login with your Google account into App Inventor.
+    open the I Have a Dream Starter project with the embedded tutorial in MIT App Inventor</a> and login with your Google account into MIT App Inventor.
       
      Follow along with your teacher or the following video tutorial. You can also use the embedded tutorial in the template or the <a href="https://drive.google.com/open?id=1Bg64PZclbPwhFg8Qg2GZJw5hVC08tDIFBhs5bBbyves" target="_blank" title="">text-version of this tutorial</a> or the <a href="https://drive.google.com/open?id=1x9KDcEIyXwC7_h-bRJQCe-sIuXpQTGSRUnONxMs-MLA" target="_blank">short handout</a>. </p>
      
@@ -129,7 +129,7 @@ Still Curious?
 
 .. raw:: html
 
-    <p>Did you enjoy creating your own app? In this course, you will get the chance to build lots of apps like this with the help of tutorials and you'll even have the chance to work on your own original app idea! If you finish this lesson early and want to try creating another app now, check out these <a href="https://appinventor.mit.edu/explore/ai2/beginner-videos" target="_blank" title="beginner App Inventor tutorials">fun beginner tutorials</a> from MIT App Inventor.
+    <p>Did you enjoy creating your own app? In this course, you will get the chance to build lots of apps like this with the help of tutorials and you'll even have the chance to work on your own original app idea! If you finish this lesson early and want to try creating another app now, check out these <a href="https://appinventor.mit.edu/explore/ai2/beginner-videos" target="_blank" title="beginner MIT App Inventor tutorials">fun beginner tutorials</a> from MIT App Inventor.
 	</p>
     
 Self-Check
@@ -212,16 +212,16 @@ Self-Check
     :random:
     :practice: T
     :answer_a: A cloud application
-    :feedback_a: Yes. App Inventor is an application that runs on the world wide web (WWW) and is accessed through a Web browser. 
+    :feedback_a: Yes. MIT App Inventor is an application that runs on the world wide web (WWW) and is accessed through a Web browser. 
     :answer_b: An Integrated Development Environment (IDE)
-    :feedback_b: Yes.  App Inventor is and IDE. As such, it is a collection of software tools for designing, developing, debugging, and testing mobile apps. 
+    :feedback_b: Yes.  MIT App Inventor is and IDE. As such, it is a collection of software tools for designing, developing, debugging, and testing mobile apps. 
     :answer_c: A software system for developing mobile apps.
-    :feedback_c: Yes, App Inventor is used for building mobile apps.
+    :feedback_c: Yes, MIT App Inventor is used for building mobile apps.
     :answer_d: A programming language
-    :feedback_d: Yes.  App Inventor is an example of a visual programming language. 
+    :feedback_d: Yes.  MIT App Inventor is an example of a visual programming language. 
     :correct: a,b,c,d
 
-    App Inventor is an example of which of the following (Choose all that apply)
+    MIT App Inventor is an example of which of the following (Choose all that apply)
 
 
 .. raw:: html

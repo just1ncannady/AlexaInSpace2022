@@ -24,15 +24,15 @@ Wrap Up
     
     
 
-App Inventor Drills
---------------------
+MIT App Inventor Drills
+------------------------
 
 .. raw:: html
 
     <p>Test and improve your coding knowledge and skills with some additional exercises.  For this unit there is one set of Drills.</p>
     
     <ul>
-    <li><a href="https://docs.google.com/document/d/10Km3PTjrSa4LUof1G5utgqdo8XjGebuOvDA8aoLKSzk" target="_blank">Basic App Inventor</a> -- drills that use basic App Inventor components, such as <i>Buttons</i>, <i>Labels</i>, <i>Sounds</i>, and a <i>Checkbox</i> together with basic programming concepts such as <i>if/else</i> and App Inventor's <i>event-driven programming</i> model.</li>
+    <li><a href="https://docs.google.com/document/d/10Km3PTjrSa4LUof1G5utgqdo8XjGebuOvDA8aoLKSzk" target="_blank">Basic MIT App Inventor</a> -- drills that use basic MIT App Inventor components, such as <i>Buttons</i>, <i>Labels</i>, <i>Sounds</i>, and a <i>Checkbox</i> together with basic programming concepts such as <i>if/else</i> and MIT App Inventor's <i>event-driven programming</i> model.</li>
     </ul>
     
 
