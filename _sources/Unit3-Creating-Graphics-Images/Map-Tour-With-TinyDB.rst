@@ -46,7 +46,7 @@ Introduction and Goals
     <li><b>Adding Destinations to the Tour.</b>  
            We will allow users to click on the map to add new destinations to the map tour.
           </li>
-    <li><b>Data Persistence.</b> We will incorporate  <i>TinyDB</i>, App Inventor's <span class="hover vocab yui-wk-div" data-id="database">database</span> component, which 
+    <li><b>Data Persistence.</b> We will incorporate  <i>TinyDB</i>, MIT App Inventor's <span class="hover vocab yui-wk-div" data-id="database">database</span> component, which 
             will enable the app to save new destinations for the user.  Locations that are added to the destinations
             list will be saved to the <span class="hover vocab yui-wk-div" data-id="database">database</span> and re-loaded into the app when it starts up again. 
           </li>
@@ -86,7 +86,7 @@ Learning Activities
     <p><h3>What is TinyDb?</h3></p>
     <p>Up until now, the data in our apps has been stored either in <b><i>global variables</i></b> or as the value of the <i><b>properties</b></i> of the app’s various components.  For example, when you store a piece of text in a Label, that data is stored in the computer’s main memory, in its RAM — random access memory.  And as we’ve learned, RAM is <b><i>volatile</i></b>,  meaning that any data stored there will be destroyed when the app is exited.
     </p>
-    <p>By contrast, data stored in the computer’s long-term storage — e.g., on the phone’s flash drive — will <b><i>persist</i></b> as long as the app is kept on the device.  There are various ways to store data permanently on a computer.  For example, you could store it in a file, such as a document or image file.   Another way to store persistent data is in a <span class="hover vocab yui-wk-div" data-id="database">database</span>.  App Inventor provides us a very simple, easy-to-use <span class="hover vocab yui-wk-div" data-id="database">database</span> in its <b><i>TinyDb</i></b> component.  Any data that we store in the TinyDb, will not disappear when the app is exited.   Instead, it will persist between uses of the app -- even if you turn off the device.</p>
+    <p>By contrast, data stored in the computer’s long-term storage — e.g., on the phone’s flash drive — will <b><i>persist</i></b> as long as the app is kept on the device.  There are various ways to store data permanently on a computer.  For example, you could store it in a file, such as a document or image file.   Another way to store persistent data is in a <span class="hover vocab yui-wk-div" data-id="database">database</span>.  MIT App Inventor provides us a very simple, easy-to-use <span class="hover vocab yui-wk-div" data-id="database">database</span> in its <b><i>TinyDb</i></b> component.  Any data that we store in the TinyDb, will not disappear when the app is exited.   Instead, it will persist between uses of the app -- even if you turn off the device.</p>
     <p>Before working on incorporating TinyDb into our app, the following video provides a brief overview of this very important component. (<a href="https://www.teachertube.com/videos/tiny-db-438788" target="_blank" title="">Teacher Tube version</a>)</p>
     
 .. youtube:: qVJF-i5LqjQ

@@ -42,7 +42,7 @@ Introduction and Goals
     <tbody>
       <tr>
 		<td valign="top" colspan=2><b><i>Paint Pot</i></b> is a “finger painting” app. It simulates dipping your finger in a pot of a paint then drawing with it on a canvas. 
-		The app uses buttons to change the paint colors and App Inventor’s <i>touch</i> and <i>drag</i> event handlers to draw circles and lines on the canvas.<br/>
+		The app uses buttons to change the paint colors and MIT App Inventor’s <i>touch</i> and <i>drag</i> event handlers to draw circles and lines on the canvas.<br/>
 		</td>
       </tr>    
       <tr>
@@ -73,7 +73,7 @@ Learning Activities
 .. raw:: html
 
     <p><h3><br/>Tutorial Part 1: Painting and Drawing on a Canvas</h3>
-    <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotMediaOnly/PaintPotMediaOnly.asc" target="_blank">open App Inventor with the Paint Pot Template</a>
+    <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotMediaOnly/PaintPotMediaOnly.asc" target="_blank">open MIT App Inventor with the Paint Pot Template</a>
      in a separate tab and follow along with the following video or your teacher.
     <br/>
     Or  click <a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/edit?usp=sharing" target="_blank">here for the text version of the tutorial</a> or the <a href="https://docs.google.com/document/d/18thDoU6Ru3v9TTxhGfELuvwagm3bTNFYh-iXchDntGw/edit?usp=sharing" target="_blank">short handout</a>.  
@@ -107,7 +107,7 @@ Learning Activities
     :feedback_d: If it were easy, you wouldn’t be learning anything!
     :correct: a
 
-    By default, when you add components to the App Inventor Viewer they are laid out ___________.
+    By default, when you add components to the MIT App Inventor Viewer they are laid out ___________.
 
 
 .. raw:: html
@@ -205,18 +205,18 @@ Learning Activities
 	<h3>AP CSP Pseudocode: Variables and Assignment Statements</h3>
 
     <p>
-    <p>A <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> provides a way to name a memory location in your program to hold different values. It is a <b>data abstraction</b> that exists in all programming languages. In App Inventor, we set up a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> using the <i>initialize global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span></i> block. The <i>get</i> block is used to get the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>'s current value whenever needed in the program. The <i>set </i>block is used to assign or change the value of the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.
+    <p>A <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> provides a way to name a memory location in your program to hold different values. It is a <b>data abstraction</b> that exists in all programming languages. In MIT App Inventor, we set up a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> using the <i>initialize global <span class="hover vocab yui-wk-div" data-id='variable'>variable</span></i> block. The <i>get</i> block is used to get the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>'s current value whenever needed in the program. The <i>set </i>block is used to assign or change the value of the <span class="hover vocab yui-wk-div" data-id='variable'>variable</span>.
     <br/> <img src="../_static/assets/img/initdotsize.png" width="20%"/>
     <img src="../_static/assets/img/getdotsize.png" width="20%"/> <img src="../_static/assets/img/setdotsize.png" width="20%"/>
     <br/>
     </p>
     <p> The AP CS Principles Exam does not have a designated programming language. It uses <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> which is a cross between computer code and everyday English. 
        <span class="hover vocab yui-wk-div" data-id='pseudocode'>Pseudocode</span> is less precise than actual computer code, 
-      such as Java or Python or App Inventor, but more precise and less wordy than everyday English. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam to help you understand the AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> format used in the exam. It includes two <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> styles: text-based and block-based.</p>
-    <p>In the College Board AP CSP exam, App Inventor set blocks are called <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> statements and are represented as the left-pointing arrow (←). The following text and block style <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> is used to assign values to <span class="hover vocab yui-wk-div" data-id='variable'>variables</span>:
+      such as Java or Python or MIT App Inventor, but more precise and less wordy than everyday English. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam to help you understand the AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> format used in the exam. It includes two <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> styles: text-based and block-based.</p>
+    <p>In the College Board AP CSP exam, MIT App Inventor set blocks are called <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> statements and are represented as the left-pointing arrow (←). The following text and block style <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> is used to assign values to <span class="hover vocab yui-wk-div" data-id='variable'>variables</span>:
         <br/>
     </p><table border="">
-    <thead><tr> <th>Function</th><th>AP Text </th> <th width="25%">AP Block </th><th>App Inventor</th></tr></thead>
+    <thead><tr> <th>Function</th><th>AP Text </th> <th width="25%">AP Block </th><th>MIT App Inventor</th></tr></thead>
     <tbody>
     <tr><td><span class="hover vocab yui-wk-div" data-id='assignment'>Assignment</span>:</td><td>a ← <em><span class="hover vocab yui-wk-div" data-id='expression'>expression</span></em></td><td><div class="yui-wk-div" id="APblocks">
     <bl>a ← <bl><span class="hover vocab yui-wk-div" data-id='expression'>expression</span></bl></bl></div></td><td><img src="../_static/assets/img/setdotsize.png" width="250px"/></td></tr>
@@ -234,7 +234,7 @@ Learning Activities
      For example, here is AP style <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> to set the dotsize <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> to 5 and then increment it (add one to it). The <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> dotsize will have the value 6 after these two lines of code are executed. The value stored in a <span class="hover vocab yui-wk-div" data-id='variable'>variable</span> will be the most recent value assigned.
     </p>
     <table border="">
-    <thead><tr> <th>Function</th><th width="25%">AP Text </th> <th width="25%">AP Block </th><th>App Inventor</th></tr></thead>
+    <thead><tr> <th>Function</th><th width="25%">AP Text </th> <th width="25%">AP Block </th><th>MIT App Inventor</th></tr></thead>
     <tbody>
     <tr><td>Set dotsize to 5</td><td>dotsize ← 5</td> <td> <div class="yui-wk-div" id="APblocks">
     <bl>dotsize ← <bl>5</bl></bl></div></td><td><img src="../_static/assets/img/initdotsize.png" width="250px"/></td></tr>
@@ -298,7 +298,7 @@ Self-Check
     :feedback_d: That's correct.  Variable names are alphanumeric symbols that must begin with a letter and can contain any combination of letters and digits. Other examples would be <i>name5, bigDot, passwd, smallDot.&nbsp;</i>
     :correct: d
 
-    Which of the following would be a valid App Inventor variable name? 
+    Which of the following would be a valid MIT App Inventor variable name? 
 
 
 .. raw:: html
@@ -461,7 +461,7 @@ Reflection: For Your Portfolio
     <!--&lt;p&gt;Create a new page named &lt;i&gt;&lt;b&gt;Paint Pot Tutorial&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and write brief answers to the following questions.&lt;/p&gt;
     
       &lt;ol&gt;
-        &lt;li&gt;Explain the meaning of the statements shown here, both in pseudocode and App Inventor. For 
+        &lt;li&gt;Explain the meaning of the statements shown here, both in pseudocode and MIT App Inventor. For 
           example, suppose the variable &lt;i&gt;X&lt;/i&gt; has the value 10 before the statement is executed.  What
           value would it have after the statement is executed. 
           &lt;table&gt;

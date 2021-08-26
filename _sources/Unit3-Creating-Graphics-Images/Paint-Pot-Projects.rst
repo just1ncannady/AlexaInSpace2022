@@ -72,7 +72,7 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Creative Mini Projects: Enhancing Paint Pot</h3>
-    <p>To get started, open App Inventor with your completed Paint Pot app from lesson 3.2 in a separate tab, and then complete the programming 
+    <p>To get started, open MIT App Inventor with your completed Paint Pot app from lesson 3.2 in a separate tab, and then complete the programming 
       projects outlined below. Additional information is available in the 
       <a href="https://docs.google.com/document/d/1s7PTuvw0fg03iEVUIW11yvHb1TzZdk6T_woT4grvQZY/" target="_blank">text 
         version of this lesson</a>.
@@ -168,7 +168,7 @@ Learning Activities
     <!-- 
     &lt;h2&gt;Solutions&lt;/h2&gt; 
     
-    &lt;p&gt;It is important to explore with App Inventor and become accustomed to 
+    &lt;p&gt;It is important to explore with MIT App Inventor and become accustomed to 
       programming without explicit instructions. So try out the challenges listed above 
       and see how far you can get. If you get stuck -- or if, after you&#39;ve finished, you&#39;d like to compare 
       your solutions to ours --  check out the following videos, which show how we solved the problems.
@@ -184,13 +184,13 @@ Learning Activities
     &lt;/h3&gt;
     -->
     <h3>AP CSP Pseudocode: If Statements</h3>
-    <p>Selection with if statements is used in every programming language. The AP CS Principles Exam uses a text-based and a block-based pseudocode for questions that involve code. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam describing this pseudocode. The table below compares AP CSP pseudocode to App Inventor blocks for  if statements and relational operators. Note that the curly brackets { } are used in AP text pseudocode (and in many text-based programming languages) to indicate the start and end of a block of code.
+    <p>Selection with if statements is used in every programming language. The AP CS Principles Exam uses a text-based and a block-based pseudocode for questions that involve code. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam describing this pseudocode. The table below compares AP CSP pseudocode to MIT App Inventor blocks for  if statements and relational operators. Note that the curly brackets { } are used in AP text pseudocode (and in many text-based programming languages) to indicate the start and end of a block of code.
       
       </p><p>The <b>relational operators</b> (=, ≠, &lt;, &gt;,&lt;=, &gt;=) are used inside if statements to compare variables with values or mathematical expressions, and they evaluate to a <b>Boolean</b> (true, false) value. For example, a = b evaluates to true if a and b are equal; otherwise, it evaluates to false. The logical operators NOT, AND, and OR can be used to combine conditions inside an if statement and also evaluate to a true or false Boolean value. </p>
     <p>If you have trouble telling &lt; and &gt; apart, think of a number line and think of &lt; and &gt; as arrows; &lt; (less than) points towards 0 and smaller numbers on the number line and &gt; (greater than) points towards the larger numbers on the number line. 
       </p>
     <table border="">
-    <tbody><tr> <th>Function</th><th>Text Style</th> <th width="25%">Block Style</th><th>App Inventor</th></tr>
+    <tbody><tr> <th>Function</th><th>Text Style</th> <th width="25%">Block Style</th><th>MIT App Inventor</th></tr>
     <tr><td>Selection (else optional)</td> <td>IF (<em>condition</em>) <br/> {
         <br/>   <em>block of statements</em><br/> } <br/>
          ELSE <br/>  {
@@ -210,7 +210,7 @@ Learning Activities
     <td><img src="../_static/assets/img/logicblocks.png" width="60%"/></td></tr>
     </tbody></table>
     <p>
-    We usually use if/else blocks to make a two way choice, but you can make a three way or even an unlimited number of choices with <b>nested else if statements</b>. In App Inventor, use the blue gear sign at the top of the if block and drag in as many else-if's as you need and end with an else block. For example, the block below will print out "Excellent" if your score is greater than 10, "Good job!" if your score is greater than 5, or "Keep Trying".  If the first condition is false (for example if score is 2), it will fall down to the next condition and so on until it reaches that last else. <br/>
+    We usually use if/else blocks to make a two way choice, but you can make a three way or even an unlimited number of choices with <b>nested else if statements</b>. In MIT App Inventor, use the blue gear sign at the top of the if block and drag in as many else-if's as you need and end with an else block. For example, the block below will print out "Excellent" if your score is greater than 10, "Good job!" if your score is greater than 5, or "Keep Trying".  If the first condition is false (for example if score is 2), it will fall down to the next condition and so on until it reaches that last else. <br/>
     <img src="../_static/assets/img/ifelseif.png" width="450"/>
     </p>
     <p>In addition, some conditional statements can be written as equivalent Boolean expressions or vice versa. For example,
@@ -431,7 +431,7 @@ Reflection: For Your Portfolio
           to this problem. Provide a screenshot of your code -- the revised blocks  -- and 
           describe how the if/else block works to solve the problem in this case. If appropriate, 
           include a description of any significant problems or bugs you encountered in solving 
-          this problem. The &lt;a href=&quot;https://support.microsoft.com/en-us/instantanswers/671b2932-1274-452a-905b-f7ed3c7d8818/open-snipping-tool-and-take-a-screenshot&quot; target=&quot;_blank&quot;&gt;Snipping Tool&lt;/a&gt; in Windows can be used to easily take screenshots of what&#39;s on your screen. App Inventor now has a &lt;em&gt;Download Blocks as Image&lt;/em&gt; feature (right click on the white space in the blocks editor to choose) that also can be used to take a screenshot of all of your code, see &lt;a href=&quot;https://www.youtube.com/watch?v=t7uhYaaflzg&quot;&gt;video tutorial&lt;/a&gt;.
+          this problem. The &lt;a href=&quot;https://support.microsoft.com/en-us/instantanswers/671b2932-1274-452a-905b-f7ed3c7d8818/open-snipping-tool-and-take-a-screenshot&quot; target=&quot;_blank&quot;&gt;Snipping Tool&lt;/a&gt; in Windows can be used to easily take screenshots of what&#39;s on your screen. MIT App Inventor now has a &lt;em&gt;Download Blocks as Image&lt;/em&gt; feature (right click on the white space in the blocks editor to choose) that also can be used to take a screenshot of all of your code, see &lt;a href=&quot;https://www.youtube.com/watch?v=t7uhYaaflzg&quot;&gt;video tutorial&lt;/a&gt;.
           &lt;/li&gt;
         &lt;li&gt;When you use the Camera component to take a picture as the Canvas background, explain
           why the picture goes away when the app is restarted. HINT:  Think about the different

@@ -77,7 +77,7 @@ Learning Activities
 
     <p><h3>Refactoring to Improve Code</h3>
     <p>
-      Open App Inventor with the <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotRefactor/PaintPotRefactorTemplate.asc" target="_blank">Paint Pot Refactor template</a>  in a separate tab and follow 
+      Open MIT App Inventor with the <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotRefactor/PaintPotRefactorTemplate.asc" target="_blank">Paint Pot Refactor template</a>  in a separate tab and follow 
       along with the video tutorial.   After the project opens, use the Save As option to rename 
       your project PaintPotWithProcedure.</p>
     
@@ -91,14 +91,14 @@ Learning Activities
     <p>(<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-refactoring-438785" target="_blank" title="">Teacher Tube version</a>)<br/></p>
     
     <h3>Procedural Abstraction</h3>
-    <p>In this lesson, we learned how to create <b>procedures</b> in App Inventor to refactor our code and reduce its complexity. <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural Abstraction</span>, the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job.  We only need to know what it does, not how it does it. </p>
+    <p>In this lesson, we learned how to create <b>procedures</b> in MIT App Inventor to refactor our code and reduce its complexity. <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural Abstraction</span>, the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job.  We only need to know what it does, not how it does it. </p>
     <p>
     <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural abstraction</span> allows <b>modularity</b> where a solution to a large problem can be found by creating procedures to solve each of the subproblems.  This modularity serves to organize our code by function and reduce its complexity. In addition, it helps with <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span>, code readibility, and maintenance since changes to that block of code only need to happen in one place.  <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural abstraction</span> allows us to reuse code that is already written instead of rewriting the code and repeating it. 
     And it allows programmers to change the internals of the procedure (to make it faster, more efficient, use less storage, etc.) without needing to notify users of the change as long as what the procedure does is preserved.  In Unit 5 in Logo part 2, you will learn to make procedures even more powerful and more abstract by adding parameters to the procedure. </p>
-    <p>In the College Board AP exam and Create Performance Task, you will be asked to identify and use procedural abstraction. The following AP pseudocode is used for procedures compared to App Inventor code:
+    <p>In the College Board AP exam and Create Performance Task, you will be asked to identify and use procedural abstraction. The following AP pseudocode is used for procedures compared to MIT App Inventor code:
       </p><table>
     <tbody>
-    <tr><td style="width:33%;text-align:center">AP Text Pseudocode</td><td style="width:33%;text-align:center">AP Block Pseudocode</td><td style="width:33%;text-align:center">App Inventor Block</td></tr>
+    <tr><td style="width:33%;text-align:center">AP Text Pseudocode</td><td style="width:33%;text-align:center">AP Block Pseudocode</td><td style="width:33%;text-align:center">MIT App Inventor Block</td></tr>
     <tr><td style="width:33%;">
     <pre>PROCEDURE name()
     {
@@ -121,35 +121,35 @@ Learning Activities
     </p>
     <p>In MIT App Inventor, each non-collapsed block comes with the capability of having a comment 
       added to it.   To access this capability you must <i><b>right-click on the block</b></i> and choose the 
-      <b><i>Add Comment option</i></b>.  This will add a small comment-icon, a blue circle with a question mark,  
+      <b><i>Add Comment option</i></b>.  This will add a small comment icon, a blue circle with a question mark,  
       to block (as shown here).
       <br/>
     <img src="../_static/assets/img/CommentRightClick.png" width="500"/>
     </p>
     <p>
-      To add or edit the <span class="hover vocab yui-wk-div" data-id="comment">comment</span>, simply click on the comment-icon and type in your comment, as shown here:
+      To add or edit the <span class="hover vocab yui-wk-div" data-id="comment">comment</span>, simply click on the comment icon and type in your comment, as shown here:
     </p>
     <br/>
     <img src="../_static/assets/img/CommentDisplayDotsize.png" width="500"/>
-    <p>In some programming languages, a form of external documentation may be used, especially if it is not possible to comment directly inside the program code. Some examples of external documentation include using a Google or text document for tracking development, a webpage, or a program index or glossary. MIT App Inventor's has external documentation on <a href="http://appinventor.mit.edu/explore/ai2/support/blocks" target="_blank" title="">Built-in Blocks</a> and on <a href="http://ai2.appinventor.mit.edu/reference/components/" target="_blank" title="">Components</a>. It may be helpful to reference these when building your own apps.</p>
-    <p>
-      A good commenting practice to follow is to provide <span class="hover vocab yui-wk-div" data-id="comment">comments</span> in the following situations:
-      </p><ul>
-    <li>To document every procedure that you define, as shown in this example here.</li>
-    <li>To clarify a complex algorithm that isn’t clearly obvious.</li>
-    <li>To acknowledge code segment(s) used in a program that were written by someone else or are from another source. In this case, the acknowledgement should include the origin source and/or the original author’s name.</li>
-    <li>To acknowledge code segment(s) created collaboratively. </li>
+    <p>In some programming languages, a form of external documentation may be used, especially if it is not possible to comment directly inside the program code. Some examples of external documentation include using a Google or text document for tracking development, a webpage, or a program index or glossary. MIT App Inventor has external documentation on <a href="http://appinventor.mit.edu/explore/ai2/support/blocks" target="_blank" title="">Built-in Blocks</a> and on <a href="http://ai2.appinventor.mit.edu/reference/components/" target="_blank" title="">Components</a>. It may be helpful to reference these when building your own apps.</p>
+    
+      A good commenting practice to follow is to provide <span class="hover vocab yui-wk-div" data-id="comment">comments</span> in the following situations.
+      <ul>
+    <li style="padding-bottom:5px">To document every procedure that you define, as shown in this example here.</li>
+    <li style="padding-bottom:5px">To clarify a complex algorithm that isn’t clearly obvious.</li>
+    <li style="padding-bottom:5px">To acknowledge code segment(s) used in a program that were written by someone else or are from another source. In this case, the acknowledgement should include the origin source and/or the original author’s name.</li>
+    <li style="padding-bottom:5px">To acknowledge code segment(s) created collaboratively. </li>
     </ul>
     <h3>Debugging</h3>
     
-    As your programs get larger, you will run across more <span class="hover vocab yui-wk-div" data-id="computer bug">bugs</span> (errors in your program) and you will have to spend more time <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> the programs to remove the <span class="hover vocab yui-wk-div" data-id="computer bug">bugs</span>. <span class="hover vocab yui-wk-div" data-id="computer bug">Debugging</span> takes a lot of time in text-based languages like Java because the programmer needs to type in everything exactly in the right case, with the right spelling, and with the right punctuation. App Inventor removes all syntax errors like this because the code is already written for you in the blocks. You do not need to type in any of the code. However, you can still make other errors that you will need to correct. For example, your code might not do what you want it to do. This is a runtime or semantic error.  
+    As your programs get larger, you will run across more <span class="hover vocab yui-wk-div" data-id="computer bug">bugs</span> (errors in your program) and you will have to spend more time <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> the programs to remove the <span class="hover vocab yui-wk-div" data-id="computer bug">bugs</span>. <span class="hover vocab yui-wk-div" data-id="computer bug">Debugging</span> takes a lot of time in text-based languages like Java because the programmer needs to type in everything exactly in the right case, with the right spelling, and with the right punctuation. MIT App Inventor removes all syntax errors like this because the code is already written for you in the blocks. You do not need to type in any of the code. However, you can still make other errors that you will need to correct. For example, your code might not do what you want it to do. This is a runtime or semantic error.  
     
-    Here are some <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> tips:
+    Here are some <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span> tips.
     <ul>
-    <li>Pretend you are the computer and step through the program line by line and carefully record what happen to see if you can spot the error. This is called <b>tracing</b> the code.</li>
-    <li>Put in a <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#Notifier" target="_blank">Notifier</a> block in the UI and then use <b>Notifier.ShowAlert</b> in the blocks to print out the values of different variables to see what they are as you are running the program. Or you could print out the values of variables in a label in your UI.</li>
-    <li>Look for error messages that pop up in the blocks editor or on your screen and for red X's in the code that indicate you have errors there. Test your code on specific <b>test-cases</b> that might cause errors.</li>
-    <li>Right click on a get block and choose <b>Do It</b> to see its value while it is running. Watch the video below on Do It and see <a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank">App Inventor Tips on Debugging</a>.</li>
+    <li style="padding-bottom:5px">Pretend you are the computer and step through the program line by line and carefully record what happen to see if you can spot the error. This is called <b>tracing</b> the code.</li>
+    <li style="padding-bottom:5px">Put in a <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#Notifier" target="_blank">Notifier</a> block in the UI and then use <b>Notifier.ShowAlert</b> in the blocks to print out the values of different variables to see what they are as you are running the program. Or you could print out the values of variables in a label in your UI.</li>
+    <li style="padding-bottom:5px">Look for error messages that pop up in the blocks editor or on your screen and for red X's in the code that indicate you have errors there. Test your code on specific <b>test-cases</b> that might cause errors.</li>
+    <li style="padding-bottom:5px">Right click on a get block and choose <b>Do It</b> to see its value while it is running. Watch the video below on Do It and see <a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank">MIT App Inventor Tips on Debugging</a>.</li>
     </ul>
     <iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/Z4ceHVE_L_8?rel=0" width="500"></iframe>
     

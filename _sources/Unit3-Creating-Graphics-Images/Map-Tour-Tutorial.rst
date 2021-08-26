@@ -45,7 +45,7 @@ Introduction and Goals
 
     <p>
     <table><tbody>
-	<tr><td colspan=2>The Map Tour App tutorial showcases some features of the <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in App Inventor  to create a map tour of different destinations. You will learn about an important <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> called <b>Lists</b> to keep track of the destinations.</td></tr>
+	<tr><td colspan=2>The Map Tour App tutorial showcases some features of the <a href="http://ai2.appinventor.mit.edu/reference/components/maps.html#Map" target="_blank">Map component</a> in MIT App Inventor  to create a map tour of different destinations. You will learn about an important <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> called <b>Lists</b> to keep track of the destinations.</td></tr>
     <tr>
 	<td valign=top><iframe allowfullscreen="" frameborder="0" height="275px" src="https://www.youtube.com/embed/JyqhNvOtQfA?rel=0" width="250px"></iframe>       
     (<a href="https://www.teachertube.com/video/mobile-csp-map-tour-preview-revised-476365" target="_blank">TeacherTube Version</a>)
@@ -53,7 +53,7 @@ Introduction and Goals
     <td valign=top>
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 		<ul>
-		<li>use the <i>Map</i>, <i>ListPicker</i>, and <i>WebViewer</i> UI components in App Inventor</li>
+		<li>use the <i>Map</i>, <i>ListPicker</i>, and <i>WebViewer</i> UI components in MIT App Inventor</li>
 		<li>use <span class="hover vocab yui-wk-div" data-id='list'>lists</span> to store and access destinations on the map</li>
 		<li>use an <span class="hover vocab yui-wk-div" data-id='API'>API</span> (Application Programming Interface) to display Wikipedia pages of destinations</li>
 		</ul>
@@ -72,7 +72,7 @@ Learning Activities
 .. raw:: html
 
     <p><h3>Tutorial</h3>
-    <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open App Inventor</a> and start a new project and name it Map Tour.  Follow along with the following video or the <a href="https://drive.google.com/open?id=1yuKxS3XcFXpVDPqSUm9_I_9buKmrl4rshR07TKCCqz4" target="_blank">text tutorial</a> or the <a href="https://drive.google.com/open?id=1qOJQYsqISwD54UDRLPGTgbU2Ywe_ZqYM94-UmCepdfU" target="_blank">short handout</a> for more of a challenge.
+    <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open MIT App Inventor</a> and start a new project and name it Map Tour.  Follow along with the following video or the <a href="https://drive.google.com/open?id=1yuKxS3XcFXpVDPqSUm9_I_9buKmrl4rshR07TKCCqz4" target="_blank">text tutorial</a> or the <a href="https://drive.google.com/open?id=1qOJQYsqISwD54UDRLPGTgbU2Ywe_ZqYM94-UmCepdfU" target="_blank">short handout</a> for more of a challenge.
     <br/>
 .. youtube:: -pl9xYAK17I
         :width: 650
@@ -100,7 +100,7 @@ Learning Activities
     </ol>
     <h3>Data Abstraction: Lists</h3>
     <p>The simplest <span class="hover vocab yui-wk-div" data-id='data abstraction'>data abstraction</span> in programming is a <i>variable</i>, but there are more complex data structures 
-      available in all programming languages. Like most other programming languages, App Inventor has an <span class="hover vocab yui-wk-div" data-id='ADT'>abstract data type (ADT)</span> called <span class="hover vocab yui-wk-div" data-id='list'>list</span> that allows the storage of an ordered sequence of elements under one name in memory. <span class="hover vocab yui-wk-div" data-id='list'>Lists</span> are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation.
+      available in all programming languages. Like most other programming languages, MIT App Inventor has an <span class="hover vocab yui-wk-div" data-id='ADT'>abstract data type (ADT)</span> called <span class="hover vocab yui-wk-div" data-id='list'>list</span> that allows the storage of an ordered sequence of elements under one name in memory. <span class="hover vocab yui-wk-div" data-id='list'>Lists</span> are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation.
       
       The elements in a <span class="hover vocab yui-wk-div" data-id='list'>list</span> are 
       <span class="hover vocab yui-wk-div" data-id='index'>indexed</span> which means they are numbered from <b><i>1</i></b> to the <b><i>length</b></i> of the <span class="hover vocab yui-wk-div" data-id='list'>list</span>. 
@@ -118,7 +118,7 @@ Learning Activities
       items in the <span class="hover vocab yui-wk-div" data-id='list'>list</span>. 
     
     </p>
-    <p>Notice that a <b>variable</b> in App Inventor can hold a single data item like a number or a whole <span class="hover vocab yui-wk-div" data-id='list'>list</span> containing many items. Actually, variables in App Inventor can hold a variety of <b>data types</b> including:
+    <p>Notice that a <b>variable</b> in MIT App Inventor can hold a single data item like a number or a whole <span class="hover vocab yui-wk-div" data-id='list'>list</span> containing many items. Actually, variables in MIT App Inventor can hold a variety of <b>data types</b> including:
       </p><ul>
     <li>Numbers: integers or decimal numbers, </li>
     <li> Strings: text, any sequence of characters you can type on a keyboard, represented inside quotes like "Hello World! 123". </li>
@@ -260,12 +260,12 @@ Self-Check
     :answer_c: It would crash because there is no item with that index. 
     :feedback_c: That's right! When you are referring to an item in a list using an index, you must make sure to use a valid index. For this list the valid indexes are 1 through 8. Using any other index is sometimes called an Index out of bounds error.
     :answer_d: It would ignore your request. 
-    :feedback_d: If it were easy, you wouldn’t be learning anything! Since there is no index of 10, App Inventor wouldn't ignore your request. Instead it would unfortunately probably crash the app because you did not use a valid index.
+    :feedback_d: If it were easy, you wouldn’t be learning anything! Since there is no index of 10, MIT App Inventor wouldn't ignore your request. Instead it would unfortunately probably crash the app because you did not use a valid index.
     :answer_e: It would give you a random item from the list. 
     :feedback_e: If it were easy, you wouldn’t be learning anything! Unfortunately the app would probably crash because you did not use a valid index.
     :correct: c
 
-    What do you suppose would happen if your app asked App Inventor for the item at index 10 in the list shown here? 
+    What do you suppose would happen if your app asked MIT App Inventor for the item at index 10 in the list shown here? 
 
     .. raw:: html
 
