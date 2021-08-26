@@ -51,7 +51,7 @@ Unit Overview
     &lt;/li&gt;&lt;/ul&gt;
     
     <!--2020 Vocab Table-->
-    <h3>Vocabulary Terms</h3> <p>Below are the vocabular terms that you'll learn in this unit separated into categories. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit2-Intro-to-Mobile-Apps/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.<br></p>
+    <h3>Vocabulary Terms</h3> <p>Below are the vocabulary terms that you'll learn in this unit separated into categories. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit2-Intro-to-Mobile-Apps/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.<br></p>
 	
 	<table border align="left" width="100%" >
     <tbody>
