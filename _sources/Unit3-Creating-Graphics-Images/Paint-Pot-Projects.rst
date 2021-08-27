@@ -44,8 +44,7 @@ Introduction and Goals
 	</tr>
 	<tr>
     <td valign="top">
-    <iframe allowfullscreen="" frameborder="0" height="325" width="270" src="https://www.youtube.com/embed/2JIoJ-I3jH0">
-    </iframe>
+    <iframe allowfullscreen="" frameborder="0" height="250" width="270" src="https://www.youtube.com/embed/2JIoJ-I3jH0"></iframe>
     </td>
     <td valign="top">
 		<div><b>Learning Objectives:</b>&nbspI will learn to</div>
@@ -55,12 +54,10 @@ Introduction and Goals
           </ul>
           <div><b>Language Objectives:</b>&nbspI will be able to</div>
           <ul>
-           <li>explain the advantages of collaboration when developing and improving an app using supporting details and examples</li>
-		   <li>discuss errors in my program when I run my code, including how the errors could be fixed and tested</li>
+           <li>discuss errors in my program when I run my code, including how the errors could be fixed and tested</li>
 		   <li>describe the functionality of an app using key vocabulary such as component, event, and pseudocode, out loud and in writing, with the support of <a href="https://docs.google.com/presentation/d/1Pfrv_g1AGKNFPmgir1uGApfHtkhB783Te5kzVz5FZ8c/copy" target="_blank" title="">vocabulary notes</a> from previous lessons</li>       
           </ul>
     </td>
-    
     </tr>
     </tbody></table>
     (<a href="http://www.teachertube.com/video/mobile-csp-paint-pot-projects-preview-438235" target="_blank" title="">Teacher Tube version</a>)<br/>
