@@ -82,7 +82,7 @@ Introduction and Goals
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>	
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span>, <span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth</span>, <span class="hover vocab yui-wk-div" data-id="latency">latency</span>, and <span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span> while describing computer <span class="hover vocab yui-wk-div" data-id='network'>networks</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span>, <span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth</span>, <span class="hover vocab yui-wk-div" data-id="latency">latency</span>, and <span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span> while describing computer <span class="hover vocab yui-wk-div" data-id='network'>networks</span> and their effects on society, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</p>
 
 Learning Activities

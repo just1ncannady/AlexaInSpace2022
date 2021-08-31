@@ -2,8 +2,8 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-Abstraction Inside the CPU optional
-===================================
+Abstraction Inside the CPU (optional)
+=====================================
 
 .. raw:: html
 

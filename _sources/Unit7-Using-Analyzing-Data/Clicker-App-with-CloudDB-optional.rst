@@ -2,8 +2,8 @@
 
     <a href="../index.html"><img class="align-center" src="../_static/MobileCSPLogo.png" width="250px"/></a>
 
-Clicker App with CloudDB optional
-=================================
+Clicker App with CloudDB (optional)
+===================================
 
 .. raw:: html
 
