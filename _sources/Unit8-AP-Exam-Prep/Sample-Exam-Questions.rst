@@ -57,43 +57,22 @@ Sample Exam Questions
 
 .. mchoice:: mcsp-8-6-3
     :practice: T
-    
-    AP 2021 Sample Question: The following grid contains a robot represented as a triangle. The robot is initially facing right. 
-    
+    :answer_a: <img src="../_static/assets/img/APExamPrepQ3ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
+    :feedback_a: 
+    :answer_b: <img src="../_static/assets/img/APExamPrepQ3ChoiceB.PNG.jpg" class="yui-img" title="" alt="">
+    :feedback_b: 
+    :answer_c: <img src="../_static/assets/img/APExamPrepQ3ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
+    :feedback_c: 
+    :answer_d: <img src="../_static/assets/img/APExamPrepQ3ChoiceD.png" class="yui-img" title="" alt="">
+    :feedback_d: That is correct!
+    :correct: d
+
+    AP 2021 Sample Question: The following grid contains a robot represented as a triangle. The robot is initially facing right. Which of the following code segments can be used to move the robot to the gray square along the path indicated by the arrows
+
     .. raw:: html
 
-        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ3image_question.PNG.jpg" title="">
-    
-    Which of the following code segments can be used to move the robot to the gray square along the path indicated by the arrows?
+        <img alt="" class="yui-img" src="../_static/assets/img/APExamPrepQ3image_question.PNG.jpg" title=""/>
 
-    - No image?
-    
-      .. raw::html
-      
-         <div><div id="bogus-div"><p></p></div>Why is there nothing here? <img src="../_static/assets/img/APExamPrepQ3ChoiceA.PNG.jpg"></div>
-
-
-      - Incorrect
-
-    - .. raw::html
-      
-         <img src="../_static/assets/img/APExamPrepQ3ChoiceB.PNG.jpg" class="yui-img" title="" alt="">
-
-
-      - Incorrect
-
-    - .. raw::html
-      
-         <img src="../_static/assets/img/APExamPrepQ3ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
-          
-      - Incorrect
-
-    - .. raw::html
-      
-         <img src="../_static/assets/img/APExamPrepQ3ChoiceD.png" class="yui-img" title="" alt="">
-    
-      + Correct
-      
 
 .. raw:: html
 
