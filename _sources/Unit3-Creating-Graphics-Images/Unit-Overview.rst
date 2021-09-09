@@ -81,66 +81,94 @@ Unit Overview
     <!--2020 Vocab Table-->
     <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit3-Creating-Graphics-Images/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
     
-    <table align="center">
+	<table border align="left" width="100%" >
     <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">MIT App Inventor</th> 
+	</tr>
     <tr>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="ADT">ADT</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="algorithm">algorithm</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="analog">analog</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="API">API</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ASCII">ASCII</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="assignment">assignment</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="bit">bit</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="bitmap">bitmap</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="byte">byte</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="cloud computing">cloud computing</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="concatenation">concatenation</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="cryptography">cryptography</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="data abstraction">data abstraction</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="data type">data type</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="digital signal processing">digital signal processing</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="digital">digital</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="download">download</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="even parity">even parity</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="expression">expression</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="GPS">GPS</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="index">index</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="list">list</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="lossless compression">lossless compression</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="lossy compression">lossy compression</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="megabyte">megabyte</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="megapixel">megapixel</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="modeling">modeling</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="OCR">OCR</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="odd parity">odd parity</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="operator">operator</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="parity">parity</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="pixel">pixel</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="pseudocode">pseudocode</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="raster">raster</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="render">render</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="run length encoding">run length encoding</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="sampling">sampling</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="spam">spam</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="steganography">steganography</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="string">string</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="substring">substring</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="upload">upload</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="assignment">assignment</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="concatenation">concatenation</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="index">index</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="list">list</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="string">string</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	
+    <table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th> 
+	</tr>
+	<tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="algorithm">algorithm</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="API">API</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="bit">bit</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="byte">byte</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="concatenation">concatenation</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="cryptography">cryptography</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data abstraction">data abstraction</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data type">data type</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="expression">expression</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="lossless compression">lossless compression</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="lossy compression">lossy compression</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="operator">operator</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="pixel">pixel</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="pseudocode">pseudocode</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="run length encoding">run length encoding</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="substring">substring</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+    <th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th> 
+	</tr>
+	<tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ADT">ADT</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="analog">analog</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ASCII">ASCII</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="bitmap">bitmap</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="cloud computing">cloud computing</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="digital signal processing">digital signal processing</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="digital">digital</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="download">download</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="even parity">even parity</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="GPS">GPS</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="megabyte">megabyte</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="megapixel">megapixel</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="modeling">modeling</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="OCR">OCR</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="odd parity">odd parity</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="parity bit">parity bit</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="parity">parity</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="raster">raster</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="render">render</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="sampling">sampling</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="spam">spam</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="steganography">steganography</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="upload">upload</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
     </div>
 
 Self-Check
