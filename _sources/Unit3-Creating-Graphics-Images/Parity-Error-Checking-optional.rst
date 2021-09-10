@@ -69,6 +69,10 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1-Z74a4H8BOZ1aJibY7cwwxbA4wzzzFbPR29AJaRk254" target="_blank" title="">slides</a></li>
+	</ul> 
+	
     <p><h3>Parity Bit Error Detection</h3>
     
     Suppose you are sending a stream of data to a server. By adding

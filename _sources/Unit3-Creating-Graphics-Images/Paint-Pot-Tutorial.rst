@@ -72,13 +72,19 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/edit?usp=sharing" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/18thDoU6Ru3v9TTxhGfELuvwagm3bTNFYh-iXchDntGw/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=OoA8Q5v2sWg" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://teachertube.com/video/paint-pot-1-tutorial-476369" target="_blank" title="">TeacherTube video</a></li>
+	</ul> 
+	
     <p><h3><br/>Tutorial Part 1: Painting and Drawing on a Canvas</h3>
-    <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotMediaOnly/PaintPotMediaOnly.asc" target="_blank">open MIT App Inventor with the Paint Pot Template</a>
-     in a separate tab and follow along with the following video or your teacher.
+    <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit3/templates/PaintPotMediaOnly/PaintPotMediaOnly.asc" target="_blank">open MIT App Inventor with the Paint Pot Template</a> in a separate tab and follow along with the following video or your teacher.
     <br/>
-    Or  click <a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/edit?usp=sharing" target="_blank">here for the text version of the tutorial</a> or the <a href="https://docs.google.com/document/d/18thDoU6Ru3v9TTxhGfELuvwagm3bTNFYh-iXchDntGw/edit?usp=sharing" target="_blank">short handout</a>.  
-      <br/>
-      (<a href="https://teachertube.com/video/paint-pot-1-tutorial-476369" target="_blank">TeacherTube Version</a>)
     </p>
     
 .. youtube:: OoA8Q5v2sWg

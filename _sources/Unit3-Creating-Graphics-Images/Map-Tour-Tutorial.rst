@@ -71,7 +71,17 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Tutorial</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1yuKxS3XcFXpVDPqSUm9_I_9buKmrl4rshR07TKCCqz4/" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/open?id=1qOJQYsqISwD54UDRLPGTgbU2Ywe_ZqYM94-UmCepdfU" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=-pl9xYAK17I" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://teachertube.com/video/mobile-csp-map-tour-tutorial-revised-476368" target="_blank" title="">TeacherTube video</a></li>
+	</ul> 
+	
+	<p><h3>Tutorial</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open MIT App Inventor</a> and start a new project and name it Map Tour.  Follow along with the following video or the <a href="https://drive.google.com/open?id=1yuKxS3XcFXpVDPqSUm9_I_9buKmrl4rshR07TKCCqz4" target="_blank">text tutorial</a> or the <a href="https://drive.google.com/open?id=1qOJQYsqISwD54UDRLPGTgbU2Ywe_ZqYM94-UmCepdfU" target="_blank">short handout</a> for more of a challenge.
     <br/>
 .. youtube:: -pl9xYAK17I

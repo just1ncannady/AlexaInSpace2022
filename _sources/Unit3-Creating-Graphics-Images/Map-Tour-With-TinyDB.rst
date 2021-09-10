@@ -83,6 +83,20 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1I01RYFHYLnNQZX9UN8Gc8dC2nAzAcXx9TLIkeEO8_Ug/edit?usp=sharing" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1LDIxFUhmRtmhc1Iyrow4PEsxu0qUuDeT5NDqBMZIvPM/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=s6YZb3tfkq0" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.teachertube.com/videos/mobile-csp-map-tour-tinydb-revised-476367" target="_blank" title="">TeacherTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=qVJF-i5LqjQ" target="_blank">YouTube video - Tiny DB</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.teachertube.com/videos/tiny-db-438788" target="_blank" title="">TeacherTube video - Tiny DB</a></li>
+	</ul> 
+	
     <p><h3>What is TinyDb?</h3></p>
     <p>Up until now, the data in our apps has been stored either in <b><i>global variables</i></b> or as the value of the <i><b>properties</b></i> of the app’s various components.  For example, when you store a piece of text in a Label, that data is stored in the computer’s main memory, in its RAM — random access memory.  And as we’ve learned, RAM is <b><i>volatile</i></b>,  meaning that any data stored there will be destroyed when the app is exited.
     </p>

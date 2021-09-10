@@ -76,6 +76,22 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1Q4NinpY_-BLSjh9RVO1bD4apZYs4W93WbpX_nbas1Ec" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1MmKmh7fJKCCfwGzA238VPXZYLkCZvIIUQZ9L-RIDEYQ/" target="_blank">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1AkIwOQLTU4_TonpRh3LEqoLMXWiVdZ4AiYf1y-qWIEI/copy" target="_blank">worksheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=xn3-BAiaJ1k" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="" target="_blank" title="">TeacherTube video - coming soon</a></li>
+	</ul> 
+	
+	<div id="bogus-div">
+    <p></p>
+    </div>
+	
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (30 minutes)</h3> 
       After watching the video above, work in POGIL teams or pairs to try your own hand at representing images using the <a href="https://docs.google.com/document/d/1AkIwOQLTU4_TonpRh3LEqoLMXWiVdZ4AiYf1y-qWIEI/copy" target="_blank">Image Representation Activity Worksheet</a>. <br/><br/>You can click on the <span class="hover vocab yui-wk-div" data-id='pixel'>pixel</span> buttons below to draw simple images or do the exercises on paper. <br/><p>

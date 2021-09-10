@@ -89,6 +89,14 @@ Learning Activities
  
 .. raw:: html
    
+   <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=PVJO-a2W0BM" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/mobile-csp-error-detection-card-trick-437874" target="_blank" title="">TeacherTube video</a></li
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1G7IQDERipCeZPFf4NheSPOMYmWM0f7wAFgPVnNzPvnE/copy" target="_blank" title="">POGIL worksheet</a></li>
+	</ul>
+	
     <table><tbody>
 	<tr>
 		<td colspan=2><h3>What's the Algorithm?</h3></td>
