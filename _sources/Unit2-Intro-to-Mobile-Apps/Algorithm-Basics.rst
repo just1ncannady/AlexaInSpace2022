@@ -72,6 +72,16 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1XfwXHnhzIxQQppKgxS6PAhc9f61LHeLcILd6feAHc8E" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=60CzIn2FIcM" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/359066" target="_blank" title="">TeacherTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">POGIL worksheet</a></li>
+	</ul> 
+	
     <p><h3>Blockly Maze Problems</h3>
 	<p>Beyond visual and textual programming languages, algorithms can be expressed in a variety of ways such as natural language, diagrams, and <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> which is a way to describe the each step of the code in English to plan it out. 
     Algorithms can be created from an idea, by combining existing algorithms, or by modifying existing algorithms. 
@@ -90,7 +100,7 @@ Learning Activities
     </p>
     <h3>Algorithm Basics</h3>
     <p>Now that you've created algorithms to solve Maze puzzles using <span class="hover vocab yui-wk-div" data-id='sequence'>sequence</span>, <span class="hover vocab yui-wk-div" data-id='selection'>selection</span>, and <span class="hover vocab yui-wk-div" data-id='iteration'>iteration</span> here
-      is a summary of some basic points about algorithms. (<a href="http://www.teachertube.com/video/359066" target="_blank">Teacher Tube version</a>)
+      is a summary of some basic points about algorithms. 
     <br/>
     <span>
 

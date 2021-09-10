@@ -66,7 +66,27 @@ Learning Activities
 
     <h3><font color="blue">There are only 10 types of people in the world. Those who understand binary and those who don't!</font><img align="right" src="../_static/assets/img/smiley.jpg" width="32"/></h3>
 	
-
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1LUi8jpatprooXl5QVUhB3JHwAn7v5WOlzGmdrtm9Z0A" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=3PULJnSP74Y" target="_blank">YouTube video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/binaryintrol-348081" target="_blank" title="">TeacherTube video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=jfExJPwdg7k" target="_blank">YouTube video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/binarytodecimal-348082" target="_blank" title="">TeacherTube video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=cSCWnI7JMSU" target="_blank">YouTube video Part 3</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/decimaltobinary-348085" target="_blank" title="">TeacherTube video Part 3</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1okQhwTYVLcXN13QioAH71VUhw5e88vxYZ4sVXvSPANY/edit?usp=sharing" target="_blank" title="">Binary Dot Cards</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/10aNql-sT9f8-mKXAEBwA6vhpseB6WIzskWYFiRQYXy0/copy" target="_blank" title="">worksheet</a></li>
+	
+	</ul>
+	
     <h3>Lecture</h3>
 .. youtube:: 3PULJnSP74Y
         :width: 650

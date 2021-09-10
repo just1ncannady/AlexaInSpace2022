@@ -72,6 +72,16 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/142GsbdyLdww30yb5WLqA-Nmej53povgD4eCStG69ESg" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1-mEg1OTpFWDq2UF86NWNwNozlU-roQYCxzovpcT88jU/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=Qs8NJbCoD9c" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1Y_LDNnjXkmj-RzOM3dlIkcvmUjP8KUWlSlE2aVdiCJY/copy" target="_blank">worksheet</a></li>
+	</ul> 
+
     <h3>If/Else Selection Blocks</h3>
     <p>The <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html#if" target="_blank">if block</a> in MIT App Inventor can be used to choose between different actions.  All programming languages have something like if blocks, called selection or conditional algorithms, to make decisions based on a condition. In this version of the app, we want to use the buttons to toggle playing and pausing the speeches. When a button is clicked, if that speech is already playing, we want to pause the speech. If it is paused, we want to start playing it again. To do this, we need to use an If block from the Control drawer of the block editor. This block has a blue mutator button where we can drag in an else block to make the block into an <span class="hover vocab yui-wk-div" data-id='If/Else'>If/Else</span> block which will allow us to choose between 2 actions (pause or play) depending on if the speech is already playing.</p><p>
     <img src="../_static/assets/img/IfElseAnimated.gif" style="width:60%"/>

@@ -56,16 +56,20 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/a/css.edu/presentation/d/1nOMpxZpdkCcS6Wc-eU8eeBi-z55LyKSJRBCVolJDM78" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=XpJdZrviSuw" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/abstraction-347740" target="_blank" title="">TeacherTube video</a></li>
+	</ul>
+	
     <h3>Lecture</h3>
     
 .. youtube:: XpJdZrviSuw
         :width: 650
         :height: 415
         :align: center
-
-.. raw:: html
-
-    <div>(<a href="http://www.teachertube.com/video/abstraction-347740" target="_blank">Teacher Tube version</a>)</div>
 	
 .. raw:: html
 

@@ -70,13 +70,24 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1Nn9Y1CupKELEJhR6RnFO-MNKDwvGg3MyGkgthTwrK2o" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=b424kFZDjIw" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/mobileappsanddevices-348078" target="_blank" title="">TeacherTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/edit?resourcekey=0-Y4nKZD_4ReOiTmGrMcrVoA" target="_blank">worksheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/drawings/d/1l50CFlksBCdfjfmwkyCvsYo0mEZ5BzyTxOABXkS0vr4" target="_blank">activity</a></li>
+	</ul>
+	
     <p><h3>What is a Computer?</h3>
     <p>A computing device is an electronic device for storing and processing <span class="hover vocab yui-wk-div" data-id='data'>data</span> by following instructions given to it in a <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Mobile devices – smart phones and tablets – are <span class="hover vocab yui-wk-div" data-id='general purpose computer'>general purpose computers</span>. Like desktop and laptop computers, these general purpose computers can run different programs or apps. This contrasts with <span class="hover vocab yui-wk-div" data-id='special purpose computer'>special purpose computers</span> which can run only a single set <span class="hover vocab yui-wk-div" data-id='program'>program</span>. Examples of special purpose computers include a simple non-programmable calculator, a microwave oven, a smart thermostat, and a car's anti-lock braking system.
 	</p>
     <h3>Binary Code</h3>
     <p>As you will learn in this lesson, computers understand binary code or <span class="hover vocab yui-wk-div" data-id='machine language'>machine language</span>. Binary code consists of 0s and 1s. One binary digit is called a <span class="hover vocab yui-wk-div" data-id='bit'>bit</span>. A group of eight bits is referred to as a <span class="hover vocab yui-wk-div" data-id='byte'>byte</span>. One <span class="hover vocab yui-wk-div" data-id='byte'>byte</span> of memory takes about the same amount of memory as a character, such as the letter 't'. You will learn more about binary in future lessons, including how to convert binary numbers into decimal numbers and how to convert binary numbers into colors or characters.</p>
     <h3>Mobile Apps and Devices</h3>
-    <p>If you are unable to stream the YouTube video, click here for a <a href="http://www.teachertube.com/video/mobileappsanddevices-348078" target="_blank">Teacher Tube version</a>. Follow along with the text-version <a href="https://docs.google.com/presentation/d/1Nn9Y1CupKELEJhR6RnFO-MNKDwvGg3MyGkgthTwrK2o" target="_blank" title="">Slides</a>.</p>
     
 .. youtube:: b424kFZDjIw
         :width: 650

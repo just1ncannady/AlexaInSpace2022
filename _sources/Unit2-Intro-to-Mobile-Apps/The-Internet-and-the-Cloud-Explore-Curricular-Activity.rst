@@ -67,6 +67,16 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1AxexCFAWMwo1qckAa2CK-_m-6Y62wBQtOhc4um_uhuU" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=ZHmW2zdsaTU" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1vCnh_0xrVIhhNW9ve6ngLeoNfzEVPCj8HleS_9dlPu0/copy" target="_blank">guided worksheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1R6u0geqIRmilERAgnlaRfo9Of5qyl0Z0w_35itx1_Qs/copy" target="_blank">POGIL worksheet</a></li>
+	</ul>
+	
     <p>
     Throughout this course, there is a focus on 3 key questions about the <span class="hover vocab yui-wk-div" data-id='Internet'>Internet</span>; they are introduced here and revisited throughout the course:
     <ul>
@@ -76,8 +86,7 @@ Learning Activities
     </ul>
 	</p>
 	<p><h3>Video: The Internet and World Wide Web</h3>
-    <p><a href="https://docs.google.com/document/d/1vCnh_0xrVIhhNW9ve6ngLeoNfzEVPCj8HleS_9dlPu0/edit" target="_blank">Guided Worksheet:</a> answer these questions as you watch the video<br/>
-    <a href="https://docs.google.com/presentation/d/1AxexCFAWMwo1qckAa2CK-_m-6Y62wBQtOhc4um_uhuU" target="_blank">Slides: Internet and WWW</a></p>
+    <p>Follow along with the video or in-class lecture by answering the questions in this <a href="https://docs.google.com/document/d/1vCnh_0xrVIhhNW9ve6ngLeoNfzEVPCj8HleS_9dlPu0/edit" target="_blank">guided worksheet:</a>. <br/>
     
 .. youtube:: ZHmW2zdsaTU
         :width: 650

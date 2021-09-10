@@ -65,6 +65,17 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1yHx42yEaUzLurEuBOzQWvb0KS3oBsM7xhDh2lETod3M/" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=JGMtLwfxozU" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="" target="_blank" title="">TeacherTube video - coming soon</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1W_6XvtYe5uWi5_ySrKcAv3UBr6Wbop1B7rPyR7UhVLM/copy" target="_blank" title="">POGIL worksheet</a></li>
+	
+	</ul>
+	
     <p><h3>Lecture</h3>
     <!-- Need to upload the revised video to teacher tube --------
     (&lt;a target=&quot;_blank&quot; href=&quot;http://www.teachertube.com/video/hardwaresecondlook-348091&quot;&gt;Teacher Tube version&lt;/a&gt;)

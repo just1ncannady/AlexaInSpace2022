@@ -73,6 +73,12 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1zbf8peBObd8GOewfa0oSjnQ6bAb1h1CjTg_tCrnA9qU" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank">How To: Create an App Video</a></li>
+	</ul>
+
     <h3>Enhancing the I Have a Dream App</h3>
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/" target="_blank">open MIT App Inventor</a>
      in a separate tab and open your I Have a Dream app from the previous lesson.
