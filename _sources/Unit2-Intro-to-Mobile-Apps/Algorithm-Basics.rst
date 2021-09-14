@@ -123,7 +123,7 @@ Learning Activities
     <p>This course emphasizes communication and collaboration. You will do many group activities called POGIL Activities in this course, starting with the one below.   <a href="https://pogil.org/about-pogil/what-is-pogil" target="_blank">POGIL</a> stands for Process Oriented Guided Inquiry Learning. In POGIL activities, you will work in self-managed teams of 3 or 4 students where everyone has a role. You will explore an activity or solve a problem together, making sure that everyone in the team participates and learns. In order for these POGIL activities to be effective, each member must be willing to practice good interpersonal skills including communication, consensus building, conflict resolution, and negotiation.</p>
     <br/>Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1L_TAwm91lPJjIzwmAxNvbWqZNnNGzQuwx4YEt2TlWaQ/copy" target="_blank">using this worksheet</a>. 
        <br/>Here's more information about <a href="https://docs.google.com/document/d/1_NfNLWJxaG4qZ2Jd2x8UctDS05twn1h6p-o3XaAcRv0/edit?usp=sharing" target="_blank">POGIL roles</a>.<br/>
-    <table style="border: 1px solid lightgray;">
+    <table>
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
     <td>Facilitator</td>

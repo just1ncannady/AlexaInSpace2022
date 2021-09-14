@@ -20,7 +20,12 @@ td {
 
 div.pogil table { 
   border-collapse: collapse; 
-  background-color: lightgrey; 
+  border: 1px solid black;
+}
+
+div.pogil table td, div.pogil table th {
+	padding: 3px;
+	border: 1px solid black;
 }
 
 div.logo-header { 
