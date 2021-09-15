@@ -79,6 +79,8 @@ Learning Activities
     </p><ul>
     <li>
     In pairs, play a guessing game, where 1 student draws something in 10 seconds, and the other student tries to guess what it is. After each drawing, discuss what were the essential features that were drawn that helped to guess what it was, and which features of the actual object were left out. The essential features make up the <span class="hover vocab yui-wk-div" data-id='abstraction'>abstraction</span> or abstract drawing for that object.</li>
+	<li>
+    In teams, play a few rounds of FishBowl. Fishbowl (sometimes called Salad Bowl) is a game named by the bowl you put the slips of paper in. After each round, the points are added up and the papers are added back into the fish bowl. Each round lasts until either the papers are out or each member of the team has gone for one minute. Each round will add an extra layer of abstraction for you to get through. Use <a href="https://docs.google.com/presentation/d/1zK5OtGpiF0TMgyaZFT7Rjhvgv4d5etzHTvjix-fsDnw/" target="_blank">these slides</a> to guide you. </li>
     <li>Go to the <a href="https://www.google.com/search?q=calculator" target="_blank">Google scientific calculator</a>. This is an app that Google programmers have made. The buttons on this calculator are <span class="hover vocab yui-wk-div" data-id='abstraction'>abstractions</span> for the functions that they do. Identify at least 4 functions that are associated with 4 abstract buttons. 
       </li>
     </ul>
