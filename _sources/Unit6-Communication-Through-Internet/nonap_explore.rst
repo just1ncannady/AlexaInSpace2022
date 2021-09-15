@@ -25,6 +25,8 @@ ASSESSMENT: Non-AP Explore: Impact of Computing Innovation
 	    });
 	  });  
 	  </script>
+	  
+	 <style>   th, td { text-align: left; padding: 5px; border: 1px solid black;}</style> 
 	
 	<h3 id="est-length">Time Estimate: 3-4.5 hours (4-6 45 minute classes)</h3>
 	<p>[<a href="https://docs.google.com/document/d/1QxXT3ZBQwDIu5Nj608IOtGe6MtpVO3LCTqIHRaK_lRg" target="_blank">Text version available here</a>]</p>
@@ -71,11 +73,11 @@ Grading Rubric
 	<p></p>
 	<table>
 	  <tbody><tr>
-	    <th>Criteria</th>
-	    <th>Beginning</th>
-	    <th>Developing</th>
-	    <th>Mastering</th>
-	    <th>Exemplary</th>
+	    <th style="background-color: #cfe2f3;">Criteria</th>
+	    <th style="background-color: #cfe2f3;">Beginning</th>
+	    <th style="background-color: #cfe2f3;">Developing</th>
+	    <th style="background-color: #cfe2f3;">Mastering</th>
+	    <th style="background-color: #cfe2f3;">Exemplary</th>
 	  </tr>
 	  <tr>
 	    <td><b>Purpose (25%)</b></td>
