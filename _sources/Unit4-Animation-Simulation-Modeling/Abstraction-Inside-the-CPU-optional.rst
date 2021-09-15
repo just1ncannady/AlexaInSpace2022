@@ -69,7 +69,23 @@ Learning Activities
 
 .. raw:: html
       
-    </p><h3>Before There Was Software</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://youtu.be/-70EG8Me1vU" target="_blank" title="">Gen 0 YouTube Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/_7-44rIkc24" target="_blank">Gen 1 YouTube Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/L5TamiB3Bf0" target="_blank">Gen 2 YouTube Video</a></li>
+	</ul> 
+	
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://www.teachertube.com/videos/4-bit-computer-simulator-494789" target="_blank" title="">Gen 0 TeacherTube Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.teachertube.com/videos/4-bit-computer-simulator-generation-1-494790" target="_blank">Gen 1 TeacherTube Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.teachertube.com/videos/4-bit-computer-simulator-generation-2-494791" target="_blank">Gen 2 TeacherTube Video</a></li>
+	</ul> 
+	
+	</p><h3>Before There Was Software</h3>
     <!-- &lt;p&gt;&lt;img src=&quot;assets/img/WomenEniac.png&quot; alt=&quot;Women programming ENIAC&quot; width=&quot;187&quot; align=&quot;left&quot; hspace=&quot;20px&quot; vspace=&quot;20px&quot; height=&quot;136&quot;&gt;  -->
     <p>  
       To help us get a sense of this march through ever higher levels of abstraction, we're going to imagine

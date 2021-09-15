@@ -65,7 +65,22 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Introduction</h3></p>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://drive.google.com/open?id=1YXRlbOiAaKvb281YDn-XGI4ZNWDYv4iCRgR1cN7TE0s" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/open?id=1McHT42xH7YT-_rV-Cu3a7l8LYGTM-Fr3NyVxI-wIX8o" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/8I4bGQRLqPw" target="_blank">YouTube video</a></li>
+	</ul>
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank" title="">graph paper</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf" target="_blank" title="">AP CSP reference sheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/mobile-csp-logo-1-438792" target="_blank" title="">TeacherTube video</a></li>
+	</ul> 
+	
+	<p><h3>Introduction</h3></p>
     <img align="left" hspace="10" src="../_static/assets/img/spiral.png" width="180"/>
     <a href="http://en.wikipedia.org/wiki/Logo_(programming_language)" target="_blank">Logo</a>
     is a programming language that was invented in the 1960s by Seymour Papert primarily
@@ -106,9 +121,7 @@ Learning Activities
     <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/Logo1/Logo1Template.asc" target="_blank">open App Inventor with the Logo 1 Template</a> in a separate tab and follow along with the tutorial below. If the template does not open, download the <a href="http://templates.appinventor.mit.edu/trincoll/csp/unit5/templates/Logo1/Logo1Template.aia" target="_blank">.aia file</a>, go to <a href="http://ai2.appinventor.mit.edu" target="_blank">App Inventor</a> and do File/Import and import in the downloaded .aia file. If you are using iOS companion, please change the Canvas Height property to Fill Parent instead of 100% so it does not cover the buttons.</p>
     When the template opens, you will see a lot of collapsed blocks. <span id="docs-internal-guid-39ef5219-64db-37ef-3dde-eeaa1ea5a99e">
     <span class="yui-tag-span yui-tag" style="font-size: 13px;" tag="span"><b><u>DO NOT OPEN OR EDIT THESE BLOCKS!</u></b></span></span><br/>
-    <br/>You can either watch the video tutorial or 
-    <a href="https://drive.google.com/open?id=1YXRlbOiAaKvb281YDn-XGI4ZNWDYv4iCRgR1cN7TE0s" target="_blank">
-    click here</a> to read the tutorial or use <a href="https://drive.google.com/open?id=1McHT42xH7YT-_rV-Cu3a7l8LYGTM-Fr3NyVxI-wIX8o" target="_blank">the short handout </a>.<p></p>
+    <br/>You can either watch the <i>video tutorial</i>, <i>read the text tutorial</i> or use the <i>short handout</i>.<p></p>
     
 .. youtube:: 8I4bGQRLqPw
         :width: 650

@@ -76,7 +76,13 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Background</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/123rmkHfSoBGoPazKLNw9mBh69_WXJJKchNHbgsa0ID0" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1L458KOn6izBLdrWSwkALekLqBocSe9ijJT9WCvBcbRc/copy" target="_blank">POGIL worksheet</a></li>
+	</ul> 
+	
+	<p><h3>Background</h3>
     <p>Here are some things you should know  about how computers and computer languages (App Inventor) implement randomness:</p>
     <ul>
     <li>Randomness is used in lots of programs, especially games (Android Mash) and simulations (Coin Flip, 4-bit Computer Simulator).</li>

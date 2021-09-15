@@ -66,7 +66,24 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Careful, your data is being collected!</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://youtu.be/XeJEgCzcAKM" target="_blank" title="">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.teachertube.com/videos/impacts-of-cs-privacy-500990" target="_blank">TeacherTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1YPVGCNXv_eHcahlfEBDqnlczAPCLGZBkpdlEkSte544/copy" target="_blank">Reference Sheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1FqRKMRqCMU7OkIpZySR5ISYbNrzJNxRuF59Iu96sNSY/copy" target="_blank" title=""> Classifying Data Worksheet</a></li>
+	</ul>
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1hshcntNmNYY13DoWIX4bVZSiap7EM2XVeGjjysEcmUI/copy" target="_blank" title=""> Collecting Data Worksheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/open?id=1_4439HxJDBXbViBECySAQdRITEnSOPzs" target="_blank" title=""> Blown to Bits Chapter 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/a/css.edu/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/copy" target="_blank" title=""> Double Entry Journal Sheet</a></li>
+	</ul> 
+	
+	<p><h3>Careful, your data is being collected!</h3>
     <p>Computing innovations, such as smartphones, collect information and data from their users and then use that data to accomplish tasks. In some cases those tasks may be obvious and part of the intended purpose of the innovation. In other cases, those tasks might be less obvious or even hidden from us. Watch the video below which explains that our <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PII)</span> to be recorded and used. <br/>
 .. youtube:: XeJEgCzcAKM
         :width: 650

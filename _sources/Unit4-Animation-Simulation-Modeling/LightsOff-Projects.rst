@@ -66,7 +66,17 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>What is Design Thinking?</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1oKATe1UdK8JdRHzDUVdV7DgXNqvEx41ibnfES5Hijc8/" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=a7sEoEvT8l8" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/open?id=1Qho7PgaSKt7zJhrxx100vFv4gV-voOE4" target="_blank">brainwriting template</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/" target="_blank" title="">prototypes template</a></li>
+	</ul> 
+	
+	<p><h3>What is Design Thinking?</h3>
     <p>“Design Thinking is an iterative process in which we seek to understand the user, challenge assumptions, and
           redefine problems in an attempt to identify alternative strategies and solutions that might not be instantly
           apparent with our initial level of understanding.” (<a href="https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular" target="_blank">Interaction Design Foundation</a>)<br/>

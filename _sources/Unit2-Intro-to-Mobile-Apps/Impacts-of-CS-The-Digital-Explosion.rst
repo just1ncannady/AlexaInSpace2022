@@ -77,7 +77,19 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Chapter One: The Digital Explosion—Why Is It Happening and What Is At Stake?</h3>
+    
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19" target="_blank" title=""> Blown to Bits Chapter 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/copy" target="_blank" title=""> Double Entry Journal Sheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1t108otAa9_MFtFERsozLL0g-UXQkdAKfKotZgIhGCg0/copy" target="_blank" title=""> Technology Use Worksheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1g5fuVEDu3V2XHVRBok1gFAOaAV7eWyict1S2ROopsw0/copy" target="_blank" title=""> Debate Team Carousel</a></li>
+	</ul> 
+	
+	
+	<p><h3>Chapter One: The Digital Explosion—Why Is It Happening and What Is At Stake?</h3>
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19" target="_blank">Chapter One of Blown to Bits</a> makes the point that today everything is digital -- that is, everything is represented by binary digits or bits. And it provides some provocative examples of the societal implications of this digital explosion.</p>
     <p>Take a look around your classroom or room. Where can you see devices that use bits? Try to think beyond just your computers and mobile phones or tablets. For example, is the room's lightswitch on a timer or have a motion sensor? Here are <a href="https://docs.google.com/presentation/d/1rY94EKJPiqiGXd3XR2KIw8dSkz3psOFNADcI0JSR1wU" target="_blank">some examples</a> you can use to help you get started.</p>
     <br/>
@@ -85,7 +97,7 @@ Learning Activities
     <p>
     <p><b>Part 1:</b>
     </p><ol>
-    <li>Read pages 1-4 in Chapter One and Koan 4 about <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/edit" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
+    <li>Read pages 1-4 in Chapter One and Koan 4 about <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/copy" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
     <li>Watch the short video of Moore at the <a href="https://www.intel.com/content/www/us/en/silicon-innovations/moores-law-technology.html" target="_blank">Intel website</a>.
         </li><li>Below is an image that represents <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> graphically - the observation that the number of transistors per square inch on integrated circuits had doubled every two year since their invention. This means the speed at which we can process digital <span class="hover vocab yui-wk-div" data-id='data'>data</span> increases exponentially every year. Discuss the graphic with your class.</li>
     </ol><br/>

@@ -71,7 +71,7 @@ Learning Activities
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1s7PTuvw0fg03iEVUIW11yvHb1TzZdk6T_woT4grvQZY/" target="_blank" title="">text-version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP Reference Sheet</a></li>
+	<li style="display: inline"><a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf" target="_blank">AP CSP Reference Sheet</a></li>
 	</ul> 
 
     <p><h3>Creative Mini Projects: Enhancing Paint Pot</h3>

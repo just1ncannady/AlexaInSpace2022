@@ -62,7 +62,17 @@ Learning Activities
 
 .. raw:: html
 
-    <h3>Solar System Models</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://youtu.be/97Ob0xR0Ut8" target="_blank" title="">Model 1 Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://vimeo.com/139407849" target="_blank">Model 2 Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/8z5mwAlxBYc" target="_blank">Model 3 Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1GpLy6pSJ8DeXCZYfiQBgvBa4MSDDjlQjtGvSLculBMY/edit" target="_blank" title="">POGIL worksheet</a></li>
+	</ul> 
+	
+	<h3>Solar System Models</h3>
     <p>Models and simulations are most useful when real-world events are impractical for experiments (e.g., too big, too small, too fast, too slow, too expensive, or too dangerous).  Watch the following videos, paying particular attention to the different ways in which the models <i>abstract away</i> certain details from the real world situations that are being modeled. Discuss with your classmates which features of the solar system each model chose to include and to exclude. How do those choices align with the educational goals of each model?</p>
     <br/>
     <h4>Bill Nye's Model</h4>

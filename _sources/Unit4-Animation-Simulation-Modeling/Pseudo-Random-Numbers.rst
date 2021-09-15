@@ -71,7 +71,24 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Computer Randomness</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1lYZj_SvHICcmrhKsE6mM--k_lubcBOeHHy33XhJ62fA/" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1VWdfhZcI20fjG9koi6hkJnW5eiA85vnoeO6RVJGD9j4" target="_blank">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=IZ56vqQZux4" target="_blank">YouTube video Part I</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/BLSdUYtQmeo" target="_blank" title="">YouTube video Part II</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/FLdjrnXHajY" target="_blank" title="">YouTube video Part III</a></li>
+	</ul>
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=7Wkubf1PrWg&feature=emb_imp_woyt" target="_blank">Slot Machine Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www-math.ucdenver.edu/~wcherowi/clockar.html" target="_blank">Exercises</a></li>
+	</ul> 
+	
+	<p><h3>Computer Randomness</h3>
     <p>It is difficult for a computer to create a truly random event.
     Therefore, computers use a form of randomness known as <i><b>pseudo                                                                          
     randomness</b></i> -- that is, they <i><b>simulate</b></i> randomness.

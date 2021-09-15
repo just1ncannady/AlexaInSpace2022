@@ -81,7 +81,19 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>A Short Experiment</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1FEGO2E98mg10euV4HQsJlZcqYKlFjcQtyzELQkxe-68" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1W8qqxSIrTE8abfO_UPksL1lzxKQb84BSrgqoag9CrsA/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=4TwtOnrTCiA" target="_blank">YouTube video Part I</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=7ifaRGDWHEU" target="_blank" title="">YouTube video Part II</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1AKHpiQ87bE4W1YzHlAFh2uNAHuEtdMOCQVV6HfxfDzc" target="_blank" title="">project extensions</a></li>
+	</ul> 
+	
+	<p><h3>A Short Experiment</h3>
     Before getting started on the Coin Flip app, try this simple experiment:
     
     <blockquote style="font-size: 1.0em;">
@@ -115,8 +127,7 @@ Learning Activities
     This will open a project that contains the images you will need in this lesson. 
     Then use the <i>Save As</i>  option to rename your project to <i>CoinFlip</i>.  
     </p>
-    <p>If you prefer, you can work through the <a href="https://docs.google.com/document/d/1FEGO2E98mg10euV4HQsJlZcqYKlFjcQtyzELQkxe-68" target="_blank">Text Version</a> of the tutorial or for an additional challenge, use the <a href="https://docs.google.com/document/d/1W8qqxSIrTE8abfO_UPksL1lzxKQb84BSrgqoag9CrsA/edit?usp=sharing" target="_blank">Short Text Version</a>.
-      Or you can follow along with this video tutorial.</p>
+    <p>You can either watch the <i>video tutorial</i>, <i>read the text tutorial</i> or use the <i>short handout</i>.p>
     
 .. youtube:: 4TwtOnrTCiA
         :width: 650

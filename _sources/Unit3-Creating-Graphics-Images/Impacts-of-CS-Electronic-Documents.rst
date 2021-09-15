@@ -90,7 +90,17 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Chapter Three: Ghosts in the Machine: Secrets and Surprises of Electronic Documents</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf" target="_blank" title=""> Blown to Bits Chapter 3</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1yBzUmMimZ7YVF0x9osqcGRtHP-RkT46MLAjL2mzsAe0/copy" target="_blank" title=""> Conversation Questions Template</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1LvLYKuRZ66FMd_BSkDVBj8rrg6YN5QbHBx8CxcPnq_Q/copy" target="_blank" title=""> Now That's Surprising! Template</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1rMlcppxtV-v9Ti7RDe6L6dlCczXXu8oQjZz8f9KLFaE" target="_blank" title=""> Steganography Activity</a></li>
+	</ul> 
+	
+	<p><h3>Chapter Three: Ghosts in the Machine: Secrets and Surprises of Electronic Documents</h3>
     <p><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf">
     Chapter Three of Blown to Bits</a> describes how <span class="hover vocab yui-wk-div" data-id='digital'>digital</span> documents, 
     including images and sounds, are represented by sequences of bits. Why do you think this chapter is called "Ghosts in the Machine"?</p>
