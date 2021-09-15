@@ -94,32 +94,32 @@ Learning Activities
       critical values or boundary values. Check if your program performs correctly in the following test
       cases and make note of which tests fail--we will fix those soon. </li>
     <div class="yui-wk-div" style="margin-left: 30px;">
-    <table>
+    <table style="border: 1px solid black;">
     <tbody>
     <tr>
-    <td style="background-color: #cfe2f3;"><b>Test Name</b></td>
-    <td style="background-color: #cfe2f3;"><b>Inputs</b></td>
-    <td style="background-color: #cfe2f3;"><b>Expected Outputs</b></td>
+    <td style="background-color: #cfe2f3; border: 1px solid black;"><b>Test Name</b></td>
+    <td style="background-color: #cfe2f3; border: 1px solid black;"><b>Inputs</b></td>
+    <td style="background-color: #cfe2f3; border: 1px solid black;"><b>Expected Outputs</b></td>
     </tr>
     <tr>
-    <td style="width: 120px;">Standard Plus Test </td>
-    <td style="width: 300px;">With "Dot Size = 5", touch the canvas to draw a dot, press the + button, and 
+    <td style="width: 120px; border: 1px solid black;">Standard Plus Test </td>
+    <td style="width: 300px; border: 1px solid black;">With "Dot Size = 5", touch the canvas to draw a dot, press the + button, and 
                   touch the canvas to draw a second dot. </td>
-    <td style="width: 300px;">The dotsize label should show "Dot Size = 6" and the second dot should be larger 
+    <td style="width: 300px; border: 1px solid black;">The dotsize label should show "Dot Size = 6" and the second dot should be larger 
                   than the first dot. </td>
     </tr>
     <tr>
-    <td>Standard Minus Test</td>
-    <td>With "Dot Size = 5", touch the canvas to draw a dot, press the + button, and touch the canvas to draw 
+    <td style="border: 1px solid black;">Standard Minus Test</td>
+    <td style="border: 1px solid black;">With "Dot Size = 5", touch the canvas to draw a dot, press the + button, and touch the canvas to draw 
                   a second dot.</td>
-    <td>The dotsize label should show "Dot Size = 4" and the second dot should be smaller 
+    <td style="border: 1px solid black;">The dotsize label should show "Dot Size = 4" and the second dot should be smaller 
                   than the first dot.</td>
     </tr>
     <tr>
-    <td>Lower Bounds Test </td>
-    <td>With "Dot Size = 1", touch the canvas to draw a dot, then press the minus button, and touch the canvas 
+    <td style="border: 1px solid black;">Lower Bounds Test </td>
+    <td style="border: 1px solid black;">With "Dot Size = 1", touch the canvas to draw a dot, then press the minus button, and touch the canvas 
                   to draw a second dot.</td>
-    <td> The display should stay at "Dot Size = 1" and the second dot should be the same size as
+    <td style="border: 1px solid black;"> The display should stay at "Dot Size = 1" and the second dot should be the same size as
                   the first dot. </td>
     </tr>
     </tbody>
@@ -138,18 +138,18 @@ Learning Activities
         the ButtonPlus block that will implement the new program requirement and satisfy the new test case we will
         define.</li>
     <div class="yui-wk-div" style="margin-left: 30px;">
-    <table>
+    <table style="border: 1px solid black;">
     <tbody>
     <tr>
-    <td style="background-color: #cfe2f3;"><b>Test Name</b></td>
-    <td style="background-color: #cfe2f3;"><b>Inputs</b></td>
-    <td style="background-color: #cfe2f3;"><b>Expected Outputs</b></td>
+    <td style="background-color: #cfe2f3; border: 1px solid black;"><b>Test Name</b></td>
+    <td style="background-color: #cfe2f3; border: 1px solid black;"><b>Inputs</b></td>
+    <td style="background-color: #cfe2f3; border: 1px solid black;"><b>Expected Outputs</b></td>
     </tr>
     <tr>
-    <td style="width: 120px;">Upper Bounds Test</td>
-    <td style="width: 300px;">With "Dot Size = 25", touch the canvas to draw a dot, then press the plus button, 
+    <td style="width: 120px; border: 1px solid black;">Upper Bounds Test</td>
+    <td style="width: 300px; border: 1px solid black;">With "Dot Size = 25", touch the canvas to draw a dot, then press the plus button, 
                   and touch the canvas to draw a second dot.</td>
-    <td style="width: 300px;"> The display should stay at "Dot Size = 25" and the second dot should be the same size as
+    <td style="width: 300px; border: 1px solid black;"> The display should stay at "Dot Size = 25" and the second dot should be the same size as
                   the first dot. </td>
     </tr>
     </tbody>
