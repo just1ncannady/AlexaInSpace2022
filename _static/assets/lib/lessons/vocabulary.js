@@ -228,13 +228,20 @@ var vocabulary = {
   "parameters" : "Parameters are input variables for a procedure.",
   "arguments" : "Arguments specify the values of the parameters when a procedure is called.",
   
-  //Lesson 5.3 NO VOCAB 
-
+  //Lesson 5.3 added 9/16/2021
+  "binary search" : "a search algorithm that repeatedly divides a sorted list to narrow in on the searched-for item",
+  "linear or sequential search" : "a search algorithm that checks ever element in a list from the start to the end of the list to find an item.",
+  
   //Lesson 5.4 NO VOCAB 
 
-  //Lesson 5.5 NO VOCAB 
-
-  //Lesson 5.6 NO VOCAB 
+  //Lesson 5.5 added 9/16/2021
+  "index":"the number or position of an element in a list",
+  "parallel lists":"Two or more lists that are setup to correspond based on the index location of the data in the lists allowing the data in the lists to be processed at the same time.",
+  
+  //Lesson 5.6 added 9/16/2021
+  "insert":"adds a value into a list at index i, moving down all other items at and after i in the list.",
+  "append":"adds a value to the end of a list",
+  "length":"the number of elements currently in a given list",
   
   //Lesson 5.7  
   "efficiency" : "how well an algorithm uses time and memory/space resources, CPU and RAM.",

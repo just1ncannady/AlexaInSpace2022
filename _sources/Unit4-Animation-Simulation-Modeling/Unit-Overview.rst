@@ -57,47 +57,78 @@ Unit Overview
     <!--2020 Vocab Table-->
     <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit4-Animation-Simulation-Modeling/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
     
-    <table align="center">
+    
+	<table border align="left" width="100%" >
     <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">MIT App Inventor</th> 
+	</tr>
     <tr>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="accumulator">accumulator</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ALU">ALU</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="assembly language">assembly language</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="cookies ">cookies </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="CPU">CPU</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="Data Privacy">data privacy </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Data Security">data security </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Data Storage">data storage </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="fetch-execute cycle">fetch-execute cycle</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="instruction counter">instruction counter</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="instruction register">instruction register</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="machine langauge">machine langauge</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="model">model</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PII) </span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="RAM">RAM</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="random">random</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="random event">random event</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="random number generator">random number generator</span><br/>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="fair coin">fair coin</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Cookies">cookies </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Data Privacy">data privacy </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Data Security">data security </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Data Storage">data storage </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="hypothesis">hypothesis</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="model">model</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="overflow error">overflow error</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Personally Identifiable Information (PII)">Personally Identifiable Information (PII) </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="random">random</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="random number generator">random number generator</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="assembly language">assembly language</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="fetch-execute cycle">fetch-execute cycle</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="machine langauge">machine langauge</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="random event">random event</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Hardware</th> 
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="accumulator">accumulator</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ALU">ALU</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="CPU">CPU</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="instruction counter">instruction counter</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="instruction register">instruction register</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="RAM">RAM</span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<br/>
     </div>
 
 Self-Check

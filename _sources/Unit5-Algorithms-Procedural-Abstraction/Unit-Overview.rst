@@ -55,42 +55,72 @@ Unit Overview
     <!--2020 Vocab Table-->
     <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit5-Algorithms-Procedural-Abstraction/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
     
-    <table align="center">
+	<table border align="left" width="100%" >
     <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">MIT App Inventor</th> 
+	</tr>
     <tr>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="arguments">arguments </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="brute force">brute force </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decision problem">decision problem </span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="distributed computing">distributed computing</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="efficiency">efficiency </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="heuristic algorithm">heuristic algorithm </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="linear or sequential search">linear or sequential search </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="more efficient">more efficient </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="optimization problem">optimization problem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="parallel computing">parallel computing</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="parameters">parameters </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="sequential computing">sequential computing</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="sorting algorithm">sorting algorithm </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="speedup">speedup</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="The Halting Problem">The Halting Problem </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="The Traveling Salesman Problem">The Traveling Salesman Problem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable problems </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time </span><br/>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="append">append </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="arguments">arguments </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="index">index </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="insert">insert </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="length">length </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="parallel lists">parallel lists </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="parameters">parameters </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="binary search">binary search </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="decidable problems">decidable problems </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="decision problem">decision problem </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="distributed computing">distributed computing</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="efficiency">efficiency </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="heuristic algorithm">heuristic algorithm </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="instance of a problem">instance of a problem </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="linear or sequential search">linear or sequential search </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="optimization problem">optimization problem </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="parallel computing">parallel computing</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="reasonable time">reasonable time </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="sequential computing">sequential computing</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="sorting algorithm">sorting algorithm </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="speedup">speedup</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="undecidable problems">undecidable problems </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="unreasonable time">unreasonable time </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="brute force">brute force </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="more efficient">more efficient </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="The Halting Problem">The Halting Problem </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="The Traveling Salesman Problem">The Traveling Salesman Problem </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	<br/>
     </div>
     
 Self-Check

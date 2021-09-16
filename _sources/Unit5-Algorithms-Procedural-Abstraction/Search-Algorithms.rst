@@ -52,7 +52,7 @@ Introduction and Goals
 			</ul>
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
-			<li>use target vocabulary, such as binary search and sequential search while considering algorithms for finding a value in a data set, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span> and <span class="hover vocab yui-wk-div" data-id="linear or sequential search">sequential search </span> while considering algorithms for finding a value in a data set, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>
         </td>
       </tr>
