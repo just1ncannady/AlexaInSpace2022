@@ -75,10 +75,24 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Analyzing Search Algorithms</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1AT_6rYL4T-n0j39eSWxVpteGa1d59SUoXjt_iIlDqc0/" target="_blank" title="">Slides Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/11zhzSU677gmWQdiSYCajgtRUuAUgizcOLTBHbeyvR4E" target="_blank">Slides Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/Omh4VtutCdQ" target="_blank">YouTube Video Analyzing Search</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/YmCzraw7IcA" target="_blank" title="">YouTube Video Analyzing Sort</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/spreadsheets/d/1HR0hn2x8Lpc-KJRBJ_pE_auOYx-q2Ifi6YTplonijY4/copy" target="_blank" title="">Analysis Spreadsheet</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/copy" target="_blank" title="">Graph Paper</a></li>
+	
+	</ul> 
+	
+	<p><h3>Analyzing Search Algorithms</h3>
     
     Watch the following presentation on analyzing search algorithms to learn how to determine how fast linear search and <span class="hover vocab yui-wk-div" data-id='binary search'>binary search</span> are.
-    (<a href="https://docs.google.com/presentation/d/1AT_6rYL4T-n0j39eSWxVpteGa1d59SUoXjt_iIlDqc0/edit#slide=id.p5" target="_blank" title="">slides</a>)
     <br/>
     
 .. youtube:: Omh4VtutCdQ

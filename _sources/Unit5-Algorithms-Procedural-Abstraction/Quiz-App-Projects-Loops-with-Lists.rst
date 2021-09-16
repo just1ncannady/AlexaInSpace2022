@@ -71,10 +71,17 @@ Learning Activities
 
 .. raw:: html
 
-    <h3>Loops with Lists:</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1puzK5D_unNI65CMvxNwqPHW6DkDuPq-reuISHST5bMQ/edit?usp=sharing" target="_blank" title="">Slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1nBYPEVCyRT1xelSqU3TNdfsQGwG5XBeWwTaqFOkFJxo" target="_blank">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/zEZ3F9SgfPE" target="_blank">YouTube video</a></li>
+	</ul> 
+	
+	<h3>Loops with Lists:</h3>
     <p>
-    <a href="https://docs.google.com/presentation/d/1puzK5D_unNI65CMvxNwqPHW6DkDuPq-reuISHST5bMQ/edit?usp=sharing" target="_blank">Presentation slides on Loops with Lists</a></p>
-    
+
 .. youtube:: zEZ3F9SgfPE
         :width: 650
         :height: 415

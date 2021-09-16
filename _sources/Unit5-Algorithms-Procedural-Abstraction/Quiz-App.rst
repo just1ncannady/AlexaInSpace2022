@@ -69,11 +69,19 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Video Tutorial</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1RPxUXIbluNl4RBjEsBojSzQTvBZqWm3eO5Y9Fci_-0k/edit?usp=sharing" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1esBQ08ydu6a-ZpNjQ9FPk-qMuHmg6gjSRtnLPaOLo60/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/y7epbJbCZOI" target="_blank">YouTube video</a></li>
+	</ul> 
+	
+	<p><h3>Tutorial</h3>
     <p>
       To get started, open App Inventor with the 
       <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit6/templates/QuizApp/QuizAppTemplate.asc" target="_blank">Quiz App template</a> 
-      in a separate tab and follow along with the video tutorial below or this <a href="https://docs.google.com/document/d/1RPxUXIbluNl4RBjEsBojSzQTvBZqWm3eO5Y9Fci_-0k/edit?usp=sharing" target="_blank">text tutorial</a>. For an extra challenge use just the <a href="https://docs.google.com/document/d/1esBQ08ydu6a-ZpNjQ9FPk-qMuHmg6gjSRtnLPaOLo60/edit?usp=sharing" target="_blank">short handout</a>.
+      in a separate tab and follow along with the video tutorial, read the text tutorial, or for an extra challenge use just the short handout.
     </p>
     
 .. youtube:: y7epbJbCZOI

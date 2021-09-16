@@ -56,7 +56,16 @@ Learning Activities
 
 .. raw:: html
 
-    <div class="pogil yui-wk-div">
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1ZJUHpudn7dl_gP0kuyE0mXysOX7zky9w-xF6j_3QebY" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/bjYS0UKA4dE" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://playingcards.io/" target="_blank" title="">Playingcards.io</a></li>
+	</ul> 
+	
+	<br/>
+	<div class="pogil yui-wk-div">
     <h3>Searching POGIL Activity</h3>
     
     Each group of four should be given a deck of cards (or use <a href="http://PlayingCards.io" target="_blank" title="">PlayingCards.io</a>) Have one team member time the following tasks:

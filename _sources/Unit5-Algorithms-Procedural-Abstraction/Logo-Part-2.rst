@@ -72,7 +72,17 @@ Learning Activities
 
 .. raw:: html
 
-    <h3>Introduction</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1_iNgovLKL7ZCu8ZV2wDb6v5NZ9A7qXA_bNQ76gG3KQ8/edit?usp=sharing" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1tZeVSg6MijkG6hA6_irNuAGbd7jsvnmoLS428teCwvY/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/QwduDhVjPK4" target="_blank">YouTube video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank" title="">graph paper</a></li>
+	</ul> 
+	
+	<h3>Introduction</h3>
     In the <a href="./unit?unit=23&amp;lesson=166" target="_blank">previous Logo lesson</a> 
     you developed algorithms for drawing simple shapes. 
     Drawing the shapes, especially the face shape, was difficult because the <i>abstraction</i>

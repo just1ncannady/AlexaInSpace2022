@@ -63,7 +63,17 @@ Learning Activities
 
 .. raw:: html
 	
-    <p> There are two categories of problems that an algorithm cannot solve.
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1HBFf1Lkz3BMj3UstCPf7aF4LSBI_XusxYFyja1kP-hk" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/6uErSfQdIc0" target="_blank">YouTube video Part I</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/-S3q68v5vts" target="_blank">YouTube video Part II</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1DdGDkxPEo0fHh6D2-aVxzqYs0Ao6IuQXR2gnYq9LXnU/copy" target="_blank" title="">POGIL Worksheet</a></li>
+	</ul> 
+	
+	<p> There are two categories of problems that an algorithm cannot solve.
 	</p>
     <ol>
     <li style="margin-bottom: 5px"><span class="hover vocab yui-wk-div" data-id='undecidable problems'>Undecidable Problems</span>.  These problems

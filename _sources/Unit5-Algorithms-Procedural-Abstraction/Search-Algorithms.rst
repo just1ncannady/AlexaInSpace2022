@@ -66,6 +66,10 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1HQCHw9qhIq5M7a57xjMn-daD7BdVv7h3fjA4J8Vn160/copy" target="_blank">POGIL worksheet</a></li>
+	</ul> 
+	
 	<p>As the video above describes, when you do a Google search, you aren't actually
 			searching the Web, you're searching Google's <i>index</i> of the Web.  Google's
 			<i>spider programs</i> are constantly traversing the web, collecting millions of 

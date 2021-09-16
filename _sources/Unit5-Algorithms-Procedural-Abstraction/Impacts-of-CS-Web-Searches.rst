@@ -79,7 +79,15 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Chapter 4: Needles in the Haystack — Google and Other Brokers in the Bits Bazaar</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter4.pdf" target="_blank" title="">Blown to Bits Chapter 4</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1KeciRgqoa0KlNnWtYdAPibLHxINcp9qNsDxQzWCBajY/copy" target="_blank">K-W-L chart</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/mTBShTwCnD4" target="_blank">YouTube video</a></li>
+	</ul> 
+	
+	<p><h3>Chapter 4: Needles in the Haystack — Google and Other Brokers in the Bits Bazaar</h3>
     <p>This chapter describes web searches and how searching is done. It focuses on Google and how the Google phenomenon has evolved and changed our lives. Some of the topics covered in the reading include how Google searches work, caching, the PageRank algorithm, bias in searches, and search trends.</p>
     <h3>Activity: K-W-L Chart</h3>
     <p>Before reading the chapter, consider the following questions and complete the Know and Want columns of the <a href="https://docs.google.com/document/d/1KeciRgqoa0KlNnWtYdAPibLHxINcp9qNsDxQzWCBajY/edit?usp=sharing" target="_blank">K-W-L chart</a>. Share and discuss your responses with your classmates.</p>

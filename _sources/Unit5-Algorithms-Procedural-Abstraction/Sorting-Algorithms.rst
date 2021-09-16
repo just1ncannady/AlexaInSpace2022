@@ -54,7 +54,23 @@ Introduction and Goals
 	<li>use target vocabulary, such as bubble sort, merge sort, bucket sort, and radix sort, while considering algorithms for sorting data sets, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
 
-    <p>One of simplest sorting algorithms is the <i>bubble sort</i>.  Here's a video
+Learning Activities
+--------------------
+
+.. raw:: html
+
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://youtu.be/aQ9f0rXhuQ4" target="_blank" title="">YouTube Video Bubble Sort</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/CWjOwaqeYpA" target="_blank">YouTube Video Merge Sort</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/je0bBZxfmMM" target="_blank">YouTube Video Bucket Sort</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://playingcards.io/" target="_blank" title="">PlayingCards.io</a></li>
+	</ul> 
+	
+	<h3>Bubble Sort</h3>
+	<p>One of simplest sorting algorithms is the <i>bubble sort</i>.  Here's a video
     that demonstrates a version of the bubble sort on a collection of 13 playing cards.  
     As you watch it, see if you can discover the algorithm.
     
@@ -83,14 +99,8 @@ Introduction and Goals
       the <i>Ace</i> is placed on the sorted pile. On the second pass, a <i>Queen</i> is
       placed on the sorted pile.  And so on.
     </p>
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Pseudocode for Bubble Sort</h3>
+	
+	<p><h3>Pseudocode for Bubble Sort</h3>
     <p>Here is a <i>pseudocode</i> description of the bubble sort as seen in the video:
     
     </p><pre><font color="blue"><b>To Bubble Sort a deck of N cards:</b></font>
