@@ -24,7 +24,13 @@ Quiz App
         $(document).ready(function() {
             generateSummary(EKmapping['5.05']);
             generateHovers();
-    
+			Tipped.create('.vocab', function(element) {
+			var vocab = $(element).data('id');
+			return vocabulary[vocab];
+				}, {
+				cache: false,
+					position: 'topleft'
+              });
         });
     </script>
     <h3 id="est-length">Time Estimate: 45 minutes</h3>
@@ -179,6 +185,19 @@ Self-Check
 .. raw:: html
 
     <p>
+    <h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.</p>
+    <table align="center">
+    <tbody><tr>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="index">index</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="parallel lists">parallel lists</span>
+	</td>
+	</tr>
+    </tbody></table>
+    <h3>Check Your Understanding</h3>
+	
+	<p>
     
 .. fillintheblank:: mcsp-5-5-1
     :casei:

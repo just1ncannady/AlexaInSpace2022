@@ -24,7 +24,13 @@ Quiz App Projects Loops with Lists
         $(document).ready(function() {
             generateSummary(EKmapping['5.06']);
             generateHovers();
-    
+			Tipped.create('.vocab', function(element) {
+			var vocab = $(element).data('id');
+			return vocabulary[vocab];
+				}, {
+				cache: false,
+					position: 'topleft'
+              });
         });
     </script>
     <!-- for apml questions -->
@@ -198,6 +204,20 @@ Self-Check
 .. raw:: html
 
     <p>
+    <h3>Vocabulary</h3>
+	<p>Here is a table of the technical terms we've introduced in this lesson. Hover over the terms to review the definitions.</p>
+    <table align="center">
+    <tbody><tr>
+    <td>
+    <span class="hover vocab yui-wk-div" data-id="insert">insert</span>
+    <br/><span class="hover vocab yui-wk-div" data-id="append">append</span>
+	<br/><span class="hover vocab yui-wk-div" data-id="length">length</span>
+	</td>
+	</tr>
+    </tbody></table>
+    <h3>Check Your Understanding</h3>
+	
+	<p>
     <p>You can practice more algorithms with loops and lists below. It is useful to know standard algorithms that use loops like searching for an item in a list, finding the minimum or maximum value in a list, computing the sum or average of a list of values, etc. Using existing algorithms as building blocks for constructing new algorithms has benefits such as reducing development time, reducing testing, and simplifying the identification of errors.</p>
     
     
