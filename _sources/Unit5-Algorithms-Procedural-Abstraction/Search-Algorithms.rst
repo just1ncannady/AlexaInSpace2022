@@ -53,12 +53,12 @@ Introduction and Goals
         <td valign="top">
 			<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 			<ul>
-			<li>identify the strengths and weaknesses of the sequential and binary search algorithms</li>
+			<li>identify the strengths and weaknesses of the <span class="hover vocab yui-wk-div" data-id="linear or sequential search">sequential </span> and <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span> algorithms</li>
 			<li>determine the number of steps required to find a value in a data set</li>
 			</ul>
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
-			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span> and <span class="hover vocab yui-wk-div" data-id="linear or sequential search">sequential search </span> while considering algorithms for finding a value in a data set, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span> and <span class="hover vocab yui-wk-div" data-id="linear or sequential search">sequential search</span> while considering algorithms for finding a value in a data set, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1-IY5fs_ygKlgwUGBD9nX_tx_tFerN7pEeQvdgQIwrdw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 			</ul>
         </td>
       </tr>
@@ -152,13 +152,12 @@ Learning Activities
     </center>
     <p></p>
     <h3>An Efficient Algorithm</h3>
-    <p>There is an efficient algorithm for the guessing game problem, known as the <b>binary search algorithm</b>. It is called binary search because you repeatedly divide the search space into two and eliminate one half of the search space. 
+    <p>There is an efficient algorithm for the guessing game problem, known as the <span class="hover vocab yui-wk-div" data-id="binary search">binary search </span> algorithm. It is called in because you repeatedly diaryvide the search space into two and eliminate one half of the search space. 
       Click <a href="https://mobile-csp.org/webapps/search/binarysearch.html" target="_blank">here</a> to see 
       the pseudocode or see the algorithm comparison section below.
     </p>
     <h3>Linear (or Sequential) Search</h3>
-    <p>What if you had to search a set of data that was <b>not sorted</b>?  Binary
-    search won't work in that case.  To illustrate this problem, let's try a variation of our
+    <p>What if you had to search a set of data that was <b>not sorted</b>?  <span class="hover vocab yui-wk-div" data-id="binary search">Binary search </span> won't work in that case.  To illustrate this problem, let's try a variation of our
     guessing game.  This time the app will only tell you if your guess is right or wrong, not
     whether it is too high or too low.  Try it. (<a href="https://mobile-csp.org/webapps/search/sequential.html" target="_blank">Open widget in new window.</a>)
     
@@ -173,7 +172,7 @@ Learning Activities
     
     </p>
     <h3>Comparing Linear vs. Binary Search Algorithms</h3>
-    <p>Here is a comparison of linear search and binary search looking for a target in a list of N items in AP style pseudocode. Don't worry about understanding the details about the binary search algorithm, but do understand the general way it works. Binary search is more complex but it is much faster. However, the list must be in a sorted order for a binary search to work. Linear search is slower but works with any list in any order.
+    <p>Here is a comparison of <span class="hover vocab yui-wk-div" data-id="linear or sequential search">sequential search</span> and <span class="hover vocab yui-wk-div" data-id="binary search">binary search</span> looking for a target in a list of N items in AP style pseudocode. Don't worry about understanding the details about the <span class="hover vocab yui-wk-div" data-id="binary search">binary search</span> algorithm, but do understand the general way it works. <span class="hover vocab yui-wk-div" data-id="binary search">Binary search</span> is more complex but it is much faster. However, the list must be in a sorted order for a <span class="hover vocab yui-wk-div" data-id="binary search">binary search</span> to work. <span class="hover vocab yui-wk-div" data-id="linear or sequential search">Linear search</span> is slower but works with any list in any order.
      </p><table border="" style="border:1px solid black;">
     <thead><tr><th style="border:1px solid black;">Linear Search Pseudocode</th><th style="border:1px solid black;">Binary Search Pseudocode</th></tr>
     </thead>
