@@ -198,7 +198,12 @@ Still Curious?
     <p>
     <p>There is a wealth of good introductory information about the Internet and the WWW.</p>
     <ul>
-    <li>Here are some fun videos about <a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M" target="_blank">What is the Internet (3.5 mins)</a>, <a href="https://www.youtube.com/watch?v=h8K49dD52WA" target="_blank">history of the Internet (3.5 mins)</a>, and <a href="https://www.youtube.com/watch?v=Bkd3VyQMBK0&amp;noredirect=1" target="_blank">Tim Berners-Lee (4 mins)</a>.</li>
+    <li>Here are some fun videos about <a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M" target="_blank">What is the Internet (3.5 mins)</a>, <a href="https://www.youtube.com/watch?v=h8K49dD52WA" target="_blank">history of the Internet (3.5 mins)</a>, and <a href="https://www.youtube.com/watch?v=GUrDI6OkJfU" target="_blank">Tim Berners-Lee (6 mins)</a>.</li>
+	
+	<!--
+	<a href="https://www.youtube.com/watch?v=h8K49dD52WA" target="_blank">history of the Internet (3.5 mins)</a>, and <a href="https://www.youtube.com/watch?v=Bkd3VyQMBK0&amp;noredirect=1" target="_blank">Tim Berners-Lee (4 mins)</a>
+	-->
+	
     <li>Wikipedia pages on the <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">Internet</a> 
     and <a href="http://en.wikipedia.org/wiki/WWW" target="_blank">WWW</a> and the <a href="http://netforbeginners.about.com/od/i/f/What-Is-The-Internet.htm" target="_blank">
     difference between the Internet and WWW</a>.</li>
