@@ -54,103 +54,143 @@ Unit Overview
     <!--2020 Vocab Table-->
     <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit6-Communication-Through-Internet/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
     
-    <table align="center">
+	
+	<table border align="left" width="100%" >
     <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">MIT App Inventor</th> 
+	</tr>
     <tr>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="abstraction layer">abstraction layer </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric cipher </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="biometrics">biometrics </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="brute force attack">brute force attack </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="certificate authority">certificate authority </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="cipher">cipher </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ciphertext">ciphertext </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="client">client </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="computer bug">computer bug</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="computing system">computing system </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="cryptography">cryptography</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="debugging">debugging</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decryption">decryption </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="diffie-hellman">Diffie-Hellman</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="digital certificate">digital certificate</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="DNS">DNS</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="encryption">encryption</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="encryption algorithm">encryption algorithm </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="encryption key">encryption key </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ethernet">ethernet </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault-tolerant</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="firewalls">firewalls </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="frequency analysis">frequency analysis </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="function">function </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="host">host </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="HTML">HTML </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="HTTP">HTTP </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="https">HTTPS</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Internet Service Provider">Internet Service Provider </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="intractable">intractable</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="IP Address">IP address</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="IPv4">IPv4</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="IPv6">IPv6</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="key exchange problem">key exchange problem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="keylogger">keylogger </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="LAN">LAN </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="latency">latency </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="local variables">local variables </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="malware">malware  </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="malware scanning software">malware scanning software </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="modem">modem </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="multi-factor authentication (MFA)">multi-factor authentication (MFA) </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="network">network </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="one time pad">one time pad </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="packet">packet</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="packet sniffer">packet sniffer </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="phishing">phishing </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ping">ping</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="plaintext">plaintext </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="polyalphabetic substitution">polyalphabetic substitution </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="protocol">protocol </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ransomware">ransomware </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="rogue access point">rogue access point </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="router">router </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="routing">routing </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="rsa">rsa </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="run-time error">run-time error</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="semantic error">semantic error</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="server">server </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="SMTP/POP">SMTP/POP </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="ssl">ssl</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="strong password">strong password </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="substitution cipher">substitution cipher </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="symmetric cipher">symmetric cipher </span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="symmetric encryption">symmetric encryption </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="syntax error">syntax error </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="traceroute">traceroute </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="transposition cipher">transposition cipher </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="Trojan horse">Trojan horse </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="trust model">trust model </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="URI">URI </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="virus">virus </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="WAN">WAN </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="wifi">wifi </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="World Wide Web">World Wide Web </span><br/>
-    <span class="hover vocab yui-wk-div" data-id="worm">worm  </span><br/>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="function">function </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="local variables">local variables </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="biometrics">biometrics </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="certificate authority">certificate authority </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="computing system">computing system </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="decryption">decryption </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="digital certificate">digital certificate</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="encryption algorithm">encryption algorithm </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="encryption key">encryption key </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="encryption">encryption</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault-tolerant</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="HTTP">HTTP </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="keylogger">keylogger </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="malware scanning software">malware scanning software </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="malware">malware  </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="multi-factor authentication (MFA)">multi-factor authentication (MFA) </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="network">network </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="packet">packet</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="phishing">phishing </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="protocol">protocol </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="rogue access point">rogue access point </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="router">router </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="routing">routing </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="run-time error">run-time error</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="server">server </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="strong password">strong password </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="symmetric encryption">symmetric encryption </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="syntax error">syntax error </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="trust model">trust model </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="virus">virus </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="World Wide Web">World Wide Web </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="abstraction layer">abstraction layer </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric cipher </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="brute force attack">brute force attack </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="cipher">cipher </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ciphertext">ciphertext </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="client">client </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="computer bug">computer bug</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="cryptography">cryptography</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="debugging">debugging</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="diffie-hellman">Diffie-Hellman</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="DNS">DNS</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="domain name">domain name</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ethernet">ethernet </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="firewalls">firewalls </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="frequency analysis">frequency analysis </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="host">host </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="HTML">HTML </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="https">HTTPS</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Internet Service Provider">Internet Service Provider </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="intractable">intractable</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="IP Address">IP address</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="IPv4">IPv4</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="IPv6">IPv6</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="key exchange problem">key exchange problem </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="LAN">LAN </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="latency">latency </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="modem">modem </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="one time pad">one time pad </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="packet sniffer">packet sniffer </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="packet switching">packet switching </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ping">ping</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="plaintext">plaintext </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="polyalphabetic substitution">polyalphabetic substitution </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ransomware">ransomware </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="rsa">rsa </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="semantic error">semantic error</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="SMTP/POP">SMTP/POP </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="ssl">ssl</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="substitution cipher">substitution cipher </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="symmetric cipher">symmetric cipher </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="traceroute">traceroute </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="transposition cipher">transposition cipher </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Trojan horse">Trojan horse </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="URI">URI </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="WAN">WAN </span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="wifi">wifi </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="worm">worm  </span><br/></td>
+	</tr>
+	</tbody>
+	</table>
     </div>
   
 Self-Check
