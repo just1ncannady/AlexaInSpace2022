@@ -92,21 +92,11 @@ Unit Overview
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="index">index</span><br/></td>
 	</tr><tr>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="list">list</span><br/></td>
-	<td width="30%"><span class="hover vocab yui-wk-div" data-id="string">string</span><br/></td>
-	<td width="30%"><span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/></td>
-	</tr>
-	</tbody>
-	</table>
-	
-	<table border align="left" width="100%" >
-    <tbody>
-	<tr>
-	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">MIT App Inventor</th> 
-	</tr>
-    <tr>
-	<td width="30%"><span class="hover vocab yui-wk-div" data-id="concatenation">concatenation</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="operator">operator</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="string">string</span><br/></td>
+	</tr><tr>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="substring">substring</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="variable">variable</span><br/></td>
 	</tr>
 	</tbody>
 	</table>
@@ -122,17 +112,19 @@ Unit Overview
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="bit">bit</span><br/></td>
 	</tr><tr>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="byte">byte</span><br/></td>
-	
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="computer bug">computer bug</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="cryptography">cryptography</span><br/></td>
+	
 	</tr><tr>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data abstraction">data abstraction</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="data type">data type</span><br/></td>
-	<td width="30%"><span class="hover vocab yui-wk-div" data-id="expression">expression</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="debugging">debugging</span><br/></td>
 	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="expression">expression</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="lossless compression">lossless compression</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="lossy compression">lossy compression</span><br/></td>
-	<td width="30%"><span class="hover vocab yui-wk-div" data-id="pixel">pixel</span><br/></td>
 	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="pixel">pixel</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="pseudocode">pseudocode</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="run length encoding">run length encoding</span><br/></td>
 	</tr>
