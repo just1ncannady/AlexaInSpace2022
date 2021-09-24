@@ -392,7 +392,6 @@ Self-Check
     </div>
 
 .. mchoice:: mcsp-3-4-6
-    :random:
     :practice: T
     :answer_a: <img src="../_static/assets/img/APExamPrepQ18ChoiceA.PNG.jpg?seed=12167&amp;url=assets/img/APExamPrepQ18ChoiceA.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_a: 
@@ -400,7 +399,7 @@ Self-Check
     :feedback_b: 
     :answer_c: <img src="../_static/assets/img/APExamPrepQ18ChoiceC.PNG.jpg?seed=29728&amp;url=assets/img/APExamPrepQ18ChoiceC.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_c: 
-    :answer_d: <img src="../_static/mobilecsp/assets/img/APExamPrepQ18ChoiceD.PNG.jpg?seed=36266&amp;url=assets/img/APExamPrepQ18ChoiceD.PNG.jpg" class="yui-img" title="" alt="">
+    :answer_d: <img src="../_static/assets/img/APExamPrepQ18ChoiceD.PNG.jpg?seed=36266&amp;url=assets/img/APExamPrepQ18ChoiceD.PNG.jpg" class="yui-img" title="" alt="">
     :feedback_d: 
     :correct: a,d
 
