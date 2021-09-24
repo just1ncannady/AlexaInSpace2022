@@ -112,9 +112,10 @@ Unit Overview
 	</tr>
     <tr>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="brute force">brute force </span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="intractable">intractable</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="intractable problems">intractable problems </span><br/></td>
-	<td width="30%"><span class="hover vocab yui-wk-div" data-id="more efficient">more efficient </span><br/></td>
 	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="more efficient">more efficient </span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="The Halting Problem">The Halting Problem </span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="The Traveling Salesman Problem">The Traveling Salesman Problem </span><br/></td>
 	</tr>
