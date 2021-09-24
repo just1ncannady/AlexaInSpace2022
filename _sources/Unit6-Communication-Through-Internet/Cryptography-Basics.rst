@@ -66,10 +66,8 @@ Introduction and Goals
 
     </p>
 	
-    </p><p>So, let's take a look at some of the classical ciphers and some of the basic principles of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>.  There are several hands-on activities in this lesson, where you'll have a chance to practice encrypting and decrypting messages and analyzing
-    ciphers.
-    
     </p>
+	
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	<ul>
 	<li>perform <span class="hover vocab yui-wk-div" data-id='frequency analysis'>frequency analyses</span> to identify <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution</span> and <span class="hover vocab yui-wk-div" data-id='transposition cipher'>transposition</span> ciphers</li>
@@ -79,10 +77,32 @@ Introduction and Goals
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
 	<li>explain how <span class="hover vocab yui-wk-div" data-id='substitution cipher'>substitution ciphers</span> can be broken</li>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="frequency analysis">frequency analysis</span>, <span class="hover vocab yui-wk-div" data-id="polyalphabetic substitution">polyalphabetic substitution</span>, <span class="hover vocab yui-wk-div" data-id="one time pad">one time pad</span>, and <span class="hover vocab yui-wk-div" data-id="key exchange problem">key exchange problem</span> while describing symmetric encryption ciphers, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="frequency analysis">frequency analysis</span>, <span class="hover vocab yui-wk-div" data-id="polyalphabetic substitution">polyalphabetic substitution</span>, <span class="hover vocab yui-wk-div" data-id="one time pad">one time pad</span>, and <span class="hover vocab yui-wk-div" data-id="key exchange problem">key exchange problem</span> while describing symmetric encryption ciphers, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
+    
+
+Learning Activities
+--------------------
+
+.. raw:: html
+
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8" target="_blank" title="">Slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/86sjWJXhixU" target="_blank">YouTube Video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/kgFwFZQECFM" target="_blank">YouTube Video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/cPiHgaLB8yY" target="_blank" title="">YouTube Video Part 3</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/UkC233aGc8Y" target="_blank" title="">YouTube Video Part 4</a></li>
+	</ul> 
 	
-    <p>(<a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8" target="_blank" title="">Slides</a>)</p>
+	<br/>
+	<p>Let's take a look at some of the classical ciphers and some of the basic principles of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>.  There are several hands-on activities in this lesson, where you'll have a chance to practice encrypting and decrypting messages and analyzing
+    ciphers.
+    </p>
+	
     <!--
     &lt;h2&gt;Part 1: Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>&lt;/h2&gt;
     &lt;p&gt;
@@ -107,14 +127,8 @@ Introduction and Goals
       more complex ciphers discussed in this lesson.
     &lt;/p&gt;
     -->
-    
-
-Learning Activities
---------------------
-
-.. raw:: html
-
-    <p><h3>Part 1: Simple Substitution Cipher</h3>
+	
+	<p><h3>Part 1: Simple Substitution Cipher</h3>
     
 .. youtube:: 86sjWJXhixU
         :width: 650
@@ -126,7 +140,6 @@ Learning Activities
     <div id="bogus-div">
     <p></p>
     </div>
-
 
     <br/>
     <h3>Activity: Simple Substitution Cipher</h3>

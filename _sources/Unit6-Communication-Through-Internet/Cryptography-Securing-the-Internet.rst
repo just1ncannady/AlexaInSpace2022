@@ -87,7 +87,7 @@ Introduction and Goals
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
 	<li>explain how <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key cryptography</span> is not symmetric</li>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric cipher</span>, <span class="hover vocab yui-wk-div" data-id="https">HTTPS</span>, and <span class="hover vocab yui-wk-div" data-id="certificate authority">certificate authority</span> while describing modern cryptography, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="asymmetric cipher">asymmetric cipher</span>, <span class="hover vocab yui-wk-div" data-id="https">HTTPS</span>, and <span class="hover vocab yui-wk-div" data-id="certificate authority">certificate authority</span> while describing modern cryptography, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
 
     
@@ -97,7 +97,19 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Doubly Locked Box Analogy</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/" target="_blank" title="">Slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/jJrICB_HvuI" target="_blank">Doubly Locked Box Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/oUvelH9ADjs" target="_blank">YouTube Video Part 1</a></li>
+	<br/>
+	<li style="display: inline"><a href="https://youtu.be/Z6OCgIRt54g" target="_blank" title="">YouTube Video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/1BA9L3_7YJ8" target="_blank" title="">YouTube Video Part 3</a></li>
+	</ul> 
+	
+	<p><h3>Doubly Locked Box Analogy</h3>
     <p>This video shows one helpful model for <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key</span> encryption, a <b><i>doubly-locked box</i></b>, in which Alice
       and Bob each have their own keys, both of which are used to securely transmit information.
       
@@ -115,8 +127,7 @@ Learning Activities
 
     </p>
     <h3>Part 1: Diffie-Hellman Key Exchange Algorithm</h3>
-    <p>This video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.p5" target="_blank" title="">here</a>) 
-      includes video clips from Brit Cruise's great explanation
+    <p>This video includes video clips from Brit Cruise's great explanation
       of the <span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span> key exchange algorithm. After watching the video, try using the widget below to play with the color-mixing analogy. 
     </p>
     <br/>
@@ -142,25 +153,14 @@ Learning Activities
     <p>Give it a try.  Colors are represented by hexadecimal numbers as explained in the sidebar.
       (<a href="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" target="_blank">Open widget in a separate window</a>)
     </p>
-    <table>
-    <tbody><tr>
-    <td>
-    <iframe style="float:right" height="410" instanceid="k8nug819cUct" src="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" title="" width="515">
+	
+	<p align="center"><iframe height="410" instanceid="k8nug819cUct" src="https://mobile-csp.org/webapps/crypto/diffiehellmancolor.html" title="" width="515">
     </iframe>
-    
-    In the RGB system colors are represented by 6-digit hexadecimal numbers, 
-          where the first two digits represent the amount of red, the next two represent 
-          amount of green, and the last two represent amount blue.  Pure 
-          <font color="red">red</font> is <font color="red">FF0000</font>, where FF is 
-          the maximum amount of  red (equal to 255 in decimal).  Pure <font color="green">green</font>
-          would be <font color="#00FF00">00FF00</font>.  
-          If you mix lots of blue and green, <font color="#00FFFF">00FFFF</font>, you should 
-          get <font color="#00FFFF">aqua</font>.  If you mix lots of red with some green, 
-          <font color="#ff8500">FF8500</font>, you should get
-          <font color="ff8500">orange</font>.
-        </td>
-    </tr>
-    </tbody></table>
+	</p>
+	
+   <p>In the RGB system colors are represented by 6-digit hexadecimal numbers, where the first two digits represent the amount of red, the next two represent amount of green, and the last two represent amount blue.  Pure <font color="red">red</font> is <font color="red">FF0000</font>, where FF is the maximum amount of  red (equal to 255 in decimal).  Pure <font color="green">green</font> would be <font color="#00FF00">00FF00</font>.  If you mix lots of blue and green, <font color="#00FFFF">00FFFF</font>, you should get <font color="#00FFFF">aqua</font>.  If you mix lots of red with some green, <font color="#ff8500">FF8500</font>, you should get <font color="ff8500">orange</font>.
+   </p>
+	
     <br/>
     <h3>Part 2: RSA Public Key Encryption</h3>
     <p>
@@ -169,8 +169,7 @@ Learning Activities
       two related parts using mathematical techniques.  And also, like <span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span>, it depends on the use of a
       one-way function -- i.e., a mathematical function that is easy to compute in one direction, but <span class="hover vocab yui-wk-div" data-id='intractable'>intractable</span> to compute in the other.
     </p>
-    <p>The following video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0254" target="_blank" title="">here</a>) 
-      provides a high-level description of <span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span> without out going too deeply into the mathematical details.
+    <p>The following video provides a high-level description of <span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span> without out going too deeply into the mathematical details.
     </p>
     
 .. youtube:: Z6OCgIRt54g
@@ -188,12 +187,7 @@ Learning Activities
     <br/>
     <h3>Part 3:  Securing the Internet</h3>
     <p>
-      Now that we have some understanding of the algorithms used to encrypt data, we can take a look at how
-      these algorithms work together in the system that secures the Internet.  
-      The following video (slides <a href="https://docs.google.com/presentation/d/1O4fSXY7KwHj-e6LcU6_q4sx7yuY_Epad2rXuCBxGwnk/edit?ts=5f6b40b2#slide=id.g393395465_0551" target="_blank" title="">here</a>) 
-      describes the type of communication that takes place behind the scenes when the browser on your phone or 
-      tablet or laptop computer makes a secure connection to Amazon or Google or some other Internet service. 
-      
+      Now that we have some understanding of the algorithms used to encrypt data, we can take a look at how these algorithms work together in the system that secures the Internet. The following video describes the type of communication that takes place behind the scenes when the browser on your phone or tablet or laptop computer makes a secure connection to Amazon or Google or some other Internet service. 
       
 .. youtube:: 1BA9L3_7YJ8
         :width: 650

@@ -61,7 +61,7 @@ Introduction and Goals
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
 	<li>discuss the benefits of <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span> and Internet abstraction layers</li>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="router">router</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>, and <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault tolerant</span> while describing how data is transported across the Internet, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="router">router</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>, and <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault tolerant</span> while describing how data is transported across the Internet, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
 
     
@@ -71,7 +71,19 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Part 1: Network Architecture and Packet Switching</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1g7NmzbMvyBYLZwe2NtWXSurW4D7o-uCKYCdI2yvDFIc" target="_blank" title="">Slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/qrG0bS-JuTo" target="_blank">YouTube Video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/edit?usp=sharing" target="_blank">Ping and Traceroute Activity</a></li>
+	<br/>
+	<li style="display: inline"><a href="https://youtu.be/Q6ixZe6ifHI" target="_blank" title="">YouTube Video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g" target="_blank" title="">Packet Routing Activity</a></li>
+	</ul> 
+	
+	<p><h3>Part 1: Network Architecture and Packet Switching</h3>
     <p>
       This first video focuses on basic architecture of the Internet and the technique of <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching. 
      The Internet has been engineered to be <span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b>scalability</b> of a system is the capacity for the system to change in size and scale to meet new demands. 

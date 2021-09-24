@@ -71,7 +71,7 @@ Introduction and Goals
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
 		<li>explain the difference between <span class="hover vocab yui-wk-div" data-id='local variables'>local</span> and global variables</li>
-		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="encryption key">encryption key</span>, <span class="hover vocab yui-wk-div" data-id="encryption algorithm">encryption algorithm</span>, and <span class="hover vocab yui-wk-div" data-id="substitution cipher">substitution cipher</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="encryption key">encryption key</span>, <span class="hover vocab yui-wk-div" data-id="encryption algorithm">encryption algorithm</span>, and <span class="hover vocab yui-wk-div" data-id="substitution cipher">substitution cipher</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
     </td>
     </tr>
@@ -83,10 +83,18 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Part I: Introduction to Cryptography and the Caesar Cipher</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8/" target="_blank" title="">Slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/mXx4G_x6OuY" target="_blank">YouTube Video - Lecture</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/ZKcv1IfrS7A" target="_blank" title="">YouTube Video - Tutorial</a></li>
+	</ul> 
+	
+	<p><h3>Part I: Introduction to Cryptography and the Caesar Cipher</h3>
     <p><span class="hover vocab yui-wk-div" data-id='cryptography'>Cryptography</span> means secret writing. It is the art and science of sending secret  messages and it has been used by generals and governments and everyday people practically  since the invention of written language.  As we will see in upcoming lessons, modern cryptographic techniques are essential to guaranteeing the security of our transactions on the Internet. </p>
     <p><span class="hover vocab yui-wk-div" data-id='cryptography'>Cryptography</span> plays a role whenever you make an online purchase at Amazon or provide  your password to Google.  Whenever you see the <i><b>https protocol</b></i> in your browser, you can rest assured that your communications are secure because they are being encrypted with strong, unbreakable <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span>.   If we couldn't rely on those transactions being secure we really wouldn't have the Internet as we know it today.</p>
-    <p>In upcoming lessons we will look at several different versions of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, including the strong <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> that protects our Internet transactions.  But let’s begin here with a simple <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, the <b><i>Caesar Cipher</i></b>, so named because it was used by Julius Caesar in 1st century B.C. The following video will explain the basics of the Caesar Cipher.  Click below to watch this presentation on Caesar Cipher.<br/>(<a href="https://docs.google.com/presentation/d/1GOzrwChWLjWbYi_yqKpLi2T60dwM8Yv2CaX2qGPzuV8/" target="_blank" title="">Slides - use 1-12</a>)</p>
+    <p>In upcoming lessons we will look at several different versions of <span class="hover vocab yui-wk-div" data-id='cryptography'>cryptography</span>, including the strong <span class="hover vocab yui-wk-div" data-id='encryption'>encryption</span> that protects our Internet transactions.  But let’s begin here with a simple <span class="hover vocab yui-wk-div" data-id='cipher'>cipher</span>, the <b><i>Caesar Cipher</i></b>, so named because it was used by Julius Caesar in 1st century B.C. The following video will explain the basics of the Caesar Cipher.  Click below to watch this presentation on Caesar Cipher.<br/></p>
     
 .. youtube:: mXx4G_x6OuY
         :width: 650
@@ -102,9 +110,10 @@ Learning Activities
 
     <br/>
     <h3>Activity: Caesar Cipher</h3>
-    (<a href="https://www.mobile-csp.org/webapps/crypto/caesar.html" target="_blank">Open widget in separate window</a>)
     
-    <iframe height="300" src="https://www.mobile-csp.org/webapps/crypto/caesar.html" style="border: 0;" title="Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>" width="650"></iframe>
+    
+    <iframe height="300"  width="800" src="https://www.mobile-csp.org/webapps/crypto/caesar.html" style="border: 0;" title="Caesar <span class="hover vocab yui-wk-div" data-id='Cipher'>Cipher</span>"></iframe>
+	(<a href="https://www.mobile-csp.org/webapps/crypto/caesar.html" target="_blank">Open widget in separate window</a>)
     <ol>
     <li>Use the Caesar cipher to encrypt your name by hand using the cipher_alphabet below that is shift 3. Then use the widget above to check your answer.
       <pre>PLAIN_ALPHABET:   abcdefghijklmnopqrstuvwxyz

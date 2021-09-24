@@ -37,19 +37,7 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <p>In this lesson, we will learn more about the types of errors you might get in a program, including tips for identifying, fixing, and preventing them. First, watch the video below. After watching the video, try to identify and correct the errors in the Caesar Cipher app and then answer the questions about <span class="hover vocab yui-wk-div" data-id='debugging'>debugging</span>. When watching the video, look for these important terms and concepts: </p>
-    <ul>
-    <li><b>Bug</b> - In computer programming, a <span class="hover vocab yui-wk-div" data-id='computer bug'>bug</span> is an error or defect that prevents the app from working the way it is supposed to.
-      </li><li><b><span class="hover vocab yui-wk-div" data-id='debugging'>Debugging</span></b> - The process of removing errors from computer hardware or software.
-      </li><li><b>Logic Error</b> - A mistake in the algorithm or program that causes it to behave incorrectly or unexpectedly. Also referred to as a <span class="hover vocab yui-wk-div" data-id='semantic error'>semantic error</span>.</li>
-	  <li><b><span class="hover vocab yui-wk-div" data-id='syntax error'>Syntax Error</span></b> - A mistake in the program where the rules of the programming language are not followed.
-    </li></ul>
-    
-.. youtube:: g48gxSkOeik
-        :width: 650
-        :height: 415
-        :align: center
+    <p>In this lesson, we will learn more about the types of errors you might get in a program, including tips for identifying, fixing, and preventing them. </p>
 
 .. raw:: html
 
@@ -62,20 +50,42 @@ Introduction and Goals
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="syntax error">syntax error</span>, <span class="hover vocab yui-wk-div" data-id="semantic error">semantic error</span>, and <span class="hover vocab yui-wk-div" data-id="run-time error">run-time error</span> while fixing errors in an app, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="syntax error">syntax error</span>, <span class="hover vocab yui-wk-div" data-id="semantic error">semantic error</span>, and <span class="hover vocab yui-wk-div" data-id="run-time error">run-time error</span> while fixing errors in an app, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
-
-    (<a href="http://www.teachertube.com/video/359067" target="_blank">Teacher Tube version</a>)
-    
-	
-    
 
 Learning Activities
 --------------------
 
 .. raw:: html
 
-    <p><h3>Activity</h3>
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1VJzIXEueLY5EmGm5VPpKEJg07P3xxYJfa5rTwGTnVGA" target="_blank" title="">Slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/g48gxSkOeik" target="_blank">YouTube Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/359067" target="_blank">TeacherTube Video</a></li>
+	</ul> 
+	
+	<p> First, watch the video below. After watching the video, try to identify and correct the errors in the Caesar Cipher app and then answer the questions about <span class="hover vocab yui-wk-div" data-id='debugging'>debugging</span>. When watching the video, look for these important terms and concepts: </p>
+    <ul>
+    <li><b>Bug</b> - In computer programming, a <span class="hover vocab yui-wk-div" data-id='computer bug'>bug</span> is an error or defect that prevents the app from working the way it is supposed to.
+      </li><li><b><span class="hover vocab yui-wk-div" data-id='debugging'>Debugging</span></b> - The process of removing errors from computer hardware or software.
+      </li><li><b>Logic Error</b> - A mistake in the algorithm or program that causes it to behave incorrectly or unexpectedly. Also referred to as a <span class="hover vocab yui-wk-div" data-id='semantic error'>semantic error</span>.</li>
+	  <li><b><span class="hover vocab yui-wk-div" data-id='syntax error'>Syntax Error</span></b> - A mistake in the program where the rules of the programming language are not followed.
+    </li></ul>
+	
+.. youtube:: g48gxSkOeik
+        :width: 650
+        :height: 415
+        :align: center
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+		
+	<p><h3>Activity</h3>
     <p>The activity for this lesson is to <span class="hover vocab yui-wk-div" data-id="debugging">debug</span> a version of the Caesar cipher app. There are at least <b>five errors</b> in 
     this version of the app. See if you can find and correct them all! To get started, 
     <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit5/templates/CaesarApp/CaesarCipherBuggy.asc" target="_blank">open App Inventor with the Caesar Cipher Buggy template</a>. 

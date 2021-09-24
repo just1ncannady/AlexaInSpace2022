@@ -51,7 +51,7 @@ Introduction and Goals
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, and <span class="hover vocab yui-wk-div" data-id="DNS">DNS</span> while describing how networks connect, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, and <span class="hover vocab yui-wk-div" data-id="DNS">DNS</span> while describing how networks connect, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
 
 
@@ -60,6 +60,16 @@ Learning Activities
 
 .. raw:: html
 
+	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1S9SA6Y_SUU7o0oAbj7cpt7DGO5hgzJf7p3_vHWnCRG0/" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/H81xmsxNdV8" target="_blank">YouTube Video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/rTB0KhkTMQM" target="_blank" title="">YouTube Video Part 2</a></li>
+	</ul> 
+	
+	<br/>
+	
 	<p><iframe allowfullscreen="" frameborder="0" height="472" src="https://www.youtube.com/embed/H81xmsxNdV8" width="650"></iframe></p>
     <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.    </p>
 	

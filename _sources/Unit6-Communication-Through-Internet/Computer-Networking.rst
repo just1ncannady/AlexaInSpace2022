@@ -82,7 +82,7 @@ Introduction and Goals
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>	
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span>, <span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth</span>, <span class="hover vocab yui-wk-div" data-id="latency">latency</span>, and <span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span> while describing computer <span class="hover vocab yui-wk-div" data-id='network'>networks</span> and their effects on society, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="protocol">protocol</span>, <span class="hover vocab yui-wk-div" data-id="bandwidth">bandwidth</span>, <span class="hover vocab yui-wk-div" data-id="latency">latency</span>, and <span class="hover vocab yui-wk-div" data-id="digital divide">digital divide</span> while describing computer <span class="hover vocab yui-wk-div" data-id='network'>networks</span> and their effects on society, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</p>
 
 Learning Activities
@@ -90,17 +90,31 @@ Learning Activities
 
 .. raw:: html
 
-    <p><h3>Part 1.  Basic Concepts and Terminology</h3>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/edit#slide=id.p5" target="_blank" title="">slides</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/42F4dByfRtY" target="_blank">YouTube video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/359108" target="_blank" title="">TeacherTube video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1_98lN-rMLDScg9EPTUdFfdY36cGFd2njqkFF2NLtPSI/edit?usp=sharing" target="_blank">Client/Server Activity</a></li>
+	<br/>
+	<li style="display: inline"><a href="https://youtu.be/DDGnPTpk_G8" target="_blank">YouTube video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/359099" target="_blank" title="">TeacherTube video Part 2</a></li>
+		<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/pg7oQhR5QX0" target="_blank">YouTube video Part 3</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="http://www.teachertube.com/video/359096" target="_blank" title="">TeacherTube video Part 3</a></li>
+	</ul> 
+	
+	<p><h3>Part 1.  Basic Concepts and Terminology</h3>
     <p>
       In Unit 2 we defined the Internet as a <i><b><span class="hover vocab yui-wk-div" data-id='network'>network</span> of disparate networks</b></i> that is governed by 
       systems of rules, known as <span class="hover vocab yui-wk-div" data-id="protocol">protocols</span>.  In this first presentation we'll see some 
       examples of different types of networks and we'll learn about the role that special devices known as <span class="hover vocab yui-wk-div" data-id="router">routers</span> play in enabling communication between different
       types of <span class="hover vocab yui-wk-div" data-id='network'>networks</span>.
-    </p>
-    
-    
-    (<a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/edit#slide=id.p5" target="_blank" title="">Slides</a>)
-    
+    </p>    
     
 .. youtube:: 42F4dByfRtY
         :width: 650
@@ -132,10 +146,6 @@ Learning Activities
       to communicate with a <span class="hover vocab yui-wk-div" data-id='server'>server</span>, which is computer on the Internet that provides a specific service, such as
       email or web browsing.  Clients and servers form a <span class="hover vocab yui-wk-div" data-id='computing system'>computing system</span> which is a group of computing devices and programs working together for a common purpose. The TCP and IP protocols <i><b>route</b></i> messages between the clients and servers finding a path from the sender to the receiver. In this next presentation we'll look at how communication occurs between a <span class="hover vocab yui-wk-div" data-id='client'>client</span>   and <span class="hover vocab yui-wk-div" data-id='server'>server</span> using <span class="hover vocab yui-wk-div" data-id='HTTP'>HTTP</span>.
     </p>
-      
-    (<a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/edit#slide=id.p5" target="_blank" title="">Slides</a>)
-    
-    
     
 .. youtube:: DDGnPTpk_G8
         :width: 650
@@ -183,9 +193,6 @@ Learning Activities
       a <span class="hover vocab yui-wk-div" data-id='client'>client</span>) to its destination (e.g., a <span class="hover vocab yui-wk-div" data-id='server'>server</span>).   You'll be introduced to some easy-to-use tools that will enable you to
       measure <span class="hover vocab yui-wk-div" data-id='bandwidth'>bandwidth</span> and <span class="hover vocab yui-wk-div" data-id='latency'>latency</span> from your home or school networks. 
     </p>
-    
-    (<a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/edit#slide=id.p5" target="_blank" title="">Slides</a>)
-    
     
 .. youtube:: pg7oQhR5QX0
         :width: 650

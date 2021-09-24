@@ -48,13 +48,6 @@ Introduction and Goals
     Cybersecurity is one of the fastest growing IT fields. It is essential to every organization to keep their computer systems and data safe.</p>
     
     <p>Passwords are currently the primary way to protect devices and information from unauthorized access. A <span class="hover vocab yui-wk-div" data-id='strong password'>strong password</span> is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user.  In Unit 5, we saw that it is very difficult to guess a long complex password (which can be tested in sites such as  <a href="https://howsecureismypassword.net" target="_blank">howsecureismypassword.net</a>). Luckily, brute-force password cracking algorithms take exponential time. However, passwords can also be compromised (stolen) through <span class="hover vocab yui-wk-div" data-id='phishing'>phishing</span> attacks and data breaches. </p>
-    <p>Many organizations now use <b>two-factor authentication (2FA)</b> or <span class="hover vocab yui-wk-div" data-id="multi-factor authentication (MFA)">multi-factor authentication (MFA)</span> which asks for additional authentication in addition to the password, just in case the password gets compromised. Users are asked to present several separate pieces of evidence such as:
-        <img src="../_static/assets/img/multifactor-authentication.png" width="70%" style="display: block;margin-left: auto;margin-right: auto;"/></p>
-    <ul>
-    <li><b>Something You Know</b>: for example your password or the answers to security questions that you have set up </li>
-    <li><b>Something You Have</b>: for example a code texted to the your phone or a USB security token</li>
-    <li><b>Something You Are</b>: for example <span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span> such as fingerprints or face recognition</li>
-    </ul>
     
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	<ul>
@@ -64,7 +57,7 @@ Introduction and Goals
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="virus">virus</span>, <span class="hover vocab yui-wk-div" data-id="worm">worm</span>, <span class="hover vocab yui-wk-div" data-id="Trojan horse">Trojan horse</span>, and <span class="hover vocab yui-wk-div" data-id="phishing">phishing</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="virus">virus</span>, <span class="hover vocab yui-wk-div" data-id="worm">worm</span>, <span class="hover vocab yui-wk-div" data-id="Trojan horse">Trojan horse</span>, and <span class="hover vocab yui-wk-div" data-id="phishing">phishing</span> while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
 
 
@@ -73,7 +66,28 @@ Learning Activities
 
 .. raw:: html
 
-    <p><b>Multi-factor Authentication:</b> requires at least two steps to unlock protected information. Each step adds a new layer of security that must be broken to gain unauthorized access. Watch the following <a href="https://www.youtube.com/watch?v=0mvCeNsTa1g" target="_blank">video</a> on multi-factor authentication:</p>
+    <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1PMUkn5jzjrVwURuA2smeqRkA5KyG_Zu9FF6OYliboaY/edit?usp=sharing" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/0mvCeNsTa1g" target="_blank">YouTube Video Part 1</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/88Rjg8gM_DI" target="_blank">YouTube Video Part 2</a></li>
+	<br/>
+	<li style="display: inline"><a href="https://youtu.be/XU8PHihT_P4" target="_blank" title="">YouTube Video Part 3</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/qkzAveeAuts" target="_blank" title="">YouTube Video Part 4</a></li>
+	</ul> 
+	
+	<h3>MultiFactor Authentication</h3>
+	<p>Many organizations now use <b>two-factor authentication (2FA)</b> or <span class="hover vocab yui-wk-div" data-id="multi-factor authentication (MFA)">multi-factor authentication (MFA)</span> which asks for additional authentication in addition to the password, just in case the password gets compromised. Users are asked to present several separate pieces of evidence such as:
+        <img src="../_static/assets/img/multifactor-authentication.png" width="70%" style="display: block;margin-left: auto;margin-right: auto;"/></p>
+    <ul>
+    <li><b>Something You Know</b>: for example your password or the answers to security questions that you have set up </li>
+    <li><b>Something You Have</b>: for example a code texted to the your phone or a USB security token</li>
+    <li><b>Something You Are</b>: for example <span class="hover vocab yui-wk-div" data-id='biometrics'>biometrics</span> such as fingerprints or face recognition</li>
+    </ul>
+	
+	<p><span class="hover vocab yui-wk-div" data-id="multi-factor authentication (MFA)">Multi-factor authentication (MFA)</span> requires at least two steps to unlock protected information. Each step adds a new layer of security that must be broken to gain unauthorized access. Watch the following <a href="https://www.youtube.com/watch?v=0mvCeNsTa1g" target="_blank">video</a> on multi-factor authentication:</p>
     
 .. youtube:: 0mvCeNsTa1g
         :width: 650
