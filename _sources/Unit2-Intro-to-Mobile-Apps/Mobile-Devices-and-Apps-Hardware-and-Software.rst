@@ -77,7 +77,7 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="http://www.teachertube.com/video/mobileappsanddevices-348078" target="_blank" title="">TeacherTube video</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/edit?resourcekey=0-Y4nKZD_4ReOiTmGrMcrVoA" target="_blank">worksheet</a></li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/view?usp=sharing&resourcekey=0-Y4nKZD_4ReOiTmGrMcrVoA" target="_blank">worksheet</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://docs.google.com/drawings/d/1l50CFlksBCdfjfmwkyCvsYo0mEZ5BzyTxOABXkS0vr4" target="_blank">activity</a></li>
 	</ul>
@@ -102,7 +102,7 @@ Learning Activities
     
     <h3>Activity</h3>
     <p>Working in pairs, complete the following <a href="https://docs.google.com/drawings/d/1l50CFlksBCdfjfmwkyCvsYo0mEZ5BzyTxOABXkS0vr4/copy" target="_blank">interactive worksheet</a> to match some of the vocabulary to a picture of a computer system or this
-       <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/edit" target="_blank">computer terms matching worksheet</a>.</p>
+       <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9THBxT1A1Vmw5TFk/view?usp=sharing&resourcekey=0-Y4nKZD_4ReOiTmGrMcrVoA" target="_blank">computer terms matching worksheet</a>.</p>
     
 
 Summary
