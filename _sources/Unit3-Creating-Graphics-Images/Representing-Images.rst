@@ -297,7 +297,7 @@ Self-Check
 .. fillintheblank:: mcsp-3-3-1
     :casei:
 
-    In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its <span class="hover vocab yui-wk-div" data-id='run length encoding'>RLE compression</span>? You can use the interactive pixel grid above under Practice or in another tab to work this out.
+    In the video, you learned how black and white images can be represented using bits and numbers. What letter of the alphabet would be represented by the following set of numbers representing its RLE compression? You can use the interactive pixel grid above under Practice or in another tab to work this out.
 	
 	.. raw:: html
 	
