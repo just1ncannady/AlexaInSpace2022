@@ -146,7 +146,9 @@ Learning Activities
     <li style="margin-bottom: 5px;"><b>Line40:</b> Define a procedure name <b><i>line40</i></b>  that draws a <b>line</b> of length 40. Test it by calling it     from the ButtonDraw.Click handler.       </li>
     <li style="margin-bottom: 5px;">
     <b><i>Refactor</i></b> your square40 procedure to use a for-each loop and the line40 procedure to draw a 40-by-40 square.  As we learned in an earlier lesson, refactoring means to revise your code         without changing the basic functionality of your app.   Test your algorithm by calling it from the <i>ButtonDraw.Click</i> handler.  </li>
-    
+    <li style="margin-bottom: 5px;"><b>Triangle:</b> Can you draw a triangle with this set of Logo commands? Discuss with your partner how the programmer who designed this Logo app could change some of the basic commands so that it would be possible to draw a triangle and other shapes.
+	</li>
+		
 	<li style="margin-bottom: 5px;">
 		<img style="float:right" src="../_static/assets/img/face.png" width="150px"/>
 		<p><b>Draw a Face:</b> Design an algorithm for drawing a face with a large square for the head, 2 small squares for eyes, and a line for the mouth, as shown below. Design and define any other procedures         you need  to help simplify this problem -- e.g., the outline of the head, the eyes, and so on.  Make appropriate use of loops in your algorithm.</p>

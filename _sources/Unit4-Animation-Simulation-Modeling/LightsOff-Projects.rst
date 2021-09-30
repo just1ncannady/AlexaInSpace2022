@@ -76,7 +76,17 @@ Learning Activities
 	<li style="display: inline"><a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/" target="_blank" title="">prototypes template</a></li>
 	</ul> 
 	
-	<p><h3>What is Design Thinking?</h3>
+    <br/><p>Personalize the LightsOff app by changing its socially useful theme to one that you like and adding new features to it. Your focus should be on understanding the development process. A development process can be incremental or iterative. For example, you might follow an <b>iterative thinking</b> process in which you process a limited number of steps repeatedly or use <b>step-wise refinement</b> to move one small step at a time when developing a program.  Within your development process, you may follow some of these commonly used phases: 
+	  <ul>
+	  <li> investigating and reflecting </li>
+	  <li> designing </li>
+	  <li> prototyping </li>
+	  <li> testing</li>
+	  </ul>
+	
+	For this lesson, you will focus on implementing <b> Design Thinking</b>. 
+        </p>
+	<h3>What is Design Thinking?</h3>
     <p>“Design Thinking is an iterative process in which we seek to understand the user, challenge assumptions, and
           redefine problems in an attempt to identify alternative strategies and solutions that might not be instantly
           apparent with our initial level of understanding.” (<a href="https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular" target="_blank">Interaction Design Foundation</a>)<br/>
@@ -95,6 +105,7 @@ Learning Activities
     </div>
 
     </p>
+	
     <table border="0" style="width: 100%;">
     <tbody>
     <tr>
@@ -125,12 +136,9 @@ Learning Activities
 	</tr>
     </tbody>
     </table>
-    <h3>LightsOff Projects</h3>
-    <p>You will use Design Thinking to personalize the LightsOff app by changing its socially useful theme to one that you like and adding new features
-          to it. Use the
-    <a href="https://docs.google.com/document/d/1oKATe1UdK8JdRHzDUVdV7DgXNqvEx41ibnfES5Hijc8/" target="_blank" title="">text-Version handout</a> to write in your answers to the questions below in each iteration.
     
-        </p><h3>Iteration 1: Paper Prototyping</h3>
+	<br/> <p>Now that you know about the Design Thinking Process, let's try it out. Use the <a href="https://docs.google.com/document/d/1oKATe1UdK8JdRHzDUVdV7DgXNqvEx41ibnfES5Hijc8/" target="_blank" title="">text-Version handout</a> to write in your answers to the questions in each iteration. </p>
+	<h3>Iteration 1: Paper Prototyping</h3>
     <table style="width: 100%; border: 1px solid black;">
     <tbody>
     <tr>
@@ -264,29 +272,29 @@ Learning Activities
     <h3></h3>
     <p> </p>
     <p></p>
-    <h3>Optional Enhancements</h3>
+    <h3>Enhancements</h3>
     <p>Create one or more of your own enhancements or variations for this app. Here are some ideas:</p>
-    <ul>
-    <li style="margin-bottom: 5px;">You could also implement keeping track of the number of misses -- i.e., the number of times the player failed
+    <ol>
+    <li style="margin-bottom: 5px;">Implement keeping track of the number of misses -- i.e., the number of times the player failed
             to touch the ImageSprite -- and factor this into your scoring algorithm.</li>
-    <li style="margin-bottom: 5px;"><strong>Challenge: </strong>Add another sprite or two. You could ask the player to distinguish between "good"
-            and "bad" sprites. For example, if your app had a nutrition theme, perhaps one image could be a picture of a
-            healthy food item and the other a not-so-healthy item. Perhaps the player's score decreases if they touch the
-            "bad" choice.</li>
-    <li style="margin-bottom: 5px;"><strong>Abstraction:</strong> Multiple sprites will share some common code and have some unique code. For
+    <li style="margin-bottom: 5px;"><strong>Abstraction: </strong> Multiple sprites will share some common code and have some unique code. For
             example, all sprites may play the same sound when touched but have different scoring code. Use one of the
             following abstraction techniques on the common code:</li>
-    <ul>
-    <li>Move the code common to all sprites into a procedure that is called by each sprite’s Touched event.</li>
-    <li>There is a new abstraction feature in App Inventor where you can take a block of code and make it generic to
+		<ul>
+		<li style="margin-bottom: 5px;">Move the code common to all sprites into a procedure that is called by each sprite’s Touched event.</li>
+		<li style="margin-bottom: 5px;">There is a new abstraction feature in App Inventor where you can take a block of code and make it generic to
               work for any sprite, button, or component. Just right-click on the "When LightBulb1.Touched" event handler and
               choose "Make Generic" to make it work for any sprite on the screen. This is a powerful abstraction feature.
               You will also need to add in moveTo blocks for the new sprites in moveRandom() to make them move.</li>
-    </ul>
-    <li style="margin-bottom: 5px;"><strong>Abstraction:</strong> Multiple sprites all have to be moved. You may need to define different versions of the moveRandom procedure for each sprite. </li>
-	<li><strong>Challenge: </strong>Change the speed of the sprite when the player reaches a certain score. (Hint:
+		</ul>
+    <li style="margin-bottom: 5px;">Multiple sprites all have to be moved. You may need to define different versions of the moveRandom procedure for each sprite. </li>
+	<li style="margin-bottom: 5px;"><strong>Challenge: </strong>Add another sprite or two. Ask the player to distinguish between "good"
+            and "bad" sprites. For example, if your app had a nutrition theme, perhaps one image could be a picture of a
+            healthy food item and the other a not-so-healthy item. Perhaps the player's score decreases if they touch the
+            "bad" choice.</li>
+	<li style="margin-bottom: 5px;"><strong>Challenge: </strong>Change the speed of the sprite when the player reaches a certain score. (Hint:
             Recall that in this app, the sprite's speed is controlled by the Clock timer.)</li>
-    </ul>
+    </ol>
     
 
 Summary
