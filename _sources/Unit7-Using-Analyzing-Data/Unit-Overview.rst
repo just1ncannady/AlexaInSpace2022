@@ -67,36 +67,46 @@ Unit Overview
     <!--2020 Vocab Table-->
     <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit7-Using-Analyzing-Data/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
     
-    <table align="center">
+    <table border align="left" width="100%" >
     <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th>
+	</tr>
     <tr>
-    <td><span class="hover vocab yui-wk-div" data-id="API">API</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="back propagation">back propagation</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="centralized">centralized</span><br/>
-    </td>
-    <td>
-    <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="creative commons">creative commons</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="CSV files">CSV files</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="decentralized">decentralized</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="deep learning">deep learning</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="DMCA">DMCA</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="DRM">DRM</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="fair use">fair use</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="GeoJSON">GeoJSON</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="JSON">JSON</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="neural network">neural network</span><br/>
-    </td>
-    <td><span class="hover vocab yui-wk-div" data-id="open access">open access</span><br/>
-    <span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span><br/>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="API">API</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="copyright">copyright</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="creative commons">creative commons</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="open access">open access</span><br/></td>
+	</tr>
+	</table>
+	
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="back propagation">back propagation</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="centralized">centralized</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="CSV files">CSV files</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="decentralized">decentralized</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="deep learning">deep learning</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="DMCA">DMCA</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="DRM">DRM</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="fair use">fair use</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="GeoJSON">GeoJSON</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="JSON">JSON</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="neural network">neural network</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span><br/></td>
+	</tr>
+	</table>
     </div>
     
 Self-Check
