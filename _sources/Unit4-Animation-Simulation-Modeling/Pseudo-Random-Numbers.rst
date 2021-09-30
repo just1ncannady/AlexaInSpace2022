@@ -40,7 +40,7 @@ Introduction and Goals
     
     As we saw in the <i>Coin Flip App</i>, App Inventor contains blocks
     that will generate random numbers and we can use those random numbers
-    to simulate real-world events.
+    to <span class="hover vocab yui-wk-div" data-id="simulate">simulate</span> real-world events.
     
     But how does App Inventor create those numbers? How does a computer do
     randomness?
@@ -61,7 +61,7 @@ Introduction and Goals
 		<div><b>Language Objectives:</b>&nbspI will be able to</div>
 		<ul>
 		<li>examine a series of numbers and discuss whether or not they look random</li> 
-		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="deterministic">deterministic</span>, <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span>, and <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span> while considering how a computer models randomness, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="PRNG">random number generator</span>, <span class="hover vocab yui-wk-div" data-id="modular arithmetic">modular arithmetic</span>, and <span class="hover vocab yui-wk-div" data-id="mod operator">mod operator</span> while considering how a computer models randomness, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1YsJJ7IwEEpQGLqSizFhIFJVIw5TfDc5LqDtCSD-o42E/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 		</ul>
 	</p>
     
@@ -91,7 +91,7 @@ Learning Activities
 	<p><h3>Computer Randomness</h3>
     <p>It is difficult for a computer to create a truly random event.
     Therefore, computers use a form of randomness known as <i><b>pseudo                                                                          
-    randomness</b></i> -- that is, they <i><b>simulate</b></i> randomness.
+    randomness</b></i> -- that is, they <span class="hover vocab yui-wk-div" data-id="simulate">simulate</span> randomness.
     </p>
     <p>A pseudo random event looks random but is completely predictable -- 
     we say it is <span class="hover vocab yui-wk-div" data-id='deterministic'>deterministic</span> because its output can be known by someone 

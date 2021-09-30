@@ -92,6 +92,9 @@ Unit Overview
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="random">random</span><br/></td>
 	<td width="30%"><span class="hover vocab yui-wk-div" data-id="random number generator">random number generator</span><br/></td>
 	</tr>
+	<tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="simulate">simulate</span><br/></td>
+	</tr>
 	</tbody>
 	</table>
 	
