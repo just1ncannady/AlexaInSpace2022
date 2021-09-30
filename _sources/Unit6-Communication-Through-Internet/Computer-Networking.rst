@@ -60,7 +60,7 @@ Introduction and Goals
       Yet, despite its impact and influence, most people do not really understand what the Internet  
       is and how it works.
     </p>
-    We introduced the Internet in <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=1&amp;lesson=146" target="_blank">Unit 2</a>, where we covered the following points.
+    We introduced the Internet in Unit 2, where we covered the following points.
 		<ul>
     <li>The Internet is the global public <span class="hover vocab yui-wk-div" data-id='network'>network</span> of independent and autonomous networks that are governed by the Internet <span class="hover vocab yui-wk-div" data-id='protocol'>Protocol</span> Suite.
         </li>
