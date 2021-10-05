@@ -34,7 +34,7 @@ var EKmapping =
      '4.10': ['IOC-1.B.1', 'IOC-1.F.11', 'IOC-2.A.1', 'IOC-2.A.3', 'IOC-2.A.4', 'IOC-2.A.5', 'IOC-2.A.7', 'IOC-2.A.8', 'IOC-2.A.9', 'IOC-2.A.10', 'IOC-2.A.12', 'IOC-2.A.13', 'IOC-2.A.14', 'IOC-2.A.15', 'IOC-2.B.11'], 
      '5.02': ['AAP-2.L.2', 'AAP-2.M.2', 'AAP-3.A.1', 'AAP-3.A.2', 'AAP-3.A.3', 'AAP-3.A.4', 'AAP-3.A.5', 'AAP-3.A.6', 'AAP-3.A.7', 'AAP-3.A.8', 'AAP-3.A.9', 'AAP-3.B.5', 'AAP-3.C.1', 'AAP-3.C.2'], 
      '5.03': ['AAP-2.L.1', 'AAP-2.L.5', 'AAP-2.O.5', 'AAP-2.P.1', 'AAP-2.P.2', 'AAP-2.P.3'], 
-     '5.04': ['AAP-2.A.2', 'AAP-2.A.4', 'AAP-2.G.1', 'AAP-2.J.1'], 
+     '5.04': ['AAP-2.A.2', 'AAP-2.A.4', 'AAP-2.G.1', 'AAP-2.J.1', 'AAP-2.L.5'], 
      '5.05': ['DAT-2.E.1', 'AAP-2.D.1', 'AAP-2.N.1'], 
      '5.06': ['AAP-2.N.1', 'AAP-2.N.2', 'AAP-2.O.1', 'AAP-2.O.2', 'AAP-2.O.3', 'AAP-2.O.4'], 
      '5.07': ['AAP-2.B.7', 'AAP-4.A.1', 'AAP-4.A.2', 'AAP-4.A.3', 'AAP-4.A.4', 'AAP-4.A.5', 'AAP-4.A.6', 'AAP-4.A.7', 'AAP-4.A.8', 'AAP-4.A.9'], 

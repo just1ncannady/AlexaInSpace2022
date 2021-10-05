@@ -61,7 +61,7 @@ Introduction and Goals
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
 	<li>discuss the benefits of <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span> and Internet abstraction layers</li>
-	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="router">router</span>, <span class="hover vocab yui-wk-div" data-id="domain name">domain name</span>, <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>, and <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault tolerant</span> while describing how data is transported across the Internet, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="router">router</span>, <span class="hover vocab yui-wk-div" data-id="IP Address">IP Address</span>, <span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>, <span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span> and <span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault tolerant</span> while describing how data is transported across the Internet, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1qwoJ0sNiiLFbv1KN_xW7yLpXUQLfYD8lxxZWPYjqdIY/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
 	</ul>
 
     
@@ -86,12 +86,12 @@ Learning Activities
 	<p><h3>Part 1: Network Architecture and Packet Switching</h3>
     <p>
       This first video focuses on basic architecture of the Internet and the technique of <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> switching. 
-     The Internet has been engineered to be <span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <b>scalability</b> of a system is the capacity for the system to change in size and scale to meet new demands. 
+     The Internet has been engineered to be <span class="hover vocab yui-wk-div" data-id='fault-tolerant'>fault-tolerant</span>, which means it can support failures and still continue to function. Network <b>redundancy</b> allows having more than one path between any two connected devices in case something part of the network fails. If a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible.  Redundancy within a system often requires additional resources but can provide the benefit of fault tolerance. The redundancy of routing options between two points increases the reliability of the Internet and helps it scale to more devices and more people.  The Internet was designed to be scalable. The <span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span> of a system is the capacity for the system to change in size and scale to meet new demands. 
       
       </p><p>The video also illustrates how the <span class="hover vocab yui-wk-div" data-id='ping'>ping</span>
       utility can be used to test whether certain <span class="hover vocab yui-wk-div" data-id="host">hosts</span> are reachable on the network.  And it introduces a new 
       tool, <span class="hover vocab yui-wk-div" data-id='traceroute'>traceroute</span>, that can be used to trace the routes that packets take from one computer to 
-      another on the Internet. (<a href="https://docs.google.com/presentation/d/1g7NmzbMvyBYLZwe2NtWXSurW4D7o-uCKYCdI2yvDFIc" target="_blank" title="">Slides</a>)</p>
+      another on the Internet. </p>
     <!-- Old video id:  f4TjIlS8Bms   -->
     
 .. youtube:: qrG0bS-JuTo
@@ -280,6 +280,7 @@ Self-Check
     <br/><span class="hover vocab yui-wk-div" data-id="packet switching">packet switching</span>
     <br/><span class="hover vocab yui-wk-div" data-id="fault-tolerant">fault-tolerant</span>
     <br/><span class="hover vocab yui-wk-div" data-id="abstraction layer">abstraction layer</span>
+	<br/><span class="hover vocab yui-wk-div" data-id="Scalability">scalability</span>
     </td>
     </tr>
     </tbody>
