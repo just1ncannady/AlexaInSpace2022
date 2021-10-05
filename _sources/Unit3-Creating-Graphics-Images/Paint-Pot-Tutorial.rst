@@ -77,9 +77,14 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://docs.google.com/document/d/18thDoU6Ru3v9TTxhGfELuvwagm3bTNFYh-iXchDntGw/edit?usp=sharing" target="_blank">short handout</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://www.youtube.com/watch?v=OoA8Q5v2sWg" target="_blank">YouTube video</a></li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=OoA8Q5v2sWg" target="_blank">YouTube video Part 1</a></li>
+	<li style="display: inline"><a href="https://teachertube.com/video/paint-pot-1-tutorial-476369" target="_blank" title="">TeacherTube video Part 1</a></li>
+	<br/>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=ETLkyDKIinc&feature=emb_imp_woyt" target="_blank">YouTube video Part 2</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://teachertube.com/video/paint-pot-1-tutorial-476369" target="_blank" title="">TeacherTube video</a></li>
+	<li style="display: inline"><a href="https://upload.teachertube.com/video/paintpot2-varying-the-dotsize-478432" target="_blank" title="">TeacherTube video Part 2</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf" target="_blank">AP CSP Reference Sheet</a></li>
 	</ul> 
 	
     <p><h3><br/>Tutorial Part 1: Painting and Drawing on a Canvas</h3>
@@ -218,7 +223,7 @@ Learning Activities
     </p>
     <p> The AP CS Principles Exam does not have a designated programming language. It uses <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> which is a cross between computer code and everyday English. 
        <span class="hover vocab yui-wk-div" data-id='pseudocode'>Pseudocode</span> is less precise than actual computer code, 
-      such as Java or Python or MIT App Inventor, but more precise and less wordy than everyday English. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam to help you understand the AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> format used in the exam. It includes two <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> styles: text-based and block-based.</p>
+      such as Java or Python or MIT App Inventor, but more precise and less wordy than everyday English. The <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf" target="_blank">AP CSP Reference Sheet</a> is provided during the exam to help you understand the AP <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> format used in the exam. It includes two <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> styles: text-based and block-based.</p>
     <p>In the College Board AP CSP exam, MIT App Inventor set blocks are called <span class="hover vocab yui-wk-div" data-id='assignment'>assignment</span> statements and are represented as the left-pointing arrow (←). The following text and block style <span class="hover vocab yui-wk-div" data-id='pseudocode'>pseudocode</span> is used to assign values to <span class="hover vocab yui-wk-div" data-id='variable'>variables</span>:
         <br/>
     </p><table border="">
