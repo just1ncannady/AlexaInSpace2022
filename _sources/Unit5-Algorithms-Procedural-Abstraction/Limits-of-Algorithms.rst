@@ -145,11 +145,12 @@ Learning Activities
           Using the Password Strength Calculator, determine the <b><i>optimal scheme</i></b> for withstanding a <span class="hover vocab yui-wk-div" data-id='brute force'>brute force</span>
           attack of at least 10 years by an ordinary PC performing 100 million tests per second. 
         </li>
-    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) According to <a href="http://arstechnica.com/security/2012/12/25-gpu-cluster-cracks-every-standard-windows-password-in-6-hours/" target="_blank">this 
-          2012 article</a>, a password-cracking computer can try 350 billion passwords per second.  How would you have
-          to modify your scheme to withstand a 10-year attack by this specially designed computer? 
+    <li style="margin-bottom: 5px;">(<b>Portfolio</b>) According to <a href="https://www.extremetech.com/extreme/316266-the-nvidia-rtx-3090-gpu-can-probably-crack-your-passwords" target="_blank">this 
+          2020 article</a>, a password-cracking computer can try 669 billion passwords per second. How would you have to modify your scheme to withstand a 10-year attack by this specially designed computer?
         </li>
-    <li>(<b>Portfolio</b>) Suppose the number of passwords that can be checked per second doubles every year. After you’ve calculated the estimated number of passwords that can be checked per second for the next year, use the Password Strength Calculator to determine an optimal password scheme for the next year. How long should the password be? What combination of characters should it include?
+    <li>(<b>Portfolio</b>) After you’ve calculated the estimated number of passwords that can be checked per second for the next year, use the Password Strength Calculator to determine an optimal password scheme. 
+		<br/> a. How long should the password be? 
+		<br/> b. What combination of characters should it include?
         </li>
     </ol>
     </div>
