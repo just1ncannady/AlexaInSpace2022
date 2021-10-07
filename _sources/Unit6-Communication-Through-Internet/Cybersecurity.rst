@@ -154,12 +154,30 @@ Learning Activities
 
     <p>Another technique for capturing passwords is <span class="hover vocab yui-wk-div" data-id="keylogger">keylogging</span> software which secretly records every keystroke made by a computer user. This can be used to gain fraudulent access to passwords and other confidential information. Keyloggers can be installed through <span class="hover vocab yui-wk-div" data-id='malware'>malware</span> or hacking. Unsolicited emails, attachments, links, and forms in emails can be used to compromise the security of a computing system. These can come from unknown senders or from known senders whose security has been compromised.  Untrustworthy (often free) downloads from freeware or shareware sites can contain <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>.</p>
     <p>Unencrypted information sent over public networks can also be compromised. Data sent over public networks can be intercepted, analyzed and modified. One way that this can happen is through a <span class="hover vocab yui-wk-div" data-id='rogue access point'>rogue access point</span>. A <span class="hover vocab yui-wk-div" data-id='rogue access point'>rogue access point</span> is a wireless access point that gives unauthorized access to secure networks. Network and system administrators protect their networks with <span class="hover vocab yui-wk-div" data-id='firewalls'>firewalls</span> which provide a barrier to attacks and scan their networks with network analyzers to prevent unauthorized access.</p>
-    <h3>Activity</h3>
-    <p>Select one or more of the following activities to complete after watching and discussing the videos. When you are done, document your findings and/or results in your portfolio reflection.</p>
+   
+   <h3>Investigate</h3>
+    <p>Select one or more of the following activities to complete after watching and discussing the videos.</p>
     <ol>
-    <li style="padding-bottom:5px">Can you spot when you’re being <span class="hover vocab yui-wk-div" data-id='phishing'>phished</span>? Do the <a href="https://phishingquiz.withgoogle.com" target="_blank">Phishing Quiz with Google</a> working in pairs. See how many you get right.</li>
-    <li style="padding-bottom:5px">In pairs, investigate this <a href="http://cybermap.kaspersky.com/" target="_blank">map</a> (click on a country and more details or statistics) and <a href="http://securelist.com/statistics/" target="_blank">securelist.com/statistics</a> which shows the current week’s infections and attacks. What are the top 3 attacked countries? What country has the highest rate of infections? What is the top infection (<span class="hover vocab yui-wk-div" data-id='virus'>virus</span>) currently?</li>
-    <li>Investigate a famous or recent <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>, hacking, or security breach incident. Write down who, what, when, where, how, and the consequences of the incident.</li>
+    <li style="padding-bottom:5px">Can you spot when you’re being <span class="hover vocab yui-wk-div" data-id='phishing'>phished</span>? Do the <a href="https://phishingquiz.withgoogle.com" target="_blank">Phishing Quiz with Google</a> working in pairs. See how many you get right. Answer the following questions in your portfolio:
+	<br/>
+	a. Post a screenshot of your summary page. <br/>
+	b. What did you find to be the most challenging phishing technique to spot?
+	</li>
+   
+   <li style="padding-bottom:5px">In pairs, investigate this <a href="http://cybermap.kaspersky.com/" target="_blank">map</a> (click on a country and more details or statistics) and <a href="http://securelist.com/statistics/" target="_blank">securelist.com/statistics</a> which shows the current week’s infections and attacks. Answer the following questions in your portfolio:
+	<br/>
+	a. What are the top 3 attacked countries? What country has the highest rate of infections? <br/>
+	b. What is the top infection (<span class="hover vocab yui-wk-div" data-id='virus'>virus</span>) currently?
+	</li>
+    <li>Investigate a famous or recent <span class="hover vocab yui-wk-div" data-id='malware'>malware</span>, hacking, or security breach incident. Answer the following questions in your portfolio:
+	<br/>
+	a. Who was involved in the incident? <br/>
+	b. What happened in the incident? <br/>
+	c. When did the incident occur? <br/>
+	d. Where did the incident occur? <br/>
+	e. How did the incident happen? <br/>
+	f. What were the consequences of the incident?
+	</li>
     </ol>
     <h3>(Optional) Activity: Watch and Discuss</h3>
     <table>
