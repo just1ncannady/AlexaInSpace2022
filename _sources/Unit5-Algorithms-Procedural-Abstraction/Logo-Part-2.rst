@@ -79,7 +79,7 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://youtu.be/QwduDhVjPK4" target="_blank">YouTube video</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank" title="">graph paper</a></li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/view?usp=sharing&resourcekey=0-dS_emJBX6wRgqg1pQ-y2TA" target="_blank" title="">graph paper</a></li>
 	</ul> 
 	
 	<h3>Introduction</h3>
@@ -249,7 +249,7 @@ Learning Activities
     <h3>Exercises</h3>
     <p>For these exercises, before coding your algorithms and procedures into App Inventor, design the algorithm and 
       express it in pseudocode and test it mentally, working with your partner. You may download and print 
-      <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing">this graph paper</a> to use 
+      <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/view?usp=sharing&resourcekey=0-dS_emJBX6wRgqg1pQ-y2TA">this graph paper</a> to use 
       when designing your algorithms. To test your algorithms, place your algorithm or procedure calls in the ButtonDraw.Click handler.
     </p>
     <p>

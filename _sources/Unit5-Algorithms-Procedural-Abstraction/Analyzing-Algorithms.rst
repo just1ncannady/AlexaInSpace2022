@@ -130,7 +130,7 @@ Learning Activities
     <br/>
     <img align="right" alt="" src="../_static/assets/img/SearchAppQR.png" style="width: 200px; height: 200px;" title=""/>
     <br/>
-    If you are using the emulator or an iOS device, you can download the <a href="https://drive.google.com/open?id=0B86iRIPU8oQlVlFreWF2anpkcWc" target="_blank" title="">aia file</a> and import it into App Inventor and then Connect.
+    If you are using the emulator or an iOS device, you can download the <a href="https://drive.google.com/file/d/0B86iRIPU8oQlVlFreWF2anpkcWc/view?usp=sharing&resourcekey=0-QvmBZb7eawa226rxjVePXw" target="_blank" title="">aia file</a> and import it into App Inventor and then Connect.
      <p> <font color="red">NOTE: When you run this app it may initially display a blank screen while it is initializing
         some data.  This may take a minute. Please wait.</font>
     </p></li>

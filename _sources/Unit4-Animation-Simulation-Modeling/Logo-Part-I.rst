@@ -73,7 +73,7 @@ Learning Activities
 	<li style="display: inline"><a href="https://youtu.be/8I4bGQRLqPw" target="_blank">YouTube video</a></li>
 	</ul>
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing" target="_blank" title="">graph paper</a></li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/view?usp=sharing&resourcekey=0-dS_emJBX6wRgqg1pQ-y2TA" target="_blank" title="">graph paper</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf" target="_blank" title="">AP CSP reference sheet</a></li>
 	<li style="display: inline"> | </li>
@@ -138,7 +138,7 @@ Learning Activities
     <h3>Exercises (Pair Programming)</h3>
     <p>After doing the tutorial above, you have drawn 20x20 square using a loop and then refactored the code to use <b>procedural abstraction</b> to create the procedure <b>square20</b>.
      
-    </p><p>        For these exercises below, before coding your solution in App Inventor, it would be a good idea  to first write out the solution in pseudocode and discuss it with your coding partner. Download and print <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/edit?usp=sharing">this graph paper</a>         to use when designing your algorithms in the following exercises.
+    </p><p>        For these exercises below, before coding your solution in App Inventor, it would be a good idea  to first write out the solution in pseudocode and discuss it with your coding partner. Download and print <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9NjNuaTZ5S0Z4OUE/view?usp=sharing&resourcekey=0-dS_emJBX6wRgqg1pQ-y2TA">this graph paper</a>         to use when designing your algorithms in the following exercises.
     </p>
     <ol>
     <li style="margin-bottom: 5px;"><b>40x40 Square:</b> Design an algorithm for drawing a 40-by-40 square.  Then         implement your algorithm by defining a procedure named <i>square40</i> that         draws a 40-by-40 square. Then modify the <i>ButtonDraw.Click</i> handler so that it calls         the <i>square40</i> procedure.
