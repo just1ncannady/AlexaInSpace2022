@@ -127,7 +127,7 @@ Learning Activities
     	</pre>
 
     - :5: That's right! The <i>seed</i> tells the PRNG where to begin in the sequence ... 14 11 5 24 2 0 17 15 8 4 ... If the PRNG begins at 11, the next value after 11 will be 5 and then the next will be 24, and so on.
-      :x: 
+      :x: Try again. What's the next value generated after 11 in the sequence?
 
 
 .. raw:: html
@@ -146,7 +146,7 @@ Learning Activities
     	<p>And suppose that <i><span style="font-size: +1;">X</span><sub>1</sub></i> is 12.  What value will <i><span style="font-size: +1;">X</span><sub>2</sub></i> have?</p>
 
     - :25: Yes. 12 * 2 + 1 equals 25.
-      :x: 
+      :x: Try again. What's 12 * 2 + 1?
 
 
 .. raw:: html
@@ -163,10 +163,11 @@ Learning Activities
     
     	<p>Suppose your PRNG uses the following formula:</p>
     	<p><i><span style="font-size: +1;">X</span><sub>i+1</i></sub> = <span style="font-size: +1;">X</span><sub>i</sub> * 2 + 1</i></p>
-    	<p>And suppose that <i><span style="font-size: +1;">X</span><sub>1</sub></i> is 12. What are the <b>next three numbers</b> that the formula would generate? Type your answers into the text box, separating the numbers by a single comma.</p>
+    	<p>And suppose that <i><span style="font-size: +1;">X</span><sub>1</sub></i> is 10. What are the <b>next three numbers</b> that the formula would generate? Type your answers into the text box, separating the numbers by a single comma.</p>
 
-    - :21&comma;43&comma;87: Good job. Now you see how we can use a simple mathematical formula to generate a sequence of numbers. But does the sequence look random enough?
-      :x: 
+    - :21,43,87: Good job. Now you see how we can use a simple mathematical formula to generate a sequence of numbers. But does the sequence look random enough?
+      :21, 43, 87: Good job. Now you see how we can use a simple mathematical formula to generate a sequence of numbers. But does the sequence look random enough?
+      :x: Try again. What's 10 * 2 + 1?
 
 
 .. raw:: html
