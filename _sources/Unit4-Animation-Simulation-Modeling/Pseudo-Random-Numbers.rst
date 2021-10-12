@@ -167,6 +167,7 @@ Learning Activities
 
     - :21,43,87: Good job. Now you see how we can use a simple mathematical formula to generate a sequence of numbers. But does the sequence look random enough?
       :21, 43, 87: Good job. Now you see how we can use a simple mathematical formula to generate a sequence of numbers. But does the sequence look random enough?
+      :21 43 87: Good job. Now you see how we can use a simple mathematical formula to generate a sequence of numbers. But does the sequence look random enough?
       :x: Try again. What's 10 * 2 + 1?
 
 
@@ -283,7 +284,9 @@ Learning Activities
     	<p><span style="font-size: +1;">X</span><sub>i+1</sub> = (<span style="font-size: +1;">X</span><sub>i</sub> * 2 + 1) <i>mod</i> 13</p>
     	<p>What would the next five numbers be if the current number is 10? Separate the numbers in your sequence by commas.</p>
 
-    - :/8\s*,\s*4\s*,\s*9\s*,\s*6\s*,\s*0/: Good. As you can see, this PRNG is a better model than our first try, at least in the sense the numbers in the sequence jump around more rather than always increasing.
+    - :8,4,9,6,0: Good. As you can see, this PRNG is a better model than our first try, at least in the sense the numbers in the sequence jump around more rather than always increasing.
+      :8, 4, 9, 6, 0: Good. As you can see, this PRNG is a better model than our first try, at least in the sense the numbers in the sequence jump around more rather than always increasing.   
+      :8 4 9 6 0: Good. As you can see, this PRNG is a better model than our first try, at least in the sense the numbers in the sequence jump around more rather than always increasing.
       :x: Try again.
 
 
