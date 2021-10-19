@@ -45,7 +45,7 @@ Introduction and Goals
     But how does App Inventor create those numbers? How does a computer do
     randomness?
     
-    <p>This <a href="https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs--pseudorandom-number-generators" target="_blank">
+    <p>This <a href="https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators" target="_blank">
     Khan Academy video by Brit Cruise</a> provides a nice conceptual overview of
     <i>pseudorandomness</i> and how it differs from true randomness. The type 
     of <span class="hover vocab yui-wk-div" data-id='PRNG'>pseudorandom number generator (PRNG)</span> described in the video is different
