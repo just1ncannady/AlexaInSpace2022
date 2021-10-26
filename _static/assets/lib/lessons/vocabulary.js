@@ -100,7 +100,7 @@ var vocabulary = {
 	"data network":"A data network is a telecommunications network which allows computers to exchange data.",
     "disk drive": "A disk drive is a randomly addressable and rewritable storage device.",
 	"intellectual property": "Intellectual property refers to any property that is created using original thought. Traditional intellectual property include patents, copyrights, and trademarks.",
-	"Moore’s Law":"Moore's law is the projection that the number of transistors per square inch on integrated circuits will rougly double every year since the integrated circuit was invented.",
+	"Moore’s Law":"Moore's law is the projection that the number of transistors per square inch on integrated circuits will rougly double every two years since the integrated circuit was invented.",
 	"network": "A network is a group of two or more computer systems linked together.",
 	"processor":"A processor is a shorthand way of referring to a microprocessor or CPU.",
 	"social network":"A a social network is a social structure made of nodes that are generally individuals or organizations. A social network represents relationships and flows between people, groups, organizations, animals, computers, or other information/knowledge processing entities.",
