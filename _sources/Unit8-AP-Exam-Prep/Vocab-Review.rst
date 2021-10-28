@@ -44,9 +44,9 @@ AP CSP Vocabulary Review
 	</script>
 	
 	
-	<p>To prepare for the AP CSP exam, make sure that you review some vocabulary that you may encounter on the exam. The following <a href="https://quizlet.com/422489030/ap-csp-vocabulary-review-flash-cards/" target="_blank">quizlet</a> consists of all vocabulary from the Mobile CSP course. </p><br>
+	<p>To prepare for the AP CSP exam, make sure that you review some vocabulary that you may encounter on the exam. The following <a href="https://quizlet.com/634719872/ap-csp-vocabulary-review-flash-cards/" target="_blank">quizlet</a> consists of all vocabulary from the Mobile CSP course. </p><br>
 	<p>
-	<iframe src="https://quizlet.com/422489030/match/embed?i=1vnu3c&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+	<iframe src="https://quizlet.com/634719872/match/embed?i=1vnu3c&x=1jj1" height="500" width="100%" style="border:0"></iframe>
 	</p>
 	
 	

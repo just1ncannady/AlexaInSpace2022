@@ -42,8 +42,8 @@ Vocabulary Review
 .. raw:: html
 
     <p>
-    The following <a href="https://quizlet.com/422073374/unit-2-introduction-to-mobile-apps-pair-programming-2019-flash-cards/" target="_blank">Unit 2 quizlet</a> contains all of the vocabulary from Unit 2 of the Mobile CSP Course. <br/></p>
-    <p><iframe height="500" src="https://quizlet.com/422073374/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe></p>
+    The following <a href="https://quizlet.com/634706009/unit-2-introduction-to-mobile-apps-pair-programming-flash-cards/" target="_blank">Unit 2 quizlet</a> contains all of the vocabulary from Unit 2 of the Mobile CSP Course. <br/></p>
+    <p><iframe height="500" src="https://quizlet.com/634706009/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe></p>
     
 
 Unit 2 Quiz

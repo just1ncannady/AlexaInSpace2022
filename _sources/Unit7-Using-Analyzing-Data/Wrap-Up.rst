@@ -45,8 +45,8 @@ Vocabulary Review
 .. raw:: html
 
     <p>
-    The following <a href="https://quizlet.com/422494521/unit-7-using-and-analyzing-data-information-2019-flash-cards/" target="_blank">Unit 7 quizlet</a> contains all of the vocabulary from Unit 7 of the Mobile CSP Course.<br/>
-    <iframe height="500" src="https://quizlet.com/422494521/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe>
+    The following <a href="https://quizlet.com/634708360/unit-7-using-and-analyzing-data-information-flash-cards/" target="_blank">Unit 7 quizlet</a> contains all of the vocabulary from Unit 7 of the Mobile CSP Course.<br/>
+    <iframe height="500" src="https://quizlet.com/634708360/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe>
     
 
 Unit 7 Quiz
