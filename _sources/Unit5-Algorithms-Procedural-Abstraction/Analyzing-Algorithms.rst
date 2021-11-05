@@ -125,7 +125,7 @@ Learning Activities
     the
       <!-- &lt;a target=&quot;_blank&quot; href=&quot;https://drive.google.com/open?id=0B86iRIPU8oQlZnZXdG5ycDdpU2M&quot; title=&quot;&quot;&gt;Search Experiment app (APK)&lt;/a&gt;
     -->
-    <a href="http://mobile-csp.org/SearchExperiment.apk" target="_blank" title="">Search Experiment app (APK)</a>
+    <a href="https://mobile-csp.org/SearchExperiment.apk" target="_blank" title="">Search Experiment app (APK)</a>
     from the QR code.
     <br/>
     <img align="right" alt="" src="../_static/assets/img/SearchAppQR.png" style="width: 200px; height: 200px;" title=""/>
@@ -194,7 +194,7 @@ Learning Activities
     </li>
     <li style="margin-bottom: 5px;">Use the Barcode Scanner app -- you can download it from the Play Store
     if you don't have it -- to download the 
-    <a href="http://mobile-csp.org/SortExperiment.apk" target="_blank">
+    <a href="https://mobile-csp.org/SortExperiment.apk" target="_blank">
     SortExperiment app (APK)</a>
     from the QR code.
     <br/>
