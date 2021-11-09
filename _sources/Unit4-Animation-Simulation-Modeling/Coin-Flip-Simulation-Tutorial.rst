@@ -183,7 +183,7 @@ Learning Activities
     <a href="http://www.statisticool.com/3sided.htm" target="_blank">three-sided coin</a>. 
     (Hint: You will need an if/else block with three conditions.   You’ll need a third image 
     for this problem; here’s one that is openly licensed: 
-    <a href="assets/img/Coin-edge.gif" target="_blank">coin on edge</a>.)
+    <a href="../_static/assets/img/Coin-edge.gif" target="_blank">coin on edge</a>.)
     </li>
     <li style="margin-bottom: 5px;">According to 
     <a href="http://mathtourist.blogspot.com/2011/02/penny-bias.html" target="_blank">this report</a>, if you stand a 
