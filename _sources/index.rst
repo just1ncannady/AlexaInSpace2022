@@ -56,3 +56,8 @@ Table of Contents
    Unit8-AP-Exam-Prep/toctree.rst
    Unit9-Beyond-AP/toctree.rst
    Unit10-Additional-Resources/toctree.rst
+   
+
+.. raw:: html
+	
+	<p> <img align="left" src="_static/AlignCSBadge.png" style="padding-right:5px" height="100px"> Mobile CSP is a CSforALL partner and is aligned under the K12 CS Framework. </p>
