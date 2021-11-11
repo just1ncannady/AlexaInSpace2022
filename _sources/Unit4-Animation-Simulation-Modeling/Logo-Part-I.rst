@@ -205,7 +205,7 @@ Learning Activities
     </li><li><b> ROTATE_LEFT()</b> : The robot turns left 90 degrees, staying in the same square but facing left.
     </li><li><b> CAN_MOVE( <em>direction</em> )</b> : This command can be used with 4 possible directions: <b>left, right, forward,</b> and <b>backward</b>. It returns true if there is an open square in the specified direction from the square that the robot is in. 
     </li></ul>
-    <p>  The AP CS Principles Exam uses a text-based and a block-based pseudocode for questions that involve code. The <a href="https://drive.google.com/file/d/0B5ZVxaK8f0u9c1VlWFJDRHl0dEk/view" target="_blank">AP CSP reference sheet</a> is provided during the exam describing this pseudocode. The AP CSP pseudocode for  basic control structures compared to App Inventor blocks is shown below:
+    <p>  The AP CS Principles Exam uses a text-based and a block-based pseudocode for questions that involve code. The <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-exam-reference-sheet.pdf" target="_blank">AP CSP reference sheet</a> is provided during the exam describing this pseudocode. The AP CSP pseudocode for  basic control structures compared to App Inventor blocks is shown below:
     </p><table border="">
     <tbody><tr> <th>Function</th><th>Text Style</th> <th width="25%">Block Style</th><th>App Inventor</th></tr>
     <tr><td>Assignment</td><td>a ← <em>expression</em></td><td><div class="yui-wk-div" id="APblocks">
