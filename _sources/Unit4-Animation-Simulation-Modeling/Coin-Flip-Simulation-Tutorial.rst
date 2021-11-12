@@ -98,20 +98,16 @@ Learning Activities
     
     <blockquote style="font-size: 1.0em;">
     <ul>
-    <li>If you flip a <b><i>fair coin</i></b> 20 times -- any type of coin will do -- 
-    how many heads would you expect to get?  Write down your answer.
+    <li>If you flip a <b><i>fair coin</i></b> 20 times -- any type of coin will do -- how many heads would you expect to get?  Write down your answer.
     
     </li><li>Now flip the coin 20 times and count the number of heads. Write down the count.
     
-    </li><li>Did the count match your explanation?  Based on this experiment, could you 
-    conclude that your coin is fair or <i>biased</i> (not fair).
+    </li><li>Did the count match your explanation?  Based on this experiment, could you conclude that your coin is fair or <i>biased</i> (not fair).
     </li></ul>
     </blockquote>
-    <p>If you perform this experiment, heads will often come up 10 times, but not always, 
-    even though, supposedly, the probability of getting a head on a fair coin toss is 50%.  
+    <p>If you perform this experiment, heads will often come up 10 times, but not always, even though, supposedly, the probability of getting a head on a fair coin toss is 50%.  
     
-    </p><p>The problem with this experiment is you didn't perform enough trials to draw
-    any conclusion about the <i><b>hypothesis</b></i> that this is a fair coin. 
+    </p><p>The problem with this experiment is you didn't perform enough trials to draw any conclusion about the <i><b>hypothesis</b></i> that this is a fair coin. 
     </p>
     <h3>The Random Block</h3>
     
@@ -124,10 +120,9 @@ Learning Activities
     <p>To get started, <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit4/templates/CoinFlipMediaOnly/CoinFlipMediaOnly.asc" target="_blank">
     open App Inventor with the Coin Flip Media Only template</a>. If the template does not open, download the <a href="http://templates.appinventor.mit.edu/trincoll/csp/unit4/templates/CoinFlipMediaOnly/CoinFlipMediaOnly.aia" target="_blank">.aia file</a>, go to <a href="http://ai2.appinventor.mit.edu" target="_blank">App Inventor</a> and do File/Import and import in the downloaded .aia file.
      
-    This will open a project that contains the images you will need in this lesson. 
-    Then use the <i>Save As</i>  option to rename your project to <i>CoinFlip</i>.  
+    This will open a project that contains the images you will need in this lesson. Then use the <i>Projects --> Save Project As</i> option to rename your project to <i>CoinFlip</i>.  
     </p>
-    <p>You can either watch the <i>video tutorial</i>, <i>read the text tutorial</i> or use the <i>short handout</i>.p>
+    <p>You can either watch the <i>video tutorial</i>, <i>read the text tutorial</i> or use the <i>short handout</i>.</p>
     
 .. youtube:: 4TwtOnrTCiA
         :width: 650
@@ -140,28 +135,11 @@ Learning Activities
     <p></p>
     </div>
 
-
-    <h3>Tutorial Part II:  Repeating the Coin Flip N Times</h3>
-    <p>Save your app from part I as <i>CoinFlipExperiment</i> before continuing with this part of the 
-      tutorial.  In this part, we will revise the User Interface and use a loop to repeat the coin flip
-      <i><b>N</b></i> times, keeping count of the number of times it comes up heads.  This will allow us
-      to calculate the percentage of heads, which should be close to 50%.  Let's see how it goes!
-    <br/><br/>
-.. youtube:: 7ifaRGDWHEU
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
-    <h3>Optional Modeling Mini-Projects</h3> 
+    <h3>Optional Enhancements for Part I</h3> 
     
-    Here are some optional creative projects to enhance the <i>CoinFlip</i> app
-    and help build your programming skills. Here's the <a href="https://docs.google.com/document/d/1AKHpiQ87bE4W1YzHlAFh2uNAHuEtdMOCQVV6HfxfDzc" target="_blank">text version</a> for these projects.
+    <p>Before you begin these optional enhancements, use the <i>Projects --> Save Project As</i> option to save your app from Part I as "Coin Flip Enhancements" so that you don't lose the original code which is needed for Part II.</p>
+	
+	<p>Here are some optional creative enhancements to enhance the <i>CoinFlip</i> app and help build your programming skills. (<a href="https://docs.google.com/document/d/1AKHpiQ87bE4W1YzHlAFh2uNAHuEtdMOCQVV6HfxfDzc" target="_blank">text version</a>)
     
     <ol>
     <li style="margin-bottom: 5px;">Modify the app so that the user can also shake the phone to flip the coin. 
@@ -195,6 +173,21 @@ Learning Activities
     <li><b>Real World Statistical Simulations:</b> use <span class="hover vocab yui-wk-div" data-id='random'>random</span> numbers to predict or simulate real world situations. For example, Mobile CSP teacher Ingrid Roche has her students in Boston Public Schools look at <a href="https://www.aclum.org/en/ending-racist-stop-and-frisk" target="_blank">racial profiling in Boston police-civilian encounters</a> to see if the <a href="https://www.census.gov/quickfacts/fact/table/US/RHI125217" target="_blank">racial demographics of the U.S. or state population</a> match <a href="https://openpolicing.stanford.edu/findings/" target="_blank">the racial demographics of police stop rates</a>. 
     
     </li></ol>
+
+.. raw:: html
+
+    <div id="bogus-div">
+    <p></p>
+    </div>
+
+    <h3>Tutorial Part II:  Repeating the Coin Flip N Times</h3>
+    <p>Open your original app from Part I (without the enhancements) and use the <i>Projects --> Save Project As</i> option to save your app from part I as <i>CoinFlipExperiment</i> before continuing with this part of the tutorial.  In this part, we will revise the User Interface and use a loop to repeat the coin flip <i><b>N</b></i> times, keeping count of the number of times it comes up heads.  This will allow us to calculate the percentage of heads, which should be close to 50%.  Let's see how it goes!
+    <br/><br/>
+	
+.. youtube:: 7ifaRGDWHEU
+        :width: 650
+        :height: 415
+        :align: center
     
 Summary
 --------
