@@ -199,7 +199,7 @@ Learning Activities
     from the QR code.
     <br/>
     <img align="right" alt="" src="../_static/assets/img/SortAppQR.png" style="width: 200px; height: 200px;" title=""/>
-    If you are using the emulator or an iOS device, you can download the <a href="assets/img/SortExperiment.aia" target="_blank">aia file</a> and import it into App Inventor.
+    If you are using the emulator or an iOS device, you can download the <a href="../_static/assets/img/SortExperiment.aia" target="_blank">aia file</a> and import it into App Inventor.
     </li>
 	</ol>
 	</tr></tr>
