@@ -248,7 +248,7 @@ Still Curious?
     </p><p>If you want to learn more about this topic, here are a couple of 
     reading suggestions:</p>
     <ul>
-    <li><a href="https://course.mobilecsp.org/mobilecsp/unit?unit=22&amp;lesson=30" target="_blank">Mobile CSP Lesson 3.7 Parity Error Checking</a>
+    <li><a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit3-Creating-Graphics-Images/Parity-Error-Checking-optional.html target="_blank">Mobile CSP Lesson 3.7 Parity Error Checking</a>
     </li><li><a href="http://en.wikipedia.org/wiki/Parity_bit" target="_blank">Parity bit</a>.
       </li><li><a href="https://www.youtube.com/watch?v=cBBTWcHkVVY" target="_blank">Nice video demonstration of error correction</a>.
       </li><li><a href="http://en.wikipedia.org/wiki/Error_detection_and_correction" target="_blank">Error detection and correction</a>.
