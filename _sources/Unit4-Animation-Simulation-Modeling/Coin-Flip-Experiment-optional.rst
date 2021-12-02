@@ -223,7 +223,7 @@ Still Curious?
 .. raw:: html
 
     <p>
-    <p>Hopefully this lesson has made you curious about how <span class="hover vocab yui-wk-div" data-id="PRNG">PRNGs</span> work.  If so, you should check out <a href="https://course.mobilecsp.org/mobilecsp/unit?unit=23&amp;lesson=65" target="_blank" title="">this lesson</a>, which shows how to use some simple mathematics to create a <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>.</p>
+    <p>Hopefully this lesson has made you curious about how <span class="hover vocab yui-wk-div" data-id="PRNG">PRNGs</span> work.  If so, you should check out <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit4-Animation-Simulation-Modeling/Pseudo-Random-Numbers.html" target="_blank" title="">this lesson</a>, which shows how to use some simple mathematics to create a <span class="hover vocab yui-wk-div" data-id="PRNG">PRNG</span>.</p>
 
 Self-Check
 -----------
