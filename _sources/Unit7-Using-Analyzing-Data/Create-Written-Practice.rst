@@ -74,7 +74,7 @@ Learning Activities
 	<p>&lt;&lt;INSERT VIDEO HERE&gt;&gt;</p><br>
 	  
 	<h3>Create Performance Task Write-up Activity </h3>
-	<p>Once you have tried the game and understand the code, answer the AP CSP Create Performance Task prompts.&nbsp;<br></p><ol><li>Review the Create Performance Task prompts in the&nbsp;<a href="https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf" target="_blank" title="">AP CSP Student Directions</a>.&nbsp;</li><li><span class="yui-non">Review the Create Performance Task <a href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-2021-create-performance-task-scoring-guidelines.pdf" target="_blank" title="">scoring guidelines</a>.</span></li><li>Make a copy of the submission&nbsp;<a href="https://docs.google.com/document/d/1pgZntXjhm-IO9iHmNA1lMJE7MBDv-sAJOuSaX9LIFsk/copy" target="_blank" title="">document</a>&nbsp;and record your responses.</li></ol><p></p>
+	<p>Once you have tried the game and understand the code, answer the AP CSP Create Performance Task prompts.&nbsp;<br></p><ol><li>Review the Create Performance Task prompts in the&nbsp;<a href="https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf" target="_blank" title="">AP CSP Student Directions</a>.&nbsp;</li><li><span class="yui-non">Review the Create Performance Task <a href="https://apcentral.collegeboard.org/pdf/ap21-sg-computer-science-principles.pdf?course=ap-computer-science-principles" target="_blank" title="">scoring guidelines</a>.</span></li><li>Make a copy of the submission&nbsp;<a href="https://docs.google.com/document/d/1pgZntXjhm-IO9iHmNA1lMJE7MBDv-sAJOuSaX9LIFsk/copy" target="_blank" title="">document</a>&nbsp;and record your responses.</li></ol><p></p>
 	
 Summary
 -------
