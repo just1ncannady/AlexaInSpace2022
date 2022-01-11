@@ -417,6 +417,27 @@ var vocabulary = {
     "peer-to-peer": "a distributed architecture or network that divides tasks between peers, each of which participate in the application",
     "copyright": "a legal right that grants the creator of an original work exclusive rights for its use and distribution",
     "decentralized": "when the allocation of resources and workload are distributed to individual devices on a network",
-    "centralized": "when the resources and workload are coordinated and managed by a centralized computer (server)"
+    "centralized": "when the resources and workload are coordinated and managed by a centralized computer (server)",
+	
+	//Alexa Lesson 1
+	"Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
+	"artificial intelligence (AI)": "a computer program designed to simulate human intelligence",
+	"bias": "prejudice in favor of or against one thing, person, or group compared with another, usually in a way considered to be unfair",
+	"microgravity": "very weak gravity, as in an orbiting spacecraft",
+	"speech recognition": "an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns",
+	"speech synthesis": "the artificial production of human speech",
+	
+	//Alexa Lesson 2
+	"Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
+	"wake word": "a phrase that causes a device using Alexa to begin recording a user's request so that it can be processed",
+	"skill": "a set of commands or questions that you can program to use with Alexa",
+	"invocation": "When creating a custom Alexa skill, an invocation is the name that users will say to open your skill. For example, if you say 'Alexa, tell My Music to play Playlist1', the invocation name would be 'My Music'.",
+	"intent": "The task you are asking your Alexa to complete. It is a user’s intention given a sentence or a command.",
+	"utterances": "Anything the user says",
+	"endpoint function": "Endpoint represents an Alexa-connected device (like an Echo device) with which an Alexa customer can interact. It is basically the 'brain' of your skill. In App Inventor, the endpoint function contains the code for your intent.",
+	 "input" : "Input  is data sent to a computer for processing by a program and can be tactile, audible, visual, or text",
+    "output" : "Output is the data sent back from the program to the device and can be tactile, audible, visual, or text.",
+	"speech recognition": "an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns"
+
   
 };
