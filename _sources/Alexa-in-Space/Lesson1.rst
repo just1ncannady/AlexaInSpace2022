@@ -39,12 +39,12 @@ Introduction and Goals
     <p>
     <table><tbody>
     <tr><td valign="top" colspan=2><p>In this lesson you will learn about <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span>. Although AI has been around since the 1950s, it is widely recognized now as one of the fastest-growing fields in technology. From ELIZA to <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span>, AI has become something we interact with every day, and will be a part of our daily life for the foreseeable future. Navigation apps, 3D photography, facial recognition, and smart assistants are just a few of the everyday uses for AI, and you’ll be introduced to more examples. But how can we define AI? And why is the use of AI being extended into space?</p></td></tr>
-    <tr><td valign="top"></td>
+    <tr><td valign="center"><img src="../_static/assets/img/AlexaInSpace.png" style="float:left"/>
     <td valign="top">
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
-	   <li>Explain the importance of data in the process of developing AI, and recognize how data can lead to <span class="hover vocab yui-wk-div" data-id="bias">bias</span> in AI. </li>
-	   <li>Explain how <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> is an example of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span> </li>
+	   <li>Explain the importance of data in the process of developing <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>, and recognize how data can lead to <span class="hover vocab yui-wk-div" data-id="bias">bias</span> in AI. </li>
+	   <li>Explain how <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> is an example of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> </li>
 		<li> Identify how Alexa can be used to perform basic tasks. </li>
 		<li> Describe why AI could be useful in space and other contexts. </li>
 
@@ -66,12 +66,14 @@ Learning Activities
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1UbpaiLR_wjoDrpK4JSvnW15SEMY9VxsLM3xHOtKNRI0/edit#slide=id.g8cab8164ef_0_701" target="_blank" title="">slides</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="" target="_blank">video</a></li>
+	<li style="display: inline"><a href="https://www.youtube.com/watch?v=-eQXJ6hdy7c" target="_blank">video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1oJVBhjrigBKQVC4gpA4w9mSFpHebPcJeRuuDRP7N1T8/copy" target="_blank">Worksheet - Guided Notes</a></li>
 	</ul> 
 	
     <p>
     <h3>Hook Activity</h3>
-    <p><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span> has made its way into popular culture through movies, literature, and commerce. Examples include Star Wars, Marvel movies, Siri, <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> and literary works such as I, Robot. Can you think of others? <b>Discussion:</b> share your ideas with the class. </p>
+    <p><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">Artificial intelligence (AI)</span> has made its way into popular culture through movies, literature, and commerce. Examples include Star Wars, Marvel movies, Siri, <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> and literary works such as I, Robot. Can you think of others? <b>Discussion:</b> share your ideas with the class. </p>
 	
 	<h3>Lecture</h3>
     <p>This lecture is based on the slides by Jessica Van Brummelen, Tommy Heng, and Viktoriya Tabunshchyk from MIT. </p> 
@@ -163,13 +165,21 @@ Learning Activities
 	<h3>AI in Space</h3>
     <p>One way for humans to deal with the difficulties of space travel is to rely on AI platforms like Alexa for help. For the reasons mentioned in the previous activity, AI is uniquely suited to assisting space travelers in monitoring their equipment, health statistics, daily tasks, navigation and more. Each role, from Commander to Flight Engineer, Science Officer to individual space flight participants could benefit. <b>Maybe the best ways to use Alexa in space haven’t even been discovered yet…maybe that will be up to you! At the end of this unit, you’ll get the opportunity to develop your own Alexa skill!</b></p>
 
-	<p><a href="https://drive.google.com/file/d/1pnvRuD`Fg-RfVgIm_H6teWFFxi5vVX8Hl/view" target="_blank"> Here</a> is just an idea about how AI could be used in space in the future!</p>
+	<p><a href="https://drive.google.com/file/d/1pnvRuDFg-RfVgIm_H6teWFFxi5vVX8Hl/view" target="_blank">Here</a> is just an idea about how AI could be used in space in the future! (<a href="https://docs.google.com/document/d/1bZuXdUXPrvLz_FuBCh4qiKnOTI0kuYDiBvQbh9oCGk4/" target="_blank">Audio transcript</a>)</p>
 
 .. raw:: html
 
     <div id="bogus-div">
     <p></p>
     </div>
+	
+	<p>
+	<audio controls>
+	<source src="../_static/assets/img/ExampleStudentProduct_EpsilonEridani.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	</p>
+
     
 Summary
 --------
