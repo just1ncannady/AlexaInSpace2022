@@ -439,5 +439,16 @@ var vocabulary = {
     "output" : "Output is the data sent back from the program to the device and can be tactile, audible, visual, or text.",
 	"speech recognition": "an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns"
 
+	//Alexa Lesson 3
+	"Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
+	"artificial intelligence (AI)": "a computer program designed to simulate human intelligence",
+	"invocation": "When creating a custom Alexa skill, an invocation is the name that users will say to open your skill. For example, if you say 'Alexa, tell My Music to play Playlist1', the invocation name would be 'My Music'.",
+	"intent": "The task you are asking your Alexa to complete. It is a user’s intention given a sentence or a command.",
+	"utterances": "Anything the user says",
+	"endpoint function": "Endpoint represents an Alexa-connected device (like an Echo device) with which an Alexa customer can interact. It is basically the 'brain' of your skill. In App Inventor, the endpoint function contains the code for your intent.",
+	"randomness":"Randomness is the lack of pattern or regularity.  A random sequence of events has no order or patten.",
+	"global variable": "a data abstraction that exists in all programming languages which provides a way to name a memory location in your program to hold different values.",
+	"list":"In computer science, a list  stores multiple items under one variable name and uses an index to number and access them.",
+	"microgravity": "very weak gravity, as in an orbiting spacecraft"
   
 };
