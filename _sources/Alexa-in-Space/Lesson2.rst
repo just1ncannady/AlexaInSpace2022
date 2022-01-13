@@ -172,9 +172,12 @@ Self-Check
 	<br/><span class="hover vocab yui-wk-div" data-id="endpoint function">endpoint function</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="input">input</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="intent">intent</span>
-	<br/><span class="hover vocab yui-wk-div" data-id="output">output</span>
-	<br/><span class="hover vocab yui-wk-div" data-id="skill">skill</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="invocation">skill name/invocation</span>
+	<br/><span class="hover vocab yui-wk-div" data-id="output">output</span>
+	</td>
+	<td>
+	<br/><span class="hover vocab yui-wk-div" data-id="skill">skill</span>
+	
 	<br/><span class="hover vocab yui-wk-div" data-id="speech recognition">speech	recognition</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="utterances">utterances</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="wake word">wake word</span>

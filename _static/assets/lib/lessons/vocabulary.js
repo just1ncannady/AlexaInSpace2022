@@ -437,7 +437,7 @@ var vocabulary = {
 	"endpoint function": "Endpoint represents an Alexa-connected device (like an Echo device) with which an Alexa customer can interact. It is basically the 'brain' of your skill. In App Inventor, the endpoint function contains the code for your intent.",
 	 "input" : "Input  is data sent to a computer for processing by a program and can be tactile, audible, visual, or text",
     "output" : "Output is the data sent back from the program to the device and can be tactile, audible, visual, or text.",
-	"speech recognition": "an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns"
+	"speech recognition": "an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns",
 
 	//Alexa Lesson 3
 	"Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
@@ -446,9 +446,22 @@ var vocabulary = {
 	"intent": "The task you are asking your Alexa to complete. It is a user’s intention given a sentence or a command.",
 	"utterances": "Anything the user says",
 	"endpoint function": "Endpoint represents an Alexa-connected device (like an Echo device) with which an Alexa customer can interact. It is basically the 'brain' of your skill. In App Inventor, the endpoint function contains the code for your intent.",
-	"randomness":"Randomness is the lack of pattern or regularity.  A random sequence of events has no order or patten.",
+	"randomness": "Randomness is the lack of pattern or regularity.  A random sequence of events has no order or patten.",
 	"global variable": "a data abstraction that exists in all programming languages which provides a way to name a memory location in your program to hold different values.",
-	"list":"In computer science, a list  stores multiple items under one variable name and uses an index to number and access them.",
-	"microgravity": "very weak gravity, as in an orbiting spacecraft"
+	"list": "In computer science, a list  stores multiple items under one variable name and uses an index to number and access them.",
+	"microgravity": "very weak gravity, as in an orbiting spacecraft",
+	
+	//Alexa Lesson 4
+	"list": "In computer science, a list  stores multiple items under one variable name and uses an index to number and access them.",
+    "index": "The index of a list is the number or position of an element in the list.",
+	 "procedural abstraction": "Procedural abstraction in computer science is the practice of organizing and encapsulating algorithms in named procedures that can then be invoked by name. An example would be the 'sqrt(x)', square root of x, which encapsulates the algorithm for calculating the square root of x.",
+	 "parameters": "Parameters are input variables for a procedure.",
+	 "arguments": "Arguments specify the values of the parameters when a procedure is called.",
+	 "calorie intake": "Refers to the number of calories (energy content) consumed.",
+	 "slot": "a slot is like a variable in an utterance. A slot tells Alexa what part of the utterance it should store.",
+	 "microgravity": "very weak gravity, as in an orbiting spacecraft",
+	 "Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
+	 "parallel lists":"Two or more lists that are setup to correspond based on the index location of the data in the lists allowing the data in the lists to be processed at the same time."
+
   
 };
