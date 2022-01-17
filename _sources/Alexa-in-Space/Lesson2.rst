@@ -105,13 +105,13 @@ Learning Activities
 	<li><b>Utterance</b> - the command or question a user will speak to trigger a specific action as part of the skill</li>
 	</ul>
 	
-	<p>{{Insert diagram illustrating dialogue here}}</p>
+	<p>{ {Insert diagram illustrating dialogue here} }</p>
 	
 	<h3>Tutorial: Good Morning, Space!</h3>
     <p>Now let’s build out an Alexa skill. Get together with a partner - we will be using <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> to complete this program. To get started, open Alexa’s App Inventor and login with your Google account. Follow along with your teacher or the video tutorial to create the Good Morning Space Alexa Skill. Or, if you prefer, you can use the <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o" target="_blank">text version of the tutorial</a>.
 	</p>
 	
-	<p>{{Insert video tutorial here}}</p>
+	<p>{ {Insert video tutorial here} }</p>
 	
 	<h4>ACTIVITY: Algorithmic Bias</h4>
     <p>Watch this brief video. What do you notice? What do you wonder?</p>

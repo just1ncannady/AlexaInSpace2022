@@ -119,7 +119,7 @@ Learning Activities
 			<li>If you worked on the challenge individually, describe how you used peer feedback through testing and code review to improve your skill.</li>
 			<li>If you worked in pairs, describe your contributions to the challenge project and how working together improved the project.</li>
 			</ul>
-		<li> AI - {{to be added}} </li>
+		<li> AI - { {to be added} } </li>
 		</ul>
 	</ul>
 

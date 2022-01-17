@@ -109,7 +109,7 @@ Learning Activities
 	<p>Before starting the tutorial, brainstorm as a class several <span class="hover vocab yui-wk-div" data-id="utterances">utterances</span> that you might use to ask Alexa for a random fact about space. </p>
 	<p>After brainstorming, complete the <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/" target="_blank">Space Facts tutorial</a></p>
 	
-	<p>{{Insert video tutorial here}}</p>
+	<p>{ {Insert video tutorial here} }</p>
 	
 	<h3>Enhancements</h3>
     <ol>

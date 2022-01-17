@@ -116,7 +116,7 @@ Learning Activities
 	<h3>Tutorial: Meals in Space</h3>
     <p>For <a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E" target="_blank" title="">this tutorial</a>, you will program a skill where Alexa will read the <span class="hover vocab yui-wk-div" data-id="list">list</span> of breakfast options and the user will be able to select one of the options to eat. Alexa will then let you know how many calories that item contains and add that amount to your total <span class="hover vocab yui-wk-div" data-id="calorie intake">calorie intake</span> for the day. You will also create a procedure that takes in the number of calories already consumed for the day, subtracts from the daily requirement, and sets the calorie variable to the new number.</p>
 	
-	<p>{{insert tutorial video here}}</p>
+	<p>{ {insert tutorial video here} }</p>
 
 	<h4>Multiple Intents</h4>
 	<p>In the previous lessons you learned how to create a skill that involves Alexa responding to a direct command using one intent. However, for the Meals in Space skill two intents are needed: one intent to trigger the reading of the breakfast options and another intent to trigger the logging of a food and its calories. After an utterance for one intent is made, you can use the “ask” block shown below to have Alexa respond and ask the user what they would like to do next. When using the “ask” block, Alexa will wait eight (8) seconds for the user to respond with another intent.</p>
@@ -216,7 +216,7 @@ Self-Check
     <h3>Check Your Understanding</h3>
     <p>Complete the following self-check exercises. Please note that you should login if you want your answers saved and scored. In addition, some of these exercises will not work in Internet Explorer or Edge browsers. We recommend using Chrome.</p>
     
-    <p>{{insert self-check questions here}}</p>
+    <p>{ {insert self-check questions here} }</p>
 
 Reflection: For Your Portfolio
 -------------------------------
