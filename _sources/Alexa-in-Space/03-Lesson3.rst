@@ -261,7 +261,7 @@ Self-Check
 
     .. raw:: html
 
-        <img class="yui-img" src="../_static/assets/img/factsIndex.png"/>   
+        <img class="yui-img" src="../_static/assets/img/factsIndex.PNG"/>   
 
 
 .. raw:: html

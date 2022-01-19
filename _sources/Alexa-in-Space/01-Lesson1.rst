@@ -99,7 +99,9 @@ Learning Activities
 	</ol>
 	
 	<h4>ACTIVITY: Is it AI?</h4>
-	<p>Consider <a href="https://docs.google.com/presentation/d/e/2PACX-1vSKBRcT4EiUe07l0yxIKH6oi0xgnJnpkPffkVgvFvhlponEY8tjbeflLef5nr_OxtAPVNKhcfULMc4y/pub?start=true&loop=false&delayms=3000&slide=id.g8cab8164ef_0_1055" target=_blank"> these examples</a>. In a small group of 2-3 students, discuss and document whether these examples can be considered AI. Document your group’s answers on <a href="https://docs.google.com/document/d/1oJVBhjrigBKQVC4gpA4w9mSFpHebPcJeRuuDRP7N1T8/copy" target="_blank">this worksheet</a>. The following questions may be helpful to consider:</p>
+	<p>Consider <a href="https://docs.google.com/presentation/d/e/2PACX-1vSKBRcT4EiUe07l0yxIKH6oi0xgnJnpkPffkVgvFvhlponEY8tjbeflLef5nr_OxtAPVNKhcfULMc4y/pub?start=true&loop=false&delayms=3000&slide=id.g8cab8164ef_0_1055" target=_blank"> these examples</a>. <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKBRcT4EiUe07l0yxIKH6oi0xgnJnpkPffkVgvFvhlponEY8tjbeflLef5nr_OxtAPVNKhcfULMc4y/embed?start=false&loop=false&delayms=3000" frameborder="0" width="650" height="415" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	
+	<br/> In a small group of 2-3 students, discuss and document whether these examples can be considered AI. Document your group’s answers on <a href="https://docs.google.com/document/d/1oJVBhjrigBKQVC4gpA4w9mSFpHebPcJeRuuDRP7N1T8/copy" target="_blank">this worksheet</a>. The following questions may be helpful to consider:</p>
 	<ul>
 	<li>Does the example perceive/understand its environment?</li>
 	<li>Does the example continue to learn?</li>
