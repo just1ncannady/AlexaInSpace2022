@@ -156,7 +156,7 @@ Learning Activities
 	
 	<p>People travel into space for various reasons, including scientific discovery, economic benefit, national security, and curiosity. Whatever the reason for space travel, all people encounter an environment very different from the one here on Earth. The further away from Earth one gets, the less effect gravity has on people and other objects. The name for the phenomenon of being affected by only a small amount of gravity is <span class="hover vocab yui-wk-div" data-id="microgravity">microgravity</span>. As astronauts and space tourists go through their daily routines and responsibilities, they must find ways to cope with objects not responding as they would on Earth and their own physiology (the body and how it works) behaving differently. The resources above offer some insight into just how different daily life is in space with the effects of microgravity. </p>
 	
-	<h4>ACTIVIY: Exploring Microgravity</h4>
+	<h4>ACTIVITY: Exploring Microgravity</h4>
 	<p>Independently explore one of these two resources to learn more about <span class="hover vocab yui-wk-div" data-id="microgravity">microgravity</span> in space. Identify at least 2-3 ways that microgravity impacts daily life. Then, share what you learned with a shoulder partner.</p>
 	
 	<ul>
