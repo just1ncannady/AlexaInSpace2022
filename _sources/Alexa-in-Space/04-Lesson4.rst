@@ -69,9 +69,9 @@ Learning Activities
 .. raw:: html
 
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E" target="_blank" title="">Tutorial - Text Version</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E/view" target="_blank" title="">Tutorial - Text Version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="" target="_blank">Tutorial - Video</a></li>
+	<li style="display: inline">Tutorial - Video</li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://www.nasa.gov/sites/default/files/atoms/files/stemonstrations_nutrition.pdf" target="_blank">Activity</a></li>
 	</ul> 
@@ -114,7 +114,7 @@ Learning Activities
 	<p>Using the <a href="https://www.nasa.gov/sites/default/files/atoms/files/stemonstrations_nutrition.pdf" target="_blank">ISS Standard Menu (pg. 10-18)</a>, work with a partner to create a menu for one of the astronauts. You can select their exercise amount for the day and the corresponding calorie needs. Think about three meals (breakfast, lunch, dinner) as well as snacks and beverages throughout the day.</p>
 	
 	<h3>Tutorial: Meals in Space</h3>
-    <p>For <a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E" target="_blank" title="">this tutorial</a>, you will program a skill where Alexa will read the <span class="hover vocab yui-wk-div" data-id="list">list</span> of breakfast options and the user will be able to select one of the options to eat. Alexa will then let you know how many calories that item contains and add that amount to your total <span class="hover vocab yui-wk-div" data-id="calorie intake">calorie intake</span> for the day. You will also create a procedure that takes in the number of calories already consumed for the day, subtracts from the daily requirement, and sets the calorie variable to the new number.</p>
+    <p>For <a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E/view" target="_blank" title="">this tutorial</a>, you will program a skill where Alexa will read the <span class="hover vocab yui-wk-div" data-id="list">list</span> of breakfast options and the user will be able to select one of the options to eat. Alexa will then let you know how many calories that item contains and add that amount to your total <span class="hover vocab yui-wk-div" data-id="calorie intake">calorie intake</span> for the day. You will also create a procedure that takes in the number of calories already consumed for the day, subtracts from the daily requirement, and sets the calorie variable to the new number.</p>
 	
 	<p>{ {insert tutorial video here} }</p>
 

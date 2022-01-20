@@ -63,9 +63,9 @@ Learning Activities
 .. raw:: html
 
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/" target="_blank" title="">Tutorial - Text Verison</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank" title="">Tutorial - Text Verison</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="" target="_blank">Tutorial - Video</a></li>
+	<li style="display: inline">Tutorial - Video</li>
 	</ul> 
 	
     <p>
@@ -107,7 +107,7 @@ Learning Activities
 	<h4>List</h4>
     <p>Like most other programming languages, MIT App Inventor has an abstract data type (ADT) called <span class="hover vocab yui-wk-div" data-id="list">list</span> that allows the storage of an ordered sequence of elements under one name in memory. Lists are sometimes called arrays in other programming languages. Data abstractions manage complexity in the program by giving a collection of data a name that can be used without knowing the specific details of its representation. The elements in a list are indexed which means they are numbered from 1 to the length of the list.</p>
 	<p>Before starting the tutorial, brainstorm as a class several <span class="hover vocab yui-wk-div" data-id="utterances">utterances</span> that you might use to ask Alexa for a random fact about space. </p>
-	<p>After brainstorming, complete the <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/" target="_blank">Space Facts tutorial</a></p>
+	<p>After brainstorming, complete the <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank">Space Facts tutorial</a></p>
 	
 	<p>{ {Insert video tutorial here} }</p>
 	
