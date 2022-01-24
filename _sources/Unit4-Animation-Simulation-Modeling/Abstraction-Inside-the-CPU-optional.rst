@@ -230,7 +230,7 @@ Learning Activities
     :random:
     :practice: T
     :answer_a: 0
-    :feedback_a: Yes, the correct answer is 0. This would be an example of an <b>overflow error</b>. But it would not crash the machine.
+    :feedback_a: Yes, the correct answer is 0. This would be an example of an <b>overflow error</b>. But it would not crash the machine. In binary,  11111111 + 1 = 100000000 (since 1 + 1 = 10 in binary which is 2 in base 10).  This machine can only hold 8 bit numbers, but the answer 100000000 is 9 bits. This causes an overflow, where the left-most bit overflows the 8 bit memory space.  Only the last 8 bits  00000000 are stored which gives the answer 0. 
     :answer_b: 255
     :feedback_b: No. You would get 255 if you added 0 to 255. 
     :answer_c: 256
