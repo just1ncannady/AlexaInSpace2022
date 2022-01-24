@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-Create PT Written Response Practice
+Create PT Written Response Practice (optional) 
 ===================================
 
 .. raw:: html
@@ -23,8 +23,8 @@ Create PT Written Response Practice
 	
 	</script>
 	
-	
-	<h3 id="est-length">Time Estimate: 180 minutes</h3>
+	<p><i>Note: This lesson is optional now, but will be revisited in Unit 7.</i></p>
+	<h3 id="est-length">Time Estimate: 180 minutes</h3>	
 	
 	<img src="../_static/assets/img/introandgoalsicon.png" width="25" height="25" style="float:left">
 	                                                                                                       

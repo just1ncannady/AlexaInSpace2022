@@ -10,10 +10,10 @@ Alexa in Space
 	:maxdepth: 0
 
 
-	Lesson1.rst
-	Lesson2.rst
-	Lesson3.rst
-	Lesson4.rst
-	Lesson5-Optional.rst
-	FinalChallenge.rst
+	01-Lesson1.rst
+	02-Lesson2.rst
+	03-Lesson3.rst
+	04-Lesson4.rst
+	05-Lesson5-Optional.rst
+	06-FinalChallenge.rst
 	Wrap-Up.rst

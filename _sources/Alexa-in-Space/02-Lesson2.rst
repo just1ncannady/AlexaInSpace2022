@@ -66,9 +66,9 @@ Learning Activities
 .. raw:: html
 
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o" target="_blank" title="">Tutorial - Text Version</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank" title="">Tutorial - Text Version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="" target="_blank">Tutorial - Video</a></li>
+	<li style="display: inline">Tutorial - Video</li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1fvoOQBwm9aDaUHVIiiEMyQEgBXEWyh2lUapk8XZAsaE/copy" target="_blank">Worksheet - Bias Activity</a></li>
 	</ul> 
@@ -94,7 +94,7 @@ Learning Activities
 	</ul>
 	
 	<h4>ACTIVITY: Understanding Alexa Dialogue</h4>
-    <p>Before you build out an Alexa <span class="hover vocab yui-wk-div" data-id="skill">skill</span>, review this example of an <a href="https://docs.google.com/document/d/1Gg97OtfsyQlKI1d1mOC9W9q_fRDM0S-fKc75RQ0c6Kk/edit?usp=sharing" target="_blank">Alexa Dialogue</a> to get familiar with the interaction with Alexa in the tutorial. Here are some key words you should know for Alexa’s voice interaction using App Inventor:
+    <p>Before you build out an Alexa <span class="hover vocab yui-wk-div" data-id="skill">skill</span>, review this example of an <a href="https://docs.google.com/document/d/1Gg97OtfsyQlKI1d1mOC9W9q_fRDM0S-fKc75RQ0c6Kk/view" target="_blank">Alexa Dialogue</a> to get familiar with the interaction with Alexa in the tutorial. Here are some key words you should know for Alexa’s voice interaction using App Inventor:
 	</p>
 
 	<ul>
@@ -105,13 +105,13 @@ Learning Activities
 	<li><b>Utterance</b> - the command or question a user will speak to trigger a specific action as part of the skill</li>
 	</ul>
 	
-	<p>Insert diagram illustrating dialogue here</p>
+	<p>{ {Insert diagram illustrating dialogue here} }</p>
 	
 	<h3>Tutorial: Good Morning, Space!</h3>
-    <p>Now let’s build out an Alexa skill. Get together with a partner - we will be using <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> to complete this program. To get started, open Alexa’s App Inventor and login with your Google account. Follow along with your teacher or the video tutorial to create the Good Morning Space Alexa Skill. Or, if you prefer, you can use the <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o" target="_blank">text version of the tutorial</a>.
+    <p>Now let’s build out an Alexa skill. Get together with a partner - we will be using <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> to complete this program. To get started, open Alexa’s App Inventor and login with your Google account. Follow along with your teacher or the video tutorial to create the Good Morning Space Alexa Skill. Or, if you prefer, you can use the <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank">text version of the tutorial</a>.
 	</p>
 	
-	<p>Insert video tutorial here</p>
+	<p>{ {Insert video tutorial here} }</p>
 	
 	<h4>ACTIVITY: Algorithmic Bias</h4>
     <p>Watch this brief video. What do you notice? What do you wonder?</p>
@@ -172,9 +172,12 @@ Self-Check
 	<br/><span class="hover vocab yui-wk-div" data-id="endpoint function">endpoint function</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="input">input</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="intent">intent</span>
-	<br/><span class="hover vocab yui-wk-div" data-id="output">output</span>
-	<br/><span class="hover vocab yui-wk-div" data-id="skill">skill</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="invocation">skill name/invocation</span>
+	<br/><span class="hover vocab yui-wk-div" data-id="output">output</span>
+	</td>
+	<td>
+	<br/><span class="hover vocab yui-wk-div" data-id="skill">skill</span>
+	
 	<br/><span class="hover vocab yui-wk-div" data-id="speech recognition">speech	recognition</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="utterances">utterances</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="wake word">wake word</span>
@@ -229,13 +232,13 @@ Self-Check
     :feedback_a: 
     :answer_b: Recommended videos based on your searches
     :feedback_b: 
-    :answer_c: Speech recognition that only recognizes English speakers
+    :answer_c: Speech recognition that recognizes all languages 
     :feedback_c: 
     :answer_d: Only having conversations with people who share your interests
     :feedback_d: 
-    :correct: a,b,c,d
+    :correct: a,b,d
 
-    Which of these show an example of bias?
+    Which of these show an example of bias? Select all that apply.
 
 .. raw:: html
 
