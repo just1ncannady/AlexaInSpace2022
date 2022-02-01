@@ -48,7 +48,7 @@ Introduction and Goals
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
 	<ul>
 	<li>explain insights and knowledge gained from programs and visualizations that process data</li>
-	<li>use target vocabulary, such as data, metadata, and correlation while interpreting and creating visualizations, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+	<li>use target vocabulary, such as data, metadata, and correlation while interpreting and creating visualizations, with the support of concept definitions from this lesson</li>
 	</ul>
 
     

@@ -63,7 +63,7 @@ Introduction and Goals
 			<div><b>Language Objectives:</b>&nbspI will be able to</div>
 			<ul>
 			<li>explain how the use of computing can raise legal and ethical concerns</li>
-			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="creative commons">Creative Commons</span>, <span class="hover vocab yui-wk-div" data-id="fair use">fair use</span>, <span class="hover vocab yui-wk-div" data-id="DRM">DRM</span>, and <span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span> while describing issuses pertaining to <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span>, with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+			<li>use target vocabulary, such as <span class="hover vocab yui-wk-div" data-id="creative commons">Creative Commons</span>, <span class="hover vocab yui-wk-div" data-id="fair use">fair use</span>, <span class="hover vocab yui-wk-div" data-id="DRM">DRM</span>, and <span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span> while describing issuses pertaining to <span class="hover vocab yui-wk-div" data-id="copyright">copyright</span>, with the support of concept definitions from this lesson</li>
 			</ul>
         </td>
       </tr>

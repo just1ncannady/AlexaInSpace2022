@@ -60,7 +60,7 @@ Introduction and Goals
 		<ul>
 		<li>describe and give examples of syncrhonous and asyncronous operations</li>
 		<li>describe how using a database helps reduce detail in an app</li>
-		<li>use target vocabulary while describing app features and User Interface with the support of concept definitions and <a href="https://docs.google.com/presentation/d/1n-K4AQ_maHcXekzcfERQ9dxj91nqv9ytwJx4ZkAp8zw/copy" target="_blank" title="">vocabulary notes</a> from this lesson</li>
+		<li>use target vocabulary while describing app features and User Interface with the support of concept definitions from this lesson</li>
 		</ul>
 		</td>
 	</tr>
