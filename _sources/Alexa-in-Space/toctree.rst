@@ -10,10 +10,17 @@ Alexa in Space
 	:maxdepth: 0
 
 
+	Unit-Overview.rst
 	01-Lesson1.rst
 	02-Lesson2.rst
+	Big-Data.rst
+	Artificial-Intelligence-and-Machine-Learning.rst
 	03-Lesson3.rst
 	04-Lesson4.rst
-	05-Lesson5-Optional.rst
 	06-FinalChallenge.rst
+	Visualizing-Data.rst
+	Data-Visualization-Project.rst
+	Data-Map-App.rst
+	Clicker-App-with-CloudDB-optional.rst
+	Impacts-of-CS-Who-Owns-the-Bits.rst
 	Wrap-Up.rst

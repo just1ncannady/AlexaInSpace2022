@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
    
-Interacting with Alexa
+Bias in AI
 =======================
 
 .. raw:: html
