@@ -58,7 +58,7 @@ var EKmapping =
      '7.07': ['IOC-1.B.1', 'IOC-1.D.1', 'IOC-1.D.2', 'IOC-1.D.3', 'IOC-1.F.11'], 
      '7.08': ['IOC-1.F.1', 'IOC-1.F.2', 'IOC-1.F.3', 'IOC-1.F.4', 'IOC-1.F.5', 'IOC-1.F.6', 'IOC-1.F.7', 'IOC-1.F.8', 'IOC-1.F.9', 'IOC-1.F.1'],
 	 'A.01': ['CRD-2.A.1', 'CRD-2.A.2'],
-	 'A.02': ['CRD-2.C.1', 'CRD-2.C.4', 'IOC-1.D.1', 'IOC-1.D.3'],
+	 'A.02': ['CRD-2.C.1', 'CRD-2.C.4', 'IOC-1.B.1', 'IOC-1.D.1', 'IOC-1.D.2', 'IOC-1.D.3', 'IOC-1.F.11'],
 	 'A.03': ['AAP-1.D.2', 'AAP-1.D.3', 'AAP-1.C.1', 'AAP-1.C.2', 'AAP-1.C.3'],
 	 'A.04': ['DAT-2.E.3', 'AAP-1.C.3', 'AAP-3.B.1', 'AAP-3.B.4', 'AAP-3.B.5', 'AAP-3.B.6','AAP-3.B.7']}
 

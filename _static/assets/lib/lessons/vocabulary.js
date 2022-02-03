@@ -426,6 +426,7 @@ var vocabulary = {
 	"microgravity": "very weak gravity, as in an orbiting spacecraft",
 	"speech recognition": "an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns",
 	"speech synthesis": "the artificial production of human speech",
+	"machine learning":"Algorithms that learn intelligent behavior from lots of training data.",
 	
 	//Alexa Lesson 2
 	"Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
