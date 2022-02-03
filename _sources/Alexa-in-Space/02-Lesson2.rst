@@ -228,7 +228,7 @@ Self-Check
 .. mchoice:: mcsp-alexa-2-3
     :random:
     :practice: T
-    :answer_a: Advertising that only shows you recommendations based on your gender
+    :answer_a: Advertising that only shows recommendations based on your gender
     :feedback_a: 
     :answer_b: Recommended videos based on your searches
     :feedback_b: 
