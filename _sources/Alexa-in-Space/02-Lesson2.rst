@@ -208,7 +208,6 @@ Self-Check
 	</td>
 	<td>
 	<br/><span class="hover vocab yui-wk-div" data-id="skill">skill</span>
-	
 	<br/><span class="hover vocab yui-wk-div" data-id="speech recognition">speech	recognition</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="utterances">utterances</span>
 	<br/><span class="hover vocab yui-wk-div" data-id="wake word">wake word</span>

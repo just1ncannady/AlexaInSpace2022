@@ -36,9 +36,9 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p><h3>Can a computer recognize your doodles?</h3>
+    <h3>Can a computer recognize your doodles?</h3>
     <p>Artificial intelligence (AI) is sometimes described as getting a computer to do complex tasks that humans find easy.  Examples would be walking, seeing, and understanding speech.  These activities, which come naturally to us, are very difficult to develop traditional step-by-step algorithms for.</p>
-    <p>But AI researchers have developed an approach known as <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i>learns</i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  
+    <p>But AI researchers have developed an approach known as <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i>learns</i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  </p> 
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	<ul>
 	<li>explain the basics of <span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span></li>
@@ -57,7 +57,7 @@ Learning Activities
 
 .. raw:: html
     
-    </p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
+    <p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
     <p>Give it a try yourself!  Click on the <a href="https://quickdraw.withgoogle.com/" target="_blank">flag doodle</a> to see how well the computer can recognize your doodles. 
     </p>
 
