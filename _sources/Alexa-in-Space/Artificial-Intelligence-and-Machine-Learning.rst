@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-Artificial Intelligence and Machine Learning (optional)
+7.07 Artificial Intelligence and Machine Learning (optional)
 ============================================================
 
 .. raw:: html
@@ -36,7 +36,6 @@ Introduction and Goals
 
 .. raw:: html
 
-    <h3>Can a computer recognize your doodles?</h3>
     <p>Artificial intelligence (AI) is sometimes described as getting a computer to do complex tasks that humans find easy.  Examples would be walking, seeing, and understanding speech.  These activities, which come naturally to us, are very difficult to develop traditional step-by-step algorithms for.</p>
     <p>But AI researchers have developed an approach known as <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> that enables computers to perform these complex tasks.  With <span class="hover vocab yui-wk-div" data-id='machine learning'>machine learning</span> a computer <i>learns</i> how to perform a task or solve a problem not by being given a traditional program to solve the problem, but by being given lots of examples of correct and incorrect solutions to the problem.  </p> 
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
@@ -57,7 +56,8 @@ Learning Activities
 
 .. raw:: html
     
-    <p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
+    <h3>Can a computer recognize your doodles?</h3>
+	<p><a href="https://quickdraw.withgoogle.com/" target="_blank"><img src="../_static/assets/img/FlagDoodle.png" style="float:left;" width="200"/></a>To give you a sense of what such a <i>trained</i> computer can do, here's an interactive Google application that has learned (and is continuing to learn) how to recognize doodles -- i.e., free-hand drawn images of typical objects. Certainly, the ability to recognize a person's doodles, is something we humans do quite easily.  But it is a skill that would be very nearly impossible to specify by means of a traditional algorithm.</p>
     <p>Give it a try yourself!  Click on the <a href="https://quickdraw.withgoogle.com/" target="_blank">flag doodle</a> to see how well the computer can recognize your doodles. 
     </p>
 
@@ -77,7 +77,6 @@ Learning Activities
     <p></p>
     </div>
 
-
     <p>As you saw in the video, you can train a simple <span class="hover vocab yui-wk-div" data-id='neural network'>neural network</span> to distinguish between three classes: green, purple, and orange.  The network will associate a certain inputs from your video camera (hand up, funny face) with certain GIF images (cat, dog) or sounds (hello, hey). Once you've trained the network to make the desired associations, you have created a <i><b>model</b></i>. </p>
     <p>Now it's your turn to try it. If your computer does not have a camera, use your tablet or phone for this activity. When you click on the <a href="https://teachablemachine.withgoogle.com/v1/" target="_blank">link to the Teachable Machine Version 1</a>, you should see the following interface (note there is also a version 2 that you could try by deleting /v1 from the URL).</p>
       <br/>
@@ -95,14 +94,9 @@ Learning Activities
     </li></ol>
     
     
-<h3>POGIL Activity: Analyze an App for Bias</h3>
+	<h3>POGIL Activity: Analyze an App for Bias</h3>
 
-.. raw:: html
-
-    In this POGIL activity, you will analyze an app that determines membership in a club. 
-    Break into POGIL teams of 4 and assign each team member one of the POGIL roles. 
-    Open this <a href="https://docs.google.com/document/d/1c1EeKdVzbUGiBGNa8GE3zamEd9-rBIpDyvQMJB4rXsM/edit?usp=sharing" target="_blank">worksheet to complete this POGIL Activity</a>. 
-    You can make a copy of it with File/Make a Copy. Discuss the results with your class.
+    <p> In this POGIL activity, you will analyze an app that determines membership in a club. Break into POGIL teams of 4 and assign each team member one of the POGIL roles.  Open this <a href="https://docs.google.com/document/d/1c1EeKdVzbUGiBGNa8GE3zamEd9-rBIpDyvQMJB4rXsM/edit?usp=sharing" target="_blank">worksheet to complete this POGIL Activity</a>. You can make a copy of it with File/Make a Copy. Discuss the results with your class. </p>
 
 
 Summary

@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-Clicker App with CloudDB (optional)
+7.06 Clicker App with CloudDB (optional)
 ===================================
 
 .. raw:: html

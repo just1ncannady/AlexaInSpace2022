@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-Visualizing Data
+7.03 Visualizing Data
 ================
 
 .. raw:: html
