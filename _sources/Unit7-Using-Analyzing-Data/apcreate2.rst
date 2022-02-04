@@ -118,6 +118,6 @@ Resources
 	  </li><li><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a>
 	   </li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank">Mobile CSP: App Feedback Template</a>
 	  </li><li><a href="https://globalmeet.webcasts.com/starthere.jsp?ei=1430682&amp;tp_key=ef695443c0" target="_blank" title="">College Board Student Create Performance Task Webinar March 2021 - Recording</a></li>
-	  
+	  <li><a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/edit" target="_blank">Paper Prototype Template</a></li>
 	  </ul>
 	     
