@@ -29,7 +29,7 @@
       });
     </script>
     <img height="25" src="../_static/assets/img/time.png" style="float:left" width="25"/>
-    <h3 id="est-length">Time Estimate: 225-270 minutes</h3>
+    <h3 id="est-length">Time Estimate: 5-6 45 minute class periods (225-270 minutes)</h3>
  
 Introduction and Goals
 -----------------------
@@ -40,8 +40,7 @@ Introduction and Goals
     <table><tbody>
     <tr><td valign="top" colspan=2><p>Now it’s your turn to help space travelers navigate daily life in a microgravity environment! Using what you have learned and reviewing the resources below, what do you think will be some of the challenges space travelers will have to overcome and how might voice-powered artificial intelligence help them? </p>
 
-	<p>For the final challenge, you will work with a partner to create an Alexa skill in MIT App Inventor that solves a problem for space travelers. You will submit your working program, a video or audio file demonstrating how the skill works, and written responses that explain the skill’s alignment to the challenge theme and how the algorithms in your code work. You may create an app to accompany the skill, similar to Lesson 5, however it is not required. Carefully review the criteria to make sure you understand them. </p>
-	</p></td></tr>
+	</td></tr>
     <tr><td valign="top"></td>
     <td valign="top">
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
@@ -63,23 +62,23 @@ Learning Activities
 .. raw:: html
 
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="" target="_blank" title="">Slides</a></li>
-	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="" target="_blank">Video</a></li>
-	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://drive.google.com/file/d/1Qho7PgaSKt7zJhrxx100vFv4gV-voOE4/view" target="_blank">Brainwriting Template</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Rubric</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://docs.google.com/document/d/16zZXzrw56HerqG_TmPDNw3nLx3RcAKGKwj3kZOlvi58/" target="_blank">Project Exemplar</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Rubric</a></li>
+	<li style="display: inline"><a href="https://drive.google.com/file/d/1Qho7PgaSKt7zJhrxx100vFv4gV-voOE4/view" target="_blank">Brainwriting Template</a></li>
 	</ul> 
 	
     <p>
     <h4>Warm Up Activity</h4>
     <p>With your classmates, brainstorm a list of daily activities that you do on Earth such as taking a shower, brushing teeth, eating breakfast, etc. Then turn-and-talk to identify which of these activities might be the most difficult in a microgravity environment.</p>
 	
+	<h4>About the Challenge</h4>
+	<p>For the final challenge, you will work with a partner to create an Alexa skill in MIT App Inventor that solves a problem for space travelers. You will submit your working program, a video or audio file demonstrating how the skill works, and written responses that explain the skill’s alignment to the challenge theme and how the algorithms in your code work. You may create an app to accompany the skill, however it is not required. Carefully review the <a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Criteria</a> to make sure you understand them. </p>
+	</p>
+	
 	<h4>ACTIVITY: Grade Project Exemplar</h4>
-    <p>Review the project requirements (slide deck/video). In groups of four students, review the <a href="https://docs.google.com/document/d/16zZXzrw56HerqG_TmPDNw3nLx3RcAKGKwj3kZOlvi58/" target="_blank">Project Exemplar</a> using the <a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Rubric</a>. Each group member should select a role from below. Complete the rubric and be prepared to discuss where you think the exemplar could use one area of improvement and one area where it exceeded expectations. </p>
+    <p>In groups of four students, review the <a href="https://docs.google.com/document/d/16zZXzrw56HerqG_TmPDNw3nLx3RcAKGKwj3kZOlvi58/" target="_blank">Project Exemplar</a> using the <a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Rubric</a>. Each group member should select a role from below. Complete the rubric and be prepared to discuss where you think the exemplar could use one area of improvement and one area where it exceeded expectations. </p>
 	
 	<p><b>Group Roles:</b></p>
 	<ul>
@@ -107,12 +106,11 @@ Learning Activities
 	</p>
 	
 	<ul>
-	<li>Your Program -- Include your MIT App Inventor .aia file that includes your Alexa skill and a screenshot of your entire code.</li>
-	<li>Video or Audio Demonstration -- Provide a video demonstrating the running of your skill in MIT App Inventor. Alternatively, if you have access to an Alexa device for testing, you could provide an audio recording using your skill. {Using Alexa app for testing}</li>
-	<li>Written Response -- Provide a two paragraph response as a [PDF, Google Doc, Portfolio, etc.] that answers the following:</li>
+	<li>Written Response -- Provide a two paragraph response (up to 300 words) in a document format specified by your instructor (PDF, Google Doc, Portfolio, etc.) that answers the following:</li>
 		<ul>
+		<li>Identify the name of your skill and the intent(s) that you programmed.</li>
 		<li>Describe the purpose of your program. In other words, what problem does your skill and/or app solve related to space travel?</li>
-		<li>Describe the functionality of the program demonstrated in your video/audio. How does your program solve the problem? Be sure to name your skill and include enough detail so that another person could recreate your skill.</li>
+		<li>Describe the functionality of the program demonstrated in your video/audio. How does your program solve the problem? Be sure to name your skill and intents. Include enough detail so that another person could recreate your skill.</li>
 		<li>Include a screenshot of the code for your skill.</li>
 		<li>Collaboration:</li>
 			<ul>
@@ -121,6 +119,8 @@ Learning Activities
 			</ul>
 		<li> AI - { {to be added} } </li>
 		</ul>
+	<li>Your Program -- Include your MIT App Inventor .aia file that includes your Alexa skill and a screenshot of your entire code.</li>
+	<li>Video or Audio Demonstration -- Provide a video demonstrating the running of your skill in MIT App Inventor. Alternatively, if you have access to an Alexa device for testing, you could provide an audio recording using your skill.</li>
 	</ul>
 
 
