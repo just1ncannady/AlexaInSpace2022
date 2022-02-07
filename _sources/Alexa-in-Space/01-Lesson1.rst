@@ -64,7 +64,7 @@ Learning Activities
 .. raw:: html
 
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1UbpaiLR_wjoDrpK4JSvnW15SEMY9VxsLM3xHOtKNRI0/edit#slide=id.g8cab8164ef_0_701" target="_blank" title="">slides</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1sUbh5EfF6WqKufugb2J2shWlx0GZsGZErjIr6dGd3Y4/" target="_blank" title="">Slides</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://www.youtube.com/watch?v=-eQXJ6hdy7c" target="_blank">video</a></li>
 	<li style="display: inline"> | </li>
