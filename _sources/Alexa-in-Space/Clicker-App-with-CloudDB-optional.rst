@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-7.06 Clicker App with CloudDB (optional)
+7.6 Clicker App with CloudDB (optional)
 ===================================
 
 .. raw:: html
@@ -109,7 +109,8 @@ Learning Activities
     <p>
     Follow the video tutorial below or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.</p>
 	<p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks for this tutorial! </p>
-
+    
+    
 .. youtube:: 25WJLbsgIrM
         :width: 650
         :height: 415
@@ -174,7 +175,7 @@ Self-Check
 
     <p>
     
-.. mchoice:: mcsp-7-6-1
+.. mchoice:: mcsp-7-6-1-copy
     :random:
     :practice: T
     :answer_a: that it can be completed immediately. 
@@ -200,7 +201,7 @@ Self-Check
 
 
     
-.. mchoice:: mcsp-7-6-2
+.. mchoice:: mcsp-7-6-2-copy
     :random:
     :practice: T
     :answer_a: a. Data stored in a CloudDB can easily be shared with other devices and users. 
@@ -224,7 +225,7 @@ Self-Check
 
 
     
-.. mchoice:: mcsp-7-6-3
+.. mchoice:: mcsp-7-6-3-copy
     :random:
     :practice: T
     :answer_a: a. Because data stored in a CloudDB is stored on the phone's hard drive.
@@ -250,7 +251,7 @@ Self-Check
 
 
     
-.. mchoice:: mcsp-7-6-4
+.. mchoice:: mcsp-7-6-4-copy
     :random:
     :practice: T
     :answer_a: a. When the data needs to persist between uses of the app.

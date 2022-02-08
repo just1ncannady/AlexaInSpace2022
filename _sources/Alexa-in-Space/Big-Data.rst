@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-7.02 Big Data
+7.2 Big Data
 ========
 
 .. raw:: html
@@ -352,7 +352,7 @@ Self-Check
     <p>
     <h3>Sample AP CSP Exam Question</h3>
     
-.. mchoice:: mcsp-7-2-8
+.. mchoice:: mcsp-7-2-8-copy
     :random:
     :practice: T
     :answer_a:  Backing up data   

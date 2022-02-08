@@ -71,7 +71,8 @@ Learning Activities
     <li>What are the drawbacks of this visualization?</li></ol>
     <br/><br/>
 	<p>Watch and discuss the TED-Ed video below on how data can also be manipulated in data visualizations.
-
+    
+    
 .. youtube:: E91bGT9BjYk
         :width: 650
         :height: 415
@@ -85,9 +86,10 @@ Learning Activities
 
 
     Sometimes we see a <b>correlation</b> between two variables, where they rise and fall in values in parallel ways, for example ice cream sales and shark attacks in the graph below. A <b>correlation</b> is a statistical measure that indicates that two or more variables fluctuate together. However, a correlation found in data does not necessarily indicate that a causal relationship exists. Correlation does not equal <b>causation</b>. Additional research is needed to see whether and how the two variables are related.<br/>
-    <img class="yui-img" src="../_static/assets/img/correlation.png" width="50%">
-    <br/>
-    </img></p><h3>Activity 2: Google Sheets</h3>
+    <img class="yui-img" src="../_static/assets/img/correlation.png" width="50%"></img>
+	</p>
+	
+	<h3>Activity 2: Google Sheets</h3>
     <p>Programs such as spreadsheets can be used in an iterative and interactive way to gain insight and knowledge from data.
     A <b>spreadsheet</b> is a document where the data is arranged in rows and columns. Spreadsheets allow formulas to be used to make calculations from the data and charting capabilities. Spreadsheet programs can also be used to filter and clean digital data. We will be using Google Sheets in Google Drive as our spreadsheet software in the following project.
     </p>

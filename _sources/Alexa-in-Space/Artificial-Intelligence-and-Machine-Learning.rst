@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-7.07 Artificial Intelligence and Machine Learning (optional)
+7.7 Artificial Intelligence and Machine Learning (optional)
 ============================================================
 
 .. raw:: html
