@@ -110,7 +110,7 @@ Self-Check
 	
 	<h3>Check Your Understanding</h3>
 	
-.. mchoice:: mcsp-7-11-1
+.. mchoice:: mcsp-7-11-1-copy
     :random:
     :practice: T
     :answer_a: It could be written without a list, but we would need 9 global variables each with the number in them and then a random number generator to call these numbers. Now we have a built in system to generate a random sequence. It puts all the data in one location that can be accessed with an index number. 
@@ -133,7 +133,7 @@ Self-Check
     </div>
 
 
-.. mchoice:: mcsp-7-11-2
+.. mchoice:: mcsp-7-11-2-copy
     :random:
     :practice: T
     :answer_a: False 
@@ -154,7 +154,7 @@ Self-Check
     </div>
 
 
-.. mchoice:: mcsp-7-11-3
+.. mchoice:: mcsp-7-11-3-copy
     :random:
     :practice: T
     :answer_a: False
