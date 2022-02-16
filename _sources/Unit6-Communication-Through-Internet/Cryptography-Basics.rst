@@ -442,7 +442,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1vRcg0qZ_LYjNgNkVK9nOkvbFl2h0C2bFagneMpNVehc/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1vRcg0qZ_LYjNgNkVK9nOkvbFl2h0C2bFagneMpNVehc/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vSOv4tHOa7k4MuMPI8tsmzGPcLRIIhNLrSb0sB8xwzhgaP2QOqCjICbfIHCPUHXWlVvPLKmcGO5Si-2/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     </div>
     </div>

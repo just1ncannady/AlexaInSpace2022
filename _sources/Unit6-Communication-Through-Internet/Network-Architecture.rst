@@ -414,7 +414,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1Qh8azjqAPoipQOHvddphbjkwtd0ei6y6oBXA6M0mAc0/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1Qh8azjqAPoipQOHvddphbjkwtd0ei6y6oBXA6M0mAc0/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRBzopMg_-dkcbyqHWlK09BxzNHSuNZ9SlTvF-gmqcz4qAW0cCjeQ5qOGZZ4twg0jZByzebKLKByMHw/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--Create a page on your portfolio named &lt;i&gt;How the Internet Works?&lt;/i&gt; in your portfolio and answer the following questions:
     &lt;ol&gt;

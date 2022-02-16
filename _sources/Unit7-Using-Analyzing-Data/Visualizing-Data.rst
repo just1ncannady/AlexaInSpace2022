@@ -236,7 +236,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/174UVUg14VsnFE0G1TKXSXDvpZPIVXt1U4T1f97xRfUo/edit?usp=sharing" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/174UVUg14VsnFE0G1TKXSXDvpZPIVXt1U4T1f97xRfUo/copy" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQkQFqeoBqH9hsbAq48I8X718yTsTjUkVSsH-_27jMRYlliNMYSBs-kvtUZgkrzOQEYMxUYZVMDPKFD/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!-- Create a  page called &lt;i&gt;Data Visualization&lt;/i&gt; in your portfolio. 
       &lt;ol&gt;

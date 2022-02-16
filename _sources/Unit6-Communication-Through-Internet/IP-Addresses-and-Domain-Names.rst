@@ -412,7 +412,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1fVkUUFG8QpCQ0T6D85W2rY8mdug2ADdI6MIC2vIzoog/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1fVkUUFG8QpCQ0T6D85W2rY8mdug2ADdI6MIC2vIzoog/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRq5M8AQcG2OY4YZJVC2qIqVqz5mMTmr7nSh_a9eTl6TJIeSYW6MCavkoDL7iawKQnz0VuTigisatec/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--Create a new page named 
     &lt;i&gt;&lt;b&gt;IP Addresses and Domain Names&lt;/b&gt;&lt;/i&gt; in your 

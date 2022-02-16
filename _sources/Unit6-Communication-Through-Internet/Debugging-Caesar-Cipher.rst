@@ -312,7 +312,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1kaGzlMyliW4DjdcPIdvaipA_SCXYg2bXOkqqomQ1wFQ/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1kaGzlMyliW4DjdcPIdvaipA_SCXYg2bXOkqqomQ1wFQ/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vR-wS8zGWHxS2k_ltRfYCEG73d9uIrcbL46VKKYtk5tMsqMQXBotTLUn060-bd3kQa8FCpOogXvDvS-/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Create a page named &lt;i&gt;&lt;b&gt;Debugging&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and answer the following questions:&lt;/p&gt;
       &lt;p&gt;For each of the 5 bugs in the Caesar Cipher app, explain what the bug was, how to fix it, and the type of error (semantic or syntax).  If you wish, you can take a picture of your corrected blocks and then annotate it to identify and describe the bugs you fixed. 

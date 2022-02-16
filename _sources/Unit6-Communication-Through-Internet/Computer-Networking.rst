@@ -443,7 +443,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1OUV9uARx42QOwkgBvuT8Lsf5wetf1Z9LYDUbLBidR7c/edit?usp=sharing" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1OUV9uARx42QOwkgBvuT8Lsf5wetf1Z9LYDUbLBidR7c/copy" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vT7EkY_6ep9Idg3YusbkhiFFz33AcHh-cgeO5KJo2TKxqtsRQc200RL0wd4oZEhQdZ7-GHVrUKOD13m/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--Create a page on your portfolio named &lt;i&gt;Internet Basic Concepts&lt;/i&gt; in your portfolio and answer the following questions:
     &lt;ol&gt;
