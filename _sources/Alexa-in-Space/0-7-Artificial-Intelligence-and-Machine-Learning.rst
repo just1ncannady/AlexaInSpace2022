@@ -156,7 +156,7 @@ Self-Check
     </tbody>
     </table>
     
-.. mchoice:: mcsp-7-7-1
+.. mchoice:: mcsp-7-7-1-copy
     :random:
     :practice: T
     :answer_a: Computer vision

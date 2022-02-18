@@ -90,15 +90,15 @@
 Self-Check
 -----------
 
-.. shortanswer:: vocab-ref-7.1.1
+.. shortanswer:: vocab-ref-alexa.1.1
 	
 	Identify 1-2 vocabulary terms from the table above that you know and define them in your own words. If you don't know any of these words yet, that's ok! Instead, write 1-2 sentences on how you plan to practice learning the vocabulary for this unit.
 	
-.. shortanswer:: vocab-ref-7.1.2
+.. shortanswer:: vocab-ref-alexa.1.2
 
 	Identify 1-2 vocabulary terms from the table above that you have heard before but don't know the definition for.
 	
-.. shortanswer:: vocab-ref-7.1.3
+.. shortanswer:: vocab-ref-alexa.1.3
 
 	Identify 1-2 vocabulary terms from the table above that you don't know but want to learn in this unit.
 	
