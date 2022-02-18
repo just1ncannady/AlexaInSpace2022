@@ -3,7 +3,7 @@
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
 7.6 Clicker App with CloudDB (optional)
-===================================
+=======================================
 
 .. raw:: html
 
@@ -107,20 +107,8 @@ Learning Activities
     <p>Start App Inventor with <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit6/templates/ClickerApp/ClickerWebDBtemplate.asc" target="_blank">Clicker App Template</a>.  Once the project opens use Save As to rename your project <i>ClickerCloudDB</i>. 
     </p>
     <p>
-    Follow the video tutorial below or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.</p>
+    Follow the watch <a href="https://www.youtube.com/watch?v=25WJLbsgIrM" target="_blank">video tutorial</a> or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.</p>
 	<p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks for this tutorial! </p>
-    
-    
-.. youtube:: 25WJLbsgIrM
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
 
 	<h3>Testing the App</h3>
     <p>

@@ -3,7 +3,7 @@
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
 7.8 Impacts of CS Who Owns the Bits
-===============================
+===================================
 
 .. raw:: html
 

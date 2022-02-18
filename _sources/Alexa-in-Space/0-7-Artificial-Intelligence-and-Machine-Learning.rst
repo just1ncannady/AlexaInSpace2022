@@ -63,19 +63,7 @@ Learning Activities
 
     <h3>Activity: Google's Teachable Machine Experiments</h3>
     
-    In this activity you will use your browser to train a <span class="hover vocab yui-wk-div" data-id='neural network'>neural network</span> to associate inputs from the camera on your computer or tablet or phone camera with certain sounds and images.  Before you get started, here's a short (3:20) video demo that shows you how it works. 
-    
-    
-.. youtube:: 3BhkeY974Rg
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
+   <p>In this activity you will use your browser to train a <span class="hover vocab yui-wk-div" data-id='neural network'>neural network</span> to associate inputs from the camera on your computer or tablet or phone camera with certain sounds and images.  Before you get started, watch this short <a href="https://www.youtube.com/watch?v=3BhkeY974Rg" target="_blank">video demo</a> that shows you how it works. </p>
 
     <p>As you saw in the video, you can train a simple <span class="hover vocab yui-wk-div" data-id='neural network'>neural network</span> to distinguish between three classes: green, purple, and orange.  The network will associate a certain inputs from your video camera (hand up, funny face) with certain GIF images (cat, dog) or sounds (hello, hey). Once you've trained the network to make the desired associations, you have created a <i><b>model</b></i>. </p>
     <p>Now it's your turn to try it. If your computer does not have a camera, use your tablet or phone for this activity. When you click on the <a href="https://teachablemachine.withgoogle.com/v1/" target="_blank">link to the Teachable Machine Version 1</a>, you should see the following interface (note there is also a version 2 that you could try by deleting /v1 from the URL).</p>

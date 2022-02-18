@@ -3,7 +3,7 @@
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
 7.2 Big Data
-========
+============
 
 .. raw:: html
 
@@ -80,7 +80,7 @@ Learning Activities
 
     <p>
     
-.. mchoice:: mcsp-7-2-1
+.. mchoice:: mcsp-7-2-1-copy
     :random:
     :practice: T
     :answer_a: True
@@ -101,7 +101,7 @@ Learning Activities
     </div>
 
  
-.. mchoice:: mcsp-7-2-2
+.. mchoice:: mcsp-7-2-2-copy
     :random:
     :practice: T
     :answer_a: True
@@ -122,7 +122,7 @@ Learning Activities
     </div>
 
  
-.. mchoice:: mcsp-7-2-3
+.. mchoice:: mcsp-7-2-3-copy
     :random:
     :practice: T
     :answer_a: data sets that contain very large numbers 
@@ -165,7 +165,7 @@ Learning Activities
     </a></div>
     <br/>
 	
-.. mchoice:: mcsp-7-2-4
+.. mchoice:: mcsp-7-2-4-copy
     :random:
     :practice: T
     :answer_a:     <ul>       <li><b>Information: </b>The child said "water" most frequently in the         kitchen and the bathroom</li>       <li><b>Knowledge: </b>The child is likely to learn words heard in         multiple locations</li>       <li><b>Data:</b> The child said "Truck" for the first time at 11:45         on January 15, 2017</li>     </ul>
@@ -188,7 +188,7 @@ Learning Activities
 
            
           
-.. mchoice:: mcsp-7-2-5
+.. mchoice:: mcsp-7-2-5-copy
     :random:
     :practice: T
     :answer_a: Data science refers to scientific information that is gained from scientific experiments.
@@ -222,20 +222,8 @@ Learning Activities
     <p>
     <p>The path from data to information to knowledge is not always straightforward. Bias can be introduced into the
           collection and analysis of data with dangerous results. Care must be taken when collecting and analyzing data. Problems of bias are often caused by the type or source of data that is being collected. Bias is not eliminated by simply collecting more data. </p>
-    <p>Joy Buolamwini from the MIT Media labs studies the impact of bias in face recognition systems. Watch the following video about her research.
+    <p>Joy Buolamwini from the MIT Media labs studies the impact of bias in face recognition systems. Watch <a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank">this video</a> about her research.
       <br/>
-    
-.. youtube:: TWWsW1w-BVo
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
 
     <!--    &lt;p&gt;In the following TEDx talk, watch for how Tricia Wang describes why &quot;Relying on Big Data alone increases the
           chances we&#39;ll miss something, while giving us the illusion we know everything.&quot;&lt;/p&gt;
@@ -246,25 +234,13 @@ Learning Activities
     &lt;img src=&quot;assets/img/Facial_Bias_IBM_before.png&quot; class=&quot;yui-img selected&quot; title=&quot;Bias in IBM&#39;s System&quot; alt=&quot;Bias in IBM&#39;s System&quot; style=&quot;width: 465px; height: 223px; margin-left: 50px;&quot;&gt;&lt;br&gt;
     &lt;p&gt;
     Further research on commercial systems designed to predict the gender of any face has shown that these systems are bias towards white male faces. Existing face data sets give false sense of progress through poor representation of the undersampled majority-women and people of color&lt;br&gt;&lt;/p&gt; -->
-    </p><p>The following spoken word piece by Joy Buolamwini highlights how computer systems based on incomplete data misinterpret the images of iconic black women.</p>
-    
-.. youtube:: QxuyfWoVV98
-        :width: 650
-        :height: 415
-        :align: center
-
-.. raw:: html
-
-    <div id="bogus-div">
-    <p></p>
-    </div>
-
+    </p><p><a href="https://www.youtube.com/watch?v=QxuyfWoVV98" target="_blank">This spoken word piece</a> by Joy Buolamwini highlights how computer systems based on incomplete data misinterpret the images of iconic black women.</p>
 
     <!-- &lt;p&gt;To learn more about the underlying research done by Buolamwini, watch &lt;a href=&quot;https://www.youtube.com/watch?v=TWWsW1w-BVo&amp;feature=youtu.be&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Gender Shades&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=UG_X_7g63rY&quot; target=&quot;_blank&quot;&gt;her TED talk&lt;/a&gt;, or &lt;a href=&quot;https://www.youtube.com/watch?v=FejjAbwUqbA&amp;amp;t=723s&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;AI, Ain&#39;t I A Woman? longer version presented by Organizational Transformation&lt;/a&gt;.&lt;/p&gt;
     -->
     
     <p>
-.. mchoice:: mcsp-7-2-6
+.. mchoice:: mcsp-7-2-6-copy
     :random:
     :practice: T
     :answer_a: True
@@ -285,7 +261,7 @@ Learning Activities
     </div>
 
 
-.. mchoice:: mcsp-7-2-7
+.. mchoice:: mcsp-7-2-7-copy
     :random:
     :practice: T
     :answer_a: Retraining did not improve the system.
