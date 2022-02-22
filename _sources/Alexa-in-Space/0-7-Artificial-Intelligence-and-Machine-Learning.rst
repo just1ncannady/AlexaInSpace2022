@@ -84,7 +84,7 @@ Learning Activities
     
 	<h3>POGIL Activity: Analyze an App for Bias</h3>
 
-    <p> In this POGIL activity, you will analyze an app that determines membership in a club. Break into POGIL teams of 4 and assign each team member one of the POGIL roles.  Open this <a href="https://docs.google.com/document/d/1c1EeKdVzbUGiBGNa8GE3zamEd9-rBIpDyvQMJB4rXsM/edit?usp=sharing" target="_blank">worksheet to complete this POGIL Activity</a>. You can make a copy of it with File/Make a Copy. Discuss the results with your class. </p>
+    <p> In this POGIL activity, you will analyze an app that determines membership in a club. Break into POGIL teams of 4 and assign each team member one of the POGIL roles.  Open this <a href="https://docs.google.com/document/d/1c1EeKdVzbUGiBGNa8GE3zamEd9-rBIpDyvQMJB4rXsM/copy" target="_blank">worksheet to complete this POGIL Activity</a>. You can make a copy of it with File/Make a Copy. Discuss the results with your class. </p>
 
 
 Summary
@@ -178,7 +178,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/13P2M8j-1CfDMHwS2Oi6xzsjUlwBi8Yjwc6N6B3x1q3M/edit?usp=sharing" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/13P2M8j-1CfDMHwS2Oi6xzsjUlwBi8Yjwc6N6B3x1q3M/copy" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRoxAxWILNc_nvCafnIUm_DEvyQ8E8U4PXHMcq7pPil43FNLmfhdR4pY2ZmaEvwuACsNehbeyPgw1Hd/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!-- 
     &lt;p&gt;In your portfolio, create a new page named &lt;i&gt;&lt;b&gt;Artificial Intelligence&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio (we recommend also including the lesson number. Check with your instructor) and answer the following questions:&lt;/p&gt;

@@ -117,7 +117,8 @@ Learning Activities
 	</ul>
 	
 	<h3>Video: What is Machine Learning?</h3>
-	Did you realize it is difficult to know if a machine is learning?  Watch this short <a href="https://www.youtube.com/watch?v=QghjaS0WQQU&ab_channel=GCFLearnFree.org" target="_blank">video</a> (2 minutes) introducing <span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span>.
+	<p>Did you realize it is difficult to know if a machine is learning?  Watch this short video (2 minutes) introducing <span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span>.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/QghjaS0WQQU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
 	<h3>Alexa as AI</h3>
     <p>Amazon’s smart assistant, Alexa, uses AI to build on the skills it already knows, and <span class="hover vocab yui-wk-div" data-id="speech recognition">speech	recognition</span> (an application of AI technology that interprets and carries out spoken commands and/or aims to identify an individual based on their speech patterns) and <span class="hover vocab yui-wk-div" data-id="speech synthesis">speech synthesis</span> (the artificial production of human speech) to interact with humans to improve their productivity. This video offers a glimpse into Alexa’s capabilities.</p>

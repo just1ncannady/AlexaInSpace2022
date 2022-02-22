@@ -38,14 +38,14 @@ Introduction and Goals
 
     <p>
     <table><tbody>
-    <tr><td valign="top" colspan=2><p>In this lesson you will learn about Artificial Intelligence (AI.) Although AI has been around since the 1950s, it is widely recognized now as one of the fastest-growing fields in technology. From ELIZA to Alexa, AI has become something we interact with every day, and will be a part of our daily life for the foreseeable future. Navigation apps, 3D photography, facial recognition, and smart assistants are just a few of the everyday uses for AI, and you’ll be introduced to more examples. But how can we define AI? And why is the use of AI being extended into space?</p></td></tr>
+    <tr><td valign="top" colspan=2><p>Description to be added</p></td></tr>
     <tr><td valign="top"></td>
     <td valign="top">
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>
 	   
        </ul>
-       <div><b>Language Objectives:</b>&nbspI will be able to</div>
+       <div><b>Language Objectives:</b>I will be able to</div>
        <ul>
 
        </ul>

@@ -208,9 +208,10 @@ Learning Activities
     <p></p>
     </div>
 
-
     <br/>
+	
     </p>
+	
 	<h3>Impacts of Big Data</h3>
     <p>Careful analysis of data can help us solve many problems.  Watch the following 4-minute video to see how tracking data on <a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_babies_health/the-human-face-of-big-data-the-smallest-heartbeat/" target="_blank">The Smallest Heartbeat</a> can help save a child's life. </p>
     <div class="yui-wk-div" style="text-align: center;"><a href="https://wdse.pbslearningmedia.org/resource/bigdata_stem_babies_health/the-human-face-of-big-data-the-smallest-heartbeat/" target="_blank"><img alt="Acquiring Language" class="yui-img" src="../_static/assets/img/The-smallest-heartbeat.png"/><br/>
@@ -222,9 +223,10 @@ Learning Activities
     <p>
     <p>The path from data to information to knowledge is not always straightforward. Bias can be introduced into the
           collection and analysis of data with dangerous results. Care must be taken when collecting and analyzing data. Problems of bias are often caused by the type or source of data that is being collected. Bias is not eliminated by simply collecting more data. </p>
-    <p>Joy Buolamwini from the MIT Media labs studies the impact of bias in face recognition systems. Watch <a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank">this video</a> about her research.
-      <br/>
-
+    <p>Joy Buolamwini from the MIT Media labs studies the impact of bias in face recognition systems. Watch this video about her research. </p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/TWWsW1w-BVo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <br/>
+	<p>
     <!--    &lt;p&gt;In the following TEDx talk, watch for how Tricia Wang describes why &quot;Relying on Big Data alone increases the
           chances we&#39;ll miss something, while giving us the illusion we know everything.&quot;&lt;/p&gt;
     &lt;h3&gt;The human insights missing from big data&lt;/h3&gt;&lt;gcb-youtube videoid=&quot;pk35J2u8KqY&quot; instanceid=&quot;rbgLiCfckWq7&quot;&gt;&lt;/gcb-youtube&gt;
@@ -234,7 +236,9 @@ Learning Activities
     &lt;img src=&quot;assets/img/Facial_Bias_IBM_before.png&quot; class=&quot;yui-img selected&quot; title=&quot;Bias in IBM&#39;s System&quot; alt=&quot;Bias in IBM&#39;s System&quot; style=&quot;width: 465px; height: 223px; margin-left: 50px;&quot;&gt;&lt;br&gt;
     &lt;p&gt;
     Further research on commercial systems designed to predict the gender of any face has shown that these systems are bias towards white male faces. Existing face data sets give false sense of progress through poor representation of the undersampled majority-women and people of color&lt;br&gt;&lt;/p&gt; -->
-    </p><p><a href="https://www.youtube.com/watch?v=QxuyfWoVV98" target="_blank">This spoken word piece</a> by Joy Buolamwini highlights how computer systems based on incomplete data misinterpret the images of iconic black women.</p>
+    </p>
+	
+	<p><a href="https://www.youtube.com/watch?v=QxuyfWoVV98" target="_blank">This spoken word piece</a> by Joy Buolamwini highlights how computer systems based on incomplete data misinterpret the images of iconic black women.</p>
 
     <!-- &lt;p&gt;To learn more about the underlying research done by Buolamwini, watch &lt;a href=&quot;https://www.youtube.com/watch?v=TWWsW1w-BVo&amp;feature=youtu.be&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Gender Shades&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=UG_X_7g63rY&quot; target=&quot;_blank&quot;&gt;her TED talk&lt;/a&gt;, or &lt;a href=&quot;https://www.youtube.com/watch?v=FejjAbwUqbA&amp;amp;t=723s&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;AI, Ain&#39;t I A Woman? longer version presented by Organizational Transformation&lt;/a&gt;.&lt;/p&gt;
     -->
@@ -364,7 +368,7 @@ Reflection: For Your Portfolio
 
     <p><div class="yui-wk-div" id="portfolio">
     <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also
-            available in this <a href="https://docs.google.com/document/d/1Hnd8591DpPpiBPp6tP4Rc5fMnpEqHoRK8wakDDhbvUQ/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+            available in this <a href="https://docs.google.com/document/d/1Hnd8591DpPpiBPp6tP4Rc5fMnpEqHoRK8wakDDhbvUQ/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRlTvjzGh-w4NxfeBcIA5qslLEpCNiTHCbOxDtQzexS3yK0-HOzsB2s9lKEoCLGtRtsiwxVIJBz-ZfU/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  Create a page named &lt;i&gt;Data and Information&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your 
       portfolio and answer the following questions about the data set you choose for this activity.  &lt;ol&gt;    &lt;li&gt;Choose one of the data sets listed above in the &lt;i&gt;Activity&lt;/i&gt; section or one that you find on your own and give          a brief description of it. What specifically were the types of data (text, sounds,      transactions, etc.) included in the data set you chose?    &lt;/li&gt;    &lt;li&gt;What new facts did you learn when exploring the data set? List at least 3 facts.    &lt;/li&gt;    &lt;li&gt;Write a question you have about the data set you chose. Now, convert that question into a hypothesis           (a statement)   with your prediction about the data.&lt;br&gt;       (Hypotheses take the form of &quot;If __________, then _________.&quot; For example, a hypothesis about        the student debt data could be, &quot;If the tuition costs are higher at an institution, the student debt will be higher.&quot;    &lt;/li&gt;    &lt;li&gt;Identify at least one security and/or privacy concern that is associated with the data in the data set you chose?    &lt;/li&gt;    &lt;li&gt;If your data set included a visualization, explain the purpose of the visualization. How would you change or           improve the visualization? If it did not include a visualization, describe one that you think would be useful in understanding the data.&lt;/li&gt;  &lt;/ol&gt;-->

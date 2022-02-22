@@ -106,8 +106,9 @@ Learning Activities
     </p><h3>Getting Ready</h3>
     <p>Start App Inventor with <a href="http://ai2.appinventor.mit.edu/?repo=templates.appinventor.mit.edu/trincoll/csp/unit6/templates/ClickerApp/ClickerWebDBtemplate.asc" target="_blank">Clicker App Template</a>.  Once the project opens use Save As to rename your project <i>ClickerCloudDB</i>. 
     </p>
-    <p>
-    Follow the watch <a href="https://www.youtube.com/watch?v=25WJLbsgIrM" target="_blank">video tutorial</a> or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/edit?usp=sharing" target="_blank">short handout</a> to complete this app.</p>
+    <p>Follow along with the video tutorial or the <a href="https://drive.google.com/open?id=1ovmfYBEnTdLSD5JnVVEvmMrtJcONSaYdwLHgn6Rv-08" target="_blank">text version</a> or use the <a href="https://docs.google.com/document/d/10wiCYVDcvVUsmBnTJWsIJicaOhAOZD8nsS-_Wh_oHd4/" target="_blank">short handout</a> to complete this app.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/25WJLbsgIrM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
 	<p style="color:red">CloudDB is currently having connection problems due to server overload. If you get a socket connection error, switch to using the Experimental/FirebaseDB and its associated blocks for this tutorial! </p>
 
 	<h3>Testing the App</h3>
@@ -272,7 +273,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1l7qXqMXYcrrzvBdatwPggcHdURra_dGMHcFryB8jSIY/edit?usp=sharing" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1l7qXqMXYcrrzvBdatwPggcHdURra_dGMHcFryB8jSIY/copy" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTUklOMKnldChJ-iVIcwAXQ1ipPo5OgPRRcNVjFnY_qZekzKXo23tQ0S-z-7s7zmvp9DnNHWgymVmkT/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Create a new page named &lt;i&gt;&lt;b&gt;Clicker App with CloudDB&lt;/b&gt;&lt;/i&gt; in your portfolio and write brief answers to the following questions.&lt;/p&gt;
     
