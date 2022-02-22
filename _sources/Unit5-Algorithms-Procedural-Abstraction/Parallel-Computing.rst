@@ -233,7 +233,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1xcGKkrASyllF7oos2dAMkZeH7-lJDk5qqg-keTFybTw/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1xcGKkrASyllF7oos2dAMkZeH7-lJDk5qqg-keTFybTw/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTIgibTnlTOKs3MsB50DPwM0n_ghaNmwm1nkNSBFpvYI9saxRK57iV7T_CRIgNCyvt0bdrflGqvLUXO/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     </div>
     </img></div>

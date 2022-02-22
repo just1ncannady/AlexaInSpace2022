@@ -397,7 +397,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/11C7gXeMTufJv7sffXxN9CT8_FTtV7M3DQMtk2e5HpQ4/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/11C7gXeMTufJv7sffXxN9CT8_FTtV7M3DQMtk2e5HpQ4/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vSOcmQ7G9RPulf0Cjit1Tx8_pQg51ZdkVTTFdVwAHLK-ljalFoERYbXBGsOrZ36eKXfwanCXkrvbfyG/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Create a page named &lt;i&gt;&lt;b&gt;Search Algorithms&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and answer the following questions:&lt;/p&gt;
       &lt;ol&gt;

@@ -395,7 +395,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1RWTQYEtf5O8aDqB3PuZLR4fwTz4tNpfXabTZCmuG-8k/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1RWTQYEtf5O8aDqB3PuZLR4fwTz4tNpfXabTZCmuG-8k/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQUAF9tceieNqix0Ege3-afklwB-jESOLLP-Gz09kOLfbtLwhRagDDaNRNEoxLiKURIcxO0Hgsj4Cpn/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;Create a page named &lt;b&gt;&lt;i&gt;PRNGs&lt;/i&gt;&lt;/b&gt; under the
     &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and answer the following questions.

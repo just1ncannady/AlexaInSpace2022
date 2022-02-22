@@ -283,7 +283,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1l7qXqMXYcrrzvBdatwPggcHdURra_dGMHcFryB8jSIY/edit?usp=sharing" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1l7qXqMXYcrrzvBdatwPggcHdURra_dGMHcFryB8jSIY/copy" target="_blank" title="">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTUklOMKnldChJ-iVIcwAXQ1ipPo5OgPRRcNVjFnY_qZekzKXo23tQ0S-z-7s7zmvp9DnNHWgymVmkT/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Create a new page named &lt;i&gt;&lt;b&gt;Clicker App with CloudDB&lt;/b&gt;&lt;/i&gt; in your portfolio and write brief answers to the following questions.&lt;/p&gt;
     

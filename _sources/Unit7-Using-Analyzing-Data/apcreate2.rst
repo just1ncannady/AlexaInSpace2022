@@ -57,11 +57,11 @@ Learning Activities
 	<ul>
 	  <li><b>
 	    Description of Problem [Empathize, Define, and Ideate]:</b> Working in pairs, think about problems in your community and how an app might help to solve those problems or to help people in your community. Who is the target audience or users who will be using the app? What problem does the app address? How does the app address the problem? What data might your app need? What data would the app need as input and provide as output?</li>
-	<li><span class="yui-non"><b>Paper Prototypes [Prototype]:</b> Create <a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/edit" target="_blank" title="">paper prototypes</a> of three different ideas from your brainstorm. Describe what each UI element will do. Clearly label input and output.</span></li>
+	<li><span class="yui-non"><b>Paper Prototypes [Prototype]:</b> Create <a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/copy" target="_blank" title="">paper prototypes</a> of three different ideas from your brainstorm. Describe what each UI element will do. Clearly label input and output.</span></li>
 	<li><b>Elevator Pitch:</b> Present a short (2-3 minute) elevator pitch of your project idea to the class. The pitch could follow this template:
 	[name of app] is a [kind of thing] for [the people who would use it] and [problem it would solve] that, unlike [similar apps] is able to [the major distinguishing feature of your app].  
 	  </li>
-	 <li><span class="yui-non"><b> Feedback [Test]:</b> Other students should provide feedback either by completing this <a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank" title="">feedback form</a> or by answering the following questions. Is the app presented socially useful why or why not? What is a strength of the proposed app? What suggestions do you have to improve the app?</span></li>
+	 <li><span class="yui-non"><b> Feedback [Test]:</b> Other students should provide feedback either by completing this <a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/copy" target="_blank" title="">feedback form</a> or by answering the following questions. Is the app presented socially useful why or why not? What is a strength of the proposed app? What suggestions do you have to improve the app?</span></li>
 	</ul>
 	
 	<h3>Iteration 2: Minimal App</h3>
@@ -69,7 +69,7 @@ Learning Activities
 	</p>
 	
 	<ul>
-	  <li><span class="yui-non"><b>Minimal App [Prototype, Test]:</b> Work with your partner to begin building an initial prototype with minimal functionality. Take your paper prototype from Iteration #1 and determine what functionality should be created first during Iteration #2 and what can be added in later iterations. Use this <a href="https://docs.google.com/document/d/1v7EuXo3d1gOKGBlyHNltLpd2tKLNkZ3rKlGiRRLiFdY/edit#" target="_blank" title="">Mobile App Planning Document</a> to help you. In MIT App Inventor, begin designing the user interface based on your paper prototype and programming some initial functionality and features. For the final version of your app, you should be using a list and a procedure with a parameter. For this iteration, focus on building one or the other. Stop to test often (after approximately adding one or two features or functionalities).</span></li>
+	  <li><span class="yui-non"><b>Minimal App [Prototype, Test]:</b> Work with your partner to begin building an initial prototype with minimal functionality. Take your paper prototype from Iteration #1 and determine what functionality should be created first during Iteration #2 and what can be added in later iterations. Use this <a href="https://docs.google.com/document/d/1v7EuXo3d1gOKGBlyHNltLpd2tKLNkZ3rKlGiRRLiFdY/copy" target="_blank" title="">Mobile App Planning Document</a> to help you. In MIT App Inventor, begin designing the user interface based on your paper prototype and programming some initial functionality and features. For the final version of your app, you should be using a list and a procedure with a parameter. For this iteration, focus on building one or the other. Stop to test often (after approximately adding one or two features or functionalities).</span></li>
 	  <li><span class="yui-non"><b>Journal [Define and Ideate]:</b> As you work, keep a journal of your development process and how you programmed each of the features. Complete a journal entry using <a href="https://docs.google.com/document/d/1wp2nLWOxFOkbjIzvzb_f_nYX32pgGXBh8qMjA0pzCZY/copy" target="_blank" title="">this template</a>.
 	  </span></li>
 	</ul>
@@ -114,10 +114,10 @@ Resources
 	    <li><a href="https://docs.google.com/document/d/1B0VUXo-voVro_paLykF153QKtZ-urzrY-JkNFxBZjDA/copy" target="_blank" title="">AP Create template and checklists</a> </li>
 	    <li> <a href="https://sites.google.com/site/mobilecspportfoliohelp/performance-tasks/create-1" target="_blank">Portfolio help site</a></li>
 	    <li><a href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam?course=ap-computer-science-principles" target="_blank">AP CSP Exam information page</a> with sample graded Create projects.</li>
-	  <li><a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/edit" target="_blank">How To: Share Your App</a>
+	  <li><a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/" target="_blank">How To: Share Your App</a>
 	  </li><li><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a>
-	   </li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank">Mobile CSP: App Feedback Template</a>
+	   </li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/copy" target="_blank">Mobile CSP: App Feedback Template</a>
 	  </li><li><a href="https://globalmeet.webcasts.com/starthere.jsp?ei=1430682&amp;tp_key=ef695443c0" target="_blank" title="">College Board Student Create Performance Task Webinar March 2021 - Recording</a></li>
-	  <li><a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/edit" target="_blank">Paper Prototype Template</a></li>
+	  <li><a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/copy" target="_blank">Paper Prototype Template</a></li>
 	  </ul>
 	     

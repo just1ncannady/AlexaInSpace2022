@@ -402,7 +402,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1kTL-xQo6lbw3YLrxri7qoWUGpoENe3wIuo0lm_XrSA4/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1kTL-xQo6lbw3YLrxri7qoWUGpoENe3wIuo0lm_XrSA4/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vT8mrTtDcv5qm8wJVZOyuL-pu4ZodaR6BgUugWTCDtiZ5pr1_MwII752bDgek_GTkK5tXJgIT2lFivK/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;Create a page named &lt;b&gt;&lt;i&gt;Coin Flip Simulation&lt;/i&gt;&lt;/b&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and answer the following questions.&lt;/p&gt; 
       &lt;ol&gt;

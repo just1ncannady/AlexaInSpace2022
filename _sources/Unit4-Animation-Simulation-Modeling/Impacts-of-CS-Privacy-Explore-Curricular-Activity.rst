@@ -193,7 +193,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1NS6Shwo03VcVaMU4rzPJUR6cPpLNPZ7g5jyi_cQXrC8/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1NS6Shwo03VcVaMU4rzPJUR6cPpLNPZ7g5jyi_cQXrC8/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQn6hvrEaUM-fYeBpwhe3t9y4K8aRVYLkN37n1nVKFq_eU7KZYOMG2B5V4HoNIr7lJdol4X_oZv6Hhc/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--
     &lt;h2&gt;Homework: For Your Portfolio&lt;/h2&gt;

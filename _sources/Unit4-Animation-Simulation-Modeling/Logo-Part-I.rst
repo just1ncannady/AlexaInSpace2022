@@ -554,7 +554,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1M1fuADAP1re1FZrmaY_P8m0Uz7RE3Gbi3YXHH5ULEV8/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1M1fuADAP1re1FZrmaY_P8m0Uz7RE3Gbi3YXHH5ULEV8/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTmOjmUgG_8I1xBV49qd_Pv15Tk2sedyycqNvVAT6xpFcpOhGAsoFDpD0zOsFmvtWcPP-toQ6P6-pkE/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;Create a new page named &lt;i&gt;&lt;b&gt;Logo 1&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and write brief answers to the following questions. &lt;/p&gt;
       &lt;ol&gt;

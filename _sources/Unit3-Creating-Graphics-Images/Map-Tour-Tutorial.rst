@@ -296,7 +296,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1WONX7hPohAnBxVUsfaCnY5c7qkUe_ZS_kHRdper1Dyk/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1WONX7hPohAnBxVUsfaCnY5c7qkUe_ZS_kHRdper1Dyk/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRgIhKX2pbpqXGDClZyqJ576Esw3oEppPeOIxORfeNh4_D8qkc7VZC2t-vST4TdNI5xF7wF7Oiqp2EO/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this &lt;a href=&quot;https://docs.google.com/document/d/1WONX7hPohAnBxVUsfaCnY5c7qkUe_ZS_kHRdper1Dyk/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;Google Doc&lt;/a&gt; where you may use File/Make a Copy to make your own editable copy.&lt;/p&gt;
     

@@ -430,7 +430,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1CcNfxNxoOI-Zr1tIEhpVJmMmYvczLVF-dZmBlmvou4I/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1CcNfxNxoOI-Zr1tIEhpVJmMmYvczLVF-dZmBlmvou4I/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vT9q9RPeuFXRC4AjRmSm8MuCuiaRrX4yOba4CM0D5zRYxuTjAf4gcfMbKkHRjk8cU11CoC_uEEh_ACb/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Create a page named &lt;i&gt;&lt;b&gt;Paint Pot Projects&lt;/b&gt;&lt;/i&gt; in your portfolio and give brief answers to the following questions:&lt;/p&gt;
       &lt;ol&gt;

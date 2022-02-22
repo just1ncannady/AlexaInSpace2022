@@ -207,7 +207,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1DSfHurzWXc1RMmFPT2df19Zvoc2R805IseXf2oV3OqY/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1DSfHurzWXc1RMmFPT2df19Zvoc2R805IseXf2oV3OqY/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTWQIsg8x-3pC7JARMu9-AQ9fNlP6ftc4IunJPmBmDxevvyNaqLTC4HxCC-yV1Zp29KZXOoEcgbbN1X/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;Create a page named &lt;i&gt;&lt;b&gt;Parity Error Checking&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio and answer the following questions:&lt;/p&gt;
     

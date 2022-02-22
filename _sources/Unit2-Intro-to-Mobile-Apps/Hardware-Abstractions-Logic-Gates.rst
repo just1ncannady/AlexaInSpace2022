@@ -457,7 +457,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1NlnlbU4_SkwJF_8YOiDqwsH8Z1CAyPQx75JLPobBzO4/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1NlnlbU4_SkwJF_8YOiDqwsH8Z1CAyPQx75JLPobBzO4/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTTuTp4f9CECwmo88cYvqzbgcbTqOedgHTvV8_ojlRH9DENjyATXw9T4wYdZItjj9dBktvwledfAi-u/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--  &lt;p&gt;In your portfolio, create a new page named &lt;i style=&quot;font-weight: bold;&quot;&gt;Hardware Abstractions&lt;/i&gt; in your portfolio and&amp;nbsp;provide thoughtful answers to  the following questions:&lt;/p&gt;
       &lt;ol&gt;

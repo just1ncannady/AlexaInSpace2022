@@ -340,7 +340,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1e0oJTp9nIkyDVR8_TdL3GEWWZJ9yVLsNZJNUhGlmS8c/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1e0oJTp9nIkyDVR8_TdL3GEWWZJ9yVLsNZJNUhGlmS8c/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vR-fzYKNi07dpcA6P0RAP6hQT0AldLpHZGL5rd768GWz_j6uQjjaeRY2hAk6U1ad-3EvXPURWYZRRza/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;In your portfolio, create a new page named &lt;i&gt;Mobile Apps and Mobile Devices&lt;/i&gt; (If you are using the Mobile CSP Student portfolio template, this page has already been created for you) and answer the following questions:&lt;/p&gt;
       

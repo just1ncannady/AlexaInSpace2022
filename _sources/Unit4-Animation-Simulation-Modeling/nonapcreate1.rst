@@ -21,9 +21,9 @@ Introduction and Goals
 
      <p>Please review non-AP instructions and rubric below:
        </p><ul>
-     <li><a href="https://docs.google.com/document/d/16Y9RPf6IhZ4pZRjtosXdergQPCLRgrmY_TTMr4N9xpU/edit?usp=sharing" target="_blank"> Design Thinking Process: Design a Chair Warm Up Activity</a> 
-         </li><li><a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank">Create Task with Design Thinking </a> </li>
-         <li><a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric </a> </li>
+     <li><a href="https://docs.google.com/document/d/16Y9RPf6IhZ4pZRjtosXdergQPCLRgrmY_TTMr4N9xpU/" target="_blank"> Design Thinking Process: Design a Chair Warm Up Activity</a> 
+         </li><li><a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/" target="_blank">Create Task with Design Thinking </a> </li>
+         <li><a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/" target="_blank" title="">Non-AP Create Performance Task Rubric </a> </li>
      </ul>
      <p>
 
@@ -55,11 +55,11 @@ Learning Activities
 
 	<h3>Warm Up Activity: Design a Chair</h3>
 
-     <p>Your teacher may have you do the following <a href="https://docs.google.com/document/d/16Y9RPf6IhZ4pZRjtosXdergQPCLRgrmY_TTMr4N9xpU/edit?usp=sharing" target="_blank"> Design Thinking Process: Design a Chair Activity</a> in pairs or groups to practice the Design Thinking Process.
+     <p>Your teacher may have you do the following <a href="https://docs.google.com/document/d/16Y9RPf6IhZ4pZRjtosXdergQPCLRgrmY_TTMr4N9xpU/" target="_blank"> Design Thinking Process: Design a Chair Activity</a> in pairs or groups to practice the Design Thinking Process.
 
 	<h3>Create Task Directions</h3>
 
-     <p>For the Non-AP version of the Create Task, we recommend that you work with a partner using pair or buddy programming to create a socially-useful app. With your partner, follow the iterative development process in <a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank"> Create  Task  with Design Thinking</a>. Here is what you need to turn in at each iteration.
+     <p>For the Non-AP version of the Create Task, we recommend that you work with a partner using pair or buddy programming to create a socially-useful app. With your partner, follow the iterative development process in <a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/" target="_blank"> Create  Task  with Design Thinking</a>. Here is what you need to turn in at each iteration.
      </p>
 
        <h3>Iteration 1: Paper Prototype</h3>
@@ -67,7 +67,7 @@ Learning Activities
      <ul>
        <li><b>Description of Problem [Empathize, Define, and Ideate]:</b>&nbsp;Working in pairs,  think about problems in your community and how an app might help to solve those problems or to help people in your community. Who is the target audience or users who will be using the app? What problem does the app address? How does the app address the problem?
        </li>
-       <li><b>Paper Prototypes [Prototype]: </b> Create <a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/edit" target="_blank">paper prototypes</a> of three different brainstorm ideas. Describe what each UI element will do.</li>
+       <li><b>Paper Prototypes [Prototype]: </b> Create <a href="https://docs.google.com/drawings/d/1M-DZITeDT9aiPZ7Oz-kXKEGkn0DiFOH1i8idBNlxwCA/copy" target="_blank">paper prototypes</a> of three different brainstorm ideas. Describe what each UI element will do.</li>
 
        <li><b>Elevator Pitch:</b> Present a short (2-3 minute) elevator pitch of your project idea to the class.  The pitch could follow this template: <br>
            <b><i>[name of app] is a [kind of thing] for [the people who would use it or problem it would solve] that, unlike [similar apps] is able to [the major distinguishing feature of your app].</i></b></li>
@@ -101,14 +101,14 @@ Learning Activities
          <li><b>Video</b>: Create a 1 minute anonymous video presentation providing a demo of your working app. See <a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" style="line-height: 15.86px;" title="">How To: Create an App Video</a> for help with creating a video.</li>
        <li><b>Distribution Flyer/Summary:</b> Summarize your app in one page. Be sure to include links to the AIA file, APK file, a QR code to install your app following <a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/edit" target="_blank">How To: Share Your App</a>, links to the video, screenshot, and a link to the write up.
        </li><li><b>Write up:&nbsp;</b>Create a portfolio write up of your project.  Include a link to your video, your app's aia file and a QR code to install your app following 
-      the directions in  <a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/edit?usp=sharing" target="_blank">How To: Create a Portfolio Write Up</a>. </li>
-       <li><b>Class Presentation:&nbsp;</b>Present your app to your class with your partner. Tell them the app’s purpose. Show them how it works. Let students in the class try out your app with the QR code. Describe 1 difficulty you encountered during the development process and how you solved it. Your classmates can use the <a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank">App Feedback Template</a> to give you feedback.
+      the directions in  <a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/" target="_blank">How To: Create a Portfolio Write Up</a>. </li>
+       <li><b>Class Presentation:&nbsp;</b>Present your app to your class with your partner. Tell them the app’s purpose. Show them how it works. Let students in the class try out your app with the QR code. Describe 1 difficulty you encountered during the development process and how you solved it. Your classmates can use the <a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/copy" target="_blank">App Feedback Template</a> to give you feedback.
        </li>
      </ul>
 
      <h3>Grading:</h3>
 
-     <p>Your teacher may use the following <a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric </a>  or something similar to grade your Create project.
+     <p>Your teacher may use the following <a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/" target="_blank" title="">Non-AP Create Performance Task Rubric </a>  or something similar to grade your Create project.
 
 Resources
 ----------
@@ -116,6 +116,6 @@ Resources
 .. raw:: html
 	<ul>
 
-            <li><a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/edit?usp=sharing" target="_blank">Create Task with Design Thinking</a></li><li><a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/edit?usp=sharing" target="_blank" title="">Non-AP Create Performance Task Rubric&nbsp;</a><br></li><li><a href="https://docs.google.com/document/d/1AqIed1Z9TQ_KWX14Ee8_gOFVbnL6i5sXNOaKtwMTr8g/edit?usp=sharing" target="_blank" title="">Non-AP Create Project Template</a></li><li><a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/" target="_blank" title="">How To: Create a Portfolio Write-Up</a></li><li><a href="https://sites.google.com/site/mobilecspportfoliohelp/performance-tasks/create-1" target="_blank">Portfolio help site</a></li><li><a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/edit" target="_blank">How To: Share Your App</a></li><li><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a></li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/edit" target="_blank" title="">Mobile CSP: App Feedback Template</a></li><li><a href="https://docs.google.com/document/d/1mYjhGMo8wQzo101bD2Ebvp7ua__8qGQy_BZkT9jq_sw/copy" target="_blank" title="">Journal Entry Template</a></li>
+            <li><a href="https://docs.google.com/document/d/1zbHDdR-l5JF9xGor-hChrqB8pzCnxgxwMY-vBCZqJYI/" target="_blank">Create Task with Design Thinking</a></li><li><a href="https://docs.google.com/document/d/1qff59yFQY_0VkFz3eKMMnlxTQ9amGCOl0LI63txBIiw/" target="_blank" title="">Non-AP Create Performance Task Rubric&nbsp;</a><br></li><li><a href="https://docs.google.com/document/d/1AqIed1Z9TQ_KWX14Ee8_gOFVbnL6i5sXNOaKtwMTr8g/" target="_blank" title="">Non-AP Create Project Template</a></li><li><a href="https://docs.google.com/document/d/15H4awBUZ0GHNcG3zVaqHZ7grJHimhUEm7dPWfTmfWl0/" target="_blank" title="">How To: Create a Portfolio Write-Up</a></li><li><a href="https://sites.google.com/site/mobilecspportfoliohelp/performance-tasks/create-1" target="_blank">Portfolio help site</a></li><li><a href="https://docs.google.com/a/css.edu/document/d/14noR7S7w-ghgnV2cmKXuO4KbYt3RL3vPVJLnvoWr3bk/" target="_blank">How To: Share Your App</a></li><li><a href="https://docs.google.com/document/d/1-4oA9bdqDRse1nYpV2wxHnOIwFNas01TbeRnVSBKQ6I/view" target="_blank" title="">How To: Create an App Video</a></li><li><a href="https://docs.google.com/document/d/1e7Rsk3KTjBAB9O1wSFm5Nh3QREnV15hdeMJ2BzLU4K8/" target="_blank" title="">Mobile CSP: App Feedback Template</a></li><li><a href="https://docs.google.com/document/d/1mYjhGMo8wQzo101bD2Ebvp7ua__8qGQy_BZkT9jq_sw/copy" target="_blank" title="">Journal Entry Template</a></li>
 
        </ul>

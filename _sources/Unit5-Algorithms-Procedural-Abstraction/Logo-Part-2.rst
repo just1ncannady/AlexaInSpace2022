@@ -500,7 +500,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1MiQgVqW-ZZXlHvmlatbsWVJFdz0Z2DLG0IW4nzL9fPA/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1MiQgVqW-ZZXlHvmlatbsWVJFdz0Z2DLG0IW4nzL9fPA/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vTgUbmd-aje7_CSE-9kpTvu4TDjfNO88G8yCnAaTml88Zi-Kpxw64eYpSjTc3XvIl7Jx25A7uQN-CTO/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--Create a new page named 
     &lt;i&gt;&lt;b&gt;Logo 2&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your 

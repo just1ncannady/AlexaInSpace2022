@@ -412,7 +412,7 @@ Self-Check
     <!--
     &lt;question instanceid=&quot;6CfVDBYD9eg6&quot; weight=&quot;1&quot; quid=&quot;5150886206636032&quot;&gt;&lt;/question&gt;-->
     <h2><br/>Reflection: For Your Portfolio</h2><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1IQJIz--ZW9FIAGbne5y2jKRMm0Frjz9GrJKfLig08Tc/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1IQJIz--ZW9FIAGbne5y2jKRMm0Frjz9GrJKfLig08Tc/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQ837rHORRkxC_BT8rOjZXFTtgS6ep7Nrov4xbA8rXG276W8aALOCsaX9HkS1AKH7dpYd30kd1eYUyV/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;In your portfolio, create a new page named &lt;i&gt;&lt;b&gt;Binary Numbers&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; category of your portfolio (we recommend also including the lesson number. Check with your instructor) and answer the following questions:&lt;/p&gt;
       &lt;ol&gt;

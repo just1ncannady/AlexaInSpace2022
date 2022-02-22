@@ -161,7 +161,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1gQCBCTj4MTGV7yAjeqZwKW1PF9EqqhxMs2t7TshSDNE/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1gQCBCTj4MTGV7yAjeqZwKW1PF9EqqhxMs2t7TshSDNE/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQ1bJePxdGZqJwfXVIr0txThuSezL2nYKvI600is1F_xJeIjyBAcXwwj0t3Ik0UrcKD1OMws_etA0aC/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;h2&gt;Homework: For Your Portfolio&lt;/h2&gt;
       &lt;p&gt;Create a page called &lt;b&gt;&lt;i&gt;Blown to Bits Chapter 1&lt;/i&gt;&lt;/b&gt; under the &lt;i&gt;Homework&lt;/i&gt; category of your Portfolio (If you are using the Mobile CSP Student portfolio template, this page has already been created for you) and post brief answers using complete sentences to  the following questions on that page.&lt;/p&gt;

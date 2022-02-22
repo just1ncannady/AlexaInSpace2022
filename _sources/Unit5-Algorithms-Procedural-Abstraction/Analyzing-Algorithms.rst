@@ -526,7 +526,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div class="yui-wk-div" id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1AwZHOhQ4--5aibVoTJSiD0FXdroJ26Admf0vCQeXyGM/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1AwZHOhQ4--5aibVoTJSiD0FXdroJ26Admf0vCQeXyGM/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQVaF_H0cJHCZuTg3lju5swgdcxrnGV7-1GW07wr2uLRxAzdp0gvfaQ0DHBqa1JPQ9U1GJtqs8yBsa3/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;Create a page named &lt;i&gt;&lt;b&gt;Analyzing Algorithms&lt;/b&gt;&lt;/i&gt; under the &lt;i&gt;Reflections&lt;/i&gt; 
       category of your portfolio and answer the following questions:&lt;/p&gt;

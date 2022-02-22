@@ -245,7 +245,7 @@ Reflection: For Your Portfolio
 .. raw:: html
 
     <p><div id="portfolio">
-    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1N2--kSnPTVPiycwyKYgZgCkLx6W0CjtDTc8FTxn-hqQ/edit?usp=sharing" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1N2--kSnPTVPiycwyKYgZgCkLx6W0CjtDTc8FTxn-hqQ/copy" target="_blank">Google Doc</a> where you may use File/Make a Copy to make your own editable copy.</p>
     <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vRg-GcmWqLN4Ut8PGr4iRxRwkEdj1OTBNZdu7sq6Jrs_11tJXbQS8hxCzZW46QeVZB4M_QpVYr7Kmsa/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
     <!--&lt;p&gt;In your portfolio, create a new page named &lt;b&gt;&lt;i&gt;Abstraction &lt;/i&gt;&lt;/b&gt; (If you are using the Mobile CSP Student portfolio template, this page has already been created for you) and provide thoughtful answers to  the following questions:&lt;/p&gt;
     
