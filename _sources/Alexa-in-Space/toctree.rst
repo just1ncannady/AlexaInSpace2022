@@ -28,8 +28,8 @@ Alexa in Space
 
 .. raw:: html
 
-	<p><img align="left" src="../_static/assets/img/afe-logo-blue.png" width="32"> 
-	<img align="left" src="../_static/assets/img/app-inventor-logo.png" width="32"> The material in this unit is based upon work supported Amazon Future Engineer and MIT App Inventor.
+	<p><img align="left" src="../_static/assets/img/afe-logo-blue.png" width="100"> 
+	<img align="left" src="../_static/assets/img/app-inventor-logo.png" width="100"> The material in this unit is based upon work supported Amazon Future Engineer and MIT App Inventor.
 	</p>
 	
 	<p><b>License:</b> Unless otherwise noted, the materials on this site are licensed under <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
