@@ -75,9 +75,9 @@ Introduction and Goals
 	<p>
 	<div><b>Learning Objectives:</b>&nbspI will learn to</div>
 	<ul>
-	<li>explain the fundmentals of how the Internet works</li>
+	<li>explain the fundamentals of how the Internet works</li>
 	<li>describe the client/server model of networking</li>
-	<li>explain how bandwidth and latecy independently affect an internet connection</li>
+	<li>explain how bandwidth and latency independently affect an internet connection</li>
 	<li>describe issues that contribute to the digital divide</li>
 	</ul>
 	<div><b>Language Objectives:</b>&nbspI will be able to</div>
