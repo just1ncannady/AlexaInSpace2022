@@ -91,13 +91,13 @@ Learning Activities
 .. raw:: html
 
     <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/edit#slide=id.p5" target="_blank" title="">slides</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/presentation/d/1tMJPSDrzOtXJFDVxkVbMvZGw-uzADpiIdM4gXe9f54I/view#slide=id.p5" target="_blank" title="">slides</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://youtu.be/42F4dByfRtY" target="_blank">YouTube video Part 1</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="http://www.teachertube.com/video/359108" target="_blank" title="">TeacherTube video Part 1</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1_98lN-rMLDScg9EPTUdFfdY36cGFd2njqkFF2NLtPSI/edit?usp=sharing" target="_blank">Client/Server Activity</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1_98lN-rMLDScg9EPTUdFfdY36cGFd2njqkFF2NLtPSI/copy" target="_blank">Client/Server Activity</a></li>
 	<br/>
 	<li style="display: inline"><a href="https://youtu.be/DDGnPTpk_G8" target="_blank">YouTube video Part 2</a></li>
 	<li style="display: inline"> | </li>
@@ -162,7 +162,7 @@ Learning Activities
     
     <h3>Activity 2: Client/Server Model</h3>
     <p>
-    Complete the activity in <a href="https://docs.google.com/document/d/1_98lN-rMLDScg9EPTUdFfdY36cGFd2njqkFF2NLtPSI/edit?usp=sharing" target="_blank">this worksheet</a> to review the <span class="hover vocab yui-wk-div" data-id='client'>client</span>/<span class="hover vocab yui-wk-div" data-id='server'>server</span> model.
+    Complete the activity in <a href="https://docs.google.com/document/d/1_98lN-rMLDScg9EPTUdFfdY36cGFd2njqkFF2NLtPSI/copy" target="_blank">this worksheet</a> to review the <span class="hover vocab yui-wk-div" data-id='client'>client</span>/<span class="hover vocab yui-wk-div" data-id='server'>server</span> model.
     </p>
     <!--
     &lt;table&gt;
