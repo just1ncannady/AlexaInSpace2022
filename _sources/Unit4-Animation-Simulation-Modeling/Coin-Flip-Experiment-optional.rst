@@ -150,7 +150,7 @@ Learning Activities
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (30 minutes)</h3> 
       Break into POGIL teams of 4.  Each team member should download the coin flip app and
-      run it on his or her device.  Record your answers <a href="https://docs.google.com/document/d/1L458KOn6izBLdrWSwkALekLqBocSe9ijJT9WCvBcbRc/edit" target="_blank">using this worksheet</a>. (File-Make a Copy to have a version you can edit.) In addition, team members should take the following roles.
+      run it on his or her device.  Record your answers <a href="https://docs.google.com/document/d/1L458KOn6izBLdrWSwkALekLqBocSe9ijJT9WCvBcbRc/copy" target="_blank">using this worksheet</a>. (File-Make a Copy to have a version you can edit.) In addition, team members should take the following roles.
         <table>
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
