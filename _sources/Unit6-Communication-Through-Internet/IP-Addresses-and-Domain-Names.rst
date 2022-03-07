@@ -1,4 +1,5 @@
 .. raw:: html 
+.. raw:: html 
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
@@ -321,7 +322,7 @@ Self-Check
     :feedback_c: 
     :correct: a
 
-    IPv4 was designed to be scalable and change in size and scale to meet new demands. But IPv4 is limited to about 4 billion unique IP addresses.  What is planned to fix this as the number of devises on the internet grows beyond this.
+    IPv4 was designed to be scalable and change in size and scale to meet new demands. But IPv4 is limited to about 4 billion unique IP addresses.  What is planned to fix this as the number of devices on the internet grows beyond this.
 
 
 .. raw:: html
