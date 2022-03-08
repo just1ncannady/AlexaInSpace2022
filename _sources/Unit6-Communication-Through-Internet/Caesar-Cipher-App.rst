@@ -88,7 +88,9 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://youtu.be/mXx4G_x6OuY" target="_blank">YouTube Video - Lecture</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://youtu.be/ZKcv1IfrS7A" target="_blank" title="">YouTube Video - Tutorial</a></li>
+	<li style="display: inline"><a href="https://youtu.be/ZKcv1IfrS7A" target="_blank" title="">Tutorial - Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1FlmzNnA8n-vqUO7bXj_zKDv6eLr5q24cK4EinsXWqv0" target="_blank" title="">Tutorial - Text Version</a></li>
 	</ul> 
 	
 	<p><h3>Part I: Introduction to Cryptography and the Caesar Cipher</h3>
