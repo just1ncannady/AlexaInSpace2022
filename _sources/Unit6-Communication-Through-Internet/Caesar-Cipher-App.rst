@@ -218,7 +218,7 @@ Learning Activities
     <ul>
     <li>Defining and using <span class="hover vocab yui-wk-div" data-id='local variables'>local variables</span></li>
     <li>Defining and using procedures with returns (also called <span class="hover vocab yui-wk-div" data-id='function'>functions</span>)</li>
-    <li>Using a for-range loop and an index to process a string of letters in a message</li>
+    <li>Using a for-each loop and an index to process a string of letters in a message</li>
     <li>Using built-in text <span class="hover vocab yui-wk-div" data-id='function'>functions</span> to process a string of letters in a message</li>
     </ul>
     
