@@ -13,24 +13,20 @@ AP CSP Pseudocode
 	 
 	<p>The AP CSP pseudocode commands are also reviewed in the following lessons:
 	<ul>
-	  <li> <a href="../mobilecsp/unit?unit=1&lesson=152"  target="_blank">Algorithm Basics: Robot commands</a> </li>  
-	<li>  <a href="../mobilecsp/unit?unit=22&lesson=150"  target="_blank">Paint Pot: Variables and Assignment</a> </li> 
-	   <li>  <a href="../mobilecsp/unit?unit=22&lesson=151"  target="_blank">Paint Pot Projects: selection (if) statements</a> </li> 
-	
-	   <li>  <a href="../mobilecsp/unit?unit=22&lesson=164"  target="_blank">Paint Pot Refactoring: 
-	Procedures</a> </li> 
-	<li>
-	<a href="../mobilecsp/unit?unit=22&lesson=101"  target="_blank">Map Tour: Intro to Lists</a> </li> 
-	  <li> <a href="../mobilecsp/unit?unit=23&lesson=166"  target="_blank">Logo I: AP CSP Robot Code and Loops</a> </li>
-	  <li>  <a href="../mobilecsp/unit?unit=24&lesson=167"  target="_blank">Logo 2: Procedures with Parameters 
-	Procedures</a> </li> 
-	  <li><a href="../mobilecsp/unit?unit=25&lesson=173" target="_blank">Caesar Cipher App: Functions with Parameters</a></li>
-	  <li><a href="../mobilecsp/unit?unit=24&lesson=82"  target="_blank">Quiz App Projects: AP CSP List Commands and Loops with Lists</a></li>
-	  <li><a href="../mobilecsp/unit?unit=127&lesson=185" target="_blank">Pseudocode Tracing Exercises (the next lesson)   </a></li>  
+	  <li> <a href="../mobilecsp/Unit2-Intro-to-Mobile-Apps/Algorithm-Basics.html"  target="_blank">Algorithm Basics: Robot commands</a> </li>  
+	  <li> <a href="../mobilecsp/Unit3-Creating-Graphics-Images/Paint-Pot-Tutorial.html"  target="_blank">Paint Pot: Variables and Assignment</a> </li> 
+	  <li> <a href="../mobilecsp/Unit3-Creating-Graphics-Images/Paint-Pot-Projects.html"  target="_blank">Paint Pot Projects: selection (if) statements</a> </li> 
+	  <li> <a href="../mobilecsp/Unit3-Creating-Graphics-Images/Paint-Pot-Refactoring-and-Procedural-Abstraction.html"  target="_blank">Paint Pot Refactoring: Procedures</a> </li> 
+	  <li> <a href="../mobilecsp/Unit3-Creating-Graphics-Images/Map-Tour-Tutorial.html"  target="_blank">Map Tour: Intro to Lists</a> </li> 
+	  <li> <a href="../mobilecsp/Unit4-Animation-Simulation-Modeling/Logo-Part-I.html"  target="_blank">Logo I: AP CSP Robot Code and Loops</a> </li>
+	  <li> <a href="../mobilecsp/Unit5-Algorithms-Procedural-Abstraction/Logo-Part-2.html"  target="_blank">Logo II: Procedures with Parameters</a> </li> 
+	  <li><a href="../mobilecsp/Unit6-Communication-Through-Internet/Caesar-Cipher-App.html" target="_blank">Caesar Cipher App: Functions with Parameters</a></li>
+	  <li><a href="../mobilecsp/Unit5-Algorithms-Procedural-Abstraction/Quiz-App-Projects-Loops-with-Lists.html"  target="_blank">Quiz App Projects: AP CSP List Commands and Loops with Lists</a></li>
+	  <li><a href="../mobilecsp/Unit8-AP-Exam-Prep/Tracing-Exercises.html" target="_blank">Pseudocode Tracing Exercises (the next lesson)   </a></li>  
 	 </ul>
 	
-	 <p>The following <a href="https://docs.google.com/document/d/1ObiA0u3Ipo9Cx30p3facy0j21oiw54L7vJkIpd7-Dys/edit?usp=sharing" target="_blank">document</a> by Mobile CSP teacher Timothy Clark from Gilroy Unified School District compares AP pseudocode blocks to App Inventor blocks: <br>
-	   <iframe src="https://docs.google.com/document/d/122TCLup7PdG7wx43CJdk7vOQ-k1YsU3k1rc1uP9ePho/edit?usp=sharing" width="100%" height="500px"></iframe>
+	 <p>The following <a href="https://docs.google.com/document/d/1ObiA0u3Ipo9Cx30p3facy0j21oiw54L7vJkIpd7-Dys/view" target="_blank">document</a> by Mobile CSP teacher Timothy Clark from Gilroy Unified School District compares AP pseudocode blocks to App Inventor blocks: <br>
+	   <iframe src="https://docs.google.com/document/d/122TCLup7PdG7wx43CJdk7vOQ-k1YsU3k1rc1uP9ePho/view" width="100%" height="500px"></iframe>
 	   
 	 <p>A Mobile CSP teacher Mark Eisenhardt has also developed a <a href="https://drive.google.com/open?id=1FyEsR_saOkdyvhKHbOtAvqWOiZCkRJrHstXsW7FhUWw" target="_blank">slide deck</a> that shows the App Inventor blocks next to the relevant sections of the reference sheet (shown below).</p>
 	
