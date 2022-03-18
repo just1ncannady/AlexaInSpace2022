@@ -109,6 +109,12 @@ Learning Activities
 	<li style="display: inline"><a href="https://youtu.be/1BA9L3_7YJ8" target="_blank" title="">YouTube Video Part 3</a></li>
 	</ul> 
 	
+	<h3>Exercise </h3>
+	<p>Before you move on with this lesson try this brief exercise independently or with a partner. Record your thought process on paper. How many guesses did it take you?
+	</p>
+	<p align="center"> <i>Can you guess what two prime numbers can be multiplied to make 161?</i> 
+	</p>
+	
 	<p><h3>Doubly Locked Box Analogy</h3>
     <p>This video shows one helpful model for <span class="hover vocab yui-wk-div" data-id="public key cryptography">public key</span> encryption, a <b><i>doubly-locked box</i></b>, in which Alice
       and Bob each have their own keys, both of which are used to securely transmit information.
@@ -221,6 +227,8 @@ Still Curious?
 
     <p>
     <ul>
+	
+	<li><a href="https://youtu.be/CINVwWHlzTY" target="_blank">Why the Government Shouldn't Break WhatsApp</a> explains more about encryption backdoors including breaking WhatsApp and iMessage's security to let the government stop Bad Things. Do you think it is a good idea to do this? Watch the video and then consider your answer again.</li>
     <li><a href="https://britcruise.com/2012/02/14/2000-years-of-cryptography-in-8-5min/" target="_blank">Brit Cruise</a> has made an entire series of videos explaining encryption. If you're curious about some of the mathematics involved, see his full videos on <a href="https://www.youtube.com/watch?v=YEBfamv-_do" target="_blank"><span class="hover vocab yui-wk-div" data-id='diffie-hellman'>Diffie-Hellman</span></a> and <a href="https://www.youtube.com/watch?v=wXB-V_Keiu8" target="_blank"><span class="hover vocab yui-wk-div" data-id='rsa'>RSA</span></a>.</li>
     <li>You can also read more about how encryption developed in <a href="http://www.bitsbook.com/wp-content/uploads/2008/12/chapter5.pdf" target="_blank">Chapter 5 of <i>Blown to Bits</i></a> (pg. 178+)</li>
     <li>Khan Academy has incorporated the Cruise videos into an excellent interactive <a href="https://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">course on Cryptography</a>, from the Caesar cipher to public key encryption.</li>
