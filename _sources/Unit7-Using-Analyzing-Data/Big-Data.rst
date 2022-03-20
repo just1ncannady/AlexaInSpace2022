@@ -176,7 +176,7 @@ Learning Activities
     :feedback_c: Data is basic facts such as when each word was spoken, not generalize knowledge.
     :correct: a
 
-	Which of the following best matches statements from the video to the Data-Information-Knowledge-Wistom pyramid?
+	Which of the following best matches statements from the video to the Data-Information-Knowledge-Wisdom pyramid?
 
 
 .. raw:: html
