@@ -169,7 +169,7 @@ Learning Activities
     :random:
     :practice: T
     :answer_a:     <ul>       <li><b>Information: </b>The child said "water" most frequently in the         kitchen and the bathroom</li>       <li><b>Knowledge: </b>The child is likely to learn words heard in         multiple locations</li>       <li><b>Data:</b> The child said "Truck" for the first time at 11:45         on January 15, 2017</li>     </ul>
-    :feedback_a: <div>Data is basic facts or figures,&nbsp;</div><div>information is data that has been organized or visualize,&nbsp;</div><div>knowledge extracts generalizations from information</div>
+    :feedback_a: <div>Data is basic facts or figures,&nbsp;</div><div>information is data that has been organized or visualized,&nbsp;</div><div>knowledge extracts generalizations from information</div>
     :answer_b:     <ul>       <li><b>Information: </b>The child said "water" most frequently in the         kitchen and the bathroom</li>       <li><b>Data: </b>The child is likely to learn words heard in         multiple locations</li>       <li><b>Knowledge: </b> The child said "Truck" for the first time at 11:45         on January 15, 2017</li>     </ul>
     :feedback_b: Data is basic facts such as when each word was spoken, not summary information.
     :answer_c:     <ul>       <li><b>Data: </b>The child said "water" most frequently in the         kitchen and the bathroom</li>       <li><b>Knowledge: </b>The child is likely to learn words heard in         multiple locations</li>       <li><b>Information:</b> The child said "Truck" for the first time at 11:45         on January 15, 2017</li>     </ul>
