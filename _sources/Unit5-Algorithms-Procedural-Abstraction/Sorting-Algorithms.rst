@@ -38,7 +38,7 @@ Introduction and Goals
     <p>
     <p>This lesson will focus on different sorting algorithms and we will use a deck of 
     cards in some of the examples.   If you have a deck of cards handy, it may 
-    help you understand the algorithms better. Alternatively, you can use <a href="http://PlayingCards.io" target="_blank" title="">PlayingCards.io</a>.</p><p>Sorting is a very important area of study in computer science. As we saw in the previous
+    help you understand the algorithms better. Alternatively, you can use <a href="https://deck.of.cards/" target="_blank" title="">https://deck.of.cards/</a>.</p><p>Sorting is a very important area of study in computer science. As we saw in the previous
     lesson on <i>Search</i>, it is much more efficient to search a collection if its elements
     are in order.  <i>Sorting</i> is the process of putting objects in order. Sorting
     algorithms have been studied extensively by computer scientists.</p>
@@ -66,7 +66,7 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://youtu.be/je0bBZxfmMM" target="_blank">YouTube Video Bucket Sort</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="http://playingcards.io/" target="_blank" title="">PlayingCards.io</a></li>
+	<li style="display: inline"><a href="https://deck.of.cards/" target="_blank" title="">https://deck.of.cards/</a></li>
 	</ul> 
 	
 	<h3>Bubble Sort</h3>
@@ -132,7 +132,7 @@ Learning Activities
     </div>
 
 
-    <h3>Activity</h3>Using a physical deck of cards or <a href="http://playingcards.io/" target="_blank" title="">PlayingCards.io</a>, try to use the bubble sort algorithm to sort a
+    <h3>Activity</h3>Using a physical deck of cards or <a href="https://deck.of.cards/" target="_blank" title="">https://deck.of.cards/</a>, try to use the bubble sort algorithm to sort a
     small part of the deck – six or seven cards.
     
     <h3>Merge Sort</h3>
@@ -174,8 +174,7 @@ Learning Activities
     smaller problems.  In this case, the deck is divided into piles of 1 card each before
     merging the piles.
     
-    </p><h3>Activity</h3>Using a physical deck of cards or <a href="http://playingcards.io/" target="_blank" title="">PlayingCards.io</a>, try sorting it using merge sort.  If you try the
-    algorithm on 16 cards, you will always have the same number of cards in each pile. 
+    </p><h3>Activity</h3>Using a physical deck of cards or <a href="https://deck.of.cards/" target="_blank" title="">https://deck.of.cards/</a>, try sorting it using merge sort.  If you try the algorithm on 16 cards, you will always have the same number of cards in each pile. 
     
     <h3>Bucket Sort: A Non Comparison Sort</h3>
     <p>Not all sorts are <i>comparison</i> sorts.   One example of a non-comparison sort, 
@@ -226,7 +225,7 @@ Learning Activities
     2. Starting with the lowest numbered bucket, collect all the cards together.
     </pre>
     <h3>Activity</h3>
-    <p>That's it.  Pretty simple, eh? Using a physical deck of cards or <a href="http://playingcards.io/" target="_blank" title="">PlayingCards.io</a>, try it with the full 52-card
+    <p>That's it.  Pretty simple, eh? Using a physical deck of cards or <a href="https://deck.of.cards/" target="_blank" title="">https://deck.of.cards/</a>, try it with the full 52-card
     deck.  After step 1, bucket number 2 should contain all the 2s in the deck.  Bucket 
     number 14 should contain all the Aces. If you collect all the cards together in buckets 2, then
     3, then 4, and so on, the deck will be completely sorted.
