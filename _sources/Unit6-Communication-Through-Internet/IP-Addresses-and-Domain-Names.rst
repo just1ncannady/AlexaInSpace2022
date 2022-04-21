@@ -72,7 +72,7 @@ Learning Activities
 	<br/>
 	
 	<p><iframe allowfullscreen="" frameborder="0" height="472" src="https://www.youtube.com/embed/H81xmsxNdV8" width="650"></iframe></p>
-    <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.ultratools.com/tools/ipWhoisLookupResult" target="_blank">WhoIs Lookup</a>.    </p>
+    <p>Before moving on to the activity below, try finding your <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> by googling "what's my <span class="hover vocab yui-wk-div" data-id='IP Address'>IP address</span>". Try to find another <span class="hover vocab yui-wk-div" data-id='IP address'>IP address</span> for a <span class="hover vocab yui-wk-div" data-id='domain name'>domain name</span> that you know, for example google.com at a site like <a href="https://www.whois.com/whois/" target="_blank">WhoIs Lookup</a>.    </p>
 	
     <h3>Networking Simulation Activities</h3>
     <p>
