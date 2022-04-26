@@ -65,7 +65,7 @@ Learning Activities
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank" title="">Tutorial - Text Verison</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline">Tutorial - Video</li>
+	<li style="display: inline"><a href="https://youtu.be/MymcQP6UJDg" target="_blank" title="">Tutorial - Video</a></li>
 	</ul> 
 	
     <p>
@@ -109,7 +109,12 @@ Learning Activities
 	<p>Before starting the tutorial, brainstorm as a class several <span class="hover vocab yui-wk-div" data-id="utterances">utterances</span> that you might use to ask Alexa for a random fact about space. </p>
 	<p>After brainstorming, complete the <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank">Space Facts tutorial</a>.</p>
 	
-	<p>{ {Insert video tutorial here} }</p>
+.. youtube:: MymcQP6UJDg
+	:width: 650
+	:height: 415
+	:align: center
+
+.. raw:: html
 	
 	<h3>Enhancements</h3>
     <ol>

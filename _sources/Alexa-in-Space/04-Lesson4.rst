@@ -71,7 +71,11 @@ Learning Activities
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E/view" target="_blank" title="">Tutorial - Text Version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline">Tutorial - Video</li>
+	<li style="display: inline"><a href="https://youtu.be/E1gIkzIjJ6M" target="_blank" title="">Tutorial Part 1 - Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/ct9Cf7y73g0" target="_blank" title="">Tutorial Part 2 - Video</a></li>
+	<li style="display: inline"> | </li>
+	<li style="display: inline"><a href="https://youtu.be/O1q63nAUNc8" target="_blank" title="">Tutorial Part 3 - Video</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://www.nasa.gov/sites/default/files/atoms/files/stemonstrations_nutrition.pdf" target="_blank">Activity</a></li>
 	</ul> 
@@ -116,7 +120,15 @@ Learning Activities
 	<h3>Tutorial: Meals in Space</h3>
     <p>For <a href="https://docs.google.com/document/d/16dGhZqbFQ_QonbLIPQd2825sFQ9JKvcaKcBeEIBqC-E/view" target="_blank" title="">this tutorial</a>, you will program a skill where Alexa will read the <span class="hover vocab yui-wk-div" data-id="list">list</span> of breakfast options and the user will be able to select one of the options to eat. Alexa will then let you know how many calories that item contains and add that amount to your total <span class="hover vocab yui-wk-div" data-id="calorie intake">calorie intake</span> for the day. You will also create a procedure that takes in the number of calories already consumed for the day, subtracts from the daily requirement, and sets the calorie variable to the new number.</p>
 	
-	<p>{ {insert tutorial video here} }</p>
+	<h4>Parallel Lists</h4>
+	<p>The Meals in Space skill has two essential <span class="hover vocab yui-wk-div" data-id="list">lists</span>: one list contains three breakfast options and another list contains the calorie count for each breakfast option. The first food in the food list corresponds to the first calorie in the calories list. This is known as a <span class="hover vocab yui-wk-div" data-id="parallel lists">parallel list</span> construction. This parallel setup allows you to use an <span class="hover vocab yui-wk-div" data-id="index">index</span> to associate each food with its corresponding calorie value. Indexing of lists in App Inventor starts at 1. </p>
+
+.. youtube:: E1gIkzIjJ6M
+	:width: 650
+	:height: 415
+	:align: center
+
+.. raw:: html
 
 	<h4>Multiple Intents</h4>
 	<p>In the previous lessons you learned how to create a skill that involves Alexa responding to a direct command using one intent. However, for the Meals in Space skill two intents are needed: one intent to trigger the reading of the breakfast options and another intent to trigger the logging of a food and its calories. After an utterance for one intent is made, you can use the “ask” block shown below to have Alexa respond and ask the user what they would like to do next. When using the “ask” block, Alexa will wait eight (8) seconds for the user to respond with another intent.</p>
@@ -126,20 +138,30 @@ Learning Activities
 
 	<p>Note: Slots that are numbers can only be whole numbers, not decimal numbers.</p>
 
-	<h4>Parallel Lists</h4>
-	<p>The Meals in Space skill has two essential <span class="hover vocab yui-wk-div" data-id="list">lists</span>: one list contains three breakfast options and another list contains the calorie count for each breakfast option. The first food in the food list corresponds to the first calorie in the calories list. This is known as a <span class="hover vocab yui-wk-div" data-id="parallel lists">parallel list</span> construction. This parallel setup allows you to use an <span class="hover vocab yui-wk-div" data-id="index">index</span> to associate each food with its corresponding calorie value. Indexing of lists in App Inventor starts at 1. </p>
+	<h4>Procedural Abstraction</h4>
+	<p>As part of this skill, you will use procedural abstraction. <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural abstraction</span> is the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job. We only need to know what it does, not how it does it. Procedural abstraction allows us to reuse code that is already written instead of rewriting the code and repeating it. And it allows programmers to change the internals of the procedure (to make it faster, more efficient, use less storage, etc.) without needing to notify users of the change as long as what the procedure does is preserved. In addition, it helps with debugging, code readability, and maintenance since changes to that block of code only need to happen in one place. </p>
 
+	<p>Using a procedure that inputs a <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> allows the programmer to have even more control over the execution of the parameter. You are able to take in a specific input to be used inside of the procedure in order to produce a different output. Parameters are especially useful if you have very similar code with some variance. Parameters allow you to manage the complexity of your code by allowing your procedure more control over the input and output. </p>
+	
+.. youtube:: ct9Cf7y73g0
+	:width: 650
+	:height: 415
+	:align: center
+
+.. raw:: html	
+	
 	<h4>Incrementing a Variable</h4>
 	<p>The totalCalorieIntake variable should increase whenever the user logs a food they have eaten. You can use the global variable to track the total calories and add the new number of calories each time the user logs their food. The algorithm for this is: </p>
 	<p align="center"> totalCalorieIntake = totalCalorieIntake + the calorie value of the food being logged
 	</p>
-
-	<h4>Procedural Abstraction</h4>
-	<p>As part of this skill, you used procedural abstraction. <span class="hover vocab yui-wk-div" data-id="procedural abstraction">Procedural abstraction</span> is the ability to name a block of code in a procedure and call it whenever needed, is a very important concept in programming. We are abstracting away from the details of that block of code and just using its name to do its job. We only need to know what it does, not how it does it. Procedural abstraction allows us to reuse code that is already written instead of rewriting the code and repeating it. And it allows programmers to change the internals of the procedure (to make it faster, more efficient, use less storage, etc.) without needing to notify users of the change as long as what the procedure does is preserved. In addition, it helps with debugging, code readability, and maintenance since changes to that block of code only need to happen in one place. </p>
-
-	<p>Using a procedure that inputs a <span class="hover vocab yui-wk-div" data-id="parameters">parameter</span> allows the programmer to have even more control over the execution of the parameter. You are able to take in a specific input to be used inside of the procedure in order to produce a different output. Parameters are especially useful if you have very similar code with some variance. Parameters allow you to manage the complexity of your code by allowing your procedure more control over the input and output. </p>
-
 	
+.. youtube:: O1q63nAUNc8
+	:width: 650
+	:height: 415
+	:align: center
+
+.. raw:: html
+
 	<h3>Enhancements</h3>
     <ol>
 	<li>Program an intent that acts as a reset command for Alexa to reset the totalCalorieIntake variable at the end of the day.</li>

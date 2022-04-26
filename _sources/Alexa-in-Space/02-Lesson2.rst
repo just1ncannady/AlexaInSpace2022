@@ -68,7 +68,7 @@ Learning Activities
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank" title="">Tutorial - Text Version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline">Tutorial - Video</li>
+	<li style="display: inline"><a href="https://youtu.be/xFdifO9MxZI" target="_blank" title="">Tutorial - Video</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1fvoOQBwm9aDaUHVIiiEMyQEgBXEWyh2lUapk8XZAsaE/copy" target="_blank">Worksheet - Bias Activity</a></li>
 	</ul> 
@@ -111,7 +111,12 @@ Learning Activities
     <p>Now let’s build out an Alexa skill. Get together with a partner - we will be using <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> to complete this program. To get started, open Alexa’s App Inventor and login with your Google account. Follow along with your teacher or the video tutorial to create the Good Morning Space Alexa Skill. Or, if you prefer, you can use the <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank">text version of the tutorial</a>.
 	</p>
 	
-	<p>{ {Insert video tutorial here} }</p>
+.. youtube:: xFdifO9MxZI
+	:width: 650
+	:height: 415
+	:align: center
+
+.. raw:: html
 	
 	<h3>Algorithmic Bias</h3>
     <p>Watch this brief video. What do you notice? What do you wonder?</p>
