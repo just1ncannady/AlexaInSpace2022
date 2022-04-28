@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
 
-7.14 Wrap Up
+Wrap Up
 ============
 
 .. raw:: html
@@ -20,7 +20,7 @@
 .. raw:: html
 
         <div class="gcb-lesson-content" data-question-batch-id="L138" data-scored="False">
-        Congratulations on making it to the end of Unit 7!
+        Congratulations on making it to the end of the unit!
     
     
 

@@ -11,6 +11,13 @@ Alexa in Space
 
 
 	0-1-Unit-Overview.rst
+	Modified-Unit-7/0-2-Big-Data.rst
+	Modified-Unit-7/0-3-Visualizing-Data.rst
+	Modified-Unit-7/0-4-Data-Visualization-Project.rst
+	Modified-Unit-7/0-5-Data-Map-App.rst
+	Modified-Unit-7/0-6-Clicker-App-with-CloudDB-optional.rst
+	Modified-Unit-7/0-7-Artificial-Intelligence-and-Machine-Learning.rst
+	Modified-Unit-7/0-8-Impacts-of-CS-Who-Owns-the-Bits.rst
 	01-Lesson1.rst
 	02-Lesson2.rst
 	03-Lesson3.rst

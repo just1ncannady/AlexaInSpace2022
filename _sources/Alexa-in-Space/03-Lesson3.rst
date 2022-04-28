@@ -2,7 +2,7 @@
 
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
    
-7.11 What's it like to be in space?
+Lesson 3 - What's it like to be in space?
 ===================================
 
 .. raw:: html
