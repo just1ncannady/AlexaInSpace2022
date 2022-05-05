@@ -43,13 +43,10 @@ Introduction and Goals
 	</td></tr>
     <tr><td valign="top"></td>
     <td valign="top">
-       <div><b>Learning Objectives:</b>&nbspI will learn to</div>
+       <div><b>Goals:</b>&nbspI will learn to</div>
        <ul>
-	   
-       </ul>
-       <div><b>Language Objectives:</b>&nbspI will be able to</div>
-       <ul>
-
+		<li>Identify a challenge that space travelers may encounter related to microgravity.</li>
+		<li>Create an Alexa skill that helps space travelers manage this challenge.</li>
        </ul>
     </td>
     </tr>
@@ -77,7 +74,7 @@ Learning Activities
 	<p>For the final challenge, you will work with a partner to create an Alexa skill in MIT App Inventor that solves a problem for space travelers. You will submit your working program, a video or audio file demonstrating how the skill works, and written responses that explain the skill’s alignment to the challenge theme and how the algorithms in your code work. You may create an app to accompany the skill, however it is not required. Carefully review the <a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Criteria</a> to make sure you understand them. </p>
 	</p>
 	
-	<h4>ACTIVITY: Grade Project Exemplar</h4>
+	<h4>ACTIVITY: Grade a Project Exemplar</h4>
     <p>In groups of four students, review the <a href="https://docs.google.com/document/d/16zZXzrw56HerqG_TmPDNw3nLx3RcAKGKwj3kZOlvi58/" target="_blank">Project Exemplar</a> using the <a href="https://docs.google.com/document/d/1HrkHitnELOOzd2mQ_taY0WKQj3quANhuJCdnpX2LD3U/" target="_blank">Final Challenge Rubric</a>. Each group member should select a role from below. Complete the rubric and be prepared to discuss where you think the exemplar could use one area of improvement and one area where it exceeded expectations. </p>
 	
 	<p><b>Group Roles:</b></p>
@@ -88,7 +85,7 @@ Learning Activities
 	<li><i>Reporter</i> - Represents the group during class discussion</li>
 	</ul>
 	
-	<h4>ACTIVITY: Explore Project Ideas</h4>
+	<h4>ACTIVITY: Explore Project Ideas through Brainwriting</h4>
     <p>Now that you understand the project requirements better, you will expand on your initial ideas for Alexa skills that might be useful in space. In your groups, each person should have a blank copy of the <a href="https://drive.google.com/file/d/1Qho7PgaSKt7zJhrxx100vFv4gV-voOE4/view" target="_blank">Brainwriting Template</a>. You will complete 4 rounds with 4 minutes for each round. Review these ground rules first:</p>
 	<ul>
 	<li>Defer judgement - there are no bad ideas</li>
@@ -101,8 +98,8 @@ Learning Activities
 	<p>In the first round, everyone should add an initial idea (or more!) of an Alexa skill that they would like to create for the project. For the second round, pass your brainwriting form to the person on your right. Review their ideas and add your own in the second row. Repeat this process for rounds 3 and 4. At the end, you should receive your own brainwriting form back with feedback from your group members. As you are writing in rounds 2 - 4, think about adding new ideas, combining ideas, adapting ideas to new areas, adding to ideas, or suggesting modifications.</p>
 
 	
-	<h3>Submission</h3>
-    <p>To complete the challenge, provide the following three items in your portfolio: your program, a video or audio demonstration, and written response. You may complete the challenge on your own or in pairs. If you work individually, you should collaborate by asking student peers to help test your skill and/or review your code (to help debugging, for readability, etc.) If you work in pairs, each person should have responsibility for writing some of the code and each student should write their own written responses, however, both students can provide the same program and video/audio demonstration files. 
+	<h3>Complete the Challenge</h3>
+    <p>To complete the challenge, provide the following three items to your instructor: your program, a video or audio demonstration, and written response. You may complete the challenge on your own or in pairs. If you work individually, you should collaborate by asking student peers to help test your skill and/or review your code (to help debugging, for readability, etc.) If you work in pairs, each person should have responsibility for writing some of the code and each student should write their own written responses, however, both students can provide the same program and video/audio demonstration files. 
 	</p>
 	
 	<ul>

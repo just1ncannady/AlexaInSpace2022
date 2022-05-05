@@ -49,13 +49,13 @@ Vocabulary Review
     <iframe height="500" src="https://quizlet.com/634708360/flashcards/embed?i=1vnu3c&amp;x=1jj1" style="border:0" width="100%"></iframe>
     
 
-Unit 7 Quiz
+Unit Quiz
 ------------
 
 .. raw:: html
 
     <p>
-    Before moving on, check with your instructor to see if there is a quiz for Unit 7.
+    Before moving on, check with your instructor to see if there is a quiz for this unit.
       
 Reflection: For Your Portfolio
 -------------------------------
