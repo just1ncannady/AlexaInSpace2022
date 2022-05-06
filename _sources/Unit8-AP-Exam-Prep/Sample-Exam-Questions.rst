@@ -139,7 +139,12 @@ Sample Exam Questions
     :feedback_d: 
     :correct: d
 
-    AP 2021 Sample Question:  In a certain country, a person must be at least 16 years old to drive a car and must be at least 18 years old to vote. The variable age represents the age of a person as an integer. Which of the following expressions evaluates to true if the person is old enough to drive but not old enough to vote, and evaluates to false otherwise? I. (age ≥ 16) AND (age ≤ 18) II. (age ≥ 16) AND (NOT(age ≥ 18))III. (age &lt; 18) AND (NOT(age &lt; 16))
+    .. raw:: html
+
+       <p> AP 2021 Sample Question:  In a certain country, a person must be at least 16 years old to drive a car and must be at least 18 years old to vote. The variable age represents the age of a person as an integer. Which of the following expressions evaluates to true if the person is old enough to drive but not old enough to vote, and evaluates to false otherwise? </p>
+                <p> I. (age ≥ 16) AND (age ≤ 18) </p>
+                <p>II. (age ≥ 16) AND (NOT(age ≥ 18)) </p>
+                <p>III. (age < 18) AND (NOT(age < 16)) </p>
 
 
 .. raw:: html
