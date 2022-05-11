@@ -29,7 +29,7 @@ Lesson 1 - Introduction to AI in Space
       });
     </script>
     <img height="25" src="../_static/assets/img/time.png" style="float:left" width="25"/>
-    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    <h3 id="est-length">Time Estimate: 90 minutes</h3>
  
 Introduction and Goals
 -----------------------
