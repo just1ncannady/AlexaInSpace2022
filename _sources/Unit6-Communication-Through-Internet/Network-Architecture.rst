@@ -76,7 +76,7 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://youtu.be/qrG0bS-JuTo" target="_blank">YouTube Video Part 1</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/edit?usp=sharing" target="_blank">Ping and Traceroute Activity</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/copy" target="_blank">Ping and Traceroute Activity</a></li>
 	<br/>
 	<li style="display: inline"><a href="https://youtu.be/Q6ixZe6ifHI" target="_blank" title="">YouTube Video Part 2</a></li>
 	<li style="display: inline"> | </li>
@@ -107,7 +107,7 @@ Learning Activities
 
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity 1  - Using Ping and Traceroute to Investigate the Internet (15 minutes)</h3>
-    <p>Break into POGIL teams of 4.  Record your answers using <a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/edit?usp=sharing" target="_blank"> this worksheet</a>
+    <p>Break into POGIL teams of 4.  Record your answers using <a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/copy" target="_blank"> this worksheet</a>
     </p><table>
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
@@ -121,7 +121,7 @@ Learning Activities
     </tr>
     <tr>
     <td>Quality Control</td>
-    <td>Records the team's answers in <a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/edit?usp=sharing" target="_blank"> the worksheet</a> (File-Make a Copy to have a version you can edit).</td>
+    <td>Records the team's answers in <a href="https://docs.google.com/document/d/1qxREGzfG3XUp0n8Fo-n9v6L9dFHcqP17nIHjufiOmvg/copy" target="_blank"> the worksheet</a> (File-Make a Copy to have a version you can edit).</td>
     </tr>
     <tr>
     <td>Process Analyst</td>
@@ -198,7 +198,7 @@ Learning Activities
 		</td>
 	</tr>
     </tbody></table>
-    <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/edit?usp=sharing" target="_blank">these handouts</a> to simulate <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> routing in the TCP/IP model.
+    <p>Follow <a href="https://docs.google.com/document/d/1vCMjrLWMzU-bs1zv8Btu-rjrcvzQ21J0HarznLgL30g/view" target="_blank">these handouts</a> to simulate <span class="hover vocab yui-wk-div" data-id='packet'>packet</span> routing in the TCP/IP model.
         Once your group has sent and received a message, discuss the following questions.
     </p><ol>
     <li style="margin-bottom: 5px;"><b><span class="hover vocab yui-wk-div" data-id='Packet'>Packet</span> Order. </b> Does it matter whether the packets of a message arrive in order?  Explain how this set of protocols handles that. </li>
