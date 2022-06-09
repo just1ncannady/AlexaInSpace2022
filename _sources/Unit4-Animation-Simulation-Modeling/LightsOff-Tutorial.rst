@@ -72,7 +72,7 @@ Learning Activities
     <ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1hS57DObILtWguAbc6NSrJC6MSHDMow8Y7KzeCc63jPs/" target="_blank" title="">text-version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1CbF1qvDy9KcpUYYJvFRndJxCGbj190Q0UEWixlzQ0uw/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1CbF1qvDy9KcpUYYJvFRndJxCGbj190Q0UEWixlzQ0uw/view" target="_blank">short handout</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://www.youtube.com/watch?v=_zsR2gxFEhk" target="_blank">YouTube video</a></li>
 	<li style="display: inline"> | </li>
