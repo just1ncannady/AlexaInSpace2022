@@ -54,7 +54,7 @@ Survey
 
 	<p>Please log into Runestone and fill out the following survey. You do not have to answer any of the following questions, but if you do, it will give us valuable information about who is using this ebook. Your answers to all questions on this site will be used for educational research and to improve the ebook. Any identifying information, such as your name, will be removed from the data before it is analyzed and used in publications (<a href="https://runestone.academy/runestone/default/privacy">Runestone Academy Privacy Policy</a>).</p>
 	
-.. shortanswer:: mcsp-1-1-1
+.... shortanswer:: mcsp-1-1-1
 
     What is your name?
       
@@ -80,13 +80,14 @@ Survey
 .. poll:: mcsp-1-1-4
 	:option_1: Female
 	:option_2: Male
-	:option_3: Other
-	:option_4: Prefer not to answer
+	:option_3: Non-binary
+    :option_4: Other
+	:option_5: Prefer not to answer
 	
 	I am a:
 	
 .. poll:: mcsp-1-1-5
-	:option_1: Latino or Hispanic
+	:option_1: Latina/o or Hispanic
 	:option_2: American Indian or Alaska Native
 	:option_3: Asian
 	:option_4: Black or African-American
@@ -112,9 +113,9 @@ Survey
 
 .. shortanswer:: mcsp-1-1-7
 	
-	In what state do you attend school?
+	In what state do you reside?
 	
 .. shortanswer:: mcsp-1-1-8
 	
-	In what country do you attend school?
+	In what country do you reside?
 	
