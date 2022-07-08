@@ -377,14 +377,14 @@ Self-Check
     
 .. fillintheblank:: mcsp-3-2-7
 
-    What value will the variable dotsize have after the following sequence of blocks are executed?
+    What value will the variable ``dotsize`` have after the following sequence of blocks are executed?
 
     .. raw:: html
 
         <img class="yui-img" src="../_static/assets/img/dotsizesequence.png"/> |blank|
 
-    - :18: <img src="../_static/assets/img/dotsizesequence.png" class="yui-img"><br>This sequence of blocks performs the following actions on <i style="font-weight: bold;">dotsize.</i>&nbsp;When the variable is created (initialized) its initial value is 5. &nbsp;Its value is then set to 10 by the second block in the sequence. &nbsp;Its value is then set to 20 (10 + 10) by the third block in the sequence. &nbsp;Its value is then set to 18 (20 - 2) by the last block in the sequence.&nbsp;
-      :x: 
+    - :18: Correct! When the variable is created (initialized) its initial value is 5. Its value is then set to 10 by the second block in the sequence. Its value is then set to 20 (10 + 10) by the third block in the sequence. Its value is then set to 18 (20 - 2) by the last block in the sequence.
+      :x: Sorry, try again. Note that dotsize = 5 in the beginning and then it is set to 10. The next block adds 10 to its current value, and then the next block subtracts 2 from its current value.
 
 
 .. raw:: html
@@ -408,7 +408,7 @@ Self-Check
     :feedback_d: Let me add new information to help you solve this. Variables are more general and more abstract, but that's not the same as being vague.  We can always determine precisely what value a variable represents during the course of a program. 
     :correct: a,b,c
 
-    Using a variable is an example of abstraction because 
+    Using a variable is an example of abstraction because
 
 
 .. raw:: html
