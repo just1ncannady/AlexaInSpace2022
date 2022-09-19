@@ -71,6 +71,7 @@ Introduction and Goals
       </tr>       
       </tbody></table>  
     </div>
+    </div>
     
 Learning Activities
 --------------------
@@ -81,7 +82,7 @@ Learning Activities
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
 	<li style="display: inline"><a href="http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf#page=19" target="_blank" title=""> Blown to Bits Chapter 1</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/copy" target="_blank" title=""> Double Entry Journal Sheet</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1IiOfh052ziFDnYKTHA8gXjJvqHBfahLM5M0yQyM9lu8/copy" target="_blank" title=""> Double Entry Journal Sheet</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://docs.google.com/document/d/1t108otAa9_MFtFERsozLL0g-UXQkdAKfKotZgIhGCg0/copy" target="_blank" title=""> Technology Use Worksheet</a></li>
 	<li style="display: inline"> | </li>
@@ -97,7 +98,7 @@ Learning Activities
     <p>
     <p><b>Part 1:</b>
     </p><ol>
-    <li>Read pages 1-4 in Chapter One and Koan 4 about <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/copy" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
+    <li>Read pages 1-4 in Chapter One and Koan 4 about <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> on pages 8-9 to learn more about how quickly our world has become digital. As you read, use the <a href="https://docs.google.com/document/d/1IiOfh052ziFDnYKTHA8gXjJvqHBfahLM5M0yQyM9lu8/copy" target="_blank">Double Entry Journal</a> (File -- Make a copy for an editable version) to summarize and comment on at least four quotes or summarized ideas that the authors bring forward in this chapter. Discuss your quotes with your classmates.</li>
     <li>Watch the short video of Moore at the <a href="https://www.intel.com/content/www/us/en/silicon-innovations/moores-law-technology.html" target="_blank">Intel website</a>.
         </li><li>Below is an image that represents <span class="hover vocab yui-wk-div" data-id='Moore’s Law'>Moore's law</span> graphically - the observation that the number of transistors per square inch on integrated circuits had doubled every two years since their invention. This means the speed at which we can process digital <span class="hover vocab yui-wk-div" data-id='data'>data</span> increases exponentially. Discuss the graphic with your class.</li>
     </ol><br/>

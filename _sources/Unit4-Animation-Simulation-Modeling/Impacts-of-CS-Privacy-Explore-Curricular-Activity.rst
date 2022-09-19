@@ -80,7 +80,7 @@ Learning Activities
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://drive.google.com/open?id=1_4439HxJDBXbViBECySAQdRITEnSOPzs" target="_blank" title=""> Blown to Bits Chapter 2</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/a/css.edu/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/copy" target="_blank" title=""> Double Entry Journal Sheet</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/1IiOfh052ziFDnYKTHA8gXjJvqHBfahLM5M0yQyM9lu8/copy" target="_blank" title=""> Double Entry Journal Sheet</a></li>
 	</ul> 
 	
 	<p><h3>Careful, your data is being collected!</h3>
@@ -141,7 +141,7 @@ Learning Activities
     <p>Blown to Bits Chapter 2 focuses on the issue of how the digital explosion affects our privacy. This is an especially important issue for today's mobile computing generation. As we’ve seen, our smartphones and tablets can not only track our electronic correspondence, they can track our whereabouts, opening whole new areas of potential privacy infringements.</p>
     <p>What's especially interesting about the privacy question is that, for the most part, many seem to be willing to trade privacy for convenience. We don't mind letting the supermarket track our purchases if that brings us discounts. And we don't seem to mind letting mobile apps know and record our whereabouts in exchange for some service we like like GPS directions or even games.
     </p>
-    <p>Read <a href="https://drive.google.com/open?id=1_4439HxJDBXbViBECySAQdRITEnSOPzs" target="_blank" title="">Chapter 2 of the updated Blown to Bits</a> to learn about some of the ways our electronic devices impinge on our privacy — some of the stories will surely surprise you. As you read the chapter, complete a <a href="https://docs.google.com/a/css.edu/document/d/1zJ__6P0CvtL2CGAFzHF7T4tc6hRAkmhZPvGu7gdl_4o/edit?usp=sharing" target="_blank" title="">double entry journal sheet</a>. Once you've completed the chapter, discuss your journal entries with your class. You might want to read through the portfolio homework questions below for some key ideas to focus on.</p>
+    <p>Read <a href="https://drive.google.com/open?id=1_4439HxJDBXbViBECySAQdRITEnSOPzs" target="_blank" title="">Chapter 2 of the updated Blown to Bits</a> to learn about some of the ways our electronic devices impinge on our privacy — some of the stories will surely surprise you. As you read the chapter, complete a <a href="https://docs.google.com/document/d/1IiOfh052ziFDnYKTHA8gXjJvqHBfahLM5M0yQyM9lu8/copy" target="_blank" title="">double entry journal sheet</a>. Once you've completed the chapter, discuss your journal entries with your class. You might want to read through the portfolio homework questions below for some key ideas to focus on.</p>
 
 Summary
 --------
