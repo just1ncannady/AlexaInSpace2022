@@ -73,9 +73,9 @@ Learning Activities
 .. raw:: html
 
 	<ul align="center" style="list-style: none; margin: 0; padding: 0; background: lightgrey">
-	<li style="display: inline"><a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/edit?usp=sharing" target="_blank" title="">text-version</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/view" target="_blank" title="">text-version</a></li>
 	<li style="display: inline"> | </li>
-	<li style="display: inline"><a href="https://docs.google.com/document/d/18thDoU6Ru3v9TTxhGfELuvwagm3bTNFYh-iXchDntGw/edit?usp=sharing" target="_blank">short handout</a></li>
+	<li style="display: inline"><a href="https://docs.google.com/document/d/18thDoU6Ru3v9TTxhGfELuvwagm3bTNFYh-iXchDntGw/view" target="_blank">short handout</a></li>
 	<li style="display: inline"> | </li>
 	<li style="display: inline"><a href="https://www.youtube.com/watch?v=OoA8Q5v2sWg" target="_blank">YouTube video Part 1</a></li>
 	<li style="display: inline"><a href="https://teachertube.com/video/paint-pot-1-tutorial-476369" target="_blank" title="">TeacherTube video Part 1</a></li>
@@ -198,7 +198,7 @@ Learning Activities
 
 	<h3>Tutorial Part 2:  Varying the Size of the Dots</h3>
     <p>
-    <p>Watch the video tutorial below or click <a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/edit?usp=sharing" target="_blank"> here for the text version</a> of the tutorial.
+    <p>Watch the video tutorial below or click <a href="https://docs.google.com/document/d/164sPOhgX0uaTCyrWL-zxxKv_DdAA-IgVvOlU5vpYPPc/view" target="_blank"> here for the text version</a> of the tutorial.
     <br/>
       (<a href="https://upload.teachertube.com/video/paintpot2-varying-the-dotsize-478432" target="_blank" title="">TeacherTube version</a>)</p>
     

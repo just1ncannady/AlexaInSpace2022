@@ -118,7 +118,7 @@ Learning Activities
     </ul>
     <div class="pogil yui-wk-div">
     <h3>POGIL Activity for the Classroom (20 minutes)</h3> 
-      Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1W_6XvtYe5uWi5_ySrKcAv3UBr6Wbop1B7rPyR7UhVLM/edit" target="_blank">using this worksheet</a>. (File-Make a Copy to have a version you can edit.)
+      Break into POGIL teams of 4 and assign each team member one of the following roles. Record your answers <a href="https://docs.google.com/document/d/1W_6XvtYe5uWi5_ySrKcAv3UBr6Wbop1B7rPyR7UhVLM/copy" target="_blank">using this worksheet</a>.
         <table>
     <tbody><tr><th>Role</th><th>Responsibility</th></tr>
     <tr>
