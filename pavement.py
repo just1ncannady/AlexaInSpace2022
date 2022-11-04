@@ -15,7 +15,7 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-project_name = "mobilecsp"
+project_name = "alexainspace2022"
 
 master_url = None
 
@@ -23,7 +23,7 @@ if master_url is None:
     master_url = get_master_url()
 
 master_app = 'runestone'
-serving_dir = "./build/mobilecsp"
+serving_dir = "./build/alexainspace2022"
 
 # Change to False when running localhost; True before pushing to github
 dynamic_pages = True     # Do NOT push changes to this - must remain True on github
@@ -37,12 +37,12 @@ options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/mobilecsp",
+        builddir="./build/alexainspace2022",
         sourcedir="_sources",
-        outdir="./build/mobilecsp",
+        outdir="./build/alexainspace2022",
         confdir=".",
-        project_name = "mobilecsp",
-        template_args={'course_id': 'mobilecsp',
+        project_name = "alexainspace2022",
+        template_args={'course_id': 'alexainspace2022',
      'login_required':'false',
      'appname':master_app,
                        'loglevel': 10,
@@ -50,7 +50,7 @@ options(
                        'use_services': 'true',
                        'python3': 'false',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'mobilecsp',
+                       'basecourse': 'alexainspace2022',
                        # new 7/2019 changes
                        'dynamic_pages': dynamic_pages,
                        'downloads_enabled': 'false',
