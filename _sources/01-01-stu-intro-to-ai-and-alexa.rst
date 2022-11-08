@@ -1,6 +1,7 @@
 .. raw:: html
 
-   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
+   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../../_static/AlexaSpace_Logo.png" width="400px"/> </div>
+
    
 Lesson 1 - Introduction to AI in Space
 ========================================
@@ -38,7 +39,7 @@ Introduction and Goals
     <p>
     <table><tbody>
     <tr><td valign="top" colspan=2><p>In this lesson you will learn about <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span>. Although AI has been around since the 1950s, it is widely recognized now as one of the fastest-growing fields in technology. From ELIZA to <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span>, AI has become something we interact with every day, and will be a part of our daily life for the foreseeable future. Navigation apps, 3D photography, facial recognition, and smart assistants are just a few of the everyday uses for AI, and you’ll be introduced to more examples. But how can we define AI? And why is the use of AI being extended into space?</p></td></tr>
-    <tr><td valign="center"><img src="../_static/assets/img/AlexaInSpace.png" style="float:left"/>
+    <tr><td valign="center"><img src="../../_static/assets/img/AlexaInSpace.png" style="float:left"/>
     <td valign="top">
        <div><b>Learning Objectives:</b>&nbspI will learn to</div>
        <ul>

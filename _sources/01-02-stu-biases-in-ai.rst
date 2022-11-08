@@ -1,6 +1,7 @@
 .. raw:: html
 
-   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
+   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../../_static/AlexaSpace_Logo.png" width="400px"/> </div>
+
    
 Lesson 2 - Interacting with Alexa
 ==========================================
@@ -104,7 +105,7 @@ Learning Activities
 	<li><b>Utterance</b> - the command or question a user will speak to trigger a specific action as part of the skill</li>
 	</ul>
 	
-	<p><img class="align-center" src="../_static/assets/img/AlexaDialogue.png" width="250px"/></p>
+	<p><img class="align-center" src="../../_static/assets/img/AlexaDialogue.png" width="250px"/></p>
 	
 	<h3>Tutorial: Good Morning, Space!</h3>
     <p>Now let’s build out an Alexa skill. Get together with a partner - we will be using <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q" target="_blank">Pair Programming</a> to complete this program. To get started, open Alexa’s App Inventor and login with your Google account. Follow along with your teacher or the video tutorial to create the Good Morning Space Alexa Skill. Or, if you prefer, you can use the <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank">text version of the tutorial</a>.
