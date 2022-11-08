@@ -3,7 +3,7 @@
    <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
    
 Lesson 2 - Interacting with Alexa
-===========================
+==========================================
 
 .. raw:: html
 
@@ -28,7 +28,6 @@ Lesson 2 - Interacting with Alexa
               });
       });
     </script>
-    <img height="25" src="../_static/assets/img/time.png" style="float:left" width="25"/>
     <h3 id="est-length">Time Estimate: 90 minutes</h3>
  
 Introduction and Goals

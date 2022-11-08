@@ -1,64 +1,128 @@
 .. raw:: html 
 
-   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
-    
-==========================================
-Mobile CSP 
-==========================================
+   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../_static/Mobile_CSP_Logo_White_transparent.png" width="250px"/> </div>
+
+Unit Overview
+=================
 
 .. raw:: html
-	
-	<!-- <img align="left" src="../_static/assets/img/MobileCSPnewLogoSmall.png" style="padding-right:5px"> -->
-	<p>Welcome to Mobile CS Principles!</p>
-	
-	<p>Mobile Computer Science Principles (<a target="_blank" href="http://mobile-csp.org">Mobile CSP</a>) is an NSF-funded effort to provide a broad and rigorous introduction to computer science based on MIT App Inventor, a programming language for creating apps for mobile devices.  Mobile CSP is a program of the <a href="http://www.css.edu/csed" target="_blank">National Center for Computer Science Education</a>. Mobile CSP is an approved curriculum provider for the College Board's  Advanced Placement (AP) Computer Science Principles curriculum framework for introductory computer science.</p>
-	
-	<p>In Mobile CSP you will learn computer science by building socially useful mobile apps.  In addition to programming and computer science principles, Mobile CSP is project-based and emphasizes writing, communication, collaboration, and creativity. </p>
-	
-	<!-- <p><span style="background-color: yellow; font-weight: bold">UPDATE:</span> Mobile CSP is excited to be on Runestone Academy starting in August 2021! Read more about the transition at <a href="https://www.mobile-csp.org/migration" target="_blank">mobile-csp.org/migration</a>.</p>
-	
-	<p>ATTN: high school women, genderqueer, and non-binary technologists: Apply now for the NCWIT Award for Aspirations in Computing to be recognized for all that you do (or want to do) in technology. Visit <a href="http://www.aspirations.org/AiCHSAward" target="_blank">www.aspirations.org/AiCHSAward</a> for details. #NCWITAiC22 </p>
 
-	<p>ATTN high school women of color taking AP CSA or CSP: Apply for Sisters Rise Up, a free online mentorship program for women of color (Black, Latina, and/or Native American) who are taking an AP CSA or CSP course during the 2021-2022 school year.  This program is part of a research project, Sisters Rise Up, which studies ways to help women of color succeed in AP CS.  It offers free remote help sessions led by undergraduate students from the University of Michigan. Two one-hour remote help sessions are offered most weeks and a two-three hour remote help session is offered once a month.  If you take the AP CS exam and send in your score by the end of August you will receive a $100 gift card.  
-	If you are interested, please fill out contact information for a parent or guardian at <a href="https://forms.gle/4LfH8r28tw67iZd78" target="_blank">https://forms.gle/4LfH8r28tw67iZd78</a>.  </p>
-    -->
+        <div class="MCSP-lesson-content">
+    <script>
+    $(document).ready(function() {
+        generateBIEU('7');
+      Tipped.create('.vocab', function(element) {
+        var vocab = $(element).data('id');
+        return vocabulary[vocab];
+          }, {
+            cache: false,
+              position: 'topleft'
+              });
+    });
+    </script>
+    <!--Below is the studentized version of the overview from the official syllabus-->
+    <p class="overview">Artificial intelligence (AI) and machine learning are becoming more prominent in our everyday lives. For example, the use of voice-assistants like Amazon Alexa is growing increasingly popular as they make our lives easier and our homes smarter. You'll learn how AI involves using and manipulating data. But, what happens in space - thousands of miles from Earth? How can astronauts and others traveling in space use Alexa? Amazon has built an Alexa model that can work in space - on possible missions to the moon! Amazon Future Engineers and Mobile CSP have partnered to develop a space-themed unit on programming Alexa skills that will benefit people traveling in space. 
+
+	<br/>
+	<br/>
 	
-	<p><img align="left" src="https://www.nsf.gov/pubs/1998/nsf98142/nsf4c.jpg" width="32"> The material on this site is based upon work supported by the National Science Foundation under Grant Nos. CNS-1240841, CNS-1440947, CNS-1637601, CNS-1836990, CNS-1836983, CNS-1837112, and CNS-1837723. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
+	In this unit, you will explore the question of: How can inexperienced space travelers, such as tourists and those with little training in space travel, accomplish everyday tasks while experiencing gravitational environments different from the Earth (i.e., microgravity on the International Space Station)? You will learn about computer science concepts such as lists, procedures, and variables. You will write code using MIT’s App Inventor to program Amazon Alexa to help answer questions and perform important tasks in space. After completing the unit, you will be invited to participate in a Space Travel Challenge in May 2022. The CS Principles lessons focus on the concept of Big Data and its growing impact on our lives. You will be introduced to some of the algorithms needed to process massive datasets efficiently.
+    </p>
+    <br/>
+    <div class="yui-wk-div" id="overview"><!-- Generated by generateBIEU --></div>
+   
+    <!--2020 Vocab Table-->
+    <h3>Technical Terms</h3>Below is a table of all of the technical terms that you'll learn in this unit. You will find a vocabulary section similar to this at the end of each lesson. Hover over the terms to review the definitions. You'll be able to practice your knowledge of the vocabulary with a <a href="https://runestone.academy/runestone/books/published/mobilecsp/Unit7-Using-Analyzing-Data/Wrap-Up.html" target="_blank" title="">quizlet at the end of the unit</a>.
+    
+    <table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">Computer Science Principles</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="API">API</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="copyright">copyright</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="creative commons">creative commons</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="open access">open access</span><br/></td>
+	</tr>
+	</table>
 	
-	<p><b>License:</b>  Unless otherwise noted, the materials on this site are licensed under
-	  <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons 
-	    Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
-	
-	</p>
+	<table border align="left" width="100%" >
+    <tbody>
+	<tr>
+	<th style="text-align:center" colspan="3" bgcolor="#D3D3D3">General Computing</th>
+	</tr>
+    <tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="centralized">centralized</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="CSV files">CSV files</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="decentralized">decentralized</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="deep learning">deep learning</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="DMCA">DMCA</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="DRM">DRM</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="fair use">fair use</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="GeoJSON">GeoJSON</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="intent">intent</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="invocation">invocation</span><br/></td>
+	</tr><tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="JSON">JSON</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="microgravity">microgravity</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="neural network">neural network</span><br/></td>
+	</tr>
+	<tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="peer-to-peer">peer-to-peer</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="skill">skill</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="speech recognition">speech recognition</span><br/></td>
+	</tr>
+	<tr>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="utterances">utterances</span><br/></td>
+	<td width="30%"><span class="hover vocab yui-wk-div" data-id="wake word">wake word</span><br/></td>
+	</tr>
+	</table>
+    </div>
+	<div> </div>
 
 Table of Contents
 ::::::::::::::::::
 
-
-.. raw:: html
-
-	<ul>
-		<li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
-		<li><a href="Unit10-Additional-Resources/resources.html">Resources</a></li>
-	</ul>
-
-
 .. toctree::
-   :numbered:
-   :maxdepth: 2
+	:maxdepth: 0
+	
+	01-01-stu-intro-to-ai-and-alexa.rst
+	01-02-stu-biases-in-ai.rst
+	01-03-stu-ai-in-space-travel.rst
+	01-04-stu-artemis-alexa.rst
+	01-05-stu-wrap-up.rst
+	
+Self-Check
+-----------
 
-   Unit1-Getting-Started/toctree.rst
-   Unit2-Intro-to-Mobile-Apps/toctree.rst
-   Unit3-Creating-Graphics-Images/toctree.rst
-   Unit4-Animation-Simulation-Modeling/toctree.rst
-   Unit5-Algorithms-Procedural-Abstraction/toctree.rst
-   Unit6-Communication-Through-Internet/toctree.rst
-   Unit7-Using-Analyzing-Data/toctree.rst
-   Unit8-AP-Exam-Prep/toctree.rst
-   Unit9-Beyond-AP/toctree.rst
-   Unit10-Additional-Resources/toctree.rst
-   
+.. shortanswer:: vocab-ref-alexa.1.1
+	
+	Identify 1-2 vocabulary terms from the table above that you know and define them in your own words. If you don't know any of these words yet, that's ok! Instead, write 1-2 sentences on how you plan to practice learning the vocabulary for this unit.
+	
+.. shortanswer:: vocab-ref-alexa.1.2
+
+	Identify 1-2 vocabulary terms from the table above that you have heard before but don't know the definition for.
+	
+.. shortanswer:: vocab-ref-alexa.1.3
+
+	Identify 1-2 vocabulary terms from the table above that you don't know but want to learn in this unit.
+	
+	
+Reflection: For Your Portfolio
+-------------------------------
 
 .. raw:: html
-	
-	<p> <img align="left" src="_static/AlignCSBadge.png" style="padding-right:5px" height="100px"> Mobile CSP is a CSforALL partner and is aligned under the K12 CS Framework. </p>
+
+    <p><div class="yui-wk-div" id="portfolio">
+    <p>Answer the following portfolio reflection questions as directed by your instructor. Questions are also available in this <a href="https://docs.google.com/document/d/1yRuMynaOfK35rFE1a50Ci859ETebV5Fjm1WUCCF1FmY/copy" target="_blank">Google Doc</a> - you will be prompted to make your own editable copy.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQ_HBxohjEp6LRFTvRoUNiKyZshstbAQMQOmEhFWp2pHANiQiYgjvOFw8lwJG6Ur37vaAHRGYnTZ_L-/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    </div>
+    </img></div>
