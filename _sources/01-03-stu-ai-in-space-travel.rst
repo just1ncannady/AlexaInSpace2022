@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="logo-header"  id="student-logo"  > <img class="align-center" src="../../_static/AlexaSpace_Logo.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
    
 Lesson 3 - What's it like to be in space?

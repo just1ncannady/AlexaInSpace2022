@@ -38,6 +38,12 @@ div#teacher-logo {
   background-color: #70D549;
 }
 
-div#student-logo { 
-  background-color: #00B3E3;
+.student-logo { 
+  background-image: url(../AlexaSpace_Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 175px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
