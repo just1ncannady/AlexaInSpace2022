@@ -51,8 +51,6 @@ Introduction and Goals
        <div><b>Language Objectives:</b>&nbspI will be able to describe the impact that AI has on society using using target vocabulary such as: </div>
        <ul>
 		<li><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span></li>
-		<li><span class="hover vocab yui-wk-div" data-id="machine learning">machine learning</span></li>
-		<li><span class="hover vocab yui-wk-div" data-id="bias">bias</span></li>
 		<li><span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span></li>
 		
        </ul>
@@ -154,8 +152,6 @@ Learning Activities
 	<h3>Discussion: Alexas as AI</h3>
 	<p>So far in this lesson, you have defined <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> and explored examples of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. Sometimes, an <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technology will incorporate other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> systems or technologies to function. In this video, you will explore how speech recognition functions in conjunction with other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technologies. As you watch the video, write down reasons that Amazon <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> devices are considered to be <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
 	
-	<h4>How speech recognition works in under 4 minutes (<strong style="background-color: yellow;">YouTube ID Needed</strong>)</h4>
-	
 .. youtube:: iNbOOgXjnzE
 	:width: 650
 	:height: 415
@@ -167,9 +163,7 @@ Learning Activities
 	
 	<p>Alexa uses <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> to build on preprogrammed skills, speech recognition, and speech synthesis to interact with humans to improve productivity. In the next lesson, you will begin exploring how you will be able to build your own <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> skill. This video introduces some words that will be necessary to begin building your skill. As you watch the video, listen for the terms wake word, intent, and utterance.</p>
 	
-	<h4>Hour of Code AI 2022: Voice AI Basics (<strong style="background-color: yellow;">YouTube ID Needed</strong>)</h4>
-	
-.. youtube:: iNbOOgXjnzE
+.. youtube:: 0wqCo7SHiB4
 	:width: 650
 	:height: 415
 	:align: center
