@@ -1,7 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
-
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
    
 Lesson 1 - Intro to AI and Alexa
 ========================================
@@ -9,7 +8,6 @@ Lesson 1 - Intro to AI and Alexa
 .. raw:: html
 
     <style>    td { text-align: left; padding: 5px;}</style>
-
 
 .. raw:: html
 
@@ -84,8 +82,8 @@ Learning Activities
     <p><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">Artificial Intelligence (AI)</span> is the simulation of human intelligence by machines. It is a process of programming a computer to make decisions for itself. This video explores the 5 big ideas associated with <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. As you watch the video, write down ways that you can identify <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
     
 .. youtube:: iNbOOgXjnzE
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 	
 .. raw:: html
@@ -102,18 +100,24 @@ Learning Activities
 	
 .. tabbed:: alexa-tabgroup-1-1
 
-	.. tab:: Example 1
-	
+	.. tab:: Example 1: Automatic Door
+
+		.. raw:: html
+		
+			<img src="_static/assets/img/isitai1.png" alt="People leaving a store through an automatic door" />
+			
 		.. mchoice:: alexa-1-1-2
 			:random:
 			:practice: T
-			:answer_a: 
-			:answer_b: 
-			:answer_c: 
-			:answer_d: 
+			:answer_a: Yes
+			:answer_b: No
+			:answer_c: It Depends
+			:feedback_a: It depends. If the automatic door using was using facial recognition to operate, it would be an example of AI. If it is just using a sensor to determine if something is there or not, then it would not be an example of AI.
+			:feedback_b: It depends. If the automatic door using was using facial recognition to operate, it would be an example of AI. If it is just using a sensor to determine if something is there or not, then it would not be an example of AI.
+			:feedback_c: It depends. If the automatic door using was using facial recognition to operate, it would be an example of AI. If it is just using a sensor to determine if something is there or not, then it would not be an example of AI.
 			:correct: c
 			
-			EXAMPLE 1 MC GOES HERE
+			Is this an example of AI?
 
 	.. tab:: Example 2
 	
@@ -147,8 +151,8 @@ Learning Activities
 	<p>So far in this lesson, you have defined <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> and explored examples of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. Sometimes, an <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technology will incorporate other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> systems or technologies to function. In this video, you will explore how speech recognition functions in conjunction with other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technologies. As you watch the video, write down reasons that Amazon <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> devices are considered to be <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
 	
 .. youtube:: iNbOOgXjnzE
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 
 .. raw:: html
@@ -158,8 +162,8 @@ Learning Activities
 	<p>Alexa uses <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> to build on preprogrammed skills, speech recognition, and speech synthesis to interact with humans to improve productivity. In the next lesson, you will begin exploring how you will be able to build your own <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> skill. This video introduces some words that will be necessary to begin building your skill. As you watch the video, listen for the terms wake word, intent, and utterance.</p>
 	
 .. youtube:: 0wqCo7SHiB4
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 
 	
@@ -181,17 +185,3 @@ Reflection
 .. shortanswer:: alexa-1-1-7
 
 	In what ways to you think AI will be used in space?	
-
-	
-Still Curious?
----------------
-
-.. raw:: html
-	
-	<ul>
-		<li>ELIZA was one of the <a href="https://web.njit.edu/~ronkowit/eliza.html">first natural language processing programs</a>.</li>
-		<li><a href="https://deepmind.com/">DeepMind</a> is a project run by Google and a team of engineers and computer scientists working to “help society find answers to some of the world’s most pressing and fundamental scientific challenges.</li>
-		<li>Curious about <a href="https://www.lucidpix.com/10-examples-of-artificial-intelligence-in-our-everyday-lives/">AI in our everyday lives</a>?</li>
-		<li>AI can be used for creating <a href="https://www.zdnet.com/article/nixons-grim-moon-disaster-speech-is-a-now-a-warning-about-the-deepfake-future/?ftag=TRE-03-10aaa6b&bhid=%7B%24external_id%7D&mid=%7B%24MESSAGE_ID%7D&cid=%7B%24contact_id%7D&eh=%7B%24CF_emailHash%7D">“deep fake” videos</a>, which can be confusing and misleading for those who are  unaware that they are not real.</li>
-		<li>Build your own voice AI with <a href="https://wiki.almond.stanford.edu/">Stanford's Genie</a>.</li>
-	</ul>

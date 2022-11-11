@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
    
 Lesson 3 - AI in Space Travel
@@ -59,8 +59,8 @@ Learning Activities
 	<p>In this lesson, you will be exploring more about the milestones in the Artemis space program. After gathering information, you modify an Alexa skill to teach others about Artemis 1. This video will provide relevant facts you will need to complete the Alexa skill for this lesson. As you watch, write down at least 3 facts about the Artemis space program.</p>
 	
 .. youtube:: wKwoBudYIiI
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 
 .. shortanswer:: alexa-1-3-1
@@ -86,28 +86,28 @@ Learning Activities
 		.. raw:: html
 		
 			<p>Add 3 utterances in the Designer Editor, under the Properties tab. Remember to click Add after typing each utterance.</p>
-			<img src="DesignEditor.png" alt="Adding utterances in the Properties for the IntentAboutSpace component" />
+			<img src="_static/assets/img/DesignEditor.png" alt="Adding utterances in the Properties for the IntentAboutSpace component" />
 			
 	.. tab:: Step 2: Creating Space Facts List
 	
 		.. raw:: html
 			
-			<p>Navigate to the Blocks Editor and add your Artemis space facts to the list. You may need to drag more <img src="blankStringBlock.png" alt="Blank String Block" />blocks to fill in the empty spaces on the list. You can find those in the Text drawer on the left side of the browser.</p>
-			<img src="CreatingSpaceListBlocks.png" alt="Steps to create list for space facts" />
+			<p>Navigate to the Blocks Editor and add your Artemis space facts to the list. You may need to drag more <img src="_static/assets/img/blankStringBlock.png" alt="Blank String Block" />blocks to fill in the empty spaces on the list. You can find those in the Text drawer on the left side of the browser.</p>
+			<img src="_static/assets/img/CreatingSpaceListBlocks.png" alt="Steps to create list for space facts" />
 			
 	.. tab:: Step 3: Randomize Fact Selection
 	
 		.. raw:: html
 			
-			<p>Using the <img src="getBlock.png" alt="get block" /> block, set the list for the <img src="pickRandomListItemBlock.png" alt="pick a random item in list block" /> block to be <span style="font-family: monospace;">global factsList</span>. Together, these blocks will pick a random space fact that Alexa will tell you each time you use the utterance.
-			<img src="FindGetBlock.png" alt="locating get block in code drawer" />
+			<p>Using the <img src="_static/assets/img/getBlock.png" alt="get block" /> block, set the list for the <img src="_static/assets/img/pickRandomListItemBlock.png" alt="pick a random item in list block" /> block to be <span style="font-family: monospace;">global factsList</span>. Together, these blocks will pick a random space fact that Alexa will tell you each time you use the utterance.
+			<img src="_static/assets/img/FindGetBlock.png" alt="locating get block in code drawer" />
 			
 	.. tab:: Step 4: Congrats!
 	
 		.. raw:: html
 		
 			<p>Congrats! You’ve completed this Alexa skill! Test your new skill by clicking Send Updates and then with the utterances you created. By clicking the microphone button, you can speak to your Alexa. Alternatively, you can type your statement in the box.</p>
-			<img src="	" alt="identifying microphone and textbox to send updates to the Alexa skills" />
+			<img src="_static/assets/img/TestingAlexaSkill.png" alt="identifying microphone and textbox to send updates to the Alexa skills" />
 	
 .. raw:: html
 	

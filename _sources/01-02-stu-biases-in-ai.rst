@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
    
 Lesson 2 - Biases in AI
@@ -60,8 +60,8 @@ Learning Activities
 	
 	
 .. youtube:: iNbOOgXjnzE
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 
 .. raw:: html
@@ -71,8 +71,8 @@ Learning Activities
 	
 	
 .. youtube:: bWOUw8omUVg
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 
 .. raw:: html
@@ -87,27 +87,27 @@ Learning Activities
 		.. raw:: html
 		
 			<p>This is an example of a dialogue with Alexa. Sarah wants Alexa to turn on the lights.</p>
-			<img src="alexaDialogue1.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
+			<img src="_static/assets/img/alexaDialogue1.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 
 	.. tab:: Example 2
 
 		.. raw:: html
 		
 			<p>The <strong>wake word</strong> is a word that causes the device to begin recording a user's request. In this example, Sarah uses <strong>Alexa</strong> as the wake word.</p> 
-			<img src="alexaDialogue2.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
+			<img src="_static/assets/img/alexaDialogue2.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 
 	.. tab:: Example 3
 
 		.. raw:: html
 			<p>The <strong>utterance</strong> is the command or question a user will speak to trigger a specific action as part of the skill. Sarah uses turn up the lights to indicate that she wants the lights to turn on.</p>
-			<img src="alexaDialogue3.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
+			<img src="_static/assets/img/alexaDialogue3.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 
 	.. tab:: Example 4
 
 		.. raw:: html
 		
 			<p>The <strong>intent</strong> is the desired response. Sarah wanted Alexa to <strong>turn on the lights</strong> - this is Sarah’s intent. Along with turning on the lights, Alexa responded saying the intent.</p>
-			<img src="alexaDialogue4.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
+			<img src="_static/assets/img/alexaDialogue4.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 			
 .. raw:: html
 	
@@ -139,7 +139,7 @@ Learning Activities
     
 .. shortanswer:: alexa-2-2-3
 
-	What is the intent of the Good Morning, Space skill?
+  What is the intent of the Good Morning, Space skill?
 	
 
 .. raw:: html
@@ -170,7 +170,6 @@ Reflection
 .. shortanswer:: alexa-2-2-7
 		
 	As you supply more information to Alexa, what types of biases might you unintentionally “teach” it?
-
 
 .. shortanswer:: alexa-2-2-8
 	

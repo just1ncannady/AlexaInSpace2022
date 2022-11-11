@@ -26,7 +26,7 @@ master_app = 'runestone'
 serving_dir = "./build/alexainspace2022"
 
 # Change to False when running localhost; True before pushing to github
-dynamic_pages = True     # Do NOT push changes to this - must remain True on github
+dynamic_pages = False     # Do NOT push changes to this - must remain True on github
 
 if dynamic_pages:
     dest = './published'
