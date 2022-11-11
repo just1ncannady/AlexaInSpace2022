@@ -62,8 +62,8 @@ Learning Activities
     <p>In this lesson, you will be exploring the challenges that exist in space exploration. This video will introduce you to the Artemis Space Program as well as some of the concepts you will learn in this unit. As you watch, write down some difficulties astronauts may encounter while traveling in space.</p>
 
 .. youtube:: 9Ep8sJ7qj6k
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 	
 .. mchoice:: alexa-1-1-1

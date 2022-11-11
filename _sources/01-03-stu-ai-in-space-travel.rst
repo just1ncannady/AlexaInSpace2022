@@ -3,7 +3,7 @@
    <div class="student-logo"> <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
    
-Lesson 3 - What's it like to be in space?
+Lesson 3 - AI in Space Travel
 ==================================================
 
 .. raw:: html
@@ -13,7 +13,7 @@ Lesson 3 - What's it like to be in space?
 
 .. raw:: html
 
-        <div class="MCSP-lesson-content">
+    <div class="MCSP-lesson-content">
     <script>
       $(document).ready(function() {
         

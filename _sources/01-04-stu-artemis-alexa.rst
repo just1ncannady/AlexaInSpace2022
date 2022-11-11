@@ -3,7 +3,7 @@
    <div class="student-logo"> <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
    
-Lesson 4 - Meals in Space
+Lesson 4 - Artemis Brings Alexa
 ======================================
 
 .. raw:: html
@@ -29,7 +29,7 @@ Lesson 4 - Meals in Space
               });
       });
     </script>
-    <h3 id="est-length">Time Estimate: 90 minutes</h3>
+    <h3 id="est-length">Time Estimate: 45 minutes</h3>
  
 Introduction and Goals
 -----------------------
