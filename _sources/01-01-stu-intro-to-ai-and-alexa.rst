@@ -36,28 +36,22 @@ Introduction and Goals
 
 .. raw:: html
 
-    <p>
-    <table><tbody>
-    <tr><td valign="top" colspan=2><p>In this lesson you will learn about <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span>. Although AI has been around since the 1950s, it is widely recognized now as one of the fastest-growing fields in technology. From ELIZA to <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span>, AI has become something we interact with every day, and will be a part of our daily life for the foreseeable future. Navigation apps, 3D photography, facial recognition, and smart assistants are just a few of the everyday uses for AI, and you’ll be introduced to more examples. But how can we define AI? And why is the use of AI being extended into space?</p></td></tr>
-    <tr><td valign="center"><img src="../../_static/assets/img/AlexaInSpace.png" style="float:left"/>
-    <td valign="top">
-       <div><b>Learning Objectives:</b>&nbspI will learn to</div>
-       <ul>
-		   <li>Define <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> (AI) and voice AI</li>
-		   <li>Identify systems that use AI based on the 5 Big Ideas in AI</li>
-		   <li>Explain how <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> is an example of AI</li>
-		   <li>Identify how Alexa can be used to perform basic tasks</li>
-	   </ul>
-       <div><b>Language Objectives:</b>&nbspI will be able to describe the impact that AI has on society using using target vocabulary such as: </div>
+    <p>In this lesson you will learn about <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span>. Although AI has been around since the 1950s, it is widely recognized now as one of the fastest-growing fields in technology. From ELIZA to <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span>, AI has become something we interact with every day, and will be a part of our daily life for the foreseeable future. Navigation apps, 3D photography, facial recognition, and smart assistants are just a few of the everyday uses for AI, and you’ll be introduced to more examples. But how can we define AI? And why is the use of AI being extended into space?</p>
+ 
+ 	<p><strong>Learning Objectives:</strong>At the end of this lesson, you will be able to:</p>
+ 	<ul>
+		<li>Define <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> (AI) and voice AI</li>
+		<li>Identify systems that use AI based on the 5 Big Ideas in AI</li>
+		<li>Explain how <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> is an example of AI</li>
+		<li>Identify how Alexa can be used to perform basic tasks</li>
+	</ul>
+    
+    <p><strong>Language Objectives:</strong>At the end of this lesson, you will be able to describe the impact that AI has on society using using target vocabulary such as: </p>
        <ul>
 		<li><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span></li>
 		<li><span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span></li>
 		
-       </ul>
-    </td>
-    </tr>
-    </tbody></table>
-    <br/>    
+       </ul> 
 
 Learning Activities
 --------------------
