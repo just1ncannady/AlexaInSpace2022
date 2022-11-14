@@ -99,6 +99,7 @@ Learning Activities
 	.. tab:: Example 3
 
 		.. raw:: html
+			
 			<p>The <strong>utterance</strong> is the command or question a user will speak to trigger a specific action as part of the skill. Sarah uses turn up the lights to indicate that she wants the lights to turn on.</p>
 			<img src="_static/assets/img/alexaDialogue3.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 

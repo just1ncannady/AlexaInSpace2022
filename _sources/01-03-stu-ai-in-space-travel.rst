@@ -92,14 +92,14 @@ Learning Activities
 	
 		.. raw:: html
 			
-			<p>Navigate to the Blocks Editor and add your Artemis space facts to the list. You may need to drag more <img src="_static/assets/img/blankStringBlock.png" alt="Blank String Block" />blocks to fill in the empty spaces on the list. You can find those in the Text drawer on the left side of the browser.</p>
+			<p>Navigate to the Blocks Editor and add your Artemis space facts to the list. You may need to drag more <img src="_static/assets/img/blankStringBlock.png" alt="Blank String Block" style="width: 50px" /> blocks to fill in the empty spaces on the list. You can find those in the Text drawer on the left side of the browser.</p>
 			<img src="_static/assets/img/CreatingSpaceListBlocks.png" alt="Steps to create list for space facts" />
 			
 	.. tab:: Step 3: Randomize Fact Selection
 	
 		.. raw:: html
 			
-			<p>Using the <img src="_static/assets/img/getBlock.png" alt="get block" /> block, set the list for the <img src="_static/assets/img/pickRandomListItemBlock.png" alt="pick a random item in list block" /> block to be <span style="font-family: monospace;">global factsList</span>. Together, these blocks will pick a random space fact that Alexa will tell you each time you use the utterance.
+			<p>Using the <img src="_static/assets/img/getBlock.png" alt="get block" style="width: 75px" /> block, set the list for the <img src="_static/assets/img/pickRandomListItemBlock.png" alt="pick a random item in list block" style="width: 175px" /> block to be <span style="font-family: monospace;">global factsList</span>. Together, these blocks will pick a random space fact that Alexa will tell you each time you use the utterance.
 			<img src="_static/assets/img/FindGetBlock.png" alt="locating get block in code drawer" />
 			
 	.. tab:: Step 4: Congrats!

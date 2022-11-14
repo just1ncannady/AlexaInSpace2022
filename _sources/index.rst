@@ -20,7 +20,10 @@ Table of Contents
 ::::::::::::::::::
 
 .. toctree::
-   :numbered:
-   :maxdepth: 2
-	
-	toctree.rst
+   :maxdepth: 0
+   
+   01-01-stu-intro-to-ai-and-alexa.rst
+   01-02-stu-biases-in-ai.rst
+   01-03-stu-ai-in-space-travel.rst
+   01-04-stu-artemis-alexa.rst
+   01-05-stu-wrap-up.rst
