@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
 
    
 Lesson 2 - Biases in AI
@@ -29,7 +29,7 @@ Lesson 2 - Biases in AI
               });
       });
     </script>
-    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    <p id="est-length" aria-label="time estimate icon"><b>Time Estimate: 45 minutes</b></p>
  
 Introduction and Goals
 -----------------------
@@ -57,9 +57,9 @@ Learning Activities
 	
 	<h3>Discussion: Introduction</h3>
 	<p>In this lesson, you will be exploring the concept of <span class="hover vocab yui-wk-div" data-id="bias">biases</span> in AI. This video will provide an anecdote of how biases can be introduced in computer devices. As you watch, write down some issues you have heard about Voice AI (like Amazon Alexa or Apple Siri).</p>
+
 	
-	
-.. youtube:: iNbOOgXjnzE
+.. youtube:: nwPtcqcqz00
 	:width: 560
 	:height: 315
 	:align: center
@@ -82,28 +82,28 @@ Learning Activities
     
 .. tabbed:: alexa-tabgroup-1-2
 
-	.. tab:: Example 1
+	.. tab:: Example Dialogue
 
 		.. raw:: html
 		
 			<p>This is an example of a dialogue with Alexa. Sarah wants Alexa to turn on the lights.</p>
 			<img src="_static/assets/img/alexaDialogue1.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 
-	.. tab:: Example 2
+	.. tab:: Wake Word
 
 		.. raw:: html
 		
 			<p>The <strong>wake word</strong> is a word that causes the device to begin recording a user's request. In this example, Sarah uses <strong>Alexa</strong> as the wake word.</p> 
 			<img src="_static/assets/img/alexaDialogue2.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 
-	.. tab:: Example 3
+	.. tab:: Utterence
 
 		.. raw:: html
 			
 			<p>The <strong>utterance</strong> is the command or question a user will speak to trigger a specific action as part of the skill. Sarah uses turn up the lights to indicate that she wants the lights to turn on.</p>
 			<img src="_static/assets/img/alexaDialogue3.png" alt="Alexa, can you turn up the lights?" "Ok, Sarah, I will turn the lights on" />
 
-	.. tab:: Example 4
+	.. tab:: Intent
 
 		.. raw:: html
 		

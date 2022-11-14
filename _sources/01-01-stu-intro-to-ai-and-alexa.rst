@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
    
 Lesson 1 - Intro to AI and Alexa
 ========================================
@@ -27,7 +27,7 @@ Lesson 1 - Intro to AI and Alexa
               });
       });
     </script>
-    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    <p id="est-length" aria-label="time estimate icon"><b>Time Estimate: 45 minutes</b></p>
  
 Introduction and Goals
 -----------------------
@@ -119,32 +119,63 @@ Learning Activities
 			
 			Is this an example of AI?
 
-	.. tab:: Example 2
+	.. tab:: Example 2: Automatic Captioning
 	
+		.. raw:: html
+		
+			<img src="_static/assets/img/isitai2.png" alt="Two men having a conversation in a lobby with the caption "We can do automatic captioning in real time?"" />
+
 		.. mchoice:: alexa-1-1-3
 			:random:
 			:practice: T
-			:answer_a: 
-			:answer_b: 
-			:answer_c: 
-			:answer_d: 
-			:correct: c
+			:answer_a: Yes
+			:answer_b: No
+			:answer_c: It Depends
+			:feedback_a: Yes, the application is using AI. It processes a lot of data to find patterns in the words to understand what the person is saying. The application goes beyond just recording and playing back what is being said.
+			:feedback_b: Yes, the application is using AI. It processes a lot of data to find patterns in the words to understand what the person is saying. The application goes beyond just recording and playing back what is being said.
+			:feedback_c: Yes, the application is using AI. It processes a lot of data to find patterns in the words to understand what the person is saying. The application goes beyond just recording and playing back what is being said.
+			:correct: a
 			
-			EXAMPLE 2 MC GOES HERE
+			Is this an example of AI?
 		
-	.. tab:: Example 3
+	.. tab:: Example 3: Remote-Controlled Drone
 	
+		.. raw:: html
+		
+			<img src="_static/assets/img/isitai3.png" alt="woman using a remote control to fly a drone" />
+
 		.. mchoice:: alexa-1-1-4
 			:random:
 			:practice: T
-			:answer_a: 
-			:answer_b: 
-			:answer_c: 
-			:answer_d: 
+			:answer_a: Yes
+			:answer_b: No
+			:answer_c: It Depends
+			:feedback_a: It depends. The thinking is happening with the person who is controlling the drone, so that part is not AI. However, if the drone can recognize objects or sense when it is close to something and decide to move in a specific direction, then that part is AI.
+			:feedback_b: It depends. The thinking is happening with the person who is controlling the drone, so that part is not AI. However, if the drone can recognize objects or sense when it is close to something and decide to move in a specific direction, then that part is AI.
+			:feedback_c: It depends. The thinking is happening with the person who is controlling the drone, so that part is not AI. However, if the drone can recognize objects or sense when it is close to something and decide to move in a specific direction, then that part is AI.
 			:correct: c
 			
-			EXAMPLE 3 MC GOES HERE
+			Is this an example of AI?
 		
+	.. tab:: Example 4: Medical Chatbot 
+	
+		.. raw:: html
+		
+			<img src="_static/assets/img/isitai4.png" alt="illustration showing a cellphone with texts and a robot responding in background" />
+			
+		.. mchoice:: alexa-1-1-5
+			:random:
+			:practice: T
+			:answer_a: Yes
+			:answer_b: No
+			:answer_c: It Depends
+			:feedback_a: Yes, this would be an example of AI. The chatbot (presumably) understands what the person is saying and responding – it is not responding based on a choice/rule.
+			:feedback_b: Yes, this would be an example of AI. The chatbot (presumably) understands what the person is saying and responding – it is not responding based on a choice/rule.
+			:feedback_c: Yes, this would be an example of AI. The chatbot (presumably) understands what the person is saying and responding – it is not responding based on a choice/rule.
+			:correct: a
+			
+			Is this an example of AI?
+
 .. raw:: html
 
 	<h3>Discussion: Alexas as AI</h3>
@@ -174,14 +205,14 @@ Reflection
 	
 	<p>Now that you understand the vast capability of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> to help with productivity here on Earth, you can appreciate how this technology has the potential to be used in space.  In the next lesson, you will explore how <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> is currently being used in space and some of the ways it could be used in the future. For now, reflect on what you have learned in this lesson.</p>
 	
-.. shortanswer:: alexa-1-1-5
+.. shortanswer:: alexa-1-1-6
 
 	A friend tells you that they do not believe that they have ever used AI. First, in your own words, explain to them what it is, and then tell them how they might have used AI and not even have known it.
 
-.. shortanswer:: alexa-1-1-6
+.. shortanswer:: alexa-1-1-7
 
 	How do you use AI in your daily life?
 	
-.. shortanswer:: alexa-1-1-7
+.. shortanswer:: alexa-1-1-8
 
 	In what ways to you think AI will be used in space?	

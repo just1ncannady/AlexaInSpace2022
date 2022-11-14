@@ -1,10 +1,10 @@
 h1, h2 { 
-    color:  #70d549; 
-    border-bottom: 5px groove #00b3e3;
+    color:  #212A4D; 
+    border-bottom: 5px groove #494965;
 }
 
 strong {
-    color:  #0550FF; /*#1E90FF;  #00b3e3*/
+    color:  #251E26; /*#1E90FF;  #00b3e3*/
     background-color: ghostwhite;
     font-weight: bolder;
 }
@@ -35,7 +35,7 @@ div.logo-header {
 
 
 div#teacher-logo { 
-  background-color: #70D549;
+  background-color: #212A4D;
 }
 
 .student-logo { 

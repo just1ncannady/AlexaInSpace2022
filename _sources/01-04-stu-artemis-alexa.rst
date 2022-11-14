@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
 
    
 Lesson 4 - Artemis Brings Alexa
@@ -29,7 +29,7 @@ Lesson 4 - Artemis Brings Alexa
               });
       });
     </script>
-    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    <p id="est-length" aria-label="time estimate icon"><b>Time Estimate: 45 minutes</b></p>
  
 Introduction and Goals
 -----------------------
@@ -62,8 +62,8 @@ Learning Activities
 	<p>In this lesson, you will be imagining how Alexa could be used in space travel. This video provides some examples of how voice AI could be used in space travel. As you watch, think about other Alexa function that could help with space travel.</p>
 	
 .. youtube:: E1gIkzIjJ6M
-	:width: 650
-	:height: 415
+	:width: 560
+	:height: 315
 	:align: center
 	
 .. raw:: html

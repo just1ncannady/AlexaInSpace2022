@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
 
    
 Lesson 3 - AI in Space Travel
@@ -29,7 +29,7 @@ Lesson 3 - AI in Space Travel
               });
       });
     </script>
-    <h3 id="est-length">Time Estimate: 45 minutes</h3>
+    <p id="est-length" aria-label="time estimate icon"><b>Time Estimate: 45 minutes</b></p>
  
 Introduction and Goals
 -----------------------
