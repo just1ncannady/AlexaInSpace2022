@@ -4,7 +4,7 @@ h1, h2 {
 }
 
 strong {
-    color:  #251E26; /*#1E90FF;  #00b3e3*/
+    color:  blue; /*#1E90FF;  #00b3e3*/
     background-color: ghostwhite;
     font-weight: bolder;
 }
@@ -46,4 +46,10 @@ div#teacher-logo {
   height: 175px;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+}
+
+.nav-table{
+  padding: 3px;
+	border: 0px;
+  text-align: center; 
 }

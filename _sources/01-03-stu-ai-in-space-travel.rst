@@ -1,9 +1,22 @@
 .. raw:: html
 
    <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
-
+   	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   	<div align-center class="w3-show-inline-block">
+		<div class="w3-bar w3-light-grey">
+		<table style="width:100%">
+			<tr>
+			<td style="width:20%"><a href="index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
+			<td style="width:20%"><a href="01-01-stu-intro-to-ai-and-alexa.html" class="w3-bar-item w3-button">Lesson 1: Intro to AI and Alexa</a></td>
+			<td style="width:20%"><a href="01-02-stu-biases-in-ai.html" class="w3-bar-item w3-button">Lesson 2: Biases in AI</a></td>
+			<td style="width:20%"><a href="01-03-stu-ai-in-space-travel.html" class="w3-bar-item w3-button w3-dark-grey">Lesson 3: AI in Space Travel</a></td>
+			<td style="width:20%"><a href="01-04-stu-artemis-alexa.html" class="w3-bar-item w3-button">Lesson 4: Artemis Brings Alexa</a></td>
+			</tr>
+		</table>
+		</div>
+	</div>
    
-Lesson 3 - AI in Space Travel
+Lesson 3: AI in Space Travel
 ==================================================
 
 .. raw:: html
@@ -40,14 +53,17 @@ Introduction and Goals
     	
     <p><strong>Learning:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
-    	<li>Identify 3 milestones that are happening with NASA’s Artemis Program.</li>
-		<li>Modify an existing Alexa skill in MIT App Inventor by changing the intents, utterances, and endpoint functions.</li>
+    	<li>Identify 3 milestones that are happening with NASA’s Artemis space program.</li>
+		<li>Modify an existing Alexa skill in MIT App Inventor by changing the utterances, intent, and function.</li>
     </ul>
     
     <p><strong>Language Objectives:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
-    
+		<li>Describe in writing at least 3 facts about the Artemis space program.</li>
+		<li>Orally discuss ideas for a new Alexa skill.</li>
     </ul>
+
+::::::::::::::::::
 
 Learning Activities
 --------------------
@@ -67,6 +83,8 @@ Learning Activities
 	
 	What were at least 3 facts you have learned about the Artemis space program during this unit?
 	
+::::::::::::::::::
+
 .. raw:: html
 
 	<h3>Activity: Good Morning, Space!</h3>
@@ -109,6 +127,8 @@ Learning Activities
 			<p>Congrats! You’ve completed this Alexa skill! Test your new skill by clicking Send Updates and then with the utterances you created. By clicking the microphone button, you can speak to your Alexa. Alternatively, you can type your statement in the box.</p>
 			<img src="_static/assets/img/TestingAlexaSkill.png" alt="identifying microphone and textbox to send updates to the Alexa skills" />
 	
+::::::::::::::::::
+
 .. raw:: html
 	
 	<h3>Discussion: Creating a New Skill</h3>
@@ -122,6 +142,7 @@ Learning Activities
 		<li>Group Idea Expansion - Write some of your ideas on Post-It notes to be shared with your group. Write down any additional ideas that you think of after seeing your group’s ideas.</li>
 	</ol>
 	
+::::::::::::::::::
 
 Reflection
 -------------------------------
@@ -137,3 +158,5 @@ Reflection
 .. shortanswer:: alexa1-3-3
 
 	What ideas did you come up with as you brainstormed today for your Alexa skill?
+
+::::::::::::::::::

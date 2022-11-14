@@ -1,8 +1,23 @@
 .. raw:: html
 
-   <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
-   
-Lesson 1 - Intro to AI and Alexa
+   	<div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
+   	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   	<div align-center class="w3-show-inline-block">
+		<div class="w3-bar w3-light-grey">
+		<table style="width:100%">
+			<tr>
+			<td style="width:20%"><a href="index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
+			<td style="width:20%"><a href="01-01-stu-intro-to-ai-and-alexa.html" class="w3-bar-item w3-button w3-dark-grey">Lesson 1: Intro to AI and Alexa</a></td>
+			<td style="width:20%"><a href="01-02-stu-biases-in-ai.html" class="w3-bar-item w3-button">Lesson 2: Biases in AI</a></td>
+			<td style="width:20%"><a href="01-03-stu-ai-in-space-travel.html" class="w3-bar-item w3-button">Lesson 3: AI in Space Travel</a></td>
+			<td style="width:20%"><a href="01-04-stu-artemis-alexa.html" class="w3-bar-item w3-button">Lesson 4: Artemis Brings Alexa</a></td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+
+Lesson 1: Intro to AI and Alexa
 ========================================
 
 .. raw:: html
@@ -36,20 +51,20 @@ Introduction and Goals
 
     <p>In this lesson you will learn about <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span>. Although AI has been around since the 1950s, it is widely recognized now as one of the fastest-growing fields in technology. From ELIZA to <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span>, AI has become something we interact with every day, and will be a part of our daily life for the foreseeable future. Navigation apps, 3D photography, facial recognition, and smart assistants are just a few of the everyday uses for AI, and you’ll be introduced to more examples. But how can we define AI? And why is the use of AI being extended into space?</p>
  
- 	<p><strong>Learning Objectives:</strong>At the end of this lesson, you will be able to:</p>
+ 	<p><strong>Learning Objectives:</strong> At the end of this lesson, you will be able to:</p>
  	<ul>
-		<li>Define <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> (AI) and voice AI</li>
-		<li>Identify systems that use AI based on the 5 Big Ideas in AI</li>
-		<li>Explain how <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> is an example of AI</li>
-		<li>Identify how Alexa can be used to perform basic tasks</li>
+		<li>Explain how <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> is an example of AI.</li>
+		<li>Identify how Alexa can be used to perform basic tasks.</li>
 	</ul>
     
-    <p><strong>Language Objectives:</strong>At the end of this lesson, you will be able to describe the impact that AI has on society using using target vocabulary such as: </p>
+    <p><strong>Language Objectives:</strong> At the end of this lesson, you will be able to:</p>
        <ul>
-		<li><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence (AI)</span></li>
-		<li><span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span></li>
+		<li>Define in writing artificial intelligence and voice AI.</li>
+		<li>Orally describe the characteristics of technology that use artificial intelligence.</li>
 		
        </ul> 
+
+::::::::::::::::::
 
 Learning Activities
 --------------------
@@ -76,18 +91,21 @@ Learning Activities
 	
 	What is one of the most difficult challenges astronauts encounter in space?
 
+::::::::::::::::::
+
 .. raw:: html
 	
-	<h3>Activity: What is Artificial Intelligence?</h3>
+	<h3>Exploration: What is Artificial Intelligence?</h3>
     <p><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">Artificial Intelligence (AI)</span> is the simulation of human intelligence by machines. It is a process of programming a computer to make decisions for itself. This video explores the 5 big ideas associated with <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. As you watch the video, write down ways that you can identify <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
     
-.. youtube:: iNbOOgXjnzE
+.. youtube:: 
 	:width: 560
 	:height: 315
 	:align: center
 	
 .. raw:: html
 
+	<h3>Activity: Is it AI?</h3>
 	<p>In this activity, you will work with a partner or group to identify which of the examples in the next activity are <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. Discuss the following questions as you complete the activity:</p>
 	
 	<ul>
@@ -176,15 +194,19 @@ Learning Activities
 			
 			Is this an example of AI?
 
+::::::::::::::::::
+
 .. raw:: html
 
 	<h3>Discussion: Alexas as AI</h3>
 	<p>So far in this lesson, you have defined <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> and explored examples of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. Sometimes, an <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technology will incorporate other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> systems or technologies to function. In this video, you will explore how speech recognition functions in conjunction with other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technologies. As you watch the video, write down reasons that Amazon <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> devices are considered to be <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
 	
+
 .. youtube:: iNbOOgXjnzE
 	:width: 560
 	:height: 315
 	:align: center
+
 
 .. raw:: html
 
@@ -197,6 +219,7 @@ Learning Activities
 	:height: 315
 	:align: center
 
+::::::::::::::::::
 	
 Reflection
 ------------
@@ -216,3 +239,5 @@ Reflection
 .. shortanswer:: alexa-1-1-8
 
 	In what ways to you think AI will be used in space?	
+
+::::::::::::::::::

@@ -1,9 +1,22 @@
 .. raw:: html
 
    <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px" alt="mobile csp and amazon future engineers logo on space background"/> </div>
-
+   	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   	<div align-center class="w3-show-inline-block">
+		<div class="w3-bar w3-light-grey">
+		<table style="width:100%">
+			<tr>
+			<td style="width:20%"><a href="index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
+			<td style="width:20%"><a href="01-01-stu-intro-to-ai-and-alexa.html" class="w3-bar-item w3-button">Lesson 1: Intro to AI and Alexa</a></td>
+			<td style="width:20%"><a href="01-02-stu-biases-in-ai.html" class="w3-bar-item w3-button">Lesson 2: Biases in AI</a></td>
+			<td style="width:20%"><a href="01-03-stu-ai-in-space-travel.html" class="w3-bar-item w3-button">Lesson 3: AI in Space Travel</a></td>
+			<td style="width:20%"><a href="01-04-stu-artemis-alexa.html" class="w3-bar-item w3-button w3-dark-grey">Lesson 4: Artemis Brings Alexa</a></td>
+			</tr>
+		</table>
+		</div>
+	</div>
    
-Lesson 4 - Artemis Brings Alexa
+Lesson 4: Artemis Brings Alexa
 ======================================
 
 .. raw:: html
@@ -38,19 +51,19 @@ Introduction and Goals
 
     <p>During this unit, you have examined the Artemis space program and worked with 2 Alexa skills: Good Morning, Space and Space Facts. In this lesson, you will explore other contexts in which AI would be helpful in space. You will also build an Alexa skill based on your previous brainstorm.</p>
     
-    <p><strong>Learning:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Learning Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
-    	<li>Describe why AI could be useful in space and other contexts.</li>
-		<li>Explain a function that Alexa would help with during space travel.</li>
-		<li>Create a new Alexa skill using intents, utterances, and endpoint functions</li>
+    	<li>Reuse components of existing programs for new programs.</li>
+		<li>Create a new Alexa skill using MIT App Inventor.</li>
     </ul>
     
-    <p><strong>Language Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Language Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
-    
+    	<li>Describe in writing the purpose of an Alexa skill.</li>
+		<li>Explain in writing difficulties encountered while building a new Alexa skill.</li>
     </ul>
 
-    
+::::::::::::::::::
 
 Learning Activities
 --------------------
@@ -61,10 +74,12 @@ Learning Activities
 	
 	<p>In this lesson, you will be imagining how Alexa could be used in space travel. This video provides some examples of how voice AI could be used in space travel. As you watch, think about other Alexa function that could help with space travel.</p>
 	
-.. youtube:: E1gIkzIjJ6M
+.. youtube:: 
 	:width: 560
 	:height: 315
 	:align: center
+
+::::::::::::::::::
 	
 .. raw:: html
 
@@ -94,7 +109,10 @@ Learning Activities
 		
 			<p>In this skill, Alexa tells the user a random fact about space.</p>
 			<img src="_static/assets/img/spaceFactsSkill.png" alt="Alexa skill to randomly read space fact from a list of facts" />
+
+
 			
+::::::::::::::::::
 
 Reflection
 -------------------------------
@@ -105,8 +123,10 @@ Reflection
 	
 .. shortanswer:: alexa-1-4-1
 
-	Describe the purpose of your program. In other words, what problem does your skill and/or app solve related to space travel?
+	Describe the purpose of your Alexa skill. In other words, what problem does your skill solve?
 	
 .. shortanswer:: alexa-1-4-2
 
 	What was something you found challenging about building the skill?
+
+::::::::::::::::::
