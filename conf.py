@@ -28,8 +28,8 @@ from runestone import runestone_static_dirs, runestone_extensions, setup
 import pkg_resources
 
 # new for title page
-course_description = "Mobile Computer Science Principles (Mobile CSP) is an NSF-funded effort to provide a broad and rigorous introduction to computer science based on MIT App Inventor, a programming language for creating apps for mobile devices. Mobile CSP is a program of the National Center for Computer Science Education. Mobile CSP is an approved curriculum provider for the College Board's  Advanced Placement (AP) Computer Science Principles curriculum framework for introductory computer science"
-key_words = "AP CSP App Inventor"
+course_description = "Computer Science Education Week will be December 5-11, 2022. High school computer science educators and their students are invited to participate in the Hour of AI Education during CSEdWeek. In Mobile CSP‘s Alexa in Space Hour of AI mini-unit, students explore AI concepts and create Alexa skills to help inexperienced space travelers, such as tourists, complete everyday tasks in a microgravity environment. This unit is available through a free interactive e-book. Mobile CSP's Hour of AI will consist of 4 lessons that can be used in CS classrooms."
+key_words = "Computer Science"
 shelf_section = "AP Computer Science"
 
 
@@ -61,15 +61,15 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'MobileCSP'
-copyright = 'Mobile CSP'
+project = 'AlexainSpace'
+copyright = 'Alexa in Space'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '2021'
+version = '2022'
 # The full version, including alpha/beta/rc tags.
 release = 'beta'
 
@@ -129,7 +129,7 @@ html_theme = 'sphinx_bootstrap'
 #html_theme_options = {'nosidebar': 'true'}
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Mobile CSP",
+    'navbar_title': "Alexa in Space",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Units",
@@ -178,10 +178,10 @@ html_theme_path = [pkg_resources.resource_filename(
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Mobile CSP'
+html_title = 'Alexa in Space'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = 'Mobile CSP'
+html_short_title = 'Alexa in Space'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
