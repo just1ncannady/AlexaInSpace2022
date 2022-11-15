@@ -28,7 +28,7 @@ from runestone import runestone_static_dirs, runestone_extensions, setup
 import pkg_resources
 
 # new for title page
-course_description = "Computer Science Education Week will be December 5-11, 2022. High school computer science educators and their students are invited to participate in the Hour of AI Education during CSEdWeek. In Mobile CSP‘s Alexa in Space Hour of AI mini-unit, students explore AI concepts and create Alexa skills to help inexperienced space travelers, such as tourists, complete everyday tasks in a microgravity environment. This unit is available through a free interactive e-book. Mobile CSP's Hour of AI will consist of 4 lessons that can be used in CS classrooms."
+course_description = "Computer Science Education Week will be December 5-11, 2022. High school computer science educators and their students are invited to participate in the Hour of AI Education during CSEdWeek. In the Mobile CSP Alexa in Space Hour of AI mini-unit, students explore AI concepts and create Alexa skills to help inexperienced space travelers, such as tourists, complete everyday tasks in a microgravity environment. This unit is available through a free interactive e-book. The Mobile CSP Hour of AI will consist of 4 lessons that can be used in CS classrooms."
 key_words = "Computer Science"
 shelf_section = "AP Computer Science"
 
