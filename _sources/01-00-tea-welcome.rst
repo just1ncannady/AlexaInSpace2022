@@ -1,6 +1,18 @@
 .. raw:: html 
 
    <div class="logo-header"  id="teacher-logo"  > <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   	<div align-center class="w3-show-inline-block">
+		<div class="w3-bar w3-light-grey">
+		<table style="width:100%">
+			<tr>
+			<td style="width:20%"><a href="index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
+			<td style="width:20%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
+			<td style="width:20%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
+			</tr>
+		</table>
+		</div>
+	</div>
 
 Welcome to Alexa in Space
 =======================
