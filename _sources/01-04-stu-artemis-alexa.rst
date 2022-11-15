@@ -73,11 +73,6 @@ Learning Activities
 	<h3>Discussion: Introduction</h3>
 	
 	<p>In this lesson, you will be imagining how Alexa could be used in space travel. This video provides some examples of how voice AI could be used in space travel. As you watch, think about other Alexa function that could help with space travel.</p>
-	
-.. youtube:: 
-	:width: 560
-	:height: 315
-	:align: center
 
 ::::::::::::::::::
 	

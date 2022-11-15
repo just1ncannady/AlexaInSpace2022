@@ -21,17 +21,11 @@ Getting Started
 	<h3 id="est-length">Estimated Length: 90 minutes</h3>
 
 Kick-Off Event Recording
---------------------
+------------------------
 
 .. raw:: html
 	
 	<p> Video coming soon </p>
-	
-.. youtube:: 
-	:width: 560
-	:height: 315
-	:align: center
-	
 	
 Access the Hour of AI Dashboard
 -------------------------------

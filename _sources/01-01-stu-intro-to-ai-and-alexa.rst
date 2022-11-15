@@ -97,11 +97,6 @@ Learning Activities
 	
 	<h3>Exploration: What is Artificial Intelligence?</h3>
     <p><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">Artificial Intelligence (AI)</span> is the simulation of human intelligence by machines. It is a process of programming a computer to make decisions for itself. This video explores the 5 big ideas associated with <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. As you watch the video, write down ways that you can identify <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
-    
-.. youtube:: 
-	:width: 560
-	:height: 315
-	:align: center
 	
 .. raw:: html
 

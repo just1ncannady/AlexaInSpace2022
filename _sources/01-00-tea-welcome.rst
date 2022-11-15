@@ -15,7 +15,7 @@
 	</div>
 
 Welcome to Alexa in Space
-=======================
+=========================
 
 .. raw:: html
 
@@ -38,11 +38,6 @@ Welcome Video
 .. raw:: html
 	
 	<p> Video coming soon </p>
-	
-.. youtube:: 
-	:width: 560
-	:height: 315
-	:align: center
 	
 	
 Survey
@@ -71,7 +66,7 @@ Survey
 	:option_1: Female
 	:option_2: Male
 	:option_3: Non-binary
-    :option_4: Other
+	:option_4: Other
 	:option_5: Prefer not to answer
 
 	I am a:
