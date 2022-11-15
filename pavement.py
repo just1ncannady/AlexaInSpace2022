@@ -15,7 +15,7 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-project_name = "alexainspace2022"
+project_name = "alexainspace"
 
 master_url = None
 
@@ -23,10 +23,10 @@ if master_url is None:
     master_url = get_master_url()
 
 master_app = 'runestone'
-serving_dir = "./build/alexainspace2022"
+serving_dir = "./build/alexainspace"
 
 # Change to False when running localhost; True before pushing to github
-dynamic_pages = False     # Do NOT push changes to this - must remain True on github
+dynamic_pages = True     # Do NOT push changes to this - must remain True on github
 
 if dynamic_pages:
     dest = './published'
@@ -37,12 +37,12 @@ options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/alexainspace2022",
+        builddir="./build/alexainspace",
         sourcedir="_sources",
-        outdir="./build/alexainspace2022",
+        outdir="./build/alexainspace",
         confdir=".",
-        project_name = "alexainspace2022",
-        template_args={'course_id': 'alexainspace2022',
+        project_name = "alexainspace",
+        template_args={'course_id': 'alexainspace',
      'login_required':'false',
      'appname':master_app,
                        'loglevel': 10,
@@ -50,7 +50,7 @@ options(
                        'use_services': 'true',
                        'python3': 'false',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'alexainspace2022',
+                       'basecourse': 'alexainspace',
                        # new 7/2019 changes
                        'dynamic_pages': dynamic_pages,
                        'downloads_enabled': 'false',
