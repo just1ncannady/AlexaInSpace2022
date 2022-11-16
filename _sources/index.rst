@@ -31,7 +31,8 @@ Table of Contents
 ::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 0
+   :numbered:
+   :maxdepth: 2
    
    lessons/toctree.rst
 
