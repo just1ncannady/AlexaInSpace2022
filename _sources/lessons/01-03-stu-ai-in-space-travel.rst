@@ -51,7 +51,7 @@ Introduction and Goals
 
 	<p>Now that you’ve had a chance to explore the Alexa MIT App Inventor interface, you will have an opportunity to work closer with Alexa skill-building. During this lesson, you will examine some milestones being achieved by the Artmeis space program. You will also use that newfound knowledge to program Alexa to tell you some interesting facts.</p>
     	
-    <p><strong>Learning:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Learning Objectives:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Identify 3 milestones that are happening with NASA’s Artemis space program.</li>
 		<li>Modify an existing Alexa skill in MIT App Inventor by changing the utterances, intent, and function.</li>
