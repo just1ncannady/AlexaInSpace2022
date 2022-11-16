@@ -2,11 +2,11 @@
 
    <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
-Table of Contents
+Lesson Plans
 ::::::::::::::::::
 
 .. toctree::
-	:caption: Table of Contents
+	:caption: Lesson Plans
 	:maxdepth: 0
 	
 	01-00-tea-welcome.rst
