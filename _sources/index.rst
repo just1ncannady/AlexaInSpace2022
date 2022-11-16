@@ -7,10 +7,10 @@
 		<table style="width:100%">
 			<tr>
 			<td style="width:20%"><a href="index.html" class="w3-bar-item w3-button w3-dark-grey">Alexa in Space Overview</a></td>
-			<td style="width:20%"><a href="01-01-stu-intro-to-ai-and-alexa.html" class="w3-bar-item w3-button">Lesson 1: Intro to AI and Alexa</a></td>
-			<td style="width:20%"><a href="01-02-stu-biases-in-ai.html" class="w3-bar-item w3-button">Lesson 2: Biases in AI</a></td>
-			<td style="width:20%"><a href="01-03-stu-ai-in-space-travel.html" class="w3-bar-item w3-button">Lesson 3: AI in Space Travel</a></td>
-			<td style="width:20%"><a href="01-04-stu-artemis-alexa.html" class="w3-bar-item w3-button">Lesson 4: Artemis Brings Alexa</a></td>
+			<td style="width:20%"><a href="lessons/01-01-stu-intro-to-ai-and-alexa.html" class="w3-bar-item w3-button">Lesson 1: Intro to AI and Alexa</a></td>
+			<td style="width:20%"><a href="lessons/01-02-stu-biases-in-ai.html" class="w3-bar-item w3-button">Lesson 2: Biases in AI</a></td>
+			<td style="width:20%"><a href="lessons/01-03-stu-ai-in-space-travel.html" class="w3-bar-item w3-button">Lesson 3: AI in Space Travel</a></td>
+			<td style="width:20%"><a href="lessons/01-04-stu-artemis-alexa.html" class="w3-bar-item w3-button">Lesson 4: Artemis Brings Alexa</a></td>
 			</tr>
 		</table>
 		</div>

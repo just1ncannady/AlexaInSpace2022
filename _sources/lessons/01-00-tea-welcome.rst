@@ -7,8 +7,8 @@
 		<table style="width:100%">
 			<tr>
 			<td style="width:20%"><a href="index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
-			<td style="width:20%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
-			<td style="width:20%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
+			<td style="width:20%"><a href="lessons/01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
+			<td style="width:20%"><a href="lessons/01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
 			</tr>
 		</table>
 		</div>
