@@ -9,8 +9,8 @@ Table of Contents
 	:caption: Table of Contents
 	:maxdepth: 0
 	
-	index.rst
 	01-01-stu-intro-to-ai-and-alexa.rst
 	01-02-stu-biases-in-ai.rst
 	01-03-stu-ai-in-space-travel.rst
 	01-04-stu-artemis-alexa.rst
+
