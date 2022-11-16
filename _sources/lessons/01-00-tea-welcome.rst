@@ -1,6 +1,6 @@
 .. raw:: html 
 
-   <div class="logo-header"  id="teacher-logo"  > <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="logo-header"  id="teacher-logo"  > <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    	<div align-center class="w3-show-inline-block">
 		<div class="w3-bar w3-light-grey">

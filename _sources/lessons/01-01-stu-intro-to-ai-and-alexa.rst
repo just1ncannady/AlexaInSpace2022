@@ -97,7 +97,12 @@ Learning Activities
 	
 	<h3>Exploration: What is Artificial Intelligence?</h3>
     <p><span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">Artificial Intelligence (AI)</span> is the simulation of human intelligence by machines. It is a process of programming a computer to make decisions for itself. This video explores the 5 big ideas associated with <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. As you watch the video, write down ways that you can identify <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
-	
+
+.. youtube:: k910AvGcbHU
+	:width: 560
+	:height: 315
+	:align: center
+
 .. raw:: html
 
 	<h3>Activity: Is it AI?</h3>
@@ -117,7 +122,7 @@ Learning Activities
 
 		.. raw:: html
 		
-			<img src="_static/assets/img/isitai1.png" alt="People leaving a store through an automatic door" />
+			<img src="../_static/assets/img/isitai1.png" alt="People leaving a store through an automatic door" />
 			
 		.. mchoice:: alexa-1-1-2
 			:random:
@@ -136,7 +141,7 @@ Learning Activities
 	
 		.. raw:: html
 		
-			<img src="_static/assets/img/isitai2.png" alt="Two men having a conversation in a lobby with the caption "We can do automatic captioning in real time?"" />
+			<img src="../_static/assets/img/isitai2.png" alt="Two men having a conversation in a lobby with the caption "We can do automatic captioning in real time?"" />
 
 		.. mchoice:: alexa-1-1-3
 			:random:
@@ -155,7 +160,7 @@ Learning Activities
 	
 		.. raw:: html
 		
-			<img src="_static/assets/img/isitai3.png" alt="woman using a remote control to fly a drone" />
+			<img src="../_static/assets/img/isitai3.png" alt="woman using a remote control to fly a drone" />
 
 		.. mchoice:: alexa-1-1-4
 			:random:
@@ -174,7 +179,7 @@ Learning Activities
 	
 		.. raw:: html
 		
-			<img src="_static/assets/img/isitai4.png" alt="illustration showing a cellphone with texts and a robot responding in background" />
+			<img src="../_static/assets/img/isitai4.png" alt="illustration showing a cellphone with texts and a robot responding in background" />
 			
 		.. mchoice:: alexa-1-1-5
 			:random:
@@ -193,7 +198,7 @@ Learning Activities
 
 .. raw:: html
 
-	<h3>Discussion: Alexas as AI</h3>
+	<h3>Discussion: Alexa as AI</h3>
 	<p>So far in this lesson, you have defined <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> and explored examples of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. Sometimes, an <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technology will incorporate other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> systems or technologies to function. In this video, you will explore how speech recognition functions in conjunction with other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technologies. As you watch the video, write down reasons that Amazon <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> devices are considered to be <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
 	
 
@@ -235,4 +240,13 @@ Reflection
 
 	In what ways to you think AI will be used in space?	
 
-::::::::::::::::::
+Summary
+--------
+
+.. raw:: html
+
+    <p>
+    In this lesson, you learned how to:
+      <div class="yui-wk-div">
+    </div>
+    <br/>

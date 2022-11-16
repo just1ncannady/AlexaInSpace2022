@@ -1,6 +1,6 @@
 .. raw:: html 
 
-   <div class="logo-header"  id="teacher-logo"  > <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
+   <div class="logo-header"  id="teacher-logo"  > <img class="align-center" src="../_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
 Getting Started
 =======================
