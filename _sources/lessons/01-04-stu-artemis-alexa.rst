@@ -30,7 +30,7 @@ Lesson 4: Artemis Brings Alexa
     <script>
       $(document).ready(function() {
         
-        generateSummary(EKmapping['A.04']); /* Change the lesson number */
+        //generateSummary(EKmapping['AiS.04']); /* Change the lesson number */
         generateHovers();
     
         Tipped.create('.vocab', function(element) {
@@ -51,13 +51,13 @@ Introduction and Goals
 
     <p>During this unit, you have examined the Artemis space program and worked with 2 Alexa skills: Good Morning, Space and Space Facts. In this lesson, you will explore other contexts in which AI would be helpful in space. You will also build an Alexa skill based on your previous brainstorm.</p>
     
-    <p><strong>Learning Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Learning Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Reuse components of existing programs for new programs.</li>
 		<li>Create a new Alexa skill using MIT App Inventor.</li>
     </ul>
     
-    <p><strong>Language Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Language Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Describe in writing the purpose of an Alexa skill.</li>
 		<li>Explain in writing difficulties encountered while building a new Alexa skill.</li>
@@ -89,21 +89,21 @@ Learning Activities
 		.. raw:: html
 		
 			<p>In this skill, Alexa tells the user a joke. Alexa asks the question, waits for the user’s response, and then delivers the punchline.</p>
-			<img src="_static/assets/img/jokesSkill.png" alt="Alexa Joke skill block code" />
+			<img src="../_static/assets/img/jokesSkill.png" alt="Alexa Joke skill block code" />
 			
 	.. tab:: To-Do-List
 	
 		.. raw:: html
 		
 			<p>In this skill, Alexa tells the user a to-do list that has been programmed.</p>
-			<img src="_static/assets/img/todoListSkill.png" alt="Alexa skill to read off a to-do list" />
+			<img src="../_static/assets/img/todoListSkill.png" alt="Alexa skill to read off a to-do list" />
 			
 	.. tab:: Space Facts
 	
 		.. raw:: html
 		
 			<p>In this skill, Alexa tells the user a random fact about space.</p>
-			<img src="_static/assets/img/spaceFactsSkill.png" alt="Alexa skill to randomly read space fact from a list of facts" />
+			<img src="../_static/assets/img/spaceFactsSkill.png" alt="Alexa skill to randomly read space fact from a list of facts" />
 
 
 			

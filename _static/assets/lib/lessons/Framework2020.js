@@ -1,6 +1,6 @@
 generateHovers();
 
-var skillmapping = {'CRD-1.A': '1.C', 'CRD-1.B': '1.C', 'CRD-1.C': '1.C', 'CRD-2.A': '1.A', 'CRD-2.B': '4.A', 'CRD-2.C': '3.A', 'CRD-2.D': '3.A', 'CRD-2.E': '1.B', 'CRD-2.F': '1.B', 'CRD-2.G': '4.A', 'CRD-2.H': '1.C', 'CRD-2.I': '4.C', 'CRD-2.J': '4.C', 'DAT-1.A': '3.C', 'DAT-1.B': '1.D', 'DAT-1.C': '2.B', 'DAT-1.D': '1.D', 'DAT-2.A': '5.B', 'DAT-2.B': '5.B', 'DAT-2.C': '5.D', 'DAT-2.D': '2.B', 'DAT-2.E': '5.B', 'AAP-1.A': '3.A', 'AAP-1.B': '4.B', 'AAP-1.C': '3.A', 'AAP-1.D': '3.B', 'AAP-2.A': '2.A', 'AAP-2.B': '2.B', 'AAP-2.C': '4.B', 'AAP-2.D': '4.B', 'AAP-2.E': '4.B', 'AAP-2.F': '4.B', 'AAP-2.G': '2.A', 'AAP-2.H': '4.B', 'AAP-2.I': '4.B', 'AAP-2.J': '2.A', 'AAP-2.K': '4.B', 'AAP-2.L': '1.D', 'AAP-2.M': '2.B', 'AAP-2.N': '4.B', 'AAP-2.O': '4.B', 'AAP-2.P': '1.A', 'AAP-3.A': '4.B', 'AAP-3.B': '3.C', 'AAP-3.C': '3.B', 'AAP-3.D': '2.B', 'AAP-3.E': '4.B', 'AAP-3.F': '1.D', 'AAP-4.A': '1.D', 'AAP-4.B': '1.A', 'CSN-1.A': '5.A', 'CSN-1.B': '5.A', 'CSN-1.C': '5.A', 'CSN-1.D': '5.A', 'CSN-1.E': '5.A', 'CSN-2.A': '1.D', 'CSN-2.B': '1.D', 'IOC-1.A': '5.C', 'IOC-1.B': '5.C', 'IOC-1.C': '5.C', 'IOC-1.D': '5.E', 'IOC-1.E': '1.C', 'IOC-1.F': '5.E', 'IOC-2.A': '5.D', 'IOC-2.B': '5.E', 'IOC-2.C': '5.E'}
+var skillmapping = {'CRD-1.A': '1.C', 'CRD-1.B': '1.C', 'CRD-1.C': '1.C', 'CRD-2.A': '1.A', 'CRD-2.B': '4.A', 'CRD-2.C': '3.A', 'CRD-2.D': '3.A', 'CRD-2.E': '1.B', 'CRD-2.F': '1.B', 'CRD-2.G': '4.A', 'CRD-2.H': '1.C', 'CRD-2.I': '4.C', 'CRD-2.J': '4.C', 'DAT-1.A': '3.C', 'DAT-1.B': '1.D', 'DAT-1.C': '2.B', 'DAT-1.D': '1.D', 'DAT-2.A': '5.B', 'DAT-2.B': '5.B', 'DAT-2.C': '5.D', 'DAT-2.D': '2.B', 'DAT-2.E': '5.B', 'AAP-1.A': '3.A', 'AAP-1.B': '4.B', 'AAP-1.C': '3.A', 'AAP-1.D': '3.B', 'AAP-2.A': '2.A', 'AAP-2.B': '2.B', 'AAP-2.C': '4.B', 'AAP-2.D': '4.B', 'AAP-2.E': '4.B', 'AAP-2.F': '4.B', 'AAP-2.G': '2.A', 'AAP-2.H': '4.B', 'AAP-2.I': '4.B', 'AAP-2.J': '2.A', 'AAP-2.K': '4.B', 'AAP-2.L': '1.D', 'AAP-2.M': '2.B', 'AAP-2.N': '4.B', 'AAP-2.O': '4.B', 'AAP-2.P': '1.A', 'AAP-3.A': '4.B', 'AAP-3.B': '3.C', 'AAP-3.C': '3.B', 'AAP-3.D': '2.B', 'AAP-3.E': '4.B', 'AAP-3.F': '1.D', 'AAP-4.A': '1.D', 'AAP-4.B': '1.A', 'CSN-1.A': '5.A', 'CSN-1.B': '5.A', 'CSN-1.C': '5.A', 'CSN-1.D': '5.A', 'CSN-1.E': '5.A', 'CSN-2.A': '1.D', 'CSN-2.B': '1.D', 'IOC-1.A': '5.C', 'IOC-1.B': '5.C', 'IOC-1.C': '5.C', 'IOC-1.D': '5.E', 'IOC-1.E': '1.C', 'IOC-1.F': '5.E', 'IOC-2.A': '5.D', 'IOC-2.B': '5.E', 'IOC-2.C': '5.E', 'AiS-01':'5.C', 'AiS-02':'5.C', 'AiS-03':'5.C', 'AiS-04':'5.C'}
 
 var EKmapping = 
     {'1.02': ['CRD-2.B.1', 'CRD-2.B.2', 'AAP-2.A.1', 'AAP-2.A.2', 'AAP-2.A.4'], 
@@ -57,10 +57,16 @@ var EKmapping =
      '7.06': ['DAT-2.D.1', 'AAP-1.D.1', 'AAP-1.D.2'], 
      '7.07': ['IOC-1.B.1', 'IOC-1.D.1', 'IOC-1.D.2', 'IOC-1.D.3', 'IOC-1.F.11'], 
      '7.08': ['IOC-1.F.1', 'IOC-1.F.2', 'IOC-1.F.3', 'IOC-1.F.4', 'IOC-1.F.5', 'IOC-1.F.6', 'IOC-1.F.7', 'IOC-1.F.8', 'IOC-1.F.9', 'IOC-1.F.1'],
-	 'A.01': ['CRD-2.A.1', 'CRD-2.A.2'],
-	 'A.02': ['CRD-2.C.1', 'CRD-2.C.4', 'IOC-1.B.1', 'IOC-1.D.1', 'IOC-1.D.2', 'IOC-1.D.3', 'IOC-1.F.11'],
-	 'A.03': ['AAP-1.D.2', 'AAP-1.D.3', 'AAP-1.C.1', 'AAP-1.C.2', 'AAP-1.C.3'],
-	 'A.04': ['DAT-2.E.3', 'AAP-1.C.3', 'AAP-3.B.1', 'AAP-3.B.4', 'AAP-3.B.5', 'AAP-3.B.6','AAP-3.B.7']}
+	   'A.01': ['CRD-2.A.1', 'CRD-2.A.2'],
+	   'A.02': ['CRD-2.C.1', 'CRD-2.C.4', 'IOC-1.B.1', 'IOC-1.D.1', 'IOC-1.D.2', 'IOC-1.D.3', 'IOC-1.F.11'],
+	   'A.03': ['AAP-1.D.2', 'AAP-1.D.3', 'AAP-1.C.1', 'AAP-1.C.2', 'AAP-1.C.3'],
+	   'A.04': ['DAT-2.E.3', 'AAP-1.C.3', 'AAP-3.B.1', 'AAP-3.B.4', 'AAP-3.B.5', 'AAP-3.B.6','AAP-3.B.7'],
+     'AiS.01': ['AiS-1.1', 'AiS-1.2', 'AiS-1.3', 'AiS-1.4'],
+     'AiS.02': ['AiS-2.1', 'AiS-2.2', 'AiS-2.3', 'AiS-2.4'],
+     'AiS.03': ['AiS-3.1', 'AiS-3.2', 'AiS-3.3', 'AiS-3.4'],
+     'AiS.04': ['AiS-4.1', 'AiS-4.2', 'AiS-4.3', 'AiS-4.4']
+
+    }
 
 var shortIdeas = {
     "CRD" : "<img class='BI-icon' src='../_static/assets/img/creativity.png' align='left' height='30'/> Big Idea 1: Creative Development (CRD)",
@@ -207,6 +213,11 @@ var objectives = {
 "IOC-2.A": "Learning Objective IOC-2.A: Describe the risks to privacy from collecting and storing personal data on a computer system.",
 "IOC-2.B": "Learning Objective IOC-2.B: Explain how computing resources can be protected and can be misused.",
 "IOC-2.C": "Learning Objective IOC-2.C: Explain how unauthorized access to computing resources is gained.",
+"AiS.01": "In this lesson, you learned how to:",
+"AiS.02": "In this lesson, you learned how to:",
+"AiS.03": "In this lesson, you learned how to:",
+"AiS.04": "In this lesson, you learned how to:",
+
 };
 
 var understandings = {
@@ -557,6 +568,27 @@ var essentials = {
 "IOC-2.C.5": "Essential Knowledge IOC-2.C.5: A malicious link can be disguised on a web page or in an email message.",
 "IOC-2.C.6": "Essential Knowledge IOC-2.C.6: Unsolicited emails, attachments, links, and forms in emails can be used to compromise the security of a computing system. These can come from unknown senders or from known senders whose security has been compromised.",
 "IOC-2.C.7": "Essential Knowledge IOC-2.C.7: Untrustworthy (often free) downloads from freeware or shareware sites can contain malware.",
+
+"AiS-1.1": "Explain how Alexa is an example of AI.",
+"AiS-1.2": "Identify how Alexa can be used to perform basic tasks.",
+"AiS-1.3": "Define in writing the artificial intelligence.",
+"AiS-1.4": "Orally describe the characteristics of technology that use artificial intelligence.",
+
+"AiS-2.1": "Discuss how technology that use AI have biases.",
+"AiS-2.2": "Identify wake words, intents, and utterances of existing Alexa skills built in MIT App Inventor.",
+"AiS-2.3": "Describe in writing benefits of using Alexa during space travel. ",
+"AiS-2.4": "Explain in writing the importance of identifying and addressing bias in AI.",
+
+"AiS-3.1": "Identify 3 milestones that are happening with NASA’s Artemis space program.",
+"AiS-3.2": "Modify an existing Alexa skill in MIT App Inventor by changing the utterances, intent, and function.",
+"AiS-3.3": "Describe in writing at least 3 facts about the Artemis space program.",
+"AiS-3.4": "Orally discuss ideas for a new Alexa skill.",
+
+"AiS-4.1": "Reuse components of existing programs for new programs.",
+"AiS-4.2": "Create a new Alexa skill using MIT App Inventor.",
+"AiS-4.3": "Describe in writing the purpose of an Alexa skill.",
+"AiS-4.4": "Explain in writing difficulties encountered while building a new Alexa skill.",
+
 };
 
 function generateFrameworkTable(covers)

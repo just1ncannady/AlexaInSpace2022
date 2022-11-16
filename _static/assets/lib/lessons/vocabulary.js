@@ -462,7 +462,12 @@ var vocabulary = {
 	 "slot": "a slot is like a variable in an utterance. A slot tells Alexa what part of the utterance it should store.",
 	 "microgravity": "very weak gravity, as in an orbiting spacecraft",
 	 "Alexa": "Amazon’s voice-controlled virtual assistant which can play audio, control smart homes, answer questions, and help with productivity",
-	 "parallel lists":"Two or more lists that are setup to correspond based on the index location of the data in the lists allowing the data in the lists to be processed at the same time."
+	 "parallel lists":"Two or more lists that are setup to correspond based on the index location of the data in the lists allowing the data in the lists to be processed at the same time.",
 
-  
+
+  //Alexa In Space
+  "ELIZA": "Early natural language processing computer program created from 1964 to 1966 at the MIT Artificial Intelligence Laboratory by Joseph Weizenbaum.",
+  "speech synthesis": "The artificial production of human speech.",
+  "MIT App Inventor": "Web-based integrated development environment originally provided by Google, and now maintained by the Massachusetts Institute of Technology that allows people to create app easily.",
+  "Artemis space program": "Robotic and human Moon exploration program led by NASA."
 };

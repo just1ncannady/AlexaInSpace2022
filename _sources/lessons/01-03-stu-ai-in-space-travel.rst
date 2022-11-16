@@ -30,7 +30,7 @@ Lesson 3: AI in Space Travel
     <script>
       $(document).ready(function() {
         
-        generateSummary(EKmapping['A.03']); 
+        //generateSummary(EKmapping['AiS.03']); 
         generateHovers();
     
         Tipped.create('.vocab', function(element) {
@@ -51,13 +51,13 @@ Introduction and Goals
 
 	<p>Now that you’ve had a chance to explore the Alexa MIT App Inventor interface, you will have an opportunity to work closer with Alexa skill-building. During this lesson, you will examine some milestones being achieved by the Artmeis space program. You will also use that newfound knowledge to program Alexa to tell you some interesting facts.</p>
     	
-    <p><strong>Learning Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Learning Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Identify 3 milestones that are happening with NASA’s Artemis space program.</li>
 		<li>Modify an existing Alexa skill in MIT App Inventor by changing the utterances, intent, and function.</li>
     </ul>
     
-    <p><strong>Language Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Language Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
 		<li>Describe in writing at least 3 facts about the Artemis space program.</li>
 		<li>Orally discuss ideas for a new Alexa skill.</li>
@@ -104,28 +104,28 @@ Learning Activities
 		.. raw:: html
 		
 			<p>Add 3 utterances in the Designer Editor, under the Properties tab. Remember to click Add after typing each utterance.</p>
-			<img src="_static/assets/img/DesignEditor.png" alt="Adding utterances in the Properties for the IntentAboutSpace component" />
+			<img src="../_static/assets/img/DesignEditor.png" alt="Adding utterances in the Properties for the IntentAboutSpace component" />
 			
 	.. tab:: Step 2: Creating Space Facts List
 	
 		.. raw:: html
 			
 			<p>Navigate to the Blocks Editor and add your Artemis space facts to the list. You may need to drag more <img src="_static/assets/img/blankStringBlock.png" alt="Blank String Block" style="width: 50px" /> blocks to fill in the empty spaces on the list. You can find those in the Text drawer on the left side of the browser.</p>
-			<img src="_static/assets/img/CreatingSpaceListBlocks.png" alt="Steps to create list for space facts" />
+			<img src="../_static/assets/img/CreatingSpaceListBlocks.png" alt="Steps to create list for space facts" />
 			
 	.. tab:: Step 3: Randomize Fact Selection
 	
 		.. raw:: html
 			
 			<p>Using the <img src="_static/assets/img/getBlock.png" alt="get block" style="width: 75px" /> block, set the list for the <img src="_static/assets/img/pickRandomListItemBlock.png" alt="pick a random item in list block" style="width: 175px" /> block to be <span style="font-family: monospace;">global factsList</span>. Together, these blocks will pick a random space fact that Alexa will tell you each time you use the utterance.
-			<img src="_static/assets/img/FindGetBlock.png" alt="locating get block in code drawer" />
+			<img src="../_static/assets/img/FindGetBlock.png" alt="locating get block in code drawer" />
 			
 	.. tab:: Step 4: Congrats!
 	
 		.. raw:: html
 		
 			<p>Congrats! You’ve completed this Alexa skill! Test your new skill by clicking Send Updates and then with the utterances you created. By clicking the microphone button, you can speak to your Alexa. Alternatively, you can type your statement in the box.</p>
-			<img src="_static/assets/img/TestingAlexaSkill.png" alt="identifying microphone and textbox to send updates to the Alexa skills" />
+			<img src="../_static/assets/img/TestingAlexaSkill.png" alt="identifying microphone and textbox to send updates to the Alexa skills" />
 	
 ::::::::::::::::::
 
@@ -138,8 +138,8 @@ Learning Activities
 	<p>In the next class, you will work with a partner to create an Alexa skill in MIT App Inventor. In this discussion, you will brainstorm to come up with ideas that could be used for your Alexa skill. You will brainstorm in 2 separate activities:</p>
 	
 	<ol>
-		<li>Individual Freewrite - Allow your thoughts and ideas to flow freely. Write and draw different ideas that you could use.</li>
-		<li>Group Idea Expansion - Write some of your ideas on Post-It notes to be shared with your group. Write down any additional ideas that you think of after seeing your group’s ideas.</li>
+		<li><b>Individual Freewrite</b> - Allow your thoughts and ideas to flow freely. Write and draw different ideas that you could use.</li>
+		<li><b>Group Idea Expansion</b> - Write some of your ideas on Post-It notes to be shared with your group. Write down any additional ideas that you think of after seeing your group’s ideas.</li>
 	</ol>
 	
 ::::::::::::::::::

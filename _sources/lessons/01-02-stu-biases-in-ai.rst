@@ -30,7 +30,7 @@ Lesson 2: Biases in AI
     <script>
       $(document).ready(function() {
         
-        generateSummary(EKmapping['A.02']); 
+        //generateSummary(EKmapping['AiS.02']); 
         generateHovers();
     
         Tipped.create('.vocab', function(element) {
@@ -54,14 +54,13 @@ Introduction and Goals
     <p><strong>Learning Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Discuss how technology that use AI have biases.</li>
-		  <li>Identify wake words, intents, and utterances of existing Alexa skills built in MIT App Inventor.</li>
+		<li>Identify wake words, intents, and utterances of existing Alexa skills built in MIT App Inventor.</li>
     </ul>
     
     <p><strong>Language Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
       <li>Describe in writing benefits of using Alexa during space travel.</li> 
       <li>Explain in writing the importance of identifying and addressing bias in AI.</li>
-
     </ul>
 
 ::::::::::::::::::
