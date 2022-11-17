@@ -36,6 +36,19 @@ Lesson Plan 2 - Biases in AI
 
 	<h3 id="est-length">Estimated Length: 45 minutes</h3>
 
+Complete the Tutorial
+---------------------
+
+.. raw:: html
+
+	<p>In this lesson, your students build out the Good Morning, Space Alexa Skill. Try building the skill, but also focus on familiarizing yourself with the MIT App Inventor interface. You may use this <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank"> text-version of the tutorial</a> or following along with the video tutorial below.
+	</p>
+
+.. youtube:: xFdifO9MxZI
+	:width: 560
+	:height: 315
+	:align: center
+
 Lesson Plan
 -----------
 

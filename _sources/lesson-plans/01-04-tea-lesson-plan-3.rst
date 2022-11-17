@@ -36,6 +36,19 @@ Lesson Plan 3 - AI in Space Travel
 
 	<h3 id="est-length">Estimated Length: 45 minutes</h3>
 
+Complete the Tutorial
+---------------------
+
+.. raw:: html
+
+	<p>In this lesson, you will build out the Space Facts Alexa Skill. You may use this <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank"> text-version of the tutorial</a> or following along with the video tutorial below.
+	</p>
+
+.. youtube:: MymcQP6UJDg
+	:width: 560
+	:height: 315
+	:align: center
+
 Lesson Plan
 -----------
 

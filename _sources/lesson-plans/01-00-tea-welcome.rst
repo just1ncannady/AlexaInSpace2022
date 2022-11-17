@@ -39,7 +39,10 @@ Welcome Video
 
 .. raw:: html
 	
-	<p> Video coming soon </p>
+.. youtube:: ez6UPRijKrQ
+	:width: 560
+	:height: 315
+	:align: center
 	
 Register on Runestone Academy
 -----------------------------
