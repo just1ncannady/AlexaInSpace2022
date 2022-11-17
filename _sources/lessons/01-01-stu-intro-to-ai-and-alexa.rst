@@ -69,7 +69,7 @@ Learning Activities
 .. raw:: html
 
 	<h3>Discussion: Introduction</h3>
-    <p>In this lesson, you will be exploring the challenges that exist in space exploration. This video will introduce you to the Artemis Space Program as well as some of the concepts you will learn in this unit. As you watch, write down some difficulties astronauts may encounter while traveling in space.</p>
+    <p>In this lesson, you will be exploring the challenges that exist in space exploration. This video will introduce you to the <span class="hover vocab yui-wk-div" data-id="Artemis space program">Artemis Space Program</span> as well as some of the concepts you will learn in this unit. As you watch, write down some difficulties astronauts may encounter while traveling in space.</p>
 
 .. youtube:: 9Ep8sJ7qj6k
 	:width: 560
@@ -209,7 +209,7 @@ Learning Activities
 
 	<h3>New Words: Wake Words, Intents, and Utterances</h3>
 	
-	<p>Alexa uses <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> to build on preprogrammed skills, speech recognition, and speech synthesis to interact with humans to improve productivity. In the next lesson, you will begin exploring how you will be able to build your own <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> skill. This video introduces some words that will be necessary to begin building your skill. As you watch the video, listen for the terms wake word, intent, and utterance.</p>
+	<p>Alexa uses <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> to build on preprogrammed skills, <span class="hover vocab yui-wk-div" data-id="speech recognition">speech recognition</span>, and <span class="hover vocab yui-wk-div" data-id="speech synthesis">speech synthesis</span> to interact with humans to improve productivity. In the next lesson, you will begin exploring how you will be able to build your own <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> skill. This video introduces some words that will be necessary to begin building your skill. As you watch the video, listen for the terms: <span class="hover vocab yui-wk-div" data-id="wake word"></span>wake word, <span class="hover vocab yui-wk-div" data-id="intent">intent</span>, and <span class="hover vocab yui-wk-div" data-id="utterance">utterance</span>.</p>
 	
 .. youtube:: 0wqCo7SHiB4
 	:width: 560
