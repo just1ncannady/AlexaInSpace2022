@@ -2,11 +2,11 @@
 
    <div class="student-logo"> <img class="align-center" src="_static/MobileCSP-AFE-logo-white.png" width="400px"/> </div>
 
-Table of Contents
+Student Lessons
 ::::::::::::::::::
 
 .. toctree::
-	:caption: Table of Contents
+	:caption: Student Lessons Table of Contents
 	:maxdepth: 0
 	
 	01-01-stu-intro-to-ai-and-alexa.rst

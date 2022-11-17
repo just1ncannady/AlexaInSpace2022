@@ -6,16 +6,20 @@
 		<div class="w3-bar w3-light-grey">
 		<table style="width:100%">
 			<tr>
-			<td style="width:20%"><a href="../index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
-			<td style="width:20%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
-			<td style="width:20%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
+			<td style="width:14%"><a href="../index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
+			<td style="width:14%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
+			<td style="width:14%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
+			<td style="width:14%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
+			<td style="width:14%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button">Lesson Plan 2: Biases in AI</a></td>
+			<td style="width:14%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button">Lesson Plan 3: AI in Space Travel</a></td>
+			<td style="width:14%"><a href="01-05-tea-lesson-plan-4.html" class="w3-bar-item w3-button">Lesson Plan 4: Artemis Brings Alexa</a></td>
 			</tr>
 		</table>
 		</div>
 	</div>
 
-Welcome to Alexa in Space
-=========================
+Training 0 - Welcome to Alexa in Space
+======================================
 
 .. raw:: html
 
@@ -24,8 +28,6 @@ Welcome to Alexa in Space
 	<h3>Materials</h3>
 	<ul>
 	<li>Access to computer, laptop, or Chromebook with an Internet connection</li>
-	<li>Access to the <a href="https://hourofai.appinventor.mit.edu/login" target="_blank">Hour of AI Teacher Dashboard</a></li>
-	<li>Access to the <a href="https://drive.google.com/drive/folders/1JRLclPyBflGgpo3pfHmIGG2pN-VOxO_f" target="_blank">Hour of AI Lesson Plans</a></li>
 	</ul>
 	
 .. raw:: html
@@ -33,11 +35,22 @@ Welcome to Alexa in Space
 	<h3 id="est-length">Estimated Length: 5 minutes</h3>
 
 Welcome Video
---------------------
+-------------
 
 .. raw:: html
 	
 	<p> Video coming soon </p>
+	
+Register on Runestone Academy
+-----------------------------
+
+.. raw:: html
+	
+	<p> Start by registering for Runestone Academy. In the course name field enter: <b>alexainspace-training</b>
+	</br><img src="../_static/assets/img/RunestoneRegistration.gif" width="600"/> 
+	</br>
+	Note: If you already have an account with Runestone Academy, you should login, click the profile icon, select 'Change Course' and then select 'Enroll in a Course'.
+	</p>
 	
 	
 Survey
@@ -122,11 +135,8 @@ Professional Development Reflection
     <p>After reviewing this page, please answer the following check-in question:</p>
     
 .. poll:: mcsp-ais-1-0-9
-    :option_1: Strongly Agree
-    :option_2: Agree
-    :option_3: Neutral
-    :option_4: Disagree
-    :option_5: Strongly Disagree
+    :option_1: Yes
+    :option_2: No
   
     I have watched the welcome video and am ready to begin the asynchronous training.
 
