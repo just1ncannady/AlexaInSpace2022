@@ -35,7 +35,13 @@ div.logo-header {
 
 
 div#teacher-logo { 
-  background-color: #212A4D;
+  background-image: url(../AlexaSpace_TeacherBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 175px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .student-logo { 

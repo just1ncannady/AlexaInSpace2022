@@ -159,4 +159,3 @@ Reflection
 
 	What ideas did you come up with as you brainstormed today for your Alexa skill?
 
-::::::::::::::::::

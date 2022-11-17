@@ -4,15 +4,15 @@
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    	<div align-center class="w3-show-inline-block">
 		<div class="w3-bar w3-light-grey">
-		<table style="width:100%">
+		<table class="nav-table" style="width:100%">
 			<tr>
-			<td style="width:14%"><a href="../index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
-			<td style="width:14%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
-			<td style="width:14%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
-			<td style="width:14%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
-			<td style="width:14%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button">Lesson Plan 2: Biases in AI</a></td>
-			<td style="width:14%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button">Lesson Plan 3: AI in Space Travel</a></td>
-			<td style="width:14%"><a href="01-05-tea-lesson-plan-4.html" class="w3-bar-item w3-button">Lesson Plan 4: Artemis Brings Alexa</a></td>
+			<td style="width:14.28%"><a href="../index.html" class="w3-bar-item w3-button">Home: Alexa in Space Overview</a></td>
+			<td style="width:14.28%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome to Training</a></td>
+			<td style="width:14.28%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
+			<td style="width:14.28%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
+			<td style="width:14.28%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button">Lesson Plan 2: Biases in AI</a></td>
+			<td style="width:14.28%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button">Lesson Plan 3: AI in Space Travel</a></td>
+			<td style="width:14.28%"><a href="01-05-tea-lesson-plan-4.html" class="w3-bar-item w3-button">Lesson Plan 4: Artemis Brings Alexa</a></td>
 			</tr>
 		</table>
 		</div>

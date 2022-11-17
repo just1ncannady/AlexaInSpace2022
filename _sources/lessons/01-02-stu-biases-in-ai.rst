@@ -202,4 +202,3 @@ Reflection
 	
 	List 3 possible benefits of using an Alexa while traveling in space.
 
-::::::::::::::::::

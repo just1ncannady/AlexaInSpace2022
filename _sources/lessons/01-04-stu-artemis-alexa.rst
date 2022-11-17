@@ -129,4 +129,3 @@ Reflection
 
 	What was something you found challenging about building the skill?
 
-::::::::::::::::::
