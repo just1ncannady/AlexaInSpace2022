@@ -51,13 +51,13 @@ Introduction and Goals
 
     <p>During this unit, you have examined the Artemis space program and worked with 2 Alexa skills: Good Morning, Space and Space Facts. In this lesson, you will explore other contexts in which AI would be helpful in space. You will also build an Alexa skill based on your previous brainstorm.</p>
     
-    <p><strong>Learning Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Learning Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Reuse components of existing programs for new programs.</li>
 		<li>Create a new Alexa skill using MIT App Inventor.</li>
     </ul>
     
-    <p><strong>Language Objectives:</strong> At the end of this lesson, you will be able to:</p>
+    <p><strong>Language Goals:</strong> At the end of this lesson, you will be able to:</p>
     <ul>
     	<li>Describe in writing the purpose of an Alexa skill.</li>
 		<li>Explain in writing difficulties encountered while building a new Alexa skill.</li>
@@ -73,6 +73,11 @@ Learning Activities
 	<h3>Discussion: Introduction</h3>
 	
 	<p>In this lesson, you will be imagining how Alexa could be used in space travel. This video provides some examples of how voice AI could be used in space travel. As you watch, think about other Alexa function that could help with space travel.</p>
+
+.. youtube:: to-Ys2huTVY
+	:width: 560
+	:height: 315
+	:align: center
 
 ::::::::::::::::::
 	
