@@ -57,7 +57,12 @@ Create Your Student Accounts
 
 .. raw:: html
 
-	<p>More Instructions Coming Soon</p>
+	<p>Teachers can log into the <a href="https://hourofai.appinventor.mit.edu/login" target="_blank">Hour of AI Teacher Dashboard</a> to create student accounts for their students to use when logging into MIT App Inventor. Watch the video below to see how to do this. </p>
+
+.. youtube:: KCvDm5iP6Uc
+	:width: 560
+	:height: 315
+	:align: center
 
 Access the Lesson Plans and Google Group
 -----------------------------------------
