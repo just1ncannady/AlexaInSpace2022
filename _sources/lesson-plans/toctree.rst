@@ -14,3 +14,4 @@ Lesson Plans
 	01-02-tea-lesson-plan-1.rst
 	01-03-tea-lesson-plan-2.rst
 	01-04-tea-lesson-plan-3.rst
+	01-05-tea-lesson-plan-4.rst

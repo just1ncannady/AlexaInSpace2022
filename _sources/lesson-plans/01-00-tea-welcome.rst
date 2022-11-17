@@ -12,6 +12,7 @@
 			<td style="width:14%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
 			<td style="width:14%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button">Lesson Plan 2: Biases in AI</a></td>
 			<td style="width:14%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button">Lesson Plan 3: AI in Space Travel</a></td>
+			<td style="width:14%"><a href="01-05-tea-lesson-plan-4.html" class="w3-bar-item w3-button">Lesson Plan 4: Artemis Brings Alexa</a></td>
 			</tr>
 		</table>
 		</div>
