@@ -10,6 +10,7 @@
 			<td style="width:20%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button w3-dark-grey">Welcome</a></td>
 			<td style="width:20%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
 			<td style="width:20%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
+			<td style="width:20%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button">Lesson Plan 2: Biases in AI</a></td>
 			</tr>
 		</table>
 		</div>
