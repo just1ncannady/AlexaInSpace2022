@@ -46,12 +46,20 @@ Table of Contents
 	<p><b>Share your feedback:</b> Use our Google form to <a href="https://forms.gle/R8dJzAptPp9jowCN9" target="_blank">Report a Problem or share feedback</a> about the lessons and materials.
 	</p>
 
+	<p><img align="left" src="_static/assets/img/afe-logo-blue.png" width="100"> 
+	<img align="left" src="_static/assets/img/app-inventor-logo.png" width="100"> The material in this unit is based upon work supported by <a target="_blank" href="https://www.amazonfutureengineer.com/">Amazon Future Engineer (AFE)</a> and MIT App Inventor.</br> </br> 
+	</p>
+	
+	<p><b>Access MIT App Inventor:</b> <a target="_blank" href="https://hourofai.appinventor.mit.edu/login">https://hourofai.appinventor.mit.edu/login</a>.
+	</p>
+	
+	<p><b>License:</b> Unless otherwise noted, the materials on this site are licensed under <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
+	</p>
+
    <table>
       <tr>
          <td style="width:20%"><img src="https://www.nsf.gov/pubs/1998/nsf98142/nsf4c.jpg" style="width: 100px; margin-right: 10px;" alt="national science foundation logo"> </td>
          <td style="width:80%"><p>The material on this site is based upon work supported by the National Science Foundation under Grant Nos. CNS-1240841, CNS-1440947, CNS-1637601, CNS-1836990, CNS-1836983, CNS-1837112, and CNS-1837723. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p></td>
       </tr>
 	</table>
-
-	<p><b>License:</b>  Unless otherwise noted, the materials on this site are licensed under <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
 	
