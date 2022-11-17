@@ -41,7 +41,7 @@ Complete the Tutorial
 
 .. raw:: html
 
-	<p>In this lesson, your students build out the Good Morning, Space Alexa Skill. Try building the skill, but also focus on familiarizing yourself with the MIT App Inventor interface. You may use this <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank"> text-version of the tutorial</a> or following along with the video tutorial below.
+	<p>In this lesson, your students build out the Good Morning, Space Alexa Skill. Go to the <a href="https://hourofai.appinventor.mit.edu/login" target="_blank">Hour of AI login page</a>. Log in and try building the skill, but also focus on familiarizing yourself with the MIT App Inventor interface. You may use this <a href="https://docs.google.com/document/d/1f08h6SKQGXgSMfNlBStFeK_OwEm9EICOHoBavpFqv9o/view" target="_blank"> text-version of the tutorial</a> or following along with the video tutorial below.
 	</p>
 
 .. youtube:: xFdifO9MxZI

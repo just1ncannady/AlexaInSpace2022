@@ -41,7 +41,7 @@ Complete the Tutorial
 
 .. raw:: html
 
-	<p>In this lesson, you will build out the Space Facts Alexa Skill. You may use this <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank"> text-version of the tutorial</a> or following along with the video tutorial below.
+	<p>Go to the <a href="https://hourofai.appinventor.mit.edu/login" target="_blank">Hour of AI login page</a>. Log in and build out the Space Facts Alexa Skill. You may use this <a href="https://docs.google.com/document/d/1gXTLiOCspw8bfdq1Fyuic5OhevNqGeikplist5mug68/view" target="_blank"> text-version of the tutorial</a> or following along with the video tutorial below.
 	</p>
 
 .. youtube:: MymcQP6UJDg
