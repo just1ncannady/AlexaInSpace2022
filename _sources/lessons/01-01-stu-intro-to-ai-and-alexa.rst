@@ -118,9 +118,7 @@ Learning Activities
 	.. tab:: Example 1: Automatic Door
 
 		.. raw:: html
-		
-			<img src="../_static/assets/img/isitai1.png" alt="People leaving a store through an automatic door" />
-			
+
 		.. mchoice:: alexa-1-1-2
 			:random:
 			:practice: T
@@ -132,13 +130,15 @@ Learning Activities
 			:feedback_c: It depends. If the automatic door using was using facial recognition to operate, it would be an example of AI. If it is just using a sensor to determine if something is there or not, then it would not be an example of AI.
 			:correct: c
 			
-			Is this an example of AI?
+			Is this an example of AI? 
+			
+			.. raw:: html
+    
+				<img src="../_static/assets/img/isitai1.png" alt="People leaving a store through an automatic door"/>
 
 	.. tab:: Example 2: Automatic Captioning
 	
 		.. raw:: html
-		
-			<img src="../_static/assets/img/isitai2.png" alt="Two men having a conversation in a lobby with the caption "We can do automatic captioning in real time?"" />
 
 		.. mchoice:: alexa-1-1-3
 			:random:
@@ -152,12 +152,14 @@ Learning Activities
 			:correct: a
 			
 			Is this an example of AI?
+			
+			.. raw:: html
+    
+				<img src="../_static/assets/img/isitai2.png" alt="Two men having a conversation in a lobby with the caption "We can do automatic captioning in real time?"/>
 		
 	.. tab:: Example 3: Remote-Controlled Drone
 	
 		.. raw:: html
-		
-			<img src="../_static/assets/img/isitai3.png" alt="woman using a remote control to fly a drone" />
 
 		.. mchoice:: alexa-1-1-4
 			:random:
@@ -171,12 +173,14 @@ Learning Activities
 			:correct: c
 			
 			Is this an example of AI?
+			
+			.. raw:: html
+    
+				<img src="../_static/assets/img/isitai3.png" alt="woman using a remote control to fly a drone" />
 		
 	.. tab:: Example 4: Medical Chatbot 
 	
 		.. raw:: html
-		
-			<img src="../_static/assets/img/isitai4.png" alt="illustration showing a cellphone with texts and a robot responding in background" />
 			
 		.. mchoice:: alexa-1-1-5
 			:random:
@@ -190,6 +194,10 @@ Learning Activities
 			:correct: a
 			
 			Is this an example of AI?
+			
+			.. raw:: html
+    
+				<img src="../_static/assets/img/isitai4.png" alt="illustration showing a cellphone with texts and a robot responding in background" />
 
 ::::::::::::::::::
 
