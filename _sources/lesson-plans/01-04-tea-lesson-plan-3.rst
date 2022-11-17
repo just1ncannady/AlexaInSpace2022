@@ -64,8 +64,20 @@ Professional Development Reflection
 .. raw:: html
 
     <p>After reviewing the contents of this page, please answer the following reflection questions:</p>
-  
-.. poll:: mcsp-ais-1-4-1
+
+.. mchoice:: mcsp-ais-1-4-1
+    :practice: T
+    :answer_a: Yes
+    :feedback_a: That's fantastic - great work!
+    :answer_b: Tried, but was not successful
+    :feedback_b: Good effort - please don't hesitate to reach out to us for help or attend office hours with a PD Facilitator
+    :answer_c: Did not attempt
+    :feedback_c: We hope that you'll consider trying to build the skill yourself.
+    :correct: a
+
+    Were you able to successfully build the skill in this lesson?
+
+.. poll:: mcsp-ais-1-4-2
     :option_1: Strongly agree
     :option_2: Agree
     :option_3: Disagree
@@ -73,11 +85,11 @@ Professional Development Reflection
 
     I am confident I can teach this lesson to my students.
 
-.. shortanswer:: mcsp-ais-1-4-2
+.. shortanswer:: mcsp-ais-1-4-3
 	
 	What additional support and/or materials would you need to implement this lesson?
 	
-.. shortanswer:: mcsp-ais-1-4-3
+.. shortanswer:: mcsp-ais-1-4-4
 	
 	In 1-2 sentences, summarize the pedagogy that you saw used in this lesson.
 
