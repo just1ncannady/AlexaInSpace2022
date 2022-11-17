@@ -9,20 +9,20 @@
 			<td style="width:14%"><a href="../index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
 			<td style="width:14%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button">Welcome</a></td>
 			<td style="width:14%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
-			<td style="width:14%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button w3-dark-grey">Lesson Plan 1: Intro to AI and Alexa</a></td>
+			<td style="width:14%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
 			<td style="width:14%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button">Lesson Plan 2: Biases in AI</a></td>
-			<td style="width:14%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button">Lesson Plan 3: AI in Space Travel</a></td>
+			<td style="width:14%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button w3-dark-grey">Lesson Plan 3: AI in Space Travel</a></td>
 			</tr>
 		</table>
 		</div>
 	</div>
 	
-Lesson Plan 1 - Intro to AI and Alexa
+Lesson Plan 3 - AI in Space Travel
 =====================================
 
 .. raw:: html
 
-    <p class="overview">In this lesson, students will be introduced to AI and explore how Alexa could be used in space travel. You should review the lesson plan and slides as well as try completing <a href="../lessons/01-01-stu-intro-to-ai-and-alexa.html" target="_blank">the student lesson</a> your self. After reviewing the student lesson and teacher materials, answer the reflection questions at the bottom of this page.</p>
+    <p class="overview">In this lesson, students will learn about milestones being achieved by the Artemis space program. They will also use that newfound knowledge to program an Alexa skill that shares random facts about space. You should review the lesson plan and slides as well as try completing <a href="../lessons/01-03-stu-ai-in-space-travel.html" target="_blank">the student lesson</a> yourself. After reviewing the student lesson and teacher materials, answer the reflection questions at the bottom of this page.</p>
     
 	<h3>Materials</h3>
 	<ul>
@@ -41,8 +41,9 @@ Lesson Plan
 .. raw:: html
 	
 	<p><div class="yui-wk-div" id="portfolio">
-    <p>Review the <a href="https://docs.google.com/document/d/1_usJQYoefsMQfGljDH35pWwwCTgJ_KpZDm4IFrr_KAI/preview" target="_blank">lesson plan</a>.</p>
-    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vT7KdHokowQnEYnphu3IC6j833mGUTEkBI1a4H7VD2cIgZuh5yDvPAgnTcE4k5flkTvNjJu-4AGfoo9/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+    <p>Review the <a href="https://docs.google.com/document/d/1OYcOwhxRjp8acyxXZ0-vgZSXo1aFP8KwMfj7bu0JgeY/preview" target="_blank">lesson plan</a>.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQlAKY1dp_662WUy0ah4nYxob_oS9MFmJ173-t8ORb0wIB0VDlxt77WGjhgHNg-DCq9dmPW1-qimG7m/pub?embedded=true" style="height:30em;width:100%"></iframe></div>
+	
 	
 Slides
 ------
@@ -50,8 +51,9 @@ Slides
 .. raw:: html
 
 	<p><div class="yui-wk-div" id="portfolio">
-    <p>Review the <a href="https://docs.google.com/presentation/d/1wBjfuYpiJLNb8DSofydacD1vpMWoo8l2MJRhxRcRrNU/preview" target="_blank">slides</a>.</p>
-    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/presentation/d/e/2PACX-1vQvUB6zrTCVxFi_nrCZAvBBO3dvDebx5S1ZeqoSElFjzuPj7ZO10e7a4qN8WjhM2d3nQiOTRcve6ZFp/embed?" style="height:30em;width:100%"></iframe></div>
+    <p>Review the <a href="https://docs.google.com/presentation/d/11qxhETm0v8Iu1l-bGluWQS2gqQrAPc_9zA1IatpM0ks/preview" target="_blank">slides</a>.</p>
+    <div style="align-items:center;"><iframe class="portfolioQuestions" scrolling="yes" src="https://docs.google.com/presentation/d/e/2PACX-1vSLbDSKxLtAbRtoMxW5knODt9v5jSp2wOm4kBdrC4pI0iEuBiUzwR9debXS2fmpNXb38hwKAR5S1yOy/embed?" style="height:30em;width:100%"></iframe></div>
+    
     
 ::::::::::::::::::
 
@@ -61,20 +63,20 @@ Professional Development Reflection
 .. raw:: html
 
     <p>After reviewing the contents of this page, please answer the following reflection questions:</p>
-    
-.. poll:: mcsp-ais-1-2-1
+  
+.. poll:: mcsp-ais-1-4-1
     :option_1: Strongly agree
     :option_2: Agree
     :option_3: Disagree
     :option_4: Strongly Disagree
 
     I am confident I can teach this lesson to my students.
-	
-.. shortanswer:: mcsp-ais-1-2-2
+
+.. shortanswer:: mcsp-ais-1-4-2
 	
 	What additional support and/or materials would you need to implement this lesson?
 	
-.. shortanswer:: mcsp-ais-1-2-3
+.. shortanswer:: mcsp-ais-1-4-3
 	
 	In 1-2 sentences, summarize the pedagogy that you saw used in this lesson.
 

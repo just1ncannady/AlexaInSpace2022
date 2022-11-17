@@ -6,11 +6,12 @@
 		<div class="w3-bar w3-light-grey">
 		<table style="width:100%">
 			<tr>
-			<td style="width:20%"><a href="../index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
-			<td style="width:20%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button">Welcome</a></td>
-			<td style="width:20%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
-			<td style="width:20%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
-			<td style="width:20%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button w3-dark-grey">Lesson Plan 2: Biases in AI</a></td>
+			<td style="width:14%"><a href="../index.html" class="w3-bar-item w3-button">Alexa in Space Overview</a></td>
+			<td style="width:14%"><a href="01-00-tea-welcome.html" class="w3-bar-item w3-button">Welcome</a></td>
+			<td style="width:14%"><a href="01-01-tea-getting-started.html" class="w3-bar-item w3-button">Getting Started</a></td>
+			<td style="width:14%"><a href="01-02-tea-lesson-plan-1.html" class="w3-bar-item w3-button">Lesson Plan 1: Intro to AI and Alexa</a></td>
+			<td style="width:14%"><a href="01-03-tea-lesson-plan-2.html" class="w3-bar-item w3-button w3-dark-grey">Lesson Plan 2: Biases in AI</a></td>
+			<td style="width:14%"><a href="01-04-tea-lesson-plan-3.html" class="w3-bar-item w3-button">Lesson Plan 3: AI in Space Travel</a></td>
 			</tr>
 		</table>
 		</div>
@@ -65,7 +66,7 @@ Professional Development Reflection
     :option_1: Strongly agree
     :option_2: Agree
     :option_3: Disagree
-	:option_4: Strongly Disagree
+    :option_4: Strongly Disagree
 
     I am confident I can teach this lesson to my students.
 	

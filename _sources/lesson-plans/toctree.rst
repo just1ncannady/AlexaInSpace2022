@@ -13,3 +13,4 @@ Lesson Plans
 	01-01-tea-getting-started.rst
 	01-02-tea-lesson-plan-1.rst
 	01-03-tea-lesson-plan-2.rst
+	01-04-tea-lesson-plan-3.rst
