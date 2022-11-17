@@ -41,6 +41,11 @@ Table of Contents
 
 .. raw:: html
 
+	<p><b>For Educators:</b> Access the <a href="lesson-plans/01-00-tea-welcome.html" target="_blank" >Teacher Materials</a>
+	</p>
+	<p><b>Share your feedback:</b> Use our Google form to <a href="https://forms.gle/R8dJzAptPp9jowCN9" target="_blank">Report a Problem or share feedback</a> about the lessons and materials.
+	</p>
+
    <table>
       <tr>
          <td style="width:20%"><img src="https://www.nsf.gov/pubs/1998/nsf98142/nsf4c.jpg" style="width: 100px; margin-right: 10px;" alt="national science foundation logo"> </td>
