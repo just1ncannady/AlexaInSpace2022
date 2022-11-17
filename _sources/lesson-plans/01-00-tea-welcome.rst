@@ -24,6 +24,10 @@ Training 0 - Welcome to Alexa in Space
 .. raw:: html
 
     <p class="overview">Welcome to Mobile CSP's Alexa in Space! We are excited to have you use this unit for the Hour of AI. This asynchronous training module will provide you with guidance on how to implement the module with your students. We invite you to work through the materials at your own pace before CSEdWeek. If you have any questions as you are working, please reach out to us at mobilecsp@css.edu. </p>
+	
+	<p><b>Training Dates:</b> The training module will open November 17, 2022 and should be completed at your own pace by December 2, 2022.</br></p>
+	
+	<p><b>Training Estimate:</b> 4.5 hours </p>
     
 	<h3>Materials</h3>
 	<ul>
@@ -74,11 +78,24 @@ Survey
 .. poll:: mcsp-ais-1-0-2
 	:option_1: Yes
 	:option_2: No
-	:option_3: Unsure
-
-	I teach at a Title 1 school
+	:option_3: Not sure
+	
+	I have taught artificial intelligence previously.
 
 .. poll:: mcsp-ais-1-0-3
+	:option_1: Yes
+	:option_2: No
+	
+	I have programmed with MIT App Inventor previously.
+
+.. poll:: mcsp-ais-1-0-4
+	:option_1: Yes
+	:option_2: No
+	:option_3: Unsure
+
+	I teach at a Title 1 school.
+
+.. poll:: mcsp-ais-1-0-5
 	:option_1: Female
 	:option_2: Male
 	:option_3: Non-binary
@@ -87,7 +104,7 @@ Survey
 
 	I am a:
 
-.. poll:: mcsp-ais-1-0-4
+.. poll:: mcsp-ais-1-0-6
 	:option_1: Latina/o or Hispanic
 	:option_2: American Indian or Alaska Native
 	:option_3: Asian
@@ -100,7 +117,7 @@ Survey
 	
 	What ethnicity and/or race do you identify with? (optional)
 	
-.. poll:: mcsp-ais-1-0-5
+.. poll:: mcsp-ais-1-0-7
 	:option_1: Yes, blind or visually impaired
 	:option_2: Yes, deaf or hard of hearing
 	:option_3: Yes, a mobility impairment
@@ -112,22 +129,14 @@ Survey
 	
 	Have you been diagnosed with a disability or impairment (especially with an IEP or 504 plan)? (optional)
 
-.. shortanswer:: mcsp-ais-1-0-6
+.. shortanswer:: mcsp-ais-1-0-8
 	
 	In what state do you reside?
 	
-.. shortanswer:: mcsp-ais-1-0-7
+.. shortanswer:: mcsp-ais-1-0-9
 	
 	In what country do you reside?
 	
-.. poll:: mcsp-ais-1-0-8
-	:option_1: Yes
-	:option_2: No
-	:option_3: Not sure
-	
-	I have taught artificial intelligence previously.
-	
-    
 ::::::::::::::::::
 
 Professional Development Reflection
@@ -137,7 +146,7 @@ Professional Development Reflection
 
     <p>After reviewing this page, please answer the following check-in question:</p>
     
-.. poll:: mcsp-ais-1-0-9
+.. poll:: mcsp-ais-1-0-10
     :option_1: Yes
     :option_2: No
   
