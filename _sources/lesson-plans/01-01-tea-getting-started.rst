@@ -37,13 +37,18 @@ Training 1 - Getting Started
 
 	<h3 id="est-length">Estimated Length: 90 minutes</h3>
 
-Kick-Off Event Recording
+Kick-Off Webinar
 ------------------------
 
 .. raw:: html
 	
-	<p> The kick-off event is November 17 from 6:30-8:00 PM ET. A video recording will be shared soon after. </p>
-	
+	<p> The kick-off webinar was held November 17 from 6:30-8:00 PM ET. If you were unable to attend live, please watch the recording. </p>
+
+.. youtube:: iRfr1UaOenQ
+	:width: 560
+	:height: 315
+	:align: center
+
 Access the Hour of AI Dashboard
 -------------------------------
 

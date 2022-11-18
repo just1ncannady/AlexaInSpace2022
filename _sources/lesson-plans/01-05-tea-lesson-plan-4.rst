@@ -89,7 +89,7 @@ Professional Development Reflection
 	
 .. shortanswer:: mcsp-ais-1-5-4
 	
-	In 1-2 sentences, summarize the pedagogy that you saw used in this lesson.
+	In 1-2 sentences, explain how the instructional strategies used in this lesson support the CS learning.
 
 .. raw:: html
 

@@ -28,6 +28,8 @@ Training 0 - Welcome to Alexa in Space
 	<p><b>Training Dates:</b> The training module will open November 17, 2022 and should be completed at your own pace by December 2, 2022.</br></p>
 	
 	<p><b>Training Estimate:</b> 4.5 hours </p>
+
+	<p><b>Additional Support:</b> PD Facilitators will be available to assist during office hours November 17-December 9. You can <a href="https://docs.google.com/spreadsheets/d/1DYTb6UuYjIvIZRK8IkRWYNonhDKJXAo7FJlvylrYfLY" target="_blank">view the schedule for office hours</a>. Office hours allow us to answer questions and work with you on YOUR schedule! You may also email us at any time at mobilecsp-alexa@googlegroups.com or mobilecsp@css.edu.</p>
     
 	<h3>Materials</h3>
 	<ul>
