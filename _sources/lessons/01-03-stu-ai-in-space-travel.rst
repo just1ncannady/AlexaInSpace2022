@@ -87,12 +87,12 @@ Learning Activities
 
 .. raw:: html
 
-	<h3>Activity: Good Morning, Space!</h3>
+	<h3>Activity: Space Facts</h3>
 	<p>In this activity, you will complete a build for an Alexa skill that will tell you a random space fact about the Artemis space program.</p>
 	
 	<ol>
-		<li>Open <a href="http://space.appinventor.mit.edu/">Alexa’s App Inventor</a> and log in with your Google account.</li>
-		<li>Next, you will need to open the <a href="https://alexa.appinventor.mit.edu/?a=1#4716304443375616">Space Facts skill starter</a>.</li>
+		<li>Open <a href="http://hourofai.appinventor.mit.edu/" target="_blank">Alexa’s App Inventor</a> and log in with your Google account.</li>
+		<li>Next, you will need to open the <a href="https://hourofai.appinventor.mit.edu/?repo=SpaceFactsStart" target="_blank">Space Facts skill starter</a>.</li>
 		<li>Some of the skill has been created, but you will need to add or modify certain components to make the skill work.</li>
 		<li>Walk through the learning object below to get your skill working!</li>
 	</ol>

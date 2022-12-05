@@ -85,7 +85,7 @@ Learning Activities
 
 	<h3>Activity: Create Your Skill</h3>
 	
-	<p>In this activity, you will build an Alexa skill based on an idea that you have come up with in your brainstorm. Since you may be new to programming or the Alexa App Inventor environment, there are some examples of code blocks below to help you as you create your own. When you are ready, open the <a href="https://alexa.appinventor.mit.edu/?a=1#6280354029633536">New Skill starter</a>. The starter project has a skill (space helper) and intent (IntentHelpInSpace) already created for you.</p>
+	<p>In this activity, you will build an Alexa skill based on an idea that you have come up with in your brainstorm. Since you may be new to programming or the Alexa App Inventor environment, there are some examples of code blocks below to help you as you create your own. When you are ready, open the <a href="https://hourofai.appinventor.mit.edu/?repo=NewSkillStarter" target="_blank">New Skill starter</a>. The starter project has a skill (space helper) and intent (IntentHelpInSpace) already created for you.</p>
 	
 .. tabbed:: alexa-tabgroup-1-4
 
@@ -93,21 +93,21 @@ Learning Activities
 	
 		.. raw:: html
 		
-			<p>In this skill, Alexa tells the user a joke. Alexa asks the question, waits for the user’s response, and then delivers the punchline.</p>
+			<p>In this skill, Alexa tells the user a joke. Alexa asks the question, waits for the user’s response, and then delivers the punchline. To open this skill in MIT App Inventor, <a href="https://hourofai.appinventor.mit.edu/?repo=KnockKnockJokeExample" target="_blank">click here</a>.</p>
 			<img src="../_static/assets/img/jokesSkill.png" alt="Alexa Joke skill block code" />
 			
 	.. tab:: To-Do-List
 	
 		.. raw:: html
 		
-			<p>In this skill, Alexa tells the user a to-do list that has been programmed.</p>
+			<p>In this skill, Alexa tells the user a to-do list that has been programmed. To open this skill in MIT App Inventor, <a href="https://hourofai.appinventor.mit.edu/?repo=ToDoListExample" target="_blank">click here</a>.</p>
 			<img src="../_static/assets/img/todoListSkill.png" alt="Alexa skill to read off a to-do list" />
 			
 	.. tab:: Space Facts
 	
 		.. raw:: html
 		
-			<p>In this skill, Alexa tells the user a random fact about space.</p>
+			<p>In this skill, Alexa tells the user a random fact about space. To open this skill in MIT App Inventor, <a href="https://hourofai.appinventor.mit.edu/?repo=SpaceFactsExample" target="_blank">click here</a>.</p>
 			<img src="../_static/assets/img/spaceFactsSkill.png" alt="Alexa skill to randomly read space fact from a list of facts" />
 
 

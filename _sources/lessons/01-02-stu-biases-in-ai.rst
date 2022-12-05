@@ -132,8 +132,8 @@ Learning Activities
 			
 .. raw:: html
 	
-	<p>Now that you have reviewed wake word, utterance, and intent, <a href="http://space.appinventor.mit.edu/">open Alexa’s App Inventor</a> and log in with your Google account.</p>
-	<p>Next, you will need to <a href="https://alexa.appinventor.mit.edu/?a=1#5365847983915008">open the Good Morning, Space skill</a>. Follow along with your teacher to explore the interface.
+	<p>Now that you have reviewed wake word, utterance, and intent, <a href="http://hourofai.appinventor.mit.edu/" target="_blank">open Alexa’s App Inventor</a> and log in with your Google account.</p>
+	<p>Next, you will need to <a href="https://hourofai.appinventor.mit.edu/?repo=GoodMorningSpaceStarter" target="_blank">open the Good Morning, Space skill</a>. Follow along with your teacher to explore the interface.
 
 ::::::::::::::::::
 
