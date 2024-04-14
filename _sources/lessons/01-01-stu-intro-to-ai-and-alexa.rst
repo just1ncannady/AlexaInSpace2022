@@ -207,7 +207,7 @@ Learning Activities
 	<p>So far in this lesson, you have defined <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">artificial intelligence</span> and explored examples of <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>. Sometimes, an <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technology will incorporate other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> systems or technologies to function. In this video, you will explore how speech recognition functions in conjunction with other <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span> technologies. As you watch the video, write down reasons that Amazon <span class="hover vocab yui-wk-div" data-id="Alexa">Alexa</span> devices are considered to be <span class="hover vocab yui-wk-div" data-id="artificial intelligence (AI)">AI</span>.
 	
 
-.. youtube:: iNbOOgXjnzE
+.. youtube:: XL_P6XNjRco
 	:width: 560
 	:height: 315
 	:align: center
